@@ -1,0 +1,92 @@
+<!doctype html>
+<title>ValleyProHealth.org</title>
+<link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<!--.....|.........|.........|.........|.........|.........|.........|.......-->
+<div id="mastheadbox">
+  <img src="/images/masterhead_test.png" 
+    alt="Valley Professionals Community Health Center" width="1366" 
+    height="141" border="0" align="top" usemap="#logoMap" />		
+    <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
+    href="/" /></map>	
+</div>
+<div id="masterbox">
+<p id="page-title">Photos Archive</p>
+  <div id="sidebar">
+  <div class="sidebar-section">
+  <a class="vpchcbutton" href="/">Main Site</a>
+  </div>
+  <div class="sidebar-section" class="vpchcbutton">
+  <a class="vpchcbutton" href="#2016">2016</a>
+  </div>
+  <div class="sidebar-section">
+  <a class="vpchcbutton" href="#2015">2015</a>
+  </div>
+  <div class="sidebar-section">
+  <a class="vpchcbutton" href="#2014">2014</a>
+  </div>
+  <div class="sidebar-section">
+  <a class="vpchcbutton" href="#2013">2013</a>
+  </div>
+  <div class="sidebar-section">
+  <a class="vpchcbutton" href="#2012">2012</a>
+  </div>
+  </div>
+  <div id="archive-content">
+  <p id="2016" class="section-title">2016</p>
+  <hr>
+  <p id="2015" class="section-title">2015</p>
+  <hr>
+    <div class="archive-photos">
+    <p class="archive-photos-title">Terre Haute Tribune Star - Community Progress Update</p>
+    <p class="archive-photos-date">August</p>
+    </div>
+  <p id="2014" class="section-title">2014</p>
+  <hr>
+  <p id="2013" class="section-title">2013</p>
+  <hr>
+  <p id="2012" class="section-title">2012</p>
+  <hr>
+  </div>
+</div>
+<div id="masterfoot">
+    
+    <div id="foot">
+   <img src="/images/subhead.png" alt="Locations" width="1366" 
+    height="70" border="0" usemap="#locationMap"/>
+   <map name="locationMap">
+     <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
+           alt="Bloomingdale"/>
+     <area shape="rect" coords="283,30,392,65" href="/cayuga/" 
+           alt="Cayuga"/>
+     <area shape="rect" coords="432,30,537,65" href="/clinton/" 
+           alt="Clinton"/>	
+     <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" 
+           alt="Crawfordsville"/>
+     <area shape="rect" coords="815,30,987,65" href="/terre_haute/" 
+           alt="TerreHaute"/>
+    <area shape="rect" coords="1025,30,1325,65" href="/msbhc/" 
+           alt="Mobile Health Center"/></map>	
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+(function(window){
+  
+  /* A full compatability script from MDN: */
+  var supportPageOffset = window.pageXOffset !== undefined;
+  var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+ 
+  /* Set up some variables  */
+  var staffsidebar = document.getElementById("sidebar");
+  /* Add an event to the window.onscroll event */
+  window.addEventListener("scroll", function(e) {  
+    
+    /* A full compatability script from MDN for gathering the x and y values of scroll: */
+    var x = supportPageOffset ? window.pageXOffset : isCSS1Compat ? document.documentElement.scrollLeft : document.body.scrollLeft;
+var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+ 
+    staffsidebar.style.left = -x  + "px";
+  });
+  
+})(window);
+</script>

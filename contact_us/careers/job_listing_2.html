@@ -1,0 +1,112 @@
+<!doctype html>
+<title>ValleyProHealth.org</title>
+<link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<!--.....|.........|.........|.........|.........|.........|.........|.......-->
+<div id="mastheadbox">
+  <img src="/images/masterhead_test.png" 
+    alt="Valley Professionals Community Health Center" width="1366" 
+    height="141" border="0" align="top" usemap="#logoMap" />		
+    <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
+    href="/" /></map>																
+    <div id="navlinks">
+      <div id="about" class="dropdown">
+        <button class="dropbtn">About Us</button>
+        <div class="dropdown-content">
+        <a href="/abous_us/providers_our_team.html">Providers & Team</a>
+        <a href="/abous_us/history_of_vpchc.html">History of VPCHC</a>
+        <a href="/abous_us/governing_board.html">Governing Board</a>
+        <a href="/abous_us/news_&_events.html">News & Events</a>
+        <a href="/abous_us/photos.html">Photos</a>
+        </div>
+      </div>
+      <div id="locations" class="dropdown">
+        <button class="dropbtn">Locations</button>
+        <div class="dropdown-content">
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/terre_haute/">Terre Haute</a>
+        <a href="/msbhc/">Mobile Health Center</a>
+        </div>
+      </div>
+      <div id="services" class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+        <a href="/services/medical.html">Medical</a>
+        <a href="/services/dental.html">Dental</a>
+      
+        <a href="/services/obstetrics.html">Obstetrics</a>
+        <a href="/services/behavioral_health.html">Behavioral Health</a>
+        <a href="/services/patient_support.html">Patient Support</a>
+        </div>
+      </div>
+      <div id="contact" class="dropdown">
+        <button class="dropbtn">Contact Us</button>
+        <div class="dropdown-content">
+        <a href="/contact_us/faqs.html">FAQs</a>
+        <a href="/contact_us/feedback.html">Feedback</a>
+        <a href="/contact_us/careers.html">Careers</a>
+        <a href="/contact_us/forms_&_resources.html">Forms & Resources</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="masterbox">
+  <p class="careers-title">Job Opportunities</p>
+  <p class="careers-listing-title">CMA/LPN - Crawfordsville</p>
+  <div class="careers-listing">
+    <p>We are looking to hire a Certified Medical Assistant or a LPN for our Crawfordsville office.</p>
+    <p>Duties:</p>
+    <li>providing professional nursing services and patient care</li>
+    <li>patient assessment</li>
+    <li>taking vitals</li>
+    <li>assisting the provider in minor procedures</li>
+    <p>Requirements:</p>
+    <li>Current certification or licensure as a Medical Assistant or LPN required</li>
+<iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
+<form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+<input type="hidden" value="job_listing_1.html" name="referer">
+<div id="onsub">
+  <div id="onsub-title">Online Submission</div>
+    <div id="onsub-box">
+      <div class="onsub-field">
+      <label for="first_name">First Name <span >*</span></label>     
+      <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
+      </div>
+      <div class="onsub-field">
+      <label for="last_name">Last Name <span >*</span></label>     
+      <input id="last_name" type="text" name="lastname" style="width:80%;">
+      </div>
+      <div class="onsub-field">
+      <label for="email">Email <span >*</span></label>     
+      <input id="email" type="text" name="email" style="width:80%;">
+      </div>
+      <div class="onsub-field">
+      <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
+      <input type="file" name="resume" id="resume" style="width:80%;">
+      <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
+      </div>
+      <input type="hidden" name="subject" value="CMA/LPN - Crawfordsville">
+      <input type="text" name="address" id ="form_address"> 
+      <div id="onsub-foot">
+        <div id="onsub-foot-left">
+        <span id="form-status">* required</span>
+        </div>
+        <div id="onsub-foot-right">
+        <input id="onsub-submit" type="submit" value="Submit" name="gonebabygone" class="vpchcbutton">
+        </div>
+      </div>
+    </div>
+</div>
+</form>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+    document.getElementById('resumeup').onload = function() {
+        var iframe = document.getElementById("resumeup");
+        var iframe_contents = iframe.contentDocument.body.innerHTML;
+        document.getElementById("form-status").innerHTML = iframe_contents;
+    }
+</script>
