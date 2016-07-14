@@ -64,7 +64,7 @@ require_once('../PHPMailer/PHPMailerAutoload.php');
     $sendemail = 'vpchcenter@gmail.com';
     $mail->setFrom($sendemail, 'Online Application');
     //Set who the message is to be sent to
-    $mail->addAddress('bwebster@vpchc.org', 'Brice Webster');
+    $mail->addAddress('tmartin@vpchc.org', 'Tiffani Martin');
     //Set the subject line
     $mail->Subject = $subject;
     //Read an HTML message body from an external file, convert referenced images to embedded,

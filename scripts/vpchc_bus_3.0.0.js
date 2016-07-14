@@ -77,7 +77,7 @@ $(document).ready(function(){
   var $busEnd = 0;
   var $flag = 0;
   var $status = 0;
-
+  
   //Get main start/end times and flag from url and store them.
   $.ajax({
      async: false,
@@ -87,11 +87,11 @@ $(document).ready(function(){
       var $busStartTemp = data.split('<div id="mainstart">');
       var $busStartTemp2 = $busStartTemp[1].split('</div>');
       $busStart = $busStartTemp2[0];
-      
+           
       var $busEndTemp = data.split('<div id="mainend">');
       var $busEndTemp2 = $busEndTemp[1].split('</div>');
       $busEnd = $busEndTemp2[0];
-      
+    
       var $flagTemp = data.split('<div id="flag">');
       var $flagTemp2 = $flagTemp[1].split('</div>');
       $flag = $flagTemp2[0];

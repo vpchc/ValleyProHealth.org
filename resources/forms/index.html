@@ -1,16 +1,53 @@
 <!doctype html>
+<head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//valleyprohealth.org/stats/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
+</script>
+<!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
+</head>
 <div id="mastheadbox">
   <img src="/images/masterhead_test.png" 
     alt="Valley Professionals Community Health Center" width="1366" 
     height="141" border="0" align="top" usemap="#logoMap" />		
     <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>																
+    href="/" /></map>														
     <div id="navlinks">
       <div id="about" class="dropdown">
-        <button class="dropbtn">About Us</button>
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
@@ -20,18 +57,18 @@
         </div>
       </div>
       <div id="locations" class="dropdown">
-        <button class="dropbtn">Locations</button>
+        <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
         <a href="/terre_haute/">Terre Haute</a>
-        <a href="/msbhc/">Mobile Health Center</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </div>
       <div id="services" class="dropdown">
-        <button class="dropbtn">Services</button>
+        <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
         <a href="/services/dental.html">Dental</a>
@@ -40,16 +77,18 @@
         </div>
       </div>
       <div id="resources" class="dropdown">
-        <button class="dropbtn">Resources</button>
+        <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
-        <a href="/resources/forms/">Forms</a>
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a href="/contact_us/faqs.html">New Patients</a>
+        <a href="/resources/patient_resources.html">Patient Resources</a>
+        <a href="/resources/forms/">Forms</a>
         </div>
       </div>
       <div id="contact" class="dropdown">
-        <button class="dropbtn">Contact Us</button>
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-        <a href="/contact_us/faqs.html">FAQs</a>
+            <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
       </div>
@@ -61,14 +100,14 @@
   <br/>
   <div id="forms-content">
   <div id="forms-content-options">
-    <button id="forms-content-options-newpat" class="vpchcbutton">New Patients</button>
-    <button id="forms-content-options-spanish" class="vpchcbutton">Espa&ntilde;ol</button> 
-    <button id="forms-content-options-other" class="vpchcbutton">Other Forms</button>
+    <button id="forms-options-newpat" class="vpchcbutton">New Patients</button>
+    <button id="forms-options-spanish" class="vpchcbutton">Espa&ntilde;ol</button> 
+    <button id="forms-options-other" class="vpchcbutton">Other Forms</button>
     <a href="/resources/forms/simple_list.html">Buttons not working? Try clicking here instead for a simple list of forms.</a>
   </div>
   <div id="forms-content-clinic">
     <div id="page-subtitle">Which clinic will you be using?</div>
-    <table id="forms-content-clinic-table">
+    <table id="forms-content-clinic-table" class="forms-table-location">
       <tr>
       <td>
       <div class="forms-content-number">1</div>
@@ -82,13 +121,13 @@
       </tr>  
       <tr>
       <td>
-      <img id="forms-content-clinic-bloom" src="/images/bloomingdale_location.jpg" alt="Team Pic"/>
+      <img id="forms-content-clinic-bloom" class="forms-table-pics" src="/images/bloomingdale_location.jpg" alt="Bloomingdale Choice"/>
       </td>
       <td>
-      <img id="forms-content-clinic-cay" src="/images/cayuga_location.jpg" alt="Team Pic"/>
+      <img id="forms-content-clinic-cay" class="forms-table-pics" src="/images/cayuga_location.jpg" alt="Cayuga Choice"/>
       </td>
       <td>
-      <img id="forms-content-clinic-clint" src="/images/clinton_location.jpg" alt="Team Pic"/>
+      <img id="forms-content-clinic-clint" class="forms-table-pics" src="/images/clinton_location.jpg" alt="Clinton Choice"/>
       </td>
       </tr>
       <tr>
@@ -109,13 +148,13 @@
       </tr>  
       <tr>
       <td>
-      <img id="forms-content-clinic-craw" src="/images/crawfordsville_location.jpg" alt="Team Pic"/>
+      <img id="forms-content-clinic-craw" class="forms-table-pics" src="/images/crawfordsville_location.jpg" alt="Crawfordsville Choice"/>
       </td>
       <td>
-      <img id="forms-content-clinic-terre" src="/images/terrehaute_location.jpg" alt="Team Pic"/>
+      <img id="forms-content-clinic-terre" class="forms-table-pics" src="/images/terrehaute_location.jpg" alt="Terre Haute Choice"/>
       </td>
       <td>
-      <img id="forms-content-clinic-bus" src="/images/MSBHCanimation.png" alt="Team Pic"/>
+      <img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/MSBHCanimation.png" alt="MSBHC Choice"/>
       </td>
       </tr>
       <tr>
@@ -128,63 +167,73 @@
   </div>
   <div id="forms-content-type">
     <div id="page-subtitle">Are you looking for an adult or child form?</div>
-    <table id="forms-content-type-table">
+    <table id="forms-content-type-table" class="forms-table-age">
       <tr>
       <td>
-      <div class="forms-content-number">1</div>
+      <img class="forms-square-green" src="/images/vpchc_green_square.png" alt="Green Square"/>
+      <p>&nbsp;</p>
       </td>
       <td>
-      <div class="forms-content-number">2</div>
+      <img id="forms-content-type-adult" class="forms-table-pics forms-age-pic" src="/images/forms_adults.png" alt="Adult"/>
+      <p>Adult</p>
       </td>
       </tr>  
       <tr>
       <td>
-      <img id="forms-content-type-adult" src="/images/forms_adults.png" alt="Adult"/>
+      <img id="forms-content-type-child" class="forms-table-pics forms-age-pic" src="/images/forms_child.png" alt="Child"/>
+      <p>Child</p>
       </td>
       <td>
-      <img id="forms-content-type-child" src="/images/forms_child.png" alt="Child"/>
+      <img class="forms-square-blue" src="/images/vpchc_blue_square.png" alt="Blue Square"/>
+      <p>&nbsp;</p>
       </td>
       </tr>
-      <tr>
-      <td>Adult</td>
-      <td>Child</td>
-      </tr>  
     </table>
       <br/>
   </div>
-  <div id="forms-content-options-other-category">
+  <div id="forms-category">
     <div id="page-subtitle">Select a category.</div>
     <br/>
-    <button id="forms-content-options-other-category-consent" class="vpchcbutton">Consent</button>
-    <button id="forms-content-options-other-category-notice" class="vpchcbutton">Notice</button> 
-    <button id="forms-content-options-other-category-programs"class="vpchcbutton">Programs</button>
-    <button id="forms-content-options-other-category-student"class="vpchcbutton">Student Forms</button>
+    <button id="forms-category-consent" class="vpchcbutton">Consent for Release of Records or Information</button>
+    <button id="forms-category-notice" class="vpchcbutton">Notice of Patient Bill of Rights/Privacy Practice</button> 
+    <button id="forms-category-programs"class="vpchcbutton">Sliding Fee Scale</button>
+    <button id="forms-category-student"class="vpchcbutton">Student Forms</button>
   </div>
-  <div id="forms-content-options-other-consent">
+  <div id="forms-consent">
     <div id="page-subtitle">Select a form to download.</div>
     <br/>
-    <button id="forms-content-options-other-consent-bh" class="vpchcbutton">Behavioral Health Release</button>
-    <button id="forms-content-options-other-consent-releaseinfo" class="vpchcbutton">Release of Information</button> 
-    <button id="forms-content-options-other-consent-releaserec" class="vpchcbutton">Release of Records</button>
-    <button id="forms-content-options-other-consent-telemed" class="vpchcbutton">Telemedicine</button>
+    <button id="forms-consent-bh" class="vpchcbutton">Behavioral Health Release of Information</button>
+    <button id="forms-consent-releaseinfo" class="vpchcbutton">Medical Release of Information</button> 
+    <button id="forms-consent-releaserec" class="vpchcbutton">Release of Records</button>
+    <button id="forms-consent-telemed" class="vpchcbutton">Telemedicine</button>
   </div>
- <div id="forms-content-options-other-notice">
+  <div id="forms-records-choice">
+    <div id="page-subtitle">Select your location.</div>
+    <br/>
+    <button id="forms-records-bloom" class="vpchcbutton">Bloomingdale</button>
+    <button id="forms-records-cay" class="vpchcbutton">Cayuga</button> 
+    <button id="forms-records-clint" class="vpchcbutton">Clinton</button>
+    <button id="forms-records-craw" class="vpchcbutton">Crawfordsville</button>
+    <button id="forms-records-terre" class="vpchcbutton">Terre Haute</button>
+    <button id="forms-records-mobile" class="vpchcbutton">Mobile Health Center</button>
+  </div>
+  <div id="forms-notice">
     <div id="page-subtitle">Select a form to download.</div>
     <br/>
-    <button id="forms-content-options-other-notice-ackbill" class="vpchcbutton">Acknowledgement of Bill of Rights</button>
-    <button id="forms-content-options-other-notice-bill" class="vpchcbutton">Bill of Rights</button> 
-    <button id="forms-content-options-other-notice-privacy" class="vpchcbutton">Privacy Practice</button>
+    <button id="forms-notice-ackbill" class="vpchcbutton">Acknowledgement of Bill of Rights</button>
+    <button id="forms-notice-bill" class="vpchcbutton">Patient Bill of Rights and Responsibilities</button> 
+    <button id="forms-notice-privacy" class="vpchcbutton">Notice of Privacy Practice</button>
   </div>
-  <div id="forms-content-options-other-programs">
+  <div id="forms-programs">
     <div id="page-subtitle">Select a form to download.</div>
     <br/>
-    <button id="forms-content-options-other-programs-scale" class="vpchcbutton">Sliding Fee Scale</button>
+    <button id="forms-programs-scale" class="vpchcbutton">Sliding Fee Scale</button>
   </div>
-  <div id="forms-content-options-other-student">
+  <div id="forms-student">
     <div id="page-subtitle">Select a form to download.</div>
     <br/>
-    <button id="forms-content-options-other-student-ishaa"class="vpchcbutton">ISHAA Physical</button>
-    <button id="forms-content-options-other-student-msbhc" class="vpchcbutton">MSBHC Enrollment</button> 
+    <button id="forms-student-ishaa"class="vpchcbutton">ISHAA Physical</button>
+    <button id="forms-student-msbhc" class="vpchcbutton">Mobile School-Based Health Center Enrollment</button> 
   </div>
   </div>
 </div>
@@ -192,7 +241,7 @@
     
     <div id="foot">
    <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="70" border="0" usemap="#locationMap"/>
+    height="80" border="0" usemap="#locationMap"/>
    <map name="locationMap">
      <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
            alt="Bloomingdale"/>
@@ -210,13 +259,12 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script type="text/javascript">
-    //new patient start
-    $("#forms-content-options-newpat").click(function(){
+    /***New patient start***/
+    $("#forms-options-newpat").click(function(){
       $("#forms-content-options").hide();
       $("#forms-content-clinic").fadeIn(1000);
     });
-    
-    //new patient, choosing a location
+    //Choosing a location
     var locationChoice;
     $("#forms-content-clinic-bloom").click(function(){
       locationChoice = 1;
@@ -247,101 +295,121 @@
        locationChoice = 0;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
-    });
-    
-    //new patient, adult choosen
+    }); 
+    //Adult choosen
     $("#forms-content-type-adult").click(function(event){
       if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href =  "http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_bloomcayclint.pdf";
+          window.location.href =  "/files/forms/en/new_patient_packet_adult_bloomcayclint.pdf";
       }else if(locationChoice == 4){
-          window.location.href = 'http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_crawfordsville.pdf';
+          window.location.href = "/files/forms/en/new_patient_packet_adult_crawfordsville.pdf";
       }else{
-          window.location.href = 'http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_terrehaute.pdf';
+          window.location.href = "/files/forms/en/new_patient_packet_adult_terrehaute.pdf";
       }
     });
-    //new patient, child choosen
+    //Child choosen
     $("#forms-content-type-child").click(function(){
       if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href = "http://valleyprohealth.org/files/forms/en/new_patient_packet_child_bloomcayclint.pdf";
+          window.location.href = "/files/forms/en/new_patient_packet_child_bloomcayclint.pdf";
       }else if(locationChoice == 4){
-          window.location.href = 'http://valleyprohealth.org/files/forms/en/new_patient_packet_child_crawfordsville.pdf';
+          window.location.href = "/files/forms/en/new_patient_packet_child_crawfordsville.pdf";
       }else{
-          window.location.href = 'http://valleyprohealth.org/files/forms/en/new_patient_packet_child_terrehaute.pdf';
+          window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
       }
     });
     
-    //spanish forms section
-    $("#forms-content-options-spanish").click(function(){
+    /**Spanish forms section***/
+    $("#forms-options-spanish").click(function(){
        window.location.href =  "/resources/forms/es_index.html";
     });
     
-    //other forms start
-    $("#forms-content-options-other").click(function(){
+    /***Other forms start***/
+    $("#forms-options-other").click(function(){
       $("#forms-content-options").hide();
-      $("#forms-content-options-other-category").fadeIn(1000);
+      $("#forms-category").fadeIn(1000);
     });
-    
-    //other forms, consent option choosen
-    $("#forms-content-options-other-category-consent").click(function(){
-      $("#forms-content-options-other-category").hide();
-      $("#forms-content-options-other-consent").fadeIn(1000);
+    /*Consent option choosen*/
+    $("#forms-category-consent").click(function(){
+      $("#forms-category").hide();
+      $("#forms-consent").fadeIn(1000);
     });
-    //other forms, consent option, bh release choosen
-    $("#forms-content-options-other-consent-bh").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/behavioral_health_release.pdf';
+    //bh release choosen
+    $("#forms-consent-bh").click(function(){
+        window.location.href = "/files/forms/en/behavioral_health_release.pdf";
     });
-    //other forms, consent option, release of info choosen
-    $("#forms-content-options-other-consent-releaseinfo").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/release_of_information.pdf';
+    //release of info choosen
+    $("#forms-consent-releaseinfo").click(function(){
+        window.location.href = "/files/forms/en/release_of_information.pdf";
     });
-    //other forms, consent option, release of records choosen
-    $("#forms-content-options-other-consent-releaserec").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/Records_Release_Clinton.pdf';
+    /*Release of records choosen*/
+     $("#forms-consent-releaserec").click(function(){
+      $("#forms-consent").hide();
+      $("#forms-records-choice").fadeIn(1000);
     });
-    //other forms, consent option, telemedicine choosen
-    $("#forms-content-options-other-consent-telemed").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/telemedicine_consent.pdf';
+    //Bloomingdale download
+    $("#forms-records-bloom").click(function(){
+        window.location.href = "/files/forms/en/records_release_bloomingdale.pdf";
     });
-    
-    //other forms, notice option choosen
-    $("#forms-content-options-other-category-notice").click(function(){
-      $("#forms-content-options-other-category").hide();
-      $("#forms-content-options-other-notice").fadeIn(1000);
+    //Cayuga download
+    $("#forms-records-cay").click(function(){
+        window.location.href = "/files/forms/en/records_release_cayuga.pdf";
     });
-    //other forms, notice option, acknowledgement of receipt choosen
-    $("#forms-content-options-other-notice-ackbill").click(function(){
-       window.location.href = 'http://valleyprohealth.org/files/forms/en/acknowledgement_receipt.pdf';
+    //Clinton download
+    $("#forms-records-clint").click(function(){
+        window.location.href = "/files/forms/en/records_release_clinton.pdf";
     });
-    //other forms, notice option, bill of rights choosen
-    $("#forms-content-options-other-notice-bill").click(function(){
-       window.location.href = 'http://valleyprohealth.org/files/forms/en/patient_bill_of_rights.pdf';
+    //Crawfordsville download
+    $("#forms-records-craw").click(function(){
+        window.location.href = "/files/forms/en/records_release_crawfordsville.pdf";
     });
-    //other forms, notice option, privacy practices choosen
-    $("#forms-content-options-other-notice-privacy").click(function(){
-       window.location.href = 'http://valleyprohealth.org/files/forms/en/notice_privacy_practices.pdf';
+    //Terre Haute download
+    $("#forms-records-terre").click(function(){
+        window.location.href = "/files/forms/en/records_release_terre_haute.pdf";
     });
-    
-    //other forms, programs option choosen
-    $("#forms-content-options-other-category-programs").click(function(){
-      $("#forms-content-options-other-category").hide();
-      $("#forms-content-options-other-programs").fadeIn(1000);
+    //Mobile download
+    $("#forms-records-mobile").click(function(){
+        window.location.href = "/files/forms/en/records_release_clinton.pdf";
     });
-     //other forms, programs option, sliding fee scale choosen
-    $("#forms-content-options-other-programs-scale").click(function(){
-      window.location.href = 'http://valleyprohealth.org/files/forms/en/sliding_fee_scale_reqs.pdf'
+    //telemedicine choosen
+    $("#forms-consent-telemed").click(function(){
+        window.location.href = "/files/forms/en/telemedicine_consent.pdf";
     });
-    
-    //other forms, student form choosen
-    $("#forms-content-options-other-category-student").click(function(){
-      $("#forms-content-options-other-category").hide();
-      $("#forms-content-options-other-student").fadeIn(1000);
+    /*Notice option choosen*/
+    $("#forms-category-notice").click(function(){
+      $("#forms-category").hide();
+      $("#forms-notice").fadeIn(1000);
     });
-     //other forms, student form, ishaa choosen
-    $("#forms-content-options-other-student-ishaa").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/ihsaa_physical.pdf'
+    //acknowledgement of receipt choosen
+    $("#forms-notice-ackbill").click(function(){
+       window.location.href = "/files/forms/en/acknowledgement_receipt.pdf";
     });
-     //other forms, student form, msbhc choosen
-    $("#forms-content-options-other-student-msbhc").click(function(){
-        window.location.href = 'http://valleyprohealth.org/files/forms/en/msbhc_student_enrollment.pdf'
+    //bill of rights choosen
+    $("#forms-notice-bill").click(function(){
+       window.location.href = "/files/forms/en/patient_bill_of_rights.pdf";
+    });
+    //privacy practices choosen
+    $("#forms-notice-privacy").click(function(){
+       window.location.href = "/files/forms/en/notice_privacy_practices.pdf";
+    });
+    /*Programs option choosen*/
+    $("#forms-category-programs").click(function(){
+      $("#forms-category").hide();
+      $("#forms-programs").fadeIn(1000);
+    });
+    //sliding fee scale choosen
+    $("#forms-programs-scale").click(function(){
+      window.location.href = "/files/forms/en/sliding_fee_scale_reqs.pdf";
+    });
+    /*Student form choosen*/
+    $("#forms-category-student").click(function(){
+      $("#forms-category").hide();
+      $("#forms-student").fadeIn(1000);
+    });
+    //ishaa choosen
+    $("#forms-student-ishaa").click(function(){
+        window.location.href = "/files/forms/en/ihsaa_physical.pdf";
+    });
+    //msbhc choosen
+    $("#forms-student-msbhc").click(function(){
+        window.location.href = "/files/forms/en/msbhc_student_enrollment.pdf";
     });
 </script>

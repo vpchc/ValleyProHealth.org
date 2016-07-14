@@ -1,16 +1,53 @@
 <!doctype html>
+<head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//valleyprohealth.org/stats/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
+</script>
+<!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
+</head>
 <div id="mastheadbox">
   <img src="/images/masterhead_test.png" 
     alt="Valley Professionals Community Health Center" width="1366" 
     height="141" border="0" align="top" usemap="#logoMap" />		
     <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>																
+    href="/" /></map>														
     <div id="navlinks">
       <div id="about" class="dropdown">
-        <button class="dropbtn">About Us</button>
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
@@ -20,18 +57,18 @@
         </div>
       </div>
       <div id="locations" class="dropdown">
-        <button class="dropbtn">Locations</button>
+        <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
         <a href="/terre_haute/">Terre Haute</a>
-        <a href="/msbhc/">Mobile Health Center</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </div>
       <div id="services" class="dropdown">
-        <button class="dropbtn">Services</button>
+        <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
         <a href="/services/dental.html">Dental</a>
@@ -40,50 +77,69 @@
         </div>
       </div>
       <div id="resources" class="dropdown">
-        <button class="dropbtn">Resources</button>
+        <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a href="/contact_us/faqs.html">New Patients</a>
+        <a href="/resources/patient_resources.html">Patient Resources</a>
         <a href="/resources/forms/">Forms</a>
         </div>
       </div>
       <div id="contact" class="dropdown">
-        <button class="dropbtn">Contact Us</button>
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-        <a href="/contact_us/faqs.html">FAQs</a>
+            <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
       </div>
     </div>
 </div>
-<div id="masterbox">
-  <div id="page-title">Clinton Office</div>
-  <div id="location-top-section">
-    <a href="http://maps.google.com/?q=777 S. Main Street, Suite 100, Clinton, IN, 47842"><img id="location-pic" class="location-top-section-left" src="/images/clinton_location.jpg" alt="Clinton"/></a>
-    <div id="location-info" class="largeinfo">
-      <div id="location-info-title">Contact Info</div>
-        <p>Phone: (765) 828-1003</p>
-        <p>Fax: (765) 828-1030</p>
-        <p>777 S. Main Street, Suite 100,Clinton, IN 47842</p>
-      <div id="location-info-title">Clinic Hours</div>
-        <p class="location-info-hours-three">Monday - Thursday: 8:00 a.m. - 5:00 p.m.</p>
-        <p class="location-info-hours-three">After Hours: 5:00 p.m. - 8:00 p.m.</p>
-        <p class="location-info-hours-three">Friday: 8:00 a.m. - 5:00 p.m.</p>
-    </div>  
+<div id="masterbox-no-top">
+  <div id="location-top">
+    <div id="location-top-left">
+    <img id="location-pic"  src="/images/clinton_location_banner.png" alt="Clinton"/>
+    </br>
+    </div>
+    <div id="location-top-right">
+      <p id="banner-title" class="vpchcgreen">Clinton</p>
+    </div>
   </div>
-  <p id="location-pic-directions">*Click the picture to get directions</p>
-  </br>
+  <div id="location-middle">
+    <div id="location-middle-left">
+      <div id="location-middle-description">
+      <p id="location-hour-title">Hours</p>
+      <p class="location-hours">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours location-after-hours">After-Hours Clinic (Clinton Only)</p>
+      <p class="location-hours">Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
+      </br></br></br></br>
+      <li>Established in 2008</li></br>
+      <li>Sees an estimated <span>6,228</span> patients annually</li></br>
+      <li>Sees an estimated <span>23,000</span> visits annually</li></br>
+      </div>
+    </div>
+    <div id="location-middle-right">
+      <div id="location-middle-info">
+      <p class="location-contact">777 S. Main Street, Suite 100</p>
+      <p class="location-contact">Clinton, IN 47842</p>
+      <p class="location-contact">(765) 828-1003</p>
+      </br></br>
+      <iframe width="500" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=777%20S.%20Main%20Street%2C%20Suite%20100%20%20%20Clinton%2C%20IN%2047842&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  </br></br>
   <p class="location-section-title">Services Provided At This Clinic</p>
   <hr>
   <div id="location-services">
-    <a href="/services/behavioral_health.html"><div class="location-services-section three-sections team-bh">
+    <a href="/services/behavioral_health.html"><div class="location-services-section three-sections">
     <p>Behavioral Health</p>
     <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
     </div></a>
-    <a href="/services/medical.html"><div class="location-services-section three-sections team-med">
+    <a href="/services/medical.html"><div class="location-services-section three-sections">
     <p>Medical</p>
     <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
     </div></a>
-    <a href="/services/patient_support.html"><div class="location-services-section three-sections team-ps">
+    <a href="/services/patient_support.html"><div class="location-services-section three-sections">
     <p>Patient Support</p>
     <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
     </div></a>
@@ -95,126 +151,60 @@
     <table class="team-table">
       <tr>
       <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Aziz Abed</p>
-      <p class="team-table-title">MD</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Aziz Abed, MD</p> 
       </td> 
       <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Gretchen Blevins</p>
-      <p class="team-table-title">FNP</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div>
-      </td>
-      <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Nicole Cook</p>
-      <p class="team-table-title">FNP</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Gretchen Blevins, FNP-C</p>
       </td>
       </tr>
       <tr>
       <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Bing Gale</p>
-      <p class="team-table-title">MD</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div> 
-      </td> 
-      <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Nicole Hall</p>
-      <p class="team-table-title">FNP</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div>
+      <p class="team-table-name">Bing Gale, MD</p>
       </td>
       <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Stephen Macke</p>
-      <p class="team-table-title">MD</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Nicole Hall, FNP-C</p>
+      </td>
+      <tr>
+      <td>
+      <p class="team-table-name">Steven Macke, MD</p>
+      </td>
+      <td>
+      <p class="team-table-name">Tammy Mundy, FNP-C</p>
       </td>
       </tr>
       <tr>
       <td>
-      <div class="team-table-person team-med">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Tammi Mundy</p>
-      <p class="team-table-title">FNP</p>
-      <img class="team-table-icon" src="/images/med_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Linda Lonneman, LCSW</p>
       </td>
       <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Linda Lonneman</p>
-      <p class="team-table-title">LCSW</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">David McIntyre</p>
-      <p class="team-table-title">LCAC</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">David McIntyre, LCAC</p>
       </td>
       </tr>
       <tr>
       <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Tasha Stevens</p>
-      <p class="team-table-title">LCSW</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Paul Taraska, MD</p>
       </td>
       <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Paul Taraska</p>
-      <p class="team-table-title">MD</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Julia Wernz</p>
-      <p class="team-table-title">PHD</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Julia Wernz, PhD</p>
       </td>
       </tr>
       <tr>
       <td>
-      <div class="team-table-person team-bh">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Heather Woods</p>
-      <p class="team-table-title">LMHCA</p>
-      <img class="team-table-icon" src="/images/bh_icon.png" alt="Team Pic"/>
-      </div> 
+      <p class="team-table-name">Michelle Bond, LMHCA</p>
+      </td>
+      <td>
+      <p class="team-table-name">Heather Woods, LMHCA</p>
       </td>
       </tr>
     </table>
   </div>
+  </br>
 </div>
 <div id="masterfoot">
     
     <div id="foot">
    <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="70" border="0" usemap="#locationMap"/>
+    height="80" border="0" usemap="#locationMap"/>
    <map name="locationMap">
      <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
            alt="Bloomingdale"/>

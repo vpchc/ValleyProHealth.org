@@ -1,16 +1,53 @@
 <!doctype html>
+<head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//valleyprohealth.org/stats/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
+</script>
+<!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
+</head>
 <div id="mastheadbox">
   <img src="/images/masterhead_test.png" 
     alt="Valley Professionals Community Health Center" width="1366" 
     height="141" border="0" align="top" usemap="#logoMap" />		
     <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>																
+    href="/" /></map>														
     <div id="navlinks">
       <div id="about" class="dropdown">
-        <button class="dropbtn">About Us</button>
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
@@ -20,18 +57,18 @@
         </div>
       </div>
       <div id="locations" class="dropdown">
-        <button class="dropbtn">Locations</button>
+        <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
         <a href="/terre_haute/">Terre Haute</a>
-        <a href="/msbhc/">MSBHC</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </div>
       <div id="services" class="dropdown">
-        <button class="dropbtn">Services</button>
+        <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
         <a href="/services/dental.html">Dental</a>
@@ -40,16 +77,18 @@
         </div>
       </div>
       <div id="resources" class="dropdown">
-        <button class="dropbtn">Resources</button>
+        <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
-        <a href="/resources/forms/">Forms</a>
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a href="/contact_us/faqs.html">New Patients</a>
+        <a href="/resources/patient_resources.html">Patient Resources</a>
+        <a href="/resources/forms/">Forms</a>
         </div>
       </div>
       <div id="contact" class="dropdown">
-        <button class="dropbtn">Contact Us</button>
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-        <a href="/contact_us/faqs.html">FAQs</a>
+            <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
       </div>
@@ -60,41 +99,51 @@
   <hr>
   <br/>
   <div class="forms-simple-section">
-    <div class="forms-simple-section-title">Consent</div>
-    <li><a href="http://valleyprohealth.org/files/forms/en/behavioral_health_release.pdf">Behavioral Health Release</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/release_of_information.pdf">Release of Information</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/Records_Release_Clinton.pdf">Records Release</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/telemedicine_consent.pdf">Telemedicine</a></li>
+    <div class="forms-simple-title">Consent</div>
+    <li><a href="https://valleyprohealth.org/files/forms/en/behavioral_health_release.pdf">Behavioral Health Release</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/release_of_information.pdf">Release of Information</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/Records_Release_Clinton.pdf">Records Release</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/telemedicine_consent.pdf">Telemedicine</a></li>
   </div>
   <div class="forms-simple-section">
-    <div class="forms-simple-section-title">New Patients</div>
-    <div class="form-simple-section-subsection">Bloomingdale, Cayuga, Clinton, MSBHC:
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_bloomcayclint.pdf">Adult</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_child_bloomcayclint.pdf">Child</a></li>
+    <div class="forms-simple-title">New Patients</div>
+    <div class="form-simple-subsection">Bloomingdale, Cayuga, Clinton, MSBHC:
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_adult_bloomcayclint.pdf">Adult</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_child_bloomcayclint.pdf">Child</a></li>
     </div>
-    <div class="form-simple-section-subsection">Crawfordsville:
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_crawfordsville.pdf">Adult</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_child_crawfordsville.pdf">Child</a></li>
+    <div class="form-simple-subsection">Crawfordsville:
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_adult_crawfordsville.pdf">Adult</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_child_crawfordsville.pdf">Child</a></li>
     </div>
-    <div class="form-simple-section-subsection">Terre Haute:
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_adult_terrehaute.pdf">Adult</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/new_patient_packet_child_terrehaute.pdf">Child</a></li>
+    <div class="form-simple-subsection">Terre Haute:
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_adult_terrehaute.pdf">Adult</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/new_patient_packet_child_terrehaute.pdf">Child</a></li>
     </div>
   </div>
   <div class="forms-simple-section">
-    <div class="forms-simple-section-title">Notice</div>
-    <li><a href="http://valleyprohealth.org/files/forms/en/acknowledgement_receipt.pdf">Acknowledgement of Bill of Rights</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/patient_bill_of_rights.pdf">Release of Information</a></li>
-    <li><a href="http://valleyprohealth.org/files/forms/en/notice_privacy_practices.pdf">Privacy Practices</a></li>
+    <div class="forms-simple-title">Notice</div>
+    <li><a href="https://valleyprohealth.org/files/forms/en/acknowledgement_receipt.pdf">Acknowledgement of Bill of Rights</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/patient_bill_of_rights.pdf">Release of Information</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/notice_privacy_practices.pdf">Privacy Practices</a></li>
   </div>
   <div class="forms-simple-section">
-    <div class="forms-simple-section-title">Programs</div>
-      <li><a href="http://valleyprohealth.org/files/forms/en/sliding_fee_scale_reqs.pdf">Sliding Fee Scale</a></li>
+    <div class="forms-simple-title">Programs</div>
+      <li><a href="https://valleyprohealth.org/files/forms/en/sliding_fee_scale_reqs.pdf">Sliding Fee Scale</a></li>
+  </div>
+ <div class="forms-simple-section">
+    <div class="forms-simple-title">Release of Records</div>
+    <div class="form-simple-subsection">
+    <li><a href="https://valleyprohealth.org/files/forms/en/records_release_bloomingdale.pdf">Bloomingdale</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/records_release_cayuga.pdf">Cayuga</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/records_release_clinton.pdf">Clinton</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/records_release_crawfordsville.pdf">Crawfordsville</a></li>
+    <li><a href="https://valleyprohealth.org/files/forms/en/records_release_terre_haute.pdf">Terre Haute</a></li>
+    </div>
   </div>
   <div class="forms-simple-section">
-    <div class="forms-simple-section-title">Student Forms</div>
-      <li><a href="http://valleyprohealth.org/files/forms/en/ihsaa_physical.pdf">ISHAA Physical</a></li>
-      <li><a href="http://valleyprohealth.org/files/forms/en/msbhc_student_enrollment.pdf">MSBHC Enrollment</a></li>
+    <div class="forms-simple-title">Student Forms</div>
+      <li><a href="https://valleyprohealth.org/files/forms/en/ihsaa_physical.pdf">ISHAA Physical</a></li>
+      <li><a href="https://valleyprohealth.org/files/forms/en/msbhc_student_enrollment.pdf">MSBHC Enrollment</a></li>
   </div>
 <br/>
 </div>
@@ -102,7 +151,7 @@
     
     <div id="foot">
    <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="70" border="0" usemap="#locationMap"/>
+    height="80" border="0" usemap="#locationMap"/>
    <map name="locationMap">
      <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
            alt="Bloomingdale"/>

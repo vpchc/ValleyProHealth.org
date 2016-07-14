@@ -1,16 +1,53 @@
 <!doctype html>
+<head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//valleyprohealth.org/stats/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
+</script>
+<!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
+</head>
 <div id="mastheadbox">
   <img src="/images/masterhead_test.png" 
     alt="Valley Professionals Community Health Center" width="1366" 
     height="141" border="0" align="top" usemap="#logoMap" />		
     <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>																
+    href="/" /></map>														
     <div id="navlinks">
       <div id="about" class="dropdown">
-        <button class="dropbtn">About Us</button>
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
@@ -20,18 +57,18 @@
         </div>
       </div>
       <div id="locations" class="dropdown">
-        <button class="dropbtn">Locations</button>
+        <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
         <a href="/terre_haute/">Terre Haute</a>
-        <a href="/msbhc/">Mobile Health Center</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </div>
       <div id="services" class="dropdown">
-        <button class="dropbtn">Services</button>
+        <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
         <a href="/services/dental.html">Dental</a>
@@ -40,105 +77,434 @@
         </div>
       </div>
       <div id="resources" class="dropdown">
-        <button class="dropbtn">Resources</button>
+        <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a href="/contact_us/faqs.html">New Patients</a>
+        <a href="/resources/patient_resources.html">Patient Resources</a>
         <a href="/resources/forms/">Forms</a>
         </div>
       </div>
       <div id="contact" class="dropdown">
-        <button class="dropbtn">Contact Us</button>
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-        <a href="/contact_us/faqs.html">FAQs</a>
+            <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
       </div>
     </div>
 </div>
 <div id="masterbox">
-<p id="page-title">FAQs</p>
-</br>
-<div id="faq">
-<p >Listed below are some common questions. To get the answers, click the question.</p>
-<ul class="collapsible-list">
-<li>
-  <label for="question1"><b>Q.</b> What kind of services do you offer?</label>
-  <input type="checkbox" id="question1" />
-  <ul>
-   <li><b>A.</b> We offer medical, behavioral health, Patient Support, and at select locations, dental services.</li>
-  </ul>
- </li>
- <li>
-  <label for="question2"><b>Q.</b> What is the After Hours Clinic?</label>
-  <input type="checkbox" id="question2" />
-  <ul>
-      <li><b>A.</b> Mon-Thur from 5 to 8 p.m. at the Clinton Clinic, it is a time where you can come without an appointment for non-chronic health issues.</li>
-  </ul>
- </li>
- <li>
-  <label for="question3"><b>Q.</b> What is a chronic health issue?</label>
-  <input type="checkbox" id="question3" />
-  <ul>
-   <li><b>A.</b> A health issue persisting for a long time or constantly recurring.</li>
-  </ul>
- </li>
- <li>
-  <label for="question4"><b>Q.</b> When will my refills be ready?</label>
-  <input type="checkbox" id="question4" />
-  <ul>
-   <li><b>A.</b> Refills can take up to 48 hours before they are ready.</li>
-  </ul>
- </li>
- <li>
-  <label for="question5"><b>Q.</b> What is a Nurse Visit?</label>
-  <input type="checkbox" id="question5" />
-  <ul>
-   <li><b>A.</b> Available from 9 to 11 am and 2 to 4 p.m., it is a walk-in visit with a nurse for quick things like checking blood pressure, urine redips and shots. </li>
-     </ul>
- </li>
- <li>
-  <label for="question6"><b>Q.</b> What insurances do you accept?</label>
-  <input type="checkbox" id="question6" />
-  <ul>
-   <li><b>A.</b> We accept every insurance.</li>
-  </ul>
- </li>
- <li>
-  <label for="question7"><b>Q.</b> What is the After Hours Clinic?</label>
-  <input type="checkbox" id="question7" />
-  <ul>
-   <li><b>A.</b> It is something.</li>
-  </ul>
- </li>
- <li>
-  <label for="question8"><b>Q.</b> What is the After Hours Clinic?</label>
-  <input type="checkbox" id="question8" />
-  <ul>
-   <li><b>A.</b> It is something.</li>
-  </ul>
- </li>
- <li>
-  <label for="question9"><b>Q.</b> What is the After Hours Clinic?</label>
-  <input type="checkbox" id="question9" />
-  <ul>
-   <li><b>A.</b> It is something.</li>
-  </ul>
- </li>
- <li>
-  <label for="question10"><b>Q.</b> What is the After Hours Clinic?</label>
-  <input type="checkbox" id="question10" />
-  <ul>
-   <li><b>A.</b> It is something.</li>
-  </ul>
- </li>
-</ul>
+  <p id="page-title">Frequently Asked Questions</p>
+  </br>
+<div id="location-services">
+    <a href="/contact_us/faqs.html#newpat"><div class="location-services-section four-sections">
+    <p>New Patient</p>
+    <img class="team-table-icon" src="/images/patinfo_icon.png" alt="Patient Info"/>
+    </div></a>
+    <a href="/contact_us/faqs.html#bill"><div class="location-services-section four-sections">
+    <p>Billing/Insurance</p>
+    <img class="team-table-icon" src="/images/payment_icon.png" alt="Payments"/>
+    </div></a>
+    <a href="/contact_us/faqs.html#serv"><div class="location-services-section four-sections">
+    <p>Services</p>
+    <img class="team-table-icon" src="/images/services_icon.png" alt="Services"/>
+    </div></a>
+    <a href="/contact_us/faqs.html#misc"><div class="location-services-section four-sections">
+    <p>Miscellaneous</p>
+    <img class="team-table-icon" src="/images/misc_icon.png" alt="Miscellaneous"/>
+    </div></a>
+  </div>
+  <div id="faq">
+  </br>
+  <p id="newpat" class="section-large-title">New Patients</p>
+  <hr>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Are you accepting new patients?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">To find out if one of our locations is accepting new patients please give us a call and we will be glad to assist you.  The contact information for all of our clinics is available <a href="/contact_us/">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">How soon will I be able to schedule my first appointment?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">New patient appointments can be scheduled as soon as two weeks.  In the mean time we will send you paperwork to be completed and brought in on the day of your appointment.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What do I need to bring to my first appointment?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">For your first appointment, you should bring your completed new patient paperwork, along with your driver's license and insurance information.  When you arrive, the front office will make a copy of your medical insurance card and verify that your account information is up-to-date.  A nurse will complete your medical history after you have been checked in, but please bring any relevant medical information, including all names and dosages of prescriptions and over-the-counter medications that you are currently taking.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Can I make an appointment with a Behavioral Health counselor?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">If you are an established patient, speak with your Primary Care Provider about referring you to a Valley Professionals Behavioral Health counselor.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+<div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Do you offer prenatal services?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Prenatal services, as well as, Labor and Delivery are available at our Terre Haute clinic by referral.  For more information, or to make an appointment, <a href="/locations/">contact</a> the Valley Professionals Community Health Center nearest you.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Can I call and get information about my spouse/parent/adult child (18+) or their medical records?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">The Health Insurance Portability and Accountability Act (HIPAA) prohibits us from sharing confidential patient health information without written authorization from the patient.  If a patient would like to grant you permission to make an appointment for them or to access their medical records they must complete a Release of Information form, available <a href="/files/forms/en/release_of_information.pdf">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Can anyone else (i.e. grandparent, family friend, or childcare provider) bring my child to his or her appointment?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Yes, you may grant permission for another person to bring your child to his or her appointment after you have completed and submitted a consent form available <a href="/files/forms/en/minor_child_consent_to_treat.pdf">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <p id="bill" class="section-large-title">Billing/Insurance</p>
+  <hr>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What types of insurance do you accept?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">We accept all commercial insurance carriers, Medicare, and Medicaid.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+      <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Can I be seen by a provider even if I do not have health insurance?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Yes, Valley Professionals accepts self-pay, and also has a <a href="/resources/patient_resources.html">sliding-fee scale</a> for eligible individuals.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Can Valley Professionals help me enroll in health insurance coverage?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Yes, our Community Health Workers are specially trained to help individuals find affordable health coverage.  To make an appointment, <a href="/locations/">contact</a> the Valley Professionals Community Health Center nearest you.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What do I need to bring to apply for sliding fee scale?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">To apply for sliding fee scale, patients and their families must provide the following documents to verify gross income:</br>
+            - Most recent tax filing with the IRS and/or W2's from employer(s)</br>
+            - A copy of Social Security or Disability Award Letter(s) or unemployment statement(s).</br>
+            - Pay stubs from all employerers for the last 30-day period.</br>
+            - If unemployed, no income, and living with others, we require a signed and dated letter from the person providing support of the patient.</br>
+            - Driver's license</br>
+            - Any other income that is direct deposited.</br>
+        For more information on sliding fee scale, click <a href="/resources/patient_resources.html">here</a>.
+        </p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What if I am unable to pay my bill?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">If you unable to pay your bill, feel free to contact our Billing Department at (765) 828-1000 to set up a payment plan that works for you.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What if I have other questions about billing?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">For all inquiries regarding billing, please contact our Billing Department at (765) 828-1000.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <p id="serv" class="section-large-title">Services</p>
+  <hr>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What can I do if I am unable to pay for my prescription?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Valley Professionals has a 403(b) Prescription Assistance Program that can help eligible individuals to afford their medication.  Read more about this program <a href="/resources/patient_resources.html">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">How long will it take for me to receive my prescription refill after I have submitted a request?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Prescription refill requests can take up to 48 hours once submitted.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Do I have to be a patient to use the After-Hours Clinic?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">No, you are not required to be a current Valley Professionals patient to utilize the After-Hours services.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Do I need an appointment for the After-Hours clinic?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">No, After-Hours office visits are on a first-come, first-served basis.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What can I be seen for at the After-Hours clinic?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">The After-Hours clinic is for acute conditions, such as, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, earache, or other similar symptoms.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">When is After-Hours clinic?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">The After-Hours clinic takes place Monday through Thursday from 5:00pm to 8:00pm at our Clinton location only.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Does the Mobile School-Based Health Center offer school physical examinations?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Yes.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What types of services are available on the Mobile School-Based Health Center?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Visit the MSBHC for: immunizations, school physicals, well child visits, cold, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, ear ache, and similar symptoms.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Who can be seen on the Mobile Health Center?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Students and Employees of a school hosting the Mobile Health Center may be seen.  There are certain occasions during school breaks when the Mobile Health Center is open to the community.  For more information, or to view the MSBHC's schedule, click <a href="/mobile/">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">What do I need to do for my child to be seen by the MSBHC?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">To enroll your child in MSBHC services, you must complete and submit the enrollment form found <a href="/files/forms/en/msbhc_student_enrollment.pdf">here</a>.  After you have done this, you may call the mobile unit and make an appointment, or your child can simply go to the school nurse and be referred.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Does it count against my child's attendance when he or she is seen by the MSBHC?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">No, your child's visit to the MSBHC will not count against his or her attendance; moreover, if your child is sent home due to illness by an MSBHC provider, this absence would be certified excused.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Does the MSBHC visit my school?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">The MSBHC visits schools in the North Vermillion, South Vermillion, Southwest Parke, and North Central Parke school corporations.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">How do I know when the MSBHC will be at my school?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">You can find a schedule for the MSBHC <a href="/file/schedule/msbhc_locations.pdf">here</a>.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Do I have to be a patient to take part in the Diabetic Support Group?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">No, you do not have to register, make an appointment, or even be a patient of Valley Professionals to take part in the Diabetic Support Group.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
+  <p id="misc" class="section-large-title">Miscellaneous</p>
+  <hr>
+  <div class="tab-person">
+    <div class="tab-bar tab-prov">
+      <p class="tab-name tab-name-tiny">Is Valley Professionals hiring?</p>
+      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+    </div>
+    <div class="tab-box-container">
+      <table class="tab-box">
+        <tr><th>
+        <p class="tab-answer">Click <a href="/contact_us/careers/">here</a> to view current job openings at Valley Professionals.</p>
+        </th></tr>
+      </table>
+    </div>
+  </div>
 </div>
 </br>
+</div>
 <div id="masterfoot">
     
     <div id="foot">
    <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="70" border="0" usemap="#locationMap"/>
+    height="80" border="0" usemap="#locationMap"/>
    <map name="locationMap">
      <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
            alt="Bloomingdale"/>
@@ -154,3 +520,20 @@
            alt="Mobile Health Center"/></map>	
     </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="/js_serve/jQueryRotate.js"></script>
+<script>
+$(document).ready(function(){
+   $(".tab-bar").click(function(){
+       var $tab = $(this);
+       var $arrow = $tab.children(".drop-arrow").children("img:first")
+       var rotationAngle = $arrow.getRotateAngle();
+       if(rotationAngle == 0){
+         $arrow.rotate( {animateTo:90});
+       }else{
+         $arrow.rotate( {animateTo:0});
+       }
+       $tab.next(".tab-box-container").slideToggle("slow");
+    });
+});
+</script>

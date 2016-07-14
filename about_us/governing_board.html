@@ -1,16 +1,53 @@
 <!doctype html>
+<head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//valleyprohealth.org/stats/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
+</script>
+<!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
+</head>
 <div id="mastheadbox">
   <img src="/images/masterhead_test.png" 
     alt="Valley Professionals Community Health Center" width="1366" 
     height="141" border="0" align="top" usemap="#logoMap" />		
     <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>																
+    href="/" /></map>														
     <div id="navlinks">
       <div id="about" class="dropdown">
-        <button class="dropbtn">About Us</button>
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
@@ -20,18 +57,18 @@
         </div>
       </div>
       <div id="locations" class="dropdown">
-        <button class="dropbtn">Locations</button>
+        <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
         <a href="/terre_haute/">Terre Haute</a>
-        <a href="/msbhc/">Mobile Health Center</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </div>
       <div id="services" class="dropdown">
-        <button class="dropbtn">Services</button>
+        <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
         <a href="/services/dental.html">Dental</a>
@@ -40,143 +77,116 @@
         </div>
       </div>
       <div id="resources" class="dropdown">
-        <button class="dropbtn">Resources</button>
+        <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a href="/contact_us/faqs.html">New Patients</a>
+        <a href="/resources/patient_resources.html">Patient Resources</a>
         <a href="/resources/forms/">Forms</a>
         </div>
       </div>
       <div id="contact" class="dropdown">
-        <button class="dropbtn">Contact Us</button>
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-        <a href="/contact_us/faqs.html">FAQs</a>
+            <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
       </div>
     </div>
 </div>
 <div id="masterbox">
-<p id="page-title">Governing Board</p>
-</br>
-<div id="board-descript">
- <p>VPCHC has a governing board which consists of members of the local community who are also patients to the clinic. These individuals are passionate about bringing healthcare for all those in need.</p>
-</div>
- <div id="location-providers-section">
-    <table class="team-table">
-      <p id="physicians" class="section-title">Board Officers</p>
-      <hr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Greg Harbison</p>
-      <p class="team-table-title">Board President</p>
-      </div> 
-      </td> 
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Jon Beardsley</p>
-      <p class="team-table-title">Board Vice President</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Ronda Foster</p>
-      <p class="team-table-title">Board Secretary</p>
-      </div> 
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Thom Frantz</p>
-      <p class="team-table-title">Board Treasurer</p>
-      </div> 
-      </td>
-      </tr>
-    </table>
-    <table class="team-table">
-      <p id="physicians" class="section-title">Board Members</p>
-      <hr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Lisa Taylor-Franke</p>
-      </div> 
-      </td> 
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Diana Carole Hart</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Amy Newlin</p>
-      </div> 
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Brooke Hawkins</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Jackie Mathis</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Michael Miller</p>
-      </div> 
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Mary Jo Harney</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Yale Yager</p>
-      </div> 
-      </td>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Jeff Williamson</p>
-      </div> 
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <div class="team-table-person">
-      <img src="/images/team_person_test.png" alt="Team Pic"/>
-      <p class="team-table-name">Gary Cowan</p>
-      </div> 
-      </td>
-      </tr>
-    </table>
+  <p id="page-title">Governing Board</p>
+  <div id="tab-content">
+    <div id="board-descript">
+      <p>Valley Professionals Community Health Center has a governing board which consists of active and diverse community members that oversee the development of the mission, vision, and values of our clinic. These individuals are passionate about providing resources to the community and bringing healthcare services to all who are in need.</p>
+    </div>
+    <p class="section-large-title">Board Officers</p>
+    <hr>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Greg Harbison</p>
+          <div class="tab-loc-small"><p class="tab-loc-small">Board President</p></div>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Jon Beardsley</p>
+          <div class="tab-loc-small"><p class="tab-loc-small">Board Vice President</p></div>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Ronda Foster</p>
+          <div class="tab-loc-small"><p class="tab-loc-small">Board Secretary</p></div>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Thomas Frantz</p>
+          <div class="tab-loc-small"><p class="tab-loc-small">Board Treasurer</p></div>
+        </div>
+      </div>
+      </br>
+    <p class="section-large-title">Board Members</p>
+    <hr>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Lisa Taylor-Franke</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Diana Carole Hart</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Amy Newlin</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Brooke Hawkins</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Jackie Mathis</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Michael Miller</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Mary Jo Harney</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Yale Yager</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Jeff Williamson</p>
+        </div>
+      </div>
+      <div class="tab-person">
+        <div class="tab-bar tab-name-large team-admin">
+          <p class="tab-name">Gary Cowan</p>
+        </div>
+      </div>
+      </br>
   </div>
 </div>
 <div id="masterfoot">
     
     <div id="foot">
    <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="70" border="0" usemap="#locationMap"/>
+    height="80" border="0" usemap="#locationMap"/>
    <map name="locationMap">
      <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
            alt="Bloomingdale"/>

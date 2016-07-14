@@ -28,7 +28,6 @@ $mainresult = $conn->query($mainsql);
 $flagresult = $conn->query($flagcheck);
 $mainrow = $mainresult->fetch_assoc();
 $flagsection = $flagresult->fetch_assoc();
-
 //Opens the file that is used to store the results of the query
 if(!$busAppScheduleFile = fopen("../info/bus_app_schedule.html", "w+")){
     echo 'Unsuccessful appfile open...' . '<br>';
@@ -67,6 +66,11 @@ if ($flagsection[flag] == 1) {
     '<div id="subend">' . $subrow[end_time] . '</div>';
     if(!fwrite($busWebScheduleFile, $subtxt)){
         echo 'Unsuccessful sub write in webfile...' . '<br>';
+    }
+} else {
+    $maintxt = '<div id="flag">0</div>';
+    if(!fwrite($busWebScheduleFile, $maintxt)){
+      echo 'Unsuccessful main write in webfile...' . '<br>';
     }
 }
 
