@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
 <link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
@@ -33,20 +34,19 @@
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript><p><a href="http://www.dugwood.com/clickheat/index.html">ClickHeat</a></p></noscript><script type="text/javascript">
+<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript></noscript><script type="text/javascript">
 clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
 </script>
 <!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
-<div id="mastheadbox">
-  <img src="/images/masterhead_test.png" 
-    alt="Valley Professionals Community Health Center" width="1366" 
-    height="141" border="0" align="top" usemap="#logoMap" />		
-    <map name="logoMap"><area shape="rect" coords="22,16,595,105" 
-    href="/" /></map>														
-    <div id="navlinks">
-      <div id="about" class="dropdown">
+<body>
+<header>
+  <div id="head-wrap">
+    <img id="header-img" src="/images/header.png" alt="Valley Professionals Community Health Center"  usemap="#logoMap" />		
+    <map name="logoMap"><area shape="rect" coords="22,16,595,105" href="/" alt="Valley Professionals Community Health Center"/></map>				
+    <ul id="navlinks">
+      <li id="about" class="dropdown">
         <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.html">Providers & Team</a>
@@ -55,8 +55,8 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/about_us/news_&_events.html">News & Events</a>
         <a href="/archive/">Archive</a>
         </div>
-      </div>
-      <div id="locations" class="dropdown">
+      </li>
+      <li id="locations" class="dropdown">
         <a href="/locations/index.html"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
@@ -66,8 +66,8 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/terre_haute/">Terre Haute</a>
         <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
-      </div>
-      <div id="services" class="dropdown">
+      </li>
+      <li id="services" class="dropdown">
         <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
@@ -75,8 +75,8 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/services/behavioral_health.html">Behavioral Health</a>
         <a href="/services/patient_support.html">Patient Support</a>
         </div>
-      </div>
-      <div id="resources" class="dropdown">
+      </li>
+      <li id="resources" class="dropdown">
         <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
@@ -84,71 +84,66 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/resources/patient_resources.html">Patient Resources</a>
         <a href="/resources/forms/">Forms</a>
         </div>
-      </div>
-      <div id="contact" class="dropdown">
+      </li>
+      <li id="contact" class="dropdown">
         <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
             <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
         <a href="/contact_us/careers/">Careers</a>
         </div>
-      </div>
+      </li>
+    </ul>
+  </div>
+</header>
+<main id="masterbox-no-top">
+  <div id="banner">
+    <div id="banner-left">
+    <img id="banner-pic" src="/images/news&events_banner.png" alt="News&Events Banner"/>
     </div>
-</div>
-<div id="masterbox-no-top">
-  <div id="location-top">
-    <div id="location-top-left">
-    <img id="location-pic" src="/images/news&events_banner.png" alt="News&Events Banner"/>
-    </br>
-    </div>
-    <div id="location-top-right">
-      <p id="banner-title" class="vpchcgreen">News & Events</p>
+    <div id="banner-right">
+      <h1 id="banner-title" class="vpchcgreen">News & Events</h1>
     </div>
   </div>
-  </br>
   <div id="share">
-    <p class="news-title vpchcblue">Social Feeds</p>
+    <h2 class="news-title vpchcblue">Social Feeds</h2>
     <div id="twitter">
       <div id="twitter-feed">
-        </br>
-      <a class="twitter-timeline" href="https://twitter.com/ValleyProHealth" data-widget-id="738731610237849600"
-       data-chrome="noheader nofooter noborders" data-tweet-limit="1"></a>
+      <a class="twitter-timeline" href="https://twitter.com/ValleyProHealth" data-widget-id="738731610237849600" data-chrome="noheader nofooter noborders" data-tweet-limit="1"></a>
       </div>
     </div>
     <div class="share-button">
     <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/ValleyProHealth">Follow @ValleyProHealth</a>
     </div>
-  </br>
-  <div id="facebook">
+    <div id="facebook">
       <div id="facebook-feed">
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVPCHC&tabs=timeline&width=550&height=950&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="550" height="950" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVPCHC&tabs=timeline&width=550&height=950&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="550" height="950" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
+    </div>
+     <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
   </div>
-  <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
- </div>
- <div id="events">
-    <p class="news-title vpchcblue">Upcoming Events</p>
+  <div id="events">
+    <h2 class="news-title vpchcblue">Upcoming Events</h2>
     <div id="events-container">
-    <img src="/images/block_party_2016.png" alt="Block Party"/>
-    <div class="green-rectangle"></div>
-    <div id="upcoming-events">
-      <p class="upcoming-events-title">Find us at these events:</p>
-      <p class="upcoming-events-section">Vigo County Fair - July 10-15</p>
-      <p class="upcoming-events-section">Fountain County Fair - July 12</p>
-      <p class="upcoming-events-section">Summer Children's Program Finale Clinton - July 21</p>
-      <p class="upcoming-events-section">Parke County Fair - July 28</p>
-      <p class="upcoming-events-section">National Night Out - August 2</p>
-      <p class="upcoming-events-section">M.S. Walk at St. Mary of the Woods - September 17</p>
-      <p class="upcoming-events-section">Open enrollment begins - November 1</p>
-      <p class="upcoming-events-section">Last day to sign up for Marketplace insurance to get coverage Jan. 1 - December 15</p>
-      <p class="upcoming-events-section">Last day to sign up for Marketplace insurance to get coverage Feb. 1 - January 15</p>
-      <p class="upcoming-events-section">Open enrollment ends - January 31 2017</p>
-    </div>
-    <div class="blue-rectangle"></div>
-    </div>
+      <img src="/images/block_party_2016.jpg" alt="Block Party"/>
+      <div class="green-rectangle"></div>
+      <div id="upcoming-events">
+        <p class="upcoming-events-title">Find us at these events:</p>
+        <p class="upcoming-events-section">Vigo County Fair - July 10-15</p>
+        <p class="upcoming-events-section">Fountain County Fair - July 12</p>
+        <p class="upcoming-events-section">Summer Children's Program Finale Clinton - July 21</p>
+        <p class="upcoming-events-section">Parke County Fair - July 28</p>
+        <p class="upcoming-events-section">National Night Out - August 2</p>
+        <p class="upcoming-events-section">M.S. Walk at St. Mary of the Woods - September 17</p>
+        <p class="upcoming-events-section">Open enrollment begins - November 1</p>
+        <p class="upcoming-events-section">Last day to sign up for Marketplace insurance to get coverage Jan. 1 - December 15</p>
+        <p class="upcoming-events-section">Last day to sign up for Marketplace insurance to get coverage Feb. 1 - January 15</p>
+        <p class="upcoming-events-section">Open enrollment ends - January 31 2017</p>
+      </div>
+      <div class="blue-rectangle"></div>
+   </div>
  </div>
  <div id="news">
-   <p class="news-title">News Articles</p>
-     </br>
+   <h2 class="news-title">News Articles</h2>
    <div class="news-article">
      <p class="news-article-title">May 11, 2016 - Capital Funding to Increase Access to Patient Care</p>
      <p class="news-article-preview">Valley Professionals Community Health Center was recently awarded $1 million in funding for facility renovation, expansion, or construction, and will utilize funds for expansion of its Clinton health center located in Vermillion County.</p>
@@ -168,26 +163,20 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
        <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
    </div>
  </div>
-</br>
-</div>
-<div id="masterfoot">
-    
-    <div id="foot">
-   <img src="/images/subhead.png" alt="Locations" width="1366" 
-    height="80" border="0" usemap="#locationMap"/>
-   <map name="locationMap">
-     <area shape="rect" coords="45,30,245,65" href="/bloomingdale/"
-           alt="Bloomingdale"/>
-     <area shape="rect" coords="283,30,392,65" href="/cayuga/" 
-           alt="Cayuga"/>
-     <area shape="rect" coords="432,30,537,65" href="/clinton/" 
-           alt="Clinton"/>	
-     <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" 
-           alt="Crawfordsville"/>
-     <area shape="rect" coords="815,30,987,65" href="/terre_haute/" 
-           alt="TerreHaute"/>
-    <area shape="rect" coords="1025,30,1325,65" href="/msbhc/" 
-           alt="Mobile Health Center"/></map>	
-    </div>
-</div>
+</main>
+<footer>
+  <div id="foot-wrap">
+  <img id="foot-img" src="/images/footer.png" alt="Location Links" usemap="#locationMap"/>
+  <map name="locationMap">
+    <area shape="rect" coords="45,30,245,65" href="/bloomingdale/" alt="Bloomingdale"/>
+    <area shape="rect" coords="283,30,392,65" href="/cayuga/" alt="Cayuga"/>
+    <area shape="rect" coords="432,30,537,65" href="/clinton/" alt="Clinton"/>	
+    <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" alt="Crawfordsville"/>
+    <area shape="rect" coords="815,30,987,65" href="/terre_haute/" alt="TerreHaute"/>
+    <area shape="rect" coords="1025,30,1325,65" href="/msbhc/" alt="Mobile Health Center"/>
+  </map>
+  </div>
+</footer>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</body>
+</html>
