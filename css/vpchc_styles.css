@@ -140,7 +140,7 @@
 
 #quote {
     margin: 80px auto;
-    width: 660px;
+    width: 720px;
     
     font-size: 25px;
     font-family: "Georgia", Times, serif;
@@ -149,8 +149,8 @@
     display: inline-block;
     zoom:1;
     *display:inline;
-    
-    margin: 19px 0 0 30px;
+
+    margin: 35px 0 0 50px;
     height: 140px;
     width: 540px;
     
@@ -160,13 +160,14 @@
     float: left;
     
     height: 50px; 
+
     
     font-size: 104px;
 }
 .large-quote-right {
     float: right;
-    
-    margin-top: 110px;
+
+    margin: 121px 20px 0 0;
     height: 50px; 
     
     font-size: 104px;
@@ -213,6 +214,7 @@ footer {
     position: relative;
     left:0;
     right:0;
+    
     background: url(/images/footergutter.png) repeat-x;
 }
 #foot-wrap {

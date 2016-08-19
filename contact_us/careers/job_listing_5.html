@@ -96,80 +96,62 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
     </ul>
   </div>
 </header>
-<main id="masterbox-no-top">
-  <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic" src="/images/MSBHCanimation.png" alt="MSBHC Banner Pic"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Mobile School-Based Health Center</h1>
-    </div>
-  </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Contact Info</p>
-      <p class="location-hours">(765) 592-6164</p>
-      <p class="location-hours location-hours-three">mobile@vpchc.org</p>
-      <li>Established in August 2012</li>
-      <li>Sees an estimated <span>1,417</span> patients annually</li>
-      <li>Sees an estimated <span>2,520</span> visits annually</li>
-    </div>
-    <div id="location-info-right">
-      <div id="bus-tracker" class="banner-section-left">
-        <div id="bus-tracker-title">Where is the Mobile Health Center?</div>
-        <div id="bus-tracker-info">
-          <p>Location:</p>
-          <p>Hours:</p>
-          <p>Status:</p>
+<main id="masterbox">
+  <h1>Job Opportunities</h1>
+  <h2>Financial Specialist</h2>
+  <div class="careers-listing">
+    <p>Valley Professionals Community Health Center is looking to hire a Financial Specialist for it's Clinton location.</p>
+    <p>Duties:</p>
+    <li>Completing Prior-Authorizations</li>
+    <li>Entering Clinic Billings</li>
+    <li>Posting Payments</li>
+    <li>Filing Claims to Medicaid and Private Insurance and Serving as a Financial Counselor to Patients</li>
+    <p>Requirements:</p>
+    <li>Associates degree in medical reimbursement.</li>
+    <p>or</p>
+    <li>One year experience in medical billing and coding.</li>
+    <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
+    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+    <input type="hidden" value="job_listing_5.html" name="referer">
+    <div id="onsub">
+      <div id="onsub-title">Online Submission</div>
+      <div id="onsub-box">
+        <div class="onsub-field">
+          <label for="first_name">First Name <span >*</span></label>     
+          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
         </div>
-        <div id="bus-tracker-data">
-          <p id="bus-location" class="bus-tracker-data-section"></p>
-          <p id="bus-hours" class="bus-tracker-data-section"></p>
-          <div id="bus-tracker-data-status-section">
-            <div id="bus-tracker-data-status-section-sub">
-              <img id="bus-status-icon" src="" alt="Status Icon"/>
-              <p id="bus-status" class="bus-tracker-data-section-status"></p>
-            </div>
+        <div class="onsub-field">
+          <label for="last_name">Last Name <span >*</span></label>     
+          <input id="last_name" type="text" name="lastname" style="width:80%;">
+        </div>
+        <div class="onsub-field">
+          <label for="email">Email <span >*</span></label>     
+          <input id="email" type="text" name="email" style="width:80%;">
+        </div>
+        <div class="onsub-field">
+          <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
+          <input type="file" name="resume" id="resume" style="width:80%;">
+          <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
+        </div>
+        <input type="hidden" name="subject" value="Financial Specialist">
+        <input type="text" name="address" id ="form_address"> 
+        <div id="onsub-foot">
+          <div id="onsub-foot-left">
+            <span id="form-status">* required</span>
+          </div>
+          <div id="onsub-foot-right">
+            <input id="onsub-submit" type="submit" value="Submit" name="gonebabygone" class="vpchcbutton">
           </div>
         </div>
-        <a href="/files/schedule/msbhc_schedule_fall_2016.pdf"><button class="vpchcbutton">Download Schedule</button></a>
       </div>
     </div>
-  </div>
-  <h2>Services Provided At This Clinic</h2>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/behavioral_health.html"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.html"><div class="services-provided-section three-sections">
-    <p>Medical</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.html"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
-      <tr> 
-        <td><p class="team-table-name">Nicole Cook, FNP-C</p></td> 
-        <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
-      </tr>
-      <tr>
-        <td><p class="team-table-name">Heather Woods, LMHCA</p></td>
-      </tr>
-    </table>
+    </form>
   </div>
 </main>
 <footer>
   <div id="foot-wrap">
   <img id="foot-img" src="/images/footer.png" alt="Location Links" usemap="#locationMap"/>
-  <map name="locationMap">
+  <map name="locationMap"> 
     <area shape="rect" coords="45,30,245,65" href="/bloomingdale/" alt="Bloomingdale"/>
     <area shape="rect" coords="283,30,392,65" href="/cayuga/" alt="Cayuga"/>
     <area shape="rect" coords="432,30,537,65" href="/clinton/" alt="Clinton"/>	
@@ -179,7 +161,13 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
   </map>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="/scripts/vpchc_bus_3.5.14.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+    document.getElementById('resumeup').onload = function() {
+        var iframe = document.getElementById("resumeup");
+        var iframe_contents = iframe.contentDocument.body.innerHTML;
+        document.getElementById("form-status").innerHTML = iframe_contents;
+    }
+</script>
 </body>
 </html>
