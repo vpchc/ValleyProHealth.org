@@ -17,6 +17,14 @@ $dayNumber = date("z") + 1;
 //Used to change between locations for the day
 $inc = 1;
 
+//Opens the file that is used to store the results of the query
+if(!$busAppScheduleFile = fopen("../info/bus_app_schedule.html", "w+")){
+  echo 'Unsuccessful appfile open...' . '<br>';
+}
+if(!$busWebScheduleFile = fopen("../info/bus_web_schedule.html", "w+")){
+  echo 'Unsuccessful webfile open...' . '<br>';
+}
+
 while(1){
   $busTable = "bus_schedule" . $inc;
   //Query for location of the bus for the current day.
@@ -30,16 +38,8 @@ while(1){
   $scheduleRow = $scheduleResult->fetch_assoc();
   $flagSection = $flagResult->fetch_assoc();
       
-  //Opens the file that is used to store the results of the query
-  if(!$busAppScheduleFile = fopen("../info/bus_app_schedule.html", "w+")){
-    echo 'Unsuccessful appfile open...' . '<br>';
-  }
-  if(!$busWebScheduleFile = fopen("../info/bus_web_schedule.html", "w+")){
-    echo 'Unsuccessful webfile open...' . '<br>';
-  }
-      
   //Writes the location to the appfile in /info directory
-  $scheduleTxt = $scheduleRow[location] . ',' . $scheduleRow[hours] . ',' . $scheduleRow[start_time] . ',' . $scheduleRow[end_time];
+  $scheduleTxt = $scheduleRow[location] . ',' . $scheduleRow[hours] . ',' . $scheduleRow[start_time] . ',' . $scheduleRow[end_time] . ',' . $flagSection[flag];
   $scheduleTxt = $scheduleTxt . "\n";
   if(!fwrite($busAppScheduleFile, $scheduleTxt)){
     echo 'Unsuccessful main write in appfile...' . '<br>';

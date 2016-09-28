@@ -64,7 +64,7 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
-        <a href="/terre_haute/">Terre Haute</a>
+        <a href="/terrehaute">Terre Haute</a>
         <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </li>
@@ -72,7 +72,7 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.html">Medical</a>
-        <a href="/services/dental.html">Dental</a>
+        <a href="/dental">Dental</a>
         <a href="/services/behavioral_health.html">Behavioral Health</a>
         <a href="/services/patient_support.html">Patient Support</a>
         </div>
@@ -90,84 +90,85 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
         <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
             <a href="/contact_us/faqs.html">Frequently </br>Asked Questions</a>
-        <a href="/contact_us/careers/">Careers</a>
+        <a href="/careers">Careers</a>
         </div>
       </li>
     </ul>
   </div>
 </header>
-<main id="masterbox">
-  <h1>Job Opportunities</h1>
-  <h2>Financial Specialist</h2>
-  <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a Financial Specialist for it's Clinton location.</p>
-    <p>Duties:</p>
-    <li>Completing Prior-Authorizations</li>
-    <li>Entering Clinic Billings</li>
-    <li>Posting Payments</li>
-    <li>Filing Claims to Medicaid and Private Insurance and Serving as a Financial Counselor to Patients</li>
-    <p>Requirements:</p>
-    <li>Associates degree in medical reimbursement.</li>
-    <p>or</p>
-    <li>One year experience in medical billing and coding.</li>
-    <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
-    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_5.html" name="referer">
-    <div id="onsub">
-      <div id="onsub-title">Online Submission</div>
-      <div id="onsub-box">
-        <div class="onsub-field">
-          <label for="first_name">First Name <span >*</span></label>     
-          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
-        </div>
-        <div class="onsub-field">
-          <label for="last_name">Last Name <span >*</span></label>     
-          <input id="last_name" type="text" name="lastname" style="width:80%;">
-        </div>
-        <div class="onsub-field">
-          <label for="email">Email <span >*</span></label>     
-          <input id="email" type="text" name="email" style="width:80%;">
-        </div>
-        <div class="onsub-field">
-          <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
-          <input type="file" name="resume" id="resume" style="width:80%;">
-          <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
-        </div>
-        <input type="hidden" name="subject" value="Financial Specialist">
-        <input type="text" name="address" id ="form_address"> 
-        <div id="onsub-foot">
-          <div id="onsub-foot-left">
-            <span id="form-status">* required</span>
-          </div>
-          <div id="onsub-foot-right">
-            <input id="onsub-submit" type="submit" value="Submit" name="gonebabygone" class="vpchcbutton">
-          </div>
-        </div>
-      </div>
+<main id="masterbox-no-top">
+  <div id="banner">
+    <div id="banner-left">
+    <img id="banner-pic" src="/images/terre_haute_location_banner.png" alt="Terre Haute"/>
+    </br>
     </div>
-    </form>
+    <div id="banner-right">
+      <h1 id="banner-title" class="vpchcgreen">Terre Haute</h1>
+    </div>
+  </div>
+  <div id="location-info">
+    <div id="location-info-left">
+      <p id="location-hour-title">Hours</p>
+      <p class="location-hours">Monday - Wednesday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Thursday: 8:30 a.m. - 5:00 p.m.</p>
+      <p class="location-hours location-hours-three">Friday: 8:00 a.m. - 4:30 p.m.</p>
+      <li>Established in June 2015</li>
+      <li>Sees an estimated <span>8,960</span> patients annually</li>
+      <li>Sees an estimated <span>23,000</span> visits annually</li>
+    </div>
+    <div id="location-info-right">
+      <p class="location-contact">1530 N 7th Street, Suite 201</p>
+      <p class="location-contact">Terre Haute, IN 47807</p>
+      <p class="location-contact">(812) 238-7631</p>
+      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=1530%20North%207th%20Street%2C%20Suite%20201%20Terre%20Haute%2C%20IN%2047807&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+    </div>
+  </div>
+  <h2>Services Provided At This Clinic</h2>
+  <hr>
+  <div id="services-provided">
+    <a href="/services/behavioral_health.html"><div class="services-provided-section three-sections">
+    <p>Behavioral Health</p>
+    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
+    </div></a>
+    <a href="/services/medical.html"><div class="services-provided-section three-sections">
+    <p>Medical</p>
+    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
+    </div></a>
+    <a href="/services/patient_support.html"><div class="services-provided-section three-sections">
+    <p>Patient Support</p>
+    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
+    </div></a>
+  </div>
+  <h2>Providers Currently Seeing Patients At This Clinic</h2>
+  <hr>
+  <div id="location-providers-section">
+    <table class="team-table">
+      <tr>
+        <td><p class="team-table-name">Leslie Batty, FNP-C</p></td> 
+        <td><p class="team-table-name">Beth Fields, FNP-C</p></td>
+      </tr>
+      <tr>
+        <td><p class="team-table-name">Sara Ritter, LCSW</p></td>
+        <td><p class="team-table-name">Lacey Skwortz, LCSW</p> </td> 
+      </tr>
+      <tr>
+        <td><p class="team-table-name">Paul Taraska, MD</p></td>
+      </tr>
+    </table>
   </div>
 </main>
 <footer>
   <div id="foot-wrap">
   <img id="foot-img" src="/images/footer.png" alt="Location Links" usemap="#locationMap"/>
-  <map name="locationMap"> 
+  <map name="locationMap">
     <area shape="rect" coords="45,30,245,65" href="/bloomingdale/" alt="Bloomingdale"/>
     <area shape="rect" coords="283,30,392,65" href="/cayuga/" alt="Cayuga"/>
     <area shape="rect" coords="432,30,537,65" href="/clinton/" alt="Clinton"/>	
     <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" alt="Crawfordsville"/>
-    <area shape="rect" coords="815,30,987,65" href="/terre_haute/" alt="TerreHaute"/>
+    <area shape="rect" coords="815,30,987,65" href="/terrehaute" alt="TerreHaute"/>
     <area shape="rect" coords="1025,30,1325,65" href="/mobile/" alt="Mobile Health Center"/>
   </map>
   </div>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script type="text/javascript">
-    document.getElementById('resumeup').onload = function() {
-        var iframe = document.getElementById("resumeup");
-        var iframe_contents = iframe.contentDocument.body.innerHTML;
-        document.getElementById("form-status").innerHTML = iframe_contents;
-    }
-</script>
 </body>
 </html>
