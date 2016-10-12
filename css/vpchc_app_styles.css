@@ -1,0 +1,39 @@
+/* ----------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ----------------------*/
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 70vh;
+    width: 100%;
+    margin: 0px;
+    
+    background-color: #258f71;
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.description{
+    font-size: 4.00em
+}
+
+#logo {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+#androidlink {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+#ioslink {
+    width: 40%;
+    height: auto;
+    float: right;
+}
+a {
+    font-size: 1.50em
+}

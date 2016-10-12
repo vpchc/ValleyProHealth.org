@@ -296,7 +296,7 @@ footer {
 .dropdown:hover .dropbtn { background-color: #3e8e41;}
 #about.dropdown:hover .dropdown-content { height: 268px;}
 #locations.dropdown:hover .dropdown-content { height: 325px;}
-#services.dropdown:hover .dropdown-content { height: 218px;}
+#services.dropdown:hover .dropdown-content { height: 268px;}
 #resources.dropdown:hover .dropdown-content { height: 218px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
 

@@ -7,7 +7,7 @@
 */
 
 $(document).ready(function(){
-  function busTrackerTimeCheck($startTime, $endTime, $flag){
+  function busTrackerTimeCheck($startTime, $endTime, $flag, $first){
   /*
     Arguments:   startTime (The Bus start time)
                  endTime (The Bus end time)
@@ -31,24 +31,24 @@ $(document).ready(function(){
         var $compareStart = 0;
         var $compareEnd = 0;
     //Create a useable current time date method
-      $splitTime = new Date();
-      $year = $splitTime.getYear();
-      $month = $splitTime.getMonth();
-      $day = $splitTime.getDate();
-      $hour = $splitTime.getHours();
-      $min = $splitTime.getMinutes();
+      $splitTime   = new Date();
+      $year        = $splitTime.getYear();
+      $month       = $splitTime.getMonth();
+      $day         = $splitTime.getDate();
+      $hour        = $splitTime.getHours();
+      $min         = $splitTime.getMinutes();
       $currentTime = new Date($year, $month, $day, $hour, $min);
 
     //Split the start time and create a useable bus start time date method		 
-      $splitTime = $startTime.toString().split(":");
-      $hour = $splitTime[0];
-      $min = $splitTime[1];
+      $splitTime    = $startTime.toString().split(":");
+      $hour         = $splitTime[0];
+      $min          = $splitTime[1];
       $busStartTime = new Date($year, $month, $day, $hour, $min);
 
     //Split the end time and create a useable bus end time date method	  
-      $splitTime = $endTime.toString().split(":");
-      $hour = $splitTime[0];
-      $min = $splitTime[1];
+      $splitTime  = $endTime.toString().split(":");
+      $hour       = $splitTime[0];
+      $min        = $splitTime[1];
       $busEndTime = new Date($year, $month, $day, $hour, $min);  
       
       $compareStart = $busStartTime - $currentTime;
@@ -58,7 +58,7 @@ $(document).ready(function(){
       if($compareEnd <= 1.8e6 & $compareEnd > 0){
         return 4;
       }else if($compareStart <= 1.8e6 & $compareStart > 0){
-        if($flag == 1){
+        if($flag == 1 & $first != 0){
           return 3;
         }else{ 
           return 2;
@@ -103,22 +103,23 @@ $(document).ready(function(){
   var $flag = 0;
   var $status = 0;
   var $inc = 1;
-  
+  var $first = 0;
+    
   while(1){
       busScheduleGrab($inc);
       
       //Check the times for the first location and store the status.
-      $status = busTrackerTimeCheck($busStart, $busEnd, $flag);
-      
-      //If it the current location is open or there are no other locations left
-      if($status == 1 || $flag == 0){
+      $status = busTrackerTimeCheck($busStart, $busEnd, $flag, $first);
+      //If it the status for the current location is not closed or there are no other locations left
+      if($status != 0 || $flag == 0){
           break;
       }
+      $first++;
       $inc++;
   }
-  //Display the main-location
+  //Display the location
   $( "#bus-location" ).load("/info/bus_web_schedule.html #location" + $inc);
-  //Display the main-hours
+  //Display the hours
   $( "#bus-hours" ).load("/info/bus_web_schedule.html #hours" + $inc);
   // Display the status
   if($status === 1){
