@@ -119,7 +119,7 @@
 }
 .explain-p, 
   #explain-content li {
-    font-size: 28px;
+    font-size: 16px;
     font-family: "Georgia", Times, serif;
 }
 .explain-p { margin-left: 20px;}
@@ -167,7 +167,7 @@
 .large-quote-right {
     float: right;
 
-    margin: 121px 20px 0 0;
+    margin: 181px 40px 0 0;
     height: 50px; 
     
     font-size: 104px;
@@ -1060,7 +1060,7 @@ h3 {
 #location-info-left li {
     margin: 40px 0;
     
-    font-size: 28px;
+    font-size: 16px;
     font-weight: bold;
     font-family: "Franklin Gothic Demi", Times, serif;
     

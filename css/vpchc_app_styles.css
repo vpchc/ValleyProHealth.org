@@ -1,25 +1,33 @@
 /* ----------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ----------------------*/
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box;}
 body {
-    height: 70vh;
     width: 100%;
     margin: 0px;
-    
     background-color: #258f71;
+}
+footer{
+    clear: both;
+}
+#footerlink{
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1.50em;
+    text-decoration: underline;
 }
 p {
     text-align: center;
     color: white;
     font-family: "Franklin Gothic Medium", Times, serif;
 }
-.description{
-    font-size: 4.00em
-}
-
+.description{ font-size: 4.00em}
 #logo {
     width: 80%;
+    vertical-align: bottom;
+}
+#phone {
+    width: 45%;
+}
+img {
     height: auto;
     margin: auto;
     display: block;
@@ -33,7 +41,4 @@ p {
     width: 40%;
     height: auto;
     float: right;
-}
-a {
-    font-size: 1.50em
 }

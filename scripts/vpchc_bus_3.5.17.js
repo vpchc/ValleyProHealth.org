@@ -7,7 +7,7 @@
 */
 
 $(document).ready(function(){
-  function busTrackerTimeCheck($startTime, $endTime, $flag, $first){
+  function busTrackerTimeCheck($startTime, $endTime, $flag, $count){
   /*
     Arguments:   startTime (The Bus start time)
                  endTime (The Bus end time)
@@ -57,12 +57,10 @@ $(document).ready(function(){
     //Where the comparing happens
       if($compareEnd <= 1.8e6 & $compareEnd > 0){
         return 4;
-      }else if($compareStart <= 1.8e6 & $compareStart > 0){
-        if($flag == 1 & $first != 0){
-          return 3;
-        }else{ 
-          return 2;
-        }
+      }else if($count > 0 & $compareStart > 1.8e6){
+        return 3;
+      }else if($compareStart < 1.8e6 & $compareStart > 0){ 
+        return 2;
       }else if($compareStart <= 0 & $compareEnd > 0){
         return 1;
       }else{
@@ -103,13 +101,13 @@ $(document).ready(function(){
   var $flag = 0;
   var $status = 0;
   var $inc = 1;
-  var $first = 0;
+  var $count = 0;
     
   while(1){
       busScheduleGrab($inc);
       
       //Check the times for the first location and store the status.
-      $status = busTrackerTimeCheck($busStart, $busEnd, $flag, $first);
+      $status = busTrackerTimeCheck($busStart, $busEnd, $flag, $count);
       //If it the status for the current location is not closed or there are no other locations left
       if($status != 0 || $flag == 0){
           break;
