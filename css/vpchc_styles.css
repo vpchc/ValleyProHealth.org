@@ -672,14 +672,14 @@ h3 {
   #Careers
 \*------------------------------------*/
 
-#careers-list  {
+.careers-listing  {
     margin: 10px auto 50px auto;
     
     width: 1000px;
 }
-#careers-list li {
-    font-size: 30px;
-    font-family: "Franklin Gothic Book", Times, serif;
+.careers-listing li {
+    font-size: 16px;
+    font-family: "Georgia", Times, serif;
 }
 .careers-listing {
     margin: 50px auto 0 auto;
@@ -1024,13 +1024,22 @@ h3 {
   #Home
 \*------------------------------------*/
 
-#slideshow { 
-    position: relative; 
-   
+
+.fullscreen-bg__video {
+    position: absolute;
+
     height: 428px; 
     width: 1366px; 
 }
-#slideshow > div { position: absolute; }
+
+#slideshow { 
+    position: relative; 
+ 
+    margin: auto;
+    height: 428px; 
+    width: 1366px; 
+}
+
 
 /*------------------------------------*\
   #Locations

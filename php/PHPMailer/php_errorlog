@@ -1,0 +1,15 @@
+[23-May-2016 17:02:10 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauthgoogle.php on line 54
+[27-May-2016 01:02:58 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 27
+[07-Jun-2016 20:45:18 CST6CDT] PHP Parse error:  syntax error, unexpected T_USE, expecting T_FUNCTION in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 37
+[07-Jul-2016 13:19:38 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18
+[07-Jul-2016 13:42:23 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[11-Aug-2016 00:11:57 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18
+[11-Aug-2016 01:34:00 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[29-Aug-2016 09:12:12 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[31-Aug-2016 12:18:03 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18
+[31-Aug-2016 20:18:09 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18
+[02-Sep-2016 23:30:48 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[12-Oct-2016 07:29:25 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18
+[14-Oct-2016 00:20:32 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[12-Jan-2017 02:51:45 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/valleyp1/public_html/php/PHPMailer/class.phpmaileroauth.php on line 26
+[16-Jan-2017 11:02:04 CST6CDT] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/get_oauth_token.php on line 18

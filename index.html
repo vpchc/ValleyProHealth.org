@@ -27,6 +27,7 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="google-site-verification" content="3HI8hXSS6f73yfDQ7uLGY7ki6G0WPpDotkNuT_BfxnQ" />
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -39,9 +40,6 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
-</script>
-<script type="text/javascript" src="https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/js/clickheat.js"></script><noscript></noscript><script type="text/javascript">
-clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https://valleyprohealth.org/stats/piwik/plugins/ClickHeat/libs/click.php';initClickHeat(); //
 </script>
 <!-- End Piwik Code -->
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
@@ -104,21 +102,9 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
 </header>
 <main id="masterbox-home">
   <div id="slideshow">
-   <div>
-     <img src="/images/homepage_slideshow1.png">
-   </div>
-   <div>
-     <img src="/images/homepage_slideshow2.png">
-   </div>
-   <div>
-     <img src="/images/homepage_slideshow3.png">
-   </div>
-   <div>
-     <img src="/images/homepage_slideshow4.png">
-   </div>
-   <div>
-     <img src="/images/homepage_slideshow5.png">
-   </div>
+   <video loop muted autoplay class="fullscreen-bg__video">
+        <source src="/video/homepage_welcome.mp4" type="video/mp4">
+    </video>
   </div>
 </main>
 <footer>
@@ -135,7 +121,6 @@ clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+w
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script type="text/javascript" src="/scripts/vpchc_slideshow.js"></script>
 <script type="text/javascript">
   if (screen.width <= 800){
     var cookies = document.cookie;

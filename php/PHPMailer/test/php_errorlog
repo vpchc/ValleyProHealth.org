@@ -1,0 +1,9 @@
+[01-Jun-2016 05:50:44 CST6CDT] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/valleyp1/public_html/php/PHPMailer/test/phpmailerLangTest.php on line 23
+[09-Jun-2016 13:27:50 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php53/pear') in /home/valleyp1/public_html/php/PHPMailer/test/bootstrap.php on line 2
+[10-Jun-2016 04:32:52 CST6CDT] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/valleyp1/public_html/php/PHPMailer/test/phpmailerTest.php on line 23
+[10-Jun-2016 14:20:02 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php53/pear') in /home/valleyp1/public_html/php/PHPMailer/test/bootstrap.php on line 2
+[11-Jun-2016 05:04:17 CST6CDT] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/valleyp1/public_html/php/PHPMailer/test/phpmailerTest.php on line 23
+[07-Jul-2016 21:37:42 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/test/bootstrap.php on line 2
+[07-Jul-2016 21:54:14 CST6CDT] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/valleyp1/public_html/php/PHPMailer/test/phpmailerTest.php on line 22
+[07-Jul-2016 22:02:30 CST6CDT] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/valleyp1/public_html/php/PHPMailer/test/phpmailerLangTest.php on line 22
+[09-Sep-2016 04:35:27 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php70/pear') in /home/valleyp1/public_html/php/PHPMailer/test/bootstrap.php on line 2
