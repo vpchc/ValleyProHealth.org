@@ -186,7 +186,7 @@
 #masterbox {
     position: relative;
     margin: 50px auto 50px auto;
-	width: 1360px;
+	width: 1366px;
 }
 #masterbox-no-top {
     margin: 0 auto 50px auto;
@@ -337,7 +337,7 @@ footer { position: relative;}
 #resources.dropdown:hover .dropdown-content { height: 218px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
 
-
+/*----Mobile----*/
 #navlinks-mobile {
     display: none;
     
@@ -428,64 +428,59 @@ footer { position: relative;}
 \*------------------------------------*/
 
 #tab-content { width: 1000px;}
-.tab-board { margin-left: 225px;}
-.tab-team { margin-left: 300px;}
 .tab { margin-top: 10px;}
 .tab-bar { height: 75px;}
-.tab-box-container { display: none;}
-.tab-bar p {
-    float: left;
-    margin: 10px 0 0 10px;
+.tab-box { 
+    display: none;
     
-    color: white;
-    font-family: "Franklin Gothic Medium", Times, serif;
+    height: 35px;
+    padding: 5px 0 15px 10px;
 }
-.tab-name-tiny {
-    width: 700px;
-    
-    font-size: 25px;
-}
-.tab-name-small { font-size: 40px;}
-.tab-name-large { font-size: 45px;}
-.tab-bar img { margin-top: 10px;}
 .drop-arrow {
     float: right;
+    
+    margin-top: 10px;
     
     height: 60px;
     width: 80px;
 }
-.tab th { width: 895px;}
-.tab table, 
-  .tab th { border: 3px solid #70b244;}
-.tab-details {
+.tab-box {
+    border-right: 5px solid #70b244;
+    border-bottom: 5px solid #70b244;
+    border-left: 5px solid #70b244;
+}
+
+/*----Providers&Team----*/
+.tab-team { margin-left: 300px;}
+.team-ps { background: #70b244;}
+.team-admin { background: #258f71;}
+.tab-prov {
+    background: #3a4e8c;
+    
+    cursor: pointer;
+}
+.tab-box-title {
     float: left;
     
-    width: 645px;
-}
-.tab-details p {
-    float: left;
+    margin-top: 5px;
     
-    text-align: left;
-}
-.tab-title {
-    margin: 10px 0 0 15px;
-    
-    width: 580px;
-    
-    font-size: 40px;
+    font-size: 33px;
+    font-weight: 600;
     color: #3a4e8c;
 }
-.tab-bio {
-    display: none;
+.tab-box-location {
+    float: right;
     
-    margin: 50px 0 0 15px;
-    width: 630px;
+    margin: 12px 15px 0 0;
     
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 200%;
-    font-family: Times, serif;
+    font-size: 24px;
+    font-family: "Georgia", Times, serif;
+    text-align: right;
 }
+/*----Board----*/
+.tab-board { margin-left: 225px;}
+
+/*----FAQs----*/
 .tab-answer {
     margin-left:5px;
     padding: 5px;
@@ -494,6 +489,21 @@ footer { position: relative;}
     text-align: left;
     font-family: "Georgia", Times, serif;
 }
+
+.tab-bar p {
+    float: left;
+    margin: 10px 0 0 10px;
+    
+    color: white;
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+}
+.tab-name-tiny {
+    width: 700px;
+    
+    font-size: 25px;
+}
+.tab-name-small { font-size: 40px;}
+.tab-name-large { font-size: 45px;}
 .tab-loc { width: 645px;}
 .tab-loc p {
     margin: 50px 0 10px 15px;
@@ -517,22 +527,8 @@ footer { position: relative;}
     
     font-size: 33px;
 }
-.tab-pic {
-    display: none;
-    float: right;  
-    
-    padding: 10px;
-    
-    height: 260px;
-    width: 215px;
-}
-.tab-prov {
-    background: #3a4e8c;
-    
-    cursor: pointer;
-}
-.team-ps { background: #70b244;}
-.team-admin { background: #258f71;}
+
+
 
 /*------------------------------------*\
   #Titles
@@ -1368,7 +1364,7 @@ h3 {
             #Media Queries
 \*------------------------------------*/
 
-@media only screen and (max-width: 1365px) {
+@media only screen and (max-width: 1382px) {
     /*------------------------------------*\
       #Main Containers
     \*------------------------------------*/
@@ -1381,6 +1377,10 @@ h3 {
     #head-wrap {
         height: 100px;
         width: 1083px;
+    }
+    #masterbox {
+        margin: 50px auto 50px auto;
+        width: 1200px;
     }
     
     /*------------------------------------*\
@@ -1410,6 +1410,27 @@ h3 {
     #services.dropdown:hover .dropdown-content { height: 252px;}
     #resources.dropdown:hover .dropdown-content { height: 201px;}
     #contact.dropdown:hover .dropdown-content { height: 100px;}
+    
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { width: 900px;}
+    .tab-box { 
+        display: none;
+
+        height: 35px;
+        padding: 5px 0 15px 10px;
+    }
+    /*----Providers&Team----*/
+    .tab-team { margin-left: 300px;}
+
+    .tab-box-title { font-size: 30px;}
+    .tab-box-location {
+        margin-top: 14px;
+
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 1082px) {
     /*------------------------------------*\

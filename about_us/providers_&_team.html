@@ -41,8 +41,10 @@
 <body>
 <header>
   <div id="head-wrap">
-    <img id="header-img" src="/images/header.png" alt="Valley Professionals Community Health Center"  usemap="#logoMap" />		
-    <map name="logoMap"><area shape="rect" coords="22,16,595,105" href="/" alt="Valley Professionals Community Health Center"/></map>				
+    <div id="head-img-container">
+      <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
+    </div>
+    <div id="navlinks-container">
     <ul id="navlinks">
       <li id="about" class="dropdown">
         <a href="/about_us/"><button class="dropbtn">About Us</button></a>
@@ -92,9 +94,57 @@
         </div>
       </li>
     </ul>
+    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
+  </div>
+  <div id="header-bluebar"></div>
+  <div id="navlinks-mobile">
+      <div class="navlinks-mobile-section"><p>About Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/about_us/">About Us</a>
+          <a href="/about_us/providers_&_team.html">Providers & Team</a>
+          <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
+          <a href="/about_us/governing_board.html">Governing Board</a>
+          <a href="/about_us/news_&_events.html">News & Events</a>
+          <a href="/archive/">Archive</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Locations</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/locations/">Locations</a>
+          <a href="/bloomingdale/">Bloomingdale</a>
+          <a href="/cayuga/">Cayuga</a>
+          <a href="/clinton/">Clinton</a>
+          <a ref="/crawfordsville/">Crawfordsville</a>
+          <a href="/terrehaute">Terre Haute</a>
+          <a href="/mobile/">Mobile Health Center</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Services</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/services/">Services</a>
+          <a href="/services/medical.html">Medical</a>
+          <a href="/dental">Dental</a>
+          <a href="/services/behavioral_health.html">Behavioral Health</a>
+          <a href="/services/patient_support.html">Patient Support</a>
+          <a href="/services/extended_hours.html">Extended Hours</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Resources</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/resources/">Resources</a>
+          <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+          <a href="/contact_us/faqs.html">New Patients</a>
+          <a href="/resources/patient_resources.html">Patient Resources</a>
+          <a href="/resources/forms/">Forms</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/contact_us/">Contact Us</a>
+          <a href="/contact_us/faqs.html">Frequently Asked Questions</a>
+          <a href="/careers">Careers</a>
+        </div>
   </div>
 </header>
-<div id="sidebar" class="large-sidebar">
+<main id="masterbox">
+  <div id="sidebar" class="large-sidebar">
     <a href="/about_us/providers_&_team.html#physicians"><button class="sidebar-section large-bar vpchcbutton roundtop">Physicians</button></a>
     <a href="/about_us/providers_&_team.html#nps"><button class="sidebar-section large-bar vpchcbutton">Nurse Practitioners</button></a>
     <a href="/about_us/providers_&_team.html#bh"><button class="sidebar-section large-bar vpchcbutton">Behavioral Health</button></a>
@@ -103,166 +153,81 @@
     <a href="/about_us/providers_&_team.html#patcare"><button class="sidebar-section large-bar vpchcbutton">Patient Care Coord.</button></a>
     <a href="/about_us/providers_&_team.html#directors"><button class="sidebar-section large-bar vpchcbutton">Directors</button></a>
     <a href="/about_us/providers_&_team.html#siteman"><button class="sidebar-section large-bar vpchcbutton roundbottom">Site Managers</button></a>
-</div>
-<main id="masterbox">
+  </div>
   <h1>Providers & Team</h1>
   <div id="tab-content" class="tab-team">
     <h3 id="physicians">Physicians</h3>
     <hr>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Aziz Abed, MD, MPH</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Aziz Abed, MD, MPH</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Physician</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/abed.jpg" alt="Aziz Abed"/>
-          </div>
-          </th></tr>
-        </table>
-        </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Bing Gale, MD</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Physician</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Cayuga</p><ul><li>Clinton</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/gale.jpg" alt="Bing Gale"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Physician</p>
+        <p class="tab-box-location">Clinton</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Do S. Hwang, MD</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Bing Gale, MD</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Physician</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Crawfordsville</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/hwang.jpg" alt="Do S. Hwang"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Physician</p>
+        <p class="tab-box-location">Cayuga/Clinton</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-small">Union Hospital Family Medicine Residency</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Do S. Hwang, MD</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title" style="display:none">Physician</p>
-          <p class="tab-bio" style="display:block;margin:0 0 0 10px;width:860px">Valley Professionals partners with the Union Hospital Family Medicine Residency Program, through care of Valley Professionals patients at our Terre Haute health center. Patients will see physicians in training, known as residents. These physicians are learning the art and science of family medicine under the guidance and supervision of experienced, board-certified family medicine physicians. The Union Hospital Family Medicine Residency exists to educate and prepare physicians to provide full-spectrum family medicine. By working together, physicians of the Union Hospital Family Medicine Residency Program are able to engage with Valley Professionals' patients and provide valuable hands-on patient care experiences.</p>
-          </div>
-          <div class="tab-loc">
-            <p><a href="http://www.uhfmr.org">Visit the residency website.</a></p>
-          </div>
-          <img class="tab-pic" style="display:none" src="/images/tab_person_test.png" alt="tab Pic"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Physician</p>
+        <p class="tab-box-location">Crawfordsville</p> 
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-small">Union Hospital Family Medicine Residency</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title"><a href="http://www.uhfmr.org">Visit the residency website.</a></p>
+        <p class="tab-box-location">Terre Haute</p> 
       </div>
     </div>
     <h3 id="nps">Nurse Practitioners</h3>
     <hr>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Beth Fields, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Beth Fields, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Terre Haute</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/fields.jpg" alt="Beth Fields"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Terre Haute</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Brandi Larson, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Brandi Larson, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/larson.jpg" alt="Brandi Larson"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Clinton</p> 
       </div>
-    </div>
+    </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Christi Busenbark, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Christi Busenbark, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/busenbark.jpg" alt="Christi Busenbark"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Bloomingdale</p> 
       </div>
     </div>
     <div class="tab">
@@ -270,489 +235,225 @@
         <p class="tab-name tab-name-large">Gretchen Blevins, FNP-C</p>
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/blevins.jpg" alt="Gretchen Blevins"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Clinton</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Gwyndolen Morson, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Gwyndolen Morson, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Crawfordsville</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/morson.jpg" alt="Gwen Morson"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Crawfordsville</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Leslie Batty, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Leslie Batty, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Terre Haute</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/batty.jpg" alt="Leslie Batty"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Terre Haute</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Louwanna Wallace, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Louwanna Wallace, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/wallace.jpg" alt="Louwanna Wallace"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Bloomingdale</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Nicole Cook, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Nicole Cook, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>MSBHC</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/cook.jpg" alt="Nicole Cook"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">MSBHC</p> 
       </div>
-    </div>
+    </div>  
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Nicole Hall, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Nicole Hall, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/cook.jpg" alt="Nicole Hall"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Bloomingdale</p> 
       </div>
-    </div>
+    </div>  
+    <div class="tab">
+       <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Renae Norman, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Cayuga/Mobile Health Center</p> 
+      </div>
+    </div>  
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Renae Norman, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Tammy Mundy, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Cayuga</p><ul><li>Mobile Health Center</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/norman.jpg" alt="Renae Norman"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+        <p class="tab-box-location">Bloomingdale/Clinton</p> 
       </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Tammy Mundy, FNP-C</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Certified Family Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p><ul><li>Clinton</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/mundy.jpg" alt="Tammy Mundy"/>
-          </div>
-          </th></tr>
-        </table>
-      </div>
-    </div>
+    </div> 
     <h3 id="bh">Behavioral Health</h3>
     <hr>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Paul Taraska, MD</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Paul Taraska, MD</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Psychiatrist</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p><ul><li>Clinton</li><li>Crawfordsville</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/taraska.jpg" alt="Paul Taraska"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Psychiatrist</p>
+        <p class="tab-box-location">Bloomingdale/Clinton/Crawfordsville</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Julia Wernz, PhD, HSPP</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Julia Wernz, PhD, HSPP</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Director of Behavioral Health</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/wernz.jpg" alt="Julia Wernz"/>
-          </div>
-          </th></tr>
-        </table>
-        </div>
-    </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Director of Behavioral Health</p>
+        <p class="tab-box-location">Clinton</p> 
+      </div>
+    </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Johnathan Detwiler, MS</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Johnathan Detwiler, MS</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Mental Health Counselor</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Cayuga</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/detwiler.jpg" alt="Johnathan Detwiler"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Mental Health Counselor</p>
+        <p class="tab-box-location">Cayuga</p> 
       </div>
-    </div>
+    </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Linda Lonneman, LCSW</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Linda Lonneman, LCSW</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Clinical Social Worker</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/lonneman.jpg" alt="Linda Lonneman"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Clinical Social Worker</p>
+        <p class="tab-box-location">Clinton</p> 
       </div>
-    </div>
+    </div>   
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">David McIntyre, LCAC</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">David McIntyre, LCAC</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Clinical Addictions Coordinator</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/mcintyre.jpg" alt="David McIntyre"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Clinical Addictions Coordinator</p>
+        <p class="tab-box-location">Clinton</p> 
+      </div>
+    </div> 
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Megan Neitling, LMHCA</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+        <p class="tab-box-location">Bloomingdale</p> 
+      </div>
+    </div>   
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Sara Ritter, LCSW</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Clinical Social Worker</p>
+        <p class="tab-box-location">Terre Haute</p> 
+      </div>
+    </div>   
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Keith Seegers, LCSW</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Clinical Social Worker</p>
+        <p class="tab-box-location">Crawfordsville</p> 
+      </div>
+    </div>  
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Lacey Skwortz, LCSW</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Clinical Social Worker</p>
+        <p class="tab-box-location">Terre Haute</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Megan Neitling, LMHCA</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Mental Health Counselor Associates</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/neitling.jpg" alt="Megan Neitling"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+        <p class="tab-box-location">Crawfordsville</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Sara Ritter, LCSW</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Lisa Tincher, PMHNP</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Clinical Social Worker</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Terre Haute</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/seegers.jpg" alt="Keith Seegers"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Psychiatric-Mental Health Nurse Practitioner</p>
+        <p class="tab-box-location">Cayuga/Clinton/Terre Haute</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Keith Seegers, LCSW</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Heather Woods, LMHCA</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Clinical Social Worker</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Crawfordsville</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/seegers.jpg" alt="Keith Seegers"/>
-          </div>
-          </th></tr>
-        </table>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Lacey Skwortz, LCSW</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Clinical Social Worker</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Terre Haute</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/seegers.jpg" alt="Keith Seegers"/>
-          </div>
-          </th></tr>
-        </table>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Mental Health Counselor Associates</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Crawfordsville</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/tinkle.jpg" alt="Dana Tinkle"/>
-          </div>
-          </th></tr>
-        </table>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Lisa Tincher, PMHNP</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Psychiatric-Mental Health Nurse Practitioner</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Cayuga</p><ul><li>Clinton</li><li>Terre Haute</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/tincher.jpg" alt="Lisa Tincher"/>
-          </div>
-          </th></tr>
-        </table>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Heather Woods, LMHCA</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Licensed Mental Health Counselor Associates</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Clinton</p><ul><li>MSBHC</li></ul>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/woods.jpg" alt="Heather Woods"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+        <p class="tab-box-location">Clinton/MSBHC</p> 
       </div>
     </div>
     <h3 id="dental">Dental</h3>
     <hr>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Nichole Barnett, DDS</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Nichole Barnett, DDS</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Dentist</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Cayuga</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/abed.jpg" alt="Aziz Abed"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Dental</p>
+        <p class="tab-box-location">Cayuga</p> 
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-      <p class="tab-name tab-name-large">Dr. Dane Mishler, DDS</p>
-      <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+        <p class="tab-name tab-name-large">Dr. Dane Mishler, DDS</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box-container">
-        <table class="tab-box">
-          <tr><th>
-          <div class="tab-details-wrapper">
-          <div class="tab-details">
-          <p class="tab-title">Dentist</p>
-          <p class="tab-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
-          <div class="tab-loc">
-          <p>Bloomingdale</p>
-          </div>
-          </div>
-          <img class="tab-pic" src="/images/providers/gale.jpg" alt="Bing Gale"/>
-          </div>
-          </th></tr>
-        </table>
+      <div class="tab-box">
+        <p class="tab-box-title">Dental</p>
+        <p class="tab-box-location">Bloomingdale</p> 
       </div>
-    </div>
+    </div> 
     <h3 id="chw">Community Health Workers</h3>
     <hr>
     <div class="tab">
@@ -896,50 +597,31 @@
   </div>
 </main>
 <footer>
-  <div id="foot-wrap">
-  <img id="foot-img" src="/images/footer.png" alt="Location Links" usemap="#locationMap"/>
-  <map name="locationMap">
-    <area shape="rect" coords="45,30,245,65" href="/bloomingdale/" alt="Bloomingdale"/>
-    <area shape="rect" coords="283,30,392,65" href="/cayuga/" alt="Cayuga"/>
-    <area shape="rect" coords="432,30,537,65" href="/clinton/" alt="Clinton"/>	
-    <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" alt="Crawfordsville"/>
-    <area shape="rect" coords="815,30,987,65" href="/terrehaute" alt="TerreHaute"/>
-    <area shape="rect" coords="1025,30,1325,65" href="/mobile/" alt="Mobile Health Center"/>
-  </map>
+  <div id="footer-greenbar"></div>
+  <div class="footer-section">
+    <a href="/bloomingdale/"><p>Bloomingdale</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/cayuga/"><p>Cayuga</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/clinton/"><p>Clinton</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/crawfordsville/"><p>Crawfordsville</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/terrehaute/"><p>Terre Haute</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/mobile/"><p>Mobile Health Center</p></a>
+  </div>
+  <div id="footer-disclaimer" class="vpchcgrey">
+    <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="/js_serve/jQueryRotate.js"></script>
-<script>
-(function(window){
-  /* A full compatability script from MDN: */
-  var supportPageOffset = window.pageXOffset !== undefined;
-  var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
-  /* Set up some variables  */
-  var staffsidebar = document.getElementById("sidebar");
-  /* Add an event to the window.onscroll event */
-  window.addEventListener("scroll", function(e) {   
-    /* A full compatability script from MDN for gathering the x and y values of scroll: */
-    var x = supportPageOffset ? window.pageXOffset : isCSS1Compat ? document.documentElement.scrollLeft : document.body.scrollLeft;
-    var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-    staffsidebar.style.left = -x  + "px";
-  });
-})(window);
-</script>
-<script>
-$(document).ready(function(){
-   $(".tab-bar").click(function(){
-       var $tab = $(this);
-       var $arrow = $tab.children(".drop-arrow").children("img:first")
-       var rotationAngle = $arrow.getRotateAngle();
-       if(rotationAngle == 0){
-         $arrow.rotate( {animateTo:90});
-       }else{
-         $arrow.rotate( {animateTo:0});
-       }
-       $tab.next(".tab-box-container").slideToggle("slow");
-    });
-});
-</script>
+<script src="/scripts/jQueryRotate.js"></script>
+<script src="/scripts/vpchc_tab.js"></script>
 </body>
 </html>
