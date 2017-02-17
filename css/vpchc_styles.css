@@ -83,6 +83,7 @@
 
 .vpchcblue { color: #3a4e8c;}
 .vpchcgreen { color: #70b244;}
+.vpchcgrey { color: #258f71;}
 .blue-rectangle, 
   .green-rectangle {
     margin: 10px 0;
@@ -185,64 +186,99 @@
 #masterbox {
     position: relative;
     margin: 50px auto 50px auto;
-	width: 1366px;
+	width: 1360px;
 }
 #masterbox-no-top {
     margin: 0 auto 50px auto;
     width: 1366px;
 }
 #masterbox-home {
-    margin: 0 auto;
-    width: 1366px;
+    height: auto;
+    width: 100%;
+    
+    font-size: 0;
 }
-header {
-    position: relative;
-    left:0;
-    right:0;
-    background: url(/images/headergutter.png) repeat-x;
-}
+header { position: relative;}
 #head-wrap {
     position: relative;
+    
     margin: 0 auto;
     width: 1366px;
     height: 141px;
+}
+#head-img-container {
+    display: inline-block;
+    
+    margin-top: 10px;
+    height: auto;
+    width: 55%;
 }
 #header-img {
-    height: 141px;
-}
-footer { 
-    position: relative;
-    left:0;
-    right:0;
+    display: block;
     
-    background: url(/images/footergutter.png) repeat-x;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    
+    cursor: pointer;
 }
-#foot-wrap {
+#header-bluebar{
+    height: 20px;
+    width: 100%;
+    
+    background: #3a4e8c;
+}
+footer { position: relative;}
+#footer-greenbar{
+    margin-bottom: 10px;
+    height: 20px;
+    
+    background: #70b244;
+}
+.footer-section {
+    float: left;
+    width: 16.6666%;
+}
+.footer-section a{
+    color: black;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-decoration: none;
+}
+#footer-disclaimer{
     position: relative;
-    margin: 0 auto;
-    width: 1366px;
+    clear: both;
 }
-#foot-img { 
-    margin: 0 auto;
-    height: 80px;
+#footer-disclaimer p{
+    text-align: center;
+    font-size: 12px;
 }
+
 /*------------------------------------*\
   #Navlinks
 \*------------------------------------*/
-
+#navlinks-container{
+    display: inline-block;
+    position: relative;
+    float: right;
+    
+    height: 100%;
+    width: 45%;
+}
 #navlinks {
 	position: absolute;
     
-    width: 645px;
-	top: 84px;
-	right: 80px;
+    bottom: 0;
+    height: auto;
+    width: 100%;
     
 	color: #3a2d02;
     
     z-index: 1;
     list-style-type: none;
 }
-
 .dropbtn {
     padding: 12px;
     
@@ -286,6 +322,7 @@ footer {
     color: black;
     font-family: "Franklin Gothic Medium", Times, serif;;
     text-decoration: none;
+    font-size: 16px;
   
     transition: all .5s ease;
 }
@@ -299,6 +336,58 @@ footer {
 #services.dropdown:hover .dropdown-content { height: 268px;}
 #resources.dropdown:hover .dropdown-content { height: 218px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
+
+
+#navlinks-mobile {
+    display: none;
+    
+    height: 100vh;
+
+    overflow-y: auto;
+}
+#navlinks-mobile-icon{
+    display: none;
+    
+    margin: 0 auto;
+    height: 20px;
+    
+    cursor: pointer;
+}
+.nalinks-mobile-section { display: block;}
+.navlinks-mobile-section, .navlinks-mobile-subsection {
+    padding: 15px;
+    border-bottom: 1px solid #70b244;
+}
+.navlinks-mobile-section p {
+    display: inline-block;
+   
+    font-size: 20px;
+}
+.navlinks-mobile-section p, .navlinks-mobile-subsection a {
+    display: inline-block;
+    color: black;
+
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+    text-decoration: none;
+}
+.navlinks-mobile-section span {
+    display: inline-block;
+    
+    float: right;
+    
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", Verdana, serif;
+    font-weight: 600;
+    text-align: right;
+}
+.navlinks-mobile-subsection { display: none;}
+.navlinks-mobile-subsection a {
+    display: block;
+    
+    padding-bottom: 15px;
+    
+    font-size: 15px;
+}
 
 /*------------------------------------*\
   #Sidebars
@@ -338,7 +427,7 @@ footer {
   #Tab
 \*------------------------------------*/
 
-#tab-content { width: 900px;}
+#tab-content { width: 1000px;}
 .tab-board { margin-left: 225px;}
 .tab-team { margin-left: 300px;}
 .tab { margin-top: 10px;}
@@ -966,7 +1055,7 @@ h3 {
 
 #history {
     margin: 30px auto 0 auto;
-    height: 1500px;
+    height: 1575px;
     width: 600px;
     
     background: url(/images/timeline_bg.gif) repeat-y center top; 
@@ -1024,22 +1113,18 @@ h3 {
   #Home
 \*------------------------------------*/
 
-
-.fullscreen-bg__video {
-    position: absolute;
-
-    height: 428px; 
-    width: 1366px; 
-}
-
 #slideshow { 
     position: relative; 
  
-    margin: auto;
-    height: 428px; 
-    width: 1366px; 
+    width: 100%; 
 }
+.homescreen-video{
+    position: relative;
 
+    height: auto; 
+    width: 100%; 
+}
+#mobileshow { display: none;}
 
 /*------------------------------------*\
   #Locations
@@ -1277,5 +1362,155 @@ h3 {
     margin-right: 125px;
     
     font-size: 50px;
+}
+
+/*------------------------------------*\
+            #Media Queries
+\*------------------------------------*/
+
+@media only screen and (max-width: 1365px) {
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+
+    #head-img-container {
+        margin-top: 10px;
+        width: 45%;
+    } 
+    #header-img { width: 90%;}
+    #head-wrap {
+        height: 100px;
+        width: 1083px;
+    }
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    #navlinks-container{ width: 55%;}
+    .dropbtn {
+        padding: 12px;
+        
+        font-size: 18px;
+    }
+    .dropdown { padding-right: 10px;}
+    .dropdown-content {
+        min-width: 140px;
+        
+        border-radius: 0 2px 7px 7px;
+        box-shadow: 0 2px 2px #ddd;
+    }
+    .dropdown-content a {
+        padding: 10px 15px;
+        height: 30px;
+        
+        font-size: 14px;
+    }
+    #about.dropdown:hover .dropdown-content { height: 252px;}
+    #locations.dropdown:hover .dropdown-content { height: 301px;}
+    #services.dropdown:hover .dropdown-content { height: 252px;}
+    #resources.dropdown:hover .dropdown-content { height: 201px;}
+    #contact.dropdown:hover .dropdown-content { height: 100px;}
+}
+@media only screen and (max-width: 1082px) {
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+    #head-wrap { width: 801px;}
+    #head-img-container {
+        margin-top: 20px;
+        width: 35%;
+    } 
+    #header-img { width: 90%;}
+    #footer-section-last{ width: 100%;}
+    .footer-section a{ font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    #navlinks-container{ width: 65%;}
+    .dropbtn { font-size: 15px;}
+    .footer-section {
+        margin-bottom: 20px;
+        width: 33.3%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+    header {
+        position: fixed;
+        
+        width: 100%;
+        
+        background: white;
+        z-index: 1;
+    }
+    #head-wrap {
+        position: relative;
+
+        height: 50px;
+        width: 100%;
+    }
+    #head-img-container {
+        margin-top: 8px;
+        margin-left: 5px;
+        width: 200px;
+    } 
+    #header-img { width: 100%;}
+    #masterbox-home { padding-top: 70px;}
+     .footer-section {
+        margin-bottom: 25px;
+        width: 50%;
+    }
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    #navlinks{ display: none;}
+    #navlinks-container{
+        margin-top: 15px;
+        margin-right: 20px;
+        
+        height: auto;
+        width: auto;
+    }
+    #navlinks-mobile-icon{ display: block;}
+    
+    /*------------------------------------*\
+      #Slideshow
+    \*------------------------------------*/
+    #slideshow { display: none;}
+    #mobileshow {
+        display: block;
+        position: relative;
+    }
+    #mobileshow img{
+        position: relative;
+        
+        height: auto;
+        width: 100%;
+        
+        z-index: -1;
+    }
+    #mobileshow-quote-container {
+        position: absolute;
+        
+        height: 100%;
+        width: 100%;
+    }
+    #mobileshow p {
+        position: absolute;
+        
+        bottom: 0;
+        margin-left: 15px;
+        margin-bottom: 25px;
+       
+        font-size: 9vw;
+        font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+    }
+    
+    
+   
 }
 /********|*********|*********|*********|*********|*********|*********|*********/
