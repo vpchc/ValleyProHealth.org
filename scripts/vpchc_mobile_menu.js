@@ -28,10 +28,12 @@ $(document).ready(function(){
     }
   }
     
-  function checkWidth() {//Hides the mobile menu when resizing the window to larger than 800px
+    
+  function checkWidth() {
     var windowsize = $window.width();
     if (windowsize > 800) {
-      $("#navlinks-mobile").hide();
+      $("#navlinks-mobile").hide();//Hides the mobile menu when resizing the window to larger than 800px
+      $("body").css({"overflow":"auto"});
     }
   }
 });

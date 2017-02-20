@@ -185,11 +185,11 @@
 }
 #masterbox {
     position: relative;
-    margin: 50px auto 50px auto;
-	width: 1366px;
+    margin: 0px auto 50px auto;
+	width: 1350px;
 }
 #masterbox-no-top {
-    margin: 0 auto 50px auto;
+    margin: 0px auto 50px auto;
     width: 1366px;
 }
 #masterbox-home {
@@ -203,7 +203,7 @@ header { position: relative;}
     position: relative;
     
     margin: 0 auto;
-    width: 1366px;
+    width: 1350px;
     height: 141px;
 }
 #head-img-container {
@@ -211,14 +211,14 @@ header { position: relative;}
     
     margin-top: 10px;
     height: auto;
-    width: 55%;
+    width: 50%;
 }
 #header-img {
     display: block;
     
     margin: auto;
     height: auto;
-    width: 80%;
+    width: 90%;
     
     cursor: pointer;
 }
@@ -265,7 +265,7 @@ footer { position: relative;}
     float: right;
     
     height: 100%;
-    width: 45%;
+    width: 50%;
 }
 #navlinks {
 	position: absolute;
@@ -430,12 +430,34 @@ footer { position: relative;}
 #tab-content { width: 1000px;}
 .tab { margin-top: 10px;}
 .tab-bar { height: 75px;}
-.tab-box { 
-    display: none;
-    
-    height: 35px;
-    padding: 5px 0 15px 10px;
+.tab-bar p {
+    color: white;
+    font-family: "Franklin Gothic Medium", Georgia, serif;
 }
+.tab-name, .tab-simple { 
+    float: left;
+}
+.tab-name {
+    margin: 15px 0 0 10px;
+    
+    font-size: 40px;
+}
+.tab-simple { 
+    display: block;
+    
+    margin: 10px;
+    width: 98%;
+    
+    font-size: 40px;
+}
+.tab-simple span{ 
+    float: right;
+    
+    margin-top: 15px;
+    
+    font-size: 25px;
+}
+
 .drop-arrow {
     float: right;
     
@@ -444,12 +466,16 @@ footer { position: relative;}
     height: 60px;
     width: 80px;
 }
-.tab-box {
+.tab-box { 
+    display: none;
+    
+    height: 35px;
+    padding: 5px 0 15px 10px;
+    
     border-right: 5px solid #70b244;
     border-bottom: 5px solid #70b244;
     border-left: 5px solid #70b244;
 }
-
 /*----Providers&Team----*/
 .tab-team { margin-left: 300px;}
 .team-ps { background: #70b244;}
@@ -478,7 +504,7 @@ footer { position: relative;}
     text-align: right;
 }
 /*----Board----*/
-.tab-board { margin-left: 225px;}
+.tab-board { margin: 0 auto;}
 
 /*----FAQs----*/
 .tab-answer {
@@ -489,46 +515,6 @@ footer { position: relative;}
     text-align: left;
     font-family: "Georgia", Times, serif;
 }
-
-.tab-bar p {
-    float: left;
-    margin: 10px 0 0 10px;
-    
-    color: white;
-    font-family: "Franklin Gothic Medium", Georgia, serif;
-}
-.tab-name-tiny {
-    width: 700px;
-    
-    font-size: 25px;
-}
-.tab-name-small { font-size: 40px;}
-.tab-name-large { font-size: 45px;}
-.tab-loc { width: 645px;}
-.tab-loc p {
-    margin: 50px 0 10px 15px;
-    
-    font-size: 25px;
-    font-weight: 100;
-}
-.tab-loc li {
-    float: left;
-    
-    margin: 50px 0 10px 35px;
-    
-    font-size: 25px;
-    text-align: left;
-    font-weight: 100;
-}
-.tab-loc-small p {
-    float: right;
-    
-    margin: 20px 20px 0 0;
-    
-    font-size: 33px;
-}
-
-
 
 /*------------------------------------*\
   #Titles
@@ -1041,7 +1027,7 @@ h3 {
 #board-descript > p {
     margin: 20px auto 0 auto;
 
-    font-size: 26px;
+    font-size: 14px;
     font-family: "Georgia", Times, serif;
 }
 
@@ -1364,7 +1350,8 @@ h3 {
             #Media Queries
 \*------------------------------------*/
 
-@media only screen and (max-width: 1382px) {
+@media only screen and (max-width: 1365px) {
+    
     /*------------------------------------*\
       #Main Containers
     \*------------------------------------*/
@@ -1376,16 +1363,14 @@ h3 {
     #header-img { width: 90%;}
     #head-wrap {
         height: 100px;
-        width: 1083px;
+        width: 1060px;
     }
-    #masterbox {
-        margin: 50px auto 50px auto;
-        width: 1200px;
-    }
+    #masterbox { width: 1060px;}
     
     /*------------------------------------*\
       #Navlinks
     \*------------------------------------*/
+    
     #navlinks-container{ width: 55%;}
     .dropbtn {
         padding: 12px;
@@ -1410,61 +1395,95 @@ h3 {
     #services.dropdown:hover .dropdown-content { height: 252px;}
     #resources.dropdown:hover .dropdown-content { height: 201px;}
     #contact.dropdown:hover .dropdown-content { height: 100px;}
+      
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    .sidebar-section.vpchcbutton {
+        padding: 10px;
+
+        font-size: 12px;
+    }
+  
+    /*----Large----*/
+    .large-bar.vpchcbutton { width: 130px;}
+    
     
     /*------------------------------------*\
       #Tab
     \*------------------------------------*/
 
-    #tab-content { width: 900px;}
+    #tab-content { width: 850px;}
+    .tab-box { 
+        height: 35px;
+        padding: 5px 0 15px 10px;
+    }
+    /*----Providers&Team----*/
+    .tab-team { margin-left: 180px;}
+}
+@media only screen and (max-width: 1082px) {
+    
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+    
+    #head-wrap { width: 784px;}
+    #head-img-container {
+        margin-top: 20px;
+        width: 35%;
+    } 
+    #header-img { width: 90%;}
+    #masterbox {width: 98%;}
+    .footer-section {
+        margin-bottom: 20px;
+        width: 33.3%;
+    }
+    #footer-section-last { width: 100%;}
+    .footer-section a{ font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    
+    #navlinks-container { width: 65%;}
+    .dropbtn { font-size: 15px;}
+    
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    #sidebar { display: none;}
+    
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { width: 100%;}
     .tab-box { 
         display: none;
 
         height: 35px;
         padding: 5px 0 15px 10px;
     }
+    .tab-name-small { font-size: 30px;}
+    .tab-loc-small p { font-size: 30px;}
     /*----Providers&Team----*/
-    .tab-team { margin-left: 300px;}
-
-    .tab-box-title { font-size: 30px;}
-    .tab-box-location {
-        margin-top: 14px;
-
-        font-size: 20px;
-    }
+    .tab-team { margin: 0 auto;}
+    
 }
-@media only screen and (max-width: 1082px) {
-    /*------------------------------------*\
-      #Main Containers
-    \*------------------------------------*/
-    #head-wrap { width: 801px;}
-    #head-img-container {
-        margin-top: 20px;
-        width: 35%;
-    } 
-    #header-img { width: 90%;}
-    #footer-section-last{ width: 100%;}
-    .footer-section a{ font-size: 20px;}
+@media only screen and (max-width: 799px) {
     
     /*------------------------------------*\
-      #Navlinks
-    \*------------------------------------*/
-    #navlinks-container{ width: 65%;}
-    .dropbtn { font-size: 15px;}
-    .footer-section {
-        margin-bottom: 20px;
-        width: 33.3%;
-    }
-}
-@media only screen and (max-width: 800px) {
-    /*------------------------------------*\
       #Main Containers
     \*------------------------------------*/
+    
     header {
         position: fixed;
         
         width: 100%;
         
         background: white;
+        
         z-index: 1;
     }
     #head-wrap {
@@ -1480,6 +1499,7 @@ h3 {
     } 
     #header-img { width: 100%;}
     #masterbox-home { padding-top: 70px;}
+    #masterbox{padding-top: 70px;}
      .footer-section {
         margin-bottom: 25px;
         width: 50%;
@@ -1488,7 +1508,9 @@ h3 {
     /*------------------------------------*\
       #Navlinks
     \*------------------------------------*/
+    
     #navlinks{ display: none;}
+  
     #navlinks-container{
         margin-top: 15px;
         margin-right: 20px;
@@ -1499,8 +1521,68 @@ h3 {
     #navlinks-mobile-icon{ display: block;}
     
     /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { width: 95%;}
+    .tab-box { 
+        display: block;
+        
+        height: 75px;
+        padding: 5px 0 15px 10px;
+    }
+    .drop-arrow { display: none;}
+    .tab-bar{ pointer-events: none;}
+    .tab-name  {
+        display: block;
+        
+        margin: 15px auto;
+        width: 100%;
+        
+        text-align: center;
+        font-size: 25px;
+    }
+    .tab-simple {
+        width: 100%;
+        
+        font-size: 25px;
+        text-align: center;
+    }
+    .tab-simple span{
+        display: block;
+        
+        margin-top: 0px;
+        width: 100%;
+        
+        font-size: 20px;
+        text-align: center;
+    }
+    /*----Providers&Team----*/
+    .tab-prov { cursor: default;}
+    
+    .tab-box-title, .tab-box-location{
+        display: block;
+        
+        margin: 5px auto;
+        width: 100%;
+        
+        text-align: center;
+    }
+    .tab-box-title { font-size: 20px;}
+    .tab-box-location { font-size: 15px;}
+
+    
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 35px;}
+    h3 {font-size: 30px;}
+    
+    /*------------------------------------*\
       #Slideshow
     \*------------------------------------*/
+    
     #slideshow { display: none;}
     #mobileshow {
         display: block;

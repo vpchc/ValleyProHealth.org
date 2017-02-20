@@ -21,7 +21,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -41,8 +42,10 @@
 <body>
 <header>
   <div id="head-wrap">
-    <img id="header-img" src="/images/header.png" alt="Valley Professionals Community Health Center"  usemap="#logoMap" />		
-    <map name="logoMap"><area shape="rect" coords="22,16,595,105" href="/" alt="Valley Professionals Community Health Center"/></map>				
+    <div id="head-img-container">
+      <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
+    </div>
+    <div id="navlinks-container">
     <ul id="navlinks">
       <li id="about" class="dropdown">
         <a href="/about_us/"><button class="dropbtn">About Us</button></a>
@@ -92,6 +95,53 @@
         </div>
       </li>
     </ul>
+    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
+  </div>
+  <div id="header-bluebar"></div>
+  <div id="navlinks-mobile">
+      <div class="navlinks-mobile-section"><p>About Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/about_us/">About Us</a>
+          <a href="/about_us/providers_&_team.html">Providers & Team</a>
+          <a href="/about_us/history_of_vpchc.html">History of VPCHC</a>
+          <a href="/about_us/governing_board.html">Governing Board</a>
+          <a href="/about_us/news_&_events.html">News & Events</a>
+          <a href="/archive/">Archive</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Locations</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/locations/">Locations</a>
+          <a href="/bloomingdale/">Bloomingdale</a>
+          <a href="/cayuga/">Cayuga</a>
+          <a href="/clinton/">Clinton</a>
+          <a ref="/crawfordsville/">Crawfordsville</a>
+          <a href="/terrehaute">Terre Haute</a>
+          <a href="/mobile/">Mobile Health Center</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Services</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/services/">Services</a>
+          <a href="/services/medical.html">Medical</a>
+          <a href="/dental">Dental</a>
+          <a href="/services/behavioral_health.html">Behavioral Health</a>
+          <a href="/services/patient_support.html">Patient Support</a>
+          <a href="/services/extended_hours.html">Extended Hours</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Resources</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/resources/">Resources</a>
+          <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+          <a href="/contact_us/faqs.html">New Patients</a>
+          <a href="/resources/patient_resources.html">Patient Resources</a>
+          <a href="/resources/forms/">Forms</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/contact_us/">Contact Us</a>
+          <a href="/contact_us/faqs.html">Frequently Asked Questions</a>
+          <a href="/careers">Careers</a>
+        </div>
   </div>
 </header>
 <main id="masterbox">
@@ -103,91 +153,100 @@
     <h3>Board Officers</h3>
     <hr>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Greg Harbison</p>
-          <div class="tab-loc-small"><p class="tab-loc-small">Board President</p></div>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Greg Harbison<span>Board President</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Jon Beardsley</p>
-          <div class="tab-loc-small"><p class="tab-loc-small">Board Vice President</p></div>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Jon Beardsley<span>Board Vice President</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Ronda Foster</p>
-          <div class="tab-loc-small"><p class="tab-loc-small">Board Secretary</p></div>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Ronda Foster<span>Board Secretary</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Thomas Frantz</p>
-          <div class="tab-loc-small"><p class="tab-loc-small">Board Treasurer</p></div>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Thomas Frantz<span>Board Treasurer</span></p>
         </div>
       </div>
       </br>
     <h3>Board Members</h3>
     <hr>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Lisa Taylor-Franke</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Lisa Taylor-Franke</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Diana Carole Hart</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Diana Carole Hart</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Amy Newlin</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Amy Newlin</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Jackie Mathis</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Jackie Mathis</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Michael Miller</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Michael Miller</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Mary Jo Harney</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Mary Jo Harney</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Yale Yager</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Yale Yager</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Jeff Williamson</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Jeff Williamson</p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar tab-name-large team-admin">
-          <p class="tab-name">Gary Cowan</p>
+        <div class="tab-bar team-admin">
+          <p class="tab-simple">Gary Cowan</p>
         </div>
       </div>
   </div>
 </main>
 <footer>
-  <div id="foot-wrap">
-  <img id="foot-img" src="/images/footer.png" alt="Location Links" usemap="#locationMap"/>
-  <map name="locationMap">
-    <area shape="rect" coords="45,30,245,65" href="/bloomingdale/" alt="Bloomingdale"/>
-    <area shape="rect" coords="283,30,392,65" href="/cayuga/" alt="Cayuga"/>
-    <area shape="rect" coords="432,30,537,65" href="/clinton/" alt="Clinton"/>	
-    <area shape="rect" coords="575,30,777,65" href="/crawfordsville/" alt="Crawfordsville"/>
-    <area shape="rect" coords="815,30,987,65" href="/terrehaute" alt="TerreHaute"/>
-    <area shape="rect" coords="1025,30,1325,65" href="/mobile/" alt="Mobile Health Center"/>
-  </map>
+  <div id="footer-greenbar"></div>
+  <div class="footer-section">
+    <a href="/bloomingdale/"><p>Bloomingdale</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/cayuga/"><p>Cayuga</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/clinton/"><p>Clinton</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/crawfordsville/"><p>Crawfordsville</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/terrehaute/"><p>Terre Haute</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/mobile/"><p>Mobile Health Center</p></a>
+  </div>
+  <div id="footer-disclaimer" class="vpchcgrey">
+    <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
   </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>
 </html>
