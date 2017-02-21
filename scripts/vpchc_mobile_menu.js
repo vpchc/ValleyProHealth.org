@@ -28,7 +28,6 @@ $(document).ready(function(){
     }
   }
     
-    
   function checkWidth() {
     var windowsize = $window.width();
     if (windowsize > 800) {

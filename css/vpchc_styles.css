@@ -33,18 +33,18 @@
     float: left;
     
     height: 172px;
-    width: 600px;
+    width: 50%;
     border-bottom: 5px dashed #70b244;
 }
 #banner-pic {
-    height: 162px;
-    width: 600px;
+    height: 95%;
+    width: 100%;
 }
 #banner-right {
     float: right;
     
     height: 180px;
-    width: 766px;
+    width: 50%;;
 }
 #banner-title {
     margin-top: 40px;
@@ -205,20 +205,22 @@ header { position: relative;}
     margin: 0 auto;
     width: 1350px;
     height: 141px;
+    
+    transition: all .5s ease 0s;
 }
 #head-img-container {
     display: inline-block;
     
-    margin-top: 10px;
+    margin-top: 30px;
     height: auto;
-    width: 50%;
+    width: 40%;
 }
 #header-img {
     display: block;
     
     margin: auto;
     height: auto;
-    width: 90%;
+    width: 95%;
     
     cursor: pointer;
 }
@@ -237,6 +239,7 @@ footer { position: relative;}
 }
 .footer-section {
     float: left;
+    
     width: 16.6666%;
 }
 .footer-section a{
@@ -259,20 +262,29 @@ footer { position: relative;}
 /*------------------------------------*\
   #Navlinks
 \*------------------------------------*/
+
 #navlinks-container{
     display: inline-block;
     position: relative;
     float: right;
     
     height: 100%;
-    width: 50%;
+    width: 60%;
+    transition: none;
 }
-#navlinks {
-	position: absolute;
+#navlinks-subcontainer {
+    position: absolute;
+    
+    width: 100%;
     
     bottom: 0;
-    height: auto;
-    width: 100%;
+}
+#navlinks {
+	position: relative;
+    
+    float: right;
+    
+    bottom: 0;
     
 	color: #3a2d02;
     
@@ -457,7 +469,6 @@ footer { position: relative;}
     
     font-size: 25px;
 }
-
 .drop-arrow {
     float: right;
     
@@ -469,12 +480,15 @@ footer { position: relative;}
 .tab-box { 
     display: none;
     
-    height: 35px;
-    padding: 5px 0 15px 10px;
+    height: auto;
+    padding: 10px;
     
     border-right: 5px solid #70b244;
     border-bottom: 5px solid #70b244;
     border-left: 5px solid #70b244;
+}
+.tab-box-team-height {
+    height: 35px;
 }
 /*----Providers&Team----*/
 .tab-team { margin-left: 300px;}
@@ -507,9 +521,16 @@ footer { position: relative;}
 .tab-board { margin: 0 auto;}
 
 /*----FAQs----*/
+.tab-question {
+    display: inline-block;
+    
+    margin: 10px 0 0 10px;
+    width: 700px;
+    
+    font-size: 25px;
+}
 .tab-answer {
-    margin-left:5px;
-    padding: 5px;
+    display: block;
     
     font-size: 20px;
     text-align: left;
@@ -1312,7 +1333,7 @@ h3 {
     *display:inline;
     
     height: 100px;
-    width: 300px;
+    width: 49%;
     
     border-radius: 25px;
     
@@ -1321,11 +1342,9 @@ h3 {
     font-weight: bold;
     font-family: "Georgia", Times, serif;
     color: #3a4e8c;
-   
-    transition: all .5s ease;
 }
 .services-provided-section:hover { background: #dbdeea;}
-.services-provided-section.four-sections { margin-left: 22px;}
+
 .services-provided-section.three-sections { margin-left: 105px;}
 .services-provided-section > img {
     height: 65px;
@@ -1357,8 +1376,7 @@ h3 {
     \*------------------------------------*/
 
     #head-img-container {
-        margin-top: 10px;
-        width: 45%;
+        margin-top: 20px;
     } 
     #header-img { width: 90%;}
     #head-wrap {
@@ -1371,7 +1389,6 @@ h3 {
       #Navlinks
     \*------------------------------------*/
     
-    #navlinks-container{ width: 55%;}
     .dropbtn {
         padding: 12px;
         
@@ -1405,7 +1422,6 @@ h3 {
 
         font-size: 12px;
     }
-  
     /*----Large----*/
     .large-bar.vpchcbutton { width: 130px;}
     
@@ -1415,63 +1431,131 @@ h3 {
     \*------------------------------------*/
 
     #tab-content { width: 850px;}
-    .tab-box { 
-        height: 35px;
-        padding: 5px 0 15px 10px;
-    }
+    .tab-box { padding: 5px 0 15px 10px;}
     /*----Providers&Team----*/
     .tab-team { margin-left: 180px;}
-}
+    
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 50px;}
+    h3 {font-size: 45px;}
+    
+    /*------------------------------------*\
+      #About Us
+    \*------------------------------------*/
+    
+    #about-content {
+        margin-left: 0px;
+        width: 100%;
+    }
+    #about-subcontent { margin: 10px auto 0 auto;}   
+    
+    
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+
+    #share {
+        margin-left: 0px;
+        width: 48%;
+    }
+    #twitter {
+        margin-left: 10px;
+
+        background-color: #55acee;
+        border-radius: 10px;
+    }
+    #twitter-feed {
+        margin: 36px auto 0 auto;
+        
+        height: auto;
+        width: 500px;
+    }
+    #facebook {
+        vertical-align: top;
+
+        margin: 20px 0 0 10px;
+        height: 1000px;
+        width: 550px;
+
+        background-color: #3b5998;
+        border-radius: 10px;
+    }
+    #facebook-feed {
+        margin-left: 25px;
+        padding-top: 25px;
+        width: 500px;
+    }
+    .share-button { margin: 5px 0 0 15px;}
+    #events {
+        float: right;
+
+        width: 48%;
+        margin: 50px 80px 0 0;
+        vertical-align: top;
+    }
+    #events img {
+        height: 500px;
+        width: 500px;
+    }
+    #events-container { margin-top: 36px;}
+    .upcoming-events-title { font-size: 35px;}
+    .upcoming-events-section {
+        margin-bottom: 10px;
+
+        border:  4px solid #258f71;
+
+        font-size: 25px;
+    }
+    #news { clear: both;}
+    .news-title {
+        text-align: center;
+        font-size: 39px;
+        font-weight: 900;
+        font-family: "Georgia", Times, serif;
+    }
+    .news-article {
+        margin: 0 auto 20px auto;
+        width: 1100px;
+    }
+    .news-article-title {
+        font-size: 25px;
+        font-weight: 900;
+        font-family: "Georgia", Times, serif;
+        color: black;
+    }
+    .news-article-preview {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    #archive-button {
+        margin: 0 auto;
+        width: 165px;
+    }
+    #news .vpchcbutton { font-size: 25px;}
+
+    }
 @media only screen and (max-width: 1082px) {
     
     /*------------------------------------*\
-      #Main Containers
-    \*------------------------------------*/
-    
-    #head-wrap { width: 784px;}
-    #head-img-container {
-        margin-top: 20px;
-        width: 35%;
-    } 
-    #header-img { width: 90%;}
-    #masterbox {width: 98%;}
-    .footer-section {
-        margin-bottom: 20px;
-        width: 33.3%;
-    }
-    #footer-section-last { width: 100%;}
-    .footer-section a{ font-size: 20px;}
-    
-    /*------------------------------------*\
-      #Navlinks
-    \*------------------------------------*/
-    
-    #navlinks-container { width: 65%;}
-    .dropbtn { font-size: 15px;}
-    
-    /*------------------------------------*\
-      #Sidebars
-    \*------------------------------------*/
-    #sidebar { display: none;}
-    
-    /*------------------------------------*\
-      #Tab
+      #Banner
     \*------------------------------------*/
 
-    #tab-content { width: 100%;}
-    .tab-box { 
-        display: none;
-
-        height: 35px;
-        padding: 5px 0 15px 10px;
+    #banner { height: auto;}
+    #banner-left { display: none;}
+    #banner-right {
+        float: none;
+        
+        height: auto;
+        width: 100%;
     }
-    .tab-name-small { font-size: 30px;}
-    .tab-loc-small p { font-size: 30px;}
-    /*----Providers&Team----*/
-    .tab-team { margin: 0 auto;}
-    
-}
-@media only screen and (max-width: 799px) {
+    #banner-title {
+        margin-top: 0px;
+
+        font-size: 35px;
+    }
     
     /*------------------------------------*\
       #Main Containers
@@ -1495,12 +1579,15 @@ h3 {
     #head-img-container {
         margin-top: 8px;
         margin-left: 5px;
-        width: 200px;
+        width: 210px;
     } 
     #header-img { width: 100%;}
     #masterbox-home { padding-top: 70px;}
-    #masterbox{padding-top: 70px;}
-     .footer-section {
+    #masterbox{ 
+        padding-top: 70px;
+        width: 100%;
+    }
+    .footer-section {
         margin-bottom: 25px;
         width: 50%;
     }
@@ -1521,15 +1608,38 @@ h3 {
     #navlinks-mobile-icon{ display: block;}
     
     /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+    
+    .services-provided-section { 
+        width: 100%;
+        
+        font-size: 18px;
+    }
+
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    #sidebar {
+        display: none;
+    }
+    
+    /*------------------------------------*\
       #Tab
     \*------------------------------------*/
 
-    #tab-content { width: 95%;}
+    #tab-content { 
+        margin: 0 auto; 
+        width: 95%;
+    }
     .tab-box { 
         display: block;
         
-        height: 75px;
         padding: 5px 0 15px 10px;
+    }
+    .tab-box-team-height {
+        height: 55px;
     }
     .drop-arrow { display: none;}
     .tab-bar{ pointer-events: none;}
@@ -1540,7 +1650,14 @@ h3 {
         width: 100%;
         
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
+    }
+    .tab-question {
+        font-size: 18px;
+        width: 95%;
+    }
+    .tab-answer {
+        font-size: 15px;
     }
     .tab-simple {
         width: 100%;
@@ -1576,8 +1693,114 @@ h3 {
       #Titles
     \*------------------------------------*/
     
-    h1 {font-size: 35px;}
-    h3 {font-size: 30px;}
+    h1 {font-size: 30px;}
+    h3 {font-size: 25px;}
+    
+    /*------------------------------------*\
+      #About Us
+    \*------------------------------------*/
+    
+    #about-content {
+        margin: 10px auto;
+        width: 95%;
+    }
+    #about-content p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+        font-size: 14px;
+    }
+    #about-subcontent {
+        width: 95%;
+    }
+    .about-subcontent-title {
+        margin: 10px 0;
+
+        text-align: center;
+        font-size: 25px;
+    }
+    .about-subcontent-answers {
+        margin-left: 20px;
+
+        font-size: 14px;
+    }
+    
+    /*------------------------------------*\
+      #Fancy Quote
+    \*------------------------------------*/
+
+    #quote {
+        margin: 0 auto 40px auto;
+        width: 95%;
+
+        font-size: 14px;
+    }
+    .quote-text {
+        margin: 0px 0 0 20px;
+        height: auto;
+        width: 90%;   
+    }
+    .large-quote-left {
+        float: left;
+
+        height: 35px; 
+
+        font-size: 50px;
+    }
+    .large-quote-right {
+        float: right;
+
+        margin: 0 25px 0 0;
+        height: 30px; 
+
+        font-size: 50px;
+    }
+    
+    /*------------------------------------*\
+      #FAQs
+    \*------------------------------------*/
+    
+    #faq { width: 95%;}
+    
+    /*------------------------------------*\
+      #History
+    \*------------------------------------*/
+    
+    #history {
+        margin: 30px auto 0 auto;
+        height: auto;
+        width: 300px;
+
+        background: none;    
+    }
+    .timeline {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 20px 50px 10px 10px;
+        width: 235px;
+
+        border: 3px solid #70b244;
+    }
+    .timeline-year {
+        padding-left: 5px;
+        padding-right: 5px;
+        
+        font-size: 20px;
+    }
+    .timeline-month-blue { font-size: 20px;}
+    .timeline-month-green { font-size: 20px;}
+    .even { 
+        padding: 20px 0px 10px 60px;
+        
+        border-color: #3a4e8c;
+    }
+    .timeline p { 
+        margin-top: 5px;
+        padding-right: 5px;
+
+        font-size: 12px;
+    }
+    #history-continued { display: none;}
     
     /*------------------------------------*\
       #Slideshow
@@ -1611,9 +1834,6 @@ h3 {
        
         font-size: 9vw;
         font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
-    }
-    
-    
-   
+    }  
 }
 /********|*********|*********|*********|*********|*********|*********|*********/
