@@ -166,16 +166,13 @@
     <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/ValleyProHealth">Follow @ValleyProHealth</a>
     </div>
     <div id="facebook">
-      <div id="facebook-feed">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVPCHC&tabs=timeline&width=550&height=950&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="550" height="950" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-      </div>
+      <div class="fb-page" data-href="https://www.facebook.com/vpchc" data-tabs="timeline" data-small-header="true" data-width="460" data-height="975" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vpchc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vpchc">Valley Professionals Community Health Center</a></blockquote></div>
     </div>
-     <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+     <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="25" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
   </div>
   <div id="events">
     <h2 class="news-title vpchcblue">Upcoming Events</h2>
     <div id="events-container">
-      
       <div class="green-rectangle"></div>
       <div id="upcoming-events">
         <p class="upcoming-events-section">Open enrollment begins - November 1</p>
@@ -232,6 +229,14 @@
     <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
   </div>
 </footer>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>

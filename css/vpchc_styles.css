@@ -1206,7 +1206,9 @@ h3 {
 }
 #twitter {
     margin-left: 10px;
-    height: 180px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    height: auto;
     width: 550px;
  
     background-color: #55acee;
@@ -1220,16 +1222,13 @@ h3 {
     vertical-align: top;
     
     margin: 20px 0 0 10px;
+    padding-top: 20px;
+    padding-left: 44px;
     height: 1000px;
-    width: 550px;
+    width: 505px;
 
     background-color: #3b5998;
     border-radius: 10px;
-}
-#facebook-feed {
-    margin-left: 25px;
-    padding-top: 25px;
-    width: 500px;
 }
 .share-button { margin: 5px 0 0 15px;}
 #events {
@@ -1247,6 +1246,8 @@ h3 {
 .upcoming-events-title { font-size: 35px;}
 .upcoming-events-section {
     margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     
     border:  4px solid #258f71;
     
@@ -1333,7 +1334,7 @@ h3 {
     *display:inline;
     
     height: 100px;
-    width: 49%;
+    width: 50%;
     
     border-radius: 25px;
     
@@ -1345,7 +1346,9 @@ h3 {
 }
 .services-provided-section:hover { background: #dbdeea;}
 
-.services-provided-section.three-sections { margin-left: 105px;}
+.services-provided-section.three-sections { 
+    margin-left: 320px;
+    margin-bottom: 20px;}
 .services-provided-section > img {
     height: 65px;
     width: 65px;
@@ -1370,6 +1373,13 @@ h3 {
 \*------------------------------------*/
 
 @media only screen and (max-width: 1365px) {
+    
+    /*------------------------------------*\
+      #Company Colors
+    \*------------------------------------*/
+
+    .blue-rectangle, 
+        .green-rectangle { width: 400px;}
     
     /*------------------------------------*\
       #Main Containers
@@ -1440,6 +1450,7 @@ h3 {
     \*------------------------------------*/
     
     h1 {font-size: 50px;}
+    h2 {padding: 0 5px;}
     h3 {font-size: 45px;}
     
     /*------------------------------------*\
@@ -1451,6 +1462,32 @@ h3 {
         width: 100%;
     }
     #about-subcontent { margin: 10px auto 0 auto;}   
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+
+    #location-info {
+        margin: 80px 0 20px 0;
+        height: 500px;
+    }
+    #location-info-left {
+        float: left;
+
+        margin-left: 20px;
+        height: 400px;
+        width: 450px;
+    }
+    #location-info-right {
+        margin-right: 50px;
+        height: 400px;
+        width: 450px;
+    }
+    #location-map { 
+        height: 300px;
+        width: 450px; 
+    }
+    #location-providers-section { width: 1000px;}
     
     
     /*------------------------------------*\
@@ -1471,34 +1508,23 @@ h3 {
         margin: 36px auto 0 auto;
         
         height: auto;
-        width: 500px;
     }
     #facebook {
         vertical-align: top;
 
         margin: 20px 0 0 10px;
-        height: 1000px;
-        width: 550px;
+       
+        width: 100%;
 
         background-color: #3b5998;
         border-radius: 10px;
     }
-    #facebook-feed {
-        margin-left: 25px;
-        padding-top: 25px;
-        width: 500px;
-    }
-    .share-button { margin: 5px 0 0 15px;}
     #events {
         float: right;
 
-        width: 48%;
-        margin: 50px 80px 0 0;
+        width: 400px;
+        margin: 50px 10px 0 0px;
         vertical-align: top;
-    }
-    #events img {
-        height: 500px;
-        width: 500px;
     }
     #events-container { margin-top: 36px;}
     .upcoming-events-title { font-size: 35px;}
@@ -1509,16 +1535,14 @@ h3 {
 
         font-size: 25px;
     }
-    #news { clear: both;}
-    .news-title {
-        text-align: center;
-        font-size: 39px;
-        font-weight: 900;
-        font-family: "Georgia", Times, serif;
+    #news { 
+        margin: 0 auto;
+        width: 98%;
+        
     }
     .news-article {
         margin: 0 auto 20px auto;
-        width: 1100px;
+        width: 100%;
     }
     .news-article-title {
         font-size: 25px;
@@ -1536,7 +1560,14 @@ h3 {
     }
     #news .vpchcbutton { font-size: 25px;}
 
-    }
+    
+    /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+
+    .services-provided-section.three-sections { margin-left: 250px;}
+
+}
 @media only screen and (max-width: 1082px) {
     
     /*------------------------------------*\
@@ -1553,9 +1584,37 @@ h3 {
     }
     #banner-title {
         margin-top: 0px;
+        padding: 0 10px;
 
-        font-size: 35px;
+        font-size: 25px;
     }
+    
+    /*------------------------------------*\
+      #Company Colors
+    \*------------------------------------*/
+
+    .blue-rectangle, 
+        .green-rectangle { 
+            height: 30px;
+            width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-content {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .explain-title { font-size: 20px;}
+    .explain-subtitle { font-size: 18px;}
+    .explain-p, 
+      #explain-content li {
+        font-size: 14px;
+        font-family: "Georgia", Times, serif;
+    }
+    .explain-p { margin-left: 20px;}
     
     /*------------------------------------*\
       #Main Containers
@@ -1615,6 +1674,19 @@ h3 {
         width: 100%;
         
         font-size: 18px;
+    }
+    .services-provided-section.three-sections { margin: 20px auto;}
+    .services-provided-section {
+        display: block;
+        
+        height: 50px;
+        width: 200px;
+
+        font-size: 15px;
+    }
+    .services-provided-section > img {
+        height: 35px;
+        width: 35px;
     }
 
     /*------------------------------------*\
@@ -1694,7 +1766,9 @@ h3 {
     \*------------------------------------*/
     
     h1 {font-size: 30px;}
+    h2 {font-size: 25px;}
     h3 {font-size: 25px;}
+    .section-title-centered { font-size: 25px;}
     
     /*------------------------------------*\
       #About Us
@@ -1724,6 +1798,60 @@ h3 {
 
         font-size: 14px;
     }
+    
+    /*------------------------------------*\
+      #Archive
+    \*------------------------------------*/
+
+    #archive-news-section { width: 85%;}
+    #archive-news-section p { text-indent: 50px; }
+    #archive-photos-section { width: 100%;}
+    .archive-photos-container { width: 310px;}
+    #archive-photos-section img {
+        margin: 20px auto 0 auto;
+    }
+    #archive-photos-section img.horizontal {
+        height: auto;
+        width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Bus Tracker
+    \*------------------------------------*/
+
+    #bus-tracker{
+        margin: 0 auto;
+        height: auto;
+        width: 290px;
+    }
+    #bus-tracker * p { font-size: 14px;}
+    #bus-tracker-title { font-size: 20px;}
+    #bus-tracker .vpchcbutton{
+        margin: 30px 0 0 65px;;
+
+        font-size: 14px;
+    }
+    #bus-tracker-info{
+        float: left;
+
+        width: 80px;
+    }
+    #bus-tracker-info p,
+      #bus-tracker-data p { margin-top: 20px;}
+    #bus-status-icon {
+        float: left;
+
+        margin-left: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    #bus-tracker-data {
+        float: right;
+
+        margin-right: 0px;
+        width: 195px;
+    }
+    #bus-status{ width: 180px;}
     
     /*------------------------------------*\
       #Fancy Quote
@@ -1801,6 +1929,85 @@ h3 {
         font-size: 12px;
     }
     #history-continued { display: none;}
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+    
+    #location-info {
+        margin: 10px 0 20px 0;
+        height: auto;
+    }
+    #location-info-left {
+        display: block;
+        float: none;
+        
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    #location-info-left li {
+        margin: 20px 0;
+
+        font-size: 14px;
+    }
+    #location-hour-title { font-size: 20px;}
+    .location-hours { font-size: 14px;}
+    .location-hours-one { margin-bottom: 0px; }
+    .location-hours-three { margin-bottom: 0px; }
+    #location-info-right {
+        display: block;
+        float: none;
+        
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    #location-map { 
+        clear: none;
+        
+        height: 300px;
+        width: auto; 
+    }
+    .location-contact {
+        font-size: 14px;
+        font-family: Times, serif;
+    }
+    #location-providers-section { width: 98%;}
+    .team-table td { font-size: 16px;}
+    .team-table td p { margin-left: 10px;}
+    
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+
+    #share {
+        float: none;
+        
+        margin: 0 auto;
+    }
+    #twitter {
+        display: none;
+    }
+    #facebook {
+        display: none;
+    }
+    .share-button {
+        margin: 0 auto;
+    }
+    #events {
+        float: none;
+
+        margin: 0 auto;
+        width: 300px;
+    }
+    #events-container { margin-top: 0px;}
+    .upcoming-events-section { font-size: 14px;}
+    .news-title {font-size: 20px;}
+    .news-article { width: 98%;}
+    .news-article-title { font-size: 18px;}
+    .news-article-preview { font-size: 14px;}
+    #news .vpchcbutton { font-size: 20px;}
     
     /*------------------------------------*\
       #Slideshow
