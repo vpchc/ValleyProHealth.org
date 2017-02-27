@@ -527,7 +527,7 @@ footer { position: relative;}
     margin: 10px 0 0 10px;
     width: 700px;
     
-    font-size: 25px;
+    font-size: 20px;
 }
 .tab-answer {
     display: block;
@@ -883,64 +883,6 @@ h3 {
   #Diabetes
 \*------------------------------------*/
 
-.double-arrow {
-    height: 50px;
-    width: 105px;
-}
-.diabetes-section { 
-    margin: 20px 0 0 20px;
-    width: 1200px; 
-}
-#diabetes-meeting {
-    float: left;
-    
-    margin-top: 10px;
-    padding: 5px 15px;
-    width: 590px;
-}
-#diabetes-meeting-day {
-    margin-left: 20px;
-    
-    font-size: 32px;
-    color: black;
-    font-family: "Georgia", Times, serif;
-}
-#diabetes-meeting-times {
-    float: right;
-    
-    margin-right: 15px;
-    
-    font-size: 45px;
-    color: black;
-    font-weight: bold;
-    font-family: "Franklin Gothic Demi", Times, serif;
-}
-#diabetes-meeting-topics {
-    float: right;
-    
-    margin-top: 20px;
-    height: 100px;
-    width: 550px;
-    
-    font-size: 32px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-}
-#diabetes-rsvp {
-    padding: 14px;
-    
-    font-size: 40px;
-    font-family: "Franklin Gothic Demi", Times, serif;
-}
-#diabetes-meeting-hours {
-    float: right;
-    
-    margin-top: 20px;
-    height: 120px;
-    width: 550px;
-}
-#diabetes-meeting-hours p {
-    font-size: 32px;
-}
 #patres-scale-title, 
   #patres-script-title, 
   #patres-diabetes-title, 
@@ -988,7 +930,12 @@ h3 {
     text-align: center;
 }
 #forms-content-clinic { display: none;}
-#forms-content-type { display: none;}
+#forms-content-type {display: none;}
+.forms-clinic-table-mobilename { 
+    display: none;
+    
+    margin: 20px 0;
+}
 #forms-content * table {
     font-size: 30px;
     text-align: center;
@@ -1295,10 +1242,7 @@ h3 {
     
     text-align: center;
 }
-#iconbanner-title {
-    margin-top: 60px;
-    height: 105px;
-}
+#iconbanner-title { margin-top: 60px;}
 #iconbanner-title-word {
     float: right;
     
@@ -1308,10 +1252,9 @@ h3 {
     font-size: 64px;
     text-align: center;
 }
-.iconbanner-word-dental { margin-right: 260px;}
-.iconbanner-word-bh { margin-right: 75px;}
-.iconbanner-word-medical { margin-right: 210px;}
-.iconbanner-word-ps { margin-right: 100px;}
+.iconbanner-word-dental { margin-right: 160px;}
+.iconbanner-word-medical { margin-right: 120px;}
+.iconbanner-word-ps { margin-right: 30px;}
 #iconbanner-title-icon {
     float: left;
     
@@ -1319,9 +1262,9 @@ h3 {
     width: 95px;
 }
 .iconbanner-dental { margin-left: 210px;}
-.iconbanner-bh { margin-left: 75px;}
-.iconbanner-medical { margin-left: 215px;}
-.iconbanner-ps { margin-left: 100px;}
+.iconbanner-bh { margin-left: 50px;}
+.iconbanner-medical { margin-left: 185px;}
+.iconbanner-ps { margin-left: 80px;}
 
 /*------------------------------------*\
   #Services Provided
@@ -1334,7 +1277,7 @@ h3 {
     *display:inline;
     
     height: 100px;
-    width: 50%;
+    width: 320px;
     
     border-radius: 25px;
     
@@ -1348,7 +1291,11 @@ h3 {
 
 .services-provided-section.three-sections { 
     margin-left: 320px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+}
+.services-provided-section.four-sections { 
+    mar
+}
 .services-provided-section > img {
     height: 65px;
     width: 65px;
@@ -1359,11 +1306,10 @@ h3 {
 \*------------------------------------*/
 
 #stats-options {
-    margin-left: 440px;
-    width: 800px;
+    width: 98%;
 }
 #stats-options .vpchcbutton {
-    margin-right: 125px;
+    width: 49%;
     
     font-size: 50px;
 }
@@ -1380,6 +1326,12 @@ h3 {
 
     .blue-rectangle, 
         .green-rectangle { width: 400px;}
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-content { width: 1000px;}
     
     /*------------------------------------*\
       #Main Containers
@@ -1461,7 +1413,111 @@ h3 {
         margin-left: 0px;
         width: 100%;
     }
-    #about-subcontent { margin: 10px auto 0 auto;}   
+    #about-subcontent { margin: 10px auto 0 auto;}
+    
+    /*------------------------------------*\
+      #Archive
+    \*------------------------------------*/
+
+#archive-content { margin-left: 131px; }
+#archive-options {
+    margin-left: 280px;
+}
+#archive-options .vpchcbutton {
+    margin-right: 175px;
+    
+    font-size: 50px;
+}
+.archive-link { 
+    display: block;
+    
+    margin-top: 20px;
+    
+    font-size: 30px;
+}
+.news-link { margin-left: 380px; }
+.photos-link { margin-left: 265px; }
+#archive-news-section {
+    width: 800px;
+    margin: auto;
+}
+#archive-news-section p { text-indent: 50px; }
+.archive-photos {
+    margin: 30px 0 0 150px;
+    width: 800px;
+}
+.archive-photos p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.archive-photos img { border: 5px solid #3a4e8c; }
+.archive-photos img.horizontal {
+    height: 300px;
+    width: 500px;
+}
+.archive-photos img.vertical {
+    height: 300px;
+    width: 250px;
+}
+.archive-photos .horizontal, 
+  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
+.archive-photos .vertical, 
+  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
+#archive-photos-section {
+    margin: 0 auto;
+    width: 1000px;
+}
+.archive-photos-container {
+    margin: 0 auto;
+    width: 760px;
+}
+#archive-photos-section img {
+    margin-top: 10px;
+    border: 5px solid #3a4e8c;
+}
+#archive-photos-section img.horizontal {
+    height: 500px;
+    width: 750px;
+}
+#archive-photos-section img.vertical {
+    height: 550px;
+    width: 368px;
+}
+
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+
+    #contact-table-container {
+        margin: 20px 0 auto 0;
+
+        width: 1000px;
+    }
+    
+    /*------------------------------------*\
+      #Forms
+    \*------------------------------------*/
+
+    .forms-table-age {
+        margin: 0 auto;
+        width: 866px;
+    }
+    .forms-table-location { width: 1050px;}
+    .forms-table-pics {width: 300px;}
+    .forms-square-blue, 
+     .forms-square-green {
+        height: 300px;
+        width: auto;
+    }
+    .forms-age-pic {
+        height: 300px;
+        width: auto;
+    }
+    
     
     /*------------------------------------*\
       #Locations
@@ -1559,12 +1615,44 @@ h3 {
         width: 165px;
     }
     #news .vpchcbutton { font-size: 25px;}
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    #iconbanner-title {
+        margin-top: 60px;
+    }
+    #iconbanner-title-word {
+        float: right;
 
+        margin-top: 15px;
+
+        font-family: "Franklin Gothic Medium", Times, serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    .iconbanner-word-dental { margin-right: 95px;}
+    .iconbanner-word-medical { margin-right: 100px;}
+    .iconbanner-word-ps { margin-right: 10px;}
+    #iconbanner-title-icon {
+        float: left;
+
+        height: 95px;
+        width: 95px;
+    }
+    .iconbanner-dental { margin-left: 180px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 125px;}
+    .iconbanner-ps { margin-left: 50px;}
     
     /*------------------------------------*\
       #Services Provided
     \*------------------------------------*/
+    
+     .services-provided-section {
+        width: 240px;
 
+        font-size: 15px;
+    }
     .services-provided-section.three-sections { margin-left: 250px;}
 
 }
@@ -1583,7 +1671,7 @@ h3 {
         width: 100%;
     }
     #banner-title {
-        margin-top: 0px;
+        margin-top: 10px;
         padding: 0 10px;
 
         font-size: 25px;
@@ -1604,7 +1692,7 @@ h3 {
     \*------------------------------------*/
 
     #explain-content {
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
         width: 95%;
     }
     .explain-title { font-size: 20px;}
@@ -1650,6 +1738,7 @@ h3 {
         margin-bottom: 25px;
         width: 50%;
     }
+    .footer-section a{ font-size: 18px;}
     
     /*------------------------------------*\
       #Navlinks
@@ -1670,20 +1759,16 @@ h3 {
       #Services Provided
     \*------------------------------------*/
     
-    .services-provided-section { 
-        width: 100%;
-        
-        font-size: 18px;
-    }
-    .services-provided-section.three-sections { margin: 20px auto;}
-    .services-provided-section {
+     .services-provided-section {
         display: block;
         
+        margin: 20px auto 0 auto;
         height: 50px;
         width: 200px;
 
         font-size: 15px;
     }
+    .services-provided-section.three-sections { margin: 20px auto;}
     .services-provided-section > img {
         height: 35px;
         width: 35px;
@@ -1711,7 +1796,7 @@ h3 {
         padding: 5px 0 15px 10px;
     }
     .tab-box-team-height {
-        height: 55px;
+        height: 65px;
     }
     .drop-arrow { display: none;}
     .tab-bar{ pointer-events: none;}
@@ -1814,6 +1899,60 @@ h3 {
         height: auto;
         width: 300px;
     }
+    #archive-content { margin: 0 5px; }
+#archive-options {
+    margin: 0 auto;
+    width: 300px;
+}
+#archive-options .vpchcbutton {
+    margin-right: 65px;
+    
+    font-size: 25px;
+}
+.archive-link { 
+    display: block;
+    
+    margin-top: 20px;
+    
+    font-size: 30px;
+}
+.news-link { margin-left: 380px; }
+.photos-link { margin-left: 265px; }
+
+.archive-photos {
+    margin: 30px 0 0 150px;
+    width: 800px;
+}
+.archive-photos p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.archive-photos img { border: 5px solid #3a4e8c; }
+.archive-photos img.horizontal {
+    height: 300px;
+    width: 500px;
+}
+.archive-photos img.vertical {
+    height: 300px;
+    width: 250px;
+}
+.archive-photos .horizontal, 
+  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
+.archive-photos .vertical, 
+  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
+.archive-photos-container {
+    margin: 0 auto;
+    width: 760px;
+}
+#archive-photos-section img.vertical {
+    height: 550px;
+    width: 368px;
+}
+    
+    
     
     /*------------------------------------*\
       #Bus Tracker
@@ -1854,6 +1993,91 @@ h3 {
     #bus-status{ width: 180px;}
     
     /*------------------------------------*\
+      #Careers
+    \*------------------------------------*/
+
+    .careers-listing { margin-top: 0px;}
+    .careers-listing  { width: 95%;}
+    .careers-listing li { font-size: 14px;}
+    .careers-listing p { font-size: 20px;}
+    #form_address { display: none;}
+    #onsub { 
+        margin: 0 auto;
+        width: 300px;}
+    #onsub-box {
+        height: 400px;
+    }
+    .onsub-field input{ padding-right: 50px;}
+    #onsub * .vpchcbutton { font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+    #contact-table-container { width: 95%;}
+    #contact-table { width: 100%;}
+    #contact-table td {
+        display: block;
+        
+        margin: 0 auto 10px auto;
+        height: auto;
+        width: 280px;
+    }
+    #contact-table img {
+        height: 160px;
+        width: 280px;
+    }
+    .contact-info { font-size: 14px;}
+    .contact-info-street { margin-top: 0px;}
+    .contact-info-state { margin-bottom: 0px;}
+    .contact-location {
+        margin-top: 5px;
+
+        font-size: 20px;
+    }
+    #contact-questions { margin-top: 0px; }
+    #contact-questions-title {
+        margin-bottom: 2px;
+
+        font-size: 25px;
+    }
+    #contact-questions-content { font-size: 14px;}
+    
+    /*------------------------------------*\
+      #Dental
+    \*------------------------------------*/
+
+    .dental-patches {
+        float: none;
+        display: block;
+
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    #dental-public {
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Diabetes
+    \*------------------------------------*/
+
+    #patres-scale-title, 
+      #patres-script-title, 
+      #patres-diabetes-title, 
+      #patres-links-title {
+        cursor: none;
+        pointer-events: none;
+    }
+    #patres-scale,
+      #patres-script, 
+      #patres-diabetes,
+      #patres-links { display: block;}
+    
+
+    /*------------------------------------*\
       #Fancy Quote
     \*------------------------------------*/
 
@@ -1889,6 +2113,46 @@ h3 {
     \*------------------------------------*/
     
     #faq { width: 95%;}
+    
+    /*------------------------------------*\
+      #Forms
+    \*------------------------------------*/
+
+    #forms-content-options { 
+        display: block;
+
+        margin-top: 20px;
+    }
+    #forms-content * .vpchcbutton {
+        margin-bottom: 30px;
+
+        font-size: 14px;
+    }
+    #forms-content * a { font-size: 14px;}
+    #forms-content-clinic-table td { display: block;}
+    .forms-clinic-table-mobilename {display: block;}
+    .forms-clinic-table-desktopname { display: none;}
+    #forms-content * table { font-size: 20px;}
+    .forms-simple-section { margin-left: 10px;}
+    .forms-simple-title { font-size: 20px;}
+    .form-simple-subsection { font-size: 20px;
+    }
+    .forms-simple-section * a { font-size: 20px;}
+    .forms-table-age {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .forms-table-location { width: 95%;}
+    .forms-table-pics { width: 280px;}
+    .forms-square-blue-container, 
+    .forms-square-green-container {
+        display: none;
+    }
+    .forms-age-pic {
+        margin: 20px 0;
+        height: 200px;
+        width: 200px;
+    }
     
     /*------------------------------------*\
       #History
@@ -2008,6 +2272,62 @@ h3 {
     .news-article-title { font-size: 18px;}
     .news-article-preview { font-size: 14px;}
     #news .vpchcbutton { font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    
+    #services-button > .vpchcbutton {
+        border-radius: 15px;
+
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #services-button {
+        margin: 20px auto 0 auto;
+
+        width: 300px;
+        text-align: center;
+    }
+    #iconbanner-title {
+        margin: 10px auto 0 auto;
+    }
+    .iconbanner-title-bh {
+        height: 35px;
+        width: 240px;
+    }
+    .iconbanner-title-medical {
+        height: 35px;
+        width: 130px;
+    }
+    .iconbanner-title-ps {
+        height: 35px;
+        width: 220px;
+    }
+    .iconbanner-title-dental {
+        height: 35px;
+        width: 115px;
+    }
+    #iconbanner-title-word {
+        float: right;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        
+        font-size: 25px;
+    }
+    .iconbanner-word-medical { margin-right: 0px;}
+    .iconbanner-word-dental { margin-right: 0px;}
+    .iconbanner-word-ps { margin-right: 0px;}
+    #iconbanner-title-icon {
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+    }
+    .iconbanner-dental { margin-left: 0px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 20px;}
+    .iconbanner-ps { margin-left: 0px;}
     
     /*------------------------------------*\
       #Slideshow
