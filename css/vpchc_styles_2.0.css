@@ -1,0 +1,2368 @@
+/********|*********|*********|*********|*********|*********|*********|*********/
+/*
+  CSS Properties follow "Outside In" principle for ordering.
+  1)Layout Properties (position, float, clear, display)
+  2)Box Model Properties (width, height, margin, padding)
+  3)Visual Properties (color, background, border, box-shadow)
+  4)Typography Properties (font-size, font-family, text-align, text-transform)
+  5)Misc Properties (cursor, overflow, z-index)
+*/
+/*------------------------------------*\
+                #Globals
+\*------------------------------------*/
+/* 
+    Table of Contents
+        Banner
+        Buttons
+        Company Colors
+        Explanation Paragraphs
+        Fancy Quote
+        Main Containers
+        Nav Links
+        Sidebars
+        Tab
+        Titles
+*/
+
+/*------------------------------------*\
+  #Banner
+\*------------------------------------*/
+
+#banner { height: 180px;}
+#banner-left {
+    float: left;
+    
+    height: 172px;
+    width: 50%;
+    border-bottom: 5px dashed #70b244;
+}
+#banner-pic {
+    height: 95%;
+    width: 100%;
+}
+#banner-right {
+    float: right;
+    
+    height: 180px;
+    width: 50%;;
+}
+#banner-title {
+    margin-top: 40px;
+    
+    text-align: center;
+    font-size: 64px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+
+/*------------------------------------*\
+  #Buttons
+\*------------------------------------*/
+
+.vpchcbutton {
+    padding: 0 4px;
+    
+    background: #fff;
+    border: none;
+    color: #2d4a70;
+}
+.vpchcbutton:hover {  
+    background: #70b244;
+    
+    transition: 0.5s;
+}
+.vpchcbutton:active {
+    background: #2d4a70;
+    color: #70b244;
+    
+    transition: none;
+}
+
+/*------------------------------------*\
+  #Company Colors
+\*------------------------------------*/
+
+.vpchcblue { color: #3a4e8c;}
+.vpchcgreen { color: #70b244;}
+.vpchcgrey { color: #258f71;}
+.blue-rectangle, 
+  .green-rectangle {
+    margin: 10px 0;
+    height: 50px;
+    width: 500px;
+}
+.blue-rectangle { background: #3a4e8c;}
+.green-rectangle { background: #70b244;}
+.vpchcgreenborder { border: 5px solid #70b244;}
+.vpchcblueborder { border: 5px solid #3a4e8c;}
+
+/*------------------------------------*\
+  #Explantion Paragraphs
+\*------------------------------------*/
+
+#explain-content {
+    margin: 100px 0 0 30px;
+    width: 1300px;
+}
+.explain-title {
+    margin: 20px 0;
+    
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.explain-subtitle {
+    clear: both;
+    
+    margin: 20px 0 20px 15px;
+    
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+.explain-p, 
+  #explain-content li {
+    font-size: 16px;
+    font-family: "Georgia", Times, serif;
+}
+.explain-p { margin-left: 20px;}
+.explain-p-title {
+    margin: 20px 0 20px 20px;
+    
+    font-weight: bold;
+}
+#explain-content li {
+    margin: 10px 0 0 30px;
+    
+    list-style-image: url('/images/green_bullet.png');
+}
+
+/*------------------------------------*\
+  #Fancy Quote
+\*------------------------------------*/
+
+#quote {
+    margin: 80px auto;
+    width: 720px;
+    
+    font-size: 25px;
+    font-family: "Georgia", Times, serif;
+}
+.quote-text {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+
+    margin: 35px 0 0 50px;
+    height: 140px;
+    width: 540px;
+    
+    color: #258f71;
+}
+.large-quote-left {
+    float: left;
+    
+    height: 50px; 
+
+    
+    font-size: 104px;
+}
+.large-quote-right {
+    float: right;
+
+    margin: 181px 40px 0 0;
+    height: 50px; 
+    
+    font-size: 104px;
+    line-height: 1;
+}
+
+/*------------------------------------*\
+  #Main Containers
+\*------------------------------------*/
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+#masterbox {
+    position: relative;
+    margin: 0px auto 50px auto;
+	width: 1350px;
+}
+#masterbox-no-top {
+    margin: 0px auto 50px auto;
+    width: 1366px;
+}
+#masterbox-home {
+    height: auto;
+    width: 100%;
+    
+    font-size: 0;
+}
+header { position: relative;}
+#head-wrap {
+    position: relative;
+    
+    margin: 0 auto;
+    width: 1350px;
+    height: 141px;
+    
+    transition: all .5s ease 0s;
+}
+#head-img-container {
+    display: inline-block;
+    
+    margin-top: 30px;
+    height: auto;
+    width: 40%;
+}
+#header-img {
+    display: block;
+    
+    margin: auto;
+    height: auto;
+    width: 95%;
+    
+    cursor: pointer;
+}
+#header-bluebar{
+    height: 20px;
+    width: 100%;
+    
+    background: #3a4e8c;
+}
+footer { position: relative;}
+#footer-greenbar{
+    margin-bottom: 10px;
+    height: 20px;
+    
+    background: #70b244;
+}
+.footer-section {
+    float: left;
+    
+    width: 16.6666%;
+}
+.footer-section a{
+    color: black;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-decoration: none;
+}
+#footer-disclaimer{
+    position: relative;
+    clear: both;
+}
+#footer-disclaimer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*------------------------------------*\
+  #Navlinks
+\*------------------------------------*/
+
+#navlinks-container{
+    display: inline-block;
+    position: relative;
+    float: right;
+    
+    height: 100%;
+    width: 60%;
+    transition: none;
+}
+#navlinks-subcontainer {
+    position: absolute;
+    
+    width: 100%;
+    
+    bottom: 0;
+}
+#navlinks {
+	position: relative;
+    
+    float: right;
+    
+    bottom: 0;
+    
+	color: #3a2d02;
+    
+    z-index: 1;
+    list-style-type: none;
+}
+.dropbtn {
+    padding: 12px;
+    
+    background: #70b244;
+    border: none;
+    
+    font-size: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    cursor: pointer;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    zoom:1;
+    *display:inline;
+    padding-right: 10px;
+}
+.dropdown-content {
+    position: absolute;
+    
+    height: 0;
+    min-width: 160px;
+    
+    background: #f9f9f9;
+    border-radius: 0 7px 7px 7px;
+    box-shadow: 0 2px 2px #ddd;
+    
+    overflow: hidden;
+    
+    transition: all .5s ease 0s;
+
+}
+.dropdown-content a {
+    display: block;
+    
+    padding: 12px 15px;
+    height: 30px;
+    
+    color: black;
+    font-family: "Franklin Gothic Medium", Times, serif;;
+    text-decoration: none;
+    font-size: 16px;
+  
+    transition: all .5s ease;
+}
+.dropdown-content a:hover {
+    background: #dbdeea;
+    box-shadow: 0px 2px 2px #dbdeea;
+}
+.dropdown:hover .dropbtn { background-color: #3e8e41;}
+#about.dropdown:hover .dropdown-content { height: 268px;}
+#locations.dropdown:hover .dropdown-content { height: 325px;}
+#services.dropdown:hover .dropdown-content { height: 268px;}
+#resources.dropdown:hover .dropdown-content { height: 218px;}
+#contact.dropdown:hover .dropdown-content { height: 109px;}
+
+/*----Mobile----*/
+#navlinks-mobile {
+    display: none;
+    
+    height: 100vh;
+
+    overflow-y: auto;
+}
+#navlinks-mobile-icon{
+    display: none;
+    
+    margin: 0 auto;
+    height: 20px;
+    
+    cursor: pointer;
+}
+.nalinks-mobile-section { display: block;}
+.navlinks-mobile-section, .navlinks-mobile-subsection {
+    padding: 15px;
+    border-bottom: 1px solid #70b244;
+}
+.navlinks-mobile-section p {
+    display: inline-block;
+   
+    font-size: 20px;
+}
+.navlinks-mobile-section p, .navlinks-mobile-subsection a {
+    display: inline-block;
+    color: black;
+
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+    text-decoration: none;
+}
+.navlinks-mobile-section span {
+    display: inline-block;
+    
+    float: right;
+    
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", Verdana, serif;
+    font-weight: 600;
+    text-align: right;
+}
+.navlinks-mobile-subsection { display: none;}
+.navlinks-mobile-subsection a {
+    display: block;
+    
+    padding-bottom: 15px;
+    
+    font-size: 15px;
+}
+
+/*------------------------------------*\
+  #Sidebars
+\*------------------------------------*/
+
+#sidebar { 
+    position: fixed;
+    
+    border: 5px solid #70b244;
+    border-radius: 25px;
+}
+#sidebar a { text-decoration: none;}
+.sidebar-section.vpchcbutton {
+    display: block;
+    
+    padding: 10px;
+    
+    border-style:none;
+    
+    font-size: 19px;
+    
+    cursor: pointer;
+}
+.roundtop { border-radius: 17px 17px 0 0;}
+.roundbottom { border-radius: 0 0 17px 17px;}
+/*----Small----*/
+.small-sidebar { margin-left: 10px;}
+.small-bar.vpchcbutton {
+    height: 40px;
+    width: 85px;
+}
+/*----Large----*/
+.large-sidebar { margin: 10px 0 0 10px;}
+.large-bar.vpchcbutton { width: 230px;}
+
+/*------------------------------------*\
+  #Tab
+\*------------------------------------*/
+
+#tab-content { width: 1000px;}
+.tab { margin-top: 10px;}
+.tab-bar { height: 75px;}
+.tab-bar p {
+    color: white;
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+}
+.tab-name, .tab-simple { 
+    float: left;
+}
+.tab-name {
+    margin: 15px 0 0 10px;
+    
+    font-size: 40px;
+}
+.tab-simple { 
+    display: block;
+    
+    margin: 10px;
+    width: 98%;
+    
+    font-size: 40px;
+}
+.tab-simple span{ 
+    float: right;
+    
+    margin-top: 15px;
+    
+    font-size: 25px;
+}
+.drop-arrow {
+    float: right;
+    
+    margin-top: 10px;
+    
+    height: 60px;
+    width: 80px;
+}
+.tab-box { 
+    display: none;
+    
+    height: auto;
+    padding: 10px;
+    
+    border-right: 5px solid #70b244;
+    border-bottom: 5px solid #70b244;
+    border-left: 5px solid #70b244;
+}
+.tab-box-team-height {
+    height: 35px;
+}
+/*----Providers&Team----*/
+.tab-team { margin-left: 300px;}
+.team-ps { background: #70b244;}
+.team-admin { background: #258f71;}
+.tab-prov {
+    background: #3a4e8c;
+    
+    cursor: pointer;
+}
+.tab-box-title {
+    float: left;
+    
+    margin-top: 5px;
+    
+    font-size: 33px;
+    font-weight: 600;
+    color: #3a4e8c;
+}
+.tab-box-location {
+    float: right;
+    
+    margin: 12px 15px 0 0;
+    
+    font-size: 24px;
+    font-family: "Georgia", Times, serif;
+    text-align: right;
+}
+/*----Board----*/
+.tab-board { margin: 0 auto;}
+
+/*----FAQs----*/
+.tab-question {
+    display: inline-block;
+    
+    margin: 10px 0 0 10px;
+    width: 700px;
+    
+    font-size: 20px;
+}
+.tab-answer {
+    display: block;
+    
+    font-size: 20px;
+    text-align: left;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #Titles
+\*------------------------------------*/
+
+h1 {
+    margin: auto;
+    
+    font-size: 60px;
+    text-align: center;
+    font-family: "Franklin Gothic Heavy", Times, serif;
+}
+h2, 
+  #page-tinytitle {
+    margin: 20px auto;
+    
+    text-align: center;
+}
+h2,
+  #page-tinytitle, 
+  .section-title,
+  .section-title-centered,
+  h3 { font-family: "Franklin Gothic Medium", Times, serif;}
+h2, 
+  .section-title,
+  .section-title-centered { font-size: 30px;}
+#page-tinytitle { font-size: 25px;}
+h3 {
+    margin-top: 20px;
+    
+    font-size: 50px;
+}
+.section-title-centered { text-align: center;}
+
+
+/*------------------------------------*\
+        #Page/Page Group Specific
+\*------------------------------------*/
+/* 
+    Table of Contents
+        About Us
+        Archive
+        Bus Tracker
+        Careers
+        Contact Us
+        Dental
+        Diabetes
+        FAQs
+        Forms
+        Governing Board
+        History
+        Home
+        Locations
+        News
+        Services
+        Services Provided
+        Stats
+*/
+
+/*------------------------------------*\
+  #About Us
+\*------------------------------------*/
+
+#about-content {
+    margin: 80px 0 0 140px;
+    width: 1100px;
+}
+#about-content p {
+    margin-bottom: 30px;
+    
+    font-size: 25px;
+    font-family: "Georgia", Times, serif;
+}
+#about-subcontent {
+    margin: 0 0 100px 300px;
+    width: 800px;
+}
+.about-subcontent-title {
+    margin: 60px 0;
+    
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.about-subcontent-answers {
+    margin-left: 20px;
+    
+    font-size: 26px;
+}
+.firstp { text-indent: 35px;}
+
+/*------------------------------------*\
+  #Archive
+\*------------------------------------*/
+
+#archive-content { margin-left: 131px; }
+#archive-options {
+    margin-left: 440px;
+    width: 660px;
+}
+#archive-options .vpchcbutton {
+    margin-right: 175px;
+    
+    font-size: 50px;
+}
+.archive-link { 
+    display: block;
+    
+    margin-top: 20px;
+    
+    font-size: 30px;
+}
+.news-link { margin-left: 380px; }
+.photos-link { margin-left: 265px; }
+#archive-news-section {
+    width: 800px;
+    margin: auto;
+}
+#archive-news-section p { text-indent: 50px; }
+.archive-photos {
+    margin: 30px 0 0 150px;
+    width: 800px;
+}
+.archive-photos p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.archive-photos img { border: 5px solid #3a4e8c; }
+.archive-photos img.horizontal {
+    height: 300px;
+    width: 500px;
+}
+.archive-photos img.vertical {
+    height: 300px;
+    width: 250px;
+}
+.archive-photos .horizontal, 
+  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
+.archive-photos .vertical, 
+  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
+#archive-photos-section {
+    margin: 0 auto;
+    width: 1000px;
+}
+.archive-photos-container {
+    margin: 0 auto;
+    width: 760px;
+}
+#archive-photos-section img {
+    margin-top: 10px;
+    border: 5px solid #3a4e8c;
+}
+#archive-photos-section img.horizontal {
+    height: 500px;
+    width: 750px;
+}
+#archive-photos-section img.vertical {
+    height: 550px;
+    width: 368px;
+}
+
+/*------------------------------------*\
+  #Bus Tracker
+\*------------------------------------*/
+
+#bus-tracker{
+    height: 410px;
+    width: 500px;
+    
+    border: 5px solid #3a4e8c;
+    box-shadow: 10px 10px 5px #888888; 
+}
+#bus-tracker * p {
+    font-family: "georgia", Times, serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+#bus-tracker-title {
+    background: #dadbdd;
+ 
+    text-align: center;
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+#bus-tracker .vpchcbutton{
+    padding: 10px;
+    
+    margin: 30px 0 0 110px;
+    
+    border-radius: 25px;
+    
+    font-size: 25px;
+    font-weight: 900;
+}
+#bus-tracker-info{
+    float: left;
+    
+    margin-left: 15px;
+    width: 130px;
+}
+#bus-tracker-info p,
+  #bus-tracker-data p { margin-top: 40px;}
+#bus-status-icon {
+    float: left;
+    
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+#bus-tracker-data {
+    float: right;
+    
+    margin-right: 10px;
+    width: 330px;
+}
+.bus-tracker-data-section { text-align: center;}
+#bus-status{
+    width: 280px;
+    
+    text-align: center;
+}
+
+/*------------------------------------*\
+  #Careers
+\*------------------------------------*/
+
+.careers-listing  {
+    margin: 10px auto 50px auto;
+    
+    width: 1000px;
+}
+.careers-listing li {
+    font-size: 16px;
+    font-family: "Georgia", Times, serif;
+}
+.careers-listing {
+    margin: 50px auto 0 auto;
+    
+    width: 800px;
+}
+.careers-listing p, 
+  #onsub {
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+}
+.careers-listing p { font-size: 20px;}
+#form_address { display: none;}
+#onsub {
+    width: 760px;
+    
+    color: #3a4e8c;
+}
+#onsub-title {
+    height: 30px;
+    width: auto;
+    
+    background: #3a4e8c;
+    
+    font-size: 25px;
+    text-align:center;
+    color: white;
+}
+#onsub-box {
+    height: 345px;
+    width: auto;
+    
+    background: #dcdeea;
+}
+.onsub-field { padding: 15px;}
+.onsub-field input{ padding-right: 140px;}
+#onsub-foot { width: auto;}
+#onsub-foot-left {
+    float: left;
+    
+    margin-left: 17px;
+}
+#onsub-foot-right {
+    float: right;
+    
+    margin-right: 17px;
+}
+#onsub * .vpchcbutton { font-size: 25px;}
+
+/*------------------------------------*\
+  #Contact Us
+\*------------------------------------*/
+
+#contact-table-container {
+    margin: 100px 0 20px 120px;
+    
+    width: 1200px;
+}
+#contact-table td {
+    height: 380px;
+    width: 417px;
+}
+#contact-table img {
+    height: 160px;
+    width: 317px;
+}
+.contact-info { font-size: 24px;}
+.contact-info-street { margin-top: 20px; }
+.contact-info-state { margin-bottom: 20px; }
+.contact-location {
+    margin-top: 20px;
+    
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+#contact-questions {
+    margin-top: 50px;
+    
+    text-align: center;   
+}
+#contact-questions-title {
+    margin-bottom: 20px;
+    
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+#contact-questions-content {
+    font-size: 30px;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #Dental
+\*------------------------------------*/
+
+.dental-patches {
+    float: right;
+    
+    margin-right: 300px;
+    height: 350px;
+    width: 320px;
+}
+#dental-public {
+    height: 500px;
+}
+
+/*------------------------------------*\
+  #Diabetes
+\*------------------------------------*/
+
+#patres-scale-title, 
+  #patres-script-title, 
+  #patres-diabetes-title, 
+  #patres-links-title {
+    cursor: pointer;
+}
+#patres-scale,
+  #patres-script, 
+  #patres-diabetes,
+  #patres-links {
+    display: none;
+}
+
+/*------------------------------------*\
+  #FAQs
+\*------------------------------------*/
+
+#faq {
+    margin: auto;
+    width: 800px;
+}
+
+/*------------------------------------*\
+  #Forms
+\*------------------------------------*/
+
+#forms-content-options { 
+    display: block;
+
+    margin-top: 20px;
+}
+#forms-content * .vpchcbutton {
+    display: block;
+    margin: 0 auto 50px auto;
+    padding: 10px;
+    
+    border-radius: 25px;
+    
+    font-size: 40px;
+}
+#forms-content * a {
+    display: block;
+    
+    font-size: 20px;
+    text-align: center;
+}
+#forms-content-clinic { display: none;}
+#forms-content-type {display: none;}
+.forms-clinic-table-mobilename { 
+    display: none;
+    
+    margin: 20px 0;
+}
+#forms-content * table {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-family: "georgia", Times, serif;
+}
+.forms-table-age {
+    margin: 20px 0 0 250px;
+    width: 866px;
+}
+.forms-table-location { width: 1366px;}
+.forms-table-pics {
+    background: #258f71;
+    border: 5px solid #3a4e8c;
+    box-shadow: 10px 10px 5px #888888;
+    
+    cursor: pointer;
+}
+#forms-content * .forms-content-number { margin: 20px 0 10px 0;}
+#forms-category,
+  #forms-consent,
+  #forms-notice,
+  #forms-programs,
+  #forms-records-choice,
+  #forms-student { display: none;}
+.forms-simple-section { margin-left: 10px;}
+.forms-simple-title {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.form-simple-subsection {
+    margin-left: 20px;
+    
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+}
+.forms-simple-section * a {
+    font-size: 30px;
+    font-weight: 100;
+}
+.forms-square-blue, 
+ .forms-square-green {
+    height: 300px;
+    width: 300px;
+}
+.forms-age-pic {
+    height: 300px;
+    width: 300px;
+}
+
+/*------------------------------------*\
+  #Governing Board
+\*------------------------------------*/
+
+#board-descript > p {
+    margin: 20px auto 0 auto;
+
+    font-size: 14px;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #History
+\*------------------------------------*/
+
+#history {
+    margin: 30px auto 0 auto;
+    height: 1575px;
+    width: 600px;
+    
+    background: url(/images/timeline_bg.gif) repeat-y center top; 
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    overflow: hidden;
+}
+.timeline {
+    position: relative;
+    float: left;
+    
+    margin: 0 0 50px 20px;
+    padding: 10px 200px 0 0;
+    width: 235px;
+ 
+    border-top: 3px solid #70b244;
+}
+.timeline-year {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    
+    font-size: 48px;
+    color: #70b244;
+}
+.timeline-month-blue {
+    font-size: 20px;
+    
+    color: #3a4e8c;
+}
+.timeline-month-green {
+    font-size: 20px;
+    
+    color: #70b244;
+}
+.even {
+    float: right;
+    
+    padding: 10px 0 0 200px;
+    
+    border-color: #3a4e8c;
+}
+.timeline.even .timeline-year {
+    left: 0;
+    color: #3a4e8c;
+}
+.timeline p { margin-top: 5px; }
+#history-continued {
+    height: 50px;
+    background: url(/images/timeline_bg_downarrow.gif) repeat-y center top; 
+}
+
+/*------------------------------------*\
+  #Home
+\*------------------------------------*/
+
+#slideshow { 
+    position: relative; 
+ 
+    width: 100%; 
+}
+.homescreen-video{
+    position: relative;
+
+    height: auto; 
+    width: 100%; 
+}
+#mobileshow { display: none;}
+
+/*------------------------------------*\
+  #Locations
+\*------------------------------------*/
+
+#location-info {
+    margin: 80px 0 20px 0;
+    height: 500px;
+}
+#location-info-left {
+    float: left;
+    
+    margin-left: 80px;
+    width: 500px;
+}
+#location-hour-title {
+    font-size: 46px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    color: #3a4e8c;
+}
+.location-hours {
+    font-size: 26px;
+    font-family: "Franklin Gothic Demi",Times, serif;
+}
+.location-hours-one { margin-bottom: 140px; }
+.location-hours-three { margin-bottom: 80px; }
+#location-info-left li {
+    margin: 40px 0;
+    
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Demi", Times, serif;
+    
+    list-style-image: url( '/images/green_bullet.png');
+}
+#location-info-left span { color: #3a4e8c;}
+#location-info-right {
+    float: right;
+    
+    margin-right: 100px;
+    width: 500px;
+}
+.location-contact {
+    font-size: 36px;
+    font-family: Times, serif;
+}
+#location-map { 
+    margin-top: 40px; 
+    height: 300px;
+    width: 500px; 
+    border: 0;
+}
+#location-providers-section {
+    margin: 10px auto;
+    width: 1186px;
+}
+.team-table td {
+    width: 590px;
+    background: #3a4e8c;
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    font-size: 45px;
+    color: white;
+}
+.team-table td p { margin-left: 10px;}
+
+/*------------------------------------*\
+  #News
+\*------------------------------------*/
+
+#share {
+    float: left;
+    
+    margin: 50px 0 0 50px;
+    width: 600px;
+}
+#twitter {
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    height: auto;
+    width: 550px;
+ 
+    background-color: #55acee;
+    border-radius: 10px;
+}
+#twitter-feed {
+    margin: 36px auto 0 auto;
+    width: 500px;
+}
+#facebook {
+    vertical-align: top;
+    
+    margin: 20px 0 0 10px;
+    padding-top: 20px;
+    padding-left: 44px;
+    height: 1000px;
+    width: 505px;
+
+    background-color: #3b5998;
+    border-radius: 10px;
+}
+.share-button { margin: 5px 0 0 15px;}
+#events {
+    float: right;
+        
+    width: 500px;
+    margin: 50px 80px 0 0;
+    vertical-align: top;
+}
+#events img {
+    height: 500px;
+    width: 500px;
+}
+#events-container { margin-top: 36px;}
+.upcoming-events-title { font-size: 35px;}
+.upcoming-events-section {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    border:  4px solid #258f71;
+    
+    font-size: 25px;
+}
+#news { clear: both;}
+.news-title {
+    text-align: center;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+}
+.news-article {
+    margin: 0 auto 20px auto;
+    width: 1100px;
+}
+.news-article-title {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.news-article-preview {
+    margin-left: 15px;
+    font-size: 18px;
+}
+#archive-button {
+    margin: 0 auto;
+    width: 165px;
+}
+#news .vpchcbutton { font-size: 25px;}
+
+/*------------------------------------*\
+  #Services
+\*------------------------------------*/
+
+#services-button > .vpchcbutton {
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#services-button {
+    margin: 25px auto 0 auto;
+    width: 800px;
+    
+    text-align: center;
+}
+#iconbanner-title { margin-top: 60px;}
+#iconbanner-title-word {
+    float: right;
+    
+    margin-top: 10px;
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    font-size: 64px;
+    text-align: center;
+}
+.iconbanner-word-dental { margin-right: 160px;}
+.iconbanner-word-medical { margin-right: 120px;}
+.iconbanner-word-ps { margin-right: 30px;}
+#iconbanner-title-icon {
+    float: left;
+    
+    height: 95px;
+    width: 95px;
+}
+.iconbanner-dental { margin-left: 210px;}
+.iconbanner-bh { margin-left: 50px;}
+.iconbanner-medical { margin-left: 185px;}
+.iconbanner-ps { margin-left: 80px;}
+
+/*------------------------------------*\
+  #Services Provided
+\*------------------------------------*/
+
+#services-provided { margin: 40px 0;}
+.services-provided-section {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    
+    height: 100px;
+    width: 320px;
+    
+    border-radius: 25px;
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Georgia", Times, serif;
+    color: #3a4e8c;
+}
+.services-provided-section:hover { background: #dbdeea;}
+
+.services-provided-section.three-sections { 
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+.services-provided-section.four-sections { 
+    mar
+}
+.services-provided-section > img {
+    height: 65px;
+    width: 65px;
+}
+
+/*------------------------------------*\
+  #Stats
+\*------------------------------------*/
+
+#stats-options {
+    width: 98%;
+}
+#stats-options .vpchcbutton {
+    width: 49%;
+    
+    font-size: 50px;
+}
+
+/*------------------------------------*\
+            #Media Queries
+\*------------------------------------*/
+
+@media only screen and (max-width: 1365px) {
+    
+    /*------------------------------------*\
+      #Company Colors
+    \*------------------------------------*/
+
+    .blue-rectangle, 
+        .green-rectangle { width: 400px;}
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-content { width: 1000px;}
+    
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+
+    #head-img-container {
+        margin-top: 20px;
+    } 
+    #header-img { width: 90%;}
+    #head-wrap {
+        height: 100px;
+        width: 1060px;
+    }
+    #masterbox { width: 1060px;}
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    
+    .dropbtn {
+        padding: 12px;
+        
+        font-size: 18px;
+    }
+    .dropdown { padding-right: 10px;}
+    .dropdown-content {
+        min-width: 140px;
+        
+        border-radius: 0 2px 7px 7px;
+        box-shadow: 0 2px 2px #ddd;
+    }
+    .dropdown-content a {
+        padding: 10px 15px;
+        height: 30px;
+        
+        font-size: 14px;
+    }
+    #about.dropdown:hover .dropdown-content { height: 252px;}
+    #locations.dropdown:hover .dropdown-content { height: 301px;}
+    #services.dropdown:hover .dropdown-content { height: 252px;}
+    #resources.dropdown:hover .dropdown-content { height: 201px;}
+    #contact.dropdown:hover .dropdown-content { height: 100px;}
+      
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    .sidebar-section.vpchcbutton {
+        padding: 10px;
+
+        font-size: 12px;
+    }
+    /*----Large----*/
+    .large-bar.vpchcbutton { width: 130px;}
+    
+    
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { width: 850px;}
+    .tab-box { padding: 5px 0 15px 10px;}
+    /*----Providers&Team----*/
+    .tab-team { margin-left: 180px;}
+    
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 50px;}
+    h2 {padding: 0 5px;}
+    h3 {font-size: 45px;}
+    
+    /*------------------------------------*\
+      #About Us
+    \*------------------------------------*/
+    
+    #about-content {
+        margin-left: 0px;
+        width: 100%;
+    }
+    #about-subcontent { margin: 10px auto 0 auto;}
+    
+    /*------------------------------------*\
+      #Archive
+    \*------------------------------------*/
+
+#archive-content { margin-left: 131px; }
+#archive-options {
+    margin-left: 280px;
+}
+#archive-options .vpchcbutton {
+    margin-right: 175px;
+    
+    font-size: 50px;
+}
+.archive-link { 
+    display: block;
+    
+    margin-top: 20px;
+    
+    font-size: 30px;
+}
+.news-link { margin-left: 380px; }
+.photos-link { margin-left: 265px; }
+#archive-news-section {
+    width: 800px;
+    margin: auto;
+}
+#archive-news-section p { text-indent: 50px; }
+.archive-photos {
+    margin: 30px 0 0 150px;
+    width: 800px;
+}
+.archive-photos p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.archive-photos img { border: 5px solid #3a4e8c; }
+.archive-photos img.horizontal {
+    height: 300px;
+    width: 500px;
+}
+.archive-photos img.vertical {
+    height: 300px;
+    width: 250px;
+}
+.archive-photos .horizontal, 
+  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
+.archive-photos .vertical, 
+  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
+#archive-photos-section {
+    margin: 0 auto;
+    width: 1000px;
+}
+.archive-photos-container {
+    margin: 0 auto;
+    width: 760px;
+}
+#archive-photos-section img {
+    margin-top: 10px;
+    border: 5px solid #3a4e8c;
+}
+#archive-photos-section img.horizontal {
+    height: 500px;
+    width: 750px;
+}
+#archive-photos-section img.vertical {
+    height: 550px;
+    width: 368px;
+}
+
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+
+    #contact-table-container {
+        margin: 20px 0 auto 0;
+
+        width: 1000px;
+    }
+    
+    /*------------------------------------*\
+      #Forms
+    \*------------------------------------*/
+
+    .forms-table-age {
+        margin: 0 auto;
+        width: 866px;
+    }
+    .forms-table-location { width: 1050px;}
+    .forms-table-pics {width: 300px;}
+    .forms-square-blue, 
+     .forms-square-green {
+        height: 300px;
+        width: auto;
+    }
+    .forms-age-pic {
+        height: 300px;
+        width: auto;
+    }
+    
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+
+    #location-info {
+        margin: 80px 0 20px 0;
+        height: 500px;
+    }
+    #location-info-left {
+        float: left;
+
+        margin-left: 20px;
+        height: 400px;
+        width: 450px;
+    }
+    #location-info-right {
+        margin-right: 50px;
+        height: 400px;
+        width: 450px;
+    }
+    #location-map { 
+        height: 300px;
+        width: 450px; 
+    }
+    #location-providers-section { width: 1000px;}
+    
+    
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+
+    #share {
+        margin-left: 0px;
+        width: 48%;
+    }
+    #twitter {
+        margin-left: 10px;
+
+        background-color: #55acee;
+        border-radius: 10px;
+    }
+    #twitter-feed {
+        margin: 36px auto 0 auto;
+        
+        height: auto;
+    }
+    #facebook {
+        vertical-align: top;
+
+        margin: 20px 0 0 10px;
+       
+        width: 100%;
+
+        background-color: #3b5998;
+        border-radius: 10px;
+    }
+    #events {
+        float: right;
+
+        width: 400px;
+        margin: 50px 10px 0 0px;
+        vertical-align: top;
+    }
+    #events-container { margin-top: 36px;}
+    .upcoming-events-title { font-size: 35px;}
+    .upcoming-events-section {
+        margin-bottom: 10px;
+
+        border:  4px solid #258f71;
+
+        font-size: 25px;
+    }
+    #news { 
+        margin: 0 auto;
+        width: 98%;
+        
+    }
+    .news-article {
+        margin: 0 auto 20px auto;
+        width: 100%;
+    }
+    .news-article-title {
+        font-size: 25px;
+        font-weight: 900;
+        font-family: "Georgia", Times, serif;
+        color: black;
+    }
+    .news-article-preview {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    #archive-button {
+        margin: 0 auto;
+        width: 165px;
+    }
+    #news .vpchcbutton { font-size: 25px;}
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    #iconbanner-title {
+        margin-top: 60px;
+    }
+    #iconbanner-title-word {
+        float: right;
+
+        margin-top: 15px;
+
+        font-family: "Franklin Gothic Medium", Times, serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    .iconbanner-word-dental { margin-right: 95px;}
+    .iconbanner-word-medical { margin-right: 100px;}
+    .iconbanner-word-ps { margin-right: 10px;}
+    #iconbanner-title-icon {
+        float: left;
+
+        height: 95px;
+        width: 95px;
+    }
+    .iconbanner-dental { margin-left: 180px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 125px;}
+    .iconbanner-ps { margin-left: 50px;}
+    
+    /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+    
+     .services-provided-section {
+        width: 240px;
+
+        font-size: 15px;
+    }
+    .services-provided-section.three-sections { margin-left: 250px;}
+
+}
+@media only screen and (max-width: 1082px) {
+    
+    /*------------------------------------*\
+      #Banner
+    \*------------------------------------*/
+
+    #banner { height: auto;}
+    #banner-left { display: none;}
+    #banner-right {
+        float: none;
+        
+        height: auto;
+        width: 100%;
+    }
+    #banner-title {
+        margin-top: 10px;
+        padding: 0 10px;
+
+        font-size: 25px;
+    }
+    
+    /*------------------------------------*\
+      #Company Colors
+    \*------------------------------------*/
+
+    .blue-rectangle, 
+        .green-rectangle { 
+            height: 30px;
+            width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-content {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    .explain-title { font-size: 20px;}
+    .explain-subtitle { font-size: 18px;}
+    .explain-p, 
+      #explain-content li {
+        font-size: 14px;
+        font-family: "Georgia", Times, serif;
+    }
+    .explain-p { margin-left: 20px;}
+    
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+    
+    header {
+        position: fixed;
+        
+        width: 100%;
+        
+        background: white;
+        
+        z-index: 1;
+    }
+    #head-wrap {
+        position: relative;
+
+        height: 50px;
+        width: 100%;
+    }
+    #head-img-container {
+        margin-top: 8px;
+        margin-left: 5px;
+        width: 210px;
+    } 
+    #header-img { width: 100%;}
+    #masterbox-home { padding-top: 70px;}
+    #masterbox{ 
+        padding-top: 70px;
+        width: 100%;
+    }
+    .footer-section {
+        margin-bottom: 25px;
+        width: 50%;
+    }
+    .footer-section a{ font-size: 18px;}
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    
+    #navlinks{ display: none;}
+  
+    #navlinks-container{
+        margin-top: 15px;
+        margin-right: 20px;
+        
+        height: auto;
+        width: auto;
+    }
+    #navlinks-mobile-icon{ display: block;}
+    
+    /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+    
+     .services-provided-section {
+        display: block;
+        
+        margin: 20px auto 0 auto;
+        height: 50px;
+        width: 200px;
+
+        font-size: 15px;
+    }
+    .services-provided-section.three-sections { margin: 20px auto;}
+    .services-provided-section > img {
+        height: 35px;
+        width: 35px;
+    }
+
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    #sidebar {
+        display: none;
+    }
+    
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { 
+        margin: 0 auto; 
+        width: 95%;
+    }
+    .tab-box { 
+        display: block;
+        
+        padding: 5px 0 15px 10px;
+    }
+    .tab-box-team-height {
+        height: 65px;
+    }
+    .drop-arrow { display: none;}
+    .tab-bar{ pointer-events: none;}
+    .tab-name  {
+        display: block;
+        
+        margin: 15px auto;
+        width: 100%;
+        
+        text-align: center;
+        font-size: 22px;
+    }
+    .tab-question {
+        font-size: 18px;
+        width: 95%;
+    }
+    .tab-answer {
+        font-size: 15px;
+    }
+    .tab-simple {
+        width: 100%;
+        
+        font-size: 25px;
+        text-align: center;
+    }
+    .tab-simple span{
+        display: block;
+        
+        margin-top: 0px;
+        width: 100%;
+        
+        font-size: 20px;
+        text-align: center;
+    }
+    /*----Providers&Team----*/
+    .tab-prov { cursor: default;}
+    
+    .tab-box-title, .tab-box-location{
+        display: block;
+        
+        margin: 5px auto;
+        width: 100%;
+        
+        text-align: center;
+    }
+    .tab-box-title { font-size: 20px;}
+    .tab-box-location { font-size: 15px;}
+
+    
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 30px;}
+    h2 {font-size: 25px;}
+    h3 {font-size: 25px;}
+    .section-title-centered { font-size: 25px;}
+    
+    /*------------------------------------*\
+      #About Us
+    \*------------------------------------*/
+    
+    #about-content {
+        margin: 10px auto;
+        width: 95%;
+    }
+    #about-content p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+        font-size: 14px;
+    }
+    #about-subcontent {
+        width: 95%;
+    }
+    .about-subcontent-title {
+        margin: 10px 0;
+
+        text-align: center;
+        font-size: 25px;
+    }
+    .about-subcontent-answers {
+        margin-left: 20px;
+
+        font-size: 14px;
+    }
+    
+    /*------------------------------------*\
+      #Archive
+    \*------------------------------------*/
+
+    #archive-news-section { width: 85%;}
+    #archive-news-section p { text-indent: 50px;}
+    #archive-photos-section { width: 100%;}
+    .archive-photos-container { width: 310px;}
+    #archive-photos-section img {
+        margin: 20px auto 0 auto;
+    }
+    #archive-photos-section img.horizontal {
+        height: auto;
+        width: 300px;
+    }
+    #archive-content { margin: 0 5px;}
+    #archive-options {
+        margin: 0 auto;
+        width: 300px;
+    }
+    #archive-options .vpchcbutton {
+        margin-right: 65px;
+
+        font-size: 25px;
+    }
+    .archive-link { 
+        margin: 20px auto 0 auto;
+
+        font-size: 20px;
+    }
+    .news-link,
+      .photos-link { 
+        margin-left: 0px; 
+
+        text-align: center;
+    }
+    .archive-photos {
+        margin: 10px 0 0 0px;
+        width: 100%;
+    }
+    .archive-photos p { font-size: 20px;}
+    .archive-photos img.horizontal {
+        display: block;
+        
+        margin: 20px auto;
+        height: 200px;
+        width: 300px;
+    }
+    .archive-photos img.vertical {
+        display: block;
+
+        margin: 20px auto;
+        height: 300px;
+        width: 220px;
+    }
+    .archive-photos.horizontal a,
+      .archive-photos.vertical a { 
+        display: block;
+        
+        margin: 0 auto 20px auto;
+        
+        text-align: center;
+    }
+    .archive-photos-container { width: 95%;}
+    .archive-photos-container img{display: block;}
+    #archive-photos-section img.vertical {
+        height: 300px;
+        width: 220px;
+    }
+    
+    
+    
+    /*------------------------------------*\
+      #Bus Tracker
+    \*------------------------------------*/
+
+    #bus-tracker{
+        margin: 0 auto;
+        height: auto;
+        width: 290px;
+    }
+    #bus-tracker * p { font-size: 14px;}
+    #bus-tracker-title { font-size: 20px;}
+    #bus-tracker .vpchcbutton{
+        margin: 30px 0 0 65px;;
+
+        font-size: 14px;
+    }
+    #bus-tracker-info{
+        float: left;
+
+        width: 80px;
+    }
+    #bus-tracker-info p,
+      #bus-tracker-data p { margin-top: 20px;}
+    #bus-status-icon {
+        float: left;
+
+        margin-left: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    #bus-tracker-data {
+        float: right;
+
+        margin-right: 0px;
+        width: 195px;
+    }
+    #bus-status{ width: 180px;}
+    
+    /*------------------------------------*\
+      #Careers
+    \*------------------------------------*/
+
+    .careers-listing { margin-top: 0px;}
+    .careers-listing  { width: 95%;}
+    .careers-listing li { font-size: 14px;}
+    .careers-listing p { font-size: 20px;}
+    #form_address { display: none;}
+    #onsub { 
+        margin: 0 auto;
+        width: 300px;}
+    #onsub-box {
+        height: 400px;
+    }
+    .onsub-field input{ padding-right: 50px;}
+    #onsub * .vpchcbutton { font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+    #contact-table-container { width: 95%;}
+    #contact-table { width: 100%;}
+    #contact-table td {
+        display: block;
+        
+        margin: 0 auto 10px auto;
+        height: auto;
+        width: 280px;
+    }
+    #contact-table img {
+        height: 160px;
+        width: 280px;
+    }
+    .contact-info { font-size: 14px;}
+    .contact-info-street { margin-top: 0px;}
+    .contact-info-state { margin-bottom: 0px;}
+    .contact-location {
+        margin-top: 5px;
+
+        font-size: 20px;
+    }
+    #contact-questions { margin-top: 0px; }
+    #contact-questions-title {
+        margin-bottom: 2px;
+
+        font-size: 25px;
+    }
+    #contact-questions-content { font-size: 14px;}
+    
+    /*------------------------------------*\
+      #Dental
+    \*------------------------------------*/
+
+    .dental-patches {
+        float: none;
+        display: block;
+
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    #dental-public {
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Diabetes
+    \*------------------------------------*/
+
+    #patres-scale-title, 
+      #patres-script-title, 
+      #patres-diabetes-title, 
+      #patres-links-title {
+        cursor: none;
+        pointer-events: none;
+    }
+    #patres-scale,
+      #patres-script, 
+      #patres-diabetes,
+      #patres-links { display: block;}
+    
+
+    /*------------------------------------*\
+      #Fancy Quote
+    \*------------------------------------*/
+
+    #quote {
+        margin: 0 auto 40px auto;
+        width: 95%;
+
+        font-size: 14px;
+    }
+    .quote-text {
+        margin: 0px 0 0 20px;
+        height: auto;
+        width: 90%;   
+    }
+    .large-quote-left {
+        float: left;
+
+        height: 35px; 
+
+        font-size: 50px;
+    }
+    .large-quote-right {
+        float: right;
+
+        margin: 0 25px 0 0;
+        height: 30px; 
+
+        font-size: 50px;
+    }
+    
+    /*------------------------------------*\
+      #FAQs
+    \*------------------------------------*/
+    
+    #faq { width: 95%;}
+    
+    /*------------------------------------*\
+      #Forms
+    \*------------------------------------*/
+
+    #forms-content-options { 
+        display: block;
+
+        margin-top: 20px;
+    }
+    #forms-content * .vpchcbutton {
+        margin-bottom: 30px;
+
+        font-size: 14px;
+    }
+    #forms-content * a { font-size: 14px;}
+    #forms-content-clinic-table td { display: block;}
+    .forms-clinic-table-mobilename {display: block;}
+    .forms-clinic-table-desktopname { display: none;}
+    #forms-content * table { font-size: 20px;}
+    .forms-simple-section { margin-left: 10px;}
+    .forms-simple-title { font-size: 20px;}
+    .form-simple-subsection { font-size: 20px;
+    }
+    .forms-simple-section * a { font-size: 20px;}
+    .forms-table-age {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .forms-table-location { width: 95%;}
+    .forms-table-pics { width: 280px;}
+    .forms-square-blue-container, 
+    .forms-square-green-container {
+        display: none;
+    }
+    .forms-age-pic {
+        margin: 20px 0;
+        height: 200px;
+        width: 200px;
+    }
+    
+    /*------------------------------------*\
+      #History
+    \*------------------------------------*/
+    
+    #history {
+        margin: 30px auto 0 auto;
+        height: auto;
+        width: 300px;
+
+        background: none;    
+    }
+    .timeline {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 20px 50px 10px 10px;
+        width: 235px;
+
+        border: 3px solid #70b244;
+    }
+    .timeline-year {
+        padding-left: 5px;
+        padding-right: 5px;
+        
+        font-size: 20px;
+    }
+    .timeline-month-blue { font-size: 20px;}
+    .timeline-month-green { font-size: 20px;}
+    .even { 
+        padding: 20px 0px 10px 60px;
+        
+        border-color: #3a4e8c;
+    }
+    .timeline p { 
+        margin-top: 5px;
+        padding-right: 5px;
+
+        font-size: 12px;
+    }
+    #history-continued { display: none;}
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+    
+    #location-info {
+        margin: 10px 0 20px 0;
+        height: auto;
+    }
+    #location-info-left {
+        display: block;
+        float: none;
+        
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    #location-info-left li {
+        margin: 20px 0;
+
+        font-size: 14px;
+    }
+    #location-hour-title { font-size: 20px;}
+    .location-hours { font-size: 14px;}
+    .location-hours-one { margin-bottom: 0px; }
+    .location-hours-three { margin-bottom: 0px; }
+    #location-info-right {
+        display: block;
+        float: none;
+        
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    #location-map { 
+        clear: none;
+        
+        height: 300px;
+        width: auto; 
+    }
+    .location-contact {
+        font-size: 14px;
+        font-family: Times, serif;
+    }
+    #location-providers-section { width: 98%;}
+    .team-table td { font-size: 16px;}
+    .team-table td p { margin-left: 10px;}
+    
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+
+    #share {
+        float: none;
+        
+        margin: 0 auto;
+    }
+    #twitter {
+        display: none;
+    }
+    #facebook {
+        display: none;
+    }
+    .share-button {
+        margin: 0 auto;
+    }
+    #events {
+        float: none;
+
+        margin: 0 auto;
+        width: 300px;
+    }
+    #events-container { margin-top: 0px;}
+    .upcoming-events-section { font-size: 14px;}
+    .news-title {font-size: 20px;}
+    .news-article { width: 98%;}
+    .news-article-title { font-size: 18px;}
+    .news-article-preview { font-size: 14px;}
+    #news .vpchcbutton { font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    
+    #services-button > .vpchcbutton {
+        border-radius: 15px;
+
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #services-button {
+        margin: 20px auto 0 auto;
+
+        width: 300px;
+        text-align: center;
+    }
+    #iconbanner-title {
+        margin: 10px auto 0 auto;
+    }
+    .iconbanner-title-bh {
+        height: 35px;
+        width: 240px;
+    }
+    .iconbanner-title-medical {
+        height: 35px;
+        width: 130px;
+    }
+    .iconbanner-title-ps {
+        height: 35px;
+        width: 220px;
+    }
+    .iconbanner-title-dental {
+        height: 35px;
+        width: 115px;
+    }
+    #iconbanner-title-word {
+        float: right;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        
+        font-size: 25px;
+    }
+    .iconbanner-word-medical { margin-right: 0px;}
+    .iconbanner-word-dental { margin-right: 0px;}
+    .iconbanner-word-ps { margin-right: 0px;}
+    #iconbanner-title-icon {
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+    }
+    .iconbanner-dental { margin-left: 0px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 20px;}
+    .iconbanner-ps { margin-left: 0px;}
+    
+    /*------------------------------------*\
+      #Slideshow
+    \*------------------------------------*/
+    
+    #slideshow { display: none;}
+    #mobileshow {
+        display: block;
+        position: relative;
+    }
+    #mobileshow img{
+        position: relative;
+        
+        height: auto;
+        width: 100%;
+        
+        z-index: -1;
+    }
+    #mobileshow-quote-container {
+        position: absolute;
+        
+        height: 100%;
+        width: 100%;
+    }
+    #mobileshow p {
+        position: absolute;
+        
+        bottom: 0;
+        margin-left: 15px;
+        margin-bottom: 25px;
+       
+        font-size: 9vw;
+        font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+    }  
+}
+/********|*********|*********|*********|*********|*********|*********|*********/

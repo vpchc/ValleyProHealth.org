@@ -24,12 +24,10 @@
 	height: 530px;
 	width: 875px;
 }
-
 #map-container a{
 	color: #e76737;
 	text-decoration: none;
 }
-
 #map-container a:hover, #map-container a:active{
 	text-decoration: underline;
 }
@@ -133,8 +131,6 @@
 	margin: 0 0 0 10px;
 }
 
-
-
 #loading-map{
 	float: left;
 	margin: 4px 0 0 10px;
@@ -205,4 +201,57 @@
 	float: left;
 	margin-top: 30px;
 	width: 100%;
+}
+
+/*------------------------------------*\
+            #Media Queries
+\*------------------------------------*/
+
+@media only screen and (max-width: 1365px) {
+    #store-locator-container{
+        margin: 30px auto 0 auto;
+        width: 800px;
+        font: 20px "Georgia", Times, sans-serif;
+    }
+    #modal-window{
+        width: 500px;
+        height: 590px;
+    }
+
+}
+@media only screen and (max-width: 1082px) {
+   #store-locator-container{
+        margin-left: 0px;
+        margin: 20px auto 0 auto;
+        width: 280px;
+        font: 20px "Georgia", Times, sans-serif;
+    }
+    #store-locator-container .vpchcbutton { font-size: 15px;}
+    .zipcode { font: 15px "Georgia", Times, sans-serif;}
+    .large-font {
+        font-size: 15px;
+        height: 20px;
+        width: 60px;
+    }
+    #modal-window{
+        width: 300px;
+        height: 590px;
+    }
+    .list-content {
+        font-size: 14px;
+        width: 120px;
+    }
+    .list-label {
+        font-size: 14px;
+    }
+    #loc-list{
+        width: 250px;
+        height: 200ppx;
+    }
+    #map{ 
+        float: none;
+        display: block;
+        width: 280pxpx; 
+        height: 300px; 
+    }
 }
