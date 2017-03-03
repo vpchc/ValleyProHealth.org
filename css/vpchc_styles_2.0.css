@@ -1889,7 +1889,7 @@ h3 {
     \*------------------------------------*/
 
     #archive-news-section { width: 85%;}
-    #archive-news-section p { text-indent: 50px; }
+    #archive-news-section p { text-indent: 50px;}
     #archive-photos-section { width: 100%;}
     .archive-photos-container { width: 310px;}
     #archive-photos-section img {
@@ -1899,58 +1899,60 @@ h3 {
         height: auto;
         width: 300px;
     }
-    #archive-content { margin: 0 5px; }
-#archive-options {
-    margin: 0 auto;
-    width: 300px;
-}
-#archive-options .vpchcbutton {
-    margin-right: 65px;
-    
-    font-size: 25px;
-}
-.archive-link { 
-    display: block;
-    
-    margin-top: 20px;
-    
-    font-size: 30px;
-}
-.news-link { margin-left: 380px; }
-.photos-link { margin-left: 265px; }
+    #archive-content { margin: 0 5px;}
+    #archive-options {
+        margin: 0 auto;
+        width: 300px;
+    }
+    #archive-options .vpchcbutton {
+        margin-right: 65px;
 
-.archive-photos {
-    margin: 30px 0 0 150px;
-    width: 800px;
-}
-.archive-photos p {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 900;
-    font-family: "Georgia", Times, serif;
-    color: black;
-}
-.archive-photos img { border: 5px solid #3a4e8c; }
-.archive-photos img.horizontal {
-    height: 300px;
-    width: 500px;
-}
-.archive-photos img.vertical {
-    height: 300px;
-    width: 250px;
-}
-.archive-photos .horizontal, 
-  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
-.archive-photos .vertical, 
-  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
-.archive-photos-container {
-    margin: 0 auto;
-    width: 760px;
-}
-#archive-photos-section img.vertical {
-    height: 550px;
-    width: 368px;
-}
+        font-size: 25px;
+    }
+    .archive-link { 
+        margin: 20px auto 0 auto;
+
+        font-size: 20px;
+    }
+    .news-link,
+      .photos-link { 
+        margin-left: 0px; 
+
+        text-align: center;
+    }
+    .archive-photos {
+        margin: 10px 0 0 0px;
+        width: 100%;
+    }
+    .archive-photos p { font-size: 20px;}
+    .archive-photos img.horizontal {
+        display: block;
+        
+        margin: 20px auto;
+        height: 200px;
+        width: 300px;
+    }
+    .archive-photos img.vertical {
+        display: block;
+
+        margin: 20px auto;
+        height: 300px;
+        width: 220px;
+    }
+    .archive-photos.horizontal a,
+      .archive-photos.vertical a { 
+        display: block;
+        
+        margin: 0 auto 20px auto;
+        
+        text-align: center;
+    }
+    .archive-photos-container { width: 95%;}
+    .archive-photos-container img{display: block;}
+    #archive-photos-section img.vertical {
+        height: 300px;
+        width: 220px;
+    }
     
     
     
