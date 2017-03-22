@@ -43,20 +43,15 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>CMA/LPN - Crawfordsville</h2>
+  <h2>Site Manager - Crawfordsville</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a CMA/LPN for it's Crawfordsville location.</p>
+    <p>Valley Professionals Community Health Center is hiring a Site Manager for its Crawfordsville clinic.</p>
     <p>Duties:</p>
-    <li>Providing professional nursing services and patient care</li>
-    <li>Patient Assessment.</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider in minor procedures</li>
-    <li>Answering phone calls</li>
-    <li>Scheduling patients</li>
-    <li>Checking-in patients</li>
+    <li>Include responsibility for overseeing facility management and the daily operations.</li>
+    <li>Oversee clinical staff, care of patients, and the implementation of clinic policies and procedures.</li>
     <p>Requirements:</p>
-    <li>Current certification or licensure as a Medical Assistant or Nurse</li>
-    <li>Two to three years primary care experience preferred</li>
+    <li>Current clinical experience </li>
+    <li>Three to five years experience in an office supervisory position</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_4.php" name="referer">
@@ -80,7 +75,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA/LPN - Crawfordsville">
+        <input type="hidden" name="subject" value="Site Manager - Crawfordsville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

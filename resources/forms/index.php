@@ -70,16 +70,25 @@
       <tr>
         <td><img id="forms-content-clinic-craw" class="forms-table-pics" src="/images/crawfordsville_location.jpg" alt="Crawfordsville Choice"/></td>
         <td class="forms-clinic-table-mobilename">Crawfordsville</td>
+        <td><img id="forms-content-clinic-rock" class="forms-table-pics" src="/images/rockville_location.jpg" alt="Rockville Choice"/></td>
+        <td class="forms-clinic-table-mobilename">Rockville</td>
         <td><img id="forms-content-clinic-terre" class="forms-table-pics" src="/images/terrehaute_location.jpg" alt="Terre Haute Choice"/></td>
         <td class="forms-clinic-table-mobilename">Terre Haute</td>
-        <td><img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/tracker_small.png" alt="MSBHC Choice"/></td>
-        <td class="forms-clinic-table-mobilename">MSBHC</td>
       </tr>
       <tr class="forms-clinic-table-desktopname">
         <td>Crawfordsville</td>
+        <td>Rockville</td>
         <td>Terre Haute</td>
+      </tr> 
+      <tr>
+        <td></td>
+        <td><img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/tracker_small.png" alt="MSBHC Choice"/></td>
+        <td class="forms-clinic-table-mobilename">MSBHC</td>  
+      </tr>
+      <tr class="forms-clinic-table-desktopname">
+        <td></td>
         <td>MSBHC</td>
-      </tr>  
+      </tr> 
     </table>
   </div>
   <div id="forms-content-type">
@@ -127,6 +136,7 @@
     <button id="forms-records-cay" class="vpchcbutton">Cayuga</button> 
     <button id="forms-records-clint" class="vpchcbutton">Clinton</button>
     <button id="forms-records-craw" class="vpchcbutton">Crawfordsville</button>
+    <button id="forms-records-rock" class="vpchcbutton">Rockville</button>
     <button id="forms-records-terre" class="vpchcbutton">Terre Haute</button>
     <button id="forms-records-mobile" class="vpchcbutton">Mobile Health Center</button>
   </div>
@@ -161,53 +171,76 @@
       locationChoice = 1;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-cay").click(function(){
-         locationChoice = 2;
+      locationChoice = 2;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-clint").click(function(){
       locationChoice = 3;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-craw").click(function(){
-        locationChoice = 4;
+      locationChoice = 4;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
+    });
+    $("#forms-content-clinic-rock").click(function(){
+      locationChoice = 5;
+      $("#forms-content-clinic").hide();
+      $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-terre").click(function(){
-         locationChoice = 5;
+      locationChoice = 6;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-bus").click(function(){
-       locationChoice = 0;
+      locationChoice = 0;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     }); 
     //Adult choosen
     $("#forms-content-type-adult").click(function(event){
-      if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href =  "/files/forms/en/new_patient_packet_adult_bloomcayclint.pdf";
+      if(locationChoice == 1){
+          window.location.href = "/files/forms/en/new_patient_packet_adult_bloomingdale.pdf";
+      }else if(locationChoice == 2){
+          window.location.href = "/files/forms/en/new_patient_packet_adult_cayuga.pdf";
+      }else if(locationChoice == 0 || locationChoice == 3){
+          window.location.href = "/files/forms/en/new_patient_packet_adult_clinton.pdf";
       }else if(locationChoice == 4){
           window.location.href = "/files/forms/en/new_patient_packet_adult_crawfordsville.pdf";
+      }else if(locationChoice == 5){
+          window.location.href = "/files/forms/en/new_patient_packet_adult_rockville.pdf";
       }else{
           window.location.href = "/files/forms/en/new_patient_packet_adult_terrehaute.pdf";
       }
     });
     //Child choosen
     $("#forms-content-type-child").click(function(){
-      if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href = "/files/forms/en/new_patient_packet_child_bloomcayclint.pdf";
+      if(locationChoice == 1 ){
+         window.location.href = "/files/forms/en/new_patient_packet_childt_bloomingdale.pdf";
+      }else if(locationChoice == 2){
+          window.location.href = "/files/forms/en/new_patient_packet_child_cayuga.pdf";
+      }else if(locationChoice == 0 || locationChoice == 3){
+          window.location.href = "/files/forms/en/new_patient_packet_child_clinton.pdf";
       }else if(locationChoice == 4){
           window.location.href = "/files/forms/en/new_patient_packet_child_crawfordsville.pdf";
+      }else if(locationChoice == 5){
+          window.location.href = "/files/forms/en/new_patient_packet_child_rockville.pdf";
       }else{
           window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
       }
     });
-    
     /**Spanish forms section***/
     $("#forms-options-spanish").click(function(){
        window.location.href =  "/resources/forms/es_index.php";
@@ -232,7 +265,7 @@
         window.location.href = "/files/forms/en/release_of_information.pdf";
     });
     /*Release of records choosen*/
-     $("#forms-consent-releaserec").click(function(){
+    $("#forms-consent-releaserec").click(function(){
       $("#forms-consent").hide();
       $("#forms-records-choice").fadeIn(1000);
     });
@@ -251,6 +284,10 @@
     //Crawfordsville download
     $("#forms-records-craw").click(function(){
         window.location.href = "/files/forms/en/records_release_crawfordsville.pdf";
+    });
+    //Rockville download
+    $("#forms-records-rock").click(function(){
+        window.location.href = "/files/forms/en/records_release_rockville.pdf";
     });
     //Terre Haute download
     $("#forms-records-terre").click(function(){

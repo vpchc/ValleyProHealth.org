@@ -44,42 +44,32 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/bloomingdale_location_banner.png" alt="Bloomingdale Pic"/>
+    <img id="banner-pic"  src="/images/rockville_location_banner.png" alt="Rockville"/>
+    </br>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Bloomingdale</h1>
+      <h1 id="banner-title" class="vpchcgreen">Rockville</h1>
     </div>
   </div>
   <div id="location-info">
     <div id="location-info-left">
       <p id="location-hour-title">Hours</p>
-      <p class="location-hours location-hours-one">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
-      <li>Established in June 2013</li>
-      <li>Sees an estimated <span>1,200</span> patients annually</li>
-      <li>Sees an estimated <span>4,000</span> visits annually</li>
+      <p class="location-hours">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
+      <li>Established in April 2017</li>
     </div>
     <div id="location-info-right">
-      <p class="location-contact">201 W. Academy St.</p>
-      <p class="location-contact">Bloomingdale, IN 47832</p>
-      <p class="location-contact">(765) 498-9000</p>
-      <p class="location-contact">Fax: (765) 498-9004</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=201%20W.%20Academy%20St.%20Bloomingdale%2C%20IN%2047832&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <p class="location-contact">727 Lincoln Rd</p>
+      <p class="location-contact">Rockville, IN 47842</p>
+      <p class="location-contact">(765) 569-1123</p>
+      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=777%20S.%20Main%20Street%2C%20Suite%20100%20%20%20Clinton%2C%20IN%2047842&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
     </div>
   </div>
-  <h2>Services Provided At This Clinic</h2>
+  <p class="section-title-centered">Services Provided At This Clinic</p>
   <hr>
   <div id="services-provided">
-    <a href="/services/behavioral_health.php"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.php"><div class="services-provided-section three-sections">
+    <a href="/services/medical.php"><div class="services-provided-section one-section">
     <p>Medical</p>
     <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
     </div></a>
   </div>
   <h2>Providers Currently Seeing Patients At This Clinic</h2>
@@ -87,12 +77,7 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Christi Busenbark, FNP-C</p></td> 
-        <td><p class="team-table-name">Louwanna Wallace, FNP-C</p></td>
-      </tr>
-      <tr>
-        <td><p class="team-table-name">Paul Taraska, MD</p></td>
-        <td><p class="team-table-name">Megan Neitling, LMHCA</p></td>
+        <td><p class="team-table-name">Jordan Ryley, FNP-C</p></td>
       </tr>
     </table>
   </div>

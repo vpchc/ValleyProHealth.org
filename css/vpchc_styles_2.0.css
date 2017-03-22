@@ -188,10 +188,6 @@
     margin: 0px auto 50px auto;
 	width: 1350px;
 }
-#masterbox-no-top {
-    margin: 0px auto 50px auto;
-    width: 1366px;
-}
 #masterbox-home {
     height: auto;
     width: 100%;
@@ -240,13 +236,13 @@ footer { position: relative;}
 .footer-section {
     float: left;
     
-    width: 16.6666%;
+    width: 14.2857%;
 }
 .footer-section a{
     color: black;
     
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Franklin Gothic Medium", Times, serif;
     text-decoration: none;
 }
@@ -344,7 +340,7 @@ footer { position: relative;}
 }
 .dropdown:hover .dropbtn { background-color: #3e8e41;}
 #about.dropdown:hover .dropdown-content { height: 268px;}
-#locations.dropdown:hover .dropdown-content { height: 325px;}
+#locations.dropdown:hover .dropdown-content { height: 379px;}
 #services.dropdown:hover .dropdown-content { height: 268px;}
 #resources.dropdown:hover .dropdown-content { height: 218px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
@@ -835,21 +831,31 @@ h3 {
     width: 417px;
 }
 #contact-table img {
-    height: 160px;
+    display: block;
+    
+    margin: 0 auto;
+    height: 180px;
     width: 317px;
 }
-.contact-info { font-size: 24px;}
+.contact-info { 
+    margin: 0 auto;
+    width: 317px;
+    
+    font-size: 24px;
+}
 .contact-info-street { margin-top: 20px; }
 .contact-info-state { margin-bottom: 20px; }
 .contact-location {
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    width: 317px;
     
     font-size: 28px;
     font-weight: bold;
     font-family: "Franklin Gothic Demi", Times, serif;
 }
+
 #contact-questions {
-    margin-top: 50px;
+    margin-top: 0px;
     
     text-align: center;   
 }
@@ -1289,12 +1295,18 @@ h3 {
 }
 .services-provided-section:hover { background: #dbdeea;}
 
+.services-provided-section.one-section{
+    display: block;
+    
+    margin: 0 auto;
+}
 .services-provided-section.three-sections { 
-    margin-left: 320px;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
-.services-provided-section.four-sections { 
-    mar
+.services-provided-section.four-sections {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 .services-provided-section > img {
     height: 65px;
@@ -1346,7 +1358,7 @@ h3 {
         width: 1060px;
     }
     #masterbox { width: 1060px;}
-    
+
     /*------------------------------------*\
       #Navlinks
     \*------------------------------------*/
@@ -1653,7 +1665,10 @@ h3 {
 
         font-size: 15px;
     }
-    .services-provided-section.three-sections { margin-left: 250px;}
+    .services-provided-section.four-sections {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
 
 }
 @media only screen and (max-width: 1082px) {
@@ -1663,7 +1678,13 @@ h3 {
     \*------------------------------------*/
 
     #banner { height: auto;}
-    #banner-left { display: none;}
+    #banner-left { 
+        float: none;
+        
+        margin: 0 auto;
+        height: 100px;
+        width: 300px;
+    }
     #banner-right {
         float: none;
         
@@ -1739,7 +1760,9 @@ h3 {
         width: 50%;
     }
     .footer-section a{ font-size: 18px;}
-    
+    .footer-section-last{
+        width: 100%;
+    }
     /*------------------------------------*\
       #Navlinks
     \*------------------------------------*/
@@ -1768,7 +1791,8 @@ h3 {
 
         font-size: 15px;
     }
-    .services-provided-section.three-sections { margin: 20px auto;}
+    .services-provided-section.three-sections,
+      .services-provided-section.four-sections { margin: 20px auto;}
     .services-provided-section > img {
         height: 35px;
         width: 35px;
@@ -1778,9 +1802,7 @@ h3 {
       #Sidebars
     \*------------------------------------*/
     
-    #sidebar {
-        display: none;
-    }
+    #sidebar { display: none;}
     
     /*------------------------------------*\
       #Tab
@@ -1953,8 +1975,6 @@ h3 {
         height: 300px;
         width: 220px;
     }
-    
-    
     
     /*------------------------------------*\
       #Bus Tracker

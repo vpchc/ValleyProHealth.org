@@ -76,6 +76,10 @@
       <p><span class="timeline-month-blue">April</span></br>The Valley Professionals Cayuga clinic relocates to the former Speedco building on Park Street in Cayuga.</p>
       <p><span class="timeline-month-blue">May</span></br>Valley Professionals receives a one million dollar grant from HRSA(Health Resources & Services Administration) for expansion and renovation of the Clinton clinic.</p>
     </div>
+    <div class="timeline even">
+      <span class="timeline-year">2017</span>
+      <p><span class="timeline-month-green">April</span></br>New Valley Professionals Community Health Center clinic opens in Rockville.</p>
+    </div>
   </div>
   <div id="history-continued"></div>
 </main>

@@ -72,51 +72,61 @@
       </br>
     <h3>Board Members</h3>
     <hr>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Lisa Taylor-Franke</p>
-        </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Amy Newlin</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Diana Carole Hart</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Diana Carole Hart</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Amy Newlin</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Doug Fauber</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Jackie Mathis</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Gary Cowan</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Michael Miller</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Jackie Mathis</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Mary Jo Harney</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Jeff Williamson</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Yale Yager</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Jerry Hawkins</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Jeff Williamson</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Lisa Taylor-Franke</p>
       </div>
-      <div class="tab">
-        <div class="tab-bar team-admin">
-          <p class="tab-simple">Gary Cowan</p>
-        </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Michael Miller</p>
       </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Wendy Olson</p>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Yale Yager</p>
+      </div>
+    </div>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -84,14 +84,24 @@
        <p class="contact-info">(765) 362-5100</p>
       </td>
       <td>
+       <a href="/rockville/"><img id="banner-pic"  src="/images/rockville_location.jpg" alt="Rockville"/></a>
+       <p class="contact-location vpchcgreen">Rockville</p>
+       <p class="contact-info contact-info-street">727 Lincoln Rd</p>
+       <p class="contact-info contact-info-state">Rockville, IN 47842</p>
+       <p class="contact-info">(765) 569-1123</p>
+      </td> 
+      <td>
        <a href="/terrehaute"><img id="banner-pic"  src="/images/terrehaute_location.jpg" alt="Terre Haute"/></a>
        <p class="contact-location vpchcgreen">Terre Haute</p>
        <p class="contact-info contact-info-street">1530 N 7th Street, #201</p>
        <p class="contact-info contact-info-state">Terre Haute, IN 47807</p>
        <p class="contact-info">(812) 238-7631</p>
       </td> 
+    </tr>
+    <tr>
+      <td></td>
       <td>
-       <a href="/mobile/"><img id="banner-pic"  src="/images/MSBHCanimation.png" alt="Mobile Health Center"/></a>
+       <a href="/mobile/"><img id="banner-pic"  src="/images/mobile_bus_small.png" alt="Mobile Health Center"/></a>
        <p class="contact-location vpchcgreen">Mobile Health Center</p>
        <p class="contact-info contact-info-street">(765) 592-6164</p>
        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

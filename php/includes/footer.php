@@ -12,9 +12,12 @@
     <a href="/crawfordsville/"><p>Crawfordsville</p></a>
   </div>
   <div class="footer-section">
-    <a href="/terrehaute/"><p>Terre Haute</p></a>
+    <a href="/rockville/"><p>Rockville</p></a>
   </div>
   <div class="footer-section">
+    <a href="/terrehaute/"><p>Terre Haute</p></a>
+  </div>
+  <div class="footer-section footer-section-last">
     <a href="/mobile/"><p>Mobile Health Center</p></a>
   </div>
   <div id="footer-disclaimer" class="vpchcgrey">

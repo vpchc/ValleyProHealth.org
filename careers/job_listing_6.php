@@ -43,17 +43,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Behavorial Health Provider - Mobile Unit</h2>
+  <h2>Patient Care Coordinator - Clinton</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a Licensed Mental Health Counselor or Licensed Clinical Social Worker for its Mobile School Based Health Center.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for its Clinton office.</p>
     <p>Duties:</p>
-    <li>Providing professional behavioral healthcare to VPCHC patients </li>
-    <li>Coordinating patient treatment with a multidisciplinary team</li>
-    <p>Benefits:</p>
-    <li>VPCHC is a National Health Service Corps Student Loan Repayment Site</li>
+    <li>Work directly with patients providing health education</li>
+    <li>Working with the patients to improve health outcomes</li>
+    <li>Manage high risk patient care</li>
+    <li>Management of patients with multiple co-morbidities</li>
+    <li>Coordinate the continuity of patient care with external healthcare organizations</li>
+    <p>Requirements:</p>
+    <li>Must have current Indiana licensure as a Registered Nurse.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_1.php" name="referer">
+    <input type="hidden" value="job_listing_6.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -74,7 +77,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Behavorial Health Provider - Mobile Unit">
+        <input type="hidden" name="subject" value="Site Manager - Crawfordsville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

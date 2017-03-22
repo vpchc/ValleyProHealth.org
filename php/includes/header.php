@@ -16,13 +16,14 @@
         </div>
       </li>
       <li id="locations" class="dropdown">
-        <a href="/locations/index.php"><button class="dropbtn">Locations</button></a>
+        <a href="/locations/"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
         <a href="/clinton/">Clinton</a>
         <a href="/crawfordsville/">Crawfordsville</a>
-        <a href="/terrehaute">Terre Haute</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
         <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </li>
@@ -30,7 +31,7 @@
         <a href="/services/"><button class="dropbtn">Services</button></a>
         <div class="dropdown-content">
         <a href="/services/medical.php">Medical</a>
-        <a href="/dental">Dental</a>
+        <a href="/dental/">Dental</a>
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
@@ -40,7 +41,7 @@
         <a href="/resources/"><button class="dropbtn">Resources</button></a>
         <div class="dropdown-content">
         <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-        <a href="/contact_us/faqs.php">New Patients</a>
+        <a href="/faqs/">New Patients</a>
         <a href="/resources/patient_resources.php">Patient Resources</a>
         <a href="/resources/forms/">Forms</a>
         </div>
@@ -48,8 +49,8 @@
       <li id="contact" class="dropdown">
         <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
-            <a href="/contact_us/faqs.php">Frequently </br>Asked Questions</a>
-        <a href="/careers">Careers</a>
+        <a href="/faqs/">Frequently </br>Asked Questions</a>
+        <a href="/careers/">Careers</a>
         </div>
       </li>
     </ul>
@@ -75,10 +76,11 @@
           <a href="/cayuga/">Cayuga</a>
           <a href="/clinton/">Clinton</a>
           <a href="/crawfordsville/">Crawfordsville</a>
-          <a href="/terrehaute">Terre Haute</a>
+          <a href="/rockville/">Rockville</a>
+          <a href="/terrehaute/">Terre Haute</a>
           <a href="/mobile/">Mobile Health Center</a>
         </div>
-      <div class="navlinks-mobile-section"><p>Servces</p><span>></span></a></div>
+      <div class="navlinks-mobile-section"><p>Services</p><span>></span></a></div>
         <div class="navlinks-mobile-subsection">
           <a href="/services/">Services</a>
           <a href="/services/medical.php">Medical</a>
@@ -91,14 +93,14 @@
         <div class="navlinks-mobile-subsection">
           <a href="/resources/">Resources</a>
           <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-          <a href="/contact_us/faqs.php">New Patients</a>
+          <a href="/faqs/">New Patients</a>
           <a href="/resources/patient_resources.php">Patient Resources</a>
           <a href="/resources/forms/">Forms</a>
         </div>
       <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
         <div class="navlinks-mobile-subsection">
           <a href="/contact_us/">Contact Us</a>
-          <a href="/contact_us/faqs.php">Frequently Asked Questions</a>
+          <a href="/faqs/">Frequently Asked Questions</a>
           <a href="/careers">Careers</a>
         </div>
   </div>

@@ -342,16 +342,6 @@
         <p class="tab-box-location">Cayuga</p> 
       </div>
     </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dr. Dane Mishler, DDS</p>
-        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
-      </div>
-      <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Dental</p>
-        <p class="tab-box-location">Bloomingdale</p> 
-      </div>
-    </div> 
     <h3 id="chw">Community Health Workers</h3>
     <hr>
     <div class="tab">
@@ -361,17 +351,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Connie<span>Bloomingdale/Cayuga</span></p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
         <p class="tab-simple">Jessica<span>Clinton</span></p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
-        <p class="tab-simple">Justin<span>Terre Haute</span></p>
       </div>
     </div>
     <div class="tab">
@@ -395,11 +375,6 @@
       <div class="tab-bar team-ps">
         <p class="tab-simple">Jill<span>Clinton</span></p>
       </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
-        <p class="tab-simple">Kathleen<span>Clinton</span></p>
-     </div>
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">

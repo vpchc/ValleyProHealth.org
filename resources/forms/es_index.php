@@ -56,60 +56,64 @@
     <h2>Qu&eacute; cl&iacute;nica utilizar&aacute;?</h2>
     <table id="forms-content-clinic-table" class="forms-table-location">
       <tr>
-        <td><div class="forms-content-number">1</div></td>
-        <td><div class="forms-content-number">2</div></td>
-        <td><div class="forms-content-number">3</div></td>
-      </tr>  
-      <tr>
         <td><img id="forms-content-clinic-bloom" class="forms-table-pics" src="/images/bloomingdale_location.jpg" alt="Team Pic"/></td>
+        <td class="forms-clinic-table-mobilename">Bloomingdale</td>
         <td><img id="forms-content-clinic-cay" class="forms-table-pics" src="/images/cayuga_location.jpg" alt="Team Pic"/></td>
+        <td class="forms-clinic-table-mobilename">Cayuga</td>
         <td><img id="forms-content-clinic-clint" class="forms-table-pics" src="/images/clinton_location.jpg" alt="Team Pic"/></td>
+        <td class="forms-clinic-table-mobilename">Clinton</td>
       </tr>
-      <tr>
+       <tr class="forms-clinic-table-desktopname">
         <td>Bloomingdale</td>
         <td>Cayuga</td>
         <td>Clinton</td>
       </tr>
       <tr>
-        <td><div class="forms-content-number">4</div></td>
-        <td><div class="forms-content-number">5</div></td>
-        <td><div class="forms-content-number">6</div></td>
-      </tr>  
-      <tr>
-        <td><img id="forms-content-clinic-craw" class="forms-table-pics" src="/images/crawfordsville_location.jpg" alt="Team Pic"/></td>
-        <td><img id="forms-content-clinic-terre" class="forms-table-pics" src="/images/terrehaute_location.jpg" alt="Team Pic"/></td>
-        <td><img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/tracker_small.png" alt="Team Pic"/></td>
+        <td><img id="forms-content-clinic-craw" class="forms-table-pics" src="/images/crawfordsville_location.jpg" alt="Crawfordsville Choice"/></td>
+        <td class="forms-clinic-table-mobilename">Crawfordsville</td>
+        <td><img id="forms-content-clinic-rock" class="forms-table-pics" src="/images/rockville_location.jpg" alt="Rockville Choice"/></td>
+        <td class="forms-clinic-table-mobilename">Rockville</td>
+        <td><img id="forms-content-clinic-terre" class="forms-table-pics" src="/images/terrehaute_location.jpg" alt="Terre Haute Choice"/></td>
+        <td class="forms-clinic-table-mobilename">Terre Haute</td>
       </tr>
-      <tr>
+      <tr class="forms-clinic-table-desktopname">
         <td>Crawfordsville</td>
+        <td>Rockville</td>
         <td>Terre Haute</td>
+      </tr> 
+      <tr>
+        <td></td>
+        <td><img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/tracker_small.png" alt="MSBHC Choice"/></td>
+        <td class="forms-clinic-table-mobilename">MSBHC</td>  
+      </tr>
+      <tr class="forms-clinic-table-desktopname">
+        <td></td>
         <td>MSBHC</td>
-      </tr>  
+      </tr> 
     </table>
-      <br/>
   </div>
   <div id="forms-content-type">
     <h2>Est&aacute;s buscando un adulto o un ni&ntilde;o?</h2>
-    <table id="forms-content-type-table" class="forms-table-age">
+       <table id="forms-content-type-table" class="forms-table-age">
       <tr>
-      <td>
+        <td class="forms-square-green-container">
         <img class="forms-square-green" src="/images/vpchc_green_square.png" alt="Green Square"/>
-        <p> </p>
-      </td>
-      <td>
+        <p>&nbsp;</p>
+        </td>
+        <td>
         <img id="forms-content-type-adult" class="forms-table-pics forms-age-pic" src="/images/forms_adults.png" alt="Adult"/>
-        <p>Adulto</p>
-      </td>
+        <p>Adult</p>
+        </td>
       </tr>  
       <tr>
-      <td>
+        <td>
         <img id="forms-content-type-child" class="forms-table-pics forms-age-pic" src="/images/forms_child.png" alt="Child"/>
-        <p>Ni&ntilde;o</p>
-      </td>
-      <td>
+        <p>Child</p>
+        </td>
+        <td class="forms-square-blue-container">
         <img class="forms-square-blue" src="/images/vpchc_blue_square.png" alt="Blue Square"/>
-        <p> </p>
-      </td>
+        <p>&nbsp;</p>
+        </td>
       </tr>
     </table>
   </div>
@@ -122,9 +126,20 @@
   <div id="forms-consent">
     <h2 id="page-subtitle">Seleccione un formulario para descargar.</h2>
     <button id="forms-consent-releaseinfo" class="vpchcbutton">
-        Liberaci&oacute;n de informaci&oacute;n M&eacute;dica</button> 
+        Liberaci&oacute;n de informaci&oacute;n M&eacute;dica</button>
+    <button id="forms-consent-releaserec" class="vpchcbutton">Liberación de registros</button>
  </div>
- <div id="forms-notice">
+ <div id="forms-records-choice">
+    <h2>Seleccione su ubicación.</h2>
+    <button id="forms-records-bloom" class="vpchcbutton">Bloomingdale</button>
+    <button id="forms-records-cay" class="vpchcbutton">Cayuga</button> 
+    <button id="forms-records-clint" class="vpchcbutton">Clinton</button>
+    <button id="forms-records-craw" class="vpchcbutton">Crawfordsville</button>
+    <button id="forms-records-rock" class="vpchcbutton">Rockville</button>
+    <button id="forms-records-terre" class="vpchcbutton">Terre Haute</button>
+    <button id="forms-records-mobile" class="vpchcbutton">Mobile Health Center</button>
+  </div>
+  <div id="forms-notice">
     <h2 id="page-subtitle">Seleccione un formulario para descargar.</h2>
     <button id="forms-notice-ackbill" class="vpchcbutton">
         Reconocimiento de la Declaraci&oacute;n de Derechos</button>
@@ -146,54 +161,78 @@
       $("#forms-content-options").hide();
       $("#forms-content-clinic").fadeIn(1000);
     });
-    //Choosing a location
+       //Choosing a location
     var locationChoice;
     $("#forms-content-clinic-bloom").click(function(){
       locationChoice = 1;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-cay").click(function(){
       locationChoice = 2;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-clint").click(function(){
       locationChoice = 3;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-craw").click(function(){
       locationChoice = 4;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
-    $("#forms-content-clinic-terre").click(function(){
+    $("#forms-content-clinic-rock").click(function(){
       locationChoice = 5;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
+    });
+    $("#forms-content-clinic-terre").click(function(){
+      locationChoice = 6;
+      $("#forms-content-clinic").hide();
+      $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     $("#forms-content-clinic-bus").click(function(){
       locationChoice = 0;
       $("#forms-content-clinic").hide();
       $("#forms-content-type").fadeIn(1000);
+      $('html, body').animate({ scrollTop: 0 }, 0);
     });
     //Adult choosen
     $("#forms-content-type-adult").click(function(event){
-      if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href =  "/files/forms/es/new_patient_packet_adult_bloomcayclint.pdf";
+      if(locationChoice == 1){
+          window.location.href = "/files/forms/es/new_patient_packet_adult_bloomingdale.pdf";
+      }else if(locationChoice == 2){
+          window.location.href = "/files/forms/es/new_patient_packet_adult_cayuga.pdf";
+      }else if(locationChoice == 0 || locationChoice == 3){
+          window.location.href = "/files/forms/es/new_patient_packet_adult_clinton.pdf";
       }else if(locationChoice == 4){
           window.location.href = "/files/forms/es/new_patient_packet_adult_crawfordsville.pdf";
+      }else if(locationChoice == 5){
+          window.location.href = "/files/forms/es/new_patient_packet_adult_rockville.pdf";
       }else{
           window.location.href = "/files/forms/es/new_patient_packet_adult_terrehaute.pdf";
       }
     });
     //Child choosen
     $("#forms-content-type-child").click(function(){
-      if(locationChoice >= 0 & locationChoice <= 3){
-          window.location.href = "/files/forms/es/new_patient_packet_child_bloomcayclint.pdf";
+      if(locationChoice == 1 ){
+         window.location.href = "/files/forms/es/new_patient_packet_childt_bloomingdale.pdf";
+      }else if(locationChoice == 2){
+          window.location.href = "/files/forms/es/new_patient_packet_child_cayuga.pdf";
+      }else if(locationChoice == 0 || locationChoice == 3){
+          window.location.href = "/files/forms/es/new_patient_packet_child_clinton.pdf";
       }else if(locationChoice == 4){
           window.location.href = "/files/forms/es/new_patient_packet_child_crawfordsville.pdf";
+      }else if(locationChoice == 5){
+          window.location.href = "/files/forms/es/new_patient_packet_child_rockville.pdf";
       }else{
           window.location.href = "/files/forms/es/new_patient_packet_child_terrehaute.pdf";
       }
@@ -207,6 +246,43 @@
     $("#forms-category-consent").click(function(){
       $("#forms-category").hide();
       $("#forms-consent").fadeIn(1000);
+    });
+    /*Release of records choosen*/
+    $("#forms-consent-releaserec").click(function(){
+      $("#forms-consent").hide();
+      $("#forms-records-choice").fadeIn(1000);
+    });
+    //Bloomingdale download
+    $("#forms-records-bloom").click(function(){
+        window.location.href = "/files/forms/es/records_release_bloomingdale.pdf";
+    });
+    //Cayuga download
+    $("#forms-records-cay").click(function(){
+        window.location.href = "/files/forms/es/records_release_cayuga.pdf";
+    });
+    //Clinton download
+    $("#forms-records-clint").click(function(){
+        window.location.href = "/files/forms/es/records_release_clinton.pdf";
+    });
+    //Crawfordsville download
+    $("#forms-records-craw").click(function(){
+        window.location.href = "/files/forms/es/records_release_crawfordsville.pdf";
+    });
+    //Rockville download
+    $("#forms-records-rock").click(function(){
+        window.location.href = "/files/forms/es/records_release_rockville.pdf";
+    });
+    //Terre Haute download
+    $("#forms-records-terre").click(function(){
+        window.location.href = "/files/forms/es/records_release_terre_haute.pdf";
+    });
+    //Mobile download
+    $("#forms-records-mobile").click(function(){
+        window.location.href = "/files/forms/es/records_release_clinton.pdf";
+    });
+    //telemedicine choosen
+    $("#forms-consent-telemed").click(function(){
+        window.location.href = "/files/forms/es/telemedicine_consent.pdf";
     });
     //release of info download
     $("#forms-consent-releaseinfo").click(function(){
