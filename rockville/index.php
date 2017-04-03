@@ -48,19 +48,21 @@
     </br>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Rockville</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Rockville</h1>
     </div>
   </div>
   <div id="location-info">
     <div id="location-info-left">
       <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Monday, Wednesday, Friday: 7:30 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Tuesday, Thursday: 8:00 a.m. - 5:00 p.m.</p>
       <li>Established in April 2017</li>
     </div>
     <div id="location-info-right">
       <p class="location-contact">727 Lincoln Rd</p>
-      <p class="location-contact">Rockville, IN 47842</p>
+      <p class="location-contact">Rockville, IN 47872</p>
       <p class="location-contact">(765) 569-1123</p>
+      <p class="location-contact">Fax: (765) 569-6412</p>
       <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=777%20S.%20Main%20Street%2C%20Suite%20100%20%20%20Clinton%2C%20IN%2047842&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
     </div>
   </div>

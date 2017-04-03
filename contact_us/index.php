@@ -47,7 +47,7 @@
     <img id="banner-pic"  src="/images/contact_banner.png" alt="Contact Us"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Contact Us</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Contact Us</h1>
     </div>
   </div>
   <div id="contact-table-container">

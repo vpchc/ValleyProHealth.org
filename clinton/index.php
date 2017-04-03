@@ -48,7 +48,7 @@
     </br>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Clinton</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Clinton</h1>
     </div>
   </div>
   <div id="location-info">
@@ -91,19 +91,19 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Aziz Abed, MD</p> </td> 
-        <td><p class="team-table-name">Gretchen Blevins, FNP-C</p></td>
+        <td><p class="team-table-name">Dr. Aziz Abed, MD</p> </td> 
+        <td><p class="team-table-name">Dr. Bing Gale, MD</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Bing Gale, MD</p></td>
+        <td><p class="team-table-name">Gretchen Blevins, FNP-C</p></td>
         <td><p class="team-table-name">Nicole Hall, FNP-C</p></td>
       <tr>
         <td><p class="team-table-name">Brandi Larson, FNP-C</p></td>
         <td><p class="team-table-name">Tammy Mundy, FNP-C</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Paul Taraska, MD</p></td>
-        <td><p class="team-table-name">Julia Wernz, PhD</p></td>
+        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
+        <td><p class="team-table-name">Dr. Julia Wernz, PhD</p></td>
       </tr>
       <tr>
         <td><p class="team-table-name">Linda Lonneman, LCSW</p></td>

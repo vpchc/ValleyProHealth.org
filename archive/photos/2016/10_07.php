@@ -40,27 +40,20 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><?php include("../../../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic" src="/images/extended_hours_banner.png" alt="Extended Hours"/>
+  <h1>Photos Archive</h1>
+  <h2>Dr. Waltz Receives Teacher of the Year Award</h2>
+  <h3 id="page-tinytitle">October 6, 2016</h3>
+  <div id="archive-photos-section">
+    <div class="archive-photos-container">
+      <img class="horizontal" src="/archive/photos/images/2016_10_06.jpg" alt="2016_10_06.jpg" />
     </div>
-    <div id="banner-right">
-      <div id="iconbanner-title">
-        <h1 id="iconbanner-title" class="vpchcgreen">Extended Hours</h1>
-      </div>
-    </div>
+    <a class="archive-link news-link" href="/archive/news/2016/10_07.php">See news article</a>
   </div>
-  <div id="explain-content">
-    <p class="explain-p">Valley Professionals Community Health Center offers extended hours at it's Clinton Office. The extended hours are for acute care only such as, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, earache, or other similar symptoms. Individuals do not have to be a current patient of Valley Professionals to receive primary care services during the extended hours and no appointment is needed. All individuals and families are welcome. Sliding Fee Scale available. Fees are based on family size and income. We also accept Medicaid, Medicare, self-pay, and commercial insurance.</p>
-    <p class="explain-title vpchcblue"><a style="color: inherit;" href="/clinton/">Clinton Location Only</a></p>
-    <p class="explain-subtitle vpchcgreen">After-Hours</p>
-    <p class="explain-p">Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
-    <p class="explain-subtitle vpchcgreen">Saturday Clinic</p>
-    <p class="explain-p">Saturday: 9:00 a.m. - 1:00 p.m.</p>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<footer>
+<footer><?php include("../../../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

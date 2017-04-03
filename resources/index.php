@@ -47,7 +47,7 @@
       <img id="banner-pic" src="/images/resources_landing_page_banner.png" alt="Resource Banner"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title">Resources</h1>
+      <h1 id="banner-title" class="banner-title-short">Resources</h1>
     </div>
   </div>
   <div id="explain-content">

@@ -47,7 +47,7 @@
       <img id="banner-pic"  src="/images/career_banner.png" alt="Careers Page"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Careers</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Careers</h1>
     </div>
   </div>
   <div id="explain-content">

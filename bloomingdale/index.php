@@ -47,7 +47,7 @@
     <img id="banner-pic"  src="/images/bloomingdale_location_banner.png" alt="Bloomingdale Pic"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Bloomingdale</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Bloomingdale</h1>
     </div>
   </div>
   <div id="location-info">
@@ -91,7 +91,7 @@
         <td><p class="team-table-name">Louwanna Wallace, FNP-C</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Paul Taraska, MD</p></td>
+        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
         <td><p class="team-table-name">Megan Neitling, LMHCA</p></td>
       </tr>
     </table>

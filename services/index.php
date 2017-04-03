@@ -47,7 +47,7 @@
       <img id="banner-pic"  src="/images/services_landing_page_banner.png" alt="Services Banner"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Services</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Services</h1>
     </div>
   </div>
   <div id="explain-content">

@@ -50,6 +50,7 @@
     <a href="/about_us/providers_&_team.php#chw"><button class="sidebar-section large-bar vpchcbutton">Comm. Health Workers</button></a>
     <a href="/about_us/providers_&_team.php#patcare"><button class="sidebar-section large-bar vpchcbutton">Patient Care Coord.</button></a>
     <a href="/about_us/providers_&_team.php#directors"><button class="sidebar-section large-bar vpchcbutton">Directors</button></a>
+    <a href="/about_us/providers_&_team.php#man"><button class="sidebar-section large-bar vpchcbutton">Managers</button></a>
     <a href="/about_us/providers_&_team.php#siteman"><button class="sidebar-section large-bar vpchcbutton roundbottom">Site Managers</button></a>
   </div>
   <h1>Providers & Team</h1>
@@ -346,7 +347,7 @@
     <hr>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Becky<span>Clinton</span></p>
+        <p class="tab-simple">Drue<span>Bloomingdale/Cayuga</span></p>
       </div>
     </div>
     <div class="tab">
@@ -359,21 +360,11 @@
         <p class="tab-simple">Kristin<span>Crawfordsville</span></p>
       </div>
     </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
-        <p class="tab-simple">Nikki<span>Clinton</span></p>
-      </div>
-    </div>
     <h3 id="patcare">Patient Care Coordinators</h3>
     <hr>
     <div class="tab">
       <div class="tab-bar team-ps">
         <p class="tab-simple">Elizabeth<span>Clinton</span></p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
-        <p class="tab-simple">Jill<span>Clinton</span></p>
       </div>
     </div>
     <div class="tab">
@@ -423,6 +414,28 @@
         <p class="tab-simple">Julia Wernz<span>Director of Behavioral Health</span></p>
       </div>
     </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Rebecca Myers<span>Behavioral Health Coordinator</span></p>
+      </div>
+    </div>
+    <h3 id="man">Managers</h3>
+    <hr>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Breanne Stone<span>Billing Supervisor</span></p>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Dawn Boyles<span>Outreach & Resource Coordinator</span></p>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Darla Burgess<span>EMR Manager</span></p>
+      </div>
+    </div>
     <h3 id="siteman">Site Managers</h3>
     <hr>
     <div class="tab">
@@ -438,6 +451,11 @@
     <div class="tab">
       <div class="tab-bar team-admin">
         <p class="tab-simple">Mary Helderman<span>Bloomingdale/Cayuga/Mobile</span></p>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Melissa Caldwell<span>Rockville</span></p>
       </div>
     </div>
     <div class="tab">

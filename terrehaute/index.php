@@ -48,7 +48,7 @@
     </br>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Terre Haute</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Terre Haute</h1>
     </div>
   </div>
   <div id="location-info">

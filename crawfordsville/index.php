@@ -48,7 +48,7 @@
     </br>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Crawfordsville</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Crawfordsville</h1>
     </div>
   </div>
   <div id="location-info">
@@ -88,11 +88,11 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Do Hwang, MD</p></td>
+        <td><p class="team-table-name">Dr. Do Hwang, MD</p></td>
         <td><p class="team-table-name">Gwyndolen Morson, FNP-C</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Paul Taraska, MD</p></td> 
+        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
         <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 
       </tr>
       <tr>

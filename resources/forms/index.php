@@ -291,7 +291,7 @@
     });
     //Terre Haute download
     $("#forms-records-terre").click(function(){
-        window.location.href = "/files/forms/en/records_release_terre_haute.pdf";
+        window.location.href = "/files/forms/en/records_release_terrehaute.pdf";
     });
     //Mobile download
     $("#forms-records-mobile").click(function(){

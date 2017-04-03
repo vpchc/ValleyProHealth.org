@@ -44,10 +44,10 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic"  src="/images/homepage_slideshow1.png" alt="Contact Us"/>
+      <img id="banner-pic"  src="/images/diabetes_banner.png" alt="Diabetes Banner"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Diabetes </br>Support Group</h1>
+      <h1 id="banner-title" class="banner-title-long vpchcgreen">Diabetes </br>Support Group</h1>
     </div>
   </div>
   <div id="explain-content">

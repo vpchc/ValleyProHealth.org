@@ -47,7 +47,7 @@
       <img id="banner-pic" src="/images/MSBHCanimation.png" alt="MSBHC Banner Pic"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Mobile School-Based Health Center</h1>
+      <h1 id="banner-title" class="banner-title-long vpchcgreen">Mobile School-Based Health Center</h1>
     </div>
   </div>
   <div id="location-info">

@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic"  src="/images/homepage_slideshow5.png" alt="Contact Us"/>
+      <img id="banner-pic" src="/images/dental_banner.png" alt="Dental Banner"/>
     </div>
     <div id="banner-right">
       <div id="iconbanner-title" class="iconbanner-title-dental">

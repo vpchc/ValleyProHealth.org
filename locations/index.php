@@ -48,7 +48,7 @@
      <img id="banner-pic"  src="/images/locations_landing_page_banner.png" alt="Locations Banner Pic"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title">Locations</h1>
+      <h1 id="banner-title" class="banner-title-short">Locations</h1>
     </div>
   </div>
   <div id="explain-content">

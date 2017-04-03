@@ -47,7 +47,7 @@
     <img id="banner-pic" src="/images/about_landing_page_banner.png" alt="About Us Banner Pic"/>
     </div>
     <div id="banner-right">
-      <p id="banner-title">About Us</p>
+      <p id="banner-title" class="banner-title-short">About Us</p>
     </div>
   </div>
   <div id="about-content">

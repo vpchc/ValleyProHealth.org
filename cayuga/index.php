@@ -47,7 +47,7 @@
     <img id="banner-pic"  src="/images/cayuga_location_banner.png" alt="Cayuga Pic"/>
     </div>
     <div id="banner-right">
-      <h1 id="banner-title" class="vpchcgreen">Cayuga</h1>
+      <h1 id="banner-title" class="banner-title-short vpchcgreen">Cayuga</h1>
     </div>
   </div>
   <div id="location-info">
@@ -91,7 +91,7 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Bing Gale, MD</p></td> 
+        <td><p class="team-table-name">Dr. Bing Gale, MD</p></td> 
         <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
       </tr>
       <tr>
