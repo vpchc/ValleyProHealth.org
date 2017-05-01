@@ -113,6 +113,7 @@ $(document).ready(function(){
           break;
       }
       $inc++;
+      $count++;
   }
   //Display the location
   $( "#bus-location" ).load("/info/bus_web_schedule.html #location" + $inc);

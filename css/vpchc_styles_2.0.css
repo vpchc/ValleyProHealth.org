@@ -272,14 +272,14 @@ footer { position: relative;}
     
     width: 100%;
     
-    bottom: 0;
+    bottom: 0px;
 }
 #navlinks {
 	position: relative;
     
     float: right;
     
-    bottom: 0;
+    bottom: 0px;
     
 	color: #3a2d02;
     
@@ -441,9 +441,7 @@ footer { position: relative;}
     color: white;
     font-family: "Franklin Gothic Medium", Georgia, serif;
 }
-.tab-name, .tab-simple { 
-    float: left;
-}
+.tab-name, .tab-simple { float: left;}
 .tab-name {
     margin: 15px 0 0 10px;
     
@@ -482,9 +480,7 @@ footer { position: relative;}
     border-bottom: 5px solid #70b244;
     border-left: 5px solid #70b244;
 }
-.tab-box-team-height {
-    height: 35px;
-}
+.tab-box-team-height { height: 215px;}
 /*----Providers&Team----*/
 .tab-team { margin-left: 300px;}
 .team-ps { background: #70b244;}
@@ -494,24 +490,33 @@ footer { position: relative;}
     
     cursor: pointer;
 }
-.tab-box-title {
+.tab-box-text {
     float: left;
     
+    height: 200px;
+    width: 780px;
+}
+.tab-box-title {
     margin-top: 5px;
     
     font-size: 33px;
     font-weight: 600;
     color: #3a4e8c;
 }
-.tab-box-location {
-    float: right;
+.tab-box-bio {
+    margin-top: 10px;
     
-    margin: 12px 15px 0 0;
+    font-size: 23px;
+    line-height: 200%;
+}
+.tab-box-location {
+    margin: 18px 15px 0 0;
     
     font-size: 24px;
     font-family: "Georgia", Times, serif;
-    text-align: right;
 }
+.tab-box-pic { float: right;}
+.tab-box-mobilepic{ display: none;}
 /*----Board----*/
 .tab-board { margin: 0 auto;}
 
@@ -1086,7 +1091,7 @@ h3 {
 \*------------------------------------*/
 
 #location-info {
-    margin: 80px 0 20px 0;
+    margin: 80px 0 30px 0;
     height: 500px;
 }
 #location-info-left {
@@ -1313,9 +1318,7 @@ h3 {
   #Stats
 \*------------------------------------*/
 
-#stats-options {
-    width: 98%;
-}
+#stats-options { width: 98%;}
 #stats-options .vpchcbutton {
     width: 49%;
     
@@ -1345,9 +1348,7 @@ h3 {
       #Main Containers
     \*------------------------------------*/
 
-    #head-img-container {
-        margin-top: 20px;
-    } 
+    #head-img-container { margin-top: 20px;} 
     #header-img { width: 90%;}
     #head-wrap {
         height: 100px;
@@ -1401,10 +1402,21 @@ h3 {
     \*------------------------------------*/
 
     #tab-content { width: 850px;}
-    .tab-box { padding: 5px 0 15px 10px;}
     /*----Providers&Team----*/
     .tab-team { margin-left: 180px;}
-    
+
+    .tab-box-text {
+        height: 210px;
+        width: 660px;
+    }
+    .tab-box-title { font-size: 32px;}
+    .tab-box-bio {
+        margin-top: 10px;
+
+        font-size: 18px;
+    }
+    .tab-box-location { margin: 28px 15px 0 0;}
+
     /*------------------------------------*\
       #Titles
     \*------------------------------------*/
@@ -1423,77 +1435,6 @@ h3 {
     }
     #about-subcontent { margin: 10px auto 0 auto;}
     
-    /*------------------------------------*\
-      #Archive
-    \*------------------------------------*/
-
-#archive-content { margin-left: 131px; }
-#archive-options {
-    margin-left: 280px;
-}
-#archive-options .vpchcbutton {
-    margin-right: 175px;
-    
-    font-size: 50px;
-}
-.archive-link { 
-    display: block;
-    
-    margin-top: 20px;
-    
-    font-size: 30px;
-}
-.news-link { margin-left: 380px; }
-.photos-link { margin-left: 265px; }
-#archive-news-section {
-    width: 800px;
-    margin: auto;
-}
-#archive-news-section p { text-indent: 50px; }
-.archive-photos {
-    margin: 30px 0 0 150px;
-    width: 800px;
-}
-.archive-photos p {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 900;
-    font-family: "Georgia", Times, serif;
-    color: black;
-}
-.archive-photos img { border: 5px solid #3a4e8c; }
-.archive-photos img.horizontal {
-    height: 300px;
-    width: 500px;
-}
-.archive-photos img.vertical {
-    height: 300px;
-    width: 250px;
-}
-.archive-photos .horizontal, 
-  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
-.archive-photos .vertical, 
-  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
-#archive-photos-section {
-    margin: 0 auto;
-    width: 1000px;
-}
-.archive-photos-container {
-    margin: 0 auto;
-    width: 760px;
-}
-#archive-photos-section img {
-    margin-top: 10px;
-    border: 5px solid #3a4e8c;
-}
-#archive-photos-section img.horizontal {
-    height: 500px;
-    width: 750px;
-}
-#archive-photos-section img.vertical {
-    height: 550px;
-    width: 368px;
-}
 
     /*------------------------------------*\
       #Banner
@@ -1689,7 +1630,7 @@ h3 {
         float: none;
         
         margin: 0 auto;
-        height: 100px;
+        height: 125px;
         width: 300px;
     }
     #banner-right {
@@ -1819,17 +1760,13 @@ h3 {
         margin: 0 auto; 
         width: 95%;
     }
-    .tab-box { 
-        display: block;
-        
-        padding: 5px 0 15px 10px;
-    }
+    .tab-box { display: block;}
     .tab-box-team-height {
-        height: 65px;
+        height: 150px;
     }
     .drop-arrow { display: none;}
-    .tab-bar{ pointer-events: none;}
-    .tab-name  {
+    .tab-bar { pointer-events: none;}
+    .tab-name {
         display: block;
         
         margin: 15px auto;
@@ -1842,9 +1779,7 @@ h3 {
         font-size: 18px;
         width: 95%;
     }
-    .tab-answer {
-        font-size: 15px;
-    }
+    .tab-answer { font-size: 15px;}
     .tab-simple {
         width: 100%;
         
@@ -1861,20 +1796,34 @@ h3 {
         text-align: center;
     }
     /*----Providers&Team----*/
-    .tab-prov { cursor: default;}
-    
-    .tab-box-title, .tab-box-location{
-        display: block;
-        
-        margin: 5px auto;
-        width: 100%;
-        
-        text-align: center;
+    .tab-box-text {
+        margin: 0 auto;
+        height: auto;
+        width: 75%;
     }
-    .tab-box-title { font-size: 20px;}
-    .tab-box-location { font-size: 15px;}
+    .tab-box-pic {
+        width: 22%;
+    }
+    .tab-box-pic img{
+        float: right;
+        
+        padding-left: 5px;
+        margin-top: 12px;
+        height: 125px;
+        width: auto;
+    }
+    .tab-box-title { font-size: 18px;}
+    .tab-box-bio {
+        height: 85px;
+        
+        font-size: 12px;
+        line-height: 100%;
+    }
+     .tab-box-location {
+        margin-top: 0px;
+        font-size: 14px;
+    }
 
-    
     /*------------------------------------*\
       #Titles
     \*------------------------------------*/
@@ -2323,11 +2272,11 @@ h3 {
     }
     .iconbanner-title-bh {
         height: 35px;
-        width: 240px;
+        width: 250px;
     }
     .iconbanner-title-medical {
         height: 35px;
-        width: 130px;
+        width: 140px;
     }
     .iconbanner-title-ps {
         height: 35px;

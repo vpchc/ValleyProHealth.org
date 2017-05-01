@@ -56,7 +56,7 @@
       <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="services-provided-section four-sections">
       <p>Patient Portal</p>
       </div></a>
-      <a href="/contact_us/faqs.php"><div class="services-provided-section four-sections">
+      <a href="/faqs.php"><div class="services-provided-section four-sections">
       <p>New Patients</p>
       </div></a>
       <a href="/resources/patient_resources.php"><div class="services-provided-section four-sections">

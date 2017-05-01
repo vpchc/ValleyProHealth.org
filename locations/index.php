@@ -68,10 +68,13 @@
       </form>
     </div>
     <div id="map-container">
-      <div id="loc-list">
+      <div class="desktop-loc-list" id="loc-list">
         <ul id="list"></ul>
       </div>
       <div id="map"></div>
+      <div class="mobile-loc-list" id="loc-list">
+        <ul id="list"></ul>
+      </div>
     </div>
   </div>
 </main>

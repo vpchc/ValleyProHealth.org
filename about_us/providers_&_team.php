@@ -63,8 +63,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Physician</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Physician</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -73,8 +79,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Physician</p>
-        <p class="tab-box-location">Cayuga/Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Physician</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Cayuga/Clinton</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -82,9 +94,15 @@
         <p class="tab-name tab-name-large">Dr. Do S. Hwang, MD</p>
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
-      <div class="tab-box  tab-box-team-height">
-        <p class="tab-box-title">Physician</p>
-        <p class="tab-box-location">Crawfordsville</p> 
+      <div class="tab-box tab-box-team-height">
+        <div class="tab-box-text">
+          <p class="tab-box-title">Physician</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div
       </div>
     </div>
     <div class="tab">
@@ -105,8 +123,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Terre Haute</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Terre Haute</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -115,8 +139,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div> 
     <div class="tab">
@@ -125,8 +155,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Bloomingdale</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -135,8 +171,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -145,8 +187,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Crawfordsville</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -155,8 +203,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Terre Haute</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Terre Haute</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -165,8 +219,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Bloomingdale</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -175,8 +235,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">MSBHC</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">MSBHC</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>  
     <div class="tab">
@@ -185,8 +251,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Bloomingdale</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>  
     <div class="tab">
@@ -195,8 +267,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Cayuga/Mobile Health Center</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Cayuga/Mobile Health Center</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>  
     <div class="tab">
@@ -205,8 +283,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Certified Family Nurse Practitioner</p>
-        <p class="tab-box-location">Bloomingdale/Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale/Clinton</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div> 
     <h3 id="bh">Behavioral Health</h3>
@@ -217,8 +301,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Psychiatrist</p>
-        <p class="tab-box-location">Bloomingdale/Clinton/Crawfordsville</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Psychiatrist</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale/Clinton/Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -227,8 +317,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Director of Behavioral Health</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Director of Behavioral Health</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div> 
     <div class="tab">
@@ -237,8 +333,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Mental Health Counselor</p>
-        <p class="tab-box-location">Cayuga</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Mental Health Counselor</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Cayuga</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div> 
     <div class="tab">
@@ -247,8 +349,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Clinical Social Worker</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Clinical Social Worker</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>   
     <div class="tab">
@@ -257,8 +365,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Clinical Addictions Coordinator</p>
-        <p class="tab-box-location">Clinton</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Clinical Addictions Coordinator</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div> 
     <div class="tab">
@@ -267,8 +381,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
-        <p class="tab-box-location">Bloomingdale</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Bloomingdale</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>   
     <div class="tab">
@@ -277,8 +397,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Clinical Social Worker</p>
-        <p class="tab-box-location">Terre Haute</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Clinical Social Worker</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Terre Haute</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>   
     <div class="tab">
@@ -287,8 +413,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Clinical Social Worker</p>
-        <p class="tab-box-location">Crawfordsville</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Clinical Social Worker</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Crawfordsville</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>  
     <div class="tab">
@@ -297,18 +429,30 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Clinical Social Worker</p>
-        <p class="tab-box-location">Terre Haute</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Clinical Social Worker</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Terre Haute</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
+        <p class="tab-name tab-name-large">Dana Tinkle, LMHCA</p>
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
-        <p class="tab-box-location">Crawfordsville</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -317,8 +461,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Psychiatric-Mental Health Nurse Practitioner</p>
-        <p class="tab-box-location">Cayuga/Clinton/Terre Haute</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Psychiatric-Mental Health Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Cayuga/Clinton/Terre Haute</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <div class="tab">
@@ -327,8 +477,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
-        <p class="tab-box-location">Clinton/MSBHC</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Licensed Mental Health Counselor Associates</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Clinton/MSBHC</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <h3 id="dental">Dental</h3>
@@ -339,8 +495,14 @@
         <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
       </div>
       <div class="tab-box tab-box-team-height">
-        <p class="tab-box-title">Dental</p>
-        <p class="tab-box-location">Cayuga</p> 
+        <div class="tab-box-text">
+          <p class="tab-box-title">Dentist</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Cayuga</p>
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
       </div>
     </div>
     <h3 id="chw">Community Health Workers</h3>
@@ -362,6 +524,11 @@
     </div>
     <h3 id="patcare">Patient Care Coordinators</h3>
     <hr>
+    <div class="tab">
+      <div class="tab-bar team-ps">
+        <p class="tab-simple">Holli<span>Bloomingdale/Cayuga</span></p>
+      </div>
+    </div>
     <div class="tab">
       <div class="tab-bar team-ps">
         <p class="tab-simple">Elizabeth<span>Clinton</span></p>

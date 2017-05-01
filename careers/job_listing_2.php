@@ -42,17 +42,14 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Medical Receptionist - Crawfordsville</h2>
+  <h2>Bilingual Receptionist - Crawfordsville</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a medical receptionist for its Crawfordsville office.</p>
+    <p>Valley Professionals Community Health Center’s Crawfordsville office is looking to hire a bilingual receptionist who is fluent in both English and Spanish.</p>
     <p>Duties:</p>
     <li>Answering and directing phone calls</li>
     <li>Scheduling patient appointments</li>
     <li>Entering patient information</li>
     <li>Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
-    <p>Requirements:</p>
-    <li>Knowledge of medical terminology and good customer service skills</li>
-    <li>Experience in a medical office preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_2.php" name="referer">
@@ -76,7 +73,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Medical Receptionist - Crawfordsville">
+        <input type="hidden" name="subject" value="Bilingual Receptionist - Crawfordsville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
