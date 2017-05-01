@@ -1332,6 +1332,19 @@ h3 {
 @media only screen and (max-width: 1365px) {
     
     /*------------------------------------*\
+      #Banner
+    \*------------------------------------*/
+
+    #banner-left { 
+        height: 172px;
+    }
+    #banner-right {
+        height: 180px;
+    }  
+    
+    .banner-title-long#banner-title{ font-size: 50px;}
+    
+    /*------------------------------------*\
       #Company Colors
     \*------------------------------------*/
 
@@ -1435,19 +1448,6 @@ h3 {
     }
     #about-subcontent { margin: 10px auto 0 auto;}
     
-
-    /*------------------------------------*\
-      #Banner
-    \*------------------------------------*/
-
-    #banner-left { 
-        height: 172px;
-    }
-    #banner-right {
-        height: 180px;
-    }
-
-    
     /*------------------------------------*\
       #Contact Us
     \*------------------------------------*/
@@ -1495,7 +1495,7 @@ h3 {
         width: 450px;
     }
     #location-info-right {
-        margin-right: 50px;
+        margin-right: 70px;
         height: 400px;
         width: 450px;
     }
@@ -1645,6 +1645,7 @@ h3 {
 
         font-size: 25px;
     }
+    
     
     /*------------------------------------*\
       #Company Colors
