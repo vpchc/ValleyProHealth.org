@@ -45,19 +45,19 @@
   <h1>Frequently Asked Questions</h1>
   <div id="faq">
   <div id="services-provided">
-    <a href="/contact_us/faqs.php#newpat"><div class="services-provided-section four-sections">
+    <a href="/faqs/index.php#newpat"><div class="services-provided-section four-sections">
     <p>New Patients</p>
     <img class="team-table-icon" src="/images/patinfo_icon.png" alt="Patient Info"/>
     </div></a>
-    <a href="/contact_us/faqs.php#bill"><div class="services-provided-section four-sections">
+    <a href="/faqs/index.php#bill"><div class="services-provided-section four-sections">
     <p>Billing/Insurance</p>
     <img class="team-table-icon" src="/images/payment_icon.png" alt="Payments"/>
     </div></a>
-    <a href="/contact_us/faqs.php#serv"><div class="services-provided-section four-sections">
+    <a href="/faqs/index.php#serv"><div class="services-provided-section four-sections">
     <p>Services</p>
     <img class="team-table-icon" src="/images/services_icon.png" alt="Services"/>
     </div></a>
-    <a href="/contact_us/faqs.php#misc"><div class="services-provided-section four-sections">
+    <a href="/faqs/index.php#misc"><div class="services-provided-section four-sections">
     <p>Miscellaneous</p>
     <img class="team-table-icon" src="/images/misc_icon.png" alt="Miscellaneous"/>
     </div></a>

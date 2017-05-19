@@ -43,15 +43,15 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <div id="sidebar" class="large-sidebar">
-    <a href="/about_us/providers_&_team.php#physicians"><button class="sidebar-section large-bar vpchcbutton roundtop">Physicians</button></a>
-    <a href="/about_us/providers_&_team.php#nps"><button class="sidebar-section large-bar vpchcbutton">Nurse Practitioners</button></a>
-    <a href="/about_us/providers_&_team.php#bh"><button class="sidebar-section large-bar vpchcbutton">Behavioral Health</button></a>
-    <a href="/about_us/providers_&_team.php#dental"><button class="sidebar-section large-bar vpchcbutton">Dental</button></a>
-    <a href="/about_us/providers_&_team.php#chw"><button class="sidebar-section large-bar vpchcbutton">Comm. Health Workers</button></a>
-    <a href="/about_us/providers_&_team.php#patcare"><button class="sidebar-section large-bar vpchcbutton">Patient Care Coord.</button></a>
-    <a href="/about_us/providers_&_team.php#directors"><button class="sidebar-section large-bar vpchcbutton">Directors</button></a>
-    <a href="/about_us/providers_&_team.php#man"><button class="sidebar-section large-bar vpchcbutton">Managers</button></a>
-    <a href="/about_us/providers_&_team.php#siteman"><button class="sidebar-section large-bar vpchcbutton roundbottom">Site Managers</button></a>
+    <a href="/about_us/providers_&_team.php#physicians"><button class="sidebar-section large-bar">Physicians</button></a>
+    <a href="/about_us/providers_&_team.php#nps"><button class="sidebar-section large-bar">Nurse Practitioners</button></a>
+    <a href="/about_us/providers_&_team.php#bh"><button class="sidebar-section large-bar">Behavioral Health</button></a>
+    <a href="/about_us/providers_&_team.php#dental"><button class="sidebar-section large-bar">Dental</button></a>
+    <a href="/about_us/providers_&_team.php#chw"><button class="sidebar-section large-bar">Comm. Health Workers</button></a>
+    <a href="/about_us/providers_&_team.php#patcare"><button class="sidebar-section large-bar">Patient Care Coord.</button></a>
+    <a href="/about_us/providers_&_team.php#directors"><button class="sidebar-section large-bar">Directors</button></a>
+    <a href="/about_us/providers_&_team.php#man"><button class="sidebar-section large-bar">Managers</button></a>
+    <a href="/about_us/providers_&_team.php#siteman"><button class="sidebar-section large-bar">Site Managers</button></a>
   </div>
   <h1>Providers & Team</h1>
   <div id="tab-content" class="tab-team">
@@ -99,6 +99,22 @@
           <p class="tab-box-title">Physician</p>
           <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
           <p class="tab-box-location">Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Dr. Steven Waltz, MD</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box tab-box-team-height">
+        <div class="tab-box-text">
+          <p class="tab-box-title">Physician</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Rockville</p> 
         </div>
         <div class="tab-box-pic">
           <img src="/images/team_person_test.png">
@@ -191,6 +207,22 @@
           <p class="tab-box-title">Certified Family Nurse Practitioner</p>
           <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
           <p class="tab-box-location">Crawfordsville</p> 
+        </div>
+        <div class="tab-box-pic">
+          <img src="/images/team_person_test.png">
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Jordan Ryley, FNP-C</p>
+        <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
+      </div>
+      <div class="tab-box tab-box-team-height">
+        <div class="tab-box-text">
+          <p class="tab-box-title">Certified Family Nurse Practitioner</p>
+          <p class="tab-box-bio">Dr. Taraska is a graduate of X University. Following his residency at X, Dr. Taraska has practiced Psychiatric medicine at X, Y, and Z.</p>
+          <p class="tab-box-location">Terre Haute</p> 
         </div>
         <div class="tab-box-pic">
           <img src="/images/team_person_test.png">
@@ -531,7 +563,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Elizabeth<span>Clinton</span></p>
+        <p class="tab-simple">Beth<span>Crawfordsville</span></p>
       </div>
     </div>
     <div class="tab">
@@ -612,7 +644,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Carolyn Miller<span>Crawfordsville</span></p>
+        <p class="tab-simple">Debbie Swaim<span>Crawfordsville</span></p>
       </div>
     </div>
     <div class="tab">

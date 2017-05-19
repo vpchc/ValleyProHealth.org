@@ -272,7 +272,7 @@ footer { position: relative;}
     
     width: 100%;
     
-    bottom: 0px;
+    bottom: -10px;
 }
 #navlinks {
 	position: relative;
@@ -400,35 +400,40 @@ footer { position: relative;}
   #Sidebars
 \*------------------------------------*/
 
-#sidebar { 
-    position: fixed;
-    
-    border: 5px solid #70b244;
-    border-radius: 25px;
-}
+#sidebar { position: fixed;}
 #sidebar a { text-decoration: none;}
-.sidebar-section.vpchcbutton {
+.sidebar-section {
     display: block;
     
+    margin-bottom: 5px;
     padding: 10px;
     
+    
+    background: #70b244;
     border-style:none;
     
+    font-family: "Franklin Gothic Medium", Georgia, serif;
     font-size: 19px;
+    color: white;
     
     cursor: pointer;
 }
-.roundtop { border-radius: 17px 17px 0 0;}
-.roundbottom { border-radius: 0 0 17px 17px;}
+
+.sidebar-section:active {
+    background: #2d4a70;
+    
+    transition: none;
+}
+
 /*----Small----*/
 .small-sidebar { margin-left: 10px;}
-.small-bar.vpchcbutton {
+.small-bar {
     height: 40px;
     width: 85px;
 }
 /*----Large----*/
 .large-sidebar { margin: 10px 0 0 10px;}
-.large-bar.vpchcbutton { width: 230px;}
+.large-bar { width: 230px;}
 
 /*------------------------------------*\
   #Tab
@@ -504,6 +509,7 @@ footer { position: relative;}
     color: #3a4e8c;
 }
 .tab-box-bio {
+   
     margin-top: 10px;
     
     font-size: 23px;

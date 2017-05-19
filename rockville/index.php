@@ -79,6 +79,7 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
+        <td><p class="team-table-name">Dr. Steven Waltz, MD</p></td>
         <td><p class="team-table-name">Jordan Ryley, FNP-C</p></td>
       </tr>
     </table>
