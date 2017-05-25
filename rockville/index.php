@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/rockville_location_banner.png" alt="Rockville"/>
+    <img id="banner-pic"  src="/images/rockville_location_banner.jpg" alt="Rockville"/>
     </br>
     </div>
     <div id="banner-right">

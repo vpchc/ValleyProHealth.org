@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic" src="/images/resources_landing_page_banner.png" alt="Resource Banner"/>
+      <img id="banner-pic" src="/images/resources_landing_page_banner.jpg" alt="Resource Banner"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short">Resources</h1>

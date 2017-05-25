@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic" src="/images/news&events_banner.png" alt="News&Events Banner"/>
+    <img id="banner-pic" src="/images/news&events_banner.jpg" alt="News&Events Banner"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">News & Events</h1>

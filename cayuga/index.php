@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/cayuga_location_banner.png" alt="Cayuga Pic"/>
+    <img id="banner-pic"  src="/images/cayuga_location_banner.jpg" alt="Cayuga Pic"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">Cayuga</h1>

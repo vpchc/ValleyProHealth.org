@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/clinton_location_banner.png" alt="Clinton"/>
+    <img id="banner-pic"  src="/images/clinton_location_banner.jpg" alt="Clinton"/>
     </br>
     </div>
     <div id="banner-right">

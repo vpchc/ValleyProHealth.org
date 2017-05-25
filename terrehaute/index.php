@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic" src="/images/terre_haute_location_banner.png" alt="Terre Haute"/>
+    <img id="banner-pic" src="/images/terre_haute_location_banner.jpg" alt="Terre Haute"/>
     </br>
     </div>
     <div id="banner-right">

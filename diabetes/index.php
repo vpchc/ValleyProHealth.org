@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic"  src="/images/diabetes_banner.png" alt="Diabetes Banner"/>
+      <img id="banner-pic"  src="/images/healthcare_pic.jpg" alt="Diabetes Banner"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-long vpchcgreen">Diabetes </br>Support Group</h1>

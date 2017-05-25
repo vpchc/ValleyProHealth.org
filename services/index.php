@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic"  src="/images/services_landing_page_banner.png" alt="Services Banner"/>
+      <img id="banner-pic"  src="/images/services_landing_page_banner.jpg" alt="Services Banner"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">Services</h1>

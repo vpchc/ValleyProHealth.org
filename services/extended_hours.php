@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic" src="/images/extended_hours_banner.png" alt="Extended Hours"/>
+      <img id="banner-pic" src="/images/extended_hours_banner.jpg" alt="Extended Hours"/>
     </div>
     <div id="banner-right">
       <div id="iconbanner-title">

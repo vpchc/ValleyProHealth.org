@@ -57,7 +57,7 @@
     <div id="mobileshow-quote-container">
       <p>Caring <br>professionals<br>in your community.</p>
     </div>
-    <img src="/images/mobileshow_background.png" />
+    <img src="/images/mobileshow_background.jpg" />
   </div>
 </main>
 <footer><?php include("php/includes/footer.php"); ?></footer>

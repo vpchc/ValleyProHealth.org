@@ -45,7 +45,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-     <img id="banner-pic"  src="/images/locations_landing_page_banner.png" alt="Locations Banner Pic"/>
+     <img id="banner-pic"  src="/images/locations_landing_page_banner.jpg" alt="Locations Banner Pic"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short">Locations</h1>

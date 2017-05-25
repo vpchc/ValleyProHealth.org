@@ -444,13 +444,13 @@ footer { position: relative;}
 .tab-bar { height: 75px;}
 .tab-bar p {
     color: white;
-    font-family: "Franklin Gothic Medium", Georgia, serif;
+      font-family: "Franklin Gothic Heavy", Georgia, serif;
 }
 .tab-name, .tab-simple { float: left;}
 .tab-name {
-    margin: 15px 0 0 10px;
+    margin: 15px 0 0 25px;
     
-    font-size: 40px;
+    font-size: 45px;
 }
 .tab-simple { 
     display: block;
@@ -476,52 +476,73 @@ footer { position: relative;}
     width: 80px;
 }
 .tab-box { 
-    display: none;
-    
+    overflow: hidden;
+
     height: auto;
     padding: 10px;
     
-    border-right: 5px solid #70b244;
-    border-bottom: 5px solid #70b244;
-    border-left: 5px solid #70b244;
+    border-right: 10px solid #3a4e8c;
+    border-bottom: 10px solid #3a4e8c;
+    border-left: 10px solid #3a4e8c;
 }
-.tab-box-team-height { height: 215px;}
 /*----Providers&Team----*/
 .tab-team { margin-left: 300px;}
 .team-ps { background: #70b244;}
 .team-admin { background: #258f71;}
-.tab-prov {
-    background: #3a4e8c;
-    
-    cursor: pointer;
-}
+.tab-prov { background: #3a4e8c;}
 .tab-box-text {
-    float: left;
+    float: right;
     
-    height: 200px;
+    margin-top: 5px;
+    height: auto;
     width: 780px;
 }
 .tab-box-title {
-    margin-top: 5px;
+    float: right;
     
+    margin-right: 10px;
+    
+    text-align: right;
     font-size: 33px;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
     font-weight: 600;
     color: #3a4e8c;
 }
 .tab-box-bio {
-   
-    margin-top: 10px;
+    margin-left: 5px;
+    width: 600px;
     
-    font-size: 23px;
-    line-height: 200%;
+    font-size: 22px;
+}
+.tab-box-bio-title-education,
+.tab-box-bio-title-personal{
+    margin-bottom: 5px;
+    
+    color: #70b244;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
+    font-weight: 600;
+}
+.tab-box-bio-title-personal{ margin-top: 10px;}
+.tab-box-bio li {
+    margin-left: 20px;
+    
+    font-size: 18px;
+}
+.tab-box-bio-personal {
+    font-size: 18px;
 }
 .tab-box-location {
-    margin: 18px 15px 0 0;
+    margin: 5px 0 0 5px;
     
-    font-size: 24px;
-    font-family: "Georgia", Times, serif;
+    font-size: 28px;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
+    color: #3a4e8c;
 }
-.tab-box-pic { float: right;}
+.tab-box-pic { float: left;}
+.tab-box-pic img {
+    height: 210px;
+    width: 170px;
+}
 .tab-box-mobilepic{ display: none;}
 /*----Board----*/
 .tab-board { margin: 0 auto;}
@@ -1407,14 +1428,10 @@ h3 {
       #Sidebars
     \*------------------------------------*/
     
-    .sidebar-section.vpchcbutton {
-        padding: 10px;
-
-        font-size: 12px;
-    }
     /*----Large----*/
-    .large-bar.vpchcbutton { width: 130px;}
-    
+    .large-sidebar { margin-bottom: 0px;}
+    .large-bar { width: 150px;}
+
     
     /*------------------------------------*\
       #Tab
@@ -1423,18 +1440,9 @@ h3 {
     #tab-content { width: 850px;}
     /*----Providers&Team----*/
     .tab-team { margin-left: 180px;}
-
-    .tab-box-text {
-        height: 210px;
-        width: 660px;
-    }
+    .tab-box-text { width: 630px;  }
     .tab-box-title { font-size: 32px;}
-    .tab-box-bio {
-        margin-top: 10px;
-
-        font-size: 18px;
-    }
-    .tab-box-location { margin: 28px 15px 0 0;}
+    .tab-box-bio { margin-top: 0px;}
 
     /*------------------------------------*\
       #Titles
@@ -1804,31 +1812,55 @@ h3 {
     }
     /*----Providers&Team----*/
     .tab-box-text {
-        margin: 0 auto;
-        height: auto;
-        width: 75%;
-    }
-    .tab-box-pic {
-        width: 22%;
-    }
-    .tab-box-pic img{
-        float: right;
+        float: none;
         
-        padding-left: 5px;
-        margin-top: 12px;
-        height: 125px;
-        width: auto;
+        width: 100%;
     }
-    .tab-box-title { font-size: 18px;}
+    .tab-box-title {
+        display: block;
+        float: none;
+        
+        text-align: center;
+        font-size: 18px;
+    }
     .tab-box-bio {
-        height: 85px;
+        float: none;
+        
+        margin-left: 0;
+        width: 100%;
+        height: auto;
         
         font-size: 12px;
-        line-height: 100%;
+        line-height: 125%;
     }
-     .tab-box-location {
-        margin-top: 0px;
+    .tab-box-bio-title-education,
+    .tab-box-bio-title-personal{
+        margin-bottom: 0px;
+
+        font-size: 15px;
+    }
+    .tab-box-bio-title-personal{ margin-top: 5px;}
+    .tab-box-bio li {
+        margin-left: 18px;
+
         font-size: 14px;
+    }
+    .tab-box-bio-personal { font-size: 14px;}
+    .tab-box-location {
+        display: block;
+        
+        margin-top: 2px;
+     
+        text-align: center;
+        font-size: 16px;
+    }
+    .tab-box-pic { float: none;}
+    .tab-box-pic img {
+        display: block;
+        
+        margin: auto;
+        height: 150px;
+        width: auto;
     }
 
     /*------------------------------------*\

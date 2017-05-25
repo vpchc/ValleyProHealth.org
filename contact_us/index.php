@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/contact_banner.png" alt="Contact Us"/>
+    <img id="banner-pic"  src="/images/contact_banner.jpg" alt="Contact Us"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">Contact Us</h1>

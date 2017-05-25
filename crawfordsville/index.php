@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/crawfordsville_location_banner.png" alt="Crawfordsville Pic"/>
+    <img id="banner-pic"  src="/images/crawfordsville_location_banner.jpg" alt="Crawfordsville Pic"/>
     </br>
     </div>
     <div id="banner-right">

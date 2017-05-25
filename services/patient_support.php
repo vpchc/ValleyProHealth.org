@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic" src="/images/patient_support_page_banner.png" alt="Patient Support Banner"/>
+    <img id="banner-pic" src="/images/healthcare_pic3.jpg" alt="Patient Support Banner"/>
     </div>
     <div id="banner-right">
       <div id="iconbanner-title" class="iconbanner-title-ps">

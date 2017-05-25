@@ -101,13 +101,13 @@
         <p>&nbsp;</p>
         </td>
         <td>
-        <img id="forms-content-type-adult" class="forms-table-pics forms-age-pic" src="/images/forms_adults.png" alt="Adult"/>
+        <img id="forms-content-type-adult" class="forms-table-pics forms-age-pic" src="/images/forms_adults.jpg" alt="Adult"/>
         <p>Adult</p>
         </td>
       </tr>  
       <tr>
         <td>
-        <img id="forms-content-type-child" class="forms-table-pics forms-age-pic" src="/images/forms_child.png" alt="Child"/>
+        <img id="forms-content-type-child" class="forms-table-pics forms-age-pic" src="/images/forms_child.jpg" alt="Child"/>
         <p>Child</p>
         </td>
         <td class="forms-square-blue-container">

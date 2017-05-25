@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-      <img id="banner-pic"  src="/images/career_banner.png" alt="Careers Page"/>
+      <img id="banner-pic"  src="/images/career_banner.jpg" alt="Careers Page"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">Careers</h1>
