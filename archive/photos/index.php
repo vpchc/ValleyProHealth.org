@@ -44,12 +44,12 @@
 <main id="masterbox">
 <h1>Photos Archive</h1>
   <div id="sidebar" class="small-sidebar">
-  <a href="/index.php"><button class="sidebar-section small-bar vpchcbutton roundtop">Home</button></a>
-  <a href="/archive/photos/index.php#2016"><button class="sidebar-section small-bar vpchcbutton">2016</button></a>
-  <a href="/archive/photos/index.php#2015"><button class="sidebar-section small-bar vpchcbutton">2015</button></a>
-  <a href="/archive/photos/index.php#2014"><button class="sidebar-section small-bar vpchcbutton">2014</button></a>
-  <a href="/archive/photos/index.php#2013"><button class="sidebar-section small-bar vpchcbutton">2013</button></a>
-  <a href="/archive/photos/index.php#2012"><button class="sidebar-section small-bar vpchcbutton roundbottom">2012</button></a>
+  <a href="/index.php"><button class="sidebar-section small-bar">Home</button></a>
+  <a href="#2016"><button class="sidebar-section small-bar">2016</button></a>
+  <a href="#2015"><button class="sidebar-section small-bar">2015</button></a>
+  <a href="#2014"><button class="sidebar-section small-bar">2014</button></a>
+  <a href="#2013"><button class="sidebar-section small-bar">2013</button></a>
+  <a href="#2012"><button class="sidebar-section small-bar">2012</button></a>
   </div>
   <div id="archive-content">
   <p id="2016" class="section-title">2016</p>
