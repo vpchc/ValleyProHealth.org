@@ -440,6 +440,11 @@ footer { position: relative;}
 \*------------------------------------*/
 
 #tab-content { width: 1000px;}
+#tab-content hr{
+    height: 5px;
+    color: black;
+    background-color: black;
+}
 .tab { margin-top: 10px;}
 .tab-bar { height: 75px;}
 .tab-bar p {
@@ -538,10 +543,11 @@ footer { position: relative;}
     font-family: "Franklin Gothic Medium","Georgia", Times, serif;
     color: #3a4e8c;
 }
+.tab-box-location a { color: #3a4e8c;}
 .tab-box-pic { float: left;}
 .tab-box-pic img {
-    height: 210px;
-    width: 170px;
+    height: 200px;
+    width: 175px;
 }
 .tab-box-mobilepic{ display: none;}
 /*----Board----*/

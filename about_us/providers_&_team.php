@@ -43,15 +43,15 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <div id="sidebar" class="large-sidebar">
-    <a href="/about_us/providers_&_team.php#physicians"><button class="sidebar-section large-bar">Physicians</button></a>
-    <a href="/about_us/providers_&_team.php#nps"><button class="sidebar-section large-bar">Nurse Practitioners</button></a>
-    <a href="/about_us/providers_&_team.php#bh"><button class="sidebar-section large-bar">Behavioral Health</button></a>
-    <a href="/about_us/providers_&_team.php#dental"><button class="sidebar-section large-bar">Dental</button></a>
-    <a href="/about_us/providers_&_team.php#chw"><button class="sidebar-section large-bar">Comm. Health Workers</button></a>
-    <a href="/about_us/providers_&_team.php#patcare"><button class="sidebar-section large-bar">Patient Care Coord.</button></a>
-    <a href="/about_us/providers_&_team.php#directors"><button class="sidebar-section large-bar">Directors</button></a>
-    <a href="/about_us/providers_&_team.php#man"><button class="sidebar-section large-bar">Managers</button></a>
-    <a href="/about_us/providers_&_team.php#siteman"><button class="sidebar-section large-bar">Site Managers</button></a>
+    <a href="#physicians"><button class="sidebar-section large-bar">Physicians</button></a>
+    <a href="#nps"><button class="sidebar-section large-bar">Nurse Practitioners</button></a>
+    <a href="#bh"><button class="sidebar-section large-bar">Behavioral Health</button></a>
+    <a href="#dental"><button class="sidebar-section large-bar">Dental</button></a>
+    <a href="#chw"><button class="sidebar-section large-bar">Comm. Health Workers</button></a>
+    <a href="#patcare"><button class="sidebar-section large-bar">Patient Care Coord.</button></a>
+    <a href="#directors"><button class="sidebar-section large-bar">Directors</button></a>
+    <a href="#man"><button class="sidebar-section large-bar">Managers</button></a>
+    <a href="#siteman"><button class="sidebar-section large-bar">Site Managers</button></a>
   </div>
   <h1>Providers & Team</h1>
   <div id="tab-content" class="tab-team">
@@ -133,7 +133,7 @@
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
-            <img src="/images/providers/noimage.jpg">
+            <img src="/images/providers/waltz.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Physician</p></div>
@@ -171,7 +171,7 @@
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Waltz has been practicing medicine in the Wabash Valley for over 30 years. He enjoys teaching and mentoring other primary care providers in his role as Chief Medical Officer at Valley Professionals, as well as continuing to provide excellent care to his patients in Rockville.</p>
           </div>
-          <p class="tab-box-location">Currently providing care in Rockville</p>
+          <p class="tab-box-location"><a href="http://www.uhfmr.org/">Click Here to see more on the Residency program.</a></p>
         </div>
       </div>
     </div>
@@ -230,7 +230,7 @@
       </div>
       <div class="tab-box tab-box-small">
         <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
+          <img src="/images/providers/busenbark.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Nurse Practitioner</p></div>
@@ -345,7 +345,7 @@
       </div>
       <div class="tab-box tab-box-medium">
         <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
+          <img src="/images/providers/morson.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Nurse Practitioner</p></div>
@@ -414,7 +414,7 @@
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
+          <img src="/images/providers/ryley.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Nurse Practitioner</p></div>
@@ -485,7 +485,7 @@
       </div>
       <div class="tab-box tab-box-jumbo">
         <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
+          <img src="/images/providers/wernz.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Psychologist</p></div>
@@ -692,7 +692,7 @@
       </div>
       <div class="tab-box tab-box-xlarge">
         <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
+          <img src="/images/providers/sentell.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Mental Health<br>Counselor</p></div>
@@ -843,8 +843,18 @@
         <p class="tab-simple">Kristin<span>Crawfordsville</span></p>
       </div>
     </div>
+    <div class="tab">
+      <div class="tab-bar team-ps">
+        <p class="tab-simple">Lacey<span>Clinton</span></p>
+      </div>
+    </div>
     <h3 id="patcare">Patient Care Coordinators</h3>
     <hr>
+    <div class="tab">
+      <div class="tab-bar team-ps">
+        <p class="tab-simple">Beth<span>Crawfordsville</span></p>
+      </div>
+    </div>
     <div class="tab">
       <div class="tab-bar team-ps">
         <p class="tab-simple">Holli<span>Bloomingdale/Cayuga</span></p>
@@ -852,7 +862,12 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Beth<span>Crawfordsville</span></p>
+        <p class="tab-simple">Jana<span>Clinton</span></p>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar team-ps">
+        <p class="tab-simple">Jill<span>Clinton</span></p>
       </div>
     </div>
     <div class="tab">
