@@ -189,7 +189,7 @@
 }
 #masterbox-home {
     height: auto;
-    width: 100%;
+    width: 1366px;
     
     font-size: 0;
 }
@@ -276,9 +276,9 @@ footer { position: relative;}
 }
 #navlinks {
 	position: relative;
-    
     float: right;
     
+    padding-right: 120px;
     bottom: 0px;
     
 	color: #3a2d02;
@@ -340,8 +340,7 @@ footer { position: relative;}
 .dropdown:hover .dropbtn { background-color: #3e8e41;}
 #about.dropdown:hover .dropdown-content { height: 268px;}
 #locations.dropdown:hover .dropdown-content { height: 379px;}
-#services.dropdown:hover .dropdown-content { height: 268px;}
-#resources.dropdown:hover .dropdown-content { height: 218px;}
+#services.dropdown:hover .dropdown-content { height: 346px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
 
 /*----Mobile----*/

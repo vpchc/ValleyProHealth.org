@@ -35,15 +35,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
-        </div>
-      </li>
-      <li id="resources" class="dropdown">
-        <a href="/resources/"><button class="dropbtn">Resources</button></a>
-        <div class="dropdown-content">
-        <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-        <a href="/faqs/">New Patients</a>
-        <a href="/resources/patient_resources.php">Patient Resources</a>
-        <a href="/resources/forms/">Forms</a>
+        <a href="/resources/">Resources</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -88,14 +80,7 @@
           <a href="/services/behavioral_health.php">Behavioral Health</a>
           <a href="/services/patient_support.php">Patient Support</a>
           <a href="/services/extended_hours.php">Extended Hours</a>
-        </div>
-      <div class="navlinks-mobile-section"><p>Resources</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
           <a href="/resources/">Resources</a>
-          <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-          <a href="/faqs/">New Patients</a>
-          <a href="/resources/patient_resources.php">Patient Resources</a>
-          <a href="/resources/forms/">Forms</a>
         </div>
       <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
         <div class="navlinks-mobile-subsection">
