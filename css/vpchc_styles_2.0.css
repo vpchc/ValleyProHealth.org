@@ -188,6 +188,8 @@
 	width: 1349px;
 }
 #masterbox-home {
+    margin: 0 auto;
+    
     height: auto;
     width: 1366px;
     
@@ -338,9 +340,9 @@ footer { position: relative;}
     box-shadow: 0px 2px 2px #dbdeea;
 }
 .dropdown:hover .dropbtn { background-color: #3e8e41;}
-#about.dropdown:hover .dropdown-content { height: 268px;}
+#about.dropdown:hover .dropdown-content { height: 218px;}
 #locations.dropdown:hover .dropdown-content { height: 379px;}
-#services.dropdown:hover .dropdown-content { height: 346px;}
+#services.dropdown:hover .dropdown-content { height: 327px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
 
 /*----Mobile----*/
@@ -1213,7 +1215,7 @@ h3 {
     margin: 20px 0 0 10px;
     padding-top: 20px;
     padding-left: 44px;
-    height: 1000px;
+    height: 500px;
     width: 505px;
 
     background-color: #3b5998;
@@ -1367,13 +1369,8 @@ h3 {
       #Banner
     \*------------------------------------*/
 
-    #banner-left { 
-        height: 172px;
-    }
-    #banner-right {
-        height: 180px;
-    }  
-    
+    #banner-left { height: 172px;}
+    #banner-right { height: 180px;}  
     .banner-title-long#banner-title{ font-size: 50px;}
     
     /*------------------------------------*\
@@ -1400,6 +1397,7 @@ h3 {
         width: 1060px;
     }
     #masterbox { width: 1060px;}
+    #masterbox-home { width: 1060px;}
 
     /*------------------------------------*\
       #Navlinks
@@ -1426,7 +1424,6 @@ h3 {
     #about.dropdown:hover .dropdown-content { height: 252px;}
     #locations.dropdown:hover .dropdown-content { height: 301px;}
     #services.dropdown:hover .dropdown-content { height: 252px;}
-    #resources.dropdown:hover .dropdown-content { height: 201px;}
     #contact.dropdown:hover .dropdown-content { height: 100px;}
       
     /*------------------------------------*\

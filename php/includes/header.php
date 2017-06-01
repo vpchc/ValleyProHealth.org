@@ -11,7 +11,6 @@
         <a href="/about_us/providers_&_team.php">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
-        <a href="/about_us/news_&_events.php">News & Events</a>
         <a href="/archive/">Archive</a>
         </div>
       </li>
@@ -58,7 +57,6 @@
           <a href="/about_us/providers_&_team.php">Providers & Team</a>
           <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
           <a href="/about_us/governing_board.php">Governing Board</a>
-          <a href="/about_us/news_&_events.php">News & Events</a>
           <a href="/archive/">Archive</a>
         </div>
       <div class="navlinks-mobile-section"><p>Locations</p><span>></span></a></div>
