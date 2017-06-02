@@ -44,7 +44,7 @@
 <main id="masterbox">
   <div id="banner">
     <div id="banner-left">
-    <img id="banner-pic"  src="/images/bloomingdale_location_banner.png" alt="Bloomingdale Pic"/>
+    <img id="banner-pic"  src="/images/bloomingdale_location_banner.jpg" alt="Bloomingdale Pic"/>
     </div>
     <div id="banner-right">
       <h1 id="banner-title" class="banner-title-short vpchcgreen">Bloomingdale</h1>
@@ -53,7 +53,12 @@
   <div id="location-info">
     <div id="location-info-left">
       <p id="location-hour-title">Hours</p>
-      <p class="location-hours location-hours-one">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Monday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours vpchcgreen">After-Hours Clinic: 5:00 p.m. - 8:00 p.m.</p>
+      <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Wednesday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
+      <p class="location-hours">Friday: 8:00 a.m. - 5:00 p.m.</p>
       <li>Established in June 2013</li>
       <li>Sees an estimated <span>1,200</span> patients annually</li>
       <li>Sees an estimated <span>4,000</span> visits annually</li>

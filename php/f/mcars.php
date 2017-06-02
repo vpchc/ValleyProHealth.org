@@ -6,7 +6,7 @@ require_once('../PHPMailer/PHPMailerAutoload.php');
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
 
-
+    //Checks if resume is attached.
     if(!file_exists($_FILES['resume']['tmp_name']) || 
        !is_uploaded_file($_FILES['resume']['tmp_name'])) {
         echo 'No r&egrave;sum&egrave; attached.';

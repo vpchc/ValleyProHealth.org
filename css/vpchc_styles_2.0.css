@@ -1225,15 +1225,15 @@ h3 {
 #events {
     float: right;
         
+    height: 1200px;
     width: 500px;
     margin: 50px 80px 0 0;
     vertical-align: top;
 }
-#events img {
-    height: 500px;
-    width: 500px;
+.events-container { 
+    margin-top: 46px; 
+    margin-bottom: 80px;
 }
-#events-container { margin-top: 36px;}
 .upcoming-events-title { font-size: 35px;}
 .upcoming-events-section {
     margin-bottom: 10px;

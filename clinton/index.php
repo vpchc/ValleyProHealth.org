@@ -55,7 +55,7 @@
     <div id="location-info-left">
       <p id="location-hour-title">Hours</p>
       <p class="location-hours">Monday - Friday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours vpchcgreen">After-Hours Clinic (Clinton Only)</p>
+      <p class="location-hours vpchcgreen">After-Hours Clinic</p>
       <p class="location-hours">Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
       <p class="location-hours location-hours-three">Saturday: 9:00 a.m. - 1:00 p.m.</p>
       <li>Established in 2008</li>

@@ -76,12 +76,10 @@
   </div>
   <div id="events">
     <h2 class="news-title vpchcblue">Upcoming Events</h2>
-    <div id="events-container">
+    <div class="events-container">
       <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
     </div>
-    <div id="events-container">
-    <div id="location-info">
-    <div id="location-info-right">
+    <div class="events-container">
       <div id="bus-tracker" class="banner-section-left">
           <div id="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
         <div id="bus-tracker-info">
@@ -101,8 +99,6 @@
         </div>
         <a href="/files/schedule/current_schedule.pdf"><button class="vpchcbutton">Download Schedule</button></a>
       </div>
-    </div>
-    </div>
     </div>
  </div>
  <div id="news">
