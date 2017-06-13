@@ -1501,7 +1501,7 @@ h3 {
 
     #location-info {
         margin: 80px 0 20px 0;
-        height: 500px;
+        height: 600px;
     }
     #location-info-left {
         float: left;
@@ -2236,8 +2236,6 @@ h3 {
     }
     #location-hour-title { font-size: 20px;}
     .location-hours { font-size: 14px;}
-    .location-hours-one { margin-bottom: 0px; }
-    .location-hours-three { margin-bottom: 0px; }
     #location-info-right {
         display: block;
         float: none;

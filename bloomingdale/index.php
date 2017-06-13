@@ -53,8 +53,7 @@
   <div id="location-info">
     <div id="location-info-left">
       <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours vpchcgreen">After-Hours Clinic: 5:00 p.m. - 8:00 p.m.</p>
+      <p class="location-hours">Monday: 8:00 a.m. - 8:00 p.m.</p>
       <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
       <p class="location-hours">Wednesday: 8:00 a.m. - 5:00 p.m.</p>
       <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
