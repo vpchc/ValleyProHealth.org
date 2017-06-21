@@ -192,8 +192,6 @@
     
     height: auto;
     width: 1366px;
-    
-    font-size: 0;
 }
 header { position: relative;}
 #head-wrap {
@@ -268,6 +266,28 @@ footer { position: relative;}
     height: 100%;
     width: 60%;
     transition: none;
+}
+#navlinks-portalcontainer{
+    margin-top: 30px;
+    margin-left: 365px;
+    width: 150px;
+    
+    transition: all .5s ease 0s;
+}
+#navlinks-portalcontainer a{ text-decoration: none;}
+#navlinks-portalbutton{
+    padding: 10px;
+    
+    background: #3a4e8c;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 2px 2px #ddd;
+    
+    color: white;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    cursor: pointer;
 }
 #navlinks-subcontainer {
     position: absolute;
@@ -1108,9 +1128,71 @@ h3 {
 \*------------------------------------*/
 
 #slideshow { 
-    position: relative; 
- 
-    width: 100%; 
+    height: 428px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+#slideshow img{ width: 100%;}
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+#slideshow-dots{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 20px;
+    
+    background: #
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px 0 1px;
+  background-color: #70b244;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #3e8e41;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 .homescreen-video{
     position: relative;
@@ -1192,12 +1274,11 @@ h3 {
 #share {
     float: left;
     
-    margin: 50px 0 0 50px;
-    width: 600px;
+    margin-left: 10px;
+    width: 560px;
 }
 #twitter {
     margin-left: 10px;
-    padding-top: 1px;
     padding-bottom: 20px;
     height: auto;
     width: 550px;
@@ -1206,33 +1287,30 @@ h3 {
     border-radius: 10px;
 }
 #twitter-feed {
-    margin: 36px auto 0 auto;
+    padding-top: 20px;
+    margin: 0 auto 0 auto;
     width: 500px;
 }
 #facebook {
     vertical-align: top;
     
-    margin: 20px 0 0 10px;
-    padding-top: 20px;
-    padding-left: 44px;
+    margin: 20px 0 0px 10px;
+    padding: 20px 0 20px 44px;
     height: 500px;
     width: 505px;
 
     background-color: #3b5998;
     border-radius: 10px;
+    
 }
 .share-button { margin: 5px 0 0 15px;}
 #events {
     float: right;
         
+    margin-right: 10px;
     height: 1200px;
-    width: 500px;
-    margin: 50px 80px 0 0;
+    width: 700px;
     vertical-align: top;
-}
-.events-container { 
-    margin-top: 46px; 
-    margin-bottom: 80px;
 }
 .upcoming-events-title { font-size: 35px;}
 .upcoming-events-section {
@@ -1244,6 +1322,16 @@ h3 {
     
     font-size: 25px;
 }
+#events-calendar{
+    margin-top: 0px;
+    height: 500px;
+    width: 690px;
+}
+#events-video{
+    margin-top: 60px;
+    height: 540px;
+    width: 685px;
+}
 #news { clear: both;}
 .news-title {
     text-align: center;
@@ -1253,6 +1341,7 @@ h3 {
 }
 .news-article {
     margin: 0 auto 20px auto;
+    height: auto;
     width: 1100px;
 }
 .news-article-title {
@@ -1269,7 +1358,11 @@ h3 {
     margin: 0 auto;
     width: 165px;
 }
-#news .vpchcbutton { font-size: 25px;}
+#news .vpchcbutton { 
+    margin-bottom: 10px;
+    
+    font-size: 25px;
+}
 
 /*------------------------------------*\
   #Services
@@ -1403,6 +1496,11 @@ h3 {
       #Navlinks
     \*------------------------------------*/
     
+    #navlinks-portalcontainer {
+        margin-top: 10px;
+        margin-left: 220px;
+    }
+    #navlinks-portalbutton { font-size: 18px;}
     .dropbtn {
         padding: 12px;
         
@@ -1567,10 +1665,17 @@ h3 {
 
         font-size: 25px;
     }
+    #events-calendar{
+        height: 400px;
+        width: 400px;
+    }
+    #events-video{
+        margin-top: 90px;
+        width: 400px;
+    }
     #news { 
         margin: 0 auto;
         width: 98%;
-        
     }
     .news-article {
         margin: 0 auto 20px auto;
@@ -1741,6 +1846,7 @@ h3 {
         height: auto;
         width: auto;
     }
+    #navlinks-portalcontainer { display: none;}
     #navlinks-mobile-icon{ display: block;}
     
     /*------------------------------------*\

@@ -46,13 +46,124 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("php/includes/header.php"); ?></header>
-<main id="masterbox-home">   
-  <div id="slideshow">
-   <video loop muted autoplay class="homescreen-video">
-     <source src="/video/homepage_welcome.mp4" type="video/mp4">
-   </video>
+<header><div id="head-wrap">
+    <div id="head-img-container">
+      <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
+    </div>
+    <div id="navlinks-container">
+    <div id="navlinks-portalcontainer">
+      <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><button id="navlinks-portalbutton">Patient Portal</button></a>
+    </div>
+    <div id="navlinks-subcontainer">
+    <ul id="navlinks">
+      <li id="about" class="dropdown">
+        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
+        <div class="dropdown-content">
+        <a href="/about_us/providers_&_team.php">Providers & Team</a>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+        <a href="/about_us/governing_board.php">Governing Board</a>
+        <a href="/about_us/news_&_events.php">News & Events</a>
+        <a href="/archive/">Archive</a>
+        </div>
+      </li>
+      <li id="locations" class="dropdown">
+        <a href="/locations/"><button class="dropbtn">Locations</button></a>
+        <div class="dropdown-content">
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
+        </div>
+      </li>
+      <li id="services" class="dropdown">
+        <a href="/services/"><button class="dropbtn">Services</button></a>
+        <div class="dropdown-content">
+        <a href="/services/medical.php">Medical</a>
+        <a href="/dental/">Dental</a>
+        <a href="/services/behavioral_health.php">Behavioral Health</a>
+        <a href="/services/patient_support.php">Patient Support</a>
+        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/resources/">Resources</a>
+        </div>
+      </li>
+      <li id="contact" class="dropdown">
+        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
+        <div class="dropdown-content">
+        <a href="/faqs/">Frequently </br>Asked Questions</a>
+        <a href="/careers/">Careers</a>
+        </div>
+      </li>
+    </ul>
+    </div>
+    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
   </div>
+  <div id="header-bluebar"></div>
+  <div id="navlinks-mobile">
+      <div class="navlinks-mobile-section"><p>About Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/about_us/">About Us</a>
+          <a href="/about_us/providers_&_team.php">Providers & Team</a>
+          <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+          <a href="/about_us/governing_board.php">Governing Board</a>
+          <a href="/about_us/news_&_events.php">News & Events</a>
+          <a href="/archive/">Archive</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Locations</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/locations/">Locations</a>
+          <a href="/bloomingdale/">Bloomingdale</a>
+          <a href="/cayuga/">Cayuga</a>
+          <a href="/clinton/">Clinton</a>
+          <a href="/crawfordsville/">Crawfordsville</a>
+          <a href="/rockville/">Rockville</a>
+          <a href="/terrehaute/">Terre Haute</a>
+          <a href="/mobile/">Mobile Health Center</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Services</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/services/">Services</a>
+          <a href="/services/medical.php">Medical</a>
+          <a href="/dental">Dental</a>
+          <a href="/services/behavioral_health.php">Behavioral Health</a>
+          <a href="/services/patient_support.php">Patient Support</a>
+          <a href="/services/extended_hours.php">Extended Hours</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Resources</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/resources/">Resources</a>
+          <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+          <a href="/faqs/">New Patients</a>
+          <a href="/resources/patient_resources.php">Patient Resources</a>
+          <a href="/resources/forms/">Forms</a>
+        </div>
+      <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
+        <div class="navlinks-mobile-subsection">
+          <a href="/contact_us/">Contact Us</a>
+          <a href="/faqs/">Frequently Asked Questions</a>
+          <a href="/careers">Careers</a>
+        </div>
+  </div></header>
+<main id="masterbox-home">   
+<div id="slideshow">
+  <div class="mySlides fade">
+    <img src="/images/healthcare_pic.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="/images/healthcare_pic2.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="/images/healthcare_pic3.jpg">
+  </div>
+</div>
+<div id="slideshow-dots" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
   <div id="mobileshow">
     <div id="mobileshow-quote-container">
       <p>Caring <br>professionals<br>in your community.</p>
@@ -72,37 +183,19 @@
     <div id="facebook">
       <div class="fb-page" data-href="https://www.facebook.com/vpchc" data-tabs="timeline" data-small-header="true" data-width="460" data-height="500" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vpchc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vpchc">Valley Professionals Community Health Center</a></blockquote></div>
     </div>
-     <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="25" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    <div class="fb-like share-button" data-href="https://www.facebook.com/VPCHC/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
   </div>
   <div id="events">
     <h2 class="news-title vpchcblue">Upcoming Events</h2>
     <div class="events-container">
-      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
+      <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="events-container">
-      <div id="bus-tracker" class="banner-section-left">
-          <div id="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
-        <div id="bus-tracker-info">
-          <p>Location:</p>
-          <p>Hours:</p>
-          <p>Status:</p>
-        </div>
-        <div id="bus-tracker-data">
-          <p id="bus-location" class="bus-tracker-data-section"></p>
-          <p id="bus-hours" class="bus-tracker-data-section"></p>
-          <div id="bus-tracker-data-status-section">
-            <div id="bus-tracker-data-status-section-sub">
-              <img id="bus-status-icon" src="" alt="Status Icon"/>
-              <p id="bus-status" class="bus-tracker-data-section-status"></p>
-            </div>
-          </div>
-        </div>
-        <a href="/files/schedule/current_schedule.pdf"><button class="vpchcbutton">Download Schedule</button></a>
-      </div>
+      <iframe id="events-video" src="https://www.youtube.com/embed/snZH5cYhChY" frameborder="0" allowfullscreen></iframe>
     </div>
  </div>
  <div id="news">
-   <h2 class="news-title">News Articles</h2>
+   <h2 class="news-title">News</h2>
    <div class="news-article">
      <p class="news-article-title">March 27, 2017- Local Partnership to Increase Health Care Services</p>
      <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
@@ -123,9 +216,86 @@
    </div>
 </div>
 </main>
-<footer><?php include("php/includes/footer.php"); ?></footer>
+<footer><div id="footer-greenbar"></div>
+  <div class="footer-section">
+    <a href="/bloomingdale/"><p>Bloomingdale</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/cayuga/"><p>Cayuga</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/clinton/"><p>Clinton</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/crawfordsville/"><p>Crawfordsville</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/rockville/"><p>Rockville</p></a>
+  </div>
+  <div class="footer-section">
+    <a href="/terrehaute/"><p>Terre Haute</p></a>
+  </div>
+  <div class="footer-section footer-section-last">
+    <a href="/mobile/"><p>Mobile Health Center</p></a>
+  </div>
+  <div id="footer-disclaimer" class="vpchcgrey">
+    <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
+ </div></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
+<script>
+var slideIndex = 0;
+var slideshowDelay;
+showSlides();
+
+function currentSlide(n) {
+  clearTimeout(slideshowDelay);
+  clickSlides(slideIndex = n);
+}
+
+function clickSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+    
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+    
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+    
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+    
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  slideshowDelay = setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
+    
+function showSlides() {
+ var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    slideshowDelay = setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
+    
+</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

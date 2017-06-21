@@ -62,7 +62,6 @@
     <p class="explain-p">View current job postings and submit your resume below.</p>
     <li><a href="/careers/job_listing_1.php">Behavorial Health Provider - Mobile Unit</a></li>
     <li><a href="/careers/job_listing_2.php">Bilingual Receptionist - Crawfordsville</a></li>
-    <li><a href="/careers/job_listing_6.php">Patient Care Coordinator - Clinton</a></li>
   </div>
   <div id="quote">
       <p class="large-quote-left vpchcgreen">&ldquo;</p>
