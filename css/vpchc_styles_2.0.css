@@ -191,31 +191,30 @@
     margin: 0 auto;
     
     height: auto;
-    width: 1366px;
+    width: 100%;
 }
 header { position: relative;}
 #head-wrap {
     position: relative;
     
     margin: 0 auto;
-    width: 1349px;
-    height: 141px;
+    width: 1200px;
+    height: 105px;
     
     transition: all .5s ease 0s;
 }
 #head-img-container {
     display: inline-block;
     
-    margin-top: 30px;
-    height: auto;
-    width: 40%;
+    height: 100%;
+    width: 600px;
 }
 #header-img {
     display: block;
     
-    margin: auto;
+    margin-top: 18px;
     height: auto;
-    width: 95%;
+    width: 450px;
     
     cursor: pointer;
 }
@@ -259,59 +258,26 @@ footer { position: relative;}
 \*------------------------------------*/
 
 #navlinks-container{
-    display: inline-block;
-    position: relative;
-    float: right;
+    display: block;
     
-    height: 100%;
-    width: 60%;
-    transition: none;
-}
-#navlinks-portalcontainer{
-    margin-top: 30px;
-    margin-left: 365px;
-    width: 150px;
-    
-    transition: all .5s ease 0s;
-}
-#navlinks-portalcontainer a{ text-decoration: none;}
-#navlinks-portalbutton{
-    padding: 10px;
-    
-    background: #3a4e8c;
-    border: none;
-    border-radius: 7px 7px 7px 7px;
-    box-shadow: 0 2px 2px #ddd;
-    
-    color: white;
-    font-size: 20px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-    
-    cursor: pointer;
-}
-#navlinks-subcontainer {
-    position: absolute;
-    
+    height: 50px;
     width: 100%;
     
-    bottom: -10px;
+    background: #3a4e8c;
 }
 #navlinks {
 	position: relative;
-    float: right;
     
-    padding-right: 120px;
-    bottom: 0px;
-    
-	color: #3a2d02;
+    margin: 0 auto;
+    width: 1206px;
     
     z-index: 1;
     list-style-type: none;
 }
 .dropbtn {
-    padding: 12px;
+    padding: 13.8px;
     
-    background: #70b244;
+    background: #3a4e8c;
     border: none;
     
     font-size: 20px;
@@ -333,9 +299,7 @@ footer { position: relative;}
     height: 0;
     min-width: 160px;
     
-    background: #f9f9f9;
-    border-radius: 0 7px 7px 7px;
-    box-shadow: 0 2px 2px #ddd;
+    background: #3a4e8c;
     
     overflow: hidden;
     
@@ -348,7 +312,7 @@ footer { position: relative;}
     padding: 12px 15px;
     height: 30px;
     
-    color: black;
+    color: white;
     font-family: "Franklin Gothic Medium", Times, serif;;
     text-decoration: none;
     font-size: 16px;
@@ -356,16 +320,23 @@ footer { position: relative;}
     transition: all .5s ease;
 }
 .dropdown-content a:hover {
-    background: #dbdeea;
+    background: #70b244;
     box-shadow: 0px 2px 2px #dbdeea;
 }
-.dropdown:hover .dropbtn { background-color: #3e8e41;}
+.dropdown:hover .dropbtn { background-color: #70b244;}
 #about.dropdown:hover .dropdown-content { height: 218px;}
 #locations.dropdown:hover .dropdown-content { height: 379px;}
 #services.dropdown:hover .dropdown-content { height: 327px;}
 #contact.dropdown:hover .dropdown-content { height: 109px;}
 
 /*----Mobile----*/
+#navlinks-subcontainer {
+    position: absolute;
+    
+    width: 100%;
+    
+    bottom: -10px;
+}
 #navlinks-mobile {
     display: none;
     
@@ -1128,12 +1099,14 @@ h3 {
 \*------------------------------------*/
 
 #slideshow { 
-    height: 428px;
+  height: auto;
   width: 100%;
   position: relative;
   margin: auto;
 }
-#slideshow img{ width: 100%;}
+#slideshow img{
+    max-height: 540px;
+    width: 100%;}
 .mySlides {
     display: none;
 }
@@ -1496,16 +1469,6 @@ h3 {
       #Navlinks
     \*------------------------------------*/
     
-    #navlinks-portalcontainer {
-        margin-top: 10px;
-        margin-left: 220px;
-    }
-    #navlinks-portalbutton { font-size: 18px;}
-    .dropbtn {
-        padding: 12px;
-        
-        font-size: 18px;
-    }
     .dropdown { padding-right: 10px;}
     .dropdown-content {
         min-width: 140px;
@@ -1846,7 +1809,6 @@ h3 {
         height: auto;
         width: auto;
     }
-    #navlinks-portalcontainer { display: none;}
     #navlinks-mobile-icon{ display: block;}
     
     /*------------------------------------*\

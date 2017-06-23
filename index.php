@@ -46,36 +46,43 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><div id="head-wrap">
+<header>
+  <div id="head-wrap">
     <div id="head-img-container">
       <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
     </div>
-    <div id="navlinks-container">
-    <div id="navlinks-portalcontainer">
-      <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><button id="navlinks-portalbutton">Patient Portal</button></a>
+    <div id="head-social-container">
+    
     </div>
     <div id="navlinks-subcontainer">
-    <ul id="navlinks">
+    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
+  </div>
+  <div id="navlinks-container">
+  <ul id="navlinks">
+      <li id="home" class="dropdown">
+        <a href="valleyprohealth.org"><button class="dropbtn">Home</button></a>
+      </li>
       <li id="about" class="dropdown">
         <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
-        <a href="/about_us/providers_&_team.php">Providers & Team</a>
-        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
-        <a href="/about_us/governing_board.php">Governing Board</a>
-        <a href="/about_us/news_&_events.php">News & Events</a>
+        <a href="/about_us/providers_&_team.php">Providers & Team</a><hr>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a><hr>
+        <a href="/about_us/governing_board.php">Governing Board</a><hr>
+        <a href="/about_us/news_&_events.php">News & Events</a><hr>
         <a href="/archive/">Archive</a>
         </div>
       </li>
       <li id="locations" class="dropdown">
         <a href="/locations/"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
-        <a href="/bloomingdale/">Bloomingdale</a>
-        <a href="/cayuga/">Cayuga</a>
-        <a href="/clinton/">Clinton</a>
-        <a href="/crawfordsville/">Crawfordsville</a>
-        <a href="/rockville/">Rockville</a>
-        <a href="/terrehaute/">Terre Haute</a>
-        <a href="/mobile/">Mobile </br>Health Center</a>
+        <a href="/bloomingdale/">Bloomingdale</a><hr>
+        <a href="/cayuga/">Cayuga</a><hr>
+        <a href="/clinton/">Clinton</a><hr>
+        <a href="/crawfordsville/">Crawfordsville</a><hr>
+        <a href="/rockville/">Rockville</a><hr>
+        <a href="/terrehaute/">Terre Haute</a><hr>
+        <a href="/mobile/">Mobile </br>Health Center</a><hr>
         </div>
       </li>
       <li id="services" class="dropdown">
@@ -93,15 +100,17 @@
         <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
         <div class="dropdown-content">
         <a href="/faqs/">Frequently </br>Asked Questions</a>
-        <a href="/careers/">Careers</a>
         </div>
       </li>
+      <li id="patientportal" class="dropdown">
+        <a href="/careers"><button class="dropbtn">Patient Portal</button></a>
+      </li>
+      <li id="careers" class="dropdown">
+        <a href="/careers"><button class="dropbtn">Join Our Team</button></a>
+      </li>
     </ul>
-    </div>
-    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
-    </div>
   </div>
-  <div id="header-bluebar"></div>
+  </div>
   <div id="navlinks-mobile">
       <div class="navlinks-mobile-section"><p>About Us</p><span>></span></a></div>
         <div class="navlinks-mobile-subsection">
