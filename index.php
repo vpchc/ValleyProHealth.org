@@ -61,28 +61,28 @@
   <div id="navlinks-container">
   <ul id="navlinks">
       <li id="home" class="dropdown">
-        <a href="valleyprohealth.org"><button class="dropbtn">Home</button></a>
+        <a class="navlink" href="/index.php"><button class="dropbtn">Home</button></a>
       </li>
       <li id="about" class="dropdown">
         <a href="/about_us/"><button class="dropbtn">About Us</button></a>
         <div class="dropdown-content">
-        <a href="/about_us/providers_&_team.php">Providers & Team</a><hr>
-        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a><hr>
-        <a href="/about_us/governing_board.php">Governing Board</a><hr>
-        <a href="/about_us/news_&_events.php">News & Events</a><hr>
+        <a href="/about_us/providers_&_team.php">Providers & Team</a>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+        <a href="/about_us/governing_board.php">Governing Board</a>
+        <a href="/about_us/news_&_events.php">News & Events</a>
         <a href="/archive/">Archive</a>
         </div>
       </li>
       <li id="locations" class="dropdown">
         <a href="/locations/"><button class="dropbtn">Locations</button></a>
         <div class="dropdown-content">
-        <a href="/bloomingdale/">Bloomingdale</a><hr>
-        <a href="/cayuga/">Cayuga</a><hr>
-        <a href="/clinton/">Clinton</a><hr>
-        <a href="/crawfordsville/">Crawfordsville</a><hr>
-        <a href="/rockville/">Rockville</a><hr>
-        <a href="/terrehaute/">Terre Haute</a><hr>
-        <a href="/mobile/">Mobile </br>Health Center</a><hr>
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
         </div>
       </li>
       <li id="services" class="dropdown">
