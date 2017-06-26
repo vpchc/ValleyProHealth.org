@@ -52,7 +52,13 @@
       <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
     </div>
     <div id="head-social-container">
-    
+      <div id="head-social-subcontainer">
+      <p>Connect with us</p> 
+      </div>
+      <div id="head-social-icons">
+      <a href="https://www.facebook.com/vpchc"><img src="/images/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
+      <a href="https://twitter.com/ValleyProHealth"><img src="/images/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
+      </div>
     </div>
     <div id="navlinks-subcontainer">
     <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
@@ -61,10 +67,10 @@
   <div id="navlinks-container">
   <ul id="navlinks">
       <li id="home" class="dropdown">
-        <a class="navlink" href="/index.php"><button class="dropbtn">Home</button></a>
+        <a class="navlink-category" href="/index.php">Home</a>
       </li>
       <li id="about" class="dropdown">
-        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
+        <a class="navlink-category" href="/about_us/">About Us</a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.php">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
@@ -74,7 +80,7 @@
         </div>
       </li>
       <li id="locations" class="dropdown">
-        <a href="/locations/"><button class="dropbtn">Locations</button></a>
+        <a class="navlink-category" href="/locations/">Locations</a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
@@ -86,7 +92,7 @@
         </div>
       </li>
       <li id="services" class="dropdown">
-        <a href="/services/"><button class="dropbtn">Services</button></a>
+        <a class="navlink-category" href="/services/">Services</a>
         <div class="dropdown-content">
         <a href="/services/medical.php">Medical</a>
         <a href="/dental/">Dental</a>
@@ -97,16 +103,16 @@
         </div>
       </li>
       <li id="contact" class="dropdown">
-        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
+        <a class="navlink-category" href="/contact_us/">Contact Us</a>
         <div class="dropdown-content">
         <a href="/faqs/">Frequently </br>Asked Questions</a>
         </div>
       </li>
       <li id="patientportal" class="dropdown">
-        <a href="/careers"><button class="dropbtn">Patient Portal</button></a>
+        <a class="navlink-category" href="/careers">Patient Portal</a>
       </li>
       <li id="careers" class="dropdown">
-        <a href="/careers"><button class="dropbtn">Join Our Team</button></a>
+        <a class="navlink-category" href="/careers">Join Our Team</a>
       </li>
     </ul>
   </div>
@@ -225,27 +231,29 @@
    </div>
 </div>
 </main>
-<footer><div id="footer-greenbar"></div>
-  <div class="footer-section">
+<footer>
+  <div id="footer-locations">
+  <div class="footer-locations-section">
     <a href="/bloomingdale/"><p>Bloomingdale</p></a>
   </div>
-  <div class="footer-section">
+  <div class="footer-locations-section">
     <a href="/cayuga/"><p>Cayuga</p></a>
   </div>
-  <div class="footer-section">
+  <div class="footer-locations-section">
     <a href="/clinton/"><p>Clinton</p></a>
   </div>
-  <div class="footer-section">
+  <div class="footer-locations-section">
     <a href="/crawfordsville/"><p>Crawfordsville</p></a>
   </div>
-  <div class="footer-section">
+  <div class="footer-locations-section">
     <a href="/rockville/"><p>Rockville</p></a>
   </div>
-  <div class="footer-section">
+  <div class="footer-locations-section">
     <a href="/terrehaute/"><p>Terre Haute</p></a>
   </div>
-  <div class="footer-section footer-section-last">
+  <div class="footer-locations-section footer-section-last">
     <a href="/mobile/"><p>Mobile Health Center</p></a>
+  </div>
   </div>
   <div id="footer-disclaimer" class="vpchcgrey">
     <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
@@ -314,7 +322,6 @@ function showSlides() {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<script type="text/javascript" src="/scripts/vpchc_bus_3.5.19.js"></script>
 <script type="text/javascript">
   if (screen.width <= 800){
     var cookies = document.cookie;
