@@ -99,7 +99,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
-        <a href="/resources/">Resources</a>
+        <a href="/services/patient_resources.php">Patient Resources</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -108,8 +108,11 @@
         <a href="/faqs/">Frequently </br>Asked Questions</a>
         </div>
       </li>
+      <li id="newpatient" class="dropdown">
+        <a class="navlink-category" href="/newpatient/">New Patient</a>
+      </li>
       <li id="patientportal" class="dropdown">
-        <a class="navlink-category" href="/careers">Patient Portal</a>
+        <a class="navlink-category" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
       </li>
       <li id="careers" class="dropdown">
         <a class="navlink-category" href="/careers">Join Our Team</a>
@@ -173,11 +176,6 @@
   <div class="mySlides fade">
     <img src="/images/healthcare_pic3.jpg">
   </div>
-</div>
-<div id="slideshow-dots" style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
   <div id="mobileshow">
     <div id="mobileshow-quote-container">
@@ -255,63 +253,65 @@
     <a href="/mobile/"><p>Mobile Health Center</p></a>
   </div>
   </div>
+  <div id="footer-icons">
+    <img src="/images/fqhc_logo.jpg" alt="FQHC Logo"/>
+    <img src="/images/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
+  </div>
+  <div id="sitemap">
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/about_us/">About Us</a>
+    <a href="about_us/providers_&_team.php">Providers & Team</a>
+    <a href="about_us/">History of VPCHC</a>
+    <a href="about_us/">Governing Board</a>
+    <a href="about_us/">News & Events</a>
+    <a href="about_us/">Archive</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/locations/">Locations</a>
+    <a href="/bloomingdale/">Bloomingdale</a>
+    <a href="/cayuga/">Cayuga</a>
+    <a href="/clinton/">Clinton</a>
+    <a href="/crawfordsville/">Crawfordsville</a>
+    <a href="/rockville/">Rockville</a>
+    <a href="/terrehaute/">Terre Haute</a>
+    <a href="/mobile/">Mobile Health Center</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/services/">Services</a>
+    <a href="/services/medical.php">Medical</a>
+    <a href="/dental/">Dental</a>
+    <a href="/services/behavioral_health.php">Behavioral Health</a>
+    <a href="/services/patient_support.php">Patient Support</a>
+    <a href="/services/extended_hours.php">Extended Hours</a>
+    <a href="/patient_resources/">Patient Resources</a>
+    <a class="sitemap-subsection-title" href="/diabetes/">Diabetes</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/contact_us/">Contact Us</a>
+    <a href="/faqs/">Frequently Asked Questions</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/newpatient/">New Patient</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/careers/">Join Our Team</a>
+  </div>
+  </div>
   <div id="footer-disclaimer" class="vpchcgrey">
     <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
  </div></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script>
-var slideIndex = 0;
-var slideshowDelay;
-showSlides();
-
-function currentSlide(n) {
-  clearTimeout(slideshowDelay);
-  clickSlides(slideIndex = n);
-}
-
-function clickSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-    
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-    
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-    
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-    
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  slideshowDelay = setTimeout(showSlides, 10000); // Change image every 2 seconds
-}
-    
-function showSlides() {
- var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    slideshowDelay = setTimeout(showSlides, 10000); // Change image every 2 seconds
-}
-    
+$(document).ready(function() {
+  $('#slide1_controls').on('click', 'span', function(){
+    $("#slideshow img").css("transform","translateX("+$(this).index() * -450+"px)");
+    $("#slide1_controls span").removeClass("selected");
+  });
+});
 </script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

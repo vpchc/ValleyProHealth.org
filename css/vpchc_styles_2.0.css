@@ -261,7 +261,6 @@ header { position: relative;}
 }
 footer { position: relative;}
 #footer-locations{
-    margin-bottom: 10px;
     height: 22px;
     
     background: #70b244;
@@ -279,6 +278,48 @@ footer { position: relative;}
     font-size: 20px;
     font-family: "Franklin Gothic Medium", Times, serif;
     text-decoration: none;
+}
+#footer-icons{
+    float: left;
+    
+    height: auto;
+    width: 34%;
+}
+#footer-icons img{
+    margin: 10px 0 0 80px;
+    height: 120px;;
+    width: auto;
+}
+#sitemap{
+    float: right;
+    
+    margin-top: 5px;
+    width: 66%;
+}
+.sitemap-section{
+    display: inline-grid;
+    
+    width: 175px;
+}
+.sitemap-section a{
+    display: block;
+    
+    margin-left: 20px;
+    
+    color: black;
+    
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-decoration: none;
+}
+.sitemap-section a.sitemap-section-title{
+    margin-left: 0;
+    
+    font-size: 16px;
+    font-family: "Franklin Gothic Heavy", Times, serif;
+}
+.sitemap-section a.sitemap-subsection-title{
+    margin-left: 40px;
 }
 #footer-disclaimer{
     position: relative;
@@ -1143,81 +1184,28 @@ h3 {
   #Home
 \*------------------------------------*/
 
-#slideshow { 
-  height: auto;
-  width: 100%;
-  position: relative;
-  margin: auto;
+#slideshow {
+  width:450px;
+  height:281px;
+  overflow:hidden; /* So the sliding bit doesn't stick out. */
+  margin:0 auto;
 }
-#slideshow img{
-    max-height: 540px;
-    width: 100%;}
-.mySlides {
-    display: none;
+#slideshow img {
+  /* This is the bit that moves. It has 4 images, so 4 * 450 = 1800. You could use javascript
+  to work this out instead by counting images. */
+  width:1800px;
+
+  -webkit-transition:all 1.0s ease-in-out;
+  -moz-transition:all 1.0s ease-in-out;
+  -o-transition:all 1.0s ease-in-out;
+  transition:all 1.0s ease-in-out;
+}
+#slideshow img {
+  padding:0;
+  margin:0;
+  float:left; /* All the images are in a row next to each other. */
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: black;
-  font-weight: bold;
-  font-size: 40px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-#slideshow-dots{
-    padding-top: 10px;
-    padding-bottom: 5px;
-    height: 20px;
-    
-    background: #
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0px 2px 0 1px;
-  background-color: #70b244;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #3e8e41;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-.homescreen-video{
-    position: relative;
-
-    height: auto; 
-    width: 100%; 
-}
 #mobileshow { display: none;}
 
 /*------------------------------------*\
