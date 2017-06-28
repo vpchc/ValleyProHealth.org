@@ -1,6 +1,7 @@
 $(document).ready(function(){
-var url = window.location.href;
-    $('.dropdown a').filter(function() {
-        return this.href == url;
+//pure javascript
+var url = window. window.location.pathname;
+$('.dropdown a').filter(function() {
+    return this.pathname == url;
     }).addClass('active');
 });

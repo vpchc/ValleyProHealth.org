@@ -353,7 +353,7 @@ footer { position: relative;}
     list-style-type: none;
 }
 .navlink-category{
-    padding: 14.8px;
+    padding: 14.8px 17px;
     
     height: 40px;
     
@@ -1181,31 +1181,122 @@ h3 {
 }
 
 /*------------------------------------*\
-  #Home
+  #Slideshow
 \*------------------------------------*/
-
+.bx-wrapper{
+   position: relative;
+    max-height: 540px;
+}
 #slideshow {
-  width:450px;
-  height:281px;
-  overflow:hidden; /* So the sliding bit doesn't stick out. */
-  margin:0 auto;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    max-height: 690px;
 }
-#slideshow img {
-  /* This is the bit that moves. It has 4 images, so 4 * 450 = 1800. You could use javascript
-  to work this out instead by counting images. */
-  width:1800px;
+#slideshow img{
+   display: block;
+    width: 100%;
+    position: relative;
+    max-height: 540px;
+}
+.slide-info{
+    position: absolute;
+    
+    width: 412px;
+    left: 15%;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.slide-info-block{
+    padding: 10px 25px 0 25px;
+    
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.slide-info-title{    
+    border-bottom: 3px solid #70b244;
+    color: #3a4e8c;
+    
+    font-size: 65px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.slide-info-subtitle{  
+    padding-bottom: 40px;
+    
+    color: #3a4e8c;
+    
+    font-size: 35px;
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+.slide-info-button{
+    display: inline-block;
+    position: relative;
+    
+    padding: 14px 15px;
+    left: 30px;
+    bottom: 25px;
+    width: 260px;
+    
+    background: #70b244;
+    color: #fff;
+   
+    font-family: "Georgia", Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+}
+.slide-info-button:hover{ background: #3a4e8c;}
+.slide-info-span{
+    position: absolute;
+    display: block;
+    
+    top: 8px;
+    right: 10px;
+    width: 26px;
+    height: 26px;
 
-  -webkit-transition:all 1.0s ease-in-out;
-  -moz-transition:all 1.0s ease-in-out;
-  -o-transition:all 1.0s ease-in-out;
-  transition:all 1.0s ease-in-out;
+    border-bottom: rgba(255, 255, 255, 0.50) solid 2px;
+    border-top: rgba(255, 255, 255, 0.50) solid 2px;
+    border-right: rgba(255, 255, 255, 0.50) solid 2px;
+    background: url(/images/arrow-right.png) center no-repeat;
 }
-#slideshow img {
-  padding:0;
-  margin:0;
-  float:left; /* All the images are in a row next to each other. */
+.bx-prev {
+    position: absolute;
+    
+    top: 50%;
+    left: 0;
+    width: 42px;
+    height: 50px;
+   
+    background: url(/images/slide_prev_arrow.png) no-repeat left top;
+   
+    text-indent: -99999px;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 10;
 }
-
+.bx-next {
+    position: absolute;
+    
+    top: 50%;
+    right: 0;
+    width: 42px;
+    height: 50px;
+    
+    background: url(/images/slide_next_arrow.png) no-repeat left top;
+   
+    text-indent: -99999px;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 10;
+}
 #mobileshow { display: none;}
 
 /*------------------------------------*\
@@ -1496,7 +1587,7 @@ h3 {
         width: 1060px;
     }
     #masterbox { width: 1060px;}
-    #masterbox-home { width: 1060px;}
+    #masterbox-home { width: 100%;}
 
     /*------------------------------------*\
       #Navlinks
@@ -1692,9 +1783,11 @@ h3 {
         width: 165px;
     }
     #news .vpchcbutton { font-size: 25px;}
+    
     /*------------------------------------*\
       #Services
     \*------------------------------------*/
+    
     #iconbanner-title {
         margin-top: 60px;
     }
@@ -1735,7 +1828,10 @@ h3 {
         margin-bottom: 20px;
     }
 
-}
+    /*------------------------------------*\
+      #Slideshow
+    \*------------------------------------*/
+
 @media only screen and (max-width: 1082px) {
     
     /*------------------------------------*\
@@ -1762,7 +1858,6 @@ h3 {
 
         font-size: 25px;
     }
-    
     
     /*------------------------------------*\
       #Company Colors
@@ -1829,6 +1924,7 @@ h3 {
     .footer-section-last{
         width: 100%;
     }
+    
     /*------------------------------------*\
       #Navlinks
     \*------------------------------------*/

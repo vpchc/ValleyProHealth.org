@@ -165,16 +165,47 @@
           <a href="/careers">Careers</a>
         </div>
   </div></header>
-<main id="masterbox-home">   
+<main id="masterbox-home">
 <div id="slideshow">
-  <div class="mySlides fade">
+  <div class="slide">
     <img src="/images/healthcare_pic.jpg">
+    <div class="slide-info">
+      <div class="slide-info-block">
+        <p class="slide-info-title">Patient Portal</p>
+        <p class="slide-info-subtitle">Communication Made Easy</p>
+      </div>
+      <a class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+    </div>
   </div>
-  <div class="mySlides fade">
-    <img src="/images/healthcare_pic2.jpg">
+  <div class="slide">
+    <img src="/images/staff_rockville.jpg">
+    <div class="slide-info">
+      <div class="slide-info-block">
+        <p class="slide-info-title">Now Open</p>
+        <p class="slide-info-subtitle">Our New Rockville Location</p>
+      </div>
+      <a href="/rockville/" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+    </div>
   </div>
-  <div class="mySlides fade">
+  <div class="slide">
     <img src="/images/healthcare_pic3.jpg">
+    <div class="slide-info">
+      <div class="slide-info-block">
+        <p class="slide-info-title">CHW Affordable Coverage</p>
+        <p class="slide-info-subtitle">Help with Medical bills</p>
+      </div>
+      <a href="/services/patient_resources.php" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="/images/bike_program.jpg">
+    <div class="slide-info">
+      <div class="slide-info-block">
+        <p class="slide-info-title">Bike Program</p>
+        <p class="slide-info-subtitle">Chance to win a free bike!</p>
+      </div>
+      <a class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+    </div>
   </div>
 </div>
   <div id="mobileshow">
@@ -305,12 +336,28 @@
  </div></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
+<script src="/scripts/jquery.bxslider.js"></script>
+<script src="/scripts/vpchc_page_highlight.js"></script>
 <script>
 $(document).ready(function() {
-  $('#slide1_controls').on('click', 'span', function(){
-    $("#slideshow img").css("transform","translateX("+$(this).index() * -450+"px)");
-    $("#slide1_controls span").removeClass("selected");
-  });
+ var slider = jQuery('#slideshow').bxSlider({
+        auto : true,
+        mode: 'horizontal',
+        speed: 1000,
+        pause : 10000,
+        pager: false,
+        controls : true,
+        touchEnabled :true
+    });
+    //These two functions continue the sliding when the prev and next buttons are clicked.
+    $(".bx-prev").click(function () {            
+        slider.stopAuto();
+        slider.startAuto();
+    });
+    $(".bx-next").click(function () {            
+        slider.stopAuto();
+        slider.startAuto();
+    });
 });
 </script>
 <div id="fb-root"></div>
