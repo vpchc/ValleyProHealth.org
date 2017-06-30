@@ -168,13 +168,13 @@
 <main id="masterbox-home">
 <div id="slideshow">
   <div class="slide">
-    <img src="/images/healthcare_pic.jpg">
+    <img src="/images/patient_portal_slideshow.jpg">
     <div class="slide-info">
       <div class="slide-info-block">
         <p class="slide-info-title">Patient Portal</p>
         <p class="slide-info-subtitle">Communication Made Easy</p>
       </div>
-      <a class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+      <a href="https://secure2.myunionportal.org/vpchc/default.aspx" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
     </div>
   </div>
   <div class="slide">
@@ -204,7 +204,7 @@
         <p class="slide-info-title">Bike Program</p>
         <p class="slide-info-subtitle">Chance to win a free bike!</p>
       </div>
-      <a class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+      <a href="/services/patient_resources.php" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
     </div>
   </div>
 </div>
@@ -214,51 +214,29 @@
     </div>
     <img src="/images/mobileshow_background.jpg" />
   </div>
-   <div id="share">
-    <h2 class="news-title vpchcblue">Social Feeds</h2>
-    <div id="twitter">
-      <div id="twitter-feed">
-      <a class="twitter-timeline" href="https://twitter.com/ValleyProHealth" data-widget-id="738731610237849600" data-chrome="noheader nofooter noborders" data-tweet-limit="1"></a>
+  <div id="home-info">
+    <div id="home-info-about">
+      <img src="/images/volunteer_example.jpg"\ alt="VPCHC Volunteer Example">
+        <p id="home-info-about-text">Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include five additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits fourteen schools in Parke and Vermillion counties</p>
+      <div id="quote">
+        <p class="large-quote-left vpchcgreen">&ldquo;</p>
+        <p class="quote-text">Valley Professionals Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
+        <p class="large-quote-right vpchcgreen">&rdquo;</p>
       </div>
     </div>
-    <div class="share-button">
-    <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/ValleyProHealth">Follow @ValleyProHealth</a>
+    <div id="home-info-buttons">
+      <a href="locations/"><div id="home-info-button-location" class="home-info-button">
+        <p class="home-info-button-title">Find a Location</p>
+      </div></a>
+      <a href="/about_us/news_&_events.php"><div id="home-info-button-events" class="home-info-button">
+        <p class="home-info-button-title">Upcoming Events</p>
+      </div></a>
+      <a href="/about_us/providers_&_team.php"><div id="home-info-button-providers" class="home-info-button">
+        <p class="home-info-button-title">Meet Your Providers</p>
+      </div></a>
     </div>
-    <div id="facebook">
-      <div class="fb-page" data-href="https://www.facebook.com/vpchc" data-tabs="timeline" data-small-header="true" data-width="460" data-height="500" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vpchc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vpchc">Valley Professionals Community Health Center</a></blockquote></div>
-    </div>
-    <div class="fb-like share-button" data-href="https://www.facebook.com/VPCHC/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
   </div>
-  <div id="events">
-    <h2 class="news-title vpchcblue">Upcoming Events</h2>
-    <div class="events-container">
-      <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
-    </div>
-    <div class="events-container">
-      <iframe id="events-video" src="https://www.youtube.com/embed/snZH5cYhChY" frameborder="0" allowfullscreen></iframe>
-    </div>
- </div>
- <div id="news">
-   <h2 class="news-title">News</h2>
-   <div class="news-article">
-     <p class="news-article-title">March 27, 2017- Local Partnership to Increase Health Care Services</p>
-     <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
-     <a href="/about_us/news_article_1.php">See Full Article</a>
-   </div>
-   <div class="news-article">
-     <p class="news-article-title">November 1, 2016 - Local medical provider office honored for exceptional quality and service</p>
-     <p class="news-article-preview">Valley Professionals Community Health Center was recently honored with a Star Performer Award from MDwise</p>
-     <a href="/about_us/news_article_2.php">See Full Article</a>
-   </div>
-   <div class="news-article">
-     <p class="news-article-title">October 18, 2016 - Screening Mammogram Funds Available at Health Center</p>
-     <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate? Valley Professionals Community Health Center (VPCHC) has received funding through the Indiana Breast Cancer Awareness Trust to provide screening mammograms for women who are uninsured</p>
-     <a href="/about_us/news_article_3.php">See Full Article</a>
-   </div>
-   <div id="archive-button">
-       <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
-   </div>
-</div>
+
 </main>
 <footer>
   <div id="footer-locations">

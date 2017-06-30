@@ -50,33 +50,17 @@
       <h1 id="banner-title" class="banner-title-short vpchcgreen">News & Events</h1>
     </div>
   </div>
-  <div id="share">
-    <h2 class="news-title vpchcblue">Social Feeds</h2>
-    <div id="twitter">
-      <div id="twitter-feed">
-      <a class="twitter-timeline" href="https://twitter.com/ValleyProHealth" data-widget-id="738731610237849600" data-chrome="noheader nofooter noborders" data-tweet-limit="1"></a>
-      </div>
-    </div>
-    <div class="share-button">
-    <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/ValleyProHealth">Follow @ValleyProHealth</a>
-    </div>
-    <div id="facebook">
-      <div class="fb-page" data-href="https://www.facebook.com/vpchc" data-tabs="timeline" data-small-header="true" data-width="460" data-height="975" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vpchc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vpchc">Valley Professionals Community Health Center</a></blockquote></div>
-    </div>
-     <iframe class="share-button" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=49&layout=button&action=like&show_faces=false&share=false&height=65&appId" width="49" height="25" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-  </div>
   <div id="events">
     <h2 class="news-title vpchcblue">Upcoming Events</h2>
-    <div id="events-container">
-      <div class="green-rectangle"></div>
-      <div id="upcoming-events">
-        <p class="upcoming-events-section"><a href="/files/brochures/HealthyLivingWorkshopSeries_2017.pdf">Healthy Living Workshop - April 11th, 18th, & 25th</a></p>
-      </div>
-      <div class="blue-rectangle"></div>
-   </div>
+    <div class="events-container">
+      <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="events-container">
+      <iframe id="events-video" src="https://www.youtube.com/embed/snZH5cYhChY" frameborder="0" allowfullscreen></iframe>
+    </div>
  </div>
  <div id="news">
-   <h2 class="news-title">News Articles</h2>
+   <h2 class="news-title">News</h2>
    <div class="news-article">
      <p class="news-article-title">March 27, 2017- Local Partnership to Increase Health Care Services</p>
      <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
@@ -95,7 +79,7 @@
    <div id="archive-button">
        <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
    </div>
- </div>
+</div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <div id="fb-root"></div>
