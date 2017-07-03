@@ -242,21 +242,21 @@ header { position: relative;}
     
     cursor: pointer;
 }
-#head-social-container{
+#head-social-container {
     float: right;
     
     margin-top: 20px;
     height: 70px;
     width: 260px;
 }
-#head-social-subcontainer{
+#head-social-subcontainer {
     display: inline-block;
     height: 70px;
     width: 180px;
     
     border-right: #e9e9e9 solid 1px;
 }
-#head-social-subcontainer p{
+#head-social-subcontainer p {
     margin-top: 26px;
     padding-right: 10px;
     
@@ -264,7 +264,7 @@ header { position: relative;}
     font-family: "Franklin Gothic Medium", Times, serif;
     text-align: right
 }
-#head-social-icons{
+#head-social-icons {
     display: inline-block;
     float: right;
     
@@ -272,12 +272,12 @@ header { position: relative;}
     width: 68px;
     height: auto;
 }
-#head-social-icons img{ padding-right: 5px;}
-#head-social-icons img:hover{
+#head-social-icons img { padding-right: 5px;}
+#head-social-icons img:hover {
     opacity: 0.75;
     filter: alpha(opacity=50);/* For IE8 and earlier */
 }
-#header-bluebar{
+#header-bluebar {
     height: 20px;
     width: 100%;
     
@@ -297,36 +297,36 @@ footer { position: relative;}
     
     text-align: center;
 }
-.footer-locations-section a{
+.footer-locations-section a {
     color: white;
     
     font-size: 20px;
     font-family: "Franklin Gothic Medium", Times, serif;
     text-decoration: none;
 }
-#footer-icons{
+#footer-icons {
     float: left;
     
     height: auto;
     width: 34%;
 }
-#footer-icons img{
+#footer-icons img {
     margin: 10px 0 0 80px;
     height: 120px;;
     width: auto;
 }
-#sitemap{
+#sitemap {
     float: right;
     
     margin-top: 5px;
     width: 66%;
 }
-.sitemap-section{
+.sitemap-section {
     display: inline-grid;
     
-    width: 175px;
+    width: 155px;
 }
-.sitemap-section a{
+.sitemap-section a {
     display: block;
     
     margin-left: 20px;
@@ -337,20 +337,20 @@ footer { position: relative;}
     font-family: "Franklin Gothic Medium", Times, serif;
     text-decoration: none;
 }
-.sitemap-section a.sitemap-section-title{
+.sitemap-section a.sitemap-section-title {
     margin-left: 0;
     
     font-size: 16px;
     font-family: "Franklin Gothic Heavy", Times, serif;
 }
-.sitemap-section a.sitemap-subsection-title{
+.sitemap-section a.sitemap-subsection-title {
     margin-left: 40px;
 }
-#footer-disclaimer{
+#footer-disclaimer {
     position: relative;
     clear: both;
 }
-#footer-disclaimer p{
+#footer-disclaimer p {
     text-align: center;
     font-size: 12px;
 }
@@ -377,7 +377,7 @@ footer { position: relative;}
     z-index: 100;
     list-style-type: none;
 }
-.navlink-category{
+.navlink-category {
     padding: 14.8px 17px;
     
     height: 40px;
@@ -421,7 +421,7 @@ footer { position: relative;}
     padding: 12px 15px;
     height: 30px;
     
-    border-bottom: 1px solid #70b244;
+    border-bottom: 1px solid #506db4;
     
     color: white;
     font-family: "Georgia", Times, serif;;
@@ -442,11 +442,12 @@ footer { position: relative;}
 }
 /*----Mobile----*/
 #navlinks-subcontainer {
-    position: absolute;
+    position: relative;
+    float: right;
+    display: inline-block;
     
-    width: 100%;
-    
-    bottom: -10px;
+    margin: 21px 15px 0 20px;
+    width: 30px;
 }
 #navlinks-mobile {
     display: none;
@@ -455,6 +456,7 @@ footer { position: relative;}
 
     overflow-y: auto;
 }
+#navlinks-mobile a { color: black;}
 #navlinks-mobile-icon{
     display: none;
     
@@ -1276,7 +1278,7 @@ h3 {
 
 #home-info{
     margin: 30px auto 0 auto;
-    height: 520px;
+    height: 570px;
     width: 1200px;
 }
 #home-info-about{
@@ -1314,10 +1316,11 @@ h3 {
     font-size: 15px;
 }
 .home-info-button-title{
-    padding-top: 120px;
+    padding-top: 128px;
+    
     font-family: "Franklin Gothic Medium", Times, serif;
     font-size: 25px;
-    bottom: 0px;
+    text-align: center;
 }
 #home-info-button-location{
     background-image: url("/images/location_button.jpg");
@@ -1326,6 +1329,7 @@ h3 {
     background-image: url("/images/events_button.jpg");
 }
 #home-info-button-providers{
+    background-image: url("/images/meet_team_button.jpg");
 }
 /*------------------------------------*\
   #News
@@ -1507,15 +1511,16 @@ h3 {
 
 .bx-wrapper{
     position: relative;
-}
-#slideshow {
-    z-index: 1;
     max-height: 540px;
 }
-#slideshow img{
-    display: block;
+#slideshow {
+    position: absolute;
+    z-index: 1;
     width: 100%;
-    position: relative;
+    max-height: 690px;
+}
+#slideshow img{
+    width: 100%;
     max-height: 540px;
 }
 .slide-info{
@@ -1618,7 +1623,6 @@ h3 {
     -webkit-transform: translateY(-50%);
     z-index: 10;
 }
-#mobileshow { display: none;}
 
 /*------------------------------------*\
   #Stats
@@ -1675,26 +1679,21 @@ h3 {
         clear: both;
     }
     #home-info-about .quote-text {
-        margin: 20px 0 0 40px;
-        width: 620px;
+        margin: 35px 0 0 40px;
+        width: 670px;
+        
+        font-size: 22px;
     }
     .large-quote-left {
-        float: left;
-
-        margin: 10px 0 0 10px;
-        height: 40px;
+        margin: 20px 0 0 10px;
         
         font-size: 84px;
     }
     .large-quote-right {
-        float: right;
-
-        margin: 80px 0 0 0px;
-        height: 40px; 
+        margin: 0px;
 
         font-size: 84px;
     }
-    
     
     /*------------------------------------*\
       #Main Containers
@@ -1704,6 +1703,14 @@ h3 {
         width: 1050px;
     }
     #masterbox { width: 1060px;}
+    
+    #footer-locations{ height: 85px;}
+    .footer-locations-section { width: 33.333%;}
+    .footer-section-last { width: 100%;}
+    #footer-icons img{
+        margin: 10px 0 0 80px;
+        height: 75px;
+    }
 
     /*------------------------------------*\
       #Navlinks
@@ -1783,46 +1790,16 @@ h3 {
       #Home
     \*------------------------------------*/
 
-#home-info{
-    margin: 30px auto 0 auto;
-    height: 520px;
-    width: 1050px;
-}
-#home-info-about{
-    float: left;
-}
-#home-info-about img{
-    float: left;
-    
-    width: 310px;
-}
-#home-info-about-text{
-    float: left;
-    
-    margin: 0px 0 0 10px;
-    width: 350px;
-}
-
-#home-info-buttons a{ 
-    color: black;
-    
-    text-decoration: none;
-}
-.home-info-button{
-    margin-bottom: 15px;
-    height: 150px;
-    width: 300px;
-    
-    font-family: "Georgia", Times, serif;
-    font-size: 15px;
-}
-.home-info-button-title{
-    font-family: "Franklin Gothic Medium", Times, serif;
-    font-size: 25px;
-}
-#home-info-button-location{
-    
-}
+    #home-info{
+        margin: 20px auto 0 auto;
+        height: 568px;
+        width: 1050px;
+    }
+    #home-info-about img{ width: 330px;}
+    #home-info-about-text{
+        margin: 10px 0 0 10px;
+        width: 380px;
+    }
     
     /*------------------------------------*\
       #Locations
@@ -2046,32 +2023,69 @@ h3 {
         
         background: white;
         
-        z-index: 1;
+        z-index: 100;
     }
     #head-wrap {
         position: relative;
 
-        height: 50px;
+        height: 60px;
         width: 100%;
     }
     #head-img-container {
-        margin-top: 8px;
-        margin-left: 5px;
+        margin-left: 10px;
         width: 210px;
     } 
-    #header-img { width: 100%;}
-    #masterbox-home { padding-top: 70px;}
+    #header-img {
+        margin-top: 12px;
+        width: 100%;
+    }
+    #head-social-container{
+        margin-top: 0px;
+        height: 50px;
+        width: 75px;
+    }
+    #head-social-subcontainer{ display: none;}
+    #head-social-icons{
+        margin-top: 10px;
+        width: 68px;
+        height: 45px;
+
+        border-right: #e9e9e9 solid 1px;
+    }
+    #head-social-icons img{ 
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+    #masterbox-home { padding-top: 80px;}
     #masterbox{ 
         padding-top: 70px;
         width: 100%;
     }
-    .footer-section {
-        margin-bottom: 25px;
-        width: 50%;
+    #footer-locations{ height: 115px;}
+    .footer-locations-section { width: 50%;}
+    .footer-section-last { width: 100%;}
+    #footer-icons {
+        float: none;
+        
+        margin: 0 auto;
+        width: 285px;
     }
-    .footer-section a{ font-size: 18px;}
-    .footer-section-last{
-        width: 100%;
+    #footer-icons img {
+        margin: 10px 0px;
+        height: 85px;
+        width: auto;
+    }
+    #sitemap { width: 90%;}
+    .sitemap-section { width: 155px;}
+    .sitemap-section a {
+        display: block;
+
+        margin-left: 20px;
+
+        color: black;
+
+        font-family: "Franklin Gothic Medium", Times, serif;
+        text-decoration: none;
     }
     
     /*------------------------------------*\
@@ -2079,15 +2093,9 @@ h3 {
     \*------------------------------------*/
     
     #navlinks{ display: none;}
-  
-    #navlinks-container{
-        margin-top: 15px;
-        margin-right: 20px;
-        
-        height: auto;
-        width: auto;
-    }
-    #navlinks-mobile-icon{ display: block;}
+    #navlinks-container{ height: 20px;}
+    /*----Mobile----*/
+    #navlinks-mobile-icon{ display: inline-block;}
     
     /*------------------------------------*\
       #Services Provided
@@ -2441,7 +2449,6 @@ h3 {
       #patres-diabetes,
       #patres-links { display: block;}
     
-
     /*------------------------------------*\
       #Fancy Quote
     \*------------------------------------*/
@@ -2480,43 +2487,88 @@ h3 {
     #faq { width: 95%;}
     
     /*------------------------------------*\
-      #Forms
+      #Home
     \*------------------------------------*/
+    .bx-wrapper{
+           overflow: hidden;
+    }
+.slide-info{
+    position: relative;
+    
+    top: 70px;
+    left: 0;
+    height: 100%;
+    
+    width: 100%;
+        padding: 0 20px;
+    background: #d9f1ff;
+}
+.slide-info-block{
+    padding: 10px 55px 0 0px;
+    
+    background-color: #d9f1ff;
+}
+.slide-info-title{     
+    padding-bottom: 5px;   
+    
+    border-bottom: 3px solid #70b244;
+    color: #3a4e8c;
+    
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.slide-info-subtitle{  
+    padding-top: 5px;
+    padding-bottom: 40px;
+    
+    color: #3a4e8c;
+    
+    font-size: 16px;
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+.slide-info-button{
+    display: inline-block;
+    position: relative;
+    
+    padding: 14px 15px;
+    left: 30px;
+    bottom: 25px;
+    width: 200px;
+    
+    background: #70b244;
+    color: #fff;
+   
+    font-family: "Georgia", Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+}
+.slide-info-span{
+    position: absolute;
+    display: block;
+    
+    top: 8px;
+    right: 10px;
+    width: 26px;
+    height: 26px;
 
-    #forms-content-options { 
-        display: block;
+    border-bottom: rgba(255, 255, 255, 0.50) solid 2px;
+    border-top: rgba(255, 255, 255, 0.50) solid 2px;
+    border-right: rgba(255, 255, 255, 0.50) solid 2px;
+    background: url(/images/arrow-right.png) center no-repeat;
+}
+    .bx-prev {
+        width: 30px;
+        height: 35px;
 
-        margin-top: 20px;
+        background-size: cover;
     }
-    #forms-content * .vpchcbutton {
-        margin-bottom: 30px;
+    .bx-next {
+        width: 30px;
+        height: 35px;
 
-        font-size: 14px;
-    }
-    #forms-content * a { font-size: 14px;}
-    #forms-content-clinic-table td { display: block;}
-    .forms-clinic-table-mobilename {display: block;}
-    .forms-clinic-table-desktopname { display: none;}
-    #forms-content * table { font-size: 20px;}
-    .forms-simple-section { margin-left: 10px;}
-    .forms-simple-title { font-size: 20px;}
-    .form-simple-subsection { font-size: 20px;
-    }
-    .forms-simple-section * a { font-size: 20px;}
-    .forms-table-age {
-        margin: 0 auto;
-        width: 95%;
-    }
-    .forms-table-location { width: 95%;}
-    .forms-table-pics { width: 280px;}
-    .forms-square-blue-container, 
-    .forms-square-green-container {
-        display: none;
-    }
-    .forms-age-pic {
-        margin: 20px 0;
-        height: 200px;
-        width: 200px;
+        background-size: cover;
     }
     
     /*------------------------------------*\
@@ -2691,39 +2743,5 @@ h3 {
     .iconbanner-bh { margin-left: 20px;}
     .iconbanner-medical { margin-left: 20px;}
     .iconbanner-ps { margin-left: 0px;}
-    
-    /*------------------------------------*\
-      #Slideshow
-    \*------------------------------------*/
-    
-    #slideshow { display: none;}
-    #mobileshow {
-        display: block;
-        position: relative;
-    }
-    #mobileshow img{
-        position: relative;
-        
-        height: auto;
-        width: 100%;
-        
-        z-index: -1;
-    }
-    #mobileshow-quote-container {
-        position: absolute;
-        
-        height: 100%;
-        width: 100%;
-    }
-    #mobileshow p {
-        position: absolute;
-        
-        bottom: 0;
-        margin-left: 15px;
-        margin-bottom: 25px;
-       
-        font-size: 9vw;
-        font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
-    }  
 }
 /********|*********|*********|*********|*********|*********|*********|*********/
