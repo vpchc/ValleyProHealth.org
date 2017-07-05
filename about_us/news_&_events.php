@@ -55,6 +55,7 @@
     <div class="events-container">
       <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
     </div>
+    <h2 class="news-title vpchcblue">Provider Tips</h2>
     <div class="events-container">
       <iframe id="events-video" src="https://www.youtube.com/embed/snZH5cYhChY" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -62,7 +63,12 @@
  <div id="news">
    <h2 class="news-title">News</h2>
    <div class="news-article">
-     <p class="news-article-title">March 27, 2017- Local Partnership to Increase Health Care Services</p>
+     <p class="news-article-title">June 16, 2017 - Screening Mammogram Funds Available at Health Center</p>
+     <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person’s survival rate?</p>
+     <a href="/about_us/news_article_1.php">See Full Article</a>
+   </div>
+   <div class="news-article">
+     <p class="news-article-title">March 27, 2017 - Local Partnership to Increase Health Care Services</p>
      <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
      <a href="/about_us/news_article_1.php">See Full Article</a>
    </div>
@@ -71,13 +77,8 @@
      <p class="news-article-preview">Valley Professionals Community Health Center was recently honored with a Star Performer Award from MDwise</p>
      <a href="/about_us/news_article_2.php">See Full Article</a>
    </div>
-   <div class="news-article">
-     <p class="news-article-title">October 18, 2016 - Screening Mammogram Funds Available at Health Center</p>
-     <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate? Valley Professionals Community Health Center (VPCHC) has received funding through the Indiana Breast Cancer Awareness Trust to provide screening mammograms for women who are uninsured</p>
-     <a href="/about_us/news_article_3.php">See Full Article</a>
-   </div>
    <div id="archive-button">
-       <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
+     <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
    </div>
 </div>
 </main>

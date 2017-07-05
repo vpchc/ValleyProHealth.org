@@ -1,12 +1,28 @@
 <div id="head-wrap">
     <div id="head-img-container">
-      <img id="header-img" src="/images/logo.png" alt="Valley Professionals Community Health Center"   />
+<!--      <img  src="image.svg" onerror="this.onerror=null; this.src='image.png'"/>-->
+      <img id="header-img" src="/images/logo.png" alt="menu" srcset="/images/logo.svg"/>
     </div>
-    <div id="navlinks-container">
     <div id="navlinks-subcontainer">
-    <ul id="navlinks">
+      <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
+    <div id="head-social-container">
+      <div id="head-social-subcontainer">
+      <p>Connect with us</p> 
+      </div>
+      <div id="head-social-icons">
+      <a href="https://www.facebook.com/vpchc"><img src="/images/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
+      <a href="https://twitter.com/ValleyProHealth"><img src="/images/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
+      </div>
+    </div>
+  </div>
+  <div id="navlinks-container">
+  <ul id="navlinks">
+      <li id="home" class="dropdown">
+        <a class="navlink-category" href="/index.php">Home</a>
+      </li>
       <li id="about" class="dropdown">
-        <a href="/about_us/"><button class="dropbtn">About Us</button></a>
+        <a class="navlink-category" href="/about_us/">About Us</a>
         <div class="dropdown-content">
         <a href="/about_us/providers_&_team.php">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
@@ -16,7 +32,7 @@
         </div>
       </li>
       <li id="locations" class="dropdown">
-        <a href="/locations/"><button class="dropbtn">Locations</button></a>
+        <a class="navlink-category" href="/locations/">Locations</a>
         <div class="dropdown-content">
         <a href="/bloomingdale/">Bloomingdale</a>
         <a href="/cayuga/">Cayuga</a>
@@ -28,71 +44,73 @@
         </div>
       </li>
       <li id="services" class="dropdown">
-        <a href="/services/"><button class="dropbtn">Services</button></a>
+        <a class="navlink-category" href="/services/">Services</a>
         <div class="dropdown-content">
         <a href="/services/medical.php">Medical</a>
         <a href="/dental/">Dental</a>
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
-        <a href="/resources/">Resources</a>
+        <a href="/services/patient_resources.php">Patient Resources</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
-        <a href="/contact_us/"><button class="dropbtn">Contact Us</button></a>
+        <a class="navlink-category" href="/contact_us/">Contact Us</a>
         <div class="dropdown-content">
         <a href="/faqs/">Frequently </br>Asked Questions</a>
-        <a href="/careers/">Careers</a>
         </div>
       </li>
+      <li id="newpatient" class="dropdown">
+        <a class="navlink-category" href="/faqs/">New Patient</a>
+      </li>
+      <li id="patientportal" class="dropdown">
+        <a class="navlink-category" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+      </li>
+      <li id="careers" class="dropdown">
+        <a class="navlink-category" href="/careers">Join Our Team</a>
+      </li>
     </ul>
-    </div>
-    <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
-    </div>
   </div>
-  <div id="header-bluebar"></div>
+  </div>
   <div id="navlinks-mobile">
-      <div class="navlinks-mobile-section"><p>About Us</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
-          <a href="/about_us/">About Us</a>
-          <a href="/about_us/providers_&_team.php">Providers & Team</a>
-          <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
-          <a href="/about_us/governing_board.php">Governing Board</a>
-          <a href="/about_us/news_&_events.php">News & Events</a>
-          <a href="/archive/">Archive</a>
-        </div>
-      <div class="navlinks-mobile-section"><p>Locations</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
-          <a href="/locations/">Locations</a>
-          <a href="/bloomingdale/">Bloomingdale</a>
-          <a href="/cayuga/">Cayuga</a>
-          <a href="/clinton/">Clinton</a>
-          <a href="/crawfordsville/">Crawfordsville</a>
-          <a href="/rockville/">Rockville</a>
-          <a href="/terrehaute/">Terre Haute</a>
-          <a href="/mobile/">Mobile Health Center</a>
-        </div>
-      <div class="navlinks-mobile-section"><p>Services</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
-          <a href="/services/">Services</a>
-          <a href="/services/medical.php">Medical</a>
-          <a href="/dental">Dental</a>
-          <a href="/services/behavioral_health.php">Behavioral Health</a>
-          <a href="/services/patient_support.php">Patient Support</a>
-          <a href="/services/extended_hours.php">Extended Hours</a>
-        </div>
-      <div class="navlinks-mobile-section"><p>Resources</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
-          <a href="/resources/">Resources</a>
-          <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-          <a href="/faqs/">New Patients</a>
-          <a href="/resources/patient_resources.php">Patient Resources</a>
-          <a href="/resources/forms/">Forms</a>
-        </div>
-      <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></a></div>
-        <div class="navlinks-mobile-subsection">
-          <a href="/contact_us/">Contact Us</a>
-          <a href="/faqs/">Frequently Asked Questions</a>
-          <a href="/careers">Careers</a>
-        </div>
+    <a href="/index.php"><div class="navlinks-mobile-section"><p>Home</p><span>></span></div></a>
+    <div class="navlinks-mobile-section"><p>About Us</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/about_us/">About Us</a>
+        <a href="/about_us/providers_&_team.php">Providers & Team</a>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+        <a href="/about_us/governing_board.php">Governing Board</a>
+        <a href="/about_us/news_&_events.php">News & Events</a>
+        <a href="/archive/">Archive</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Locations</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/locations/">Locations</a>
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
+        <a href="/mobile/">Mobile Health Center</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Services</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/services/">Services</a>
+        <a href="/services/medical.php">Medical</a>
+        <a href="/dental">Dental</a>
+        <a href="/services/behavioral_health.php">Behavioral Health</a>
+        <a href="/services/patient_support.php">Patient Support</a>
+        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/resources/patient_resources.php">Patient Resources</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/contact_us/">Contact Us</a>
+        <a href="/faqs/">Frequently Asked Questions</a>
+        <a href="/careers">Careers</a>
+      </div>
+    <a href="/faqs/"><div class="navlinks-mobile-section"><p>New Patient</p><span>></span></div></a>
+    <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
+    <a href="/careers/"><div class="navlinks-mobile-section"><p>Join Our Team</p><span>></span></div></a>
   </div>

@@ -64,6 +64,7 @@
   </div>
   <h3 id="newpat" class="section-large-title">New Patients</h3>
   <hr>
+  <div id="tab-faq">
   <div class="tab">
     <div class="tab-bar tab-prov">
       <p class="tab-question">Are you accepting new patients?</p>
@@ -293,6 +294,7 @@
     <div class="tab-box">
       <p class="tab-answer">Click <a href="/careers">here</a> to view current job openings at Valley Professionals.</p>
     </div>
+  </div>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

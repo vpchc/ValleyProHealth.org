@@ -2,6 +2,12 @@ $(document).ready(function(){
   var $menuCloseCheck = 0;
   var $window = $(window);
     
+  //Sets the current active page to be highlighted
+  var $url = window.location.pathname;
+  $('.dropdown a').filter(function() {
+    return this.pathname == $url;
+  }).addClass('active');
+    
   //Bind event listener for checking the width
   $(window).resize(checkWidth);
     
@@ -35,4 +41,5 @@ $(document).ready(function(){
       $("body").css({"overflow":"auto"});
     }
   }
+    
 });

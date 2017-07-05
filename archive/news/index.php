@@ -55,6 +55,11 @@
   <p id="2016" class="section-title">2016</p>
   <hr>
   <div class="news-article">
+    <p class="news-article-title">October 18, 2016 - Screening Mammogram Funds Available at Health Center</p>
+    <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate? Valley Professionals Community Health Center (VPCHC) has received funding through the Indiana Breast Cancer Awareness Trust to provide screening mammograms for women who are uninsured.</p>
+    <a href="/archive/news/2016/10_18.php">See Full Article</a>
+  </div>
+  <div class="news-article">
     <p class="news-article-title">October 5, 2016 - Health Center Begins Saturday Clinic for Acute Care</p>
     <p class="news-article-preview">Valley Professionals Community Health Center is making it even easier for the community to get well soon.  The health center will now offer Saturday Clinic services, beginning Saturday, October 8th, at the Valley Professionals’ Clinton location at 777 S. Main Street, Suite 100.</p>
     <a href="/archive/news/2016/10_05.php">See Full Article</a>

@@ -156,20 +156,9 @@
         <p class="tab-name tab-name-small">Union Hospital Family Medicine Residency</p>
       </div>
       <div class="tab-box tab-box-small">
-        <div class="tab-box-pic">
-          <img src="/images/providers/noimage.jpg">
-        </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Physician</p></div>
           <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>Purdue University</li>
-            <li>Indiana University School of Medicine</li>
-            <li>Union Hospital Family Medicine Residency Program</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Waltz has been practicing medicine in the Wabash Valley for over 30 years. He enjoys teaching and mentoring other primary care providers in his role as Chief Medical Officer at Valley Professionals, as well as continuing to provide excellent care to his patients in Rockville.</p>
+          <p class="tab-box-bio-personal">Due to a local and expansive partnership, Valley Professionals Community Health Center (VPCHC) and Family Medicine Center (FMC) merged to become VPCHC-Terre Haute in mid-2016.  This transition created an increased access to care and delivery of services for the local patient population. VPCHC currently partners with the Family Medicine Residency Program to provide coordinated care to VPCHC patients and to train residents about the benefits of integrated primary and behavioral health care, as well as experience working in a Federally Qualified Health Center (FQHC).</p>
           </div>
           <p class="tab-box-location"><a href="http://www.uhfmr.org/">Click Here to see more on the Residency program.</a></p>
         </div>
@@ -333,7 +322,7 @@
             <li>Indiana State University - BSN</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Brandi Personal Statement</p>
+          <p class="tab-box-bio-personal">Brandi is passionate about providing medical care for the patients of VPCHC.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
@@ -356,7 +345,7 @@
             <li>Indiana State University - BSN</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Brandi Personal Statement</p>
+          <p class="tab-box-bio-personal">Gwyndolen enjoys focusing on patient care and creating a happier and healthier community. In her free time she enjoys spending time with her family.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
@@ -473,7 +462,7 @@
             <li>Wabash College - BS</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Taraska Personal Statement</p>
+          <p class="tab-box-bio-personal">Dr. Taraska is passionate about providing behavorial healthcare for the patients of VPCHC.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton, Cayuga, and Crawfordsville</p>
         </div>
@@ -523,29 +512,6 @@
           <p class="tab-box-bio-personal">Johnathan is currently working towards a PhD at Indiana State University. He has been working in integrated healthcare since August 2015 and has a passion for helping patients reach their Behavioral Health treatment goals. Johnathan is an avid outdoorsman, golfer, and enjoys riding anything from motorcycles to jet skis. He has a passion for animal welfare and enjoys spending time with his dogs and his cat.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Cayuga</p>
-        </div>
-      </div>
-    </div> 
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Bawanda Garrison, LSW</p>
-      </div>
-      <div class="tab-box tab-box-medium">
-        <div class="tab-box-pic">
-          <img src="/images/providers/garrison.jpg">
-        </div>
-        <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Social Worker</p></div>
-          <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>Edinboro University - MSW</li>
-            <li>Alabama State University - BSW</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Bawanda has been in social work for a number of years and has also imparted her knowledge and years of experience to students hoping to start a career in medical fields. She enjoys caring for patients in hopes of creating a happier and healthier community.</p>
-          </div>
-          <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
       </div>
     </div> 
@@ -683,29 +649,6 @@
           <p class="tab-box-bio-personal">Lacey comes from a big family, is married and has a daughter. She was born in Cory, Indiana, but has lived most of her life in Terre Haute and has been a social worker in the community since 2006. Lacey became a social worker because she has a heart for helping others and enjoys getting to know her patients and assisting them in meeting their goals.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Terre Haute</p>
-        </div>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Brandon Sentell, MS</p>
-      </div>
-      <div class="tab-box tab-box-xlarge">
-        <div class="tab-box-pic">
-          <img src="/images/providers/sentell.jpg">
-        </div>
-        <div class="tab-box-text">
-          <div class="tab-box-title"><p>Mental Health<br>Counselor</p></div>
-          <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>MS Psychology – Indiana State University</li>
-            <li>University of Alabama Huntsville - BA</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Brandon is a Doctoral Student in Psychology at Indiana State University. He is proud to be working for a healthcare agency that places such a strong emphasis on patient-centered care, particularly the invaluable relationship between physical and mental health care. As a psychologist, Brandon focuses on personalized care aimed at assisting his patients in reaching their optimal potential and improving quality of life.</p>
-          </div>
-          <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
       </div>
     </div>

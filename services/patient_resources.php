@@ -65,6 +65,10 @@
     <div id="patres-diabetes">
     <p class="explain-p">Valley Professionals holds monthly Diabetes Support Group meetings that are completely free and open to anyone who is affected by Diabetes, even if you are not a patient with Valley Professionals. For more information, click <a href="/diabetes/">here</a>.</p>
     </div>
+    <p id="patres-bike-title" class="explain-subtitle vpchcgreen">Bike Program</p>
+    <div id="patres-bike">
+    <p class="explain-p">Valley Professionals rewards kids who care about their health.</br>Call and schedule a well-child exam for your child at any of our Valley Professionals clinics and he or she could win a brand-new bike!</br>Patients who come in for a well-child visit and are up-to-date on their vaccinations will be entered into the drawing during the month of their visit. One winner is drawn every month.</br>Good luck!</p>
+    </div>
     <p id="patres-links-title" class="explain-subtitle vpchcgreen">Links to Community Partners</p>
     <div id="patres-links">
     <p class="explain-p">For assistance applying for Health insurance and/or finding community resources.</br><li>VPCHC Community Health Workers are located at all 5 of our locations. If you qualify, you may be eligible for Presumptive Eligibility also known as same day health coverage!</li></p>
@@ -94,6 +98,9 @@ $(document).ready(function(){
     });
    $("#patres-diabetes-title").click(function(){
        $("#patres-diabetes").slideToggle("slow");
+    });
+   $("#patres-bike-title").click(function(){
+      $("#patres-bike").slideToggle("slow");
     });
    $("#patres-links-title").click(function(){
        $("#patres-links").slideToggle("slow");
