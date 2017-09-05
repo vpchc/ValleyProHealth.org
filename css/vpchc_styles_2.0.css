@@ -437,11 +437,9 @@ footer { position: relative;}
 .dropdown:hover .navlink-category { background-color: #70b244;}
 #about.dropdown:hover .dropdown-content { height: 273px;}
 #locations.dropdown:hover .dropdown-content { height: 384px;}
-#services.dropdown:hover .dropdown-content { height: 327px;}
+#services.dropdown:hover .dropdown-content { height: 274px;}
 #contact.dropdown:hover .dropdown-content { height: 54px;}
-.dropdown .active{
-     background: #70b244;
-}
+.dropdown .active{ background: #70b244;}
 /*----Mobile----*/
 #navlinks-subcontainer {
     position: relative;
@@ -863,17 +861,25 @@ h3 {
     font-size: 35px;
     font-family: "Franklin Gothic Medium", Times, serif;
 }
-#bus-tracker .vpchcbutton{
+#bus-tracker-view {
+    clear: both;
+    display: block;
+    
+    padding-top: 35px;
+}
+#bus-tracker-view .vpchcbutton {
+    display: block;
+    margin: 0px auto;
     padding: 10px;
-    
-    margin: 30px 0 0 110px;
-    
+    width: 160px;
+
     border-radius: 25px;
     
     font-size: 25px;
     font-weight: 900;
+    text-decoration: none;
 }
-#bus-tracker-info{
+#bus-tracker-info {
     float: left;
     
     margin-left: 15px;
@@ -895,7 +901,7 @@ h3 {
     width: 330px;
 }
 .bus-tracker-data-section { text-align: center;}
-#bus-status{
+#bus-status {
     width: 280px;
     
     text-align: center;
@@ -1281,61 +1287,71 @@ h3 {
   #Home
 \*------------------------------------*/
 
-#home-info{
+#home-info-about {
     margin: 30px auto 0 auto;
-    height: 570px;
-    width: 1200px;
+    height: auto;
+    width: 98%;
 }
-#home-info-about{
-    float: left;
+#home-info-about-left {
+    display: inline-block;
+    
+    width: 70%;
 }
-#home-info-about img{
+#home-info-hands {
     float: left;
     
-    width: 300px;
+    width: 15%;
 }
-#home-info-about-text{
+#home-info-about p {
+    float: left;
+    
+    margin: 1vw 0 0 30px;
+    width: 75%;
+    
+    font-family: "Franklin Gothic Book", Times, serif;
+    font-size: 1vw;
+}
+#home-info-about-right {
+    display: inline-block;
     float: right;
     
-    margin: 10px 0 0 10px;
-    width: 450px;
-    
-    font-family: "Georgia", Times, serif;
-    font-size: 14px;
+    width: 30%;
 }
+#home-info-ecw {
+    display: block;
+    float: right;
+    
+    margin-right: 60px;
+    width: 95%;
+}
+#home-info-buttons {
+    clear: both;
+    
+    margin: 0 auto;
+    width: 100%;
+    
+    text-align: justify;
+}
+#home-info-buttons:after {
+    display: inline-block;
 
-#home-info-buttons{
-    float: right;
-}
-#home-info-buttons a{ 
-    color: white;
+	width: 100%;
     
-    text-decoration: none;
+    content: "";
 }
-.home-info-button{
-    margin-bottom: 15px;
-    height: 170px;
-    width: 277px;
+.home-info-button {
+    display: inline-block;
+    vertical-align: top;
+    clear: both;
+    /* IE fix. */
+	*display: inline;
+	zoom: 1;
     
-    font-family: "Georgia", Times, serif;
-    font-size: 15px;
+    margin: 30px 20px 30px 20px;
+    height: auto;
+    width: 21.7%;
 }
-.home-info-button-title{
-    padding-top: 128px;
-    
-    font-family: "Franklin Gothic Medium", Times, serif;
-    font-size: 25px;
-    text-align: center;
-}
-#home-info-button-location{
-    background-image: url("/images/location_button.jpg");
-}
-#home-info-button-events{
-    background-image: url("/images/events_button.jpg");
-}
-#home-info-button-providers{
-    background-image: url("/images/meet_team_button.jpg");
-}
+.home-info-button img { width: 100%;}
 
 /*------------------------------------*\
   #News
@@ -1486,7 +1502,7 @@ h3 {
     position: absolute;
     z-index: 1;
     width: 100%;
-    max-height: 690px;
+    max-height: 540px;
 }
 #slideshow img{
     width: 100%;
@@ -1495,8 +1511,8 @@ h3 {
 .slide-info{
     position: absolute;
     
-    width: 412px;
-    left: 15%;
+    width: 562px;
+    left: 8%;
     top: 50%;
     
     transform: translateY(-50%);
@@ -1506,6 +1522,7 @@ h3 {
 .slide-info-block{
     padding: 10px 25px 0 25px;
     
+    border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.75);
 }
 .slide-info-title{     
@@ -1513,7 +1530,7 @@ h3 {
     border-bottom: 3px solid #70b244;
     color: #3a4e8c;
     
-    font-size: 65px;
+    font-size: 55px;
     font-family: "Franklin Gothic Medium", Times, serif;
 }
 .slide-info-subtitle{  
@@ -1536,6 +1553,7 @@ h3 {
     
     background: #70b244;
     color: #fff;
+    border-radius: 15px;
    
     font-family: "Georgia", Times, serif;
     font-weight: 700;
@@ -1549,13 +1567,13 @@ h3 {
     display: block;
     
     top: 8px;
-    right: 10px;
+    right: 15px;
     width: 26px;
     height: 26px;
 
-    border-bottom: rgba(255, 255, 255, 0.50) solid 2px;
-    border-top: rgba(255, 255, 255, 0.50) solid 2px;
-    border-right: rgba(255, 255, 255, 0.50) solid 2px;
+    border: rgba(255, 255, 255, 0.50) solid 2px;
+   
+    border-radius: 15px;
     background: url(/images/arrow-right.png) center no-repeat;
 }
 .bx-prev {
@@ -1637,21 +1655,6 @@ h3 {
 
     #quote {
         font-size: 20px;
-    }
-
-    /*----Home Quote----*/
-    #home-info-about #quote{
-        margin-top: 0px;
-        height: 200px;
-        width: 700px;
-
-        clear: both;
-    }
-    #home-info-about .quote-text {
-        margin: 35px 0 0 40px;
-        width: 670px;
-        
-        font-size: 22px;
     }
     .large-quote-left {
         margin: 20px 0 0 10px;
@@ -1757,15 +1760,34 @@ h3 {
       #Home
     \*------------------------------------*/
 
-    #home-info{
-        margin: 20px auto 0 auto;
-        height: 568px;
-        width: 1050px;
+    #home-info { margin: 20px auto 0 auto;}
+    #home-info-hands {
+        width: 18%;
     }
-    #home-info-about img{ width: 330px;}
-    #home-info-about-text{
-        margin: 10px 0 0 10px;
-        width: 380px;
+    #home-info-about p {
+        margin-left: 10px;
+    width: 59%;
+    
+    font-family: "Franklin Gothic Book", Times, serif;
+    font-size: 12px;
+    }
+    #home-info-ecw {
+        margin-right: 60px;
+        height: 180px;
+        width: auto;
+    }
+    .home-info-button { width: 44%;}
+    .home-info-button a {
+        display: block;
+        
+        margin: 0 auto;
+        width: 60%;
+    }
+    .home-info-button img {
+        display: block;
+        
+        margin: 0 auto;
+        width: 100%;
     }
     
     /*------------------------------------*\
@@ -2404,29 +2426,6 @@ h3 {
 
         font-size: 50px;
     }
-    /*----Home Quote----*/
-    #home-info-about #quote{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: 200px;
-        width: 300px;
-    }
-    #home-info-about .quote-text {
-        margin: 0px 0 0 30px;
-        width: 280px;
-        
-        font-size: 14px;
-    }
-    .large-quote-left {
-        margin: 0px;
-        
-        font-size: 54px;
-    }
-    .large-quote-right {
-        margin: 0px 0 0 0;
-
-        font-size: 54px;
-    }
     
     /*------------------------------------*\
       #FAQs
@@ -2437,39 +2436,44 @@ h3 {
     /*------------------------------------*\
       #Home
     \*------------------------------------*/
-    #home-info{
-        margin: 0px auto 0 auto;
+    #home-info-about {
+        margin: 0px auto;
         height: auto;
         width: 95%;
     }
-    #home-info-about{ float: none;}
-    #home-info-about img{ display: none;}
-    #home-info-about-text{
-        float: none;
-        display: block;
-
-        margin: 10px 0 0 10px;
-        width: 100%;
+    #home-info-about-left { width: 100%;}
+    #home-info-hands { display: none;}
+    #home-info-about p {
+        margin: 0px auto;
+        padding: 10px;
+        width: 95%;
 
         font-size: 14px;
     }
-    #home-info-buttons{ 
+    #home-info-about-right{ 
+        float: none;
+        
+        width: 100%;
+    }
+    #home-info-ecw { 
         float: none;
     
         margin: 0 auto;
-        margin-bottom: 30px;
-        width: 280px;
+        height: auto;
+        width: 95%;
     }
-    .home-info-button{
+    .home-info-button { width: 89%;}
+    .home-info-button a {
+        display: block;
+        
         margin: 0 auto;
-        margin-bottom: 15px;
-        height: 120px;
-
+        width: 60%;
     }
-    .home-info-button-title{
-        padding-top: 85px;
-
-        font-size: 23px;
+    .home-info-button img {
+        display: block;
+        
+        margin: 0 auto;
+        width: 100%;
     }
     
     /*------------------------------------*\
@@ -2484,8 +2488,7 @@ h3 {
         background: none;    
     }
     .timeline {
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
         padding: 20px 50px 10px 10px;
         width: 235px;
 
@@ -2642,8 +2645,8 @@ h3 {
     /*------------------------------------*\
       #Slideshow
     \*------------------------------------*/
-    .bx-wrapper{ overflow: hidden;}
-    .slide-info{
+    .bx-wrapper { overflow: hidden;}
+    .slide-info {
         position: relative;
 
         top: 71px;
@@ -2653,12 +2656,16 @@ h3 {
             
         background: #d9f1ff;
     }
-    .slide-info-block{
+    .slide-info-block {
         background-color: #d9f1ff;
     }
-    .slide-info-title{ font-size: 20px;}
-    .slide-info-subtitle{ font-size: 16px;}
-    .slide-info-button{ width: 150px;}
+    .slide-info-title { font-size: 20px;}
+    .slide-info-subtitle { font-size: 16px;}
+    .slide-info-button { 
+        width: 150px;
+        
+        font-size: 13px;
+    }
     .bx-prev {
         width: 30px;
         height: 35px;
@@ -2671,6 +2678,6 @@ h3 {
 
         background-size: cover;
     }
-    
+
 }
 /********|*********|*********|*********|*********|*********|*********|*********/

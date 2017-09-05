@@ -42,14 +42,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Bilingual Receptionist - Crawfordsville</h2>
+  <h2>CMA Float</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center’s Crawfordsville office is looking to hire a bilingual receptionist who is fluent in both English and Spanish.</p>
+    <p>Valley Professionals Community Health Center’s is looking to hire a CMA to float between its offices. The position will float to Clinton, Bloomingdale, Rockville, and Cayuga. </p>
     <p>Duties:</p>
-    <li>Answering and directing phone calls</li>
-    <li>Scheduling patient appointments</li>
-    <li>Entering patient information</li>
-    <li>Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
+    <li>Providing professional nursing services and patient care</li>
+    <li>Patient assessment</li>
+    <li>Taking vitals</li>
+    <li>Assisting the provider in minor procedures</li>
+    <li>Assist in answering phone calls</li>
+    <li>Scheduling patients and checking-in patients</li>
+    <li>Assisting the provider in minor procedures</li>
+    <p>Requirements:</p>
+    <li>Current certification as a Medical Assistant</li>
+    <li>Two to three years primary care experience preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_2.php" name="referer">
@@ -73,7 +79,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Bilingual Receptionist - Crawfordsville">
+        <input type="hidden" name="subject" value="CMA Float">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

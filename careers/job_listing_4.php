@@ -43,15 +43,17 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Site Manager - Crawfordsville</h2>
+  <h2>Finance Clerk - Clinton</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is hiring a Site Manager for its Crawfordsville clinic.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a Finance Clerk for its Clinton location</p>
     <p>Duties:</p>
-    <li>Include responsibility for overseeing facility management and the daily operations.</li>
-    <li>Oversee clinical staff, care of patients, and the implementation of clinic policies and procedures.</li>
+    <li>Sorting and distributing mail</li>
+    <li>Preparing bank deposits</li>
+    <li>Clinical scanning</li>
+    <li>Clerical billing duties</li>
     <p>Requirements:</p>
-    <li>Current clinical experience </li>
-    <li>Three to five years experience in an office supervisory position</li>
+    <li>High school diploma</li>
+    <li>Prior office experience</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_4.php" name="referer">
@@ -75,7 +77,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Site Manager - Crawfordsville">
+        <input type="hidden" name="subject" value="Finance Clerk - Clinton">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

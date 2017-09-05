@@ -92,14 +92,11 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Dr. Do Hwang, MD</p></td>
-        <td><p class="team-table-name">Gwyndolen Morson, FNP-C</p></td>
-      </tr>
-      <tr>
+        <td><p class="team-table-name">Gwyndolen Morson, FNP-C</p></td> 
         <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
-        <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 
       </tr>
       <tr>
+        <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 
         <td><p class="team-table-name">Dana Tinkle, LMHC</p></td>
       </tr>
     </table>

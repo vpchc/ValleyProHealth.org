@@ -43,15 +43,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>LCSW/LMHC - Clinton</h2>
+  <h2>CMA/LPN - Cayuga</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a Licensed Mental Health Counselor or Licensed Clinical Social Worker for its Clinton office.</p>
+    <p>Valley Professionals Community Health Center’s is looking to hire a CMA CMA or a LPN for its Cayuga office.</p>
     <p>Duties:</p>
-    <li>Providing professional behavioral healthcare to VPCHC patients.</li>
-    <li>Coordinating patient treatment with a multidisciplinary team.</li>
-    <p>Additional Info:</p>
-    <li>Competitive pay and benefits offered.</li>
-    <li>VPCHC is a National Health Service Corps Student Loan Repayment Site</li>
+    <li>Providing professional nursing services and patient care</li>
+    <li>Patient assessment</li>
+    <li>Taking vitals</li>
+    <li>Assisting the provider in minor procedures</li>
+    <li>Assist in answering phone calls</li>
+    <li>Scheduling patients and checking-in patients</li>
+    <li>Assisting the provider in minor procedures</li>
+    <p>Requirements:</p>
+    <li>Current certification as a Medical Assistantor or Nurse required</li>
+    <li>Two to three years primary care experience preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">

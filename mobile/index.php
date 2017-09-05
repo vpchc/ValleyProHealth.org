@@ -61,7 +61,7 @@
     </div>
     <div id="location-info-right">
       <div id="bus-tracker" class="banner-section-left">
-          <div id="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
+        <div id="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
         <div id="bus-tracker-info">
           <p>Location:</p>
           <p>Hours:</p>
@@ -77,7 +77,9 @@
             </div>
           </div>
         </div>
-        <a href="/files/schedule/current_schedule.pdf"><button class="vpchcbutton">Download Schedule</button></a>
+        <div id="bus-tracker-view">
+          <a class="vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
+        </div>
       </div>
     </div>
   </div>
@@ -113,7 +115,7 @@
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="/scripts/vpchc_bus_3.5.19.js"></script>
+<script type="text/javascript" src="/scripts/vpchc_bus_3.5.21.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>
 </html>

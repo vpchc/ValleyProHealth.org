@@ -51,21 +51,17 @@
     <a href="/services/behavioral_health.php">Behavioral Health</a>
     <a href="/services/patient_support.php">Patient Support</a>
     <a href="/services/extended_hours.php">Extended Hours</a>
-    <a href="/patient_resources/">Patient Resources</a>
-    <a class="sitemap-subsection-title" href="/diabetes/">Diabetes</a>
   </div>
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="/contact_us/">Contact Us</a>
     <a href="/faqs/">Frequently Asked Questions</a>
   </div>
   <div class="sitemap-section">
-    <a class="sitemap-section-title" href="/newpatient/">New Patient</a>
+    <a class="sitemap-section-title" href="/newpatient/">Patient Resources</a>
+    <a href="/diabetes/">Diabetes</a>
   </div>
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-  </div>
-  <div class="sitemap-section">
-    <a class="sitemap-section-title" href="/careers/">Join Our Team</a>
   </div>
   </div>
   <div id="footer-disclaimer" class="vpchcgrey">

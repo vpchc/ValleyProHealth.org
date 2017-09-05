@@ -1,6 +1,5 @@
 <div id="head-wrap">
     <div id="head-img-container">
-<!--      <img  src="image.svg" onerror="this.onerror=null; this.src='image.png'"/>-->
       <img id="header-img" src="/images/logo.png" alt="menu" srcset="/images/logo.svg"/>
     </div>
     <div id="navlinks-subcontainer">
@@ -51,7 +50,6 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
-        <a href="/services/patient_resources.php">Patient Resources</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -60,14 +58,11 @@
         <a href="/faqs/">Frequently </br>Asked Questions</a>
         </div>
       </li>
-      <li id="newpatient" class="dropdown">
-        <a class="navlink-category" href="/faqs/">New Patient</a>
+      <li id="patientresources" class="dropdown">
+        <a class="navlink-category" href="/services/patient_resources.php">Patient Resources</a>
       </li>
       <li id="patientportal" class="dropdown">
         <a class="navlink-category" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
-      </li>
-      <li id="careers" class="dropdown">
-        <a class="navlink-category" href="/careers">Join Our Team</a>
       </li>
     </ul>
   </div>
@@ -76,7 +71,7 @@
     <a href="/index.php"><div class="navlinks-mobile-section"><p>Home</p><span>></span></div></a>
     <div class="navlinks-mobile-section"><p>About Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
-        <a href="/about_us/">About Us</a>
+          <a href="/about_us/">About Us</a>
         <a href="/about_us/providers_&_team.php">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
@@ -102,7 +97,6 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
-        <a href="/resources/patient_resources.php">Patient Resources</a>
       </div>
     <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
@@ -110,7 +104,6 @@
         <a href="/faqs/">Frequently Asked Questions</a>
         <a href="/careers">Careers</a>
       </div>
-    <a href="/faqs/"><div class="navlinks-mobile-section"><p>New Patient</p><span>></span></div></a>
+    <a href="/resources/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
     <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
-    <a href="/careers/"><div class="navlinks-mobile-section"><p>Join Our Team</p><span>></span></div></a>
   </div>

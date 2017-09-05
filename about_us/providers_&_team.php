@@ -40,7 +40,121 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><div id="head-wrap">
+    <div id="head-img-container">
+      <img id="header-img" src="/images/logo.png" alt="menu" srcset="/images/logo.svg"/>
+    </div>
+    <div id="navlinks-subcontainer">
+      <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+    </div>
+    <div id="head-social-container">
+      <div id="head-social-subcontainer">
+      <p>Connect with us</p> 
+      </div>
+      <div id="head-social-icons">
+      <a href="https://www.facebook.com/vpchc"><img src="/images/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
+      <a href="https://twitter.com/ValleyProHealth"><img src="/images/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
+      </div>
+    </div>
+  </div>
+  <div id="navlinks-container">
+  <ul id="navlinks">
+      <li id="home" class="dropdown">
+        <a class="navlink-category" href="/index.php">Home</a>
+      </li>
+      <li id="about" class="dropdown">
+        <a class="navlink-category" href="/about_us/">About Us</a>
+        <div class="dropdown-content">
+        <a href="/about_us/providers_&_team.php">Providers & Team</a>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+        <a href="/about_us/governing_board.php">Governing Board</a>
+        <a href="/about_us/news_&_events.php">News & Events</a>
+        <a href="/archive/">Archive</a>
+        </div>
+      </li>
+      <li id="locations" class="dropdown">
+        <a class="navlink-category" href="/locations/">Locations</a>
+        <div class="dropdown-content">
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
+        <a href="/mobile/">Mobile </br>Health Center</a>
+        </div>
+      </li>
+      <li id="services" class="dropdown">
+        <a class="navlink-category" href="/services/">Services</a>
+        <div class="dropdown-content">
+        <a href="/services/medical.php">Medical</a>
+        <a href="/dental/">Dental</a>
+        <a href="/services/behavioral_health.php">Behavioral Health</a>
+        <a href="/services/patient_support.php">Patient Support</a>
+        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/patient_resources.php">Patient Resources</a>
+        </div>
+      </li>
+      <li id="contact" class="dropdown">
+        <a class="navlink-category" href="/contact_us/">Contact Us</a>
+        <div class="dropdown-content">
+        <a href="/faqs/">Frequently </br>Asked Questions</a>
+        </div>
+      </li>
+      <li id="newpatient" class="dropdown">
+        <a class="navlink-category" href="/faqs/">New Patient</a>
+      </li>
+      <li id="patientportal" class="dropdown">
+        <a class="navlink-category" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+      </li>
+      <li id="careers" class="dropdown">
+        <a class="navlink-category" href="/careers">Join Our Team</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div id="navlinks-mobile">
+    <a href="/index.php"><div class="navlinks-mobile-section"><p>Home</p><span>></span></div></a>
+    <div class="navlinks-mobile-section"><p>About Us</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/about_us/">About Us</a>
+        <a href="/about_us/providers_&_team.php">Providers & Team</a>
+        <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+        <a href="/about_us/governing_board.php">Governing Board</a>
+        <a href="/about_us/news_&_events.php">News & Events</a>
+        <a href="/archive/">Archive</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Locations</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/locations/">Locations</a>
+        <a href="/bloomingdale/">Bloomingdale</a>
+        <a href="/cayuga/">Cayuga</a>
+        <a href="/clinton/">Clinton</a>
+        <a href="/crawfordsville/">Crawfordsville</a>
+        <a href="/rockville/">Rockville</a>
+        <a href="/terrehaute/">Terre Haute</a>
+        <a href="/mobile/">Mobile Health Center</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Services</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/services/">Services</a>
+        <a href="/services/medical.php">Medical</a>
+        <a href="/dental">Dental</a>
+        <a href="/services/behavioral_health.php">Behavioral Health</a>
+        <a href="/services/patient_support.php">Patient Support</a>
+        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/resources/patient_resources.php">Patient Resources</a>
+      </div>
+    <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
+      <div class="navlinks-mobile-subsection">
+        <a href="/contact_us/">Contact Us</a>
+        <a href="/faqs/">Frequently Asked Questions</a>
+        <a href="/careers">Careers</a>
+      </div>
+    <a href="/faqs/"><div class="navlinks-mobile-section"><p>New Patient</p><span>></span></div></a>
+    <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
+    <a href="/careers/"><div class="navlinks-mobile-section"><p>Join Our Team</p><span>></span></div></a>
+  </div></header>
 <main id="masterbox">
   <div id="sidebar" class="large-sidebar">
     <a href="#physicians"><button class="sidebar-section large-bar">Physicians</button></a>
@@ -84,6 +198,54 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Dr. Danielle Cundiff, DO</p>
+      </div>
+      <div class="tab-box tab-box-large">
+        <div class="tab-box-pic">
+            <img src="/images/providers/cundiff.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Physician</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>University of Southern Indiana</li>
+            <li>University of Pikeville KYCOM School of Medicine</li>
+            <li>Union Hospital Family Medicine Residency Program</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">I was born and raised in Dana, IN.  I am excited to now get the opportunity to be practicing near my hometown.  I enjoy spending time outdoors when I can, am a huge 'i Love Lucy" fan, and enjoy skydiving.  </p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Clinton and Cayuga</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Dr. Christopher Fitzsimmons, MD</p>
+      </div>
+      <div class="tab-box tab-box-large">
+        <div class="tab-box-pic">
+            <img src="/images/providers/fitzsimmons.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Physician</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Purdue University</li>
+            <li>Indiana University School of Medicine</li>
+            <li>Union Hospital Family Medicine Residency Program</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Dr. Waltz has been practicing medicine in the Wabash Valley for over 30 years. He enjoys teaching and mentoring other primary care providers in his role as Chief Medical Officer at Valley Professionals, as well as continuing to provide excellent care to his patients in Rockville.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Rockville</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
         <p class="tab-name tab-name-large">Dr. Bing Gale, MD</p>
       </div>
       <div class="tab-box tab-box-small">
@@ -102,28 +264,6 @@
           <p class="tab-box-bio-personal">Dr. Gale has been practicing in the area for over fifteen years. She enjoys focusing on patient care and creating a happier and healthier community.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton and Cayuga</p>
-        </div>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dr. Do S. Hwang, MD</p>
-      </div>
-      <div class="tab-box tab-box-small">
-        <div class="tab-box-pic">
-          <img src="/images/providers/hwang.jpg">
-        </div>
-        <div class="tab-box-text">
-          <div class="tab-box-title"><p>Physician</p></div>
-          <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>Pusan National University College of Medicine</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Hwang is passionate about providing medical care for the patients of VPCHC and has served Montgomery County residents for 40+ years. He enjoys traveling and spending time with his family!</p>
-          </div>
-          <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
       </div>
     </div>
@@ -332,7 +472,7 @@
       <div class="tab-bar tab-prov">
         <p class="tab-name tab-name-large">Gwyndolen Morson, FNP-C</p>
       </div>
-      <div class="tab-box tab-box-medium">
+      <div class="tab-box tab-box-small">
         <div class="tab-box-pic">
           <img src="/images/providers/morson.jpg">
         </div>
@@ -345,12 +485,12 @@
             <li>Indiana State University - BSN</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Gwyndolen enjoys focusing on patient care and creating a happier and healthier community. In her free time she enjoys spending time with her family.</p>
+          <p class="tab-box-bio-personal">Gwyn loves providing medical care to her community.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
       </div>
-    </div>
+    </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
         <p class="tab-name tab-name-large">Tammy Mundy, FNP-C</p>
@@ -481,9 +621,9 @@
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
-            <li>PhD Indiana State University</li>
-            <li>MS Indiana State University</li>
-            <li>BA Oral Roberts University</li>
+            <li>Indiana State University - PhD</li>
+            <li>Indiana State University - MS</li>
+            <li>Oral Roberts University - BA</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Wernz is a psychologist with more than ten years of experience, She specializes in treating patients with attention deficit, pervasive developmental, mood, anxiety and personality disorders, while collaborating with medical providers and other service providers to comprehensively treat patients. Dr. Wernz created the behavioral health integration model for the VPCHC as well as developed the current integrated MAT addictions program. She also serves, as the Director of Behavioral Health for all VPCHC locations.</p>
@@ -592,7 +732,7 @@
           <img src="/images/providers/ritter.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Clinical<br>Social Worker</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -661,7 +801,7 @@
           <img src="/images/providers/tincher.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Psychiatric<br>Mental Health<br>Nurse Practitioner</p></div>
+          <div class="tab-box-title"><p>Psychiatric<br>-Mental Health<br>Nurse Practitioner</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -708,7 +848,7 @@
           <img src="/images/providers/woods.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor Associates</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -756,7 +896,7 @@
           <img src="/images/providers/tidwell.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Dental Hygienist</p></div>
+          <div class="tab-box-title"><p>Licensed Dental Hygienist</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -911,7 +1051,79 @@
     </div>
   </div>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<div id="footer-locations">
+  <div class="footer-locations-section">
+    <a href="/bloomingdale/"><p>Bloomingdale</p></a>
+  </div>
+  <div class="footer-locations-section">
+    <a href="/cayuga/"><p>Cayuga</p></a>
+  </div>
+  <div class="footer-locations-section">
+    <a href="/clinton/"><p>Clinton</p></a>
+  </div>
+  <div class="footer-locations-section">
+    <a href="/crawfordsville/"><p>Crawfordsville</p></a>
+  </div>
+  <div class="footer-locations-section">
+    <a href="/rockville/"><p>Rockville</p></a>
+  </div>
+  <div class="footer-locations-section">
+    <a href="/terrehaute/"><p>Terre Haute</p></a>
+  </div>
+  <div class="footer-locations-section footer-section-last">
+    <a href="/mobile/"><p>Mobile Health Center</p></a>
+  </div>
+  </div>
+  <div id="footer-icons">
+    <img src="/images/fqhc_logo.jpg" alt="FQHC Logo"/>
+    <img src="/images/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
+  </div>
+  <div id="sitemap">
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/about_us/">About Us</a>
+    <a href="about_us/providers_&_team.php">Providers & Team</a>
+    <a href="about_us/">History of VPCHC</a>
+    <a href="about_us/">Governing Board</a>
+    <a href="about_us/">News & Events</a>
+    <a href="about_us/">Archive</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/locations/">Locations</a>
+    <a href="/bloomingdale/">Bloomingdale</a>
+    <a href="/cayuga/">Cayuga</a>
+    <a href="/clinton/">Clinton</a>
+    <a href="/crawfordsville/">Crawfordsville</a>
+    <a href="/rockville/">Rockville</a>
+    <a href="/terrehaute/">Terre Haute</a>
+    <a href="/mobile/">Mobile Health Center</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/services/">Services</a>
+    <a href="/services/medical.php">Medical</a>
+    <a href="/dental/">Dental</a>
+    <a href="/services/behavioral_health.php">Behavioral Health</a>
+    <a href="/services/patient_support.php">Patient Support</a>
+    <a href="/services/extended_hours.php">Extended Hours</a>
+    <a href="/patient_resources/">Patient Resources</a>
+    <a class="sitemap-subsection-title" href="/diabetes/">Diabetes</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/contact_us/">Contact Us</a>
+    <a href="/faqs/">Frequently Asked Questions</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/newpatient/">New Patient</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+  </div>
+  <div class="sitemap-section">
+    <a class="sitemap-section-title" href="/careers/">Join Our Team</a>
+  </div>
+  </div>
+  <div id="footer-disclaimer" class="vpchcgrey">
+    <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
+ </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script src="/scripts/vpchc_tab.js"></script>

@@ -7,11 +7,23 @@
 */
 
 $(document).ready(function(){
-  function busTrackerTimeCheck($startTime, $endTime, $flag, $count){
+    
+  var $today = 0;
+  var $twoAreas = 0;
+  var $tempChange = [ ];
+  var $busStart = 0;
+  var $busEnd = 0;
+  var $flag = 0;
+  var $status = 0;
+  var $inc = 1;
+  var $firstLocationCheck = 0;
+    
+    
+  function busTrackerTimeCheck(){
   /*
     Arguments:   startTime (The Bus start time)
                  endTime (The Bus end time)
-                 flag (0 - one location; 1 - two locations)
+                 firstLocationCheck ()
     Description: Looks at the start and end times of the bus and compares to
                  the current time.
     Returns:     0 - Closed, 1 - Open, 2 - Opening Soon, 3 - En route,
@@ -40,13 +52,13 @@ $(document).ready(function(){
       $currentTime = new Date($year, $month, $day, $hour, $min);
 
     //Split the start time and create a useable bus start time date method		 
-      $splitTime    = $startTime.toString().split(":");
+      $splitTime    = $busStart.toString().split(":");
       $hour         = $splitTime[0];
       $min          = $splitTime[1];
       $busStartTime = new Date($year, $month, $day, $hour, $min);
 
     //Split the end time and create a useable bus end time date method	  
-      $splitTime  = $endTime.toString().split(":");
+      $splitTime  = $busEnd.toString().split(":");
       $hour       = $splitTime[0];
       $min        = $splitTime[1];
       $busEndTime = new Date($year, $month, $day, $hour, $min);  
@@ -57,7 +69,14 @@ $(document).ready(function(){
     //Where the comparing happens
       if($compareEnd <= 1.8e6 & $compareEnd > 0){
         return 4;
-      }else if($count > 0 & $compareStart > 1.8e6){
+      }else if($compareStart > 1.8e6){
+        if($firstLocationCheck > 0){
+            $firstLocationCheck = 1;
+            return 3;
+        }else{
+            $flag = 0;
+            return 0;
+        }
         return 3;
       }else if($compareStart < 1.8e6 & $compareStart > 0){ 
         return 2;
@@ -93,27 +112,17 @@ $(document).ready(function(){
     });
   }
     
-  var $today = 0;
-  var $twoAreas = 0;
-  var $tempChange = [ ];
-  var $busStart = 0;
-  var $busEnd = 0;
-  var $flag = 0;
-  var $status = 0;
-  var $inc = 1;
-  var $count = 0;
-    
   while(1){
       busScheduleGrab($inc);
       
       //Check the times for the first location and store the status.
-      $status = busTrackerTimeCheck($busStart, $busEnd, $flag, $count);
+      $status = busTrackerTimeCheck();
       //If it the status for the current location is not closed or there are no other locations left
       if($status != 0 || $flag == 0){
+          console.log("breakin the law!")
           break;
       }
       $inc++;
-      $count++;
   }
   //Display the location
   $( "#bus-location" ).load("/info/bus_web_schedule.html #location" + $inc);
