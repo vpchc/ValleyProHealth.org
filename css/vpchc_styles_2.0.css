@@ -294,6 +294,7 @@ footer { position: relative;}
     
     margin-top: 5px;
     width: 14.2857%;
+    height: auto;
     
     text-align: center;
 }
@@ -437,7 +438,7 @@ footer { position: relative;}
 .dropdown:hover .navlink-category { background-color: #70b244;}
 #about.dropdown:hover .dropdown-content { height: 273px;}
 #locations.dropdown:hover .dropdown-content { height: 384px;}
-#services.dropdown:hover .dropdown-content { height: 274px;}
+#services.dropdown:hover .dropdown-content { height: 329px;}
 #contact.dropdown:hover .dropdown-content { height: 54px;}
 .dropdown .active{ background: #70b244;}
 /*----Mobile----*/
@@ -446,7 +447,7 @@ footer { position: relative;}
     float: right;
     display: inline-block;
     
-    margin: 21px 15px 0 20px;
+    margin: 23px 15px 0 20px;
     width: 30px;
 }
 #navlinks-mobile {
@@ -1766,9 +1767,8 @@ h3 {
     }
     #home-info-about p {
         margin-left: 10px;
-    width: 59%;
+    width: 65%;
     
-    font-family: "Franklin Gothic Book", Times, serif;
     font-size: 12px;
     }
     #home-info-ecw {
@@ -1975,33 +1975,42 @@ h3 {
         width: 170px;
     } 
     #header-img {
-        margin-top: 15px;
+        margin-top: 19px;
         width: 100%;
     }
-    #head-social-container{
+    #head-social-container {
         margin-top: 0px;
         height: 50px;
-        width: 75px;
+        width: auto;
     }
-    #head-social-subcontainer{ display: none;}
-    #head-social-icons{
+    #head-social-subcontainer { display: none;}
+    #head-social-icons {
         margin-top: 10px;
-        width: 68px;
+        width: auto;
         height: 45px;
 
         border-right: #e9e9e9 solid 1px;
     }
-    #head-social-icons img{ 
+    #head-social-icons img { 
         margin-top: 10px;
         padding-right: 5px;
+        height: auto;
+        width: auto;
     }
     #masterbox-home { padding-top: 80px;}
-    #masterbox{ 
+    #masterbox { 
         padding-top: 80px;
         width: 100%;
     }
-    #footer-locations{ height: 115px;}
-    .footer-locations-section { width: 50%;}
+    #footer-locations {
+        height: auto;
+    
+        overflow: auto;
+    }
+    .footer-locations-section { 
+        width: 50%;
+        height: auto;
+    }
     .footer-section-last { width: 100%;}
     #footer-icons {
         float: none;

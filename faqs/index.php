@@ -145,7 +145,7 @@
       <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
     </div>
     <div class="tab-box">
-      <p class="tab-answer">Yes, Valley Professionals accepts self-pay, and also has a <a href="/resources/patient_resources.php">sliding-fee scale</a> for eligible individuals.</p>
+      <p class="tab-answer">Yes, Valley Professionals accepts self-pay, and also has a <a href="/services/patient_resources.php">sliding-fee scale</a> for eligible individuals.</p>
     </div>
   </div>
   <div class="tab">
@@ -170,7 +170,7 @@
             - If unemployed, no income, and living with others, we require a signed and dated letter from the person providing support of the patient.</br>
             - Driver's license</br>
             - Any other income that is direct deposited.</br>
-        For more information on sliding fee scale, click <a href="/resources/patient_resources.php">here</a>.
+        For more information on sliding fee scale, click <a href="/services/patient_resources.php">here</a>.
         </p>
     </div>
   </div>
@@ -200,7 +200,7 @@
       <div class="drop-arrow"><img src="/images/drop_arrow.png"/></div>
     </div>
     <div class="tab-box">
-      <p class="tab-answer">Valley Professionals has a 403(b) Prescription Assistance Program that can help eligible individuals to afford their medication.  Read more about this program <a href="/resources/patient_resources.php">here</a>.</p>
+      <p class="tab-answer">Valley Professionals has a 403(b) Prescription Assistance Program that can help eligible individuals to afford their medication.  Read more about this program <a href="/services/patient_resources.php">here</a>.</p>
     </div>
   </div>
   <div class="tab">

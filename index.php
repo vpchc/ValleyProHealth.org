@@ -98,6 +98,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/forms.php">Forms</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -145,6 +146,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/forms.php">Forms</a>
       </div>
     <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
@@ -152,7 +154,7 @@
         <a href="/faqs/">Frequently Asked Questions</a>
         <a href="/careers">Careers</a>
       </div>
-    <a href="/resources/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
+    <a href="/services/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
     <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
   </div></header>
 <main id="masterbox-home">
@@ -201,10 +203,10 @@
 <div id="home-info-about">
     <div id="home-info-about-left">
       <img id="home-info-hands" src="/images/ps_icon.png"\ alt="VPCHC Volunteer Example">
-      <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include five additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits fourteen schools in Parke and Vermillion counties</p>
+      <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits schools in Parke and Vermillion counties</p>
     </div>
     <div id="home-info-about-right">
-      <img id="home-info-ecw" src="/images/eCWFlier.jpg"\>
+      <img id="home-info-ecw" src="/images/eCW_Flier.jpg"\>
     </div>
 </div>
 </div>
@@ -312,7 +314,6 @@ $(document).ready(function() {
     });
 });
 </script>
-<!--
 <script type="text/javascript">
   if (screen.width <= 800){
     var cookies = document.cookie;
@@ -329,6 +330,5 @@ $(document).ready(function() {
     }
   }
 </script>
--->
 </body>
 </html>

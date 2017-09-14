@@ -50,6 +50,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/forms.php">Forms</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -97,6 +98,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/forms.php">Forms</a>
       </div>
     <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
@@ -104,6 +106,6 @@
         <a href="/faqs/">Frequently Asked Questions</a>
         <a href="/careers">Careers</a>
       </div>
-    <a href="/resources/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
+    <a href="/services/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
     <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
   </div>
