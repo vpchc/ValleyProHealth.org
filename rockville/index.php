@@ -66,7 +66,7 @@
       <p class="location-contact">Rockville, IN 47872</p>
       <p class="location-contact">(765) 569-1123</p>
       <p class="location-contact">Fax: (765) 569-6412</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=777%20S.%20Main%20Street%2C%20Suite%20100%20%20%20Clinton%2C%20IN%2047842&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196264.89879580302!2d-87.37579868359374!3d39.770211999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d47eec2769f41%3A0x3b8947820116cbf5!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917379068" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
   <p class="section-title-centered">Services Provided At This Clinic</p>

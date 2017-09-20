@@ -74,7 +74,7 @@
       <p class="location-contact">Clinton, IN 47842</p>
       <p class="location-contact">(765) 828-1003</p>
       <p class="location-contact">Fax: (765) 828-1030</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=777%20S.%20Main%20Street%2C%20Suite%20100%20%20%20Clinton%2C%20IN%2047842&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.8598759681936!2d-87.40124468498011!3d39.65286797946115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d5d3d325e3997%3A0xcb0591e2e9724dcd!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917945953" allowfullscreen></iframe>
     </div>
   </div>
   <p class="section-title-centered">Services Provided At This Clinic</p>

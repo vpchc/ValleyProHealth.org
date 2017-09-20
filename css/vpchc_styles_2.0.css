@@ -283,8 +283,14 @@ header { position: relative;}
     
     background: #3a4e8c;
 }
-footer { position: relative;}
-#footer-locations{
+footer { 
+    position: relative;
+    
+    padding-top: 10px;
+    background: white;
+    z-index: 100;
+}
+#footer-locations {
     height: 35px;
     
     background: #70b244;
@@ -506,7 +512,11 @@ footer { position: relative;}
   #Sidebars
 \*------------------------------------*/
 
-#sidebar { position: fixed;}
+#sidebar { 
+    position: fixed;
+
+    z-index: -100;
+}
 #sidebar a { text-decoration: none;}
 .sidebar-section {
     display: block;
@@ -1635,7 +1645,7 @@ h3 {
 
     #banner-left { height: 172px;}
     #banner-right { height: 180px;}  
-    .banner-title-long#banner-title{ font-size: 50px;}
+    .banner-title-long#banner-title { font-size: 50px;}
     
     /*------------------------------------*\
       #Company Colors
@@ -1692,11 +1702,11 @@ h3 {
       #Sidebars
     \*------------------------------------*/
     
+    .sidebar-section { font-size: 14px;}
     /*----Large----*/
     .large-sidebar { margin-bottom: 0px;}
     .large-bar { width: 150px;}
 
-    
     /*------------------------------------*\
       #Tab
     \*------------------------------------*/
@@ -2069,7 +2079,8 @@ h3 {
       #Sidebars
     \*------------------------------------*/
     
-    #sidebar { display: none;}
+    #sidebar { display: none;
+    
     
     /*------------------------------------*\
       #Tab

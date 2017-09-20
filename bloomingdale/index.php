@@ -67,7 +67,7 @@
       <p class="location-contact">Bloomingdale, IN 47832</p>
       <p class="location-contact">(765) 498-9000</p>
       <p class="location-contact">Fax: (765) 498-9004</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=201%20W.%20Academy%20St.%20Bloomingdale%2C%20IN%2047832&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
     </div>
   </div>
   <h2>Services Provided At This Clinic</h2>

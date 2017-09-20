@@ -67,7 +67,7 @@
       <p class="location-contact">Cayuga, IN 47928</p>
       <p class="location-contact">(765) 492-9042</p>
       <p class="location-contact">Fax: (765) 492-9048</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-yUc3qRUbYgR_--E38vCSco&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.0347672384405!2d-87.47126568497!3d39.94061197942334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d54aa655d565f%3A0x3e0ddae5b4218ab7!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917855515" allowfullscreen></iframe></iframe>
     </div>
   </div>
   <h2>Services Provided At This Clinic</h2>

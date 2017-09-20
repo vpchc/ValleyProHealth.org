@@ -68,7 +68,7 @@
       <p class="location-contact">Crawfordsville, IN 47933</p>
       <p class="location-contact">(765) 362-5100</p>
       <p class="location-contact">Fax: (765) 362-5171</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjExODEwIExhZmF5ZXR0ZSBBdmUsIENyYXdmb3Jkc3ZpbGxlLCBJTiA0NzkzMywgVVNB&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
     </div>
   </div>
   <h2 class="section-title-centered">Services Provided At This Clinic</h2>

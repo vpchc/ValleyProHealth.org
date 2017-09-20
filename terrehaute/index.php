@@ -68,7 +68,7 @@
       <p class="location-contact">Terre Haute, IN 47807</p>
       <p class="location-contact">(812) 238-7631</p>
       <p class="location-contact">Fax: (812) 238-7003</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=1530%20North%207th%20Street%2C%20Suite%20201%20Terre%20Haute%2C%20IN%2047807&key=AIzaSyBOOnam3xTnwFG0mb75K8MvRd-LRut6k78" allowfullscreen></iframe>
+      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.333222301876!2d-87.40983698498601!3d39.48438967948436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d651139acb491%3A0x20dbcb750fbeb6d0!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918142916" allowfullscreen></iframe>
     </div>
   </div>
   <h2>Services Provided At This Clinic</h2>
