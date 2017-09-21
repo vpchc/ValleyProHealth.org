@@ -28,11 +28,11 @@
   <div id="sitemap">
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="/about_us/">About Us</a>
-    <a href="about_us/providers_&_team.php">Providers & Team</a>
-    <a href="about_us/">History of VPCHC</a>
-    <a href="about_us/">Governing Board</a>
-    <a href="about_us/">News & Events</a>
-    <a href="about_us/">Archive</a>
+    <a href="/about_us/providers_&_team.php">Providers & Team</a>
+    <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
+    <a href="/about_us/governing_board.php">Governing Board</a>
+    <a href="/about_us/news_&_events.php">News & Events</a>
+    <a href="/archive/">Archive</a>
   </div>
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="/locations/">Locations</a>
@@ -57,7 +57,7 @@
     <a href="/faqs/">Frequently Asked Questions</a>
   </div>
   <div class="sitemap-section">
-    <a class="sitemap-section-title" href="/newpatient/">Patient Resources</a>
+    <a class="sitemap-section-title" href="/services/patient_resources.php">Patient Resources</a>
     <a href="/diabetes/">Diabetes</a>
   </div>
   <div class="sitemap-section">
