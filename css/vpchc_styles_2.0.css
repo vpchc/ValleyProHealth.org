@@ -356,7 +356,7 @@ footer {
     position: relative;
     clear: both;
 }
-#footer-disclaimer p{
+#footer-disclaimer p {
     margin: 0 auto;
     width: 95%;
     
@@ -515,7 +515,7 @@ footer {
 #sidebar { 
     position: fixed;
 
-    z-index: -100;
+    z-index: 1;
 }
 #sidebar a { text-decoration: none;}
 .sidebar-section {
