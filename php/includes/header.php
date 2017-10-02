@@ -67,7 +67,6 @@
       </li>
     </ul>
   </div>
-  </div>
   <div id="navlinks-mobile">
     <a href="/index.php"><div class="navlinks-mobile-section"><p>Home</p><span>></span></div></a>
     <div class="navlinks-mobile-section"><p>About Us</p><span>></span></div>

@@ -1905,7 +1905,7 @@ h3 {
     .slide-info-title{ font-size: 45px;}
     .slide-info-subtitle{ font-size: 25px;}
     
-    
+}
 @media only screen and (max-width: 1082px) {
     
     /*------------------------------------*\
@@ -2079,7 +2079,7 @@ h3 {
       #Sidebars
     \*------------------------------------*/
     
-    #sidebar { display: none;
+    #sidebar { display: none;}
     
     
     /*------------------------------------*\
@@ -2698,6 +2698,5 @@ h3 {
 
         background-size: cover;
     }
-
 }
 /********|*********|*********|*********|*********|*********|*********|*********/

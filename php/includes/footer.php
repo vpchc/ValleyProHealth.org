@@ -20,12 +20,12 @@
   <div class="footer-locations-section footer-section-last">
     <a href="/mobile/"><p>Mobile Health Center</p></a>
   </div>
-  </div>
-  <div id="footer-icons">
-    <img src="/images/fqhc_logo.jpg" alt="FQHC Logo"/>
-    <img src="/images/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
-  </div>
-  <div id="sitemap">
+</div>
+<div id="footer-icons">
+  <img src="/images/fqhc_logo.jpg" alt="FQHC Logo"/>
+  <img src="/images/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
+</div>
+<div id="sitemap">
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="/about_us/">About Us</a>
     <a href="/about_us/providers_&_team.php">Providers & Team</a>
@@ -63,7 +63,7 @@
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
   </div>
-  </div>
-  <div id="footer-disclaimer" class="vpchcgrey">
-    <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
- </div>
+</div>
+<div id="footer-disclaimer" class="vpchcgrey">
+  <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
+</div>

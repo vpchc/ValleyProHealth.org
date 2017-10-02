@@ -44,7 +44,7 @@ while(true) {
     $busClosedCheck = strtolower($displayHours[$count]);
     
     //Checks if the bus is closed for the day and sets the information accordingly.
-    if($busClosedCheck == "Weekend" || $busClosedCheck == "No Bus Today" || $busClosedCheck == "Office Closed" || $busClosedCheck == "Bus Closed"|| $busClosedCheck == "Spring Break" || $busClosedCheck == "Christmas Break" || $busClosedCheck == "No Bus" || $busClosedCheck == "Bus Out" || $busClosedCheck == "Special Event" || $$busClosedCheck == "Fall Break" || $busClosedCheck == "Thanks Giving Break"){
+    if($busClosedCheck == "weekend" || $busClosedCheck == "no bus today" || $busClosedCheck == "office closed" || $busClosedCheck == "Bus Closed"|| $busClosedCheck == "Spring Break" || $busClosedCheck == "christmas break" || $busClosedCheck == "no bus" || $busClosedCheck == "bus out" || $busClosedCheck == "special event" || $$busClosedCheck == "fall break" || $busClosedCheck == "thanks giving break"){
       $displayHours[$count] = "----";
       $startHours[$count] = "0:0";
       $endHours[$count] = "0:0";
