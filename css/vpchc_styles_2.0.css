@@ -1460,7 +1460,7 @@ h3 {
 }
 .iconbanner-dental { margin-left: 210px;}
 .iconbanner-bh { margin-left: 50px;}
-.iconbanner-medical { margin-left: 185px;}
+.iconbanner-medical { margin-left: 85px;}
 .iconbanner-ps { margin-left: 80px;}
 
 /*------------------------------------*\
@@ -1880,7 +1880,7 @@ h3 {
     }
     .iconbanner-dental { margin-left: 180px;}
     .iconbanner-bh { margin-left: 20px;}
-    .iconbanner-medical { margin-left: 125px;}
+    .iconbanner-medical { margin-left: 35px;}
     .iconbanner-ps { margin-left: 50px;}
     
     /*------------------------------------*\
@@ -2631,7 +2631,7 @@ h3 {
     }
     .iconbanner-title-medical {
         height: 35px;
-        width: 140px;
+        width: 190px;
     }
     .iconbanner-title-ps {
         height: 35px;
@@ -2659,7 +2659,7 @@ h3 {
     }
     .iconbanner-dental { margin-left: 0px;}
     .iconbanner-bh { margin-left: 20px;}
-    .iconbanner-medical { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 0px;}
     .iconbanner-ps { margin-left: 0px;}
     
     /*------------------------------------*\

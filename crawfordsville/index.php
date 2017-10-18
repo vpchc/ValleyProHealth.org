@@ -79,7 +79,7 @@
     <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
     </div></a>
     <a href="/services/medical.php"><div class="services-provided-section three-sections">
-    <p>Medical</p>
+    <p>Primary Care</p>
     <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
     </div></a>
     <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
@@ -92,8 +92,8 @@
   <div id="location-providers-section">
     <table class="team-table">
       <tr>
-        <td><p class="team-table-name">Gwyndolen Morson, FNP-C</p></td> 
         <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
+        <td><p class="team-table-name">Jessica Bekkering</p></td> 
       </tr>
       <tr>
         <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 

@@ -100,13 +100,12 @@
             <li>Union Hospital Family Medicine Residency Program</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">I was born and raised in Dana, IN.  I am excited to now get the opportunity to be practicing near my hometown.  I enjoy spending time outdoors when I can, am a huge 'i Love Lucy" fan, and enjoy skydiving.  </p>
+          <p class="tab-box-bio-personal">Dr. Cundiff was born and raised in Dana, IN. She is excited to now get the opportunity to be practicing near her hometown. Dr. Cundiff enjoys spending time outdoors when she can, am is a huge 'I Love Lucy" fan, and enjoys skydiving.  </p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton and Cayuga</p>
         </div>
       </div>
     </div>
-<!--
     <div class="tab">
       <div class="tab-bar tab-prov">
         <p class="tab-name tab-name-large">Dr. Christopher Fitzsimmons, MD</p>
@@ -120,18 +119,17 @@
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
-            <li>Purdue University</li>
-            <li>Indiana University School of Medicine</li>
+            <li>Chico State University - Biology</li>
+            <li>Ross University Medical School - MD</li>
             <li>Union Hospital Family Medicine Residency Program</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Waltz has been practicing medicine in the Wabash Valley for over 30 years. He enjoys teaching and mentoring other primary care providers in his role as Chief Medical Officer at Valley Professionals, as well as continuing to provide excellent care to his patients in Rockville.</p>
+          <p class="tab-box-bio-personal">Dr. Fitzsimmons enjoys film and running.  He is an avid Star Wars fanatic. He believes prevention is the best medicine.He serves our country as a doctor in the Air Force Reserve. He chose to work at our FQHC due to our many in house services. </p>
           </div>
-          <p class="tab-box-location">Currently providing care in Rockville</p>
+          <p class="tab-box-location">Currently providing care in Clinton, Crawfordsville and Rockville</p>
         </div>
       </div>
     </div>
--->
     <div class="tab">
       <div class="tab-bar tab-prov">
         <p class="tab-name tab-name-large">Dr. Bing Gale, MD</p>
@@ -350,32 +348,9 @@
             <li>Indiana State University - BSN</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Brandi is passionate about providing medical care for the patients of VPCHC.</p>
+          <p class="tab-box-bio-personal"> Brandi is originally from Reno Nevada born and raised. She has been in Indiana since 2006. Brandi enjoys working out and spending time with her two beautiful children. She is devoted to country and serves in the Air National Guard. She is passionate about holistic preventative patient care.  </p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton</p>
-        </div>
-      </div>
-    </div> 
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Gwyndolen Morson, FNP-C</p>
-      </div>
-      <div class="tab-box tab-box-small">
-        <div class="tab-box-pic">
-          <img src="/images/providers/morson.jpg">
-        </div>
-        <div class="tab-box-text">
-          <div class="tab-box-title"><p>Nurse Practitioner</p></div>
-          <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>Georgetown University - MSN</li>
-            <li>Indiana State University - BSN</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Gwyn loves providing medical care to her community.</p>
-          </div>
-          <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
       </div>
     </div> 
@@ -422,6 +397,29 @@
           <p class="tab-box-bio-personal">In addition to practicing medicine, Renae enjoys reading and spending time with her husband and their three children. Renae’s children are very active in athletics, therefore she spends a lot of time supporting the North Vermillion Falcons.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Cayuga</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Tammy Pearson, FNP-C</p>
+      </div>
+      <div class="tab-box tab-box-small">
+        <div class="tab-box-pic">
+          <img src="/images/providers/pearson.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Nurse Practitioner</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana State University - MSN</li>
+            <li>Indiana University - BSN</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Tammy has always had a passion for caring for others. She is married and has 2 grown children, as son and a daughter. She enjoys spending time with her family and her special fur baby dog, Dodger.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Terre Haute</p>
         </div>
       </div>
     </div> 
@@ -519,6 +517,29 @@
           <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
       </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Gary Anderson, MS</p>
+      </div>
+      <div class="tab-box tab-box-xlarge">
+        <div class="tab-box-pic">
+          <img src="/images/providers/anderson.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Mental Health Counselor</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana State University - BS in Social Sciences Education</li>
+            <li>Indiana State University - MS in Agency Counseling </li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Gary has worked as a social worker serving the needs of families in the Wabash Valley area for over 15 years. He is married and has 2 children. He's all about spending time with his family, traveling and enjoying the outdoors as much as possible. </p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Clinton</p>
+        </div>
+      </div>
     </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
@@ -583,6 +604,29 @@
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dave is a Licensed Clinical Addictions Counselor (LCAC) and is a certified Medically Assisted Treatment (MAT) provider. Dave has worked in the field of addictions and mental health for over 30 years. In addition to providing clinical services, Dave has served as the Coordinator of Counselor Training Services at the Fairbanks Research and Training Institute, and worked as Training Specialist for the Indiana Department of Mental Health and Addiction Services. In his free time, Dave enjoys spending time with his grandkids, vacationing with family, coaching basketball, fishing, and being outdoors.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Clinton</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Zach Milam, LMHCA</p>
+      </div>
+      <div class="tab-box tab-box-xxlarge">
+        <div class="tab-box-pic">
+          <img src="/images/providers/milam.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana State University - BS</li>
+            <li>Indiana State University - MS</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Zach is a lifelong resident of the Wabash Valley.  He has experience in providing services in the office, school, and home settings.  His areas of interest include working with children, trauma, and grief & bereavement.  In his free time, he enjoys music, comic books, TV & movies, reading, cooking, hockey & football, and spending time with his wife and daughter.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
@@ -677,6 +721,30 @@
           <p class="tab-box-bio-personal">Lacey comes from a big family, is married and has a daughter. She was born in Cory, Indiana, but has lived most of her life in Terre Haute and has been a social worker in the community since 2006. Lacey became a social worker because she has a heart for helping others and enjoys getting to know her patients and assisting them in meeting their goals.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Terre Haute</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Tasha Lewis-Stevens, LCSW</p>
+      </div>
+      <div class="tab-box tab-box-large">
+        <div class="tab-box-pic">
+          <img src="/images/providers/stevens.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Licensed Clinical<br>Social Worker</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana State University - BA</li>
+            <li>Indiana State University - MSW</li>
+            <li>Indiana State University - BS</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Tasha has always had a passion for mental health and diversity. She is constantly amazed by the resiliency and strength people possess. She enjoys working at VPCHC because of the holistic treatment we are able to provide people. When not working, she loves spending time with her family, friends, and 2 adorable chihuahuas.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Cayuga</p>
         </div>
       </div>
     </div>
@@ -806,7 +874,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Jessica<span>Clinton</span></p>
+        <p class="tab-simple">Jessica<span>Terre Haute</span></p>
       </div>
     </div>
     <div class="tab">
@@ -890,7 +958,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Rebecca Myers<span>Behavioral Health Coordinator</span></p>
+        <p class="tab-simple">Nicole Hall<span>Director of Clinical Programs</span></p>
       </div>
     </div>
     <h3 id="man">Managers</h3>

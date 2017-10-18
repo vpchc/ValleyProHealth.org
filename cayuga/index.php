@@ -82,7 +82,7 @@
     <img class="team-table-icon" src="/images/dent_icon.png" alt="Dental Services"/>
     </div></a>
     <a href="/services/medical.php"><div class="services-provided-section four-sections">
-    <p>Medical</p>
+    <p>Primary Care</p>
     <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
     </div></a>
     <a href="/services/patient_support.php"><div class="services-provided-section four-sections">

@@ -73,7 +73,7 @@
   <hr>
   <div id="services-provided">
     <a href="/services/medical.php"><div class="services-provided-section one-section">
-    <p>Medical</p>
+    <p>Primary Care</p>
     <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
     </div></a>
   </div>

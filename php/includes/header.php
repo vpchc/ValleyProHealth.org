@@ -45,11 +45,11 @@
       <li id="services" class="dropdown">
         <a class="navlink-category" href="/services/">Services</a>
         <div class="dropdown-content">
-        <a href="/services/medical.php">Medical</a>
+        <a href="/services/primary_care.php">Primary Care</a>
         <a href="/dental/">Dental</a>
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
-        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/after-hours_clinic.php">After-Hours Clinic</a>
         <a href="/services/forms.php">Forms</a>
         </div>
       </li>
@@ -92,11 +92,11 @@
     <div class="navlinks-mobile-section"><p>Services</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
         <a href="/services/">Services</a>
-        <a href="/services/medical.php">Medical</a>
+        <a href="/services/primary_care.php">Primary Care</a>
         <a href="/dental">Dental</a>
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
-        <a href="/services/extended_hours.php">Extended Hours</a>
+        <a href="/services/after-hours_clinic.php">After-Hours Clinic</a>
         <a href="/services/forms.php">Forms</a>
       </div>
     <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>

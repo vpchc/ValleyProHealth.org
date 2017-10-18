@@ -49,7 +49,7 @@
     <div id="banner-right">
       <div id="iconbanner-title" class="iconbanner-title-medical">
         <img id="iconbanner-title-icon" class="iconbanner-medical" src="/images/med_icon.png" alt="Medical Icon"/>
-        <h1 id="iconbanner-title-word" class="iconbanner-word-medical vpchcgreen">Medical</h1>
+        <h1 id="iconbanner-title-word" class="iconbanner-word-medical vpchcgreen">Primary Care</h1>
       </div>
     </div>
   </div>

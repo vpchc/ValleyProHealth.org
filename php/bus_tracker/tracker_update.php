@@ -40,11 +40,11 @@ while(true) {
     $titleSplit = explode("_", $event->getSummary());
     $locations[$count] = $titleSplit[0];
     $displayHours[$count] = $titleSplit[1];
-      
-    $busClosedCheck = strtolower($displayHours[$count]);
+   
+    $busClosedCheck = strtolower($locations[$count]);
     
     //Checks if the bus is closed for the day and sets the information accordingly.
-    if($busClosedCheck == "weekend" || $busClosedCheck == "no bus today" || $busClosedCheck == "office closed" || $busClosedCheck == "Bus Closed"|| $busClosedCheck == "Spring Break" || $busClosedCheck == "christmas break" || $busClosedCheck == "no bus" || $busClosedCheck == "bus out" || $busClosedCheck == "special event" || $$busClosedCheck == "fall break" || $busClosedCheck == "thanks giving break"){
+    if($busClosedCheck == "weekend" || $busClosedCheck == "no bus today" || $busClosedCheck == "office closed" || $busClosedCheck == "bus closed"|| $busClosedCheck == "spring break" || $busClosedCheck == "christmas break" || $busClosedCheck == "no bus" || $busClosedCheck == "bus out" || $busClosedCheck == "special event" || $$busClosedCheck == "fall break" || $busClosedCheck == "thanksgiving break"){
       $displayHours[$count] = "----";
       $startHours[$count] = "0:0";
       $endHours[$count] = "0:0";
@@ -70,17 +70,17 @@ while(true) {
     $scheduleTxt = $locations[$count] . ',' . $displayHours[$count] . ',' .  $startHours[$count] . ',' . $endHours[$count] . ',' . $flag;
     $scheduleTxt = $scheduleTxt . "\n";
     if(!fwrite($busAppScheduleFile, $scheduleTxt)){
-      echo 'Unsuccessful main write in appfile...' . '<br>';
+      echo 'Unsuccessful write in appfile...' . '<br>';
     }
       
-    //Writes the 1st location to the webfile in /info directory
+    //Writes the location to the webfile in /info directory
     $scheduleTxt = '<div id="location' . $inc . '">' . $locations[$count] . '</div> ' . 
                  '<div id="hours' . $inc . '">'  . $displayHours[$count] . '</div> ' .
                  '<div id="start' . $inc . '">' . $startHours[$count] . '</div> ' .
                  '<div id="end'. $inc . '">' . $endHours[$count] . '</div> ' .
                  '<div id="flag' . $inc . '">' . $flag . '</div> ';
     if(!fwrite($busWebScheduleFile, $scheduleTxt)){
-        echo 'Unsuccessful main write in webfile...' . '<br>';
+        echo 'Unsuccessful write in webfile...' . '<br>';
     }
     $inc++;
       
