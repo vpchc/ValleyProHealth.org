@@ -42,50 +42,44 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"  src="/images/rockville_location_banner.jpg" alt="Rockville"/>
-    </br>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Rockville</h1>
-    </div>
-  </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday: 7:30 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Wednesday: 7:30 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Friday: 7:30 a.m. - 5:00 p.m.</p>
-      <li>Established in April 2017</li>
-    </div>
-    <div id="location-info-right">
-      <p class="location-contact">727 Lincoln Rd</p>
-      <p class="location-contact">Rockville, IN 47872</p>
-      <p class="location-contact">(765) 569-1123</p>
-      <p class="location-contact">Fax: (765) 569-6412</p>
-      <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196264.89879580302!2d-87.37579868359374!3d39.770211999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d47eec2769f41%3A0x3b8947820116cbf5!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917379068" style="border:0" allowfullscreen></iframe>
+  <p id="location-title">Rockville</p>
+  <div id="location-top-section">
+    <img id="location-photo" src="/images/banner_location_rockville.jpg"/>
+    <div id="location-info">
+      <p class="location-title">CONTACT US</p>
+      <p>727 Lincoln Rd<br/>Rockville, IN 47872</p>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <p>(765) 569-1123</p>
+      </div>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
+        <p>(765) 569-6412</p>
+      </div>
+      <p class="location-title">HOURS</p>
+      <p>Monday, Wednesday, Friday<br/>7:30 am to 5:00 pm</p>
+      <p>Tuesday, Thursday<br/>8:00 am to 5:00 pm</p>
     </div>
   </div>
-  <p class="section-title-centered">Services Provided At This Clinic</p>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/medical.php"><div class="services-provided-section one-section">
-    <p>Primary Care</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
-      <tr>
-        <td><p class="team-table-name">Dr. Steven Waltz, MD</p></td>
-        <td><p class="team-table-name">Jordan Ryley, FNP-C</p></td>
-      </tr>
-    </table>
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-title">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <p class="location-title">PROVIDERS</p>
+      <table class="team-table">
+        <tr>
+          <td><p class="team-table-name">Dr. Christopher Fitzsimmons, MD</p></td>
+          <td><p class="team-table-name">Dr. Steven Waltz, MD</p></td>
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Jordan Ryley, FNP-C</p></td>
+        </tr>
+      </table>
+    </div>
+    <iframe id="location-map" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196264.89879580302!2d-87.37579868359374!3d39.770211999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d47eec2769f41%3A0x3b8947820116cbf5!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917379068" style="border:0" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -102,7 +102,7 @@
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Cundiff was born and raised in Dana, IN. She is excited to now get the opportunity to be practicing near her hometown. Dr. Cundiff enjoys spending time outdoors when she can, am is a huge 'I Love Lucy" fan, and enjoys skydiving.  </p>
           </div>
-          <p class="tab-box-location">Currently providing care in Clinton and Cayuga</p>
+          <p class="tab-box-location">Currently providing care in Clinton, Cayuga, and Crawfordsville</p>
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Fitzsimmons enjoys film and running.  He is an avid Star Wars fanatic. He believes prevention is the best medicine.He serves our country as a doctor in the Air Force Reserve. He chose to work at our FQHC due to our many in house services. </p>
           </div>
-          <p class="tab-box-location">Currently providing care in Clinton, Crawfordsville and Rockville</p>
+          <p class="tab-box-location">Currently providing care in Bloomingdale, Clinton, Crawfordsville and Rockville</p>
         </div>
       </div>
     </div>
@@ -520,7 +520,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Gary Anderson, MS</p>
+        <p class="tab-name tab-name-large">Gary Anderson, LMHC</p>
       </div>
       <div class="tab-box tab-box-xlarge">
         <div class="tab-box-pic">
@@ -611,7 +611,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Zach Milam, LMHCA</p>
+        <p class="tab-name tab-name-large">Zac Milam, LMHC</p>
       </div>
       <div class="tab-box tab-box-xxlarge">
         <div class="tab-box-pic">
@@ -626,9 +626,9 @@
             <li>Indiana State University - MS</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Zach is a lifelong resident of the Wabash Valley.  He has experience in providing services in the office, school, and home settings.  His areas of interest include working with children, trauma, and grief & bereavement.  In his free time, he enjoys music, comic books, TV & movies, reading, cooking, hockey & football, and spending time with his wife and daughter.</p>
+          <p class="tab-box-bio-personal">Zac is a lifelong resident of the Wabash Valley.  He has experience in providing services in the office, school, and home settings.  His areas of interest include working with children, trauma, and grief & bereavement.  In his free time, he enjoys music, comic books, TV & movies, reading, cooking, hockey & football, and spending time with his wife and daughter.</p>
           </div>
-          <p class="tab-box-location">Currently providing care in Clinton</p>
+          <p class="tab-box-location">Currently providing care in Bloomingdale and Clinton</p>
         </div>
       </div>
     </div> 
@@ -726,7 +726,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Tasha Lewis-Stevens, LCSW</p>
+        <p class="tab-name tab-name-large">Tasha Lewis-Stevens, LCSW, RN</p>
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
@@ -774,7 +774,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dana Tinkle, LMHCA</p>
+        <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
@@ -838,28 +838,6 @@
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Barnett became a dentist so she could help the underserved, and her goal is to make every patient feel comfortable while having their dental work done. In addition to being a dentist, she is also a member of a gospel trio along with her husband and sister-in-law. In her free time she enjoys spending time with her family, hunting and fishing.</p>
-          </div>
-          <p class="tab-box-location">Currently providing care in Cayuga</p>
-        </div>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Jamie Tidwell, LDH</p>
-      </div>
-      <div class="tab-box tab-box-small">
-        <div class="tab-box-pic">
-          <img src="/images/providers/tidwell.jpg">
-        </div>
-        <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Dental Hygienist</p></div>
-          <div class="tab-box-bio">
-          <p class="tab-box-bio-title-education">Education</p>
-          <ul>
-            <li>Lake Land College</li>
-          </ul>
-          <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Jamie loves being a Dental Hygienist and giving her patients a clean, healthy smile. In her spare time, Jamie loves to spend time with her family and friends going camping and fishing.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Cayuga</p>
         </div>

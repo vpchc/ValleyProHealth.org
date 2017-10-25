@@ -42,64 +42,59 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"  src="/images/crawfordsville_location_banner.jpg" alt="Crawfordsville Pic"/>
-    </br>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Crawfordsville</h1>
-    </div>
-  </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Wednesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Friday: 8:00 a.m. - 5:00 p.m.</p>
-      <li>Established in August 2015</li>
-      <li>Sees an estimated <span>2,903</span> patients annually</li>
-      <li>Sees an estimated <span>6,500</span> visits annually</li>
-    </div>
-    <div id="location-info-right">
-      <p class="location-contact">1810 Lafayette Rd</p>
-      <p class="location-contact">Crawfordsville, IN 47933</p>
-      <p class="location-contact">(765) 362-5100</p>
-      <p class="location-contact">Fax: (765) 362-5171</p>
-      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
+  <p id="location-title">Crawfordsville</p>
+  <div id="location-top-section">
+    <img id="location-photo" src="/images/banner_location_crawfordsville.jpg"/>
+    <div id="location-info">
+      <p class="location-title">CONTACT US</p>
+      <p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <p>(765) 362-5100</p>
+      </div>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
+        <p>(765) 362-5171</p>
+      </div>
+      <p class="location-title">HOURS</p>
+      <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
     </div>
   </div>
-  <h2 class="section-title-centered">Services Provided At This Clinic</h2>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/behavioral_health.php"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.php"><div class="services-provided-section three-sections">
-    <p>Primary Care</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
-      <tr>
-        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
-        <td><p class="team-table-name">Jessica Bekkering</p></td> 
-      </tr>
-      <tr>
-        <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 
-        <td><p class="team-table-name">Dana Tinkle, LMHC</p></td>
-      </tr>
-    </table>
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-title">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <span>Behavioral Health</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
+        <span>Patient Support</span>
+      </div>
+      <p class="location-title">PROVIDERS</p>
+      <table class="team-table">
+        <tr>
+          <td><p class="team-table-name">Dr. Danielle Cundiff, MD</p></td> 
+          <td><p class="team-table-name">Dr. Christopher Fitzsimmons, MD</p></td> 
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Jessica Bekkering, FNP-C</p></td> 
+          <td><p class="team-table-name">Brandi Larson, FNP-C</p></td>
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
+          <td><p class="team-table-name">Keith Seegers, LCSW</p></td> 
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Dana Tinkle, LMHC</p></td>
+        </tr>
+      </table>
+    </div>
+    <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

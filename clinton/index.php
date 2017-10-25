@@ -42,61 +42,44 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"  src="/images/clinton_location_banner.jpg" alt="Clinton"/>
-    </br>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Clinton</h1>
-    </div>
-  </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Wednesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Friday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours vpchcgreen">After-Hours Clinic</p>
-      <p class="location-hours">Monday: 5:00 p.m. - 8:00 p.m.</p>
-      <p class="location-hours">Tuesday: 5:00 p.m. - 8:00 p.m.</p>
-      <p class="location-hours">Wednesday: 5:00 p.m. - 8:00 p.m.</p>
-      <p class="location-hours">Thursday: 5:00 p.m. - 8:00 p.m.</p>
-      <p class="location-hours location-hours-three">Saturday: 9:00 a.m. - 1:00 p.m.</p>
-      <li>Established in 2008</li>
-      <li>Sees an estimated <span>6,228</span> patients annually</li>
-      <li>Sees an estimated <span>23,000</span> visits annually</li>
-    </div>
-    <div id="location-info-right">
-      <p class="location-contact">777 S. Main Street, Suite 100</p>
-      <p class="location-contact">Clinton, IN 47842</p>
-      <p class="location-contact">(765) 828-1003</p>
-      <p class="location-contact">Fax: (765) 828-1030</p>
-      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.8598759681936!2d-87.40124468498011!3d39.65286797946115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d5d3d325e3997%3A0xcb0591e2e9724dcd!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917945953" allowfullscreen></iframe>
+  <p id="location-title">Clinton</p>
+  <div id="location-top-section">
+    <img id="location-photo" src="/images/banner_location_clinton.jpg"/>
+    <div id="location-info">
+      <p class="location-title">CONTACT US</p>
+      <p>777 S. Main Street, Suite 100<br/>Clinton, IN 47842</p>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <p>(765) 828-1003</p>
+      </div>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
+        <p>(765) 828-1030</p>
+      </div>
+      <p class="location-title">HOURS</p>
+      <p>Monday - Friday<br/>8:30 am to 5:00 pm</p>
+      <p class="location-subtitle">After-Hours</p>
+      <p>Monday - Thursday<br/>5:00 pm to 8:00 pm</p>
+      <p>Saturday<br/>9:00 am to 1:00 pm</p>
     </div>
   </div>
-  <p class="section-title-centered">Services Provided At This Clinic</p>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/behavioral_health.php"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.php"><div class="services-provided-section three-sections">
-    <p>Primary Care</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-title">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <span>Behavioral Health</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
+        <span>Patient Support</span>
+      </div>
+      <p class="location-title">PROVIDERS</p>
+      <table class="team-table">
       <tr>
         <td><p class="team-table-name">Dr. Aziz Abed, MD</p> </td> 
         <td><p class="team-table-name">Dr. Bing Gale, MD</p></td>
@@ -115,11 +98,15 @@
       <tr>
         <td><p class="team-table-name">Linda Lonneman, LCSW</p></td>
         <td><p class="team-table-name">David McIntyre, LCAC</p></td>
+
       </tr>
       <tr>
+        <td><p class="team-table-name">Zac Milam, LMHC</p></td>
         <td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
       </tr>
     </table>
+    </div>
+    <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.8598759681936!2d-87.40124468498011!3d39.65286797946115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d5d3d325e3997%3A0xcb0591e2e9724dcd!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917945953" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -42,63 +42,59 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"  src="/images/bloomingdale_location_banner.jpg" alt="Bloomingdale Pic"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Bloomingdale</h1>
-    </div>
-  </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Hours</p>
-      <p class="location-hours">Monday: 8:00 a.m. - 8:00 p.m.</p>
-      <p class="location-hours">Tuesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Wednesday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Thursday: 8:00 a.m. - 5:00 p.m.</p>
-      <p class="location-hours">Friday: 8:00 a.m. - 5:00 p.m.</p>
-      <li>Established in June 2013</li>
-      <li>Sees an estimated <span>1,200</span> patients annually</li>
-      <li>Sees an estimated <span>4,000</span> visits annually</li>
-    </div>
-    <div id="location-info-right">
-      <p class="location-contact">201 W. Academy St.</p>
-      <p class="location-contact">Bloomingdale, IN 47832</p>
-      <p class="location-contact">(765) 498-9000</p>
-      <p class="location-contact">Fax: (765) 498-9004</p>
-      <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
+  <p id="location-title">Bloomingdale</p>
+  <div id="location-top-section">
+    <img id="location-photo" src="/images/banner_location_bloomingdale.jpg"/>
+    <div id="location-info">
+      <p class="location-subtitle">CONTACT US</p>
+      <p>201 W Academy Street<br/>Bloomingdale, IN 47842</p>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <p>(765) 498-9000</p>
+      </div>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
+        <p>(765) 498-9004</p>
+      </div>
+      <p class="location-subtitle">HOURS</p>
+      <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
+      <p>Closed<br/>12:00 pm to 1:00 pm</p>
+      <p class="location-tinytitle">Extended Hours</p>
+      <p>Monday<br/>5:00 pm to 8:00 pm</p>
     </div>
   </div>
-  <h2>Services Provided At This Clinic</h2>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/behavioral_health.php"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.php"><div class="services-provided-section three-sections">
-    <p>Primary Care</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
-      <tr>
-        <td><p class="team-table-name">Christi Busenbark, FNP-C</p></td> 
-        <td><p class="team-table-name">Louwanna Wallace, FNP-C</p></td>
-      </tr>
-      <tr>
-        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
-        <td><p class="team-table-name">Megan Neitling, LMHCA</p></td>
-      </tr>
-    </table>
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <span>Behavioral Health</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
+        <span>Patient Support</span>
+      </div>
+      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
+      <table class="team-table">
+        <tr>
+          <td><p class="team-table-name">Dr. Christopher Fitzsimmons, MD</p></td> 
+          <td><p class="team-table-name">Christi Busenbark, FNP-C</p></td> 
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Louwanna Wallace, FNP-C</p></td>
+          <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Zac Milam, LMHC</p></td>
+          <td><p class="team-table-name">Megan Neitling, LMHCA</p></td>
+        </tr>
+      </table>
+    </div>
+    <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
