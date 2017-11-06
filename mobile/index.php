@@ -42,25 +42,48 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic" src="/images/MSBHCanimation.png" alt="MSBHC Banner Pic"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-long vpchcgreen">Mobile School-Based Health Center</h1>
+  <p id="location-title">Mobile-Based Health Center</p>
+  <div id="location-top-section">
+    <img id="location-photo" src="/images/MSBHCanimation.png"/>
+    <div id="location-info">
+      <p class="location-subtitle">CONTACT US</p>
+      <p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
+      <div class="location-info-contact">
+        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <p>(765) 592-6164</p>
+        <p>mobile@vpchc.org</p>
+      </div>
     </div>
   </div>
-  <div id="location-info">
-    <div id="location-info-left">
-      <p id="location-hour-title">Contact Info</p>
-      <p class="location-hours">(765) 592-6164</p>
-      <p class="location-hours location-hours-three">mobile@vpchc.org</p>
-      <li>Established in August 2012</li>
-      <li>Sees an estimated <span>1,417</span> patients annually</li>
-      <li>Sees an estimated <span>2,520</span> visits annually</li>
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <span>Behavioral Health</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
+        <span>Patient Support</span>
+      </div>
+      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
+      <table class="team-table">
+      <tr> 
+        <td><p class="team-table-name">Nicole Cook, FNP-C</p></td> 
+        <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
+      </tr>
+      <tr>
+        <td><p class="team-table-name">Zac Milam, LMHC</p></td>
+        <td><p class="team-table-name">Heather Woods, LMHCA</p></td>
+      </tr>
+    </table>
     </div>
-    <div id="location-info-right">
-      <div id="bus-tracker" class="banner-section-left">
+    <div id="location-map">
+    <div id="bus-tracker" class="banner-section-left">
         <div id="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
         <div id="bus-tracker-info">
           <p>Location:</p>
@@ -80,37 +103,8 @@
         <div id="bus-tracker-view">
           <a class="vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
         </div>
-      </div>
     </div>
   </div>
-  <h2>Services Provided At This Clinic</h2>
-  <hr>
-  <div id="services-provided">
-    <a href="/services/behavioral_health.php"><div class="services-provided-section three-sections">
-    <p>Behavioral Health</p>
-    <img class="team-table-icon" src="/images/bh_icon.png" alt="Behavioral Health Services"/>
-    </div></a>
-    <a href="/services/medical.php"><div class="services-provided-section three-sections">
-    <p>Primary Care</p>
-    <img class="team-table-icon" src="/images/med_icon.png" alt="Medical Services"/>
-    </div></a>
-    <a href="/services/patient_support.php"><div class="services-provided-section three-sections">
-    <p>Patient Support</p>
-    <img class="team-table-icon" src="/images/ps_icon.png" alt="Patient Support"/>
-    </div></a>
-  </div>
-  <h2>Providers Currently Seeing Patients At This Clinic</h2>
-  <hr>
-  <div id="location-providers-section">
-    <table class="team-table">
-      <tr> 
-        <td><p class="team-table-name">Nicole Cook, FNP-C</p></td> 
-        <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
-      </tr>
-      <tr>
-        <td><p class="team-table-name">Heather Woods, LMHCA</p></td>
-      </tr>
-    </table>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

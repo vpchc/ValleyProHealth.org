@@ -134,6 +134,9 @@
     list-style-image: url('/images/green_bullet.png');
 }
 
+/*new explain*/
+#explain-newcontent{margin: 20px 0 0 30px;}
+
 /*------------------------------------*\
   #Fancy Quote
 \*------------------------------------*/
@@ -854,7 +857,7 @@ h3 {
 \*------------------------------------*/
 
 #bus-tracker{
-    height: 410px;
+    height: 350px;
     width: 500px;
     
     border: 5px solid #3a4e8c;
@@ -876,12 +879,12 @@ h3 {
     clear: both;
     display: block;
     
-    padding-top: 35px;
+    padding-top: 0px;
+    margin-bottom: 0;
 }
 #bus-tracker-view .vpchcbutton {
     display: block;
     margin: 0px auto;
-    padding: 10px;
     width: 160px;
 
     border-radius: 25px;
@@ -893,11 +896,11 @@ h3 {
 #bus-tracker-info {
     float: left;
     
-    margin-left: 15px;
+    margin: 10px 0 0 15px;
     width: 130px;
 }
 #bus-tracker-info p,
-  #bus-tracker-data p { margin-top: 40px;}
+  #bus-tracker-data p { margin-bottom: 40px;}
 #bus-status-icon {
     float: left;
     
@@ -908,7 +911,7 @@ h3 {
 #bus-tracker-data {
     float: right;
     
-    margin-right: 10px;
+    margin: 10px 10px 0 0;
     width: 330px;
 }
 .bus-tracker-data-section { text-align: center;}
@@ -1223,7 +1226,7 @@ h3 {
     left: 0;
     color: #3a4e8c;
 }
-.timeline p { margin-top: 5px; }
+.timeline p{ margin-top: 5px; }
 #history-continued {
     height: 50px;
     background: url(/images/timeline_bg_downarrow.gif) repeat-y center top; 
@@ -1232,60 +1235,69 @@ h3 {
 /*------------------------------------*\
   #Locations
 \*------------------------------------*/
-
-#location-info {
-    margin: 80px 0 30px 0;
-    height: 620px;
-}
-#location-info-left {
-    float: left;
-    
-    margin-left: 80px;
-    width: 530px;
-}
-#location-hour-title {
-    font-size: 46px;
+#location-title, #location-indextitle{
+    font-size: 76px;
     font-family: "Franklin Gothic Medium", Times, serif;
-    color: #3a4e8c;
 }
-.location-hours {
-    font-size: 26px;
-    font-family: "Franklin Gothic Demi",Times, serif;
+#location-title{margin: 20px 0;}
+#location-indextitle{
+  margin-top: 20px;
+  width: 100%;
+  
+  text-align: center;
 }
-.location-hours-one { margin-bottom: 140px; }
-.location-hours-three { margin-bottom: 80px; }
-#location-info-left li {
-    margin: 40px 0;
-    
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Franklin Gothic Demi", Times, serif;
-    
-    list-style-image: url( '/images/green_bullet.png');
+#location-photo{
+    width: 800px;
 }
-#location-info-left span { color: #3a4e8c;}
-#location-info-right {
+#location-info{
     float: right;
-    
-    margin-right: 100px;
     width: 500px;
+  
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.4;
 }
-.location-contact {
-    font-size: 36px;
-    font-family: Times, serif;
+.location-subtitle, .location-tinytitle{
+    font-family: "Franklin Gothic Medium", Times, serif;
+    color: #3a4e8c; 
+}
+.location-subtitle{ font-size: 36px;}
+.location-subtitle-topmargin{ margin-top: 20px;}
+.location-info-contact {
+    margin-left: 185px;
+    width: 130px;
+}
+.location-info-icon{
+    float: left;
+    width: 20px;
+}
+.location-tinytitle{
+    margin: 10px 0;
+    font-size: 20px;
+}
+#location-bottom-section{
+  height: 360px;
+}
+#location-details{
+  float: left;
+}
+.location-services-icon {
+    display: inline-block;
+  
+    margin: 0 35px;
+    width: 80px;
+  
+    cursor: pointer;
 }
 #location-map { 
-    margin-top: 40px; 
-    height: 300px;
+    float: right;
+    margin-top: 30px; 
+    height: 100%;
     width: 500px; 
     border: 0;
 }
-#location-providers-section {
-    margin: 10px auto;
-    width: 1186px;
-}
 .team-table td {
-    width: 590px;
+    width: 398px;
     background: #3a4e8c;
     
     font-family: "Franklin Gothic Medium", Times, serif;
@@ -1294,6 +1306,43 @@ h3 {
 }
 .team-table td p { margin-left: 10px;}
 
+.location-services-type {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.location-services-type span {
+    position: absolute;
+    visibility: hidden;
+    width: 150px;
+    background-color: #3a4e8c;
+    color: white;
+    padding: 5px 0;
+    border-radius: 6px;
+    text-align: center;
+font-family: "Franklin Gothic Medium", Times, serif;
+    z-index: 1;
+}
+.location-services-type:hover span {
+    visibility: visible;
+}
+.location-services-type span::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #3a4e8c transparent;
+}
+.location-services-type span {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.location-services-type:hover span {
+    opacity: 1;
+}
 /*------------------------------------*\
   #Home
 \*------------------------------------*/
@@ -1659,6 +1708,7 @@ h3 {
     \*------------------------------------*/
 
     #explain-content { width: 1000px;}
+    #explain-newcontent{width: 1000px;}
     
     /*------------------------------------*\
       #Fancy Quote
@@ -1803,30 +1853,50 @@ h3 {
     /*------------------------------------*\
       #Locations
     \*------------------------------------*/
+  
+    #location-title,#location-indextitle{font-size: 56px;}
+    #location-photo{ width: 634px;}
+    #location-info{
+        width: 408px;
 
-    #location-info {
-        margin: 80px 0 20px 0;
-        height: 600px;
+        font-size: 12px;
     }
-    #location-info-left {
+    .location-subtitle{ font-size: 25px;}
+    .location-subtitle-topmargin{ margin-top: 20px;}
+    .location-info-contact {
+        margin-left: 150px;
+        width: 100px;
+    }
+    .location-info-icon{
         float: left;
-
-        margin-left: 20px;
-        height: 400px;
-        width: 450px;
+        width: 14px;
     }
-    #location-info-right {
-        margin-right: 70px;
-        height: 400px;
-        width: 450px;
+    #location-bottom-section{ height: 360px;}
+    #location-details{ width: 634px;}
+    .location-services-icon {
+        display: inline-block;
+
+        margin: 0 35px;
+        width: 80px;
+
+        cursor: pointer;
     }
     #location-map { 
-        height: 300px;
-        width: 450px; 
+        float: right;
+        margin-top: 30px; 
+        height: 100%;
+        width: 408px; 
+        border: 0;
     }
-    #location-providers-section { width: 1000px;}
-    
-    
+    .team-table td {
+      width: 634px;
+      background: #3a4e8c;
+
+      font-family: "Franklin Gothic Medium", Times, serif;
+      font-size: 15px;
+      color: white;
+    }
+    .team-table td p { margin-left: 10px;}
     /*------------------------------------*\
       #News
     \*------------------------------------*/
@@ -1948,14 +2018,14 @@ h3 {
       #Explantion Paragraphs
     \*------------------------------------*/
 
-    #explain-content {
+    #explain-content,#explain-newcontent {
         margin: 10px auto 0 auto;
         width: 95%;
     }
     .explain-title { font-size: 20px;}
     .explain-subtitle { font-size: 18px;}
     .explain-p, 
-      #explain-content li {
+      #explain-content li,{
         font-size: 14px;
         font-family: "Georgia", Times, serif;
     }
@@ -2539,45 +2609,88 @@ h3 {
       #Locations
     \*------------------------------------*/
     
-    #location-info {
-        margin: 10px 0 20px 0;
-        height: 500px;
+    #location-title,#location-indextitle{
+      text-align: center;
+      font-size: 36px;
     }
-    #location-info-left {
+    #location-photo{ 
         display: block;
-        float: none;
-        
-        margin: 0 auto;
-        height: auto;
-        width: 300px;
-    }
-    #location-info-left li {
-        margin: 20px 0;
 
-        font-size: 14px;
-    }
-    #location-hour-title { font-size: 20px;}
-    .location-hours { font-size: 12px;}
-    #location-info-right {
-        display: block;
-        float: none;
-        
         margin: 0 auto;
+        width: 80%
+    }
+    #location-info{
+        float: none;
+      
+        margin: 0 auto;
+        width: 300px;
+    }
+    .location-subtitle{ 
+        margin-top: 5px; 
+
+        font-size: 25px;
+    }
+    .location-subtitle-topmargin{ margin-top: 20px;}
+    .location-info-contact {
+        margin-left: 85px;
+        width: 130px;
+    }
+    .location-info-icon{
+        float: left;
+        width: 14px;
+    }
+    #location-bottom-section{ 
+        display: block;
+
+        margin: 10px auto;
         height: auto;
         width: 300px;
+
+        text-align: center;
+    }
+    #location-details{ 
+        float: none; 
+
+        width: 300px;
+    }
+    .location-services-icon {
+        display: block;
+
+        margin: 0 auto;
+        width: 50px;
     }
     #location-map { 
-        clear: none;
-        
+        float: none;
+        margin-top: 20px; 
         height: 300px;
-        width: auto; 
+        width: 300px; 
     }
-    .location-contact {
-        font-size: 14px;
-        font-family: Times, serif;
+  
+    .location-services-type {
+        position: relative;
+        display: block;
+
+        margin-bottom: 40px;
     }
-    #location-providers-section { width: 98%;}
-    .team-table td { font-size: 16px;}
+    .location-services-type span {
+        display: block;
+
+        margin: 5px 75px;
+        width: 150px;
+
+        font-size: 12px;
+
+        visibility: visible;
+        opacity: 10;
+    }
+    .team-table {
+        width: 300px;
+    }
+    .team-table td {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
     .team-table td p { margin-left: 10px;}
     
     /*------------------------------------*\

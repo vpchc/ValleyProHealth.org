@@ -71,7 +71,7 @@
     <a href="/index.php"><div class="navlinks-mobile-section"><p>Home</p><span>></span></div></a>
     <div class="navlinks-mobile-section"><p>About Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
-          <a href="/about_us/">About Us</a>
+        <a href="/about_us/">About Us</a>
         <a href="/about_us/providers_&_team.php">Providers & Team</a>
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
