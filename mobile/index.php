@@ -46,7 +46,7 @@
   <div id="location-top-section">
     <img id="location-photo" src="/images/MSBHCanimation.png"/>
     <div id="location-info">
-      <p class="location-title">CONTACT US</p>
+      <p class="location-subtitle">CONTACT US</p>
       <p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
       <div class="location-info-contact">
         <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
@@ -57,7 +57,7 @@
   </div>
   <div id="location-bottom-section">
     <div id="location-details">
-      <p class="location-title">SERVICES</p>
+      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
       <div class="location-services-type">
         <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
         <span>Primary Care</span>
@@ -70,7 +70,7 @@
         <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
         <span>Patient Support</span>
       </div>
-      <p class="location-title">PROVIDERS</p>
+      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
       <table class="team-table">
       <tr> 
         <td><p class="team-table-name">Nicole Cook, FNP-C</p></td> 

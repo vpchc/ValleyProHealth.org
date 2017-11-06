@@ -134,6 +134,9 @@
     list-style-image: url('/images/green_bullet.png');
 }
 
+/*new explain*/
+#explain-newcontent{margin: 20px 0 0 30px;}
+
 /*------------------------------------*\
   #Fancy Quote
 \*------------------------------------*/
@@ -1232,11 +1235,16 @@ h3 {
 /*------------------------------------*\
   #Locations
 \*------------------------------------*/
-#location-title{
-    margin: 20px 0;
-  
+#location-title, #location-indextitle{
     font-size: 76px;
     font-family: "Franklin Gothic Medium", Times, serif;
+}
+#location-title{margin: 20px 0;}
+#location-indextitle{
+  margin-top: 20px;
+  width: 100%;
+  
+  text-align: center;
 }
 #location-photo{
     width: 800px;
@@ -1245,8 +1253,9 @@ h3 {
     float: right;
     width: 500px;
   
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    line-height: 1.4;
 }
 .location-subtitle, .location-tinytitle{
     font-family: "Franklin Gothic Medium", Times, serif;
@@ -1255,8 +1264,8 @@ h3 {
 .location-subtitle{ font-size: 36px;}
 .location-subtitle-topmargin{ margin-top: 20px;}
 .location-info-contact {
-    margin-left: 170px;
-    width: 160px;
+    margin-left: 185px;
+    width: 130px;
 }
 .location-info-icon{
     float: left;
@@ -1699,6 +1708,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     \*------------------------------------*/
 
     #explain-content { width: 1000px;}
+    #explain-newcontent{width: 1000px;}
     
     /*------------------------------------*\
       #Fancy Quote
@@ -1844,18 +1854,18 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Locations
     \*------------------------------------*/
   
-    #location-title{ font-size: 56px;}
+    #location-title,#location-indextitle{font-size: 56px;}
     #location-photo{ width: 634px;}
     #location-info{
         width: 408px;
 
-        font-size: 16px;
+        font-size: 12px;
     }
     .location-subtitle{ font-size: 25px;}
     .location-subtitle-topmargin{ margin-top: 20px;}
     .location-info-contact {
         margin-left: 150px;
-        width: 130px;
+        width: 100px;
     }
     .location-info-icon{
         float: left;
@@ -2008,14 +2018,14 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Explantion Paragraphs
     \*------------------------------------*/
 
-    #explain-content {
+    #explain-content,#explain-newcontent {
         margin: 10px auto 0 auto;
         width: 95%;
     }
     .explain-title { font-size: 20px;}
     .explain-subtitle { font-size: 18px;}
     .explain-p, 
-      #explain-content li {
+      #explain-content li,{
         font-size: 14px;
         font-family: "Georgia", Times, serif;
     }
@@ -2599,7 +2609,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Locations
     \*------------------------------------*/
     
-    #location-title{
+    #location-title,#location-indextitle{
       text-align: center;
       font-size: 36px;
     }
@@ -2615,7 +2625,11 @@ font-family: "Franklin Gothic Medium", Times, serif;
         margin: 0 auto;
         width: 300px;
     }
-    .location-subtitle{ margin-top: 5px; font-size: 25px;}
+    .location-subtitle{ 
+        margin-top: 5px; 
+
+        font-size: 25px;
+    }
     .location-subtitle-topmargin{ margin-top: 20px;}
     .location-info-contact {
         margin-left: 85px;
@@ -2626,18 +2640,18 @@ font-family: "Franklin Gothic Medium", Times, serif;
         width: 14px;
     }
     #location-bottom-section{ 
-      display: block;
-      
-      margin: 10px auto;
-      height: auto;
-      width: 300px;
-      
-      text-align: center;
+        display: block;
+
+        margin: 10px auto;
+        height: auto;
+        width: 300px;
+
+        text-align: center;
     }
     #location-details{ 
-      float: none; 
-      
-      width: 300px;
+        float: none; 
+
+        width: 300px;
     }
     .location-services-icon {
         display: block;
@@ -2653,10 +2667,10 @@ font-family: "Franklin Gothic Medium", Times, serif;
     }
   
     .location-services-type {
-      position: relative;
-      display: block;
+        position: relative;
+        display: block;
 
-      margin-bottom: 40px;
+        margin-bottom: 40px;
     }
     .location-services-type span {
         display: block;
@@ -2670,12 +2684,12 @@ font-family: "Franklin Gothic Medium", Times, serif;
         opacity: 10;
     }
     .team-table {
-      width: 300px;
+        width: 300px;
     }
     .team-table td {
-      display: block;
-      margin-bottom: 10px;
-      width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
     }
     .team-table td p { margin-left: 10px;}
     

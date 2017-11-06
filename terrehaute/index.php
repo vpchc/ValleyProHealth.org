@@ -44,9 +44,9 @@
 <main id="masterbox">
   <p id="location-title">Terre Haute</p>
   <div id="location-top-section">
-    <img id="location-photo" src="/images/terrehaute_location.jpg"/>
+    <img id="location-photo" src="/images/banner_location_terrehaute.jpg"/>
     <div id="location-info">
-      <p class="location-title">CONTACT US</p>
+      <p class="location-subtitle">CONTACT US</p>
       <p>1530 N 7th Street, Suite 201<br/>Terre Haute, IN 47807</p>
       <div class="location-info-contact">
         <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
@@ -56,15 +56,16 @@
         <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
         <p>(812) 238-7003</p>
       </div>
-      <p class="location-title">HOURS</p>
+      <p class="location-subtitle">HOURS</p>
       <p>Monday - Wedneday<br/>8:00 am to 5:00 pm</p>
       <p>Thursday<br/>8:30 am to 5:00 pm</p>
       <p>Friday<br/>8:00 am to 4:30 pm</p>
+      <p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.</p>
     </div>
   </div>
   <div id="location-bottom-section">
     <div id="location-details">
-      <p class="location-title">SERVICES</p>
+      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
       <div class="location-services-type">
         <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
         <span>Primary Care</span>
@@ -77,7 +78,7 @@
         <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
         <span>Patient Support</span>
       </div>
-      <p class="location-title">PROVIDERS</p>
+      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
       <table class="team-table">
         <tr>
           <td><p class="team-table-name">Leslie Batty, FNP-C</p></td> 

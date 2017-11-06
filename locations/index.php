@@ -43,15 +43,8 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-     <img id="banner-pic"  src="/images/locations_landing_page_banner.jpg" alt="Locations Banner Pic"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short">Locations</h1>
-    </div>
-  </div>
-  <div id="explain-content">
+  <p id="location-indextitle">Locations</p>
+  <div id="explain-newcontent">
     <p class="explain-title vpchcblue">Welcome to Valley Professionals</p>
     <p class="explain-p">Valley Professionals is proud to serve the Montgomery, Parke, Vermillion, and Vigo county communities.  Our clinics provide comprehensive integrated healthcare to all individuals and families regardless of ability to pay.</p>
     <p class="explain-subtitle vpchcgreen">Find the Caring Professionals in Your Community</p>
