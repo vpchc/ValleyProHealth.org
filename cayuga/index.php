@@ -57,7 +57,7 @@
         <p>(765) 492-9048</p>
       </div>
       <p class="location-subtitle">HOURS</p>
-      <p>Monday - Friday<br/>8:30 am to 5:00 pm</p>
+      <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
       <p>Closed<br/>12:00 pm to 1:00 pm</p>
       <p class="location-tinytitle">Extended Hours</p>
       <p>Wednesday<br/>5:00 pm to 8:00 pm</p>

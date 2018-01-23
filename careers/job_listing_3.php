@@ -45,7 +45,7 @@
   <h1>Job Opportunities</h1>
   <h2>CMA/LPN - Cayuga</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center’s is looking to hire a CMA CMA or a LPN for its Cayuga office.</p>
+    <p>Valley Professionals Community Health Center’s is looking to hire a CMA or a LPN for its Cayuga office.</p>
     <p>Duties:</p>
     <li>Providing professional nursing services and patient care</li>
     <li>Patient assessment</li>

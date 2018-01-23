@@ -63,7 +63,7 @@
         <a class="navlink-category" href="/services/patient_resources.php">Patient Resources</a>
       </li>
       <li id="patientportal" class="dropdown">
-        <a class="navlink-category" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+        <a class="navlink-category" href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp">Patient Portal</a>
       </li>
     </ul>
   </div>
@@ -106,5 +106,5 @@
         <a href="/careers">Careers</a>
       </div>
     <a href="/services/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
-    <a href="https://secure2.myunionportal.org/vpchc/default.aspx"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
+    <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
   </div>

@@ -43,20 +43,15 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>CMA/LPN - Cayuga</h2>
+  <h2>Computer Support Specialist</h2>
   <div class="careers-listing">
-    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Cayuga office.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a motivated and analytical individual for our IT Department.</p>
     <p>Duties:</p>
-    <li>Providing professional nursing services and patient care.</li>
-    <li>Patient assessment</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider in minor procedures</li>
-    <li>Assist in answering phone calls</li>
-    <li>Scheduling patients</li>
-    <li>Checking-in patients</li>
+    <li>Tier one user support of all Information Technology issues</li>
+    <li>Analyzing and maintaining all information systems needs and computer equipment</li>
     <p>Requirements:</p>
-    <li>Current certification or licensure as a Medical Assistant or Nurse</li>
-    <li>Two to three years primary care experience preferred</li>
+    <li>Associate’s Degree in Information Systems or equivalent work experience</li>
+    <li>SQL knowledge preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -80,7 +75,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA/LPN - Cayuga">
+        <input type="hidden" name="subject" value="Computer Support Specialist">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

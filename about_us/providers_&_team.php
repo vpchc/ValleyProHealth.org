@@ -206,7 +206,6 @@
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
             <li>Indiana State University - MSN</li>
-            <li>Indiana University School of Medicine</li>
             <li>Indiana State University - BSN</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>

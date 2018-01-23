@@ -56,7 +56,7 @@
         <p class="slide-info-title">Get connected</p>
         <p class="slide-info-subtitle">Take control of your healthcare by utilizing the patient portal.</p>
       </div>
-      <a href="https://secure2.myunionportal.org/vpchc/default.aspx" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+      <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
     </div>
   </div>
   <div class="slide">

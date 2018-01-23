@@ -43,17 +43,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Patient Care Coordinator - Clinton</h2>
+  <h2>CMA/LPN - Clinton</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for its Clinton office.</p>
+    <p>Valley Professionals Community Health Center’s is looking to hire a CMA or a LPN for its Clinton office.</p>
     <p>Duties:</p>
-    <li>Work directly with patients providing health education</li>
-    <li>Working with the patients to improve health outcomes</li>
-    <li>Manage high risk patient care</li>
-    <li>Management of patients with multiple co-morbidities</li>
-    <li>Coordinate the continuity of patient care with external healthcare organizations</li>
+    <li>Providing professional nursing services and patient care</li>
+    <li>Patient assessment</li>
+    <li>Taking vitals</li>
+    <li>Assisting the provider in minor procedures</li>
+    <li>Assist in answering phone calls</li>
+    <li>Scheduling patients and checking-in patients</li>
+    <li>Assisting the provider in minor procedures</li>
     <p>Requirements:</p>
-    <li>Must have current Indiana licensure as a Registered Nurse.</li>
+    <li>Current certification as a Medical Assistant or Nurse required</li>
+    <li>Two to three years primary care experience preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_6.php" name="referer">
@@ -77,7 +80,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Site Manager - Crawfordsville">
+        <input type="hidden" name="subject" value="CMA/LPN - Clinton">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

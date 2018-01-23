@@ -47,7 +47,6 @@
     <img id="location-photo" src="/images/MSBHCanimation.png"/>
     <div id="location-info">
       <p class="location-subtitle">CONTACT US</p>
-      <p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
       <div class="location-info-contact">
         <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
         <p>(765) 592-6164</p>

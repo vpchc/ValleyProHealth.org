@@ -44,7 +44,7 @@
 <main id="masterbox">
   <h1>News Article</h1>
   <h2>Screening Mammogram Funds Available at Health Center</h2>
-  <h2 id="page-tinytitle">October 18, 2016</h2>
+  <h2 id="page-tinytitle">June 16, 2017</h2>
   <div id="archive-news-section">
     <p>Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate?</p>
     <p>Valley Professionals Community Health Center (VPCHC) has received funding through the Indiana Breast Cancer Awareness Trust to provide screening mammograms for women who are uninsured. If you are over 40 years old and are in need of a screening mammogram, call our office to schedule an appointment with one of our medical providers to get a clinical breast exam and to obtain a voucher for a free mammogram at Union Hospital Clinton. Women considered high-risk under the age of 40 would also be eligible. Patients must qualify through the health center’s eligibility intake form, in order to obtain a voucher.</p>

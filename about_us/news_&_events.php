@@ -42,56 +42,36 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic" src="/images/news&events_banner.jpg" alt="News&Events Banner"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">News & Events</h1>
-    </div>
-  </div>
+  <h1 class="vpchcgreen">News & Events</h1>
+  <div id="news-events-container">
   <div id="events">
     <h2 class="news-title vpchcblue">Upcoming Events</h2>
-    <div class="events-container">
-      <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe>
+    <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <div id="news">
+    <h2 class="news-title vpchcblue">News</h2>
+    <div class="news-article">
+      <p class="news-article-title">Screening Mammogram Funds Available at Health Center</p>
+      <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person’s survival rate?</p>
+      <a class="news-article-link" href="/about_us/news_article_1.php">See Full Article</a>
     </div>
-    <h2 class="news-title vpchcblue">Provider Tips</h2>
-    <div class="events-container">
-      <iframe id="events-video" src="https://www.youtube.com/embed/snZH5cYhChY" frameborder="0" allowfullscreen></iframe>
+    <div class="news-article">
+      <p class="news-article-title">Local Partnership to Increase Health Care Services</p>
+      <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
+      <a class="news-article-link" href="/about_us/news_article_2.php">See Full Article</a>
     </div>
- </div>
- <div id="news">
-   <h2 class="news-title">News</h2>
-   <div class="news-article">
-     <p class="news-article-title">June 16, 2017 - Screening Mammogram Funds Available at Health Center</p>
-     <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person’s survival rate?</p>
-     <a href="/about_us/news_article_1.php">See Full Article</a>
-   </div>
-   <div class="news-article">
-     <p class="news-article-title">March 27, 2017 - Local Partnership to Increase Health Care Services</p>
-     <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
-     <a href="/about_us/news_article_1.php">See Full Article</a>
-   </div>
-   <div class="news-article">
-     <p class="news-article-title">November 1, 2016 - Local medical provider office honored for exceptional quality and service</p>
-     <p class="news-article-preview">Valley Professionals Community Health Center was recently honored with a Star Performer Award from MDwise</p>
-     <a href="/about_us/news_article_2.php">See Full Article</a>
-   </div>
-   <div id="archive-button">
-     <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
-   </div>
-</div>
+    <div class="news-article">
+      <p class="news-article-title">Local medical provider office honored for exceptional quality and service</p>
+      <p class="news-article-preview">Valley Professionals Community Health Center was recently honored with a Star Performer Award from MDwise</p>
+      <a class="news-article-link" href="/about_us/news_article_3.php">See Full Article</a>
+    </div>
+    <div id="archive-button">
+      <a href="/archive/news/"><button class="vpchcbutton">News Archive</button></a>
+    </div>
+  </div>
+  </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

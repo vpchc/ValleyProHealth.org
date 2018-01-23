@@ -60,9 +60,11 @@
     <p class="explain-title vpchcblue">Career Opportunities</p>
     <p class="explain-subtitle">Interested in a career with Valley Professionals?</p>
     <p class="explain-p">View current job postings and submit your resume below.</p>
-    <li><a href="/careers/job_listing_1.php">Behavorial Health Provider - Mobile Unit</a></li>
+    <li><a href="/careers/job_listing_4.php">Bilingual CMA/LPN - Crawfordsville</a></li>
+    <li><a href="/careers/job_listing_1.php">Call Center Receptionist</a></li>
     <li><a href="/careers/job_listing_2.php">CMA Float</a></li>
-    <li><a href="/careers/job_listing_3.php">CMA/LPN - Cayuga</a></li>
+    <li><a href="/careers/job_listing_6.php">CMA/LPN - Clinton</a></li>
+    <li><a href="/careers/job_listing_5.php">Computer Support Specialist</a></li>
   </div>
   <div id="quote">
       <p class="large-quote-left vpchcgreen">&ldquo;</p>

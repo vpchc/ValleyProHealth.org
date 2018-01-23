@@ -226,7 +226,7 @@
     //Child choosen
     $("#forms-content-type-child").click(function(){
       if(locationChoice == 1 ){
-         window.location.href = "/files/forms/en/new_patient_packet_childt_bloomingdale.pdf";
+         window.location.href = "/files/forms/en/new_patient_packet_child_bloomingdale.pdf";
       }else if(locationChoice == 2){
           window.location.href = "/files/forms/en/new_patient_packet_child_cayuga.pdf";
       }else if(locationChoice == 0 || locationChoice == 3){
