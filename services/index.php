@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,18 +41,16 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic"  src="/images/services_landing_page_banner.jpg" alt="Services Banner"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Services</h1>
+    <img src="/images/banner/services_index.jpg">
+    <div id="banner-title">
+      <p>Services</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title vpchcblue">Your Home for Healthcare</p>
-    <p class="explain-p">Valley Professionals is your home for healthcare from birth through your golden years.  We're here for you, your whole life through.  To learn more about our services, select a service type from below.</p>
+    <p class="explain-title">Your Home for Healthcare</p>
+    <p class="explain-largetext">Valley Professionals is your home for healthcare from before you're born through your golden years.  We're here for you, your whole life through. To learn more about our services, select a service type from below.</p>
     <div id="services-provided">
       <a href="/services/behavioral_health.php"><div class="services-provided-section four-sections">
         <p>Behavioral Health</p>

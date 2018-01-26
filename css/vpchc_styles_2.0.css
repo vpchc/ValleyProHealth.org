@@ -28,31 +28,35 @@
   #Banner
 \*------------------------------------*/
 
-#banner { height: 180px;}
-#banner-left {
-    float: left;
-    
-    height: 220px;
-    width: 50%;
-    border-bottom: 5px dashed #70b244;
+#banner {
+  position: relative;
+  
+  max-height: 540px;
+  width: 100%;
 }
-#banner-pic {
-    height: 95%;
-    width: 100%;
-}
-#banner-right {
-    float: right;
-    
-    height: 228px;
-    width: 50%;;
+#banner img{
+  width: 100%;
+  max-height: 540px;
 }
 #banner-title {
-    text-align: center;
-    font-size: 64px;
-    font-family: "Franklin Gothic Medium", Times, serif;
+  position: absolute;
+  
+  top: 58%;
+  
+  height: 36%;
+  width: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.75);
 }
-.banner-title-long{ margin-top: 45px;}
-.banner-title-short{ margin-top: 75px;}
+#banner-title p {
+  margin: 20px 170px 0 0;
+  text-align: right;
+  font-size: 7vw;
+  font-family: "Franklin Gothic Medium", Times, serif;
+  color: #3a4e8c;
+  z-index: 1;
+}
+
 /*------------------------------------*\
   #Buttons
 \*------------------------------------*/
@@ -98,31 +102,34 @@
   #Explantion Paragraphs
 \*------------------------------------*/
 
-#explain-content {
-    margin: 100px 0 0 30px;
-    width: 1300px;
-}
+#explain-content { margin: 20px 10px;}
 .explain-title {
-    margin: 20px 0;
+    margin: 0 0 20px 20px;
     
-    font-size: 60px;
+    font-size: 5vw;
     font-family: "Franklin Gothic Medium", Times, serif;
+    color: #70b244;
 }
 .explain-subtitle {
     clear: both;
     
-    margin: 20px 0 20px 15px;
+    margin: 20px 0 20px 30px;
     
-    font-size: 36px;
+    font-size: 3.125vw;
     font-weight: bold;
-    font-family: "Franklin Gothic Demi", Times, serif;
+    font-family: "Franklin Gothic Book", Times, serif;
+}
+.explain-largetext{
+  margin: 0 0 70px 30px;
+  font-size: 2.4vw;
+  font-family: "Franklin Gothic Book", Times, serif;
 }
 .explain-p, 
   #explain-content li {
-    font-size: 16px;
-    font-family: "Georgia", Times, serif;
+    font-size: 1.4583vw;
+    font-family: "Franklin Gothic Book", Times, serif;
 }
-.explain-p { margin-left: 20px;}
+.explain-p { margin-left: 30px;}
 .explain-p-title {
     margin: 20px 0 20px 20px;
     
@@ -214,7 +221,7 @@
     margin: 0px auto 50px auto;
 	width: 1349px;
 }
-#masterbox-home {
+#masterbox-nonfixed {
     margin: 0 auto;
     
     height: auto;
@@ -1508,14 +1515,17 @@ font-family: "Franklin Gothic Medium", Times, serif;
   #Services Provided
 \*------------------------------------*/
 
-#services-provided { margin: 40px 0;}
+#services-provided { 
+  margin: 40px auto;}
 .services-provided-section {
     display: inline-block;
     zoom:1;
     *display:inline;
+  
+    padding: 0 5px;
     
     height: 100px;
-    width: 320px;
+    width: 24%;
     
     border-radius: 25px;
     
@@ -1702,7 +1712,6 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Explantion Paragraphs
     \*------------------------------------*/
 
-    #explain-content { width: 1000px;}
     #explain-newcontent{width: 1000px;}
     
     /*------------------------------------*\
@@ -1970,26 +1979,13 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Banner
     \*------------------------------------*/
 
-    #banner { height: auto;}
-    #banner-left { 
-        float: none;
-        
-        margin: 0 auto;
-        height: auto;
-        width: 80%;
-    }
-    #banner-right {
-        float: none;
-        
-        height: auto;
-        width: 100%;
-    }
+    #banner { padding-top: 80px; height: auto;}
     #banner-title {
-        margin-top: 10px;
-        padding: 0 10px;
-
-        font-size: 25px;
+        top: 73%;
+  
+        height: 22%;
     }
+    #banner-title p{ margin: 5px 30px 0 0;}
     .banner-title-long#banner-title{ font-size: 25px;}
     
     /*------------------------------------*\
@@ -2010,14 +2006,20 @@ font-family: "Franklin Gothic Medium", Times, serif;
         margin: 10px auto 0 auto;
         width: 95%;
     }
-    .explain-title { font-size: 20px;}
-    .explain-subtitle { font-size: 18px;}
-    .explain-p, 
-      #explain-content li,{
-        font-size: 14px;
-        font-family: "Georgia", Times, serif;
+    .explain-title { margin: 0 0 10px 0;}
+    .explain-largetext { 
+      margin: 0;
+      
+      font-size: 14px;
     }
-    .explain-p { margin-left: 20px;}
+    .explain-subtitle { 
+      margin: 10px 0;
+      
+      font-size: 20px;
+    }
+    .explain-p, 
+      #explain-content li{ font-size: 14px;}
+    .explain-p { margin-left: 0px;}
     
     /*------------------------------------*\
       #Main Containers
