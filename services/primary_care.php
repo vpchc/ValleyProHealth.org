@@ -41,25 +41,18 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic"  src="/images/healthcare_pic.jpg" alt="Medical Page Banner"/>
-    </div>
-    <div id="banner-right">
-      <div id="iconbanner-title" class="iconbanner-title-medical">
-        <img id="iconbanner-title-icon" class="iconbanner-medical" src="/images/med_icon.png" alt="Medical Icon"/>
-        <h1 id="iconbanner-title-word" class="iconbanner-word-medical vpchcgreen">Primary Care</h1>
-      </div>
+    <img src="/images/banner/services_primary_care.jpg">
+    <div id="banner-title">
+      <p>Primary Care</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title vpchcblue">Services</p>
-    <p class="explain-p">Valley Professionals Community Health Center prides itself in its ability to provide quality healthcare that is both affordable and accessible.  Valley Professionals employs an integrated care model which allows us to be your one-stop shop for healthcare.</p>
-    <p class="explain-subtitle vpchcgreen">Primary Medical Care</p>
-    <p class="explain-p">Primary care includes the treatment of acute and chronic illnesses, as well as health maintenance, disease prevention, health education and promotion.</p>
-    <p class="explain-subtitle vpchcgreen">Acute Care</p>
-    <p class="explain-p">Make an appointment or visit Clinton's After-Hours Clinic when you have symptoms like:</p>
+    <p class="explain-title">Primary Medical Care</p>
+    <p class="explain-firstlargetext">Primary care includes the treatment of acute and chronic illnesses, as well as health maintenance, disease prevention, health education and promotion.</p>
+    <p class="explain-title">Acute Care</p>
+    <p class="explain-largetext">Make an appointment or visit Clinton's After-Hours Clinic when you have symptoms like:</p>
     <table>
     <tr>
       <td><li style="list-style-image: url('/images/blue_bullet.png');">Cold</li></td>
@@ -77,14 +70,14 @@
       <td><li style="list-style-image: url('/images/blue_bullet.png');">Earache</li></td>
     </tr>
     </table>
-    <p class="explain-subtitle vpchcgreen">Preventive Care</p>
+    <p class="explain-title">Preventive Care</p>
     <li style="list-style-image: url('/images/blue_bullet.png');">Child & Adult Wellness Exams</li>
     <li style="list-style-image: url('/images/blue_bullet.png');">Physical Examinations</li>
     <li style="list-style-image: url('/images/blue_bullet.png');">Immunizations</li>
     <li style="list-style-image: url('/images/blue_bullet.png');">Women's Health</li>
-    <p class="explain-subtitle vpchcgreen">Chronic Disease Care</p>
-    <p class="explain-p">Chronic Diseases, such as Diabetes or Chronic Obstructive Pulmonary Disorder (COPD), require maintenance and observation.  Our integrated care facility enables you to work with your Physician and a Patient Care Coordinator to create a health plan that works best for you and your lifestyle.</p>
-    <p class="explain-subtitle vpchcgreen">Other Services</p>
+    <p class="explain-title">Chronic Disease Care</p>
+    <p class="explain-largetext">Chronic Diseases, such as Diabetes or Chronic Obstructive Pulmonary Disorder (COPD), require maintenance and observation.  Our integrated care facility enables you to work with your Physician and a Patient Care Coordinator to create a health plan that works best for you and your lifestyle.</p>
+    <p class="explain-title">Other Services</p>
     <li style="list-style-image: url('/images/blue_bullet.png');">Family Planning</li>
     <li style="list-style-image: url('/images/blue_bullet.png');">Geriatric Care</li>
     <li style="list-style-image: url('/images/blue_bullet.png');">Minor Procedures</li>
