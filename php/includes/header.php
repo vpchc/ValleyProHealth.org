@@ -1,6 +1,6 @@
 <div id="head-wrap">
     <div id="head-img-container">
-      <img id="header-img" src="/images/logo.png" alt="menu" srcset="/images/logo.svg"/>
+      <img id="header-img" src="/images/10yearlogo.png" alt="menu" srcset="/images/10yearlogo.svg"/>
     </div>
     <div id="navlinks-subcontainer">
       <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>

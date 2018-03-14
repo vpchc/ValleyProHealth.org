@@ -519,7 +519,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Gary Anderson, LMHC</p>
+        <p class="tab-name tab-name-large">Gary Anderson, MS</p>
       </div>
       <div class="tab-box tab-box-xlarge">
         <div class="tab-box-pic">
@@ -633,14 +633,14 @@
     </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Megan Neitling, LMHCA</p>
+        <p class="tab-name tab-name-large">Megan Neitling, LMHC-A</p>
       </div>
       <div class="tab-box tab-box-medium">
          <div class="tab-box-pic">
           <img src="/images/providers/neitling.jpg">
          </div>
          <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor - Associate</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -773,14 +773,14 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
+        <p class="tab-name tab-name-large">Dana Tinkle, LMHC, RPT</p>
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
           <img src="/images/providers/tinkle.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p><p>Registered Play Therapist</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -788,7 +788,7 @@
             <li>Indiana State University - BS</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dana is currently working towards becoming a Registered Play Therapist. She works with clients of all ages and mental health concerns, and has a strong clinical interest in childhood trauma treatment. Dana is married and enjoys traveling with her husband. Her hobbies include reading, fitness classes, and listening to music. She also loves to spend time with her friends and family.</p>
+          <p class="tab-box-bio-personal">Dana is currently working towards becoming a Registered Play Therapist. Dana works with clients of all ages and mental health concerns, and has a strong clinical interest in childhood trauma treatment. Dana is married and enjoys traveling with her husband. Her hobbies include reading, fitness classes, and listening to music. She also loves to spend time with her friends and family.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
@@ -796,14 +796,14 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Heather Woods, LMHCA</p>
+        <p class="tab-name tab-name-large">Heather Woods, LMHC</p>
       </div>
       <div class="tab-box tab-box-jumbo">
         <div class="tab-box-pic">
           <img src="/images/providers/woods.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor Associates</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -915,7 +915,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Tiffani Martin<span>Human Resources & Compliance</span></p>
+        <p class="tab-simple">Tiffani Martin, JD<span>Human Resources & Compliance</span></p>
       </div>
     </div>
     <div class="tab">
@@ -930,12 +930,12 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Julia Wernz<span>Director of Behavioral Health</span></p>
+        <p class="tab-simple">Dr. Julia Wernz<span>Director of Behavioral Health</span></p>
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Nicole Hall<span>Director of Clinical Programs</span></p>
+        <p class="tab-simple">Nicole Hall, FNP-C<span>Director of Clinical Programs</span></p>
       </div>
     </div>
     <h3 id="man">Managers</h3>

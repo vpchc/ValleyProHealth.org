@@ -41,13 +41,11 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"  src="/images/contact_banner.jpg" alt="Contact Us"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-short vpchcgreen">Contact Us</h1>
+    <img src="/images/banner/contact_us_index.jpg">
+    <div id="banner-title">
+      <p>Contact Us</p>
     </div>
   </div>
   <div id="contact-table-container">

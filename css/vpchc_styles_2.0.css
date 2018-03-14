@@ -46,7 +46,7 @@
   height: 36%;
   width: 100%;
   
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 #banner-title p {
   margin: 20px 170px 0 0;
@@ -102,9 +102,9 @@
   #Explantion Paragraphs
 \*------------------------------------*/
 
-#explain-content { margin: 20px 10px;}
+#explain-content { margin: 20px 40px;}
 .explain-title {
-    margin: 10px 0 20px 30px;
+    margin: 10px 0 20px 0;
     
     font-size: 5vw;
     font-family: "Franklin Gothic Medium", Times, serif;
@@ -113,7 +113,7 @@
 .explain-subtitle {
     clear: both;
     
-    margin: 20px 0 20px 30px;
+    margin: 20px 0 20px 0;
     
     font-size: 2.4vw;
     font-weight: bold;
@@ -141,9 +141,95 @@
     
     list-style-image: url('/images/green_bullet.png');
 }
-
+#explain-twosections{ overflow: auto;}
+#explain-twosections-left{
+    float: left;
+    
+		height: auto;
+    width: 50%;
+}
+#explain-twosections-right{
+    float: right;
+    
+		height: auto;
+    width: 50%;
+}
+#explain-twosections-right iframe{
+		float: right;
+		
+    height: 400px;
+    width: 90%;
+}
+#explain-button-row{
+		margin-bottom: 20px;
+		text-align: justify;
+		font-size: 0.1px; /*For IE 9/10*/
+}
+.explain-button{
+		display: inline-block;
+		
+		padding: 0 20px;
+		width: 230px;
+		
+		background: #70b244;
+}
+#explain-button-row:after{
+		display: inline-block;
+		
+		content: '';
+		
+		width: 100%;	
+}
+.explain-button p{
+		padding: 10px 0;
+		
+		text-align: center;
+		font-family: "Franklin Gothic Book", Times, serif;
+		font-size: 1.5vw;
+		color: #ffffff;
+}
 /*new explain*/
 #explain-newcontent{margin: 20px 0 0 30px;}
+#explain-tiles{
+	margin: 30px 0;
+	
+	text-align: justify;
+	font-size: 0.1px; /*For IE 9/10*/
+}
+#explain-tiles:after{
+		display: inline-block;
+		
+		content: '';
+		
+		width: 100%;	
+}
+#explain-tiles a{text-decoration: none;}
+#explain-tiles li{
+	font-size: 15px;
+}
+.explain-tile{
+	display: inline-block;
+	
+	padding: 10px;
+	width: 350px;
+	
+	border-left: 5px solid #3a4e8c;
+	background: #f9f9f9;
+}
+.explain-tile p{
+	margin: 5px 0 0 5px;
+	
+	font-family: "Franklin Gothic Book", Times, serif;
+	color: black;
+	font-size: 30px;
+}
+.explain-tile img{
+	display: inline-block;
+	float: left;
+	
+	margin: 10px 5px 0 0;
+	width: 25px;
+}
 
 /*------------------------------------*\
   #Fancy Quote
@@ -215,7 +301,7 @@
 
 * { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
 }
 #masterbox {
     position: relative;
@@ -737,7 +823,6 @@ h3 {
 \*------------------------------------*/
 /* 
     Table of Contents
-        About Us
         Archive
         Bus Tracker
         Careers
@@ -755,37 +840,6 @@ h3 {
         Services Provided
         Stats
 */
-
-/*------------------------------------*\
-  #About Us
-\*------------------------------------*/
-
-#about-content {
-    margin: 80px 0 0 140px;
-    width: 1100px;
-}
-#about-content p {
-    margin-bottom: 30px;
-    
-    font-size: 25px;
-    font-family: "Georgia", Times, serif;
-}
-#about-subcontent {
-    margin: 0 0 100px 300px;
-    width: 800px;
-}
-.about-subcontent-title {
-    margin: 60px 0;
-    
-    font-size: 40px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-}
-.about-subcontent-answers {
-    margin-left: 20px;
-    
-    font-size: 26px;
-}
-.firstp { text-indent: 35px;}
 
 /*------------------------------------*\
   #Archive
@@ -1425,18 +1479,11 @@ font-family: "Franklin Gothic Medium", Times, serif;
   #News
 \*------------------------------------*/
 
-#news-events-container{height: 570px;}
-#events { 
-    float: left;
-    margin: 0 auto;
-    width: 800px;
-}
 #events-calendar{
-    width: 800px;
-    height: 500px;
+    margin: 0 auto;
+    width: 100%;
 }
 #news { 
-  float: right;
   width: 500px;
 }
 .news-title {
@@ -1444,12 +1491,6 @@ font-family: "Franklin Gothic Medium", Times, serif;
     font-size: 39px;
     font-weight: 900;
     font-family: "Georgia", Times, serif;
-}
-.news-article {
-    margin: 0 auto 20px auto;
-
-    width: 400px;
-    height: auto;
 }
 .news-article-title {
     font-size: 20px;
@@ -1781,16 +1822,6 @@ font-family: "Franklin Gothic Medium", Times, serif;
     h1 {font-size: 50px;}
     h2 {padding: 0 5px;}
     h3 {font-size: 45px;}
-    
-    /*------------------------------------*\
-      #About Us
-    \*------------------------------------*/
-    
-    #about-content {
-        margin-left: 0px;
-        width: 100%;
-    }
-    #about-subcontent { margin: 10px auto 0 auto;}
     
     /*------------------------------------*\
       #Contact Us
@@ -2247,35 +2278,6 @@ font-family: "Franklin Gothic Medium", Times, serif;
     h2 {font-size: 25px;}
     h3 {font-size: 25px;}
     .section-title-centered { font-size: 25px;}
-    
-    /*------------------------------------*\
-      #About Us
-    \*------------------------------------*/
-    
-    #about-content {
-        margin: 10px auto;
-        width: 95%;
-    }
-    #about-content p {
-        margin-top: 0px;
-        margin-bottom: 10px;
-
-        font-size: 14px;
-    }
-    #about-subcontent {
-        width: 95%;
-    }
-    .about-subcontent-title {
-        margin: 10px 0;
-
-        text-align: center;
-        font-size: 25px;
-    }
-    .about-subcontent-answers {
-        margin-left: 20px;
-
-        font-size: 14px;
-    }
     
     /*------------------------------------*\
       #Archive

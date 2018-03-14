@@ -43,21 +43,19 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Dentist - Cayuga</h2>
+  <h2>Administrative Assistant</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center (VPCHC) is looking for a dentist to join its compassionate and outstanding team in its Cayuga office.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a reliable and responsible Administrative Assistant that will be based in Clinton.</p>
     <p>Duties:</p>
-    <li>Examining the patient’s teeth, gums and related issues</li>
-    <li>Work with the patient on preventative dental care, the causes and treatment of dental problems, and oral health services.</li>
-    <p>Benefits:</p>
-    <li>Premium on work-life balance with generous holiday and Paid Time Off allowances</li>
-    <li>Competitive salary</li>
-    <li>Benefits package</li>
-    <li>Continuing Medical Education is encouraged through monetary and time CME allowances (in addition to the PTO)</li>
-    <li>Loan repayment through the National Health Service Corps</li>
+    <li>Providing support to VPCHC Directors by organizing and scheduling appointments, planning meetings and taking detailed minutes and handling any administrative requests</li>
+    <li>Making travel arrangements and maintaining correspondence for the VPCHC Directors</li>
+    <p>Requirements:</p>
+    <li>Two to three years’ experience as an administrative assistant </li>
+    <li>Knowledge of office management systems and MS Office (Word, Excel, etc)</li>
+    <li>Attention to detail and excellent time management skills</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_5.php" name="referer">
+    <input type="hidden" value="job_listing_7.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -78,7 +76,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dentist - Cayuga">
+        <input type="hidden" name="subject" value="Administrative Assistant">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

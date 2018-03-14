@@ -41,8 +41,13 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>History of VPCHC</h1>
+<main id="masterbox-nonfixed">
+  <div id="banner">
+    <img src="/images/banner/about_us_history.jpg">
+    <div id="banner-title">
+      <p>History of VPCHC</p>
+    </div>
+  </div>
   <div id="history">
     <div class="timeline">
       <span class="timeline-year">2008</span>

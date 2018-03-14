@@ -135,6 +135,7 @@ $(document).ready(function() {
     });
 });
 </script>
+<!--
 <script type="text/javascript">
   if (screen.width <= 800){
     var cookies = document.cookie;
@@ -151,5 +152,6 @@ $(document).ready(function() {
     }
   }
 </script>
+-->
 </body>
 </html>
