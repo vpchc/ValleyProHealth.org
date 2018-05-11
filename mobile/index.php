@@ -42,13 +42,13 @@
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
-  <p id="location-title">Mobile-Based Health Center</p>
+  <p id="location-title">Mobile School-Based Health Center</p>
   <div id="location-top-section">
-    <img id="location-photo" src="/images/MSBHCanimation.png"/>
+    <img id="location-photo" src="/images/locations/banner_msbhc.jpg"/>
     <div id="location-info">
       <p class="location-subtitle">CONTACT US</p>
       <div class="location-info-contact">
-        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <img class="location-info-icon" src="/images/locations/icon_phone.png" alt="phone number">
         <p>(765) 592-6164</p>
         <p>mobile@vpchc.org</p>
       </div>
@@ -58,16 +58,12 @@
     <div id="location-details">
       <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
       <div class="location-services-type">
-        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
         <span>Primary Care</span>
       </div>
       <div class="location-services-type">
-        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
         <span>Behavioral Health</span>
-      </div>
-      <div class="location-services-type">
-        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
-        <span>Patient Support</span>
       </div>
       <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
       <table class="team-table">
@@ -76,8 +72,7 @@
         <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Zac Milam, LMHC</p></td>
-        <td><p class="team-table-name">Heather Woods, LMHCA</p></td>
+        <td><p class="team-table-name">Heather Woods, LMHC</p></td>
       </tr>
     </table>
     </div>
@@ -103,7 +98,7 @@
           <a class="vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
         </div>
     </div>
-  </div>
+    </div>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

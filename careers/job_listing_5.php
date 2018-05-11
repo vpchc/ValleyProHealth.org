@@ -43,18 +43,18 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Dentist - Cayuga</h2>
+  <h2>Medical Receptionist - Crawfordsville</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center (VPCHC) is looking for a dentist to join its compassionate and outstanding team in its Cayuga office.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a medical receptionist for its Crawfordsville office.</p>
     <p>Duties:</p>
-    <li>Examining the patient’s teeth, gums and related issues</li>
-    <li>Work with the patient on preventative dental care, the causes and treatment of dental problems, and oral health services.</li>
-    <p>Benefits:</p>
-    <li>Premium on work-life balance with generous holiday and Paid Time Off allowances</li>
-    <li>Competitive salary</li>
-    <li>Benefits package</li>
-    <li>Continuing Medical Education is encouraged through monetary and time CME allowances (in addition to the PTO)</li>
-    <li>Loan repayment through the National Health Service Corps</li>
+    <li>Answering and directing phone calls</li>
+    <li>Scheduling patient appointments</li>
+    <li>Entering patient information</li>
+    <li>Position will perform a variety of administrative duties and tasks including filing, faxing, and scanning documents into medical records</li>
+    <p>Requirements:</p>
+    <li>Knowledge of medical terminology</li>
+    <li>Good customer service skills</li>
+    <li>Experience in a medical office preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -78,7 +78,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dentist - Cayuga">
+        <input type="hidden" name="subject" value="Medical Receptionist - Crawfordsville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

@@ -49,39 +49,39 @@
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title">Primary Medical Care</p>
-    <p class="explain-firstlargetext">Primary care includes the treatment of acute and chronic illnesses, as well as health maintenance, disease prevention, health education and promotion.</p>
-    <p class="explain-title">Acute Care</p>
-    <p class="explain-largetext">Make an appointment or visit Clinton's After-Hours Clinic when you have symptoms like:</p>
+    <p class="explain-title vpchcgreen">Primary Medical Care</p>
+    <p class="explain-p">Primary care includes the treatment of acute and chronic illnesses, as well as health maintenance, disease prevention, health education and promotion.</p>
+    <p class="explain-title vpchcgreen">Acute Care</p>
+    <p class="explain-p">Make an appointment or visit Clinton's After-Hours Clinic when you have symptoms like:</p>
     <table>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Cold</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Congestion</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Cough</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cold</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Congestion</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cough</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Fever</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Sore Throat</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Rash</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Fever</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sore Throat</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Rash</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Vomitting</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Flu Symptoms</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Earache</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Vomitting</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Flu Symptoms</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Earache</li></td>
     </tr>
     </table>
-    <p class="explain-title">Preventive Care</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Child & Adult Wellness Exams</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Physical Examinations</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Immunizations</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Women's Health</li>
-    <p class="explain-title">Chronic Disease Care</p>
-    <p class="explain-largetext">Chronic Diseases, such as Diabetes or Chronic Obstructive Pulmonary Disorder (COPD), require maintenance and observation.  Our integrated care facility enables you to work with your Physician and a Patient Care Coordinator to create a health plan that works best for you and your lifestyle.</p>
-    <p class="explain-title">Other Services</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Family Planning</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Geriatric Care</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Minor Procedures</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Laboratory Services</li>
+    <p class="explain-title vpchcgreen">Preventive Care</p>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Child & Adult Wellness Exams</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Physical Examinations</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Immunizations</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Women's Health</li>
+    <p class="explain-title vpchcgreen">Chronic Disease Care</p>
+    <p class="explain-p">Chronic Diseases, such as Diabetes or Chronic Obstructive Pulmonary Disorder (COPD), require maintenance and observation.  Our integrated care facility enables you to work with your Physician and a Patient Care Coordinator to create a health plan that works best for you and your lifestyle.</p>
+    <p class="explain-title vpchcgreen">Other Services</p>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Family Planning</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Geriatric Care</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Minor Procedures</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Laboratory Services</li>
   </div>
   <div id="services-button">
     <a class="vpchcbutton" href="/about_us/providers_&_team.php#physicians">Click here to see all of our Medical Providers</a>

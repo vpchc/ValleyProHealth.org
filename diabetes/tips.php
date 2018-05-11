@@ -41,23 +41,21 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic"   src="/images/healthcare_pic.jpg" alt="Diabetes Banner"/>
-    </div>
-    <div id="banner-right">
-        <h1 id="banner-title" class="banner-title-short vpchcgreen">Diabetes Tips</h1>
+    <img src="/images/banner/about_us_news&events.jpg">
+    <div id="banner-title">
+      <p>Diabetes Tips</p>
     </div>
   </div>
   <div id="explain-content">
     <p class="explain-title vpchcblue">Tips to help you take control of your Diabetes.</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Choose water, unsweetened coffee or unsweetened tea.</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Eat more fiber from whole grains and vegetables.</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Eat 4-5 smaller meals throughout the day.</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Eat smaller portions -instead of "supersizing" your meal try ordering off the kids menu.</li>  
-    <li style="list-style-image: url('/images/blue_bullet.png');">If experiencing low blood glucose remember the "Rule of 15's"</br>Eat 15 grams of carbs wait 15 minutes then retest your blood glucose, if still low eat 15 more grams of carbohydrates.</br>Examples of 15 grams of carbohydrates:</br>*3-4 glucose tabs</br>*1/2 cup of fruit juice</br>*2-3 sugar packets</br>*3-5 pieces of hard sugary candy</li>  
-    <li style="list-style-image: url('/images/blue_bullet.png');">If your regular meal is more than 30 minutes away you will need to eat something such as graham crackers with a tablespoon of peanut butter.</li>  
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Choose water, unsweetened coffee or unsweetened tea.</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat more fiber from whole grains and vegetables.</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat 4-5 smaller meals throughout the day.</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat smaller portions -instead of "supersizing" your meal try ordering off the kids menu.</li>  
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">If experiencing low blood glucose remember the "Rule of 15's"</br>Eat 15 grams of carbs wait 15 minutes then retest your blood glucose, if still low eat 15 more grams of carbohydrates.</br>Examples of 15 grams of carbohydrates:</br>*3-4 glucose tabs</br>*1/2 cup of fruit juice</br>*2-3 sugar packets</br>*3-5 pieces of hard sugary candy</li>  
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">If your regular meal is more than 30 minutes away you will need to eat something such as graham crackers with a tablespoon of peanut butter.</li>  
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

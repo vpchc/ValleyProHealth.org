@@ -51,12 +51,12 @@
     <hr>
       <div class="tab">
         <div class="tab-bar team-admin">
-          <p class="tab-simple">Greg Harbison<span>Board President</span></p>
+          <p class="tab-simple">Jon Beardsley<span>Board President</span></p>
         </div>
       </div>
       <div class="tab">
         <div class="tab-bar team-admin">
-          <p class="tab-simple">Jon Beardsley<span>Board Vice President</span></p>
+          <p class="tab-simple">Mike Miller<span>Board Vice President</span></p>
         </div>
       </div>
       <div class="tab">
@@ -89,11 +89,6 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Gary Cowan</p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-admin">
         <p class="tab-simple">Jackie Mathis</p>
       </div>
     </div>
@@ -109,12 +104,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Lisa Taylor-Franke</p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-admin">
-        <p class="tab-simple">Michael Miller</p>
+        <p class="tab-simple">Lisa Taylor</p>
       </div>
     </div>
     <div class="tab">
@@ -125,6 +115,16 @@
     <div class="tab">
       <div class="tab-bar team-admin">
         <p class="tab-simple">Yale Yager</p>
+      </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Cindy Hein</p>
+      </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar team-admin">
+        <p class="tab-simple">Lou Bonomo</p>
       </div>
     </div>
   </div>

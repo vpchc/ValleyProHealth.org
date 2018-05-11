@@ -49,17 +49,14 @@
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-firstlargetext">Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</p>
-    <p class="explain-largetext">Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include five additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits fourteen schools in Parke and Vermillion counties</p>
-    <div id="quote">
-    <p class="large-quote-left vpchcgreen">&ldquo;</p>
-    <p class="quote-text">Valley Professionals Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
-    <p class="large-quote-right vpchcgreen">&rdquo;</p>
-    </div>
-    <p class="explain-subtitle vpchcblue">What is an FQHC?</p>
-    <p class="explain-largetext">Federally Qualified Health Centers, or FQHCs, are non-profit private or public entities that serve medically underserved populations. Put simply, FQHCs exist to serve those who have limited access to healhtcare, financially or logistically. Although all individuals are welocme, FQHCs stand apart from private practices due to their ability to facilitate treatment for low income individuals, as well as, the uninsured or underinsured.</p>
-    <p class="explain-subtitle vpchcblue">Patient-Centered Medical Home</p>
-    <p class="explain-largetext">Patient-Centered Medical Home(PCMH) is a new approach to your healthcare. PCMH provides all-inclusive primary care that creates partnerships between you and your family, and your primary care provider and health care team.</p>
+    <p class="explain-p">Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</p>
+    <p class="explain-p">Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include five additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits fourteen schools in Parke and Vermillion counties.</p>
+    <p id="mission&values" class="explain-title vpchcgreen">Mission</p>
+		<p class="explain-p">Valley Professional Community Health Center providers comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
+    <p class="explain-title vpchcblue">What is an FQHC?</p>
+    <p class="explain-p">Federally Qualified Health Centers, or FQHCs, are non-profit private or public entities that serve medically underserved populations. Put simply, FQHCs exist to serve those who have limited access to healhtcare, financially or logistically. Although all individuals are welocme, FQHCs stand apart from private practices due to their ability to facilitate treatment for low income individuals, as well as, the uninsured or underinsured.</p>
+    <p class="explain-title vpchcblue">Patient-Centered Medical Home</p>
+    <p class="explain-p">Valley Professionals is your local medical home! Patient-Centered Medical Home(PCMH) is a new approach to your healthcare. PCMH provides all-inclusive primary care that creates partnerships between you and your family, and your primary care provider and health care team.</p>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

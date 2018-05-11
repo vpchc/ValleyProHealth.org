@@ -43,24 +43,23 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox-nonfixed">
   <div id="banner">
-    <img src="/images/banner/dental_index.jpg">
+    <img src="/images/banner/services_dental.jpg">
     <div id="banner-title">
       <p>Dental</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title">Dental Services</p>
-    <p class="explain-firstlargetext">Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
-    <p class="explain-subtitle vpchcgreen">Preventive</p>
+    <p class="explain-title vpchcgreen">Dental Services</p>
+    <p class="explain-p">Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
+    <p class="explain-title vpchcgreen">Preventive</p>
     <p class="explain-p">Dental examinations and screenings, X-Rays, Cleanings, sealants, fluoride treatments, and education.</p>
-    <p class="explain-subtitle vpchcgreen">Emergency</p>
+    <p class="explain-title vpchcgreen">Emergency</p>
     <p class="explain-p">Broken or chipped teeth, extractions, pain, and infection.</p>
-    <p class="explain-subtitle vpchcgreen">Restorative</p>
+    <p class="explain-title vpchcgreen">Restorative</p>
     <p class="explain-p">Fillings</p>
     <div id="dental-public">
-      <p class="explain-title">For Dental Emergencies or Appointments,</p>
-      <img class="dental-patches" src="/images/patches_dental.png" alt="Patches Dental"/>
-      <p class="explain-title">Call (765) 492-8099</p>
+      <p class="explain-title vpchcgreen">For Dental Emergencies or Appointments, Call (765) 492-8099</p>
+      <img class="dental-patches" src="/images/dental/patches.png" alt="Patches Dental"/>
     </div>
   </div>
   <div id="services-button">

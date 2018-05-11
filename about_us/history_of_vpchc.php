@@ -41,13 +41,8 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
-    <img src="/images/banner/about_us_history.jpg">
-    <div id="banner-title">
-      <p>History of VPCHC</p>
-    </div>
-  </div>
+<main id="masterbox">
+  <h1>History of VPCHC</h1>
   <div id="history">
     <div class="timeline">
       <span class="timeline-year">2008</span>
@@ -84,6 +79,10 @@
     <div class="timeline even">
       <span class="timeline-year">2017</span>
       <p><span class="timeline-month-green">April</span></br>New Valley Professionals Community Health Center clinic opens in Rockville.</p>
+    </div>
+ 		<div class="timeline">
+      <span class="timeline-year">2018</span>
+      <p><span class="timeline-month-blue">Feburary</span></br>Valley Professionals Community Health Center celebrates its 10th anniversary.</p>
     </div>
   </div>
   <div id="history-continued"></div>

@@ -54,6 +54,11 @@
   <div id="archive-content">
   <p id="2016" class="section-title">2016</p>
   <hr>
+	<div class="news-article">
+    <p class="news-article-title">November 1, 2016 - Local medical provider office honored for exceptional quality and service</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center, located at 777 S Main St. in Clinton, Ind., was recently honored with a Star Performer Award from MDwise, a nonprofit health maintenance organization focused on providing health coverage to Indiana individuals and families.</p>
+    <a href="/archive/news/2016/11_1.php">See Full Article</a>
+  </div>
   <div class="news-article">
     <p class="news-article-title">October 18, 2016 - Screening Mammogram Funds Available at Health Center</p>
     <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate? Valley Professionals Community Health Center (VPCHC) has received funding through the Indiana Breast Cancer Awareness Trust to provide screening mammograms for women who are uninsured.</p>

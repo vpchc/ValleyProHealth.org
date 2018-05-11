@@ -16,7 +16,6 @@
         Buttons
         Company Colors
         Explanation Paragraphs
-        Fancy Quote
         Main Containers
         Nav Links
         Sidebars
@@ -104,13 +103,6 @@
 
 #explain-content { margin: 20px 40px;}
 .explain-title {
-    margin: 10px 0 20px 0;
-    
-    font-size: 5vw;
-    font-family: "Franklin Gothic Medium", Times, serif;
-    color: #70b244;
-}
-.explain-subtitle {
     clear: both;
     
     margin: 20px 0 20px 0;
@@ -119,12 +111,6 @@
     font-weight: bold;
     font-family: "Franklin Gothic Book", Times, serif;
 }
-.explain-firstlargetext, .explain-largetext{
-  font-size: 2vw;
-  font-family: "Franklin Gothic Book", Times, serif;
-}
-.explain-firstlargetext{ margin: 0 0 70px 30px;}
-.explain-largetext{ margin: 0 0 10px 30px;}
 .explain-p, 
   #explain-content li {
     font-size: 1.2vw;
@@ -139,25 +125,27 @@
 #explain-content li {
     margin: 10px 0 0 30px;
     
-    list-style-image: url('/images/green_bullet.png');
+    list-style-image: url('/images/formatting/green_bullet.png');
 }
-#explain-twosections{ overflow: auto;}
+#explain-twosections{ overflow: auto ;}
 #explain-twosections-left{
     float: left;
-    
+   
 		height: auto;
     width: 50%;
 }
 #explain-twosections-right{
     float: right;
     
+		margin-top: 45px;
 		height: auto;
     width: 50%;
 }
 #explain-twosections-right iframe{
 		float: right;
 		
-    height: 400px;
+		margin-top: 20px;
+    height: 430px;
     width: 90%;
 }
 #explain-button-row{
@@ -204,9 +192,6 @@
 		width: 100%;	
 }
 #explain-tiles a{text-decoration: none;}
-#explain-tiles li{
-	font-size: 15px;
-}
 .explain-tile{
 	display: inline-block;
 	
@@ -216,6 +201,7 @@
 	border-left: 5px solid #3a4e8c;
 	background: #f9f9f9;
 }
+.explain-tile-hide{ visibility: hidden;}
 .explain-tile p{
 	margin: 5px 0 0 5px;
 	
@@ -229,70 +215,6 @@
 	
 	margin: 10px 5px 0 0;
 	width: 25px;
-}
-
-/*------------------------------------*\
-  #Fancy Quote
-\*------------------------------------*/
-
-#quote {
-    margin: 80px auto;
-    width: 720px;
-    
-    font-size: 25px;
-    font-family: "Georgia", Times, serif;
-}
-.quote-text {
-    display: inline-block;
-    zoom:1;
-    *display:inline;
-
-    margin: 35px 0 0 50px;
-    height: 140px;
-    width: 540px;
-    
-    color: #258f71;
-}
-.large-quote-left {
-    float: left;
-    
-    height: 50px; 
-
-    font-size: 104px;
-}
-.large-quote-right {
-    float: right;
-
-    margin: 181px 40px 0 0;
-    height: 50px; 
-    
-    font-size: 104px;
-    line-height: 1;
-}
-
-/*----Home Quote----*/
-#home-info-about #quote{
-    margin-top: 0px;
-    height: 200px;
-    width: 800px;
-    
-    clear: both;
-}
-#home-info-about .quote-text {
-    margin: 65px 0 0 40px;
-    width: 650px;
-}
-.large-quote-left {
-    float: left;
-    
-    margin: 10px 0 0 10px;
-    height: 40px; 
-}
-.large-quote-right {
-    float: right;
-    
-    margin: 200px 0 0 8px;
-    height: 40px; 
 }
 
 /*------------------------------------*\
@@ -1049,7 +971,7 @@ h3 {
 \*------------------------------------*/
 
 #contact-table-container {
-    margin: 100px 0 20px 120px;
+    margin: 0 auto;
     
     width: 1200px;
 }
@@ -1082,7 +1004,7 @@ h3 {
 }
 
 #contact-questions {
-    margin-top: 0px;
+    margin-bottom: 50px;;
     
     text-align: center;   
 }
@@ -1102,15 +1024,10 @@ h3 {
 \*------------------------------------*/
 
 .dental-patches {
-    float: right;
-    
-    margin-right: 300px;
     height: 350px;
     width: 320px;
 }
-#dental-public {
-    height: 500px;
-}
+#dental-public { height: 500px;}
 
 /*------------------------------------*\
   #Diabetes
@@ -1240,10 +1157,10 @@ h3 {
 
 #history {
     margin: 30px auto 0 auto;
-    height: 1575px;
+    height: auto;
     width: 600px;
     
-    background: url(/images/timeline_bg.gif) repeat-y center top; 
+    background: url(/images/history/timeline_bg.gif) repeat-y center top; 
     
     font-family: "Franklin Gothic Medium", Times, serif;
     
@@ -1291,7 +1208,7 @@ h3 {
 .timeline p{ margin-top: 5px; }
 #history-continued {
     height: 50px;
-    background: url(/images/timeline_bg_downarrow.gif) repeat-y center top; 
+    background: url(/images/history/timeline_bg_downarrow.gif) repeat-y center top; 
 }
 
 /*------------------------------------*\
@@ -1337,9 +1254,7 @@ h3 {
     margin: 10px 0;
     font-size: 20px;
 }
-#location-bottom-section{
-  height: 360px;
-}
+#location-bottom-section{ height: 410px;}
 #location-details{
   float: left;
 }
@@ -1382,7 +1297,7 @@ h3 {
     padding: 5px 0;
     border-radius: 6px;
     text-align: center;
-font-family: "Franklin Gothic Medium", Times, serif;
+		font-family: "Franklin Gothic Medium", Times, serif;
     z-index: 1;
 }
 .location-services-type:hover span {
@@ -1480,9 +1395,10 @@ font-family: "Franklin Gothic Medium", Times, serif;
 \*------------------------------------*/
 
 #events-calendar{
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     width: 100%;
 }
+#events-smallcalendar{ display: none;}
 #news { 
   width: 500px;
 }
@@ -1493,12 +1409,16 @@ font-family: "Franklin Gothic Medium", Times, serif;
     font-family: "Georgia", Times, serif;
 }
 .news-article-title {
+		padding-right: 30px;
+	
     font-size: 20px;
     font-weight: 900;
     font-family: "Georgia", Times, serif;
     color: black;
 }
 .news-article-preview {
+		padding-right: 30px;
+	
     font-family: "Georgia", Times, serif;
     font-size: 16px;
 }
@@ -1608,7 +1528,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     width: 100%;
     max-height: 540px;
 }
-#slideshow img{
+#slideshow img,#slideshow-news img{
     width: 100%;
     max-height: 540px;
 }
@@ -1629,22 +1549,25 @@ font-family: "Franklin Gothic Medium", Times, serif;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.slide-info-title{     
+.slide-info-title,.slide-news-info-title{     
     padding-bottom: 5px;   
     border-bottom: 3px solid #70b244;
     color: #3a4e8c;
-    
-    font-size: 55px;
+   
     font-family: "Franklin Gothic Medium", Times, serif;
 }
-.slide-info-subtitle{  
+.slide-info-title{ font-size: 55px;}
+.slide-info-subtitle,.slide-news-info-title{  
     padding-top: 5px;
-    padding-bottom: 40px;
     
     color: #3a4e8c;
     
-    font-size: 35px;
     font-family: "Franklin Gothic Demi", Times, serif;
+}
+.slide-info-subtitle{
+		padding-bottom: 40px;
+	
+		font-size: 35px;
 }
 .slide-info-button{
     display: inline-block;
@@ -1678,7 +1601,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     border: rgba(255, 255, 255, 0.50) solid 2px;
    
     border-radius: 15px;
-    background: url(/images/arrow-right.png) center no-repeat;
+    background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
 }
 .bx-prev {
     position: absolute;
@@ -1688,7 +1611,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     width: 42px;
     height: 50px;
    
-    background: url(/images/slide_prev_arrow.png) no-repeat left top;
+    background: url(/images/slideshow/prev_arrow.png) no-repeat left top;
    
     text-indent: -99999px;
     
@@ -1705,7 +1628,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     width: 42px;
     height: 50px;
     
-    background: url(/images/slide_next_arrow.png) no-repeat left top;
+    background: url(/images/slideshow/next_arrow.png) no-repeat left top;
    
     text-indent: -99999px;
     
@@ -1713,6 +1636,30 @@ font-family: "Franklin Gothic Medium", Times, serif;
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     z-index: 10;
+}
+/*news slideshow*/
+#slideshow-news{
+    position: relative;
+    z-index: 1;
+    width: 10%;
+    max-height: 540px;
+}
+.slide-news-info{
+		position: absolute;
+    
+    width: 95%;
+    left: 2.5%;
+   	bottom: -5%;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.slide-news-info-title{ font-size: 25px;}
+.slide-news-info-subtitle{ 
+	padding-bottom: 20px;
+	
+	font-size: 15px;
 }
 
 /*------------------------------------*\
@@ -1755,24 +1702,8 @@ font-family: "Franklin Gothic Medium", Times, serif;
     \*------------------------------------*/
 
     #explain-newcontent{width: 1000px;}
-    
-    /*------------------------------------*\
-      #Fancy Quote
-    \*------------------------------------*/
-
-    #quote {
-        font-size: 20px;
-    }
-    .large-quote-left {
-        margin: 20px 0 0 10px;
-        
-        font-size: 84px;
-    }
-    .large-quote-right {
-        margin: 0px;
-
-        font-size: 84px;
-    }
+		.explain-button{width: 150px;}
+		.explain-tile{width: 300px;}
     
     /*------------------------------------*\
       #Main Containers
@@ -1828,7 +1759,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
     \*------------------------------------*/
 
     #contact-table-container {
-        margin: 20px 0 auto 0;
+    
 
         width: 1000px;
     }
@@ -1907,7 +1838,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
         float: left;
         width: 14px;
     }
-    #location-bottom-section{ height: 360px;}
+    #location-bottom-section{ height: 295px;}
     #location-details{ width: 634px;}
     .location-services-icon {
         display: inline-block;
@@ -1943,10 +1874,7 @@ font-family: "Franklin Gothic Medium", Times, serif;
         margin: 0 auto;
         width: 600px;
     }
-    #events-calendar{
-        width: 600px;
-        height: 500px;
-    }
+    #events-calendar{height: 500px; }
     #news{ width: 410px;}
   
     /*------------------------------------*\
@@ -2038,20 +1966,43 @@ font-family: "Franklin Gothic Medium", Times, serif;
         margin: 10px auto 0 auto;
         width: 95%;
     }
-    .explain-title { margin: 10px 0;}
-    .explain-firstlargetext,.explain-largetext { 
-      margin: 0;
-      
-      font-size: 14px;
-    }
-    .explain-subtitle { 
+    .explain-title { 
       margin: 10px 0;
       
       font-size: 20px;
-    }
+		}
     .explain-p, 
       #explain-content li{ font-size: 14px;}
     .explain-p { margin-left: 0px;}
+		.explain-button{ display: none;}
+		#explain-twosections-left{
+			float: none;
+
+			margin: 0px auto 20px auto;
+			width: 100%;
+		}
+		#explain-twosections-right{
+			float: none;
+
+			margin: 0 auto;
+			width: 100%;
+		}
+		#explain-twosections-right iframe{
+			width: 100%;
+			height: 300px;
+		}
+		#explain-tiles{
+			margin: 0 auto;
+			width: 95%;
+		}
+		.explain-tile{
+			display: block;
+	
+			margin-top: 20px;
+			width: 95%;
+		}
+		.explain-tile p{font-size: 20px;}
+		.explain-tile img{width: 14px;}
     
     /*------------------------------------*\
       #Main Containers
@@ -2480,37 +2431,6 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #patres-links { display: block;}
     
     /*------------------------------------*\
-      #Fancy Quote
-    \*------------------------------------*/
-
-    #quote {
-        margin: 0 auto 40px auto;
-        width: 95%;
-
-        font-size: 14px;
-    }
-    .quote-text {
-        margin: 0px 0 0 20px;
-        height: auto;
-        width: 90%;   
-    }
-    .large-quote-left {
-        float: left;
-
-        height: 35px; 
-
-        font-size: 50px;
-    }
-    .large-quote-right {
-        float: right;
-
-        margin: 0 25px 0 0;
-        height: 30px; 
-
-        font-size: 50px;
-    }
-    
-    /*------------------------------------*\
       #FAQs
     \*------------------------------------*/
     
@@ -2697,10 +2617,14 @@ font-family: "Franklin Gothic Medium", Times, serif;
         margin: 0 auto;
         width: 95%;
     }
-    #events-calendar{
-        width: 100%;
-        height: 500px;
-    }
+		#events-calendar{ display: none;}
+		#events-smallcalendar{ 
+				display: block;
+			
+				margin: 15px 0;
+				width: 100%;
+				height: 300px;
+		}
     #news { 
           margin: 0 auto;
           width: 98%;
@@ -2772,17 +2696,20 @@ font-family: "Franklin Gothic Medium", Times, serif;
       #Slideshow
     \*------------------------------------*/
     .bx-wrapper { overflow: hidden;}
-    .slide-info {
+    .slide-info, .slide-news-info {
         position: relative;
 
-        top: 71px;
         left: 0;
-        height: 100%;
-        width: 100%;
-            
-        background: #d9f1ff;
+				bottom: -40px;
+        height: auto;
+				width: 100%;
+
+				background: #d9f1ff;
     }
+	  .slide-info{ top: 69px;}
     .slide-info-block {
+			  border-radius: 0px;
+			
         background-color: #d9f1ff;
     }
     .slide-info-title { font-size: 20px;}

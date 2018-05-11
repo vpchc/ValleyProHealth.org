@@ -42,12 +42,17 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <p id="location-indextitle">Locations</p>
+<main id="masterbox-nonfixed">
+	<div id="banner">
+    <img src="/images/banner/locations_index.jpg">
+    <div id="banner-title">
+      <p>Locations</p>
+    </div>
+  </div>
   <div id="explain-newcontent">
     <p class="explain-title vpchcblue">Welcome to Valley Professionals</p>
-    <p class="explain-p">Valley Professionals is proud to serve the Montgomery, Parke, Vermillion, and Vigo county communities.  Our clinics provide comprehensive integrated healthcare to all individuals and families regardless of ability to pay.</p>
-    <p class="explain-subtitle vpchcgreen">Find the Caring Professionals in Your Community</p>
+    <p class="explain-p">Valley Professionals is proud to serve the Montgomery, Parke, Vermillion, and Vigo county communities.  Our clinics provide comprehensive integrated healthcare to all individuals and families.</p>
+    <p class="explain-title vpchcgreen">Find the Caring Professionals in Your Community</p>
     <p class="explain-p">Enter your ZIP code into the box below to locate which Valley Professionals Community Health Center location is closest to you.  For more information on a given location and the services available, visit the locations tab.</p>
   </div>
   <div id="store-locator-container">

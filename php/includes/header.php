@@ -1,17 +1,17 @@
 <div id="head-wrap">
     <div id="head-img-container">
-      <img id="header-img" src="/images/10yearlogo.png" alt="menu" srcset="/images/10yearlogo.svg"/>
+      <img id="header-img" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/>
     </div>
     <div id="navlinks-subcontainer">
-      <img id="navlinks-mobile-icon" src="/images/mobile_menu.png" alt="menu" srcset="/images/mobile_menu.svg"/>
+      <img id="navlinks-mobile-icon" src="/images/header/mobile_menu.png" alt="menu" srcset="/images/header/mobile_menu.svg"/>
     </div>
     <div id="head-social-container">
       <div id="head-social-subcontainer">
       <p>Connect with us</p> 
       </div>
       <div id="head-social-icons">
-      <a href="https://www.facebook.com/vpchc"><img src="/images/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
-      <a href="https://twitter.com/ValleyProHealth"><img src="/images/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
+      <a href="https://www.facebook.com/vpchc"><img src="/images/header/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
+      <a href="https://twitter.com/ValleyProHealth"><img src="/images/header/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/after-hours_clinic.php">After-Hours Clinic</a>
-        <a href="/services/forms.php">Forms</a>
+        <a href="/forms/">Forms</a>
         </div>
       </li>
       <li id="contact" class="dropdown">
@@ -64,6 +64,9 @@
       </li>
       <li id="patientportal" class="dropdown">
         <a class="navlink-category" href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp">Patient Portal</a>
+      </li>
+			<li id="careers" class="dropdown">
+        <a class="navlink-category" href="/careers/">Careers</a>
       </li>
     </ul>
   </div>
@@ -97,14 +100,14 @@
         <a href="/services/behavioral_health.php">Behavioral Health</a>
         <a href="/services/patient_support.php">Patient Support</a>
         <a href="/services/after-hours_clinic.php">After-Hours Clinic</a>
-        <a href="/services/forms.php">Forms</a>
+        <a href="/forms/">Forms</a>
       </div>
     <div class="navlinks-mobile-section"><p>Contact Us</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
         <a href="/contact_us/">Contact Us</a>
         <a href="/faqs/">Frequently Asked Questions</a>
-        <a href="/careers">Careers</a>
       </div>
     <a href="/services/patient_resources.php"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
     <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
+		<a href="/careers/"><div class="navlinks-mobile-section"><p>Careers</p><span>></span></div></a>
   </div>

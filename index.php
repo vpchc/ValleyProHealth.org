@@ -50,7 +50,7 @@
 <main id="masterbox-home">
 <div id="slideshow">
   <div class="slide">
-    <img src="/images/patient_portal_slideshow.jpg">
+    <img src="/images/homepage/slideshow/patient_portal.jpg">
     <div class="slide-info">
       <div class="slide-info-block">
         <p class="slide-info-title">Get connected</p>
@@ -60,7 +60,7 @@
     </div>
   </div>
   <div class="slide">
-    <img src="/images/staff_rockville.jpg">
+    <img src="/images/homepage/slideshow/staff_rockville.jpg">
     <div class="slide-info">
       <div class="slide-info-block">
         <p class="slide-info-title">Now serving the Rockville community</p>
@@ -70,7 +70,7 @@
     </div>
   </div>
   <div class="slide">
-    <img src="/images/chw_coverage.jpg">
+    <img src="/images/homepage/slideshow/chw_coverage.jpg">
     <div class="slide-info">
       <div class="slide-info-block">
         <p class="slide-info-title">Are you covered?</p>
@@ -80,7 +80,7 @@
     </div>
   </div>
   <div class="slide">
-    <img src="/images/bike_program.jpg">
+    <img src="/images/homepage/slideshow/bike_program.jpg">
     <div class="slide-info">
       <div class="slide-info-block">
         <p class="slide-info-title">Are you up-to-date on your immunizations?</p>
@@ -92,20 +92,20 @@
 </div>
 <div id="home-info-about">
   <div id="home-info-about-left">
-    <img id="home-info-hands" src="/images/ps_icon.png"\ alt="VPCHC Volunteer Example">
-    <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits schools in Parke and Vermillion counties</p>
+    <img id="home-info-hands" src="/images/services/ps_icon.png" alt="VPCHC Volunteer Example">
+    <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits local schools.</p>
   </div>
   <div id="home-info-about-right">
-    <img id="home-info-ecw" src="/images/eCW_Flier.jpg"\>
+    <img id="home-info-ecw" src="/images/homepage/10years_thankyou.jpg"\>
   </div>
 </div>
 <div id="home-info-buttons">
-  <div id="home-info-button-career" class="home-info-button"><a class="home-info-button-link" href="/careers/"><img src="/images/career_button.jpg"/></a>
+  <div id="home-info-button-career" class="home-info-button"><a class="home-info-button-link" href="/careers/"><img src="/images/homepage/career_button.jpg"/></a>
   </div>
-  <div id="home-info-button-location" class="home-info-button"><a href="locations/"><img src="/images/location_button.jpg"></a>
+  <div id="home-info-button-location" class="home-info-button"><a href="locations/"><img src="/images/homepage/location_button.jpg"></a>
   </div>
-  <div id="home-info-button-events" class="home-info-button"><a href="/about_us/news_&_events.php"><img src="/images/events_button.jpg"/></a></div>
-  <div id="home-info-button-providers" class="home-info-button"><a href="/about_us/providers_&_team.php"><img src="/images/team_button.jpg"/></a>
+  <div id="home-info-button-events" class="home-info-button"><a href="/about_us/news_&_events.php"><img src="/images/homepage/events_button.jpg"/></a></div>
+  <div id="home-info-button-providers" class="home-info-button"><a href="/about_us/providers_&_team.php"><img src="/images/homepage/team_button.jpg"/></a>
   </div>
 </div>
 </main>

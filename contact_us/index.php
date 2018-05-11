@@ -52,21 +52,21 @@
   <table id="contact-table">
     <tr>
       <td>
-       <a href="/bloomingdale/"><img id="banner-pic"  src="/images/bloomingdale_location.jpg" alt="Bloomingdale"/></a>
+       <a href="/bloomingdale/"><img id="banner-pic"  src="/images/locations_small/bloomingdale.jpg" alt="Bloomingdale"/></a>
        <p class="contact-location vpchcgreen">Bloomingdale</p>
        <p class="contact-info contact-info-street">201 W Academy Street</p>
        <p class="contact-info contact-info-state">Bloomingdale, IN 47832</p>
        <p class="contact-info">(765) 498-9000</p>
       </td>
       <td>
-       <a href="/cayuga/"><img id="banner-pic"  src="/images/cayuga_location.jpg" alt="Cayuga"/></a>
+       <a href="/cayuga/"><img id="banner-pic"  src="/images/locations_small/cayuga.jpg" alt="Cayuga"/></a>
        <p class="contact-location vpchcgreen">Cayuga</p>
        <p class="contact-info contact-info-street">703 W Park Street</p>
        <p class="contact-info contact-info-state">Cayuga, IN 47928</p>
        <p class="contact-info">(765) 498-9042</p>
       </td> 
       <td>
-       <a href="/clinton/"><img id="banner-pic"  src="/images/clinton_location.jpg" alt="Clinton"/></a>
+       <a href="/clinton/"><img id="banner-pic"  src="/images/locations_small/clinton.jpg" alt="Clinton"/></a>
        <p class="contact-location vpchcgreen">Clinton</p>
        <p class="contact-info contact-info-street">777 S Main Street, #100</p>
        <p class="contact-info contact-info-state">Clinton, IN 47842</p>
@@ -75,21 +75,21 @@
     </tr>
     <tr>
       <td>
-       <a href="/crawfordsville/"><img id="banner-pic"  src="/images/crawfordsville_location.jpg" alt="Crawfordsville"/></a>
+       <a href="/crawfordsville/"><img id="banner-pic"  src="/images/locations_small/crawfordsville.jpg" alt="Crawfordsville"/></a>
        <p class="contact-location vpchcgreen">Crawfordsville</p>
        <p class="contact-info contact-info-street">1810 Lafayette Road</p>
        <p class="contact-info contact-info-state">Crawfordsville, IN 47933</p>
        <p class="contact-info">(765) 362-5100</p>
       </td>
       <td>
-       <a href="/rockville/"><img id="banner-pic"  src="/images/rockville_location.jpg" alt="Rockville"/></a>
+       <a href="/rockville/"><img id="banner-pic"  src="/images/locations_small/rockville.jpg" alt="Rockville"/></a>
        <p class="contact-location vpchcgreen">Rockville</p>
        <p class="contact-info contact-info-street">727 Lincoln Rd</p>
        <p class="contact-info contact-info-state">Rockville, IN 47842</p>
        <p class="contact-info">(765) 569-1123</p>
       </td> 
       <td>
-       <a href="/terrehaute"><img id="banner-pic"  src="/images/terrehaute_location.jpg" alt="Terre Haute"/></a>
+       <a href="/terrehaute"><img src="/images/locations_small/terrehaute.jpg" alt="Terre Haute"/></a>
        <p class="contact-location vpchcgreen">Terre Haute</p>
        <p class="contact-info contact-info-street">1530 N 7th Street, #201</p>
        <p class="contact-info contact-info-state">Terre Haute, IN 47807</p>
@@ -99,7 +99,7 @@
     <tr>
       <td></td>
       <td>
-       <a href="/mobile/"><img id="banner-pic"  src="/images/mobile_bus_small.png" alt="Mobile Health Center"/></a>
+       <a href="/mobile/"><img id="banner-pic"  src="/images/locations_small/msbhc.jpg" alt="Mobile Health Center"/></a>
        <p class="contact-location vpchcgreen">Mobile Health Center</p>
        <p class="contact-info contact-info-street">(765) 592-6164</p>
        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
@@ -110,12 +110,6 @@
   <div id="contact-questions">
     <p id="contact-questions-title" class="vpchcblue">Have a question?</p>
     <p id="contact-questions-content">Check out our FAQs section <a href="faqs.php">here</a>.</p>
-  </div>
-  <div id="quote">
-    <p class="large-quote-left vpchcgreen">&ldquo;</p>
-    <p class="quote-text">
-    Valley Professionals Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
-    <p class="large-quote-right vpchcgreen">&rdquo;</p>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -43,22 +43,17 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Certified Medical Assistant - Rockville</h2>
+  <h2>Call Center - Cayuga</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is hiring a Certified Medical Assistant (CMA) for its Rockville office to float between the front office and the back office.</p>
+    <p>Valley Professionals Community Health Center is seeking a Call Center Representative at our Cayuga location.</p>
     <p>Duties:</p>
-    <li>Providing professional nursing services and patient care</li>
-    <li>Patient assessment</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider with minor procedures</li>
-    <li>Answering phone calls</li>
-    <li>Scheduling patients and checking-in patients</li>
-    <p>Requirements:</p>
-    <li>Current certification as a Medical Assistant</li>
-    <li>Two to three years primary care experience preferred</li>
+    <li>Responsible for answering and directing phone calls</li>
+    <li>Scheduling patient appointments</li>
+    <li>Entering patient information</li>
+    <li>Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_1.php" name="referer">
+    <input type="hidden" value="job_listing_3.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -79,7 +74,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Certified Medical Assistant - Rockville">
+        <input type="hidden" name="subject" value="Call Center - Cayuga">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
