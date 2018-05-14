@@ -40,7 +40,7 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><?php include("../../../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>News Article</h1>
   <h2>Health Center Celebrates 10 Years of Serving Communities</h2>
@@ -56,7 +56,7 @@
     <p>Valley Professionals is thankful for continued support of our mission to create healthier communities in the Wabash Valley.</p>
   </div>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<footer><?php include("../../../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

@@ -53,6 +53,18 @@
     <a href="#2012"><button class="sidebar-section small-bar">2012</button></a>
   </div>
   <div id="archive-content">
+  <p id="2018" class="section-title">2018</p>
+  <hr>
+  <div class="news-article">
+    <p class="news-article-title">January 30, 2018 - Health Center Celebrates 10 Years of Serving Communities</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.</p>
+    <a href="/archive/news/2018/01_23.php">See Full Article</a>
+  </div>  
+  <div class="news-article">
+    <p class="news-article-title">January 23, 2018 - Health Center Receives Perfect Score in Federal Review</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review.</p>
+    <a href="/archive/news/2018/01_23.php">See Full Article</a>
+  </div>  
   <p id="2017" class="section-title">2017</p>
   <hr>
   <div class="news-article">
