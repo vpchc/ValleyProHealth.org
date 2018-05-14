@@ -45,6 +45,7 @@
 <h1>News Archive</h1>
   <div id="sidebar" class="small-sidebar">
     <a href="/index.php"><button class="sidebar-section small-bar">Home</button></a>
+    <a href="#2018"><button class="sidebar-section small-bar">2018</button></a>
     <a href="#2017"><button class="sidebar-section small-bar">2017</button></a>
     <a href="#2016"><button class="sidebar-section small-bar">2016</button></a>
     <a href="#2015"><button class="sidebar-section small-bar">2015</button></a>
