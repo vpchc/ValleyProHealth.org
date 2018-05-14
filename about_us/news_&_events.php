@@ -53,14 +53,14 @@
 	<div id="explain-twosections-left">
   <p class="explain-title vpchcgreen">News</p>
   <div class="news-article">
-    <p class="news-article-title">Screening Mammogram Funds Available at Health Center</p>
-    <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person’s survival rate? <a href="/about_us/news_article.php">Read More.</a></p>
+    <p class="news-article-title">Operational Site Visit</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review. <a href="/about_us/news_article.php">Read More.</a></p>
   </div>
   <a href="/archive/news/">Click here to view all news stories</a>
   <p class="explain-title vpchcgreen">Announcements</p>
   <div class="news-article">
-    <p class="news-article-title">Local Partnership to Increase Health Care Services</p>
-    <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville. <a href="/about_us/announcement_article.php">Read More.</a></p>
+    <p class="news-article-title">VPCHC 10 year</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.<a href="/about_us/announcement_article.php">Read More.</a></p>
   </div>
 	</div>
 	<div id="explain-twosections-right">

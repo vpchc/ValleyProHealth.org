@@ -40,20 +40,20 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><?php include("../../../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>News Article</h1>
-  <h2>Health Center Receives Perfect Score in Federal Review</h2>
-  <h2 id="page-tinytitle">January 23, 2018</h2>
+  <h2>Health Center Earns National Recognition</h2>
+  <h2 id="page-tinytitle">June 5, 2017</h2>
   <div id="archive-news-section">
-    <p>Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review.</p>
-    <p>Operational Site Visits are conducted to ensure federally funded health centers comply with Health Center Program requirements through oversight by HRSA’s Bureau of Primary Health Care. Areas reviewed during the visit include financial and clinical management, operations, monitoring and reporting, governance, and quality improvement.</p>
-    <p>Federal reviewers spent a total of three days on site at Valley Professionals, allowing a full overview of the health center’s operations. The final report revealed Valley Professionals successfully scored a perfect 19 out of the 19 health center program requirements. Valley Professionals completed their last Operational Site Visit in 2014, as most health centers generally complete a site visit every three years for funding eligibility.</p>
-    <p>&ldquo;On average, community health centers score a 14 or 16 during this extensive review. So, for us to achieve a perfect score truly demonstrates a highly committed and functioning team at VPCHC,&ldquo; says T.J. Warren, CEO of Valley Professionals. &ldquo;I would also like to thank our wonderful board of directors for their hard work and dedication throughout the year.&ldquo;</p>
-    <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to providing integrated health care and related services for all individuals and families, serving Montgomery, Parke, Vermillion and Vigo counties and surrounding areas. For more information, visit <a href = "https://www.valleyprohealth.org">www.valleyprohealth.org.</a></p>
+    <p>Valley Professionals Community Health Center (VPCHC) recently received recognition through the National Committee for Quality Assurance (NCQA) as a Level 3 Patient-Centered Medical Home for its Crawfordsville facility in May.  NCQA Patient-Centered Medical Home (PCMH) Recognition is the most widely-adopted model for transforming primary care practices into medical homes for patients.</p>
+    <p>The NCQA’s Patient-Centered Medical Home is an innovative program for improving primary care and is structured as a health care setting that facilitates partnerships between individual patients and their personal physicians, and when appropriate, the patient’s family. The Valley Professionals Clinton facility received Level 3 recognition in October 2013.</p>
+    <p>In order to receive this recognition, Valley Professionals met rigorous standards set forth by NCQA concerning patient access to care, care coordination, continuity of care and accountability, as well as quality and safety. This 12-15 month-long project included the review of all clinic policies and procedures, as well as the creation and review of many reports on performance outcomes. Some changes that our patient’s may notice include increased access through same day appointment availability, patient education on disease management, and assistance with self-management of chronic conditions.</p>
+    <p>&rdquo;I’m very proud to belong to an organization that is accredited by NCQA as a Patient-Centered Medical Home at all of our Valley Professionals sites. Our staff has proven to have the passion and dedication to accomplish high levels of quality for our patients,&rdquo; stated Valley Professionals CEO, T.J. Warren.</p>
+    <p>Valley Professionals is a Federally Qualified Health Center (FQHC) that provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals. Valley Professionals provides primary care, behavioral health, dental and resource services to the citizens of Montgomery, Parke, Vermillion and Vigo counties, and surrounding communities.</p>
   </div>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<footer><?php include("../../../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

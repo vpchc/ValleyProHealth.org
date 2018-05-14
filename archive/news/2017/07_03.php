@@ -40,20 +40,19 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><?php include("../../../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>News Article</h1>
-  <h2>Health Center Receives Perfect Score in Federal Review</h2>
-  <h2 id="page-tinytitle">January 23, 2018</h2>
+  <h2>Patient Immunization Program </h2>
+  <h2 id="page-tinytitle">July 3, 2017</h2>
   <div id="archive-news-section">
-    <p>Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review.</p>
-    <p>Operational Site Visits are conducted to ensure federally funded health centers comply with Health Center Program requirements through oversight by HRSA’s Bureau of Primary Health Care. Areas reviewed during the visit include financial and clinical management, operations, monitoring and reporting, governance, and quality improvement.</p>
-    <p>Federal reviewers spent a total of three days on site at Valley Professionals, allowing a full overview of the health center’s operations. The final report revealed Valley Professionals successfully scored a perfect 19 out of the 19 health center program requirements. Valley Professionals completed their last Operational Site Visit in 2014, as most health centers generally complete a site visit every three years for funding eligibility.</p>
-    <p>&ldquo;On average, community health centers score a 14 or 16 during this extensive review. So, for us to achieve a perfect score truly demonstrates a highly committed and functioning team at VPCHC,&ldquo; says T.J. Warren, CEO of Valley Professionals. &ldquo;I would also like to thank our wonderful board of directors for their hard work and dedication throughout the year.&ldquo;</p>
-    <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to providing integrated health care and related services for all individuals and families, serving Montgomery, Parke, Vermillion and Vigo counties and surrounding areas. For more information, visit <a href = "https://www.valleyprohealth.org">www.valleyprohealth.org.</a></p>
+    <p>Valley Professionals Community Health Center is recognizing young patients who are up-to-date on their health through a recently developed program that allows children and teens to be rewarded for receiving their annual well-child examination and are current on vaccinations. </p>
+    <p>Patients who visit their primary care provider for an annual well-child visit and are up-to-date on their vaccinations will be entered into a drawing during the month of their visit to win a brand-new bike.  One winner is selected each month for the organization, which includes health centers in Bloomingdale, Cayuga, Clinton, Crawfordsville, Rockville, Terre Haute, and Mobile School-Based Health Center.</p>
+    <p>To date, five patients ranging from ages four years to 16 years have won a new bicycle and helmet from Valley Professionals. Schedule a well-child exam for your child by contacting a Valley Professionals clinic.</p>
+    <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to providing comprehensive primary health care and related services for all individuals and families. Valley Professionals provides primary care, behavioral health, dental, and resource services.  Medicaid, Medicare, marketplace and commercial insurance, sliding fee scale and self-pay accepted.</p>
   </div>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<footer><?php include("../../../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

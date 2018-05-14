@@ -45,6 +45,7 @@
 <h1>News Archive</h1>
   <div id="sidebar" class="small-sidebar">
     <a href="/index.php"><button class="sidebar-section small-bar">Home</button></a>
+    <a href="#2017"><button class="sidebar-section small-bar">2017</button></a>
     <a href="#2016"><button class="sidebar-section small-bar">2016</button></a>
     <a href="#2015"><button class="sidebar-section small-bar">2015</button></a>
     <a href="#2014"><button class="sidebar-section small-bar">2014</button></a>
@@ -52,6 +53,33 @@
     <a href="#2012"><button class="sidebar-section small-bar">2012</button></a>
   </div>
   <div id="archive-content">
+  <p id="2017" class="section-title">2017</p>
+  <hr>
+  <div class="news-article">
+    <p class="news-article-title">October 25, 2017 - Screening Mammogram Funds Available at Health Center</p>
+    <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate?</p>
+    <a href="/archive/news/2017/10_25.php">See Full Article</a>
+  </div>  
+  <div class="news-article">
+    <p class="news-article-title">June 16, 2017 - Screening Mammogram Funds Available at Health Center</p>
+    <p class="news-article-preview">Have you or someone you know, been diagnosed with breast cancer? Are you aware of the importance of early detection with breast cancer, which can increase a person's survival rate?</p>
+    <a href="/archive/news/2017/06_16.php">See Full Article</a>
+  </div>   
+  <div class="news-article">
+    <p class="news-article-title">June 05, 2017 - Health Center Earns National Recognition</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center (VPCHC) recently received recognition through the National Committee for Quality Assurance (NCQA) as a Level 3 Patient-Centered Medical Home for its Crawfordsville facility in May.</p>
+    <a href="/archive/news/2017/06_05.php">See Full Article</a>
+  </div>
+  <div class="news-article">
+    <p class="news-article-title">June 05, 2017 - Health Center Earns National Recognition</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center (VPCHC) recently received recognition through the National Committee for Quality Assurance (NCQA) as a Level 2 Patient-Centered Medical Home for its Terre Haute facility in May.</p>
+    <a href="/archive/news/2017/06_05_1.php">See Full Article</a>
+  </div>
+  <div class="news-article">
+    <p class="news-article-title">March 27, 2017 - Local Partnership to Increase Health Care Services</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center is expanding its clinic locations by partnering with Waltz Family Practice in Rockville.</p>
+    <a href="/archive/news/2017/03_27.php">See Full Article</a>
+  </div>  
   <p id="2016" class="section-title">2016</p>
   <hr>
 	<div class="news-article">
