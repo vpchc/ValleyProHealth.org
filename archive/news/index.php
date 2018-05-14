@@ -59,7 +59,7 @@
   <div class="news-article">
     <p class="news-article-title">January 30, 2018 - Health Center Celebrates 10 Years of Serving Communities</p>
     <p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.</p>
-    <a href="/archive/news/2018/01_23.php">See Full Article</a>
+    <a href="/archive/news/2018/01_30.php">See Full Article</a>
   </div>  
   <div class="news-article">
     <p class="news-article-title">January 23, 2018 - Health Center Receives Perfect Score in Federal Review</p>
