@@ -22,8 +22,8 @@
   </div>
 </div>
 <div id="footer-icons">
-  <img src="/images/fqhc_logo.jpg" alt="FQHC Logo"/>
-  <img src="/images/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
+  <img src="/images/footer/fqhc_logo.jpg" alt="FQHC Logo"/>
+  <img src="/images/footer/ncqa_pcmh_logo.png" alt="NCQA PCMH Logo"/>
 </div>
 <div id="sitemap">
   <div class="sitemap-section">
@@ -62,6 +62,9 @@
   </div>
   <div class="sitemap-section">
     <a class="sitemap-section-title" href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+  </div>
+	<div class="sitemap-section">
+    <a class="sitemap-section-title" href="/careers/">Careers</a>
   </div>
 </div>
 <div id="footer-disclaimer" class="vpchcgrey">

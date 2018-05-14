@@ -80,6 +80,10 @@
       <span class="timeline-year">2017</span>
       <p><span class="timeline-month-green">April</span></br>New Valley Professionals Community Health Center clinic opens in Rockville.</p>
     </div>
+ 		<div class="timeline">
+      <span class="timeline-year">2018</span>
+      <p><span class="timeline-month-blue">Feburary</span></br>Valley Professionals Community Health Center celebrates its 10th anniversary.</p>
+    </div>
   </div>
   <div id="history-continued"></div>
 </main>

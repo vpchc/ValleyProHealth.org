@@ -126,7 +126,31 @@
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Dr. Fitzsimmons enjoys film and running.  He is an avid Star Wars fanatic. He believes prevention is the best medicine.He serves our country as a doctor in the Air Force Reserve. He chose to work at our FQHC due to our many in house services. </p>
           </div>
-          <p class="tab-box-location">Currently providing care in Bloomingdale, Clinton, Crawfordsville and Rockville</p>
+          <p class="tab-box-location">Currently providing care in Bloomingdale, Clinton, and Crawfordsville</p>
+        </div>
+      </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Dr. Patrick Foley, MD</p>
+      </div>
+      <div class="tab-box tab-box-large">
+        <div class="tab-box-pic">
+            <img src="/images/providers/foley.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Physician</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Loyola University - Zoology</li>
+            <li>IU Med School </li>
+            <li>St Vincent Indianapolis Residency Program</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Dr. Foley enjoys reading, biking, traveling, water sports and being outdoors.  He chose to work at Valley Professionals because he believes in our mission of integrated care where the patient's needs come first.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
       </div>
     </div>
@@ -212,6 +236,29 @@
           <p class="tab-box-bio-personal">Leslie is married with 2 daughters. She is active in her church, enjoys spending time with her family, watching her daughters in their many sporting events, and photography.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Terre Haute</p>
+        </div>
+      </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Jessica Bekkering, FNP-C</p>
+      </div>
+      <div class="tab-box tab-box-medium">
+        <div class="tab-box-pic">
+          <img src="/images/providers/bekkering.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Nurse Practitioner</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana State University - MSN</li>
+            <li>Chamberlain College of Nursing - BSN</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Jessica began her journey in medical field 16 years ago as medic in the Air Force. She was born and raised in Dana, IN and after several years and many moves she is excited to be settled back and providing care close to her hometown.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Rockville</p>
         </div>
       </div>
     </div>
@@ -421,6 +468,29 @@
           <p class="tab-box-location">Currently providing care in Terre Haute</p>
         </div>
       </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Brandie Ruark, FNP-C</p>
+      </div>
+      <div class="tab-box tab-box-medium">
+        <div class="tab-box-pic">
+          <img src="/images/providers/ruark.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Nurse Practitioner</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana Wesleyan University - BSN</li>
+            <li>Indiana Wesleyan University - MSN</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">As a lifelong resident of Parke county, Brandie looks forward to serving the healthcare needs of the community she calls home. Brandie enjoys time with family, traveling, hiking, gardening and has a general love for nature.  </p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Rockville</p>
+        </div>
+      </div>
     </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
@@ -464,7 +534,7 @@
           <p class="tab-box-bio-title-personal">Personal</p>
           <p class="tab-box-bio-personal">Louwanna has been in the healthcare field more than 40 years and enjoys providing health care in a rural clinic setting In her free time, she enjoys spending time with family, hunting, reading, and music.</p>
           </div>
-          <p class="tab-box-location">Currently providing care in Rockville</p>
+          <p class="tab-box-location">Currently providing care in Bloomingdale</p>
         </div>
       </div>
     </div>  
@@ -519,7 +589,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Gary Anderson, LMHC</p>
+        <p class="tab-name tab-name-large">Gary Anderson, MS</p>
       </div>
       <div class="tab-box tab-box-xlarge">
         <div class="tab-box-pic">
@@ -539,6 +609,29 @@
           <p class="tab-box-location">Currently providing care in Clinton</p>
         </div>
       </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar tab-prov">
+        <p class="tab-name tab-name-large">Misha Bennett, LCSW</p>
+      </div>
+      <div class="tab-box tab-box-xlarge">
+        <div class="tab-box-pic">
+          <img src="/images/providers/bennet.jpg">
+        </div>
+        <div class="tab-box-text">
+          <div class="tab-box-title"><p>Licensed Clinical<br>Social Worker</p></div>
+          <div class="tab-box-bio">
+          <p class="tab-box-bio-title-education">Education</p>
+          <ul>
+            <li>Indiana University - BSW</li>
+            <li>Indiana University - MSW</li>
+          </ul>
+          <p class="tab-box-bio-title-personal">Personal</p>
+          <p class="tab-box-bio-personal">Misha believes therapy works best when it is a collaborative process and she enjoys watching clients reach or exceed their personal goals. In her spare time, she enjoys travel, hiking, local festivals and spending time with friends and family, which includes her geriatric cat.</p>
+          </div>
+          <p class="tab-box-location">Currently providing care in Crawfordsville</p>
+        </div>
+      </div>
     </div> 
     <div class="tab">
       <div class="tab-bar tab-prov">
@@ -549,7 +642,7 @@
           <img src="/images/providers/detwiler.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Mental Health Counselor</p></div>
+					<div class="tab-box-title"><p>Mental Health Counselor</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -640,7 +733,7 @@
           <img src="/images/providers/neitling.jpg">
          </div>
          <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor Associate</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -773,14 +866,14 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dana Tinkle, LMHC</p>
+        <p class="tab-name tab-name-large">Dana Tinkle, LMHC, RPT</p>
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
           <img src="/images/providers/tinkle.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p><p>Registered Play Therapist</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -788,7 +881,7 @@
             <li>Indiana State University - BS</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dana is currently working towards becoming a Registered Play Therapist. She works with clients of all ages and mental health concerns, and has a strong clinical interest in childhood trauma treatment. Dana is married and enjoys traveling with her husband. Her hobbies include reading, fitness classes, and listening to music. She also loves to spend time with her friends and family.</p>
+          <p class="tab-box-bio-personal">Dana is currently working towards becoming a Registered Play Therapist. Dana works with clients of all ages and mental health concerns, and has a strong clinical interest in childhood trauma treatment. Dana is married and enjoys traveling with her husband. Her hobbies include reading, fitness classes, and listening to music. She also loves to spend time with her friends and family.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Crawfordsville</p>
         </div>
@@ -796,14 +889,14 @@
     </div>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Heather Woods, LMHCA</p>
+        <p class="tab-name tab-name-large">Heather Woods, LMHC</p>
       </div>
       <div class="tab-box tab-box-jumbo">
         <div class="tab-box-pic">
           <img src="/images/providers/woods.jpg">
         </div>
         <div class="tab-box-text">
-          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor Associates</p></div>
+          <div class="tab-box-title"><p>Licensed Mental<br>Health Counselor</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
@@ -915,7 +1008,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Tiffani Martin<span>Human Resources & Compliance</span></p>
+        <p class="tab-simple">Tiffani Martin, JD<span>Human Resources & Compliance</span></p>
       </div>
     </div>
     <div class="tab">
@@ -930,12 +1023,12 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Julia Wernz<span>Director of Behavioral Health</span></p>
+        <p class="tab-simple">Dr. Julia Wernz<span>Director of Behavioral Health</span></p>
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar team-admin">
-        <p class="tab-simple">Nicole Hall<span>Director of Clinical Programs</span></p>
+        <p class="tab-simple">Nicole Hall, FNP-C<span>Director of Clinical Programs</span></p>
       </div>
     </div>
     <h3 id="man">Managers</h3>

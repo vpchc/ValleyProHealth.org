@@ -131,18 +131,18 @@ $(document).ready(function(){
   // Display the status
   if($status === 1){
     document.getElementById("bus-status").innerHTML = "Open";
-    document.getElementById("bus-status-icon").src="/images/bus_tracker_status_green.png";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_green.png";
   }else if($status === 2){
     document.getElementById("bus-status").innerHTML = "Opening Soon";
-    document.getElementById("bus-status-icon").src="/images/bus_tracker_status_yellow.png";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
   }else if($status === 3){
     document.getElementById("bus-status").innerHTML = "En Route";
-    document.getElementById("bus-status-icon").src="/images/bus_tracker_status_yellow.png";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
   }else if($status === 4){
     document.getElementById("bus-status").innerHTML = "Closing Soon";
-    document.getElementById("bus-status-icon").src="/images/bus_tracker_status_yellow.png";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
   }else{
     document.getElementById("bus-status").innerHTML = "Closed";
-    document.getElementById("bus-status-icon").src="/images/bus_tracker_status_red.png";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_red.png";
   }
 });

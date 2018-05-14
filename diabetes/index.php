@@ -41,35 +41,33 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic"  src="/images/healthcare_pic.jpg" alt="Diabetes Banner"/>
-    </div>
-    <div id="banner-right">
-      <h1 id="banner-title" class="banner-title-long vpchcgreen">Diabetes </br>Support Group</h1>
+<main id="masterbox-nonfixed">
+	<div id="banner">
+    <img src="/images/banner/about_us_news&events.jpg">
+    <div id="banner-title">
+      <p>Diabetes Support Group</p>
     </div>
   </div>
   <div id="explain-content">
     <p class="explain-title vpchcblue">Are you Diabetic?</p>
     <p class="explain-p">Valley Professionals holds monthly Diabetes Support Group meetings that are completely free and open to anyone who is affected by Diabetes, even if you are not a patient with Valley Professionals.</p>
-    <p class="explain-subtitle vpchcgreen">Sharing Tips for Successfully Managing your Diabetes</p>
+    <p class="explain-title vpchcgreen">Sharing Tips for Successfully Managing your Diabetes</p>
     <p class="explain-p">Meetings will cover topics that include:</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Healthy eating and snacking</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Grocery shopping tips</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Reading food labels</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Staying Active</li>
-    <p class="explain-subtitle vpchcgreen">Get to Know the Signs & Symptoms</p>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Healthy eating and snacking</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Grocery shopping tips</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Reading food labels</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Staying Active</li>
+    <p class="explain-title vpchcgreen">Get to Know the Signs & Symptoms</p>
     <p class="explain-p">Part of managing diabetes is getting to know the signs, symptoms, and ways to avoid low blood sugar (hypoglycemia).</p>
-    <p class="explain-subtitle">3rd Tuesday of every month</p>
-    <p class="explain-subtitle">Next meeting: Jan 3rd</p>
-    <p class="explain-subtitle">No RSVP or Registration required.</p>
+    <p class="explain-title">3rd Tuesday of every month</p>
+    <p class="explain-title">Next meeting: Jan 3rd</p>
+    <p class="explain-title">No RSVP or Registration required.</p>
     <p class="explain-p"><span class="vpchcblue">Morning Session</span>: <b>10am - 11am</b></p>
     <p class="explain-p"><span class="vpchcblue">Evening Session</span>: <b>6pm - 7pm</b></p>
     </br>  
   </div>
   <p class="explain-p">For evening sessions we meet at 700 S Main Street across from our Clinton office.</p>
-  <p class="explain-subtitle vpchcgreen">Diabetes Tips & Recipes</p>
+  <p class="explain-title vpchcgreen">Diabetes Tips & Recipes</p>
   <p class="explain-p">Click <a href="tips.php">here</a> to access some quick tips and <a href="recipes.php">here</a> for some of the delicious recipes that have been featured at our meetings.</p>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -44,16 +44,16 @@
 <main id="masterbox">
   <p id="location-title">Terre Haute</p>
   <div id="location-top-section">
-    <img id="location-photo" src="/images/banner_location_terrehaute.jpg"/>
+    <img id="location-photo" src="/images/locations/banner_terrehaute.jpg"/>
     <div id="location-info">
       <p class="location-subtitle">CONTACT US</p>
       <p>1530 N 7th Street, Suite 201<br/>Terre Haute, IN 47807</p>
       <div class="location-info-contact">
-        <img class="location-info-icon" src="/images/icon_phone.png" alt="phone number">
+        <img class="location-info-icon" src="/images/locations/icon_phone.png" alt="phone number">
         <p>(812) 238-7631</p>
       </div>
       <div class="location-info-contact">
-        <img class="location-info-icon" src="/images/icon_fax.png" alt="fax number">
+        <img class="location-info-icon" src="/images/locations/icon_fax.png" alt="fax number">
         <p>(812) 238-7003</p>
       </div>
       <p class="location-subtitle">HOURS</p>
@@ -67,15 +67,15 @@
     <div id="location-details">
       <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
       <div class="location-services-type">
-        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/med_icon.png"/ alt="Primary Care services"></a>
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
         <span>Primary Care</span>
       </div>
       <div class="location-services-type">
-        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/bh_icon.png" alt="Behavioral Health services"/></a>
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
         <span>Behavioral Health</span>
       </div>
       <div class="location-services-type">
-        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/ps_icon.png" alt="Patient Support services"/></a>
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
         <span>Patient Support</span>
       </div>
       <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
@@ -85,10 +85,11 @@
           <td><p class="team-table-name">Beth Fields, FNP-C</p></td>
         </tr>
         <tr>
+					<td><p class="team-table-name">Tammy Pearson, FNP-C</p> </td> 
           <td><p class="team-table-name">Sara Ritter, LCSW</p></td>
-          <td><p class="team-table-name">Lacey Skwortz, LCSW</p> </td> 
         </tr>
         <tr>
+					<td><p class="team-table-name">Lacey Skwortz, LCSW</p></td> 
           <td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
         </tr>
       </table>

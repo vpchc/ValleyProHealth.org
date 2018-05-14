@@ -41,23 +41,19 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic" src="/images/extended_hours_banner.jpg" alt="After-Hours Clinic"/>
-    </div>
-    <div id="banner-right">
-      <div id="iconbanner-title">
-        <h1 id="iconbanner-title" class="vpchcgreen">After-Hours Clinic</h1>
-      </div>
+    <img src="/images/banner/services_after-hours.jpg">
+    <div id="banner-title">
+      <p>After-Hours Clinic</p>
     </div>
   </div>
   <div id="explain-content">
     <p class="explain-p">Valley Professionals Community Health Center offers an After-Hours Clinic at it's Clinton Office. The After-Hours Clinic is for acute care only such as, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, earache, or other similar symptoms. Individuals do not have to be a current patient of Valley Professionals to receive primary care services during the After-Hours Clinic and no appointment is needed. All individuals and families are welcome. Sliding Fee Scale available. Fees are based on family size and income. We also accept Medicaid, Medicare, self-pay, and commercial insurance.</p>
-    <p class="explain-title vpchcblue"><a style="color: inherit;" href="/clinton/">Clinton Location Only</a></p>
-    <p class="explain-subtitle vpchcgreen">After-Hours</p>
+    <p class="explain-title vpchcgreen"><a style="color: inherit;" href="/clinton/">Clinton Location Only</a></p>
+    <p class="explain-title vpchcgreen">After-Hours Clinic</p>
     <p class="explain-p">Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
-    <p class="explain-subtitle vpchcgreen">Saturday Clinic</p>
+    <p class="explain-title vpchcgreen">Saturday Clinic</p>
     <p class="explain-p">Saturday: 9:00 a.m. - 1:00 p.m.</p>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

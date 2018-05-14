@@ -41,29 +41,23 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic" src="/images/bh_page_banner.jpg" alt="BH Banner"/>
-    </br>
-    </div>
-    <div id="banner-right">
-      <div id="iconbanner-title" class="iconbanner-title-bh">
-        <img id="iconbanner-title-icon" class="iconbanner-bh" src="/images/bh_icon.png" alt="Behavioral Health Icon"/>
-        <h1 id="iconbanner-title-word" class="iconbanner-word-bh vpchcgreen">Behavioral Health</h1>
-      </div>
+    <img src="/images/banner/services_behavorial_health.jpg">
+    <div id="banner-title">
+      <p>Behavorial Health</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title vpchcblue">What is Behavioral Health?</p>
+    <p class="explain-title vpchcgreen">What is Behavioral Health?</p>
     <p class="explain-p">Behavioral Health describes the healthy functioning of personal well-being, family life, interpersonal relationships, and contribution to the community.  Services focus on productive activities, fulfilling relationships, and fortifying a patient's ability to adapt and cope with the stresses of life.</p>
-    <p class="explain-subtitle vpchcgreen">Individual Counseling</p>
+    <p class="explain-title vpchcgreen">Individual Counseling</p>
     <p class="explain-p">Sometimes we all need a little help.  Individual counseling helps explore and resolve issues that aren't getting better on their own.  Patients work with a therapist to learn methods of coping and overcoming difficulties in their lives.</p>
-    <p class="explain-subtitle vpchcgreen">Family Counseling</p>
+    <p class="explain-title vpchcgreen">Family Counseling</p>
     <p class="explain-p">Family counseling is useful in a number of scenarios, such as, creating better relationships within a family, or on a specific circumstance like divorce or the loss of a family member.</p>
-    <p class="explain-subtitle vpchcgreen">Child/Adolescent Counseling</p>
+    <p class="explain-title vpchcgreen">Child/Adolescent Counseling</p>
     <p class="explain-p">Child or Adolescent counseling can help to resolve problems or disorders that can impede a child or adolescent's development, as well as, address difficulties that can potentially trigger emotional or behavioral symptoms resulting in trauma for the child or adolescent, parents, and family.</p>
-    <p class="explain-subtitle vpchcgreen">School-Based Behavioral Health</p>
+    <p class="explain-title vpchcgreen">School-Based Behavioral Health</p>
     <p class="explain-p">The purpose of school-based services is to work directly and collaboratively with schools to deliver school-based behavioral health tailored to student needs.  These services are for a student whose behavioral and/or emotional challenges compromise his or her ability to attend to learning activities.</p>
     <p class="explain-p">For more information on school-based services, <a href="/mobile/">click here</a>.
   </div>

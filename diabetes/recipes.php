@@ -41,26 +41,24 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic"   src="/images/healthcare_pic.jpg" alt="Diabetes Banner"/>
-    </div>
-    <div id="banner-right">
-        <h1 id="banner-title" class="banner-title-short vpchcgreen">Diabetic Recipes</h1>
+    <img src="/images/banner/about_us_news&events.jpg">
+    <div id="banner-title">
+      <p>Diabetes Recipes</p>
     </div>
   </div>
   <div id="explain-content">
     <p class="explain-title vpchcblue">Here are some delicious diabetic recipes for you to try.</p>
-    <p class="explain-subtitle vpchcgreen">Parmesan Crusted Chicken</p>
+    <p class="explain-title vpchcgreen">Parmesan Crusted Chicken</p>
     <p class="explain-p explain-p-title">Ingredients:</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">Cooking Spray</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1 1/2 pounds boneless, skinless, chicken breasts - cut into 12 then strips</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/2 cup cornmeal</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/3 cup freshly grated Parmesan cheese</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/2 teaspoon garlic powder</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/4 teaspoon ground black pepper</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">3 eggs white</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cooking Spray</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 1/2 pounds boneless, skinless, chicken breasts - cut into 12 then strips</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/2 cup cornmeal</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/3 cup freshly grated Parmesan cheese</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/2 teaspoon garlic powder</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/4 teaspoon ground black pepper</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 eggs white</li>
     <p class="explain-p explain-p-title">Instructions:</p>
     <li>Preheat oven to 425 &#8457;. Spray a baking sheet with cooking spray.</li>
     <li>In a shallow dish, mix together cornmeal, Parmesan cheese, garlic powder and black pepper.</li>
@@ -70,38 +68,38 @@
     <p class="explain-p explain-p-title">Nutrition Facts:</br>Serving Size: 2 chicken strips</p>
     <table>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Carbohydrate 10 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Calories 200</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Carbohydrate 10 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Calories 200</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Protein 28 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Fat 4.5 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Protein 28 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Fat 4.5 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Saturated Fat 1.5 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Sugars 0 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Saturated Fat 1.5 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sugars 0 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Dietary Fiber 1 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Cholesterol 70 mg</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Dietary Fiber 1 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cholesterol 70 mg</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Sodium 150 mg</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Potassium 250 mg</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sodium 150 mg</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Potassium 250 mg</li></td>
     </tr>
     </table>
     </br>
-    <p class="explain-subtitle vpchcgreen">Cauliflower Fried "Rice"</p>
+    <p class="explain-title vpchcgreen">Cauliflower Fried "Rice"</p>
     <p class="explain-p explain-p-title">Ingredients:</p>
-    <li style="list-style-image: url('/images/blue_bullet.png');">3 cups cauliflower florets</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1 Tbsp olive oil, divided</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">2 large carrots, finely diced</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">3 scallions, chopped</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1 tsp sesame oil</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1 1/2 Tbsp reduced-sodium soy sauce</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/4 cup no-salt-added, fat-free chicken broth</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/8 tsp ground ginger</li>
-    <li style="list-style-image: url('/images/blue_bullet.png');">1/8 tsp ground black pepper</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 cups cauliflower florets</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 Tbsp olive oil, divided</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">2 large carrots, finely diced</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 scallions, chopped</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 tsp sesame oil</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 1/2 Tbsp reduced-sodium soy sauce</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/4 cup no-salt-added, fat-free chicken broth</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/8 tsp ground ginger</li>
+    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/8 tsp ground black pepper</li>
     <p class="explain-p explain-p-title">Instructions:</p>
     <li>Place cauliflower in a food processor and proces suntil rice consistency; set aside</li>
     <li>Heat 1/2 Tbsp olive oil in a nonstick pan over medium-high heat. Add carrots and scallions and saut&eacute; for 5 minutes</li>
@@ -109,20 +107,20 @@
     <p class="explain-p explain-p-title">Nutrition Facts:</br>Serving Size: 1/2 cup</p>
     <table>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Carbohydrate 8 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Calories 80</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Carbohydrate 8 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Calories 80</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Protein 3 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Fat 5 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Protein 3 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Fat 5 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Saturated Fat 0.7 g</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Sugars 3 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Saturated Fat 0.7 g</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sugars 3 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Sodium 260 mg</li></td>
-      <td><li style="list-style-image: url('/images/blue_bullet.png');">Potassium 360 mg</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sodium 260 mg</li></td>
+      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Potassium 360 mg</li></td>
     </tr>
     </table>
   </div>

@@ -41,31 +41,25 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-      <img id="banner-pic" src="/images/dental_banner.jpg" alt="Dental Banner"/>
-    </div>
-    <div id="banner-right">
-      <div id="iconbanner-title" class="iconbanner-title-dental">
-        <img id="iconbanner-title-icon" class="iconbanner-dental" src="/images/dent_icon.png" alt="Dental Icon"/>
-        <h1 id="iconbanner-title-word" class="iconbanner-word-dental vpchcgreen">Dental</h1>
-      </div>
+    <img src="/images/banner/services_dental.jpg">
+    <div id="banner-title">
+      <p>Dental</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title vpchcblue">Dental Services</p>
+    <p class="explain-title vpchcgreen">Dental Services</p>
     <p class="explain-p">Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
-    <p class="explain-subtitle vpchcgreen">Preventive</p>
+    <p class="explain-title vpchcgreen">Preventive</p>
     <p class="explain-p">Dental examinations and screenings, X-Rays, Cleanings, sealants, fluoride treatments, and education.</p>
-    <p class="explain-subtitle vpchcgreen">Emergency</p>
+    <p class="explain-title vpchcgreen">Emergency</p>
     <p class="explain-p">Broken or chipped teeth, extractions, pain, and infection.</p>
-    <p class="explain-subtitle vpchcgreen">Restorative</p>
+    <p class="explain-title vpchcgreen">Restorative</p>
     <p class="explain-p">Fillings</p>
     <div id="dental-public">
-      <p class="explain-title vpchcblue">For Dental Emergencies or Appointments,</p>
-      <img class="dental-patches" src="/images/patches_dental.png" alt="Patches Dental"/>
-      <p class="explain-title vpchcblue">Call (765) 492-8099</p>
+      <p class="explain-title vpchcgreen">For Dental Emergencies or Appointments, Call (765) 492-8099</p>
+      <img class="dental-patches" src="/images/dental/patches.png" alt="Patches Dental"/>
     </div>
   </div>
   <div id="services-button">

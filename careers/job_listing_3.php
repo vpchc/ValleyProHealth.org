@@ -21,8 +21,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -43,23 +42,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>CMA/LPN - Cayuga</h2>
+  <h2>Dental Assistant - Cayuga</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center’s is looking to hire a CMA or a LPN for its Cayuga office.</p>
+    <p>Valley Professionals Community Health Center is looking to hire a Dental Assistant for its Cayuga office.</p>
     <p>Duties:</p>
-    <li>Providing professional nursing services and patient care</li>
-    <li>Patient assessment</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider in minor procedures</li>
-    <li>Assist in answering phone calls</li>
-    <li>Scheduling patients and checking-in patients</li>
-    <li>Assisting the provider in minor procedures</li>
+    <li>Assisting the dentist in providing oral health care</li>
+    <li>Preparing and maintaining dental equipment</li>
+    <li>Collecting and maintaining patient health records</li>
+    <li>Other general front office and assisting duties as assigned</li>
     <p>Requirements:</p>
-    <li>Current certification as a Medical Assistantor or Nurse required</li>
-    <li>Two to three years primary care experience preferred</li>
+    <li>Ideal candidates should possess a minimum of one year experience</li>
+    <li>Expanded duties certification</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_3.php" name="referer">
+    <input type="hidden" value="job_listing_2.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -80,7 +76,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="LCSW/LMHC - Clinton">
+        <input type="hidden" name="subject" value="Dental Assistant - Cayuga">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
@@ -97,7 +93,6 @@
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="/scripts/vpchc_mobile_menu.js"></script>
 <script type="text/javascript">
     document.getElementById('resumeup').onload = function() {
         var iframe = document.getElementById("resumeup");

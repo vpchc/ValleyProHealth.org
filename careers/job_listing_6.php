@@ -43,9 +43,9 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>CMA/LPN - Clinton</h2>
+  <h2>CMA/LPN - Terre Haute</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center’s is looking to hire a CMA or a LPN for its Clinton office.</p>
+    <p>Valley Professionals Community Health Center’s is looking to hire a CMA or a LPN for its Terre Haute office.</p>
     <p>Duties:</p>
     <li>Providing professional nursing services and patient care</li>
     <li>Patient assessment</li>
@@ -80,7 +80,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA/LPN - Clinton">
+        <input type="hidden" name="subject" value="CMA/LPN - Terre Haute">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

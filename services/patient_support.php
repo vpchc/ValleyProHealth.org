@@ -41,30 +41,25 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <div id="banner">
-    <div id="banner-left">
-    <img id="banner-pic" src="/images/healthcare_pic3.jpg" alt="Patient Support Banner"/>
-    </div>
-    <div id="banner-right">
-      <div id="iconbanner-title" class="iconbanner-title-ps">
-        <img id="iconbanner-title-icon" class="iconbanner-ps" src="/images/ps_icon.png" alt="Patient Support Icon"/>
-        <h1 id="iconbanner-title-word" class="iconbanner-word-ps vpchcgreen">Patient Support</h1>
-      </div>
+    <img src="/images/banner/services_patient_support.jpg">
+    <div id="banner-title">
+      <p>Patient Support</p>
     </div>
   </div>
   <div id="explain-content">
-    <p class="explain-title vpchcblue">Community Health Workers</p>
+    <p class="explain-title vpchcgreen">Community Health Workers</p>
     <p class="explain-p">Community Health Workers, or CHWs, are your resource when you need a hand getting healthy. CHWs are on hand to ensure that patients are at their best whether helping find affordable healthcare coverage, coaching them on healthy living, or connecting them to reources in the community.</p>
-    <p class="explain-subtitle vpchcblue">Get covered</p>
+    <p class="explain-title vpchcgreen">Get covered</p>
     <p class="explain-p">CHWs are specially equipped to help individuals and families navigate the Health Insurance Marketplace, Healthy Indiana Plan (HIP), and Medicaid applications to find affordable health insurance coverage to keep Hoosiers happy and healthy.</p>
-    <p class="explain-subtitle vpchcblue">Get connected</p>
+    <p class="explain-title vpchcgreen">Get connected</p>
     <p class="explain-p">CHWs can help patients locate necessary resources such as food, transportation or housing.</p>
-    <p class="explain-title vpchcblue">Patient Care Coordinators</p>
+    <p class="explain-title vpchcgreen">Patient Care Coordinators</p>
     <p class="explain-p">At Valley Professionals, patient care is our number one concern.  Patient Care Coordinators are here to make sure that our patients have the tools to live long, happy, and healthy lives.</p>
-    <p class="explain-subtitle vpchcblue">Take Control</p>
-    <p class="explain-p">Take control of your health and gain independence.  Work with a Patient Care Coordinator to create a treatment plan that works for you.</p>
-    <p class="explain-subtitle vpchcblue">Learn</p>
+    <p class="explain-title vpchcgreen">Take Control</p>
+    <p class="explain-p">Take control of your health and gain independence.  Work with a Patient Care Coordinator to create health goals that works for you.</p>
+    <p class="explain-title vpchcgreen">Learn</p>
     <p class="explain-p">Learn positive health habits.  Learn to manage chronic health conditions, like diabetes, and take steps to improve your health.</p>
   </div>
 </main>
