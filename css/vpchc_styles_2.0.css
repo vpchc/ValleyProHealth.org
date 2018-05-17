@@ -5,7 +5,7 @@
   2)Box Model Properties (width, height, margin, padding)
   3)Visual Properties (color, background, border, box-shadow)
   4)Typography Properties (font-size, font-family, text-align, text-transform)
-  5)Misc Properties (cursor, overflow, z-index)
+  5)Misc Properties (cursor, overflow, z-index, transitions)
 */
 /*------------------------------------*\
                 #Globals
@@ -17,7 +17,6 @@
         Company Colors
         Explanation Paragraphs
         Main Containers
-        Nav Links
         Sidebars
         Tab
         Titles
@@ -211,82 +210,14 @@
   #Main Containers
 \*------------------------------------*/
 
-* { 
-    margin: 0; 
-    padding: 0;
-}
 #masterbox {
     position: relative;
 	
     margin: 0px auto 50px auto;
   	width: 1349px;
 }
-#masterbox-nonfixed {
-    margin: 0 auto;
-    
-    height: auto;
-    width: 100%;
-}
-header { position: relative;}
-#head-wrap {
-    position: relative;
-    
-    margin: 0 auto;
-    width: 1170px;
-    height: 110px;
-    
-    transition: all .5s ease 0s;
-}
-#head-img-container {
-    display: inline-block;
-    
-    height: 100%;
-    width: 600px;
-}
-#header-img {
-    display: block;
-    
-    margin-top: 18px;
-    height: auto;
-    width: 450px;
-    
-    cursor: pointer;
-}
-#head-social-container {
-    float: right;
-    
-    margin-top: 20px;
-    height: 70px;
-    width: 260px;
-}
-#head-social-subcontainer {
-    display: inline-block;
-    height: 70px;
-    width: 180px;
-    
-    border-right: #e9e9e9 solid 1px;
-}
-#head-social-subcontainer p {
-    margin-top: 26px;
-    padding-right: 10px;
-    
-    font-size: 14px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-    text-align: right
-}
-#head-social-icons {
-    display: inline-block;
-    float: right;
-    
-    margin-top: 20px;
-    width: 68px;
-    height: auto;
-}
-#head-social-icons img { padding-right: 5px;}
-#head-social-icons img:hover {
-    opacity: 0.75;
-    filter: alpha(opacity=50);/* For IE8 and earlier */
-}
+
+
 footer { 
     position: relative;
     
@@ -366,150 +297,6 @@ footer {
     
     text-align: center;
     font-size: 12px;
-}
-
-/*------------------------------------*\
-  #Navlinks
-\*------------------------------------*/
-
-#navlinks-container{
-    display: block;
-    
-    height: 50px;
-    width: 100%;
-    
-    background: #3a4e8c;
-}
-#navlinks {
-	position: relative;
-    
-    margin: 0 auto;
-    height: 50px;
-    width: 1170px;
-    
-    z-index: 100;
-    list-style-type: none;
-}
-.navlink-category {
-    padding: 14.8px 17px;
-    
-    height: 40px;
-    
-    background: #3a4e8c;
-    border: none;
-    
-    font-size: 18px;
-    color: white;
-    font-family: "Franklin Gothic Medium", Times, serif;
-    
-    text-decoration: none;
-    cursor: pointer;
-}
-.dropdown {
-    display: inline-block;
-    position: relative;
-    zoom:1;
-    *display:inline;
-    
-    margin-top: 15px;
-    padding-right: 10px;
-}
-.dropdown-content {
-    position: absolute;
-    
-    margin-top: 15px;
-    height: 0;
-    min-width: 160px;
-    
-    background: #3a4e8c;
-    
-    overflow: hidden;
-    
-    transition: all .5s ease 0s;
-
-}
-.dropdown-content a {
-    display: block;
-    
-    padding: 12px 15px;
-    height: 30px;
-    
-    border-bottom: 1px solid #506db4;
-    
-    color: white;
-    font-family: "Georgia", Times, serif;;
-    text-decoration: none;
-    font-size: 16px;
-  
-    transition: all .5s ease;
-}
-.dropdown-content a:hover { background: #70b244;}
-
-.dropdown:hover .navlink-category { background-color: #70b244;}
-#about.dropdown:hover .dropdown-content { height: 273px;}
-#locations.dropdown:hover .dropdown-content { height: 384px;}
-#services.dropdown:hover .dropdown-content { height: 329px;}
-#contact.dropdown:hover .dropdown-content { height: 54px;}
-.dropdown .active{ background: #70b244;}
-/*----Mobile----*/
-#navlinks-subcontainer {
-    position: relative;
-    float: right;
-    display: inline-block;
-    
-    margin: 23px 15px 0 20px;
-    width: 30px;
-}
-#navlinks-mobile {
-    display: none;
-    
-    height: 100vh;
-
-    overflow-y: scroll;
-}
-#navlinks-mobile a { color: black;}
-#navlinks-mobile-icon{
-    display: none;
-    
-    margin: 0 auto;
-    height: 20px;
-    
-    cursor: pointer;
-}
-.nalinks-mobile-section { display: block;}
-.navlinks-mobile-section, .navlinks-mobile-subsection {
-    padding: 15px;
-    border-bottom: 1px solid #70b244;
-}
-.navlinks-mobile-section p {
-    display: inline-block;
-   
-    font-size: 20px;
-}
-.navlinks-mobile-section p, .navlinks-mobile-subsection a {
-    display: inline-block;
-    color: black;
-
-    font-family: "Franklin Gothic Medium", Georgia, serif;
-    text-decoration: none;
-}
-.navlinks-mobile-section span {
-    display: inline-block;
-    
-    float: right;
-    
-    font-size: 25px;
-    font-family: "Franklin Gothic Medium", Verdana, serif;
-    font-weight: 600;
-    text-align: right;
-}
-.navlinks-mobile-subsection { display: none;}
-.navlinks-mobile-subsection a {
-    display: block;
-    
-    padding-bottom: 15px;
-    
-    font-size: 15px;
 }
 
 /*------------------------------------*\
@@ -1686,7 +1473,6 @@ h3 {
       #Main Containers
     \*------------------------------------*/
 
-    #head-wrap { width: 1050px;}
     #masterbox { width: 1060px;}
     #footer-locations{ height: 85px;}
     .footer-locations-section { width: 33.333%;}
@@ -1695,12 +1481,6 @@ h3 {
         margin: 10px 0 0 80px;
         height: 75px;
     }
-
-    /*------------------------------------*\
-      #Navlinks
-    \*------------------------------------*/
-    
-    #navlinks { width: 1050px;}
       
     /*------------------------------------*\
       #Sidebars
@@ -1974,49 +1754,7 @@ h3 {
     /*------------------------------------*\
       #Main Containers
     \*------------------------------------*/
-    
-    header {
-        position: fixed;
-        
-        width: 100%;
-        
-        background: white;
-        
-        z-index: 100;
-    }
-    #head-wrap {
-        position: relative;
-
-        height: 60px;
-        width: 100%;
-    }
-    #head-img-container {
-        margin-left: 10px;
-        width: 170px;
-    } 
-    #header-img {
-        margin-top: 19px;
-        width: 100%;
-    }
-    #head-social-container {
-        margin-top: 0px;
-        height: 50px;
-        width: auto;
-    }
-    #head-social-subcontainer { display: none;}
-    #head-social-icons {
-        margin-top: 10px;
-        width: auto;
-        height: 45px;
-
-        border-right: #e9e9e9 solid 1px;
-    }
-    #head-social-icons img { 
-        margin-top: 10px;
-        padding-right: 5px;
-        height: auto;
-        width: auto;
-    }
+   
     #masterbox-home { padding-top: 80px;}
     #masterbox { 
         padding-top: 80px;
@@ -2055,15 +1793,6 @@ h3 {
         font-family: "Franklin Gothic Medium", Times, serif;
         text-decoration: none;
     }
-    
-    /*------------------------------------*\
-      #Navlinks
-    \*------------------------------------*/
-    
-    #navlinks{ display: none;}
-    #navlinks-container{ height: 20px;}
-    /*----Mobile----*/
-    #navlinks-mobile-icon{ display: inline-block;}
     
     /*------------------------------------*\
       #Services Provided

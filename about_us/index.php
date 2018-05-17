@@ -41,11 +41,11 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
+<main>
   <div id="banner">
     <img src="/images/banner/about_us_index.jpg">
     <div id="banner-title">
-      <p>About US</p>
+      <p>About Us</p>
     </div>
   </div>
   <div id="explain-content">

@@ -211,32 +211,13 @@
   #Main Containers
 \*------------------------------------*/
 
-* { 
-    margin: 0; 
-    padding: 0;
-}
 #masterbox {
     position: relative;
 	
     margin: 0px auto 50px auto;
   	width: 1349px;
 }
-#masterbox-nonfixed {
-    margin: 0 auto;
-    
-    height: auto;
-    width: 100%;
-}
-header { position: relative;}
-#head-wrap {
-    position: relative;
-    
-    margin: 0 auto;
-    width: 1170px;
-    height: 110px;
-    
-    transition: all .5s ease 0s;
-}
+
 #head-img-container {
     display: inline-block;
     
