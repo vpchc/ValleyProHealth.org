@@ -62,6 +62,11 @@
     <p class="news-article-title">VPCHC 10 year</p>
     <p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.<a href="/about_us/announcement_article.php">Read More.</a></p>
   </div>
+	<p class="explain-title vpchcgreen">Annual Report</p>
+  <div class="news-article">
+    <p class="news-article-title">VPCHC 2017 Annual Report</p>
+    <p class="news-article-preview">Valley Professionals Community Health Center’s annual report provides an overview of key highlights and news from our health center in 2017.<a href="/files/reports/vpchc_2016-2017_annual_report.pdf">View it here.</a></p>
+  </div>
 	</div>
 	<div id="explain-twosections-right">
 	<div id="slideshow-news">

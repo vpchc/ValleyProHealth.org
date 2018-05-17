@@ -41,7 +41,7 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <h1>Frequently Asked Questions</h1>
   <div id="faq">
   <div id="services-provided">

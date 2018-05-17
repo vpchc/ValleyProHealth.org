@@ -83,19 +83,9 @@
   #Company Colors
 \*------------------------------------*/
 
-.vpchcblue { color: #3a4e8c;}
+.vpchcblue  { color: #3a4e8c;}
 .vpchcgreen { color: #70b244;}
-.vpchcgrey { color: #258f71;}
-.blue-rectangle, 
-  .green-rectangle {
-    margin: 10px 0;
-    height: 50px;
-    width: 500px;
-}
-.blue-rectangle { background: #3a4e8c;}
-.green-rectangle { background: #70b244;}
-.vpchcgreenborder { border: 5px solid #70b244;}
-.vpchcblueborder { border: 5px solid #3a4e8c;}
+.vpchcgrey  { color: #258f71;}
 
 /*------------------------------------*\
   #Explantion Paragraphs
@@ -227,8 +217,9 @@
 }
 #masterbox {
     position: relative;
+	
     margin: 0px auto 50px auto;
-	width: 1349px;
+  	width: 1349px;
 }
 #masterbox-nonfixed {
     margin: 0 auto;
@@ -295,12 +286,6 @@ header { position: relative;}
 #head-social-icons img:hover {
     opacity: 0.75;
     filter: alpha(opacity=50);/* For IE8 and earlier */
-}
-#header-bluebar {
-    height: 20px;
-    width: 100%;
-    
-    background: #3a4e8c;
 }
 footer { 
     position: relative;
@@ -1422,7 +1407,6 @@ h3 {
     font-family: "Georgia", Times, serif;
     font-size: 16px;
 }
-.news-article-link{font-family: "Franklin Gothic Medium", Times, serif;}
 #archive-button {
     margin: 0 auto;
     width: 165px;
@@ -1691,13 +1675,6 @@ h3 {
     .banner-title-long#banner-title { font-size: 50px;}
     
     /*------------------------------------*\
-      #Company Colors
-    \*------------------------------------*/
-
-    .blue-rectangle, 
-        .green-rectangle { width: 400px;}
-    
-    /*------------------------------------*\
       #Explantion Paragraphs
     \*------------------------------------*/
 
@@ -1947,16 +1924,6 @@ h3 {
     }
     #banner-title p{ margin: 5px 30px 0 0;}
     .banner-title-long#banner-title{ font-size: 25px;}
-    
-    /*------------------------------------*\
-      #Company Colors
-    \*------------------------------------*/
-
-    .blue-rectangle, 
-        .green-rectangle { 
-            height: 30px;
-            width: 300px;
-    }
     
     /*------------------------------------*\
       #Explantion Paragraphs

@@ -103,7 +103,7 @@
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="/scripts/vpchc_bus_3.5.21.js"></script>
+<script type="text/javascript" src="/scripts/vpchc_bus_3.5.22.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>
 </html>

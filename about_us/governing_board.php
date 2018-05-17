@@ -41,11 +41,11 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
+<main id="masterbox-nonfixed">
   <h1>Governing Board</h1>
   <div id="tab-content" class="tab-board">
-    <div id="board-descript">
-      <p>Valley Professionals Community Health Center has a governing board which consists of active and diverse community members that oversee the development of the mission, vision, and values of our clinic. These individuals are passionate about providing resources to the community and bringing healthcare services to all who are in need.</p>
+    <div id="explain-content">
+      <p class="explain-p">Valley Professionals Community Health Center has a governing board which consists of active and diverse community members that oversee the development of the mission, vision, and values of our clinic. These individuals are passionate about providing resources to the community and bringing healthcare services to all who are in need.</p>
     </div>
     <h3>Board Officers</h3>
     <hr>

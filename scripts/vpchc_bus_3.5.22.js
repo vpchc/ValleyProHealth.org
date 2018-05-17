@@ -1,0 +1,148 @@
+/*
+//.......|.........|.........|.........|.........|.........|.........|.........| 
+	Version 3.0.0
+	Notes: Same as version 2.0 but uses the online database instead of an included one.
+	TODO:  
+//.......|.........|.........|.........|.........|.........|.........|.........|  
+*/
+
+$(document).ready(function(){
+    
+  var $today = 0;
+  var $twoAreas = 0;
+  var $tempChange = [ ];
+  var $busStart = 0;
+  var $busEnd = 0;
+  var $flag = 0;
+  var $status = 0;
+  var $inc = 1;
+  var $firstLocationCheck = 0;
+    
+    
+  function busTrackerTimeCheck(){
+  /*
+    Arguments:   startTime (The Bus start time)
+                 endTime (The Bus end time)
+                 firstLocationCheck ()
+    Description: Looks at the start and end times of the bus and compares to
+                 the current time.
+    Returns:     0 - Closed, 1 - Open, 2 - Opening Soon, 3 - En route,
+                 4 - Closing Soon	
+  */
+      "use strict";
+    //Add two to index to get to the location to the start time
+        var $splitTime = 0;
+        var $year = 0;
+        var $month = 0;
+        var $day = 0;
+        var $hour = 0;
+        var $min = 0;
+        var $currentTime = 0;
+        var $busStartTime = 0;
+        var $busEndTime = 0;
+        var $compareStart = 0;
+        var $compareEnd = 0;
+    //Create a useable current time date method
+      $splitTime   = new Date();
+      $year        = $splitTime.getYear();
+      $month       = $splitTime.getMonth();
+      $day         = $splitTime.getDate();
+      $hour        = $splitTime.getHours();
+      $min         = $splitTime.getMinutes();
+      $currentTime = new Date($year, $month, $day, $hour, $min);
+
+    //Split the start time and create a useable bus start time date method		 
+      $splitTime    = $busStart.toString().split(":");
+      $hour         = $splitTime[0];
+      $min          = $splitTime[1];
+      $busStartTime = new Date($year, $month, $day, $hour, $min);
+
+    //Split the end time and create a useable bus end time date method	  
+      $splitTime  = $busEnd.toString().split(":");
+      $hour       = $splitTime[0];
+      $min        = $splitTime[1];
+      $busEndTime = new Date($year, $month, $day, $hour, $min);  
+      
+      $compareStart = $busStartTime - $currentTime;
+      $compareEnd   = $busEndTime - $currentTime;
+    
+    //Where the comparing happens
+      if($compareEnd <= 1.8e6 & $compareEnd > 0){
+        return 4;
+      }else if($compareStart > 1.8e6){
+        if($firstLocationCheck > 0){
+            $firstLocationCheck = 1;
+            return 3;
+        }else{
+            $flag = 0;
+            return 0;
+        }
+        return 3;
+      }else if($compareStart < 1.8e6 & $compareStart > 0){ 
+        return 2;
+      }else if($compareStart <= 0 & $compareEnd > 0){
+        return 1;
+      }else{
+        return 0;
+      }
+  };
+    
+  function busScheduleGrab($inc){ 
+    //Get main start/end times and flag from url and store them.
+    $.ajax({
+      async: false,
+      type: 'GET',
+      url: '/info/bus_web_schedule.html',
+      success: function(data) { 
+        var $busStartTxt   = '<div id="start' + $inc +'">';
+        var $busStartTemp  = data.split($busStartTxt);
+        var $busStartTemp2 = $busStartTemp[1].split('</div>');
+        $busStart          = $busStartTemp2[0];
+          
+        var $busEndTxt   = '<div id="end' + $inc +'">';
+        var $busEndTemp  = data.split($busEndTxt);
+        var $busEndTemp2 = $busEndTemp[1].split('</div>'); 
+        $busEnd          = $busEndTemp2[0];
+          
+        var $busFlagTxt = '<div id="flag' + $inc +'">';
+        var $flagTemp   = data.split($busFlagTxt);
+        var $flagTemp2  = $flagTemp[1].split('</div>');
+        $flag           = $flagTemp2[0];
+      }
+    });
+  }
+    
+  while(1){
+      busScheduleGrab($inc);
+      
+      //Check the times for the first location and store the status.
+      $status = busTrackerTimeCheck();
+      //If it the status for the current location is not closed or there are no other locations left
+      if($status != 0 || $flag == 0){
+          console.log("breakin the law!")
+          break;
+      }
+      $inc++;
+  }
+  //Display the location
+  $( "#bus-location" ).load("/info/bus_web_schedule.html #location" + $inc);
+  //Display the hours
+  $( "#bus-hours" ).load("/info/bus_web_schedule.html #hours" + $inc);
+  // Display the status
+  if($status === 1){
+    document.getElementById("bus-status").innerHTML = "Open";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_green.png";
+  }else if($status === 2){
+    document.getElementById("bus-status").innerHTML = "Opening Soon";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
+  }else if($status === 3){
+    document.getElementById("bus-status").innerHTML = "En Route";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
+  }else if($status === 4){
+    document.getElementById("bus-status").innerHTML = "Closing Soon";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_yellow.png";
+  }else{
+    document.getElementById("bus-status").innerHTML = "Closed";
+    document.getElementById("bus-status-icon").src="/images/bus_tracker/status_red.png";
+  }
+});
