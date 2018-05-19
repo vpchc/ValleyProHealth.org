@@ -1,0 +1,59 @@
+@import "../3-modules/variables";
+
+/*------------------------------------*\
+  #Banner
+\*------------------------------------*/
+
+.banner {
+	position: relative;
+  
+	width: 100%;
+  max-height: 540px;
+	
+	@media only screen and (max-width: 1082px) {
+		padding-top: 80px; 
+		height: auto;
+	}
+}
+.banner img{
+  width: 100%;
+  max-height: 540px;
+}
+.banner-title {
+  position: absolute;
+  
+  top: 58%;
+  height: 36%;
+  width: 100%;
+  
+  background-color: $white-transparent;
+	
+	@media only screen and (max-width: 1082px) {
+		top: 73%;
+  
+    height: 22%;
+	}
+}
+
+.content { 
+	margin: 20px 40px;
+	
+	@media only screen and (max-width: 1082px) {
+		margin: 10px auto 0 auto;
+    width: 95%;
+	}
+}
+.content > p {
+	margin-left: 30px;
+	
+	font-size: 1.2vw;
+  font-family: "Franklin Gothic Book", Times, serif;
+	
+	@media only screen and (max-width: 1082px) { 
+		margin-left: 0px;
+		
+		font-size: 14px;
+	}
+}
+
+

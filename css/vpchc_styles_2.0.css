@@ -22,38 +22,6 @@
         Titles
 */
 
-/*------------------------------------*\
-  #Banner
-\*------------------------------------*/
-
-#banner {
-  position: relative;
-  
-  max-height: 540px;
-  width: 100%;
-}
-#banner img{
-  width: 100%;
-  max-height: 540px;
-}
-#banner-title {
-  position: absolute;
-  
-  top: 58%;
-  
-  height: 36%;
-  width: 100%;
-  
-  background-color: rgba(255, 255, 255, 0.5);
-}
-#banner-title p {
-  margin: 20px 170px 0 0;
-  text-align: right;
-  font-size: 7vw;
-  font-family: "Franklin Gothic Medium", Times, serif;
-  color: #3a4e8c;
-  z-index: 1;
-}
 
 /*------------------------------------*\
   #Buttons
@@ -78,30 +46,14 @@
     transition: none;
 }
 
-
-
-
-
 /*------------------------------------*\
   #Explantion Paragraphs
 \*------------------------------------*/
 
-#explain-content { margin: 20px 40px;}
-.explain-title {
-    clear: both;
-    
-    margin: 20px 0 20px 0;
-    
-    font-size: 2.4vw;
-    font-weight: bold;
-    font-family: "Franklin Gothic Book", Times, serif;
-}
-.explain-p, 
-  #explain-content li {
+#explain-content li {
     font-size: 1.2vw;
     font-family: "Franklin Gothic Book", Times, serif;
 }
-.explain-p { margin-left: 30px;}
 .explain-p-title {
     margin: 20px 0 20px 20px;
     
@@ -1134,29 +1086,6 @@ h3 {
     
     text-align: center;
 }
-#iconbanner-title { margin-top: 60px;}
-#iconbanner-title-word {
-    float: right;
-    
-    margin-top: 10px;
-    
-    font-family: "Franklin Gothic Medium", Times, serif;
-    font-size: 64px;
-    text-align: center;
-}
-.iconbanner-word-dental { margin-right: 160px;}
-.iconbanner-word-medical { margin-right: 120px;}
-.iconbanner-word-ps { margin-right: 30px;}
-#iconbanner-title-icon {
-    float: left;
-    
-    height: 95px;
-    width: 95px;
-}
-.iconbanner-dental { margin-left: 210px;}
-.iconbanner-bh { margin-left: 50px;}
-.iconbanner-medical { margin-left: 85px;}
-.iconbanner-ps { margin-left: 80px;}
 
 /*------------------------------------*\
   #Services Provided
@@ -1367,13 +1296,6 @@ h3 {
 \*------------------------------------*/
 @media only screen and (max-width: 1365px) {
     
-    /*------------------------------------*\
-      #Banner
-    \*------------------------------------*/
-
-    #banner-left { height: 172px;}
-    #banner-right { height: 180px;}  
-    .banner-title-long#banner-title { font-size: 50px;}
     
     /*------------------------------------*\
       #Explantion Paragraphs
@@ -1540,34 +1462,6 @@ h3 {
     }
     #events-calendar{height: 500px; }
     #news{ width: 410px;}
-  
-    /*------------------------------------*\
-      #Services
-    \*------------------------------------*/
-    
-    #iconbanner-title { margin-top: 60px;}
-    #iconbanner-title-word {
-        float: right;
-
-        margin-top: 15px;
-
-        font-family: "Franklin Gothic Medium", Times, serif;
-        font-size: 50px;
-        text-align: center;
-    }
-    .iconbanner-word-dental { margin-right: 95px;}
-    .iconbanner-word-medical { margin-right: 100px;}
-    .iconbanner-word-ps { margin-right: 10px;}
-    #iconbanner-title-icon {
-        float: left;
-
-        height: 95px;
-        width: 95px;
-    }
-    .iconbanner-dental { margin-left: 180px;}
-    .iconbanner-bh { margin-left: 20px;}
-    .iconbanner-medical { margin-left: 35px;}
-    .iconbanner-ps { margin-left: 50px;}
     
     /*------------------------------------*\
       #Services Provided
@@ -1600,34 +1494,11 @@ h3 {
 @media only screen and (max-width: 1082px) {
     
     /*------------------------------------*\
-      #Banner
-    \*------------------------------------*/
-
-    #banner { padding-top: 80px; height: auto;}
-    #banner-title {
-        top: 73%;
-  
-        height: 22%;
-    }
-    #banner-title p{ margin: 5px 30px 0 0;}
-    .banner-title-long#banner-title{ font-size: 25px;}
-    
-    /*------------------------------------*\
       #Explantion Paragraphs
     \*------------------------------------*/
 
-    #explain-content,#explain-newcontent {
-        margin: 10px auto 0 auto;
-        width: 95%;
-    }
-    .explain-title { 
-      margin: 10px 0;
-      
-      font-size: 20px;
-		}
     .explain-p, 
       #explain-content li{ font-size: 14px;}
-    .explain-p { margin-left: 0px;}
 		.explain-button{ display: none;}
 		#explain-twosections-left{
 			float: none;
@@ -2222,45 +2093,6 @@ h3 {
         width: 300px;
         text-align: center;
     }
-    #iconbanner-title {
-        margin: 10px auto 0 auto;
-    }
-    .iconbanner-title-bh {
-        height: 35px;
-        width: 250px;
-    }
-    .iconbanner-title-medical {
-        height: 35px;
-        width: 190px;
-    }
-    .iconbanner-title-ps {
-        height: 35px;
-        width: 220px;
-    }
-    .iconbanner-title-dental {
-        height: 35px;
-        width: 115px;
-    }
-    #iconbanner-title-word {
-        float: right;
-
-        margin-top: 5px;
-        margin-left: 5px;
-        
-        font-size: 25px;
-    }
-    .iconbanner-word-medical { margin-right: 0px;}
-    .iconbanner-word-dental { margin-right: 0px;}
-    .iconbanner-word-ps { margin-right: 0px;}
-    #iconbanner-title-icon {
-        margin-left: 0px;
-        height: 35px;
-        width: 35px;
-    }
-    .iconbanner-dental { margin-left: 0px;}
-    .iconbanner-bh { margin-left: 20px;}
-    .iconbanner-medical { margin-left: 0px;}
-    .iconbanner-ps { margin-left: 0px;}
     
     /*------------------------------------*\
       #Slideshow
