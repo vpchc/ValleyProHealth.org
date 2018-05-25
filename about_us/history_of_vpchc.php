@@ -48,7 +48,7 @@
       <h1>History of VPCHC</h1>
     </div>
   </div>
-  <div id="history">
+  <div class="history">
     <div class="timeline">
       <span class="timeline-year">2008</span>
       <p>Vermillion-Parke Community Health Center establishes it's first clinic in Clinton.</p>
@@ -90,7 +90,7 @@
       <p><span class="timeline-month-blue">Feburary</span></br>Valley Professionals Community Health Center celebrates its 10th anniversary.</p>
     </div>
   </div>
-  <div id="history-continued"></div>
+  <div class="history-continued"></div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
