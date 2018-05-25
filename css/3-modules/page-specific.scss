@@ -1,0 +1,60 @@
+/*------------------------------------*\
+      #History
+\*------------------------------------*/
+#history {
+    margin: 30px auto 0 auto;
+    height: auto;
+    width: 600px;
+    
+    background: url(/images/history/timeline_bg.gif) repeat-y center top; 
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    overflow: hidden;
+}
+.timeline {
+    position: relative;
+    float: left;
+    
+    margin: 0 0 50px 20px;
+    padding: 10px 200px 0 0;
+    width: 235px;
+ 
+    border-top: 3px solid #70b244;
+}
+.timeline-year {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    
+    font-size: 48px;
+    color: #70b244;
+}
+.timeline-month-blue {
+    font-size: 20px;
+    
+    color: #3a4e8c;
+}
+.timeline-month-green {
+    font-size: 20px;
+    
+    color: #70b244;
+}
+.even {
+    float: right;
+    
+    padding: 10px 0 0 200px;
+    
+    border-color: #3a4e8c;
+}
+.timeline.even .timeline-year {
+    left: 0;
+    color: #3a4e8c;
+}
+.timeline p{ margin-top: 5px; }
+#history-continued {
+    height: 50px;
+    background: url(/images/history/timeline_bg_downarrow.gif) repeat-y center top; 
+}
+
+  
