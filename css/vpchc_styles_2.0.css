@@ -212,39 +212,6 @@
   #Tab
 \*------------------------------------*/
 
-#tab-content { width: 1000px;}
-#tab-content hr{
-    height: 5px;
-    color: black;
-    background-color: black;
-}
-.tab { margin-top: 10px;}
-.tab-bar { height: 75px;}
-.tab-bar p {
-    color: white;
-      font-family: "Franklin Gothic Heavy", Georgia, serif;
-}
-.tab-name, .tab-simple { float: left;}
-.tab-name {
-    margin: 15px 0 0 25px;
-    
-    font-size: 45px;
-}
-.tab-simple { 
-    display: block;
-    
-    margin: 10px;
-    width: 98%;
-    
-    font-size: 40px;
-}
-.tab-simple span{ 
-    float: right;
-    
-    margin-top: 15px;
-    
-    font-size: 25px;
-}
 .drop-arrow {
     float: right;
     
@@ -267,7 +234,7 @@
 /*----Providers&Team----*/
 .tab-team { margin-left: 300px;}
 .team-ps { background: #70b244;}
-.team-admin { background: #258f71;}
+
 .tab-prov { background: #3a4e8c;}
 .tab-box-text {
     float: right;
@@ -324,8 +291,6 @@
     width: 175px;
 }
 .tab-box-mobilepic{ display: none;}
-/*----Board----*/
-.tab-board { margin: 0 auto;}
 
 /*----FAQs----*/
 .tab-question {
@@ -364,17 +329,12 @@ h2,
 h2,
   #page-tinytitle, 
   .section-title,
-  .section-title-centered,
-  h3 { font-family: "Franklin Gothic Medium", Times, serif;}
+  .section-title-centered { font-family: "Franklin Gothic Medium", Times, serif;}
 h2, 
   .section-title,
   .section-title-centered { font-size: 30px;}
 #page-tinytitle { font-size: 25px;}
-h3 {
-    margin-top: 20px;
-    
-    font-size: 50px;
-}
+
 .section-title-centered { text-align: center;}
 
 
@@ -391,7 +351,6 @@ h3 {
         Diabetes
         FAQs
         Forms
-        Governing Board
         History
         Home
         Locations
@@ -776,17 +735,6 @@ h3 {
 .forms-age-pic {
     height: 300px;
     width: 300px;
-}
-
-/*------------------------------------*\
-  #Governing Board
-\*------------------------------------*/
-
-#board-descript > p {
-    margin: 20px auto 0 auto;
-
-    font-size: 14px;
-    font-family: "Georgia", Times, serif;
 }
 
 /*------------------------------------*\
@@ -1324,7 +1272,6 @@ h3 {
       #Tab
     \*------------------------------------*/
 
-    #tab-content { width: 850px;}
     /*----Providers&Team----*/
     .tab-team { margin-left: 180px;}
     .tab-name-small { font-size: 40px;}
@@ -1338,7 +1285,6 @@ h3 {
     
     h1 {font-size: 50px;}
     h2 {padding: 0 5px;}
-    h3 {font-size: 45px;}
     
     /*------------------------------------*\
       #Contact Us
@@ -1570,45 +1516,16 @@ h3 {
       #Tab
     \*------------------------------------*/
 
-    #tab-content { 
-        margin: 0 auto; 
-        width: 95%;
-    }
     .tab-box { display: block;}
     .tab-box-team-height {
         height: 150px;
     }
     .drop-arrow { display: none;}
-    .tab-bar { pointer-events: none;}
-    .tab-name {
-        display: block;
-        
-        margin: 15px auto 0 auto;
-        width: 100%;
-        
-        text-align: center;
-        font-size: 22px;
-    }
     .tab-question {
         font-size: 18px;
         width: 95%;
     }
     .tab-answer { font-size: 15px;}
-    .tab-simple {
-        width: 100%;
-        
-        font-size: 25px;
-        text-align: center;
-    }
-    .tab-simple span{
-        display: block;
-        
-        margin-top: 0px;
-        width: 100%;
-        
-        font-size: 20px;
-        text-align: center;
-    }
     /*----Providers&Team----*/
     .tab-box-text {
         float: none;
@@ -1668,7 +1585,6 @@ h3 {
     
     h1 {font-size: 30px;}
     h2 {font-size: 25px;}
-    h3 {font-size: 25px;}
     .section-title-centered { font-size: 25px;}
     
     /*------------------------------------*\

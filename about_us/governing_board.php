@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,31 +41,35 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <h1>Governing Board</h1>
-  <div id="tab-content" class="tab-board">
-    <div id="explain-content">
-      <p class="explain-p">Valley Professionals Community Health Center has a governing board which consists of active and diverse community members that oversee the development of the mission, vision, and values of our clinic. These individuals are passionate about providing resources to the community and bringing healthcare services to all who are in need.</p>
+<main>
+	<div class="banner">
+    <img src="/images/banner/about_us_board.jpg">
+    <div class="banner-title">
+      <h1>Governing Board</h1>
     </div>
-    <h3>Board Officers</h3>
+  </div>
+  <div class="content">
+    <p>Valley Professionals Community Health Center has a governing board which consists of active and diverse community members that oversee the development of the mission, vision, and values of our clinic. These individuals are passionate about providing resources to the community and bringing healthcare services to all who are in need.</p>
+		<div class="content-centered">
+		<h3>Board Officers</h3>
     <hr>
       <div class="tab">
-        <div class="tab-bar team-admin">
+        <div class="tab-bar tabgrey">
           <p class="tab-simple">Jon Beardsley<span>Board President</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar team-admin">
+        <div class="tab-bar tabgrey">
           <p class="tab-simple">Mike Miller<span>Board Vice President</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar team-admin">
+        <div class="tab-bar tabgrey">
           <p class="tab-simple">Ronda Foster<span>Board Secretary</span></p>
         </div>
       </div>
       <div class="tab">
-        <div class="tab-bar team-admin">
+        <div class="tab-bar tabgrey">
           <p class="tab-simple">Thomas Frantz<span>Board Treasurer</span></p>
         </div>
       </div>
@@ -73,61 +77,62 @@
     <h3>Board Members</h3>
     <hr>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Amy Newlin</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Diana Carole Hart</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Doug Fauber</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Jackie Mathis</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Jeff Williamson</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Jerry Hawkins</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Lisa Taylor</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Wendy Olson</p>
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Yale Yager</p>
       </div>
     </div>
 		<div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Cindy Hein</p>
       </div>
     </div>
 		<div class="tab">
-      <div class="tab-bar team-admin">
+      <div class="tab-bar tabgrey">
         <p class="tab-simple">Lou Bonomo</p>
       </div>
     </div>
-  </div>
+		</div>
+	</div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
