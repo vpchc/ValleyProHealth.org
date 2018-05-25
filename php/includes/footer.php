@@ -67,6 +67,6 @@
     <a class="sitemap-section-title" href="/careers/">Careers</a>
   </div>
 </div>
-<div id="footer-disclaimer" class="vpchcgrey">
+<div id="footer-disclaimer">
   <p>This health center is a Health Center Program grantee under 42 U.S.C. 245b, and a deemed Public Health Service employee under 42 U.S.C. 233(g)-(n). This health center is deemed a Federal Tort Claims Act(FTCA) facility</p>
 </div>
