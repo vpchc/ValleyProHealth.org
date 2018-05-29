@@ -102,4 +102,26 @@
 	@media only screen and (max-width: 1082px) { display: none;}
 }
 
-  
+/*------------------------------------*\
+  #News
+\*------------------------------------*/
+
+#events-calendar{
+    margin: 30px auto 0 auto;
+    width: 100%;
+}
+#events-smallcalendar{ display: none;}
+.news-article-title {
+		padding-right: 30px;
+	
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.news-article-preview {
+		padding-right: 30px;
+	
+    font-family: "Georgia", Times, serif;
+    font-size: 16px;
+}
