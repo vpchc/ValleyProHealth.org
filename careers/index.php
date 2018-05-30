@@ -81,6 +81,14 @@
 			<p>Dental Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
 			</div></a>
+            <a href="/careers/job_listing_1.php"><div class="explain-tile">
+			<p>Chief Financial Officer</p>
+            <img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+			</div></a>
+            <a href="/careers/job_listing_3.php"><div class="explain-tile explain-tile-hide">
+			<p></p>
+			<img src="/images/careers/location_pointer.png"/><p></p>
+			</div></a>
     </div>
 		<p id="benefits" class="explain-title vpchcgreen">Benefits</p>
     <p class="explain-p">Valley Professionals offers excellent benefits, including:</p>

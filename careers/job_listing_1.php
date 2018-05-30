@@ -43,14 +43,20 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Call Center - Cayuga</h2>
+  <h2>Chief Financial Officer</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is seeking a Call Center Representative at our Cayuga location.</p>
+    <p>Valley Professionals Community Health Center (VPCHC) is looking for a Chief Financial Officer to join its compassionate and outstanding team</p>
     <p>Duties:</p>
-    <li>Responsible for answering and directing phone calls</li>
-    <li>Scheduling patient appointments</li>
-    <li>Entering patient information</li>
-    <li>Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
+    <li>Administers, implements and directs all financial aspects of the health center in accordance with the policies of the Board of Directors, the CEO and funding agencies</li>
+    <li>Serves as a key advisor to the VPCHC board in financial management strategy and care operations</li>
+    <li>Oversees the development and management of financial policies as well as the systems and controls that protect VPCHC assets</li>
+    <li>Oversees the development and analysis of annual, short and long-range financial position and makes recommendations regarding the ongoing organization, integration and effectiveness of the financial function</li>
+    <li>Prepares and manage the annual budget and provide timely and accurate reporting and advice to the VPCHC Leadership Team and the VPCHC Board of Directors regarding current and future budget circumstances</li>
+    <p>Requirements:</p>
+    <li>The ideal candidate will have Bachelor’s or Master’s degree in accounting, finance or related field with at least five years’ experience in a multi-funded, non-profit health care organization, preferably an FQHC.</li>
+    <li>Candidates with equivalent experience, education and training are welcome to inquire.</li>
+    <li>Experience with fiscal management, federal and state grant reporting, and audits is essential, as is experience with revenue cycle management in a health care environment.</li>
+    <li>CPA certification is a plus.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
@@ -74,7 +80,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Call Center - Cayuga">
+        <input type="hidden" name="subject" value="Chief Financial Officer">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
