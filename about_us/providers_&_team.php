@@ -914,22 +914,22 @@
     <hr>
     <div class="tab">
       <div class="tab-bar tab-prov">
-        <p class="tab-name tab-name-large">Dr. Nichole Barnett, DDS</p>
+        <p class="tab-name tab-name-large">Dr. Brad Smith, DDS</p>
       </div>
       <div class="tab-box tab-box-large">
         <div class="tab-box-pic">
-          <img src="/images/providers/barnett.jpg">
+          <img src="/images/providers/smith.jpg">
         </div>
         <div class="tab-box-text">
           <div class="tab-box-title"><p>Dentist</p></div>
           <div class="tab-box-bio">
           <p class="tab-box-bio-title-education">Education</p>
           <ul>
-            <li>Indiana University School of Dentistry - DDS</li>
-            <li>Oakland City University - Bachelor of Science Biology & Chemistry</li>
+            <li>Marquette School of Dentistry - DDS</li>
+            <li>Northwestern State University - BS Zoology</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Barnett became a dentist so she could help the underserved, and her goal is to make every patient feel comfortable while having their dental work done. In addition to being a dentist, she is also a member of a gospel trio along with her husband and sister-in-law. In her free time she enjoys spending time with her family, hunting and fishing.</p>
+          <p class="tab-box-bio-personal">Dr. Smith is passionate about providing dental healthcare for the patients of VPCHC.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Cayuga</p>
         </div>
