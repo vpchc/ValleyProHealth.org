@@ -68,32 +68,26 @@
   </div>
 	</div>
 	<div class="content-section">
-	<div id="slideshow-news">
+	<div id="slideshow" class="sectioned">
   <div class="slide">
     <img src="/images/news&events/slideshow_dancing_stars.jpg">
-    <div class="slide-news-info">
-      <div class="slide-info-block">
-        <p class="slide-news-info-title">Dancing with the Stars</p>
-        <p class="slide-news-info-subtitle">Congratulations Terry Warren, our CEO, for winning the most donations at Clinton's Dancing with the Stars!</p>
-      </div>
+    <div class="slide-info sectioned">
+      <p class="slide-title sectioned">Dancing with the Stars</p>
+      <p class="slide-subtitle sectioned">Congratulations Terry Warren, our CEO, for winning the most donations at Clinton's Dancing with the Stars!</p>
     </div>
   </div>
   <div class="slide">
     <img src="/images/news&events/slideshow_bikes.jpg">
-    <div class="slide-news-info">
-      <div class="slide-info-block">
-        <p class="slide-news-info-title">Bike Winners</p>
-				<p class="slide-news-info-subtitle">Congratulations to our well child bike winners!</p>
-      </div>
+    <div class="slide-info sectioned">
+      <p class="slide-title sectioned">Bike Winners</p>
+			<p class="slide-subtitle sectioned">Congratulations to our well child bike winners!</p>
     </div>
   </div>
   <div class="slide">
     <img src="/images/news&events/slideshow_bobble.jpg">
-    <div class="slide-news-info">
-      <div class="slide-info-block">
-        <p class="slide-news-info-title">Happy Doctor Day!</p>
-        <p class="slide-news-info-subtitle">We want to thank our awesome physicians for all their hard work.</p>
-      </div>
+    <div class="slide-info sectioned">
+      <p class="slide-title sectioned">Happy Doctor Day!</p>
+      <p class="slide-subtitle sectioned">We want to thank our awesome physicians for all their hard work.</p>
     </div>
   </div>
   </div>
@@ -110,7 +104,7 @@
 <script src="/scripts/jquery.bxslider.js"></script>
 <script>
 $(document).ready(function() {
- var slider = jQuery('#slideshow-news').bxSlider({
+ var slider = jQuery('#slideshow').bxSlider({
         auto : true,
         mode: 'horizontal',
         speed: 1000,
