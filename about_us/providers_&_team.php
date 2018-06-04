@@ -929,7 +929,7 @@
             <li>Northwestern State University - BS Zoology</li>
           </ul>
           <p class="tab-box-bio-title-personal">Personal</p>
-          <p class="tab-box-bio-personal">Dr. Smith is passionate about providing dental healthcare for the patients of VPCHC.</p>
+          <p class="tab-box-bio-personal">Dr. Smith enjoys the outdoors, motorcycles, home brewing, and hydroponics. He served in the US Army enlisted and commissioned combat arms and the US Navy as a dentist, retiring after 30 years.</p>
           </div>
           <p class="tab-box-location">Currently providing care in Cayuga</p>
         </div>
