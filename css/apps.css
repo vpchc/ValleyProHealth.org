@@ -400,7 +400,8 @@ footer {
 .banner {
   position: relative;
   width: 100%;
-  max-height: 540px; }
+  max-height: 540px;
+  z-index: 10; }
   @media only screen and (max-width: 1082px) {
     .banner {
       padding-top: 80px;
@@ -430,6 +431,16 @@ footer {
     .content {
       margin: 10px auto 0 auto;
       width: 95%; } }
+  .content.centered {
+    margin: 0 auto;
+    width: 1000px; }
+    @media only screen and (max-width: 1365px) {
+      .content.centered {
+        width: 850px; } }
+    @media only screen and (max-width: 1082px) {
+      .content.centered {
+        margin: 0 auto;
+        width: 95%; } }
 
 .content > p {
   margin-left: 30px;
@@ -439,17 +450,6 @@ footer {
     .content > p {
       margin-left: 0px;
       font-size: 14px; } }
-
-.content-centered {
-  margin: 0 auto;
-  width: 1000px; }
-  @media only screen and (max-width: 1365px) {
-    .content-centered {
-      width: 850px; } }
-  @media only screen and (max-width: 1082px) {
-    .content-centered {
-      margin: 0 auto;
-      width: 95%; } }
 
 .content-section {
   float: left;
@@ -468,6 +468,32 @@ footer {
   width: 90%;
   height: 430px; }
 
+.content-button-row {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 0.1px;
+  /*For IE 9/10*/ }
+  .content-button-row:after {
+    display: inline-block;
+    content: '';
+    width: 100%; }
+
+.content-button {
+  display: inline-block;
+  padding: 0 20px;
+  background: #70b244; }
+  .content-button.small {
+    width: 230px; }
+  .content-button.large {
+    width: 330px; }
+
+.content-button > p {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: "Franklin Gothic Book", Times, serif;
+  color: white; }
+
 /*------------------------------------*\
   #Tab
 \*------------------------------------*/
@@ -479,6 +505,12 @@ footer {
   @media only screen and (max-width: 1082px) {
     .tab-bar {
       pointer-events: none; } }
+  .tab-bar.blue {
+    background: #3a4e8c; }
+  .tab-bar.green {
+    background: #70b244; }
+  .tab-bar.grey {
+    background: #258f71; }
 
 .tab-bar > p {
   color: white;
@@ -523,6 +555,58 @@ footer {
 .tabgrey {
   background: #258f71; }
 
+.tab-box {
+  overflow: hidden;
+  padding: 10px;
+  height: auto;
+  border-right: 10px solid #3a4e8c;
+  border-bottom: 10px solid #3a4e8c;
+  border-left: 10px solid #3a4e8c; }
+
+.tab-box > img {
+  float: left;
+  width: 175px;
+  height: 200px; }
+
+.tab-box-text {
+  float: right;
+  margin-top: 5px;
+  width: 780px;
+  height: auto; }
+
+.tab-credentials {
+  float: right;
+  margin-right: 10px;
+  text-align: right;
+  font-size: 33px;
+  font-weight: 600;
+  color: #3a4e8c; }
+
+.tab-bio {
+  margin-left: 5px;
+  width: 600px;
+  font-size: 18px; }
+
+.tab-bio li {
+  margin-left: 20px;
+  font-size: 18px; }
+
+.tab-title {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+  color: #70b244; }
+
+.tab-location {
+  margin: 5px 0 0 5px;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+  color: #3a4e8c; }
+
+.tab-location > a {
+  color: #3a4e8c; }
+
 /*------------------------------------*\
   #Slideshow
 \*------------------------------------*/
@@ -537,12 +621,10 @@ footer {
   width: 100%;
   max-height: 540px;
   z-index: 1; }
-
-#slideshow.sectioned {
-  position: relative; }
-
-#slideshow.fullscreen {
-  position: absolute; }
+  #slideshow.sectioned {
+    position: relative; }
+  #slideshow.fullscreen {
+    position: absolute; }
 
 #slideshow img {
   width: 100%;
@@ -565,26 +647,24 @@ footer {
       margin-top: 40px;
       border-radius: 0px;
       background: #d9f1ff; } }
-
-.slide-info.fullscreen {
-  width: 562px;
-  top: 50%;
-  left: 8%; }
-  @media only screen and (max-width: 1082px) {
-    .slide-info.fullscreen {
-      top: 69px;
-      border-radius: 0px;
-      background-color: #d9f1ff; } }
-
-.slide-info.sectioned {
-  width: 88%;
-  left: 2.5%;
-  bottom: 5%; }
-  @media only screen and (max-width: 1082px) {
-    .slide-info.sectioned {
-      width: 100%;
-      left: 0%;
-      bottom: 0%; } }
+  .slide-info.fullscreen {
+    width: 562px;
+    top: 50%;
+    left: 8%; }
+    @media only screen and (max-width: 1082px) {
+      .slide-info.fullscreen {
+        top: 69px;
+        border-radius: 0px;
+        background-color: #d9f1ff; } }
+  .slide-info.sectioned {
+    width: 88%;
+    left: 2.5%;
+    bottom: 5%; }
+    @media only screen and (max-width: 1082px) {
+      .slide-info.sectioned {
+        width: 100%;
+        left: 0%;
+        bottom: 0%; } }
 
 .slide-title {
   padding-bottom: 5px;
@@ -595,16 +675,14 @@ footer {
     .slide-title {
       width: 93%;
       font-size: 20px; } }
-
-.slide-title.fullscreen {
-  font-size: 55px; }
-  @media only screen and (max-width: 1365px) {
-    .slide-title.fullscreen {
-      font-size: 45px; } }
-
-.slide-title.sectioned {
-  padding-top: 5px;
-  font-size: 25px; }
+  .slide-title.fullscreen {
+    font-size: 55px; }
+    @media only screen and (max-width: 1365px) {
+      .slide-title.fullscreen {
+        font-size: 45px; } }
+  .slide-title.sectioned {
+    padding-top: 5px;
+    font-size: 25px; }
 
 .slide-subtitle {
   color: #3a4e8c;
@@ -612,46 +690,15 @@ footer {
   @media only screen and (max-width: 1365px) {
     .slide-subtitle {
       font-size: 16px; } }
-
-.slide-subtitle.fullscreen {
-  padding: 5px 0 40px 0;
-  font-size: 35px; }
-  @media only screen and (max-width: 1365px) {
-    .slide-subtitle.fullscreen {
-      font-size: 25px; } }
-
-.slide-subtitle.sectioned {
-  padding-bottom: 20px;
-  font-size: 15px; }
-
-.slide-info-button {
-  display: inline-block;
-  position: relative;
-  padding: 14px 15px;
-  left: 30px;
-  bottom: 25px;
-  width: 260px;
-  background: #70b244;
-  color: #fff;
-  border-radius: 15px;
-  font-family: "Georgia", Times, serif;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 0.5s ease; }
-
-.slide-info-button:hover {
-  background: #3a4e8c; }
-
-.slide-info-span {
-  position: absolute;
-  display: block;
-  top: 8px;
-  right: 15px;
-  width: 26px;
-  height: 26px;
-  border: rgba(255, 255, 255, 0.5) solid 2px;
-  border-radius: 15px;
-  background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat; }
+  .slide-subtitle.fullscreen {
+    padding: 5px 0 40px 0;
+    font-size: 35px; }
+    @media only screen and (max-width: 1365px) {
+      .slide-subtitle.fullscreen {
+        font-size: 25px; } }
+  .slide-subtitle.sectioned {
+    padding-bottom: 20px;
+    font-size: 15px; }
 
 .bx-prev, .bx-next {
   position: absolute;
@@ -681,6 +728,39 @@ footer {
       width: 30px;
       height: 35px;
       background-size: cover; } }
+
+/*------------------------------------*\
+  #Sidebars
+\*------------------------------------*/
+.sidebar {
+  position: fixed;
+  z-index: 1; }
+  .sidebar.small {
+    margin-left: 10px; }
+  .sidebar.large {
+    margin: 10px 0 0 10px; }
+
+.sidebar > a {
+  text-decoration: none; }
+
+.sidebar-section {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  background: #70b244;
+  border-style: none;
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", Georgia, serif;
+  color: white;
+  cursor: pointer; }
+  .sidebar-section:active {
+    background: #3a4e8c;
+    transition: none; }
+  .sidebar-section.small {
+    width: 85px;
+    height: 40px; }
+  .sidebar-section.large {
+    width: 230px; }
 
 /*------------------------------------*\
       #History

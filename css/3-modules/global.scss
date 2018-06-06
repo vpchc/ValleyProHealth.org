@@ -10,6 +10,8 @@
 	width: 100%;
   max-height: 540px;
 	
+	z-index: 10;
+	
 	@media only screen and (max-width: 1082px) {
 		padding-top: 80px; 
 		height: auto;
@@ -46,6 +48,17 @@
 		margin: 10px auto 0 auto;
     width: 95%;
 	}
+	
+	&.centered {
+		margin: 0 auto;
+		width: 1000px;
+	
+		@media only screen and (max-width: 1365px) { width: 850px;}
+		@media only screen and (max-width: 1082px) {
+			margin: 0 auto; 
+    	width: 95%;
+		}
+	}
 }
 .content > p {
 	margin-left: 30px;
@@ -57,16 +70,6 @@
 		margin-left: 0px;
 		
 		font-size: 14px;
-	}
-}
-.content-centered {
-	margin: 0 auto;
-	width: 1000px;
-	
-	@media only screen and (max-width: 1365px) { width: 850px;}
-	@media only screen and (max-width: 1082px) {
-		margin: 0 auto; 
-    width: 95%;
 	}
 }
 .content-section {
@@ -91,6 +94,39 @@
 	  width: 90%;
     height: 430px;
 }
+.content-button-row {
+	margin-bottom: 20px;
+	
+	text-align: justify;
+	font-size: 0.1px; /*For IE 9/10*/
+	
+	&:after {
+		display: inline-block;
+		
+		content: '';
+		
+		width: 100%;
+	}
+}
+.content-button {
+	display: inline-block;
+		
+	padding: 0 20px;
+		
+	background: $vpchc-green;
+	
+	&.small { width: 230px;}
+	
+	&.large { width: 330px;}
+}
+.content-button > p{
+	padding: 10px 0;
+		
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: "Franklin Gothic Book", Times, serif;
+	color: white;
+}
 
 /*------------------------------------*\
   #Tab
@@ -101,6 +137,12 @@
 	height: 75px;
 
 	@media only screen and (max-width: 1082px) { pointer-events: none;}
+	
+	&.blue { background: $vpchc-blue;}
+	
+	&.green { background: $vpchc-green;}
+	
+	&.grey { background: $vpchc-grey;}
 }
 .tab-bar > p {
  	color: white;
@@ -157,6 +199,67 @@
 	}
 }
 .tabgrey { background: $vpchc-grey;}
+.tab-box { 
+	overflow: hidden;
+	
+  padding: 10px;
+  height: auto;
+
+  border-right:  10px solid $vpchc-blue;
+  border-bottom: 10px solid $vpchc-blue;
+  border-left:   10px solid $vpchc-blue;
+}
+.tab-box > img {
+	float: left;
+	
+	width: 175px;
+  height: 200px;
+}
+.tab-box-text {
+	float: right;
+    
+	margin-top: 5px;
+	width: 780px;
+  height: auto;
+}
+.tab-credentials {
+  float: right;
+    
+  margin-right: 10px;
+    
+  text-align: right;
+  font-size: 33px;
+    
+  font-weight: 600;
+  color: $vpchc-blue;
+}
+.tab-bio {
+  margin-left: 5px;
+  width: 600px;
+    
+  font-size: 18px;
+}
+.tab-bio li {
+  margin-left: 20px;
+    
+  font-size: 18px;
+}
+.tab-title {
+	margin-bottom: 5px;
+    
+	font-size: 22px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+	color: $vpchc-green;
+}
+.tab-location {
+  margin: 5px 0 0 5px;
+    
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+  color: $vpchc-blue;
+}
+.tab-location > a { color: $vpchc-blue;}
 
 /*------------------------------------*\
   #Slideshow
@@ -174,12 +277,11 @@
   max-height: 540px;
 	
 	z-index: 1;
+	
+	&.sectioned { position: relative;}
+	
+	&.fullscreen { position: absolute;}
 }
-#slideshow.sectioned {
-	position: relative;
-
-}
-#slideshow.fullscreen { position: absolute;}
 #slideshow img {
 	width: 100%;
 	max-height: 540px;
@@ -207,29 +309,31 @@
 	
 		background: $light-blue;
 	}
-}
-.slide-info.fullscreen {
-	width: 562px;
-	top: 50%;
-	left: 8%;
 	
-	@media only screen and (max-width: 1082px) { 
-		top: 69px;
-		
-		border-radius: 0px;
-			
-    background-color: $light-blue;
+	&.fullscreen {
+		width: 562px;
+		top: 50%;
+		left: 8%;
+	
+		@media only screen and (max-width: 1082px) { 
+			top: 69px;
+
+			border-radius: 0px;
+
+			background-color: $light-blue;
+		}
 	}
-}
-.slide-info.sectioned {
-	width: 88%;
-  left: 2.5%;
- 	bottom: 5%;
 	
-	@media only screen and (max-width: 1082px) { 
-		width: 100%;
-		left: 0%;
-		bottom: 0%;
+	&.sectioned {
+		width: 88%;
+  	left: 2.5%;
+ 		bottom: 5%;
+	
+		@media only screen and (max-width: 1082px) { 
+			width: 100%;
+			left: 0%;
+			bottom: 0%;
+		}
 	}
 }
 .slide-title {     
@@ -245,69 +349,38 @@
 		
 		font-size: 20px;
 	}
-}
-.slide-title.fullscreen { 
-	font-size: 55px;
+	
+	&.fullscreen {
+		font-size: 55px;
 
-	@media only screen and (max-width: 1365px) { font-size: 45px;}
-}
-.slide-title.sectioned { 
-	padding-top: 5px;
+		@media only screen and (max-width: 1365px) { font-size: 45px;}
+	}
+	
+	&.sectioned {
+		padding-top: 5px;
     
-	font-size: 25px;
+		font-size: 25px;
+	}
 }
 .slide-subtitle {
 	color: $vpchc-blue;
 	font-family: "Franklin Gothic Demi", Times, serif; 
 	
 	@media only screen and (max-width: 1365px) { font-size: 16px;}
-}
-.slide-subtitle.fullscreen { 
-	padding: 5px 0 40px 0;
+	
+	&.fullscreen {
+		padding: 5px 0 40px 0;
 	    
-	font-size: 35px;
+		font-size: 35px;
 	
-	@media only screen and (max-width: 1365px) { font-size: 25px;}
-}
-.slide-subtitle.sectioned { 
-	padding-bottom: 20px;
+		@media only screen and (max-width: 1365px) { font-size: 25px;}
+	}
 	
-	font-size: 15px;
-}
-
-.slide-info-button{
-    display: inline-block;
-    position: relative;
-    
-    padding: 14px 15px;
-    left: 30px;
-    bottom: 25px;
-    width: 260px;
-    
-    background: #70b244;
-    color: #fff;
-    border-radius: 15px;
-   
-    font-family: "Georgia", Times, serif;
-    font-weight: 700;
-    text-decoration: none;
-    
-    transition: all 0.5s ease;
-}
-.slide-info-button:hover{ background: #3a4e8c;}
-.slide-info-span{
-    position: absolute;
-    display: block;
-    
-    top: 8px;
-    right: 15px;
-    width: 26px;
-    height: 26px;
-
-    border: rgba(255, 255, 255, 0.50) solid 2px;
-   
-    border-radius: 15px;
-    background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
+	&.sectioned {
+		padding-bottom: 20px;
+	
+		font-size: 15px;
+	}
 }
 .bx-prev, .bx-next {
     position: absolute;
@@ -346,4 +419,47 @@
 
     background-size: cover;
 	}
+}
+
+/*------------------------------------*\
+  #Sidebars
+\*------------------------------------*/
+
+.sidebar { 
+	position: fixed;
+
+  z-index: 1;
+	
+	&.small { margin-left: 10px;}
+	
+	&.large { margin: 10px 0 0 10px;}
+}
+.sidebar > a { text-decoration: none;}
+.sidebar-section {
+  display: block;
+    
+  margin-bottom: 5px;
+  padding: 10px;
+    
+  background: $vpchc-green;
+  border-style: none;
+    
+	font-size: 19px;
+  font-family: "Franklin Gothic Medium", Georgia, serif;
+  color: white;
+    
+  cursor: pointer;
+	
+	&:active {
+		background: $vpchc-blue;
+    
+    transition: none;
+	}
+	
+	&.small {
+		width: 85px;
+		height: 40px;
+	}
+	
+	&.large { width: 230px;}
 }

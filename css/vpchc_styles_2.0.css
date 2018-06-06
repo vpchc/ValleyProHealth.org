@@ -145,48 +145,40 @@
   	width: 1349px;
 }
 
-/*------------------------------------*\
-  #Sidebars
-\*------------------------------------*/
-
-#sidebar { 
-    position: fixed;
-
-    z-index: 1;
-}
-#sidebar a { text-decoration: none;}
-.sidebar-section {
-    display: block;
+.slide-info-button{
+    display: inline-block;
+    position: relative;
     
-    margin-bottom: 5px;
-    padding: 10px;
-    
+    padding: 14px 15px;
+    left: 30px;
+    bottom: 25px;
+    width: 260px;
     
     background: #70b244;
-    border-style:none;
+    color: #fff;
+    border-radius: 15px;
+   
+    font-family: "Georgia", Times, serif;
+    font-weight: 700;
+    text-decoration: none;
     
-    font-family: "Franklin Gothic Medium", Georgia, serif;
-    font-size: 19px;
-    color: white;
-    
-    cursor: pointer;
+    transition: all 0.5s ease;
 }
+.slide-info-button:hover{ background: #3a4e8c;}
+.slide-info-span{
+    position: absolute;
+    display: block;
+    
+    top: 8px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
 
-.sidebar-section:active {
-    background: #2d4a70;
-    
-    transition: none;
+    border: rgba(255, 255, 255, 0.50) solid 2px;
+   
+    border-radius: 15px;
+    background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
 }
-
-/*----Small----*/
-.small-sidebar { margin-left: 10px;}
-.small-bar {
-    height: 40px;
-    width: 85px;
-}
-/*----Large----*/
-.large-sidebar { margin: 10px 0 0 10px;}
-.large-bar { width: 230px;}
 
 /*------------------------------------*\
   #Tab
@@ -212,7 +204,7 @@
 }
 #tab-faq .tab-box { display: none;}
 /*----Providers&Team----*/
-.tab-team { margin-left: 300px;}
+
 .team-ps { background: #70b244;}
 
 .tab-prov { background: #3a4e8c;}
@@ -271,6 +263,8 @@
     width: 175px;
 }
 .tab-box-mobilepic{ display: none;}
+
+#tab-faq .tab-box { display: none;}
 
 /*----FAQs----*/
 .tab-question {

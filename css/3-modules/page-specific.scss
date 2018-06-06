@@ -29,14 +29,14 @@
   padding: 10px 200px 0 0;
 	width: 235px;
  
-  border-top: 3px solid #70b244;
+  border-top: 3px solid $vpchc-green;
 
 	@media only screen and (max-width: 1082px) { 
 		margin: 0 auto 20px auto;
     padding: 20px 50px 10px 10px;
     width: 235px;
 
-    border: 3px solid #70b244;
+    border: 3px solid $vpchc-green;
 	}
 }
 .timeline-year {
@@ -45,7 +45,7 @@
   top: 2px;
     
   font-size: 48px;
-  color: #70b244;
+  color: $vpchc-green;
 	@media only screen and (max-width: 1082px) { 
 		padding: 0 5px;
         
@@ -55,14 +55,14 @@
 .timeline-month-blue {
   font-size: 20px;
     
-  color: #3a4e8c;
+  color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
 }
 .timeline-month-green {
 	font-size: 20px;
     
-  color: #70b244;
+  color: $vpchc-green;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
 }
@@ -71,20 +71,20 @@
     
   padding: 10px 0 0 200px;
     
-  border-color: #3a4e8c;
+  border-color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1082px) { 
 		padding: 20px 0px 10px 60px;
         
-    border-color: #3a4e8c;
+    border-color: $vpchc-blue;
 	}
 }
 .timeline.even .timeline-year {
     left: 0;
 	
-    color: #3a4e8c;
+    color: $vpchc-blue;
 }
-.timeline p{ 
+.timeline p { 
 	margin-top: 5px; 
 	
 	@media only screen and (max-width: 1082px) { 
@@ -106,14 +106,14 @@
   #News
 \*------------------------------------*/
 
-#events-calendar{
+#events-calendar {
 	margin: 30px auto 0 auto;
   width: 100%;
 	
 	@media only screen and (max-width: 1365px) { height: 500px;}
 	@media only screen and (max-width: 1082px) { display: none;}
 }
-#events-smallcalendar{ 
+#events-smallcalendar { 
 	display: none;
 
 	@media only screen and (max-width: 1082px) { 
