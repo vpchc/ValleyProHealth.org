@@ -527,6 +527,8 @@ footer {
       width: 100%;
       text-align: center;
       font-size: 22px; } }
+  .tab-name.small {
+    font-size: 40px; }
 
 .tab-simple {
   display: block;
@@ -567,12 +569,26 @@ footer {
   float: left;
   width: 175px;
   height: 200px; }
+  @media only screen and (max-width: 1082px) {
+    .tab-box > img {
+      display: block;
+      float: none;
+      margin: auto;
+      width: auto;
+      height: 150px; } }
 
 .tab-box-text {
   float: right;
-  margin-top: 5px;
+  margin-top: 0px;
   width: 780px;
   height: auto; }
+  @media only screen and (max-width: 1365px) {
+    .tab-box-text {
+      width: 630px; } }
+  @media only screen and (max-width: 1082px) {
+    .tab-box-text {
+      float: none;
+      width: 100%; } }
 
 .tab-credentials {
   float: right;
@@ -580,29 +596,60 @@ footer {
   text-align: right;
   font-size: 33px;
   font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
   color: #3a4e8c; }
+  @media only screen and (max-width: 1082px) {
+    .tab-credentials {
+      display: block;
+      float: none;
+      text-align: center;
+      font-size: 18px; } }
 
 .tab-bio {
   margin-left: 5px;
   width: 600px;
   font-size: 18px; }
+  @media only screen and (max-width: 1082px) {
+    .tab-bio {
+      float: none;
+      margin-left: 0;
+      width: 100%;
+      height: auto;
+      line-height: 125%;
+      font-size: 12px; } }
 
 .tab-bio li {
   margin-left: 20px;
   font-size: 18px; }
+  @media only screen and (max-width: 1082px) {
+    .tab-bio li {
+      margin-left: 18px;
+      font-size: 14px; } }
 
 .tab-title {
   margin-bottom: 5px;
+  margin-top: 5px;
   font-size: 22px;
   font-weight: 600;
   font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
   color: #70b244; }
+  .tab-title:nth-child(3) {
+    margin-top: 10px; }
+  @media only screen and (max-width: 1082px) {
+    .tab-title {
+      font-size: 16px; } }
 
 .tab-location {
   margin: 5px 0 0 5px;
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
   color: #3a4e8c; }
+  @media only screen and (max-width: 1082px) {
+    .tab-location {
+      display: block;
+      margin-top: 2px;
+      text-align: center;
+      font-size: 16px; } }
 
 .tab-location > a {
   color: #3a4e8c; }
@@ -735,6 +782,9 @@ footer {
 .sidebar {
   position: fixed;
   z-index: 1; }
+  @media only screen and (max-width: 1082px) {
+    .sidebar {
+      display: none; } }
   .sidebar.small {
     margin-left: 10px; }
   .sidebar.large {
@@ -749,7 +799,7 @@ footer {
   padding: 10px;
   background: #70b244;
   border-style: none;
-  font-size: 19px;
+  font-size: 15px;
   font-family: "Franklin Gothic Medium", Georgia, serif;
   color: white;
   cursor: pointer; }
@@ -760,7 +810,11 @@ footer {
     width: 85px;
     height: 40px; }
   .sidebar-section.large {
-    width: 230px; }
+    width: 150px; }
+    @media only screen and (max-width: 1365px) {
+      .sidebar-section.large {
+        width: 80px;
+        font-size: 12px; } }
 
 /*------------------------------------*\
       #History

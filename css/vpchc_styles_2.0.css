@@ -192,77 +192,6 @@
     height: 60px;
     width: 80px;
 }
-.tab-box { 
-    overflow: hidden;
-
-    height: auto;
-    padding: 10px;
-    
-    border-right: 10px solid #3a4e8c;
-    border-bottom: 10px solid #3a4e8c;
-    border-left: 10px solid #3a4e8c;
-}
-#tab-faq .tab-box { display: none;}
-/*----Providers&Team----*/
-
-.team-ps { background: #70b244;}
-
-.tab-prov { background: #3a4e8c;}
-.tab-box-text {
-    float: right;
-    
-    margin-top: 5px;
-    height: auto;
-    width: 780px;
-}
-.tab-box-title {
-    float: right;
-    
-    margin-right: 10px;
-    
-    text-align: right;
-    font-size: 33px;
-    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
-    font-weight: 600;
-    color: #3a4e8c;
-}
-.tab-box-bio {
-    margin-left: 5px;
-    width: 600px;
-    
-    font-size: 22px;
-}
-.tab-box-bio-title-education,
-.tab-box-bio-title-personal{
-    margin-bottom: 5px;
-    
-    color: #70b244;
-    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
-    font-weight: 600;
-}
-.tab-box-bio-title-personal{ margin-top: 10px;}
-.tab-box-bio li {
-    margin-left: 20px;
-    
-    font-size: 18px;
-}
-.tab-box-bio-personal {
-    font-size: 18px;
-}
-.tab-box-location {
-    margin: 5px 0 0 5px;
-    
-    font-size: 28px;
-    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
-    color: #3a4e8c;
-}
-.tab-box-location a { color: #3a4e8c;}
-.tab-box-pic { float: left;}
-.tab-box-pic img {
-    height: 200px;
-    width: 175px;
-}
-.tab-box-mobilepic{ display: none;}
 
 #tab-faq .tab-box { display: none;}
 
@@ -995,17 +924,6 @@ h2,
     .large-bar { width: 150px;}
 
     /*------------------------------------*\
-      #Tab
-    \*------------------------------------*/
-
-    /*----Providers&Team----*/
-    .tab-team { margin-left: 180px;}
-    .tab-name-small { font-size: 40px;}
-    .tab-box-text { width: 630px;  }
-    .tab-box-title { font-size: 32px;}
-    .tab-box-bio { margin-top: 0px;}
-
-    /*------------------------------------*\
       #Titles
     \*------------------------------------*/
     
@@ -1016,11 +934,7 @@ h2,
       #Contact Us
     \*------------------------------------*/
 
-    #contact-table-container {
-    
-
-        width: 1000px;
-    }
+    #contact-table-container { width: 1000px;}
     
     /*------------------------------------*\
       #Forms
@@ -1208,14 +1122,7 @@ h2,
     .services-provided-section > img {
         width: 35px;
         height: 35px;
-    }
-
-    /*------------------------------------*\
-      #Sidebars
-    \*------------------------------------*/
-    
-    #sidebar { display: none;}
-    
+    }    
     
     /*------------------------------------*\
       #Tab
@@ -1225,6 +1132,7 @@ h2,
     .tab-box-team-height {
         height: 150px;
     }
+	
     .drop-arrow { display: none;}
     .tab-question {
         font-size: 18px;
@@ -1232,57 +1140,7 @@ h2,
     }
     .tab-answer { font-size: 15px;}
     /*----Providers&Team----*/
-    .tab-box-text {
-        float: none;
-        
-        width: 100%;
-    }
-    .tab-box-title {
-        display: block;
-        float: none;
-        
-        text-align: center;
-        font-size: 18px;
-    }
-    .tab-box-bio {
-        float: none;
-        
-        margin-left: 0;
-        width: 100%;
-        height: auto;
-        
-        font-size: 12px;
-        line-height: 125%;
-    }
-    .tab-box-bio-title-education,
-    .tab-box-bio-title-personal{
-        margin-bottom: 0px;
 
-        font-size: 15px;
-    }
-    .tab-box-bio-title-personal{ margin-top: 5px;}
-    .tab-box-bio li {
-        margin-left: 18px;
-
-        font-size: 14px;
-    }
-    .tab-box-bio-personal { font-size: 14px;}
-    .tab-box-location {
-        display: block;
-        
-        margin-top: 2px;
-     
-        text-align: center;
-        font-size: 16px;
-    }
-    .tab-box-pic { float: none;}
-    .tab-box-pic img {
-        display: block;
-        
-        margin: auto;
-        height: 150px;
-        width: auto;
-    }
 
     /*------------------------------------*\
       #Titles

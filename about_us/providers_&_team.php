@@ -47,7 +47,7 @@
     <a href="#nursepractitioners"><button class="sidebar-section large">Nurse Practitioners</button></a>
     <a href="#behavioralhealth"><button class="sidebar-section large">Behavioral Health</button></a>
     <a href="#dental"><button class="sidebar-section large">Dental</button></a>
-    <a href="#chw"><button class="sidebar-section large">Comm. Health Workers</button></a>
+    <a href="#chw"><button class="sidebar-section large">CHW</button></a>
     <a href="#pcc"><button class="sidebar-section large">Patient Care Coord.</button></a>
     <a href="#directors"><button class="sidebar-section large">Directors</button></a>
     <a href="#managers"><button class="sidebar-section large">Managers</button></a>
@@ -196,7 +196,7 @@
     </div>
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name tab-name-small">Union Hospital Family Medicine Residency</p>
+        <p class="tab-name small">Union Hospital Family Medicine Residency</p>
       </div>
       <div class="tab-box">
         <div class="tab-box-text">
@@ -619,7 +619,7 @@
         <img src="/images/providers/lonneman.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Licensed Clinical<br>Social Worker</p></div>
-          <div class="tab--bio">
+          <div class="tab-bio">
           <p class="tab-title">Education</p>
           <ul>
             <li>University of Southern Indiana - MSW</li>
@@ -847,20 +847,20 @@
     <hr>
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Dr. Nichole Barnett, DDS</p>
+        <p class="tab-name">Dr. Brad Smith, DDS</p>
       </div>
       <div class="tab-box">
-        <img src="/images/providers/barnett.jpg">
+        <img src="/images/providers/smith.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Dentist</p></div>
           <div class="tab-bio">
           <p class="tab-title">Education</p>
           <ul>
-            <li>Indiana University School of Dentistry - DDS</li>
-            <li>Oakland City University - Bachelor of Science Biology & Chemistry</li>
+            <li>Marquette School of Dentistry - DDS</li>
+            <li>Northwestern State University - BS Zoology</li>
           </ul>
           <p class="tab-title">Personal</p>
-          <p>Dr. Barnett became a dentist so she could help the underserved, and her goal is to make every patient feel comfortable while having their dental work done. In addition to being a dentist, she is also a member of a gospel trio along with her husband and sister-in-law. In her free time she enjoys spending time with her family, hunting and fishing.</p>
+          <p>Dr. Smith enjoys the outdoors, motorcycles, home brewing, and hydroponics. He served in the US Army enlisted and commissioned combat arms and the US Navy as a dentist, retiring after 30 years.</p>
           </div>
           <p class="tab-location">Currently providing care in Cayuga</p>
         </div>
@@ -908,6 +908,11 @@
     <div class="tab">
       <div class="tab-bar green">
         <p class="tab-simple">Jill<span>Clinton</span></p>
+      </div>
+    </div>
+		<div class="tab">
+      <div class="tab-bar green">
+        <p class="tab-simple">Kyleigh<span>Terre Haute</span></p>
       </div>
     </div>
     <div class="tab">
