@@ -668,10 +668,9 @@ footer {
   width: 100%;
   max-height: 540px;
   z-index: 1; }
-  #slideshow.sectioned {
-    position: relative; }
-  #slideshow.fullscreen {
-    position: absolute; }
+  @media only screen and (max-width: 1082px) {
+    #slideshow.fullscreen {
+      padding-top: 80px; } }
 
 #slideshow img {
   width: 100%;
@@ -691,7 +690,6 @@ footer {
   @media only screen and (max-width: 1082px) {
     .slide-info {
       position: relative;
-      margin-top: 40px;
       border-radius: 0px;
       background: #d9f1ff; } }
   .slide-info.fullscreen {
@@ -700,9 +698,11 @@ footer {
     left: 8%; }
     @media only screen and (max-width: 1082px) {
       .slide-info.fullscreen {
-        top: 69px;
-        border-radius: 0px;
-        background-color: #d9f1ff; } }
+        display: block;
+        width: 100%;
+        height: 120px;
+        top: 10px;
+        left: 0; } }
   .slide-info.sectioned {
     width: 88%;
     left: 2.5%;
@@ -727,6 +727,9 @@ footer {
     @media only screen and (max-width: 1365px) {
       .slide-title.fullscreen {
         font-size: 45px; } }
+    @media only screen and (max-width: 1365px) {
+      .slide-title.fullscreen {
+        font-size: 20px; } }
   .slide-title.sectioned {
     padding-top: 5px;
     font-size: 25px; }
@@ -743,9 +746,45 @@ footer {
     @media only screen and (max-width: 1365px) {
       .slide-subtitle.fullscreen {
         font-size: 25px; } }
+    @media only screen and (max-width: 1082px) {
+      .slide-subtitle.fullscreen {
+        font-size: 14px; } }
   .slide-subtitle.sectioned {
     padding-bottom: 20px;
     font-size: 15px; }
+
+.slide-info-button {
+  position: absolute;
+  display: inline-block;
+  padding: 14px 15px;
+  left: 30px;
+  bottom: -20px;
+  width: 260px;
+  background: #70b244;
+  border-radius: 15px;
+  font-weight: 700;
+  font-family: "Georgia", Times, serif;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease; }
+  .slide-info-button:hover {
+    background: .slide-info-button:hover vpchc-blue; }
+  @media only screen and (max-width: 1082px) {
+    .slide-info-button {
+      width: 150px;
+      bottom: 10px;
+      font-size: 13px; } }
+
+.slide-info-span {
+  position: absolute;
+  display: block;
+  top: 8px;
+  right: 15px;
+  width: 26px;
+  height: 26px;
+  background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
+  border: rgba(255, 255, 255, 0.5) solid 2px;
+  border-radius: 15px; }
 
 .bx-prev, .bx-next {
   position: absolute;
@@ -899,6 +938,94 @@ footer {
   @media only screen and (max-width: 1082px) {
     .history-continued {
       display: none; } }
+
+/*------------------------------------*\
+  #Home
+\*------------------------------------*/
+.home-about {
+  margin: 30px auto 0 auto;
+  width: 98%;
+  height: auto; }
+
+.home-about-hands {
+  display: inline-block;
+  float: left;
+  width: 8%; }
+  @media only screen and (max-width: 1365px) {
+    .home-about-hands {
+      width: 12%; } }
+  @media only screen and (max-width: 1082px) {
+    .home-about-hands {
+      display: none; } }
+
+.home-about > p {
+  display: inline-block;
+  float: left;
+  margin: 1vw 0 0 30px;
+  width: 65%;
+  font-size: 1.25vw;
+  font-family: "Franklin Gothic Book", Times, serif; }
+  @media only screen and (max-width: 1365px) {
+    .home-about > p {
+      width: 55%; } }
+  @media only screen and (max-width: 1082px) {
+    .home-about > p {
+      float: none;
+      margin: 0px auto 20px auto;
+      padding: 10px;
+      width: 95%;
+      font-size: 14px; } }
+
+.home-about-info {
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  width: 20%; }
+  @media only screen and (max-width: 1365px) {
+    .home-about-info {
+      margin-right: 10px;
+      width: 25%; } }
+  @media only screen and (max-width: 1082px) {
+    .home-about-info {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      width: 55%; } }
+
+.home-button-row {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  text-align: justify; }
+  .home-button-row:after {
+    display: inline-block;
+    width: 100%;
+    content: ""; }
+  @media only screen and (max-width: 1082px) {
+    .home-button-row {
+      width: 60%; } }
+
+.home-button {
+  display: inline-block;
+  clear: both;
+  margin: 30px 20px;
+  vertical-align: top;
+  width: 21.7%;
+  height: auto;
+  /* IE fix. */
+  *display: inline;
+  zoom: 1; }
+  @media only screen and (max-width: 1365px) {
+    .home-button {
+      width: 20.5%; } }
+  @media only screen and (max-width: 1082px) {
+    .home-button {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; } }
+
+.home-button img {
+  width: 100%; }
 
 /*------------------------------------*\
   #News

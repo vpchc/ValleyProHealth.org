@@ -145,41 +145,6 @@
   	width: 1349px;
 }
 
-.slide-info-button{
-    display: inline-block;
-    position: relative;
-    
-    padding: 14px 15px;
-    left: 30px;
-    bottom: 25px;
-    width: 260px;
-    
-    background: #70b244;
-    color: #fff;
-    border-radius: 15px;
-   
-    font-family: "Georgia", Times, serif;
-    font-weight: 700;
-    text-decoration: none;
-    
-    transition: all 0.5s ease;
-}
-.slide-info-button:hover{ background: #3a4e8c;}
-.slide-info-span{
-    position: absolute;
-    display: block;
-    
-    top: 8px;
-    right: 15px;
-    width: 26px;
-    height: 26px;
-
-    border: rgba(255, 255, 255, 0.50) solid 2px;
-   
-    border-radius: 15px;
-    background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
-}
-
 /*------------------------------------*\
   #Tab
 \*------------------------------------*/
@@ -748,77 +713,6 @@ h2,
 .location-services-type:hover span {
     opacity: 1;
 }
-/*------------------------------------*\
-  #Home
-\*------------------------------------*/
-
-#home-info-about {
-    margin: 30px auto 0 auto;
-    height: auto;
-    width: 98%;
-}
-#home-info-about-left {
-    display: inline-block;
-    
-    width: 70%;
-}
-#home-info-hands {
-    float: left;
-    
-    width: 15%;
-}
-#home-info-about p {
-    float: left;
-    
-    margin: 1vw 0 0 30px;
-    width: 75%;
-    
-    font-family: "Franklin Gothic Book", Times, serif;
-    font-size: 1vw;
-}
-#home-info-about-right {
-    display: inline-block;
-    float: right;
-    
-    width: 30%;
-}
-#home-info-ecw {
-    display: block;
-    float: right;
-    
-    margin-right: 60px;
-    width: 95%;
-}
-#home-info-buttons {
-    clear: both;
-    
-    margin: 0 auto;
-    width: 100%;
-    
-    text-align: justify;
-}
-#home-info-buttons:after {
-    display: inline-block;
-
-	width: 100%;
-    
-    content: "";
-}
-.home-info-button {
-    display: inline-block;
-    vertical-align: top;
-    clear: both;
-    /* IE fix. */
-	*display: inline;
-	zoom: 1;
-    
-    margin: 30px 20px 30px 20px;
-    height: auto;
-    width: 21.7%;
-}
-.home-info-button img { width: 100%;}
-
-
 
 /*------------------------------------*\
   #Services
@@ -954,39 +848,6 @@ h2,
     .forms-age-pic {
         height: 300px;
         width: auto;
-    }
-    
-    /*------------------------------------*\
-      #Home
-    \*------------------------------------*/
-
-    #home-info { margin: 20px auto 0 auto;}
-    #home-info-hands {
-        width: 18%;
-    }
-    #home-info-about p {
-        margin-left: 10px;
-    width: 65%;
-    
-    font-size: 12px;
-    }
-    #home-info-ecw {
-        margin-right: 60px;
-        height: 180px;
-        width: auto;
-    }
-    .home-info-button { width: 44%;}
-    .home-info-button a {
-        display: block;
-        
-        margin: 0 auto;
-        width: 60%;
-    }
-    .home-info-button img {
-        display: block;
-        
-        margin: 0 auto;
-        width: 100%;
     }
     
     /*------------------------------------*\
@@ -1355,49 +1216,6 @@ h2,
     \*------------------------------------*/
     
     #faq { width: 95%;}
-    
-    /*------------------------------------*\
-      #Home
-    \*------------------------------------*/
-    #home-info-about {
-        margin: 0px auto;
-        height: auto;
-        width: 95%;
-    }
-    #home-info-about-left { width: 100%;}
-    #home-info-hands { display: none;}
-    #home-info-about p {
-        margin: 0px auto;
-        padding: 10px;
-        width: 95%;
-
-        font-size: 14px;
-    }
-    #home-info-about-right{ 
-        float: none;
-        
-        width: 100%;
-    }
-    #home-info-ecw { 
-        float: none;
-    
-        margin: 0 auto;
-        height: auto;
-        width: 95%;
-    }
-    .home-info-button { width: 89%;}
-    .home-info-button a {
-        display: block;
-        
-        margin: 0 auto;
-        width: 60%;
-    }
-    .home-info-button img {
-        display: block;
-        
-        margin: 0 auto;
-        width: 100%;
-    }
     
     /*------------------------------------*\
       #Locations

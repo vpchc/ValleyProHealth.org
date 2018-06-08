@@ -103,6 +103,106 @@
 }
 
 /*------------------------------------*\
+  #Home
+\*------------------------------------*/
+
+.home-about {
+	margin: 30px auto 0 auto;
+	width: 98%;
+  height: auto;
+}
+.home-about-hands {
+	display: inline-block;
+	float: left;
+    
+  width: 8%;
+	
+	@media only screen and (max-width: 1365px) { width: 12%;}
+	
+	@media only screen and (max-width: 1082px) { display: none;}
+}
+.home-about > p {
+  display: inline-block;
+	float: left;
+  
+	margin: 1vw 0 0 30px;
+  width: 65%;
+    
+	font-size: 1.25vw;
+  font-family: "Franklin Gothic Book", Times, serif;
+	
+	@media only screen and (max-width: 1365px) { width: 55%;}
+	
+	@media only screen and (max-width: 1082px) {  
+		float: none;
+		
+		margin: 0px auto 20px auto;
+    padding: 10px;
+    width: 95%;
+
+    font-size: 14px;
+	}
+}
+.home-about-info {
+	display: inline-block;
+  float: right;
+    
+  margin-right: 60px;
+  width: 20%;
+	
+	@media only screen and (max-width: 1365px) { 
+		margin-right: 10px;
+		width: 25%;
+	}
+	
+	@media only screen and (max-width: 1082px) {  
+		display: block;
+		float: none;
+    
+    margin: 0 auto;
+		width: 55%;
+	}
+}
+.home-button-row {
+  clear: both;
+    
+  margin: 0 auto;
+  width: 100%;
+    
+  text-align: justify;
+	
+	&:after {
+		display: inline-block;
+
+		width: 100%;
+    
+    content: "";
+	}
+	@media only screen and (max-width: 1082px) { width: 60%;}
+}
+.home-button {
+	display: inline-block;
+  clear: both;
+	
+	margin: 30px 20px;
+	vertical-align: top;
+	width: 21.7%;
+  height: auto;
+
+    /* IE fix. */
+	*display: inline;
+	zoom: 1; 
+	
+	@media only screen and (max-width: 1365px) { width: 20.5%;}
+	@media only screen and (max-width: 1082px) { 
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+.home-button img { width: 100%;}
+
+/*------------------------------------*\
   #News
 \*------------------------------------*/
 
