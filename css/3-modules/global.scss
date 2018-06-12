@@ -49,11 +49,24 @@
     width: 95%;
 	}
 	
-	&.centered {
+	&.centered.small {
 		margin: 0 auto;
 		width: 1000px;
 	
 		@media only screen and (max-width: 1365px) { width: 850px;}
+		
+		@media only screen and (max-width: 1082px) {
+			margin: 0 auto; 
+    	width: 95%;
+		}
+	}
+	
+	&.centered.large {
+		margin: 20px auto;
+		width: 1349px;
+		
+		@media only screen and (max-width: 1365px) { width: 1060px;} 
+		
 		@media only screen and (max-width: 1082px) {
 			margin: 0 auto; 
     	width: 95%;

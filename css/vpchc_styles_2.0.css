@@ -607,112 +607,19 @@ h2,
 /*------------------------------------*\
   #Locations
 \*------------------------------------*/
-#location-title, #location-indextitle{
+#location-title{
     font-size: 76px;
     font-family: "Franklin Gothic Medium", Times, serif;
 }
 #location-title{margin: 20px 0;}
-#location-indextitle{
-  margin-top: 20px;
-  width: 100%;
-  
-  text-align: center;
-}
-#location-photo{
-    width: 800px;
-}
-#location-info{
-    float: right;
-    width: 500px;
-  
-    font-size: 15px;
-    text-align: center;
-    line-height: 1.4;
-}
-.location-subtitle, .location-tinytitle{
-    font-family: "Franklin Gothic Medium", Times, serif;
-    color: #3a4e8c; 
-}
-.location-subtitle{ font-size: 36px;}
-.location-subtitle-topmargin{ margin-top: 20px;}
-.location-info-contact {
-    margin-left: 185px;
-    width: 130px;
-}
-.location-info-icon{
-    float: left;
-    width: 20px;
-}
-.location-tinytitle{
-    margin: 10px 0;
-    font-size: 20px;
-}
-#location-bottom-section{ height: 410px;}
-#location-details{
-  float: left;
-}
-.location-services-icon {
-    display: inline-block;
-  
-    margin: 0 35px;
-    width: 80px;
-  
-    cursor: pointer;
-}
-#location-map { 
-    float: right;
-    margin-top: 30px; 
-    height: 100%;
-    width: 500px; 
-    border: 0;
-}
-.team-table td {
-    width: 398px;
-    background: #3a4e8c;
-    
-    font-family: "Franklin Gothic Medium", Times, serif;
-    font-size: 25px;
-    color: white;
-}
-.team-table td p { margin-left: 10px;}
 
-.location-services-type {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-.location-services-type span {
-    position: absolute;
-    visibility: hidden;
-    width: 150px;
-    background-color: #3a4e8c;
-    color: white;
-    padding: 5px 0;
-    border-radius: 6px;
-    text-align: center;
-		font-family: "Franklin Gothic Medium", Times, serif;
-    z-index: 1;
-}
-.location-services-type:hover span {
-    visibility: visible;
-}
-.location-services-type span::after {
-    content: " ";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #3a4e8c transparent;
-}
-.location-services-type span {
-    opacity: 0;
-    transition: opacity 1s;
-}
-.location-services-type:hover span {
-    opacity: 1;
-}
+#location-bottom-section{ height: 410px;}
+
+
+
+
+
+
 
 /*------------------------------------*\
   #Services
@@ -849,54 +756,6 @@ h2,
         height: 300px;
         width: auto;
     }
-    
-    /*------------------------------------*\
-      #Locations
-    \*------------------------------------*/
-  
-    #location-title,#location-indextitle{font-size: 56px;}
-    #location-photo{ width: 634px;}
-    #location-info{
-        width: 408px;
-
-        font-size: 12px;
-    }
-    .location-subtitle{ font-size: 25px;}
-    .location-subtitle-topmargin{ margin-top: 20px;}
-    .location-info-contact {
-        margin-left: 150px;
-        width: 100px;
-    }
-    .location-info-icon{
-        float: left;
-        width: 14px;
-    }
-    #location-bottom-section{ height: 295px;}
-    #location-details{ width: 634px;}
-    .location-services-icon {
-        display: inline-block;
-
-        margin: 0 35px;
-        width: 80px;
-
-        cursor: pointer;
-    }
-    #location-map { 
-        float: right;
-        margin-top: 30px; 
-        height: 100%;
-        width: 408px; 
-        border: 0;
-    }
-    .team-table td {
-      width: 634px;
-      background: #3a4e8c;
-
-      font-family: "Franklin Gothic Medium", Times, serif;
-      font-size: 15px;
-      color: white;
-    }
-    .team-table td p { margin-left: 10px;}
     
     /*------------------------------------*\
       #Services Provided
@@ -1221,27 +1080,7 @@ h2,
       #Locations
     \*------------------------------------*/
     
-    #location-title,#location-indextitle{
-      text-align: center;
-      font-size: 36px;
-    }
-    #location-photo{ 
-        display: block;
-
-        margin: 0 auto;
-        width: 80%
-    }
-    #location-info{
-        float: none;
-      
-        margin: 0 auto;
-        width: 300px;
-    }
-    .location-subtitle{ 
-        margin-top: 5px; 
-
-        font-size: 25px;
-    }
+  
     .location-subtitle-topmargin{ margin-top: 20px;}
     .location-info-contact {
         margin-left: 100px;
@@ -1327,15 +1166,6 @@ h2,
 
         width: 300px;
         text-align: center;
-    }
-    
-    /*------------------------------------*\
-      #Slideshow
-    \*------------------------------------*/
-    .slide-info-button { 
-        width: 150px;
-        
-        font-size: 13px;
     }
    
 }
