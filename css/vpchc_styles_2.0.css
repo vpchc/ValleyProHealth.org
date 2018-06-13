@@ -12,7 +12,6 @@
 \*------------------------------------*/
 /* 
     Table of Contents
-        Banner
         Buttons
         Company Colors
         Explanation Paragraphs
@@ -21,30 +20,6 @@
         Tab
         Titles
 */
-
-
-/*------------------------------------*\
-  #Buttons
-\*------------------------------------*/
-
-.vpchcbutton {
-    padding: 0 4px;
-    
-    background: #fff;
-    border: none;
-    color: #2d4a70;
-}
-.vpchcbutton:hover {  
-    background: #70b244;
-    
-    transition: 0.5s;
-}
-.vpchcbutton:active {
-    background: #2d4a70;
-    color: #70b244;
-    
-    transition: none;
-}
 
 /*------------------------------------*\
   #Explantion Paragraphs
@@ -298,75 +273,6 @@ h2,
 #archive-photos-section img.vertical {
     height: 550px;
     width: 368px;
-}
-
-/*------------------------------------*\
-  #Bus Tracker
-\*------------------------------------*/
-
-#bus-tracker{
-    height: 350px;
-    width: 500px;
-    
-    border: 5px solid #3a4e8c;
-    box-shadow: 10px 10px 5px #888888; 
-}
-#bus-tracker * p {
-    font-family: "georgia", Times, serif;
-    font-size: 26px;
-    font-weight: 900;
-}
-#bus-tracker-title {
-    background: #dadbdd;
- 
-    text-align: center;
-    font-size: 35px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-}
-#bus-tracker-view {
-    clear: both;
-    display: block;
-    
-    padding-top: 0px;
-    margin-bottom: 0;
-}
-#bus-tracker-view .vpchcbutton {
-    display: block;
-    margin: 0px auto;
-    width: 160px;
-
-    border-radius: 25px;
-    
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: none;
-}
-#bus-tracker-info {
-    float: left;
-    
-    margin: 10px 0 0 15px;
-    width: 130px;
-}
-#bus-tracker-info p,
-  #bus-tracker-data p { margin-bottom: 40px;}
-#bus-status-icon {
-    float: left;
-    
-    margin-left: 20px;
-    height: 30px;
-    width: 30px;
-}
-#bus-tracker-data {
-    float: right;
-    
-    margin: 10px 10px 0 0;
-    width: 330px;
-}
-.bus-tracker-data-section { text-align: center;}
-#bus-status {
-    width: 280px;
-    
-    text-align: center;
 }
 
 /*------------------------------------*\
@@ -1074,76 +980,8 @@ h2,
       #FAQs
     \*------------------------------------*/
     
-    #faq { width: 95%;}
-    
-    /*------------------------------------*\
-      #Locations
-    \*------------------------------------*/
-    
-  
-    .location-subtitle-topmargin{ margin-top: 20px;}
-    .location-info-contact {
-        margin-left: 100px;
-        width: 100px;
-    }
-    .location-info-icon{
-        float: left;
-        width: 14px;
-    }
-    #location-bottom-section{ 
-        display: block;
+		#faq { width: 95%;}
 
-        margin: 10px auto;
-        height: auto;
-        width: 300px;
-
-        text-align: center;
-    }
-    #location-details{ 
-        float: none; 
-
-        width: 300px;
-    }
-    .location-services-icon {
-        display: block;
-
-        margin: 0 auto;
-        width: 50px;
-    }
-    #location-map { 
-        float: none;
-        margin-top: 20px; 
-        height: 300px;
-        width: 300px; 
-    }
-  
-    .location-services-type {
-        position: relative;
-        display: block;
-
-        margin-bottom: 40px;
-    }
-    .location-services-type span {
-        display: block;
-
-        margin: 5px 75px;
-        width: 150px;
-
-        font-size: 12px;
-
-        visibility: visible;
-        opacity: 10;
-    }
-    .team-table {
-        width: 300px;
-    }
-    .team-table td {
-        display: block;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-    .team-table td p { margin-left: 10px;}
-    
     /*------------------------------------*\
       #News
     \*------------------------------------*/

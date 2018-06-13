@@ -339,6 +339,14 @@
   display: inline-block;
 	
   margin-bottom: 30px;
+	
+		
+	@media only screen and (max-width: 1082px) { 
+		position: relative;
+    display: block;
+
+		margin-bottom: 40px;
+	}
 }
 .location-services img {
   display: inline-block;
@@ -347,6 +355,13 @@
   width: 80px;
   
   cursor: pointer;
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+
+    margin: 0 auto;
+    width: 50px;
+	}
 }
 
 .location-services span {
@@ -366,6 +381,18 @@
   z-index: 1;
 	opacity: 0;
   transition: opacity 1s;
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+
+    margin: 5px 75px;
+    width: 150px;
+
+    font-size: 12px;
+
+    visibility: visible;
+    opacity: 10;
+	}
 }
 .location-services:hover span { 
 	visibility: visible;
@@ -384,6 +411,7 @@
 	
 	content: " ";
 }
+.team-table { @media only screen and (max-width: 1082px) { width: 300px;}}
 .team-table td {
   width: 398px;
 	
@@ -402,8 +430,19 @@
     font-family: "Franklin Gothic Medium", Times, serif;
 		color: white;
 	}
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+   
+		margin-bottom: 10px;
+    width: 100%;
+	}
 }
-.team-table td p { margin-left: 10px;}
+.team-table td p {
+	margin-left: 10px;
+	
+	@media only screen and (max-width: 1082px) { margin-left: 10px;}
+}
 .location-map { 
 	margin: 30px 0 0 50px; 
 	width: 497px; 
@@ -417,5 +456,103 @@
     height: 350px;
 
     border: 0;
+	}
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+    margin: 0 auto; 
+    
+		width: 300px; 
+		height: 300px;
+	}
+}
+
+/*------------------------------------*\
+  #Bus Tracker
+\*------------------------------------*/
+
+.bus-tracker{
+	display: inline-block;
+	
+	margin: 30px 0 0 50px;
+	width: 485px;
+  height: 350px;
+    
+  border: 5px solid $vpchc-blue;
+  box-shadow: 10px 10px 5px $shadow; 
+	
+	@media only screen and (max-width: 1365px) { 
+		margin-left: 10px;
+		width: 400px;
+	}
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+		
+		margin: 0 auto;
+		width: 300px;
+		height: 268px;
+	}
+}
+.bus-tracker-title {
+ 	background: $light-blue;
+ 
+  text-align: center;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+	
+	@media only screen and (max-width: 1082px) { font-size: 20px;}
+}
+.bus-tracker * p {
+	font-size: 26px;
+  font-family: "Georgia", Times, serif;
+  font-weight: 900;
+	@media only screen and (max-width: 1365px) { font-size: 20px;}
+	
+	@media only screen and (max-width: 1082px) { font-size: 14px;}
+}
+.bus-tracker-info {
+    float: left;
+    
+    margin: 10px 0 0 15px;
+    width: 97%;
+}
+.bus-tracker-info > p { margin-bottom: 40px;}
+.bus-tracker-data {
+    float: right;
+    
+		margin-bottom: 40px;
+    width: 72%;
+	
+		text-align: center;
+}
+#bus-status-icon {
+	margin-right: 15px;
+  width: 30px;
+	height: 30px;
+
+	@media only screen and (max-width: 1082px) { 
+		margin-right: 5px;
+		width: 20px;
+		height: 20px;
+	}
+}
+.bus-tracker-view.vpchcbutton {
+	display: block;
+	clear: both;
+	
+  margin: 0px auto;
+  width: 160px;
+
+  border-radius: 25px;
+    
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+	
+	@media only screen and (max-width: 1082px) { 
+		width: 130px;
+		
+		font-size: 20px;
 	}
 }

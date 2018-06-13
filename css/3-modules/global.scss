@@ -38,6 +38,29 @@
 }
 
 /*------------------------------------*\
+  #Buttons
+\*------------------------------------*/
+
+.vpchcbutton {
+    padding: 0 4px;
+    
+    background: #fff;
+    border: none;
+    color: #2d4a70;
+}
+.vpchcbutton:hover {  
+    background: #70b244;
+    
+    transition: 0.5s;
+}
+.vpchcbutton:active {
+    background: #2d4a70;
+    color: #70b244;
+    
+    transition: none;
+}
+
+/*------------------------------------*\
   #Content
 \*------------------------------------*/
 
