@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,30 +41,28 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
+<main>
+  <div class="banner">
     <img src="/images/banner/services_dental.jpg">
-    <div id="banner-title">
-      <p>Dental</p>
+    <div class="banner-title">
+      <h1>Dental</h1>
     </div>
   </div>
-  <div id="explain-content">
-    <p class="explain-title vpchcgreen">Dental Services</p>
-    <p class="explain-p">Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
-    <p class="explain-title vpchcgreen">Preventive</p>
-    <p class="explain-p">Dental examinations and screenings, X-Rays, Cleanings, sealants, fluoride treatments, and education.</p>
-    <p class="explain-title vpchcgreen">Emergency</p>
-    <p class="explain-p">Broken or chipped teeth, extractions, pain, and infection.</p>
-    <p class="explain-title vpchcgreen">Restorative</p>
-    <p class="explain-p">Fillings</p>
+  <div class="content">
+    <h2>Dental Services</h2>
+    <p>Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
+    <h2>Preventive</h2>
+    <p>Dental examinations and screenings, X-Rays, Cleanings, sealants, fluoride treatments, and education.</p>
+    <h2>Emergency</h2>
+    <p>Broken or chipped teeth, extractions, pain, and infection.</p>
+    <h2>Restorative</h2>
+    <p>Fillings</p>
     <div id="dental-public">
-      <p class="explain-title vpchcgreen">For Dental Emergencies or Appointments, Call (765) 492-8099</p>
+      <h2>For Dental Emergencies or Appointments, Call (765) 492-8099</h2>
       <img class="dental-patches" src="/images/dental/patches.png" alt="Patches Dental"/>
     </div>
   </div>
-  <div id="services-button">
-    <a class="vpchcbutton" href="/about_us/providers_&_team.php#dental">Click here to see all of our Dental Providers</a>
-  </div>
+  <a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#dental">Click here to see all of our Dental Providers</a>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

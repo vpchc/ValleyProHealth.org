@@ -390,16 +390,6 @@ h2,
 }
 
 /*------------------------------------*\
-  #Dental
-\*------------------------------------*/
-
-.dental-patches {
-    height: 350px;
-    width: 320px;
-}
-#dental-public { height: 500px;}
-
-/*------------------------------------*\
   #Diabetes
 \*------------------------------------*/
 
@@ -520,71 +510,6 @@ h2,
 #location-title{margin: 20px 0;}
 
 #location-bottom-section{ height: 410px;}
-
-
-
-
-
-
-
-/*------------------------------------*\
-  #Services
-\*------------------------------------*/
-
-#services-button > .vpchcbutton {
-    text-decoration: none;
-    font-size: 25px;
-    border-radius: 15px;
-}
-#services-button {
-    margin: 25px auto;
-    width: 800px;
-    
-    text-align: center;
-}
-
-/*------------------------------------*\
-  #Services Provided
-\*------------------------------------*/
-
-#services-provided { 
-  margin: 40px auto;}
-.services-provided-section {
-    display: inline-block;
-    zoom:1;
-    *display:inline;
-  
-    padding: 0 5px;
-    
-    height: 100px;
-    width: 24%;
-    
-    border-radius: 25px;
-    
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Georgia", Times, serif;
-    color: #3a4e8c;
-}
-.services-provided-section:hover { background: #dbdeea;}
-
-.services-provided-section.one-section{
-    display: block;
-    
-    margin: 0 auto;
-}
-.services-provided-section.three-sections { 
-    margin-left: 100px;
-    margin-bottom: 20px;
-}
-.services-provided-section.four-sections { margin-bottom: 20px;}
-.services-provided-section > img {
-    height: 65px;
-    width: 65px;
-}
-
-
 
 /*------------------------------------*\
   #Stats
@@ -989,22 +914,5 @@ h2,
     .news-article-title{font-size: 18px;}
     .news-article-preview{font-size: 14px;}
     
-    /*------------------------------------*\
-      #Services
-    \*------------------------------------*/
-    
-    #services-button > .vpchcbutton {
-        border-radius: 15px;
-
-        text-decoration: none;
-        font-size: 14px;
-    }
-    #services-button {
-        margin: 20px auto 0 auto;
-
-        width: 300px;
-        text-align: center;
-    }
-   
 }
 /********|*********|*********|*********|*********|*********|*********|*********/

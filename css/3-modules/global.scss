@@ -42,22 +42,26 @@
 \*------------------------------------*/
 
 .vpchcbutton {
-    padding: 0 4px;
+	padding: 0 4px;
     
-    background: #fff;
-    border: none;
-    color: #2d4a70;
-}
-.vpchcbutton:hover {  
-    background: #70b244;
-    
-    transition: 0.5s;
-}
-.vpchcbutton:active {
-    background: #2d4a70;
-    color: #70b244;
-    
-    transition: none;
+  background: #fff;
+  border: none;
+  
+	color: $vpchc-blue;
+	
+	&:hover {
+		background: $vpchc-green;
+   
+  	transition: 0.5s;
+	}
+		
+	&:active {
+		background: $vpchc-blue;
+	
+		color: $vpchc-green;
+   
+  	transition: none;
+	}
 }
 
 /*------------------------------------*\
@@ -162,6 +166,52 @@
 	font-size: 1.5vw;
 	font-family: "Franklin Gothic Book", Times, serif;
 	color: white;
+}
+
+/*------------------------------------*\
+  #Icon Menu
+\*------------------------------------*/
+
+.icon-menu { margin: 40px auto;}
+.icon-menu-section {
+	display: inline-block;
+
+	margin-bottom: 20px;
+	padding: 0 5px;
+	width: 23.5%;
+  height: 100px;
+    
+  border-radius: 25px;
+    
+  text-align: center;
+  font-size: 25px;
+  font-family: "Georgia", Times, serif;
+	font-weight: bold;
+  color: $vpchc-blue;
+	
+	zoom:1;
+  *display: inline;
+	
+	&:hover { background: $light-blue;}
+	
+	@media only screen and (max-width: 1082px) {
+		display: block;
+		
+		margin: 0 auto 20px auto;
+		width: 50%;
+		height: 70px;
+		
+		font-size: 15px;
+	}
+}
+.icon-menu img {
+	width: 65px;
+  height: 65px;
+	
+	@media only screen and (max-width: 1082px) {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 /*------------------------------------*\
