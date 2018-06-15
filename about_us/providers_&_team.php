@@ -981,12 +981,12 @@
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Rebecca<span>Terre Haute</span></p>
+        <p class="tab-simple">Kyleigh<span>Terre Haute</span></p>
       </div>
     </div>
     <div class="tab">
       <div class="tab-bar team-ps">
-        <p class="tab-simple">Kyleigh<span>Terre Haute</span></p>
+        <p class="tab-simple">Rebecca<span>Terre Haute</span></p>
       </div>
     </div>
     <h3 id="directors">Directors</h3>
