@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,77 +41,61 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Forms</h1>
-  <hr>
-  <div id="forms-content">
-  <div id="forms-content-options">
-    <button id="forms-options-newpat" class="vpchcbutton">New Patients</button>
+<main>
+	<div class="banner">
+    <img src="/images/banner/services_forms.jpg">
+    <div class="banner-title">
+      <h1>Forms</h1>
+    </div>
+  </div>
+  <div class="content centered large forms">
+  <div id="forms-categories">
+		<h2>Select a category below.</h2>
+    <button id="forms-category-newpat" class="vpchcbutton">New Patients</button>
     <button id="forms-category-consent" class="vpchcbutton">Consent for Release of Records or Information</button>
     <button id="forms-category-notice" class="vpchcbutton">Notice of Patient Bill of Rights/Privacy Practice</button> 
     <button id="forms-category-programs" class="vpchcbutton">Sliding Fee Scale</button>
     <button id="forms-category-student" class="vpchcbutton">Student Forms</button>
   </div>
-  <div id="forms-content-clinic">
+  <div id="forms-newpat-locations">
     <h2>Which clinic will you be using?</h2>
-    <table id="forms-content-clinic-table" class="forms-table-location">
-      <tr>
-        <td><img id="forms-content-clinic-bloom" class="forms-table-pics" src="/images/locations_small/bloomingdale.jpg" alt="Bloomingdale Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Bloomingdale</td>
-        <td><img id="forms-content-clinic-cay" class="forms-table-pics" src="/images/locations_small/cayuga.jpg" alt="Cayuga Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Cayuga</td>
-        <td><img id="forms-content-clinic-clint" class="forms-table-pics" src="/images/locations_small/clinton.jpg" alt="Clinton Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Clinton</td>
-      </tr>
-      <tr class="forms-clinic-table-desktopname">
-        <td>Bloomingdale</td>
-        <td>Cayuga</td>
-        <td>Clinton</td>
+    <table class="forms-table locations">
+      <tr class="forms-row-pics">
+        <td><img id="forms-newpat-bloom" class="forms-pic locations" src="/images/locations_small/bloomingdale.jpg" alt="Bloomingdale Choice"/><p>Bloomingdale</p></td>
+        <td><img id="forms-newpat-cay" class="forms-pic locations" src="/images/locations_small/cayuga.jpg" alt="Cayuga Choice"/><p>Cayuga</p></td>
+        <td><img id="forms-newpat-clint" class="forms-pic locations" src="/images/locations_small/clinton.jpg" alt="Clinton Choice"/><p>Clinton</p></td>
       </tr>
       <tr>
-        <td><img id="forms-content-clinic-craw" class="forms-table-pics" src="/images/locations_small/crawfordsville.jpg" alt="Crawfordsville Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Crawfordsville</td>
-        <td><img id="forms-content-clinic-rock" class="forms-table-pics" src="/images/locations_small/rockville.jpg" alt="Rockville Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Rockville</td>
-        <td><img id="forms-content-clinic-terre" class="forms-table-pics" src="/images/locations_small/terrehaute.jpg" alt="Terre Haute Choice"/></td>
-        <td class="forms-clinic-table-mobilename">Terre Haute</td>
+        <td><img id="forms-newpat-craw" class="forms-pic locations" src="/images/locations_small/crawfordsville.jpg" alt="Crawfordsville Choice"/><p>Crawfordsville</p></td>
+        <td><img id="forms-newpat-rock" class="forms-pic locations" src="/images/locations_small/rockville.jpg" alt="Rockville Choice"/><p>Rockville</p></td>
+        <td><img id="forms-newpat-terre" class="forms-pic locations" src="/images/locations_small/terrehaute.jpg" alt="Terre Haute Choice"/><p>Terre Haute</p></td>
       </tr>
-      <tr class="forms-clinic-table-desktopname">
-        <td>Crawfordsville</td>
-        <td>Rockville</td>
-        <td>Terre Haute</td>
-      </tr> 
       <tr>
         <td></td>
-        <td><img id="forms-content-clinic-bus" class="forms-table-pics" src="/images/locations/msbhc.jpg" alt="MSBHC Choice"/></td>
-        <td class="forms-clinic-table-mobilename">MSBHC</td>  
-      </tr>
-      <tr class="forms-clinic-table-desktopname">
-        <td></td>
-        <td>MSBHC</td>
+        <td><img id="forms-newpat-bus" class="forms-pic locations" src="/images/locations_small/msbhc.jpg" alt="MSBHC Choice"/><p>MSBHC</p></td>
       </tr> 
     </table>
   </div>
-  <div id="forms-content-type">
+  <div id="forms-newpat-age">
     <h2>Are you looking for an adult or child form?</h2>
-    <table id="forms-content-type-table" class="forms-table-age">
+    <table class="forms-table age">
       <tr>
-        <td class="forms-square-green-container">
-        <img class="forms-square-green" src="/images/forms/vpchc_green_square.png" alt="Green Square"/>
+        <td>
+        <img class="forms-square" src="/images/forms/vpchc_green_square.png" alt="Green Square"/>
         <p>&nbsp;</p>
         </td>
         <td>
-        <img id="forms-content-type-adult" class="forms-table-pics forms-age-pic" src="/images/forms/adults.jpg" alt="Adult"/>
+        <img id="forms-newpat-adult" class="forms-pic age" src="/images/forms/adults.jpg" alt="Adult"/>
         <p>Adult</p>
         </td>
       </tr>  
       <tr>
         <td>
-        <img id="forms-content-type-child" class="forms-table-pics forms-age-pic" src="/images/forms/child.jpg" alt="Child"/>
+        <img id="forms-newpat-child" class="forms-pic age" src="/images/forms/child.jpg" alt="Child"/>
         <p>Child</p>
         </td>
-        <td class="forms-square-blue-container">
-        <img class="forms-square-blue" src="/images/forms/vpchc_blue_square.png" alt="Blue Square"/>
+        <td>
+        <img class="forms-square" src="/images/forms/vpchc_blue_square.png" alt="Blue Square"/>
         <p>&nbsp;</p>
         </td>
       </tr>
@@ -135,7 +119,7 @@
     <button id="forms-records-mobile" class="vpchcbutton">Mobile Health Center</button>
   </div>
   <div id="forms-notice">
-    <h2>Select a form to download.<h2>
+		<h2>Select a form to download.</h2>
     <button id="forms-notice-ackbill" class="vpchcbutton">Acknowledgement of Bill of Rights</button>
     <button id="forms-notice-bill" class="vpchcbutton">Patient Bill of Rights and Responsibilities</button> 
     <button id="forms-notice-privacy" class="vpchcbutton">Notice of Privacy Practice</button>
@@ -155,56 +139,46 @@
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script type="text/javascript">
     /***New patient start***/
-    $("#forms-options-newpat").click(function(){
-      $("#forms-content-options").hide();
-      $("#forms-content-clinic").fadeIn(1000);
+    $("#forms-category-newpat").click(function(){
+      $("#forms-categories").hide();
+      $("#forms-newpat-locations").fadeIn(1000);
     });
     //Choosing a location
     var locationChoice;
-    $("#forms-content-clinic-bloom").click(function(){
+    $("#forms-newpat-bloom").click(function(){
       locationChoice = 1;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-cay").click(function(){
+    $("#forms-newpat-cay").click(function(){
       locationChoice = 2;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-clint").click(function(){
+    $("#forms-newpat-clint").click(function(){
       locationChoice = 3;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-craw").click(function(){
+    $("#forms-newpat-craw").click(function(){
       locationChoice = 4;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-rock").click(function(){
+    $("#forms-newpat-rock").click(function(){
       locationChoice = 5;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-terre").click(function(){
+    $("#forms-newpat-terre").click(function(){
       locationChoice = 6;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     });
-    $("#forms-content-clinic-bus").click(function(){
+    $("#forms-newpat-bus").click(function(){
       locationChoice = 0;
-      $("#forms-content-clinic").hide();
-      $("#forms-content-type").fadeIn(1000);
-      $('html, body').animate({ scrollTop: 0 }, 0);
+      locationSelected();
     }); 
+		function locationSelected(){
+			$("#forms-newpat-locations").hide();
+			$("#forms-newpat-age").fadeIn(1000);
+		}
     //Adult choosen
-    $("#forms-content-type-adult").click(function(event){
+    $("#forms-newpat-adult").click(function(event){
       if(locationChoice == 1){
           window.location.href = "/files/forms/en/new_patient_packet_adult_bloomingdale.pdf";
       }else if(locationChoice == 2){
@@ -220,7 +194,7 @@
       }
     });
     //Child choosen
-    $("#forms-content-type-child").click(function(){
+    $("#forms-newpat-child").click(function(){
       if(locationChoice == 1 ){
          window.location.href = "/files/forms/en/new_patient_packet_child_bloomingdale.pdf";
       }else if(locationChoice == 2){
@@ -235,15 +209,11 @@
           window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
       }
     });
-    /**Spanish forms section***/
-    $("#forms-options-spanish").click(function(){
-       window.location.href =  "/resources/forms/es_index.php";
-    });
     
     /***Other forms start***/
     /*Consent option choosen*/
     $("#forms-category-consent").click(function(){
-      $("#forms-content-options").hide();
+      $("#forms-categories").hide();
       $("#forms-consent").fadeIn(1000);
     });
     //bh release choosen
@@ -256,7 +226,7 @@
     });
     /*Release of records choosen*/
     $("#forms-consent-releaserec").click(function(){
-      $("#forms-content-options").hide();
+      $("#forms-consent").hide();
       $("#forms-records-choice").fadeIn(1000);
     });
     //Bloomingdale download
@@ -293,7 +263,7 @@
     });
     /*Notice option choosen*/
     $("#forms-category-notice").click(function(){
-      $("#forms-content-options").hide();
+      $("#forms-categories").hide();
       $("#forms-notice").fadeIn(1000);
     });
     //acknowledgement of receipt choosen
@@ -310,7 +280,7 @@
     });
     /*Programs option choosen*/
     $("#forms-category-programs").click(function(){
-      $("#forms-content-options").hide();
+      $("#forms-categories").hide();
       $("#forms-programs").fadeIn(1000);
     });
     //sliding fee scale choosen
@@ -319,7 +289,7 @@
     });
     /*Student form choosen*/
     $("#forms-category-student").click(function(){
-      $("#forms-content-options").hide();
+      $("#forms-categories").hide();
       $("#forms-student").fadeIn(1000);
     });
     //ishaa choosen
