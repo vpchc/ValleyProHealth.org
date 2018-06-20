@@ -60,7 +60,7 @@
     <p class="explain-title vpchcgreen">Get to Know the Signs & Symptoms</p>
     <p class="explain-p">Part of managing diabetes is getting to know the signs, symptoms, and ways to avoid low blood sugar (hypoglycemia).</p>
     <p class="explain-title">3rd Tuesday of every month</p>
-    <p class="explain-title">Next meeting: Jan 3rd</p>
+    <p class="explain-title">Next meeting: July 17th</p>
     <p class="explain-title">No RSVP or Registration required.</p>
     <p class="explain-p"><span class="vpchcblue">Morning Session</span>: <b>10am - 11am</b></p>
     <p class="explain-p"><span class="vpchcblue">Evening Session</span>: <b>6pm - 7pm</b></p>
