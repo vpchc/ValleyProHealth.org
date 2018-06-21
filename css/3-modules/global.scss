@@ -44,7 +44,7 @@
 .vpchcbutton {
 	padding: 0 4px;
     
-  background: #fff;
+  background: white;
   border: none;
   
 	color: $vpchc-blue;
@@ -178,6 +178,14 @@
 	font-size: 1.5vw;
 	font-family: "Franklin Gothic Book", Times, serif;
 	color: white;
+}
+.content li {
+  margin: 10px 0 0 30px;
+    
+	font-size: 14px;
+	font-family: "Franklin Gothic Book", Times, serif;
+	
+  list-style-image: url('/images/formatting/green_bullet.png');
 }
 
 /*------------------------------------*\

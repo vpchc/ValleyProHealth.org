@@ -124,33 +124,7 @@
   #Tab
 \*------------------------------------*/
 
-.drop-arrow {
-    float: right;
-    
-    margin-top: 10px;
-    
-    height: 60px;
-    width: 80px;
-}
 
-#tab-faq .tab-box { display: none;}
-
-/*----FAQs----*/
-.tab-question {
-    display: inline-block;
-    
-    margin: 10px 0 0 10px;
-    width: 700px;
-    
-    font-size: 20px;
-}
-.tab-answer {
-    display: block;
-    
-    font-size: 20px;
-    text-align: left;
-    font-family: "Georgia", Times, serif;
-}
 
 /*------------------------------------*\
   #Titles
@@ -336,58 +310,6 @@ h2,
 }
 #onsub * .vpchcbutton { font-size: 25px;}
 
-/*------------------------------------*\
-  #Contact Us
-\*------------------------------------*/
-
-#contact-table-container {
-    margin: 0 auto;
-    
-    width: 1200px;
-}
-#contact-table td {
-    height: 380px;
-    width: 417px;
-}
-#contact-table img {
-    display: block;
-    
-    margin: 0 auto;
-    height: 180px;
-    width: 317px;
-}
-.contact-info { 
-    margin: 0 auto;
-    width: 317px;
-    
-    font-size: 24px;
-}
-.contact-info-street { margin-top: 20px; }
-.contact-info-state { margin-bottom: 20px; }
-.contact-location {
-    margin: 20px auto 0 auto;
-    width: 317px;
-    
-    font-size: 28px;
-    font-weight: bold;
-    font-family: "Franklin Gothic Demi", Times, serif;
-}
-
-#contact-questions {
-    margin-bottom: 50px;;
-    
-    text-align: center;   
-}
-#contact-questions-title {
-    margin-bottom: 20px;
-    
-    font-size: 60px;
-    font-family: "Franklin Gothic Medium", Times, serif;
-}
-#contact-questions-content {
-    font-size: 30px;
-    font-family: "Georgia", Times, serif;
-}
 
 /*------------------------------------*\
   #Diabetes
