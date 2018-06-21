@@ -59,7 +59,7 @@
       <h1>Providers & Team</h1>
     </div>
   </div>
-  <div class="content centered">
+  <div class="content centered small">
     <h3 id="physicians">Physicians</h3>
     <hr>
     <div class="tab">
