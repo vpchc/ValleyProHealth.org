@@ -88,6 +88,18 @@
 		}
 	}
 	
+	&.centered.medium {
+		margin: 0 auto;
+		width: 1200px;
+	
+		@media only screen and (max-width: 1365px) { width: 1000px;}
+		
+		@media only screen and (max-width: 1082px) {
+			margin: 0 auto; 
+    	width: 95%;
+		}
+	}
+	
 	&.centered.large {
 		margin: 20px auto;
 		width: 1349px;

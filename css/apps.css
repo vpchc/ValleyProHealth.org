@@ -469,6 +469,16 @@ footer {
       .content.centered.small {
         margin: 0 auto;
         width: 95%; } }
+  .content.centered.medium {
+    margin: 0 auto;
+    width: 1200px; }
+    @media only screen and (max-width: 1365px) {
+      .content.centered.medium {
+        width: 1000px; } }
+    @media only screen and (max-width: 1082px) {
+      .content.centered.medium {
+        margin: 0 auto;
+        width: 95%; } }
   .content.centered.large {
     margin: 20px auto;
     width: 1349px; }
@@ -938,6 +948,84 @@ footer {
       .sidebar-section.large {
         width: 80px;
         font-size: 12px; } }
+
+/*------------------------------------*\
+  #Contact Us
+\*------------------------------------*/
+.contact-table {
+  margin-top: 20px;
+  width: 100%; }
+
+.contact-table td {
+  width: 417px;
+  height: 380px; }
+  @media only screen and (max-width: 1082px) {
+    .contact-table td {
+      display: block;
+      margin: 0 auto 15px auto;
+      width: 60%;
+      height: auto; } }
+
+.contact-table img {
+  display: block;
+  margin: 0 auto;
+  width: 317px;
+  height: 180px; }
+  @media only screen and (max-width: 1082px) {
+    .contact-table img {
+      width: 100%;
+      height: auto; } }
+
+.contact-location {
+  margin: 20px auto 0 auto;
+  width: 317px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Demi", Times, serif;
+  color: #70b244; }
+  @media only screen and (max-width: 1082px) {
+    .contact-location {
+      margin: 0;
+      font-size: 20px; } }
+
+.contact-info {
+  margin: 0 auto;
+  width: 317px;
+  font-size: 24px; }
+  @media only screen and (max-width: 1082px) {
+    .contact-info {
+      margin: 0;
+      font-size: 18px; } }
+  .contact-info.street {
+    margin-top: 20px; }
+    @media only screen and (max-width: 1082px) {
+      .contact-info.street {
+        margin: 0; } }
+  .contact-info.state {
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 1082px) {
+      .contact-info.state {
+        margin: 0; } }
+
+.contact-questions {
+  margin-bottom: 50px;
+  text-align: center; }
+
+.contact-questions-title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+  color: #3a4e8c; }
+  @media only screen and (max-width: 1082px) {
+    .contact-questions-title {
+      font-size: 35px; } }
+
+.contact-questions-content {
+  font-size: 30px;
+  font-family: "Georgia", Times, serif; }
+  @media only screen and (max-width: 1082px) {
+    .contact-questions-content {
+      font-size: 20px; } }
 
 /*------------------------------------*\
   #Forms

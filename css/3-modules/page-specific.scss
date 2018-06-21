@@ -1,4 +1,96 @@
 /*------------------------------------*\
+  #Contact Us
+\*------------------------------------*/
+.contact-table {
+	margin-top: 20px; 
+	width: 100%;
+}
+.contact-table td {
+	width: 417px;
+  height: 380px;
+	
+	@media only screen and (max-width: 1082px) { 
+		display: block;
+		
+		margin: 0 auto 15px auto;
+		width: 60%;
+		height: auto;
+	}
+}
+.contact-table img {
+	display: block;
+    
+	margin: 0 auto;
+	width: 317px;
+  height: 180px;
+	
+	@media only screen and (max-width: 1082px) { 
+		width: 100%;
+		height: auto;
+	}
+}
+.contact-location {
+	margin: 20px auto 0 auto;
+  width: 317px;
+    
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Demi", Times, serif;
+	color: $vpchc-green;
+	
+	@media only screen and (max-width: 1082px) { 
+		margin: 0;
+	
+		font-size: 20px;
+	}
+}
+.contact-info { 
+	margin: 0 auto;
+  width: 317px;
+    
+  font-size: 24px;
+	
+	@media only screen and (max-width: 1082px) {
+		margin: 0;
+		
+		font-size: 18px;
+	}
+	
+	&.street { 
+		margin-top: 20px;
+	
+		@media only screen and (max-width: 1082px) { margin: 0;}
+	}
+	
+	&.state { 
+		margin-bottom: 20px;
+		
+		@media only screen and (max-width: 1082px) { margin: 0;}
+	}
+}
+.contact-questions {
+	margin-bottom: 50px;;
+    
+  text-align: center;   
+}
+.contact-questions-title {
+  margin-bottom: 20px;
+    
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+	color: $vpchc-blue;
+	
+	@media only screen and (max-width: 1082px) { font-size: 35px;}
+}
+.contact-questions-content {
+  font-size: 30px;
+  font-family: "Georgia", Times, serif;
+	
+	@media only screen and (max-width: 1082px) { font-size: 20px;}
+}
+
+
+/*------------------------------------*\
   #Forms
 \*------------------------------------*/
 
