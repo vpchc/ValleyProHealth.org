@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,86 +41,85 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
+<main>
+  <div class="banner">
     <img src="/images/banner/about_us_news&events.jpg">
-    <div id="banner-title">
-      <p>Diabetes Recipes</p>
+    <div class="banner-title">
+      <h1>Diabetes Recipes</h1>
     </div>
   </div>
-  <div id="explain-content">
-    <p class="explain-title vpchcblue">Here are some delicious diabetic recipes for you to try.</p>
-    <p class="explain-title vpchcgreen">Parmesan Crusted Chicken</p>
-    <p class="explain-p explain-p-title">Ingredients:</p>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cooking Spray</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 1/2 pounds boneless, skinless, chicken breasts - cut into 12 then strips</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/2 cup cornmeal</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/3 cup freshly grated Parmesan cheese</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/2 teaspoon garlic powder</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/4 teaspoon ground black pepper</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 eggs white</li>
-    <p class="explain-p explain-p-title">Instructions:</p>
-    <li>Preheat oven to 425 &#8457;. Spray a baking sheet with cooking spray.</li>
-    <li>In a shallow dish, mix together cornmeal, Parmesan cheese, garlic powder and black pepper.</li>
-    <li>In another shallow baking dish, whisk together egg whites.</li>
-    <li>Dip chicken breast strip in egg mixture and then drench in cornmeal mixture. Coat well and place on baking sheet. Repeat procedure for all chicken strips.</li>
-    <li>Spray chicken strips with cooking spray. Bake 15-20 minutes or until done; turn chicken pieces over half way through cooking time.</li>
-    <p class="explain-p explain-p-title">Nutrition Facts:</br>Serving Size: 2 chicken strips</p>
+  <div class="content">
+    <p>Here are some delicious diabetic recipes for you to try.</p>
+    <h2>Parmesan Crusted Chicken</h2>
+    <p>Ingredients:</p>
+    <li class="blue-bullet">Cooking Spray</li>
+    <li class="blue-bullet">1 1/2 pounds boneless, skinless, chicken breasts - cut into 12 then strips</li>
+    <li class="blue-bullet">1/2 cup cornmeal</li>
+    <li class="blue-bullet">1/3 cup freshly grated Parmesan cheese</li>
+    <li class="blue-bullet">1/2 teaspoon garlic powder</li>
+    <li class="blue-bullet">1/4 teaspoon ground black pepper</li>
+		<li class="blue-bullet">3 eggs white</li></br>
+    <p>Instructions:</p>
+    <li class="green-bullet">Preheat oven to 425 &#8457;. Spray a baking sheet with cooking spray.</li>
+    <li class="green-bullet">In a shallow dish, mix together cornmeal, Parmesan cheese, garlic powder and black pepper.</li>
+    <li class="green-bullet">In another shallow baking dish, whisk together egg whites.</li>
+    <li class="green-bullet">Dip chicken breast strip in egg mixture and then drench in cornmeal mixture. Coat well and place on baking sheet. Repeat procedure for all chicken strips.</li>
+    <li class="green-bullet">Spray chicken strips with cooking spray. Bake 15-20 minutes or until done; turn chicken pieces over half way through cooking time.</li></br>
+    <p>Nutrition Facts:</br>Serving Size: 2 chicken strips</p>
     <table>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Carbohydrate 10 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Calories 200</li></td>
+      <td><li class="blue-bullet">Carbohydrate 10 g</li></td>
+      <td><li class="blue-bullet">Calories 200</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Protein 28 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Fat 4.5 g</li></td>
+      <td><li class="blue-bullet">Protein 28 g</li></td>
+      <td><li class="blue-bullet">Fat 4.5 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Saturated Fat 1.5 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sugars 0 g</li></td>
+      <td><li class="blue-bullet">Saturated Fat 1.5 g</li></td>
+      <td><li class="blue-bullet">Sugars 0 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Dietary Fiber 1 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Cholesterol 70 mg</li></td>
+      <td><li class="blue-bullet">Dietary Fiber 1 g</li></td>
+      <td><li class="blue-bullet">Cholesterol 70 mg</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sodium 150 mg</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Potassium 250 mg</li></td>
+      <td><li class="blue-bullet">Sodium 150 mg</li></td>
+      <td><li class="blue-bullet">Potassium 250 mg</li></td>
     </tr>
     </table>
-    </br>
-    <p class="explain-title vpchcgreen">Cauliflower Fried "Rice"</p>
-    <p class="explain-p explain-p-title">Ingredients:</p>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 cups cauliflower florets</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 Tbsp olive oil, divided</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">2 large carrots, finely diced</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">3 scallions, chopped</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 tsp sesame oil</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1 1/2 Tbsp reduced-sodium soy sauce</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/4 cup no-salt-added, fat-free chicken broth</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/8 tsp ground ginger</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">1/8 tsp ground black pepper</li>
-    <p class="explain-p explain-p-title">Instructions:</p>
-    <li>Place cauliflower in a food processor and proces suntil rice consistency; set aside</li>
-    <li>Heat 1/2 Tbsp olive oil in a nonstick pan over medium-high heat. Add carrots and scallions and saut&eacute; for 5 minutes</li>
-    <li>Add remaining 1/2 Tbsp olive oil and sesame oil to pan. Add cauliflower "rice" and remaining ingredients and lower heat to medium-low. Cook cauliflower mixutre for 6-8 minutes, stirring frequently. Cauliflower should be tender, but not mushy.</li>
-    <p class="explain-p explain-p-title">Nutrition Facts:</br>Serving Size: 1/2 cup</p>
+    <h2>Cauliflower Fried "Rice"</h2>
+    <p>Ingredients:</p>
+    <li class="blue-bullet">3 cups cauliflower florets</li>
+    <li class="blue-bullet">1 Tbsp olive oil, divided</li>
+    <li class="blue-bullet">2 large carrots, finely diced</li>
+    <li class="blue-bullet">3 scallions, chopped</li>
+    <li class="blue-bullet">1 tsp sesame oil</li>
+    <li class="blue-bullet">1 1/2 Tbsp reduced-sodium soy sauce</li>
+    <li class="blue-bullet">1/4 cup no-salt-added, fat-free chicken broth</li>
+    <li class="blue-bullet">1/8 tsp ground ginger</li>
+    <li class="blue-bullet">1/8 tsp ground black pepper</li></br>
+    <p>Instructions:</p>
+    <li class="green-bullet">Place cauliflower in a food processor and process until rice consistency; set aside</li>
+    <li class="green-bullet">Heat 1/2 Tbsp olive oil in a nonstick pan over medium-high heat. Add carrots and scallions and saut&eacute; for 5 minutes</li>
+    <li class="green-bullet">Add remaining 1/2 Tbsp olive oil and sesame oil to pan. Add cauliflower "rice" and remaining ingredients and lower heat to medium-low. Cook cauliflower mixutre for 6-8 minutes, stirring frequently. Cauliflower should be tender, but not mushy.</li></br>
+    <p>Nutrition Facts:</br>Serving Size: 1/2 cup</p>
     <table>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Carbohydrate 8 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Calories 80</li></td>
+      <td><li class="blue-bullet">Carbohydrate 8 g</li></td>
+      <td><li class="blue-bullet">Calories 80</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Protein 3 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Fat 5 g</li></td>
+      <td><li class="blue-bullet">Protein 3 g</li></td>
+      <td><li class="blue-bullet">Fat 5 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Saturated Fat 0.7 g</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sugars 3 g</li></td>
+      <td><li class="blue-bullet">Saturated Fat 0.7 g</li></td>
+      <td><li class="blue-bullet">Sugars 3 g</li></td>
     </tr>
     <tr>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Sodium 260 mg</li></td>
-      <td><li style="list-style-image: url('/images/formatting/blue_bullet.png');">Potassium 360 mg</li></td>
+      <td><li class="blue-bullet">Sodium 260 mg</li></td>
+      <td><li class="blue-bullet">Potassium 360 mg</li></td>
     </tr>
     </table>
   </div>

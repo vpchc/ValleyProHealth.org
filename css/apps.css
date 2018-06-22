@@ -544,9 +544,15 @@ footer {
 
 .content li {
   margin: 10px 0 0 30px;
-  font-size: 14px;
-  font-family: "Franklin Gothic Book", Times, serif;
-  list-style-image: url("/images/formatting/green_bullet.png"); }
+  font-size: 1vw;
+  font-family: "Franklin Gothic Book", Times, serif; }
+  @media only screen and (max-width: 1082px) {
+    .content li {
+      font-size: 14px; } }
+  .content li.green-bullet {
+    list-style-image: url("/images/formatting/green_bullet.png"); }
+  .content li.blue-bullet {
+    list-style-image: url("/images/formatting/blue_bullet.png"); }
 
 /*------------------------------------*\
   #Icon Menu

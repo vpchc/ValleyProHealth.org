@@ -181,11 +181,15 @@
 }
 .content li {
   margin: 10px 0 0 30px;
-    
-	font-size: 14px;
+	
+	font-size: 1vw;
 	font-family: "Franklin Gothic Book", Times, serif;
 	
-  list-style-image: url('/images/formatting/green_bullet.png');
+	@media only screen and (max-width: 1082px) { font-size: 14px;}
+	
+	&.green-bullet { list-style-image: url('/images/formatting/green_bullet.png');}
+	
+	&.blue-bullet { list-style-image: url('/images/formatting/blue_bullet.png');}
 }
 
 /*------------------------------------*\
