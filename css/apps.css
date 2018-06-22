@@ -510,37 +510,14 @@ footer {
       float: none;
       width: 100%; } }
 
-.content-section > iframe {
-  float: right;
-  margin-top: 20px;
-  width: 90%;
-  height: 430px; }
-
-.content-button-row {
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 0.1px;
-  /*For IE 9/10*/ }
-  .content-button-row:after {
-    display: inline-block;
-    content: '';
-    width: 100%; }
-
-.content-button {
-  display: inline-block;
-  padding: 0 20px;
-  background: #70b244; }
-  .content-button.small {
-    width: 230px; }
-  .content-button.large {
-    width: 330px; }
-
-.content-button > p {
-  padding: 10px 0;
-  text-align: center;
-  font-size: 1.5vw;
-  font-family: "Franklin Gothic Book", Times, serif;
-  color: white; }
+.content-section > p {
+  margin-left: 30px;
+  font-size: 1.2vw;
+  font-family: "Franklin Gothic Book", Times, serif; }
+  @media only screen and (max-width: 1082px) {
+    .content-section > p {
+      margin-left: 0px;
+      font-size: 14px; } }
 
 .content li {
   margin: 10px 0 0 30px;
@@ -553,6 +530,107 @@ footer {
     list-style-image: url("/images/formatting/green_bullet.png"); }
   .content li.blue-bullet {
     list-style-image: url("/images/formatting/blue_bullet.png"); }
+
+.content-section > iframe {
+  float: right;
+  margin-top: 65px;
+  width: 90%;
+  height: 380px; }
+  @media only screen and (max-width: 1365px) {
+    .content-section > iframe {
+      height: 280px; } }
+  @media only screen and (max-width: 1082px) {
+    .content-section > iframe {
+      float: none;
+      margin: 0 auto;
+      width: 100%;
+      height: 300px; } }
+
+.content-button-row {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 0.1px;
+  /*For IE 9/10*/ }
+  @media only screen and (max-width: 1082px) {
+    .content-button-row {
+      display: none; } }
+  .content-button-row:after {
+    display: inline-block;
+    content: '';
+    width: 100%; }
+
+.content-button {
+  display: inline-block;
+  padding: 0 20px;
+  background: #70b244; }
+  .content-button.small {
+    width: 230px; }
+    @media only screen and (max-width: 1365px) {
+      .content-button.small {
+        width: 150px; } }
+  .content-button.large {
+    width: 330px; }
+
+.content-button > p {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: "Franklin Gothic Book", Times, serif;
+  color: white; }
+
+.content-tiles {
+  margin: 30px 0;
+  text-align: justify;
+  font-size: 0.1px;
+  /*For IE 9/10*/ }
+  @media only screen and (max-width: 1082px) {
+    .content-tiles {
+      margin: 0 auto;
+      width: 95%; } }
+  .content-tiles:after {
+    display: inline-block;
+    width: 100%;
+    content: ''; }
+
+.content-tiles a {
+  text-decoration: none; }
+
+.content-tile {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 350px;
+  border-left: 5px solid #3a4e8c;
+  background: #f9f9f9; }
+  @media only screen and (max-width: 1365px) {
+    .content-tile {
+      width: 300px; } }
+  @media only screen and (max-width: 1082px) {
+    .content-tile {
+      display: block;
+      margin-top: 20px;
+      width: 95%; } }
+
+.content-tile-hide {
+  visibility: hidden; }
+
+.content-tile p {
+  margin: 5px 0 0 5px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Book", Times, serif;
+  color: black; }
+  @media only screen and (max-width: 1082px) {
+    .content-tile p {
+      font-size: 20px; } }
+
+.content-tile img {
+  display: inline-block;
+  float: left;
+  margin: 10px 5px 0 0;
+  width: 25px; }
+  @media only screen and (max-width: 1082px) {
+    .content-tile img {
+      width: 14px; } }
 
 /*------------------------------------*\
   #Icon Menu
@@ -1618,6 +1696,13 @@ footer {
     .bus-tracker-view.vpchcbutton {
       width: 130px;
       font-size: 20px; } }
+
+/*------------------------------------*\
+  #Careers
+\*------------------------------------*/
+.careers-values {
+  font-size: 35px;
+  color: #3a4e8c; }
 
 /*------------------------------------*\
   #Dental
