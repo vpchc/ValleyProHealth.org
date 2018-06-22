@@ -77,10 +77,6 @@
     <p class="explain-p">Interested in a career with Valley Professionals?</p>
     <p class="explain-p">View current job postings and submit your resume below.</p>
 		<div id="explain-tiles">
-            <a href="/careers/job_listing_1.php"><div class="explain-tile">
-			<p>Chief Financial Officer</p>
-            <img src="/images/careers/location_pointer.png"/><p>Clinton</p>
-			</div></a>
             <a href="/careers/job_listing_2.php"><div class="explain-tile">
 			<p>CMA</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
@@ -89,21 +85,11 @@
 			<p>Dental Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
 			</div></a>
-</div>
-        <div id="explain-tiles">
-            <a href="/careers/job_listing_5.php"><div class="explain-tile">
-			<p>Medical Receptionist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
-			</div></a>
             <a href="/careers/job_listing_7.php"><div class="explain-tile">
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
-            <a href="/careers/job_listing_5.php"><div class="explain-tile explain-tile-hide">
-			<p>Medical Receptionist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
-			</div></a>
-    </div>
+</div>
 		<p id="benefits" class="explain-title vpchcgreen">Benefits</p>
     <p class="explain-p">Valley Professionals offers excellent benefits, including:</p>
     <li>Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
