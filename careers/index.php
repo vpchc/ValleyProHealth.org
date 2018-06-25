@@ -89,6 +89,10 @@
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
+            <a href="/careers/job_listing_6.php"><div class="explain-tile">
+			<p>CMA</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+			</div></a>
 </div>
 		<p id="benefits" class="explain-title vpchcgreen">Benefits</p>
     <p class="explain-p">Valley Professionals offers excellent benefits, including:</p>
