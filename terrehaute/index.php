@@ -92,6 +92,9 @@
 					<td><p class="team-table-name">Lacey Skwortz, LCSW</p></td> 
           <td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
         </tr>
+        <tr>
+					<td><p class="team-table-name">Union Hospital Family Medicine Residents</p></td> 
+        </tr>
       </table>
     </div>
     <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.333222301876!2d-87.40983698498601!3d39.48438967948436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d651139acb491%3A0x20dbcb750fbeb6d0!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918142916" allowfullscreen></iframe>

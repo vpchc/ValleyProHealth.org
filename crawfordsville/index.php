@@ -92,6 +92,7 @@
         </tr>
         <tr>
 					<td><p class="team-table-name">Dana Tinkle, LMHC, RPT</p></td>
+                        <td><p class="team-table-name">Misha Bennett, LCSW</p></td>
         </tr>
       </table>
     </div>
