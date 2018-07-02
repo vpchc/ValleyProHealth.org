@@ -747,6 +747,52 @@
 	font-size: 35px;
 	color: $vpchc-blue;
 }
+#onsub {
+	margin: 20px auto;
+  width: 760px;
+    
+  color: $vpchc-blue;
+	
+	@media only screen and (max-width: 1082px) { 
+		margin-top: 0;
+		margin-bottom: 5px;
+		width: 95%;
+	}
+}
+#onsub-title {
+	width: auto;
+  height: 30px;
+  
+  background: $vpchc-blue;
+    
+  font-size: 25px;
+  text-align:center;
+  color: white;
+}
+#onsub-box {
+	width: auto;
+  height: 345px;
+	
+ 	background: #dcdeea;
+}
+.onsub-field { padding: 15px;}
+.onsub-field input{ 
+	display: block;
+	
+	width: 99%;
+}
+#onsub-foot { width: auto;}
+#onsub-foot-left {
+	float: left;
+    
+  margin-left: 17px;
+}
+#onsub-foot-right {
+  float: right;
+    
+  margin-right: 17px;
+}
+#onsub * .vpchcbutton { font-size: 25px;}
 
 /*------------------------------------*\
   #Dental

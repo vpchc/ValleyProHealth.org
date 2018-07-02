@@ -1,8 +1,8 @@
 @import "../3-modules/variables";
 
 * { 
-    margin: 0; 
-    padding: 0;
+	margin: 0; 
+  padding: 0;
 }
 
 body { background: white;}
@@ -18,8 +18,8 @@ h1 {
 	
   text-align: right;
   font-size: 7vw;
-	color: $vpchc-blue;
   font-family: "Franklin Gothic Medium", Times, serif;
+	color: $vpchc-blue;
  
   z-index: 1;
 	
@@ -55,7 +55,6 @@ h4 {
 	margin-bottom: 20px;
 	
 	font-size: 75px;
-	
 	font-family: "Franklin Gothic Medium", Times, serif;
 
 	@media only screen and (max-width: 1365px) { font-size: 56px;}
@@ -64,6 +63,34 @@ h4 {
 		text-align: center;
     font-size: 36px;
 	}
+}
+h5 {
+	margin: 20px auto 0 auto;
+	
+	font-size: 60px;
+	text-align: center;
+	font-family: "Franklin Gothic Medium", Times, serif;
+
+	@media only screen and (max-width: 1365px) { font-size: 46px;}
+	
+	@media only screen and (max-width: 1082px) { 
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 90px;
+		
+		font-size: 26px;
+	}
+}
+h6 {
+	margin: 20px auto;
+	
+	font-size: 30px;
+	text-align: center;
+	font-family: "Franklin Gothic Medium", Times, serif;
+
+	@media only screen and (max-width: 1365px) { font-size: 26px;}
+	
+	@media only screen and (max-width: 1082px) { font-size: 16px;}
 }
 
 hr {

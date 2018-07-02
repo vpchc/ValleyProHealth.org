@@ -118,6 +118,8 @@
 	font-size: 1.2vw;
   font-family: "Franklin Gothic Book", Times, serif;
 	
+	@media only screen and (max-width: 1365px) { font-size: 16px;}
+	
 	@media only screen and (max-width: 1082px) { 
 		margin-left: 0px;
 		
@@ -145,6 +147,8 @@
 	font-size: 1.2vw;
   font-family: "Franklin Gothic Book", Times, serif;
 	
+	@media only screen and (max-width: 1365px) { font-size: 16px;}
+	
 	@media only screen and (max-width: 1082px) { 
 		margin-left: 0px;
 		
@@ -156,6 +160,8 @@
 	
 	font-size: 1vw;
 	font-family: "Franklin Gothic Book", Times, serif;
+	
+		@media only screen and (max-width: 1365px) { font-size: 15px;}
 	
 	@media only screen and (max-width: 1082px) { font-size: 14px;}
 	

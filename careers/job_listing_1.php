@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,16 +41,16 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Job Opportunities</h1>
-  <h2>Call Center - Cayuga</h2>
-  <div class="careers-listing">
+<main>
+	<div class="content centered small">
+		<h5>Job Opportunities</h5>
+  	<h6>Call Center - Cayuga</h6>
     <p>Valley Professionals Community Health Center is seeking a Call Center Representative at our Cayuga location.</p>
-    <p>Duties:</p>
-    <li>Responsible for answering and directing phone calls</li>
-    <li>Scheduling patient appointments</li>
-    <li>Entering patient information</li>
-    <li>Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
+    <h2>Duties:</h2>
+    <li class="green-bullet">Responsible for answering and directing phone calls</li>
+    <li class="green-bullet">Scheduling patient appointments</li>
+    <li class="green-bullet">Entering patient information</li>
+    <li class="green-bullet">Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
@@ -59,23 +59,22 @@
       <div id="onsub-box">
         <div class="onsub-field">
           <label for="first_name">First Name <span >*</span></label>     
-          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
+          <input id="first_name" class="text" type="text" name="firstname">
         </div>
         <div class="onsub-field">
           <label for="last_name">Last Name <span >*</span></label>     
-          <input id="last_name" type="text" name="lastname" style="width:80%;">
+          <input id="last_name" type="text" name="lastname">
         </div>
         <div class="onsub-field">
           <label for="email">Email <span >*</span></label>     
-          <input id="email" type="text" name="email" style="width:80%;">
+          <input id="email" type="text" name="email">
         </div>
         <div class="onsub-field">
           <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
-          <input type="file" name="resume" id="resume" style="width:80%;">
+          <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
         <input type="hidden" name="subject" value="Call Center - Cayuga">
-        <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
             <span id="form-status">* required</span>

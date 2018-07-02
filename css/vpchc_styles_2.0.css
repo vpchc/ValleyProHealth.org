@@ -228,41 +228,7 @@ h2,
 }
 .careers-listing p { font-size: 20px;}
 #form_address { display: none;}
-#onsub {
-    width: 760px;
-    
-    color: #3a4e8c;
-}
-#onsub-title {
-    height: 30px;
-    width: auto;
-    
-    background: #3a4e8c;
-    
-    font-size: 25px;
-    text-align:center;
-    color: white;
-}
-#onsub-box {
-    height: 345px;
-    width: auto;
-    
-    background: #dcdeea;
-}
-.onsub-field { padding: 15px;}
-.onsub-field input{ padding-right: 140px;}
-#onsub-foot { width: auto;}
-#onsub-foot-left {
-    float: left;
-    
-    margin-left: 17px;
-}
-#onsub-foot-right {
-    float: right;
-    
-    margin-right: 17px;
-}
-#onsub * .vpchcbutton { font-size: 25px;}
+
 
 
 
