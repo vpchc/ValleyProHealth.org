@@ -1001,11 +1001,13 @@
         <p class="tab-simple">Eddie McFarland<span>Chief Operations Officer</span></p>
       </div>
     </div>
+<!--
     <div class="tab">
       <div class="tab-bar team-admin">
         <p class="tab-simple">Paul Utterback<span>Chief Financial Officer</span></p>
       </div>
     </div>
+-->
     <div class="tab">
       <div class="tab-bar team-admin">
         <p class="tab-simple">Dr. Steven Waltz<span>Chief Medical Officer</span></p>
