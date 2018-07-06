@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/apps.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,12 +41,12 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Stats</h1>
-  <h2 id="page-subtitle">Choose a stats program</h2>
-  <div id="stats-options">
-  <a href="/stats/awstats/cgi-bin/awstats.pl"><button class="vpchcbutton">AWStats</button></a>
-  <a href="/stats/piwik/"><button class="vpchcbutton">Piwik</button></a>
+<main>
+  <h5>Stats</h5>
+  <h6>Choose a stats program</h6>
+  <div class="stats-options">
+  	<a href="/stats/piwik/"><button class="vpchcbutton">Piwik</button></a>
+		<a href="/stats/awstats/cgi-bin/awstats.pl"><button class="vpchcbutton">AWStats</button></a>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

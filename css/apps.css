@@ -1840,6 +1840,18 @@ footer {
       width: 300px;
       font-size: 14px; } }
 
+/*------------------------------------*\
+  #Stats
+\*------------------------------------*/
+.stats-options .vpchcbutton {
+  display: block;
+  margin: 15px auto;
+  width: 25%;
+  font-size: 50px; }
+
+.stats-options a {
+  text-decoration: none; }
+
 #store-locator-container {
   margin-top: 30px;
   margin-left: 300px;
