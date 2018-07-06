@@ -23,7 +23,7 @@
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
         <a href="/about_us/news_&_events.php">News & Events</a>
-        <a href="/archive/">Archive</a>
+        <a href="/archive/">News Archive</a>
         </div>
       </li>
       <li id="locations" class="dropdown">
@@ -75,7 +75,7 @@
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
         <a href="/about_us/news_&_events.php">News & Events</a>
-        <a href="/archive/">Archive</a>
+        <a href="/archive/">News Archive</a>
       </div>
     <div class="navlinks-mobile-section"><p>Locations</p><span>></span></div>
       <div class="navlinks-mobile-subsection">

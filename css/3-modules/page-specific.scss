@@ -1,4 +1,40 @@
 /*------------------------------------*\
+  #Archive
+\*------------------------------------*/
+.archive-section { margin-bottom: 20px;}
+.archive-section img {
+	display: block;
+	
+	margin: 10px auto;
+	height: auto;
+	width: 600px;
+	
+	@media only screen and (max-width: 1082px) { width: 300px;}
+}
+.archive-section p {
+	margin: 0 auto;
+	width: 900px;
+	
+	@media only screen and (max-width: 1082px) {
+		width: 100%;
+		
+		font-size: 12px;
+	}
+}
+.archive-section li {
+	margin: 0 auto;
+	width: 900px;
+	
+	font-size: 14px;
+	
+	@media only screen and (max-width: 1082px) {
+		width: 100%;
+		
+		font-size: 12px;
+	}
+}
+
+/*------------------------------------*\
   #Contact Us
 \*------------------------------------*/
 .contact-table {

@@ -86,11 +86,6 @@ h6 {
     h6 {
       font-size: 16px; } }
 
-hr {
-  height: 5px;
-  color: black;
-  background-color: black; }
-
 header {
   position: relative; }
   @media only screen and (max-width: 1082px) {
@@ -1094,6 +1089,38 @@ footer {
       .sidebar-section.large {
         width: 80px;
         font-size: 12px; } }
+
+/*------------------------------------*\
+  #Archive
+\*------------------------------------*/
+.archive-section {
+  margin-bottom: 20px; }
+
+.archive-section img {
+  display: block;
+  margin: 10px auto;
+  height: auto;
+  width: 600px; }
+  @media only screen and (max-width: 1082px) {
+    .archive-section img {
+      width: 300px; } }
+
+.archive-section p {
+  margin: 0 auto;
+  width: 900px; }
+  @media only screen and (max-width: 1082px) {
+    .archive-section p {
+      width: 100%;
+      font-size: 12px; } }
+
+.archive-section li {
+  margin: 0 auto;
+  width: 900px;
+  font-size: 14px; }
+  @media only screen and (max-width: 1082px) {
+    .archive-section li {
+      width: 100%;
+      font-size: 12px; } }
 
 /*------------------------------------*\
   #Contact Us
