@@ -89,8 +89,8 @@
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
-            <a href="/careers/job_listing_6.php"><div class="explain-tile">
-			<p>CMA</p>
+            <a href="/careers/job_listing_4.php"><div class="explain-tile">
+			<p>Chiropractic Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
 			</div></a>
 </div>
