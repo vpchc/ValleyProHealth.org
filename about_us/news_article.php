@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,11 +41,11 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>News Article</h1>
-  <h2>Health Center Receives Perfect Score in Federal Review</h2>
-  <h2 id="page-tinytitle">January 23, 2018</h2>
-  <div id="archive-news-section">
+<main>
+  <h5>News Article</h5>
+  <h6>Health Center Receives Perfect Score in Federal Review</h6>
+  <h6>January 23, 2018</h6>
+  <div class="archive-section">
     <p>Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review.</p>
     <p>Operational Site Visits are conducted to ensure federally funded health centers comply with Health Center Program requirements through oversight by HRSA’s Bureau of Primary Health Care. Areas reviewed during the visit include financial and clinical management, operations, monitoring and reporting, governance, and quality improvement.</p>
     <p>Federal reviewers spent a total of three days on site at Valley Professionals, allowing a full overview of the health center’s operations. The final report revealed Valley Professionals successfully scored a perfect 19 out of the 19 health center program requirements. Valley Professionals completed their last Operational Site Visit in 2014, as most health centers generally complete a site visit every three years for funding eligibility.</p>

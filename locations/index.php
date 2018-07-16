@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
-<link href="/css/map.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -42,18 +41,18 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-	<div id="banner">
+<main>
+	<div class="banner">
     <img src="/images/banner/locations_index.jpg">
-    <div id="banner-title">
-      <p>Locations</p>
+    <div class="banner-title">
+      <h1>Locations</h1>
     </div>
   </div>
-  <div id="explain-newcontent">
-    <p class="explain-title vpchcblue">Welcome to Valley Professionals</p>
-    <p class="explain-p">Valley Professionals is proud to serve the Montgomery, Parke, Vermillion, and Vigo county communities.  Our clinics provide comprehensive integrated healthcare to all individuals and families.</p>
-    <p class="explain-title vpchcgreen">Find the Caring Professionals in Your Community</p>
-    <p class="explain-p">Enter your ZIP code into the box below to locate which Valley Professionals Community Health Center location is closest to you.  For more information on a given location and the services available, visit the locations tab.</p>
+  <div class="content">
+    <h2>Welcome to Valley Professionals</h2>
+    <p>Valley Professionals is proud to serve the Montgomery, Parke, Vermillion, and Vigo county communities.  Our clinics provide comprehensive integrated healthcare to all individuals and families.</p>
+    <h2>Find the Caring Professionals in Your Community</h2>
+    <p>Enter your ZIP code into the box below to locate which Valley Professionals Community Health Center location is closest to you.  For more information on a given location and the services available, visit the locations tab.</p>
   </div>
   <div id="store-locator-container">
     <div id="form-container">

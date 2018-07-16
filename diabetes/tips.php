@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,21 +41,21 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
+<main>
+  <div class="banner">
     <img src="/images/banner/about_us_news&events.jpg">
-    <div id="banner-title">
-      <p>Diabetes Tips</p>
+    <div class="banner-title">
+      <h1>Diabetes Tips</h1>
     </div>
   </div>
-  <div id="explain-content">
-    <p class="explain-title vpchcblue">Tips to help you take control of your Diabetes.</p>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Choose water, unsweetened coffee or unsweetened tea.</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat more fiber from whole grains and vegetables.</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat 4-5 smaller meals throughout the day.</li>
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">Eat smaller portions -instead of "supersizing" your meal try ordering off the kids menu.</li>  
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">If experiencing low blood glucose remember the "Rule of 15's"</br>Eat 15 grams of carbs wait 15 minutes then retest your blood glucose, if still low eat 15 more grams of carbohydrates.</br>Examples of 15 grams of carbohydrates:</br>*3-4 glucose tabs</br>*1/2 cup of fruit juice</br>*2-3 sugar packets</br>*3-5 pieces of hard sugary candy</li>  
-    <li style="list-style-image: url('/images/formatting/blue_bullet.png');">If your regular meal is more than 30 minutes away you will need to eat something such as graham crackers with a tablespoon of peanut butter.</li>  
+  <div class="content">
+    <h2>Tips to help you take control of your Diabetes.</h2>
+    <li class="blue-bullet">Choose water, unsweetened coffee or unsweetened tea.</li>
+    <li class="blue-bullet">Eat more fiber from whole grains and vegetables.</li>
+    <li class="blue-bullet">Eat 4-5 smaller meals throughout the day.</li>
+    <li class="blue-bullet">Eat smaller portions -instead of "supersizing" your meal try ordering off the kids menu.</li>  
+    <li class="blue-bullet">If experiencing low blood glucose remember the "Rule of 15's"</br>Eat 15 grams of carbs wait 15 minutes then retest your blood glucose, if still low eat 15 more grams of carbohydrates.</br>Examples of 15 grams of carbohydrates:</br>*3-4 glucose tabs</br>*1/2 cup of fruit juice</br>*2-3 sugar packets</br>*3-5 pieces of hard sugary candy</li>  
+    <li class="blue-bullet">If your regular meal is more than 30 minutes away you will need to eat something such as graham crackers with a tablespoon of peanut butter.</li>  
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,9 +41,14 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>History of VPCHC</h1>
-  <div id="history">
+<main>
+	<div class="banner">
+    <img src="/images/banner/about_us_history.jpg">
+    <div class="banner-title">
+      <h1>History of VPCHC</h1>
+    </div>
+  </div>
+  <div class="history">
     <div class="timeline">
       <span class="timeline-year">2008</span>
       <p>Vermillion-Parke Community Health Center establishes it's first clinic in Clinton.</p>
@@ -58,34 +63,34 @@
     </div>
     <div class="timeline even">
       <span class="timeline-year">2013</span>
-      <p><span class="timeline-month-green">January</span></br>New Vermillion-Parke Community Health Center clinic opens in Bloomingdale</p>
-      <p><span class="timeline-month-green">September</span></br>VPCHC received recognition through the National Committee for Quality Assurance (NCQA) as a Patient Centered Medical Home with a Distinction in Patient Experience Reporting.</p>
+      <p><span class="timeline-month-green">January</span>New Vermillion-Parke Community Health Center clinic opens in Bloomingdale</p>
+      <p><span class="timeline-month-green">September</span>VPCHC received recognition through the National Committee for Quality Assurance (NCQA) as a Patient Centered Medical Home with a Distinction in Patient Experience Reporting.</p>
     </div>
     <div class="timeline">
       <span class="timeline-year">2014</span>
-      <p><span class="timeline-month-blue">February</span></br>Vermillion-Parke Community Health Center changes it's name to Valley Professionals Community Health Center.</p>
-      <p><span class="timeline-month-blue">November</span></br>Terry Warren named CEO of Valley Professionals Community Health Center.</p>
+      <p><span class="timeline-month-blue">February</span>Vermillion-Parke Community Health Center changes it's name to Valley Professionals Community Health Center.</p>
+      <p><span class="timeline-month-blue">November</span>Terry Warren named CEO of Valley Professionals Community Health Center.</p>
     </div>
     <div class="timeline even">
       <span class="timeline-year">2015</span>
-      <p><span class="timeline-month-green">June</span></br>New Valley Professionals Community Health Center clinic opens in Terre Haute.</p>
-      <p><span class="timeline-month-green">August</span></br>New Valley Professionals  Community Health Center clinic opens in Crawfordsville.</p>
+      <p><span class="timeline-month-green">June</span>New Valley Professionals Community Health Center clinic opens in Terre Haute.</p>
+      <p><span class="timeline-month-green">August</span>New Valley Professionals  Community Health Center clinic opens in Crawfordsville.</p>
     </div>
     <div class="timeline">
       <span class="timeline-year">2016</span>
-      <p><span class="timeline-month-blue">April</span></br>The Valley Professionals Cayuga clinic relocates to the former Speedco building on Park Street in Cayuga.</p>
-      <p><span class="timeline-month-blue">May</span></br>Valley Professionals receives a one million dollar grant from HRSA(Health Resources & Services Administration) for expansion and renovation of the Clinton clinic.</p>
+      <p><span class="timeline-month-blue">April</span>The Valley Professionals Cayuga clinic relocates to the former Speedco building on Park Street in Cayuga.</p>
+      <p><span class="timeline-month-blue">May</span>Valley Professionals receives a one million dollar grant from HRSA(Health Resources & Services Administration) for expansion and renovation of the Clinton clinic.</p>
     </div>
     <div class="timeline even">
       <span class="timeline-year">2017</span>
-      <p><span class="timeline-month-green">April</span></br>New Valley Professionals Community Health Center clinic opens in Rockville.</p>
+      <p><span class="timeline-month-green">April</span>New Valley Professionals Community Health Center clinic opens in Rockville.</p>
     </div>
  		<div class="timeline">
       <span class="timeline-year">2018</span>
-      <p><span class="timeline-month-blue">Feburary</span></br>Valley Professionals Community Health Center celebrates its 10th anniversary.</p>
+      <p><span class="timeline-month-blue">Feburary</span>Valley Professionals Community Health Center celebrates its 10th anniversary.</p>
     </div>
   </div>
-  <div id="history-continued"></div>
+  <div class="history-continued"></div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

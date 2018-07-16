@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,62 +41,60 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <p id="location-title">Crawfordsville</p>
-  <div id="location-top-section">
-    <img id="location-photo" src="/images/locations/banner_crawfordsville.jpg"/>
-    <div id="location-info">
-      <p class="location-subtitle">CONTACT US</p>
-      <p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
-      <div class="location-info-contact">
-        <img class="location-info-icon" src="/images/locations/icon_phone.png" alt="phone number">
-        <p>(765) 362-5100</p>
-      </div>
-      <div class="location-info-contact">
-        <img class="location-info-icon" src="/images/locations/icon_fax.png" alt="fax number">
-        <p>(765) 362-5171</p>
-      </div>
-      <p class="location-subtitle">HOURS</p>
-      <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
-      <p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.  </p>
-    </div>
-  </div>
-  <div id="location-bottom-section">
-    <div id="location-details">
-      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
-      <div class="location-services-type">
-        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-        <span>Primary Care</span>
-      </div>
-      <div class="location-services-type">
-        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-        <span>Behavioral Health</span>
-      </div>
-      <div class="location-services-type">
-        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
-        <span>Patient Support</span>
-      </div>
-      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
-      <table class="team-table">
-        <tr>
-          <td><p class="team-table-name">Dr. Danielle Cundiff, DO</p></td> 
-          <td><p class="team-table-name">Dr. Christopher Fitzsimmons, MD</p></td> 
-        </tr>
+<main>
+	<div class="content centered large">
+		<h4>Crawfordsville</h4>
+		<img class="location-photo" src="/images/locations/banner_crawfordsville.jpg"/>
+		<div class="location-info">
+			<p class="location-title">CONTACT US</p>
+			<p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
+			<div class="location-contact">
+				<img src="/images/locations/icon_phone.png" alt="phone number">
+				<p>(765) 362-5100</p>
+			</div>
+			<div class="location-contact">
+				<img src="/images/locations/icon_fax.png" alt="fax number">
+				<p>(765) 362-5171</p>
+			</div>
+			<p class="location-title">HOURS</p>
+			<p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
+			<p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.</p>
+		</div>
+		<div class="location-details">
+			<p class="location-title">SERVICES</p>
+			<div class="location-services">
+				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
+				<span>Primary Care</span>
+			</div>
+			<div class="location-services">
+				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
+				<span>Behavioral Health</span>
+			</div>
+			<div class="location-services">
+				<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
+				<span>Patient Support</span>
+			</div>
+			<p class="location-title">PROVIDERS</p>
+			<table class="team-table">
 				<tr>
-          <td><p class="team-table-name">Dr. Patrick Foley, MD</p></td> 
-    			<td><p class="team-table-name">Jessica Bekkering, FNP-C</p></td> 
-        </tr>
-        <tr>
-    			<td><p class="team-table-name">Dr. Paul Taraska, MD</p></td> 
-					<td><p class="team-table-name">Keith Seegers, LCSW</p></td>
-        </tr>
-        <tr>
-					<td><p class="team-table-name">Dana Tinkle, LMHC, RPT</p></td>
-                        <td><p class="team-table-name">Misha Bennett, LCSW</p></td>
-        </tr>
-      </table>
-    </div>
-    <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
+					<td><p>Dr. Danielle Cundiff, DO</p></td> 
+					<td><p>Dr. Christopher Fitzsimmons, MD</p></td> 
+				</tr>
+				<tr>
+					<td><p>Dr. Patrick Foley, MD</p></td> 
+					<td><p>Jessica Bekkering, FNP-C</p></td> 
+				</tr>
+				<tr>
+					<td><p>Dr. Paul Taraska, MD</p></td> 
+					<td><p>Misha Bennett, LCSW</p></td>
+				</tr>
+				<tr>
+					<td><p>Keith Seegers, LCSW</p></td>
+					<td><p>Dana Tinkle, LMHC, RPT</p></td>
+				</tr>
+			</table>
+		</div>
+		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

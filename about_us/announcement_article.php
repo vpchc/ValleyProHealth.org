@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,11 +41,11 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>News Article</h1>
-  <h2>Health Center Celebrates 10 Years of Serving Communities</h2>
-  <h2 id="page-tinytitle">January 30, 2018</h2>
-  <div id="archive-news-section">
+<main>
+  <h5>News Article</h5>
+  <h6>Health Center Celebrates 10 Years of Serving Communities</h6>
+  <h6>January 30, 2018</h6>
+  <div class="archive-section">
     <p>Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.</p>
     <p>Valley Professionals opened its first health center in February 2008, located in Clinton, primarily serving residents of Vermillion and Parke counties.  Since that time, the health center has grown to serve communities across four counties in Indiana and the surrounding areas. The health center operates six health center facilities located in Clinton, Cayuga, Bloomingdale, Rockville, Crawfordsville and Terre Haute, as well as a mobile health center.</p>
     <p>By visiting Valley Professionals, patients can receive integrated care services under one roof.  Services provided include primary health care, behavioral health, dental, and patient support services. Over 17,000 patients were served by the health center in 2017, with 72,000 patient visits overall. The growth of Valley Professionals has undoubtedly increased access to health care services, provided economic impact, as well as eliminating barriers for vulnerable populations by providing resources for needs such as transportation, health insurance, medication, and food.</p>

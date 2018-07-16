@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,43 +41,35 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Job Opportunities</h1>
-  <h2>Chiropractic Assistant - Clinton</h2>
-  <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a Chiropractic Assistant for its Clinton office to assist in their new Chiropractic Department.</p>
-    <p>Duties:</p>
-    <li>Patient assessment</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider in all manners of patient care</li>
-    <p>Requirements:</p>
-    <li>High energy and a personality that naturally engages with patients in a positive manner daily</li>
-    <li>Current experience in a chiropractic office a plus</li>
-    
+<main>
+	<div class="content centered small">
+		<h5>Job Opportunities</h5>
+  	<h6>Psychologist - Rockville</h6>
+    <p>VPCHC has a strongly integrated Behavioral Health program whose team consists of a psychiatrist, psychiatrist nurse practitioner, psychologist, Licensed Clinical Addictions Counselor, LCSWs, and LMHCs. In addition to the behavioral health program, VPCHC has outpatient addiction programs at two locations. Our Behavioral Health providers are present at each of our sites, and the providers work closely with the medical and psychiatric providers to treat, not only the physical well-being of the patient, but also the emotional well-being of the patients served. All of our sites are in an outpatient setting whereby the Behavioral Health Providers focus on treating patients in ways that support primary care goals, address mental health needs, and help patients to improve their overall quality of life. VPCHC has grown exponentially in the last 10 years, and as there still continues to be much momentum for growth, a greater need has developed for another psychologist.</br>The ideal candidate for this position will have a passion for working as part of a multidisciplinary team to care for underserved populations within a mostly rural setting.</p>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
-    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+    <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_4.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
         <div class="onsub-field">
           <label for="first_name">First Name <span >*</span></label>     
-          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
+          <input id="first_name" class="text" type="text" name="firstname">
         </div>
         <div class="onsub-field">
           <label for="last_name">Last Name <span >*</span></label>     
-          <input id="last_name" type="text" name="lastname" style="width:80%;">
+          <input id="last_name" type="text" name="lastname">
         </div>
         <div class="onsub-field">
           <label for="email">Email <span >*</span></label>     
-          <input id="email" type="text" name="email" style="width:80%;">
+          <input id="email" type="text" name="email">
         </div>
         <div class="onsub-field">
           <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
-          <input type="file" name="resume" id="resume" style="width:80%;">
+          <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Chiropractic Assistant - Clinton">
+        <input type="hidden" name="subject" value="Psychologist - Rockville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

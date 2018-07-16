@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,20 +41,20 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
+<main>
+  <div class="banner">
     <img src="/images/banner/services_after-hours.jpg">
-    <div id="banner-title">
-      <p>After-Hours Clinic</p>
+    <div class="banner-title">
+      <h1>After-Hours Clinic</h1>
     </div>
   </div>
-  <div id="explain-content">
-    <p class="explain-p">Valley Professionals Community Health Center offers an After-Hours Clinic at it's Clinton Office. The After-Hours Clinic is for acute care only such as, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, earache, or other similar symptoms. Individuals do not have to be a current patient of Valley Professionals to receive primary care services during the After-Hours Clinic and no appointment is needed. All individuals and families are welcome. Sliding Fee Scale available. Fees are based on family size and income. We also accept Medicaid, Medicare, self-pay, and commercial insurance.</p>
-    <p class="explain-title vpchcgreen"><a style="color: inherit;" href="/clinton/">Clinton Location Only</a></p>
-    <p class="explain-title vpchcgreen">After-Hours Clinic</p>
-    <p class="explain-p">Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
-    <p class="explain-title vpchcgreen">Saturday Clinic</p>
-    <p class="explain-p">Saturday: 9:00 a.m. - 1:00 p.m.</p>
+  <div class="content">
+    <p>Valley Professionals Community Health Center offers an After-Hours Clinic at it's Clinton Office. The After-Hours Clinic is for acute care only such as, fever, vomiting, congestion, sore throat, flu symptoms, cough, rash, earache, or other similar symptoms. Individuals do not have to be a current patient of Valley Professionals to receive primary care services during the After-Hours Clinic and no appointment is needed. All individuals and families are welcome. Sliding Fee Scale available. Fees are based on family size and income. We also accept Medicaid, Medicare, self-pay, and commercial insurance.</p>
+    <h2><a href="/clinton/">Clinton Location Only</a></h2>
+    <h2>After-Hours Clinic</h2>
+    <p>Monday - Thursday: 5:00 p.m. - 8:00 p.m.</p>
+    <h2>Saturday Clinic</h2>
+    <p>Saturday: 9:00 a.m. - 1:00 p.m.</p>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

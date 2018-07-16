@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,41 +41,41 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Job Opportunities</h1>
-  <h2>CMA - Rockville</h2>
-  <div class="careers-listing">
-		<p>Valley Professionals Community Health Center is looking to hire a CMA for its Rockville office.</p>
-    <p>Duties(Including but not limited to):</p>
-    <li>Providing professional nursing services and patient care</li>
-    <li>Patient assessment</li>
-    <li>Taking vitals</li>
-    <li>Assisting the provider in minor procedures</li>
-    <li>Assist in answering phone calls, scheduling patients, and checking-in patients</li>
-		<p>Requirements:</p>
-		<li>Current certification as a Medical Assistant required</li>
-		<li>Two to three years primary care experience preferred</li>
+<main>
+	<div class="content centered small">
+		<h5>Job Opportunities</h5>
+  	<h6>CMA - Rockville</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a CMA for its Rockville office.</p>
+    <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Providing professional nursing services and patient care</li>
+    <li class="green-bullet">Patient assessment</li>
+    <li class="green-bullet">Taking vitals</li>
+    <li class="green-bullet">Assisting the provider in minor procedures</li>
+    <li class="green-bullet">Assist in answering phone calls, scheduling patients, and checking-in patients</li>
+		<h2>Requirements:</h2>
+		<li class="green-bullet">Current certification as a Medical Assistant required</li>
+		<li class="green-bullet">Two to three years primary care experience preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
-    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+    <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_1.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
         <div class="onsub-field">
           <label for="first_name">First Name <span >*</span></label>     
-          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
+          <input id="first_name" class="text" type="text" name="firstname">
         </div>
         <div class="onsub-field">
           <label for="last_name">Last Name <span >*</span></label>     
-          <input id="last_name" type="text" name="lastname" style="width:80%;">
+          <input id="last_name" type="text" name="lastname">
         </div>
         <div class="onsub-field">
           <label for="email">Email <span >*</span></label>     
-          <input id="email" type="text" name="email" style="width:80%;">
+          <input id="email" type="text" name="email">
         </div>
         <div class="onsub-field">
           <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
-          <input type="file" name="resume" id="resume" style="width:80%;">
+          <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
         <input type="hidden" name="subject" value="CMA - Rockville">

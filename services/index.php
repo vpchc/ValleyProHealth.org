@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,44 +41,44 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox-nonfixed">
-  <div id="banner">
+<main>
+  <div class="banner">
     <img src="/images/banner/services_index.jpg">
-    <div id="banner-title">
-      <p>Services</p>
+    <div class="banner-title">
+      <h1>Services</h1>
     </div>
   </div>
-  <div id="explain-content">
-    <p class="explain-title vpchcgreen">Your Home for Healthcare</p>
-    <p class="explain-p">Valley Professionals is your home for healthcare from before you're born through your golden years.  We're here for you, your whole life through. To learn more about our services, select a service type from below.</p>
-    <div id="services-provided">
-      <a href="/services/behavioral_health.php"><div class="services-provided-section four-sections">
+  <div class="content">
+    <h2>Your Home for Healthcare</h2>
+    <p>Valley Professionals is your home for healthcare from before you're born through your golden years.  We're here for you, your whole life through. To learn more about our services, select a service type from below.</p>
+    <div class="icon-menu">
+      <a href="/services/behavioral_health.php"><div class="icon-menu-section">
         <p>Behavioral Health</p>
-        <img class="team-table-icon" src="/images/services/bh_icon.png" alt="Behavioral Health Services"/>
-        </div></a>
-      <a href="/dental"><div class="services-provided-section four-sections">
+        <img src="/images/services/bh_icon.png" alt="Behavioral Health Services"/>
+      </div></a>
+      <a href="/dental"><div class="icon-menu-section">
         <p>Dental</p>
-        <img class="team-table-icon" src="/images/services/dent_icon.png" alt="Dental Services"/>
-        </div></a>
-      <a href="/services/primary_care.php"><div class="services-provided-section four-sections">
+        <img src="/images/services/dent_icon.png" alt="Dental Services"/>
+      </div></a>
+      <a href="/services/primary_care.php"><div class="icon-menu-section">
         <p>Primary Care</p>
-        <img class="team-table-icon" src="/images/services/med_icon.png" alt="Primary Care"/>
-        </div></a>
-      <a href="/services/patient_support.php"><div class="services-provided-section four-sections">
+        <img src="/images/services/med_icon.png" alt="Primary Care"/>
+      </div></a>
+      <a href="/services/patient_support.php"><div class="icon-menu-section">
         <p>Patient Support</p>
-        <img class="team-table-icon" src="/images/services/ps_icon.png" alt="Patient Support"/>
-        </div></a>
+        <img src="/images/services/ps_icon.png" alt="Patient Support"/>
+      </div></a>
     </div>
-    <p class="explain-title vpchcgreen">Our Mission</p>
-    <p class="explain-p">Valley Professionals Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
-    <p class="explain-title vpchcgreen">What does that mean to you?</p>
-    <p class="explain-p">Put simply, this means that our clinics give patients access to Medical, Behavioral Health, and Dental care, as well as patient support services, under one roof.  This integration of services makes it easier for patients to be sure that they are at their best.  Valley Professionals accepts self-pay and all commercial insurance types.</p>
-    <p class="explain-title vpchcgreen">No Insurance?</p>
-    <p class="explain-p">No problem.  Our Community Health Workers can set you up with a Sliding Fee Scale and even help you find and enroll in an affordable health insurance plan that works for you and your family.</p>
-    <p class="explain-title vpchcgreen">Educational Opportunities</p>
-    <p class="explain-p">Valley Professionals is proud to host a variety of students from local universities and colleges as they prepare for careers in healthcare.  Valley Professionals Community Health Center also has the unique opportunity to partner with the Union Hospital Family Medicine Residency Program.  To read more about our partnership with the Family Residency Program, <a href="http://www.uhfmr.org">click here</a>.</p>
-    <p class="explain-title vpchcgreen">Extended Hours</p>
-    <p class="explain-p">To learn more about the extended hours offered by Valley Professionals, <a href="http://valleyprohealth.org/services/extended_hours.php">click here</a>.</p>
+    <h2>Our Mission</h2>
+    <p>Valley Professionals Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
+    <h2>What does that mean to you?</h2>
+    <p>Put simply, this means that our clinics give patients access to Medical, Behavioral Health, and Dental care, as well as patient support services, under one roof.  This integration of services makes it easier for patients to be sure that they are at their best.  Valley Professionals accepts self-pay and all commercial insurance types.</p>
+    <h2>No Insurance?</h2>
+    <p>No problem.  Our Community Health Workers can set you up with a Sliding Fee Scale and even help you find and enroll in an affordable health insurance plan that works for you and your family.</p>
+    <h2>Educational Opportunities</h2>
+    <p>Valley Professionals is proud to host a variety of students from local universities and colleges as they prepare for careers in healthcare.  Valley Professionals Community Health Center also has the unique opportunity to partner with the Union Hospital Family Medicine Residency Program.  To read more about our partnership with the Family Residency Program, <a href="http://www.uhfmr.org">click here</a>.</p>
+    <h2>Extended Hours</h2>
+    <p>To learn more about the extended hours offered by Valley Professionals, <a href="http://valleyprohealth.org/services/extended_hours.php">click here</a>.</p>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -1,15 +1,11 @@
-<div id="head-wrap">
-    <div id="head-img-container">
-      <img id="header-img" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/>
-    </div>
-    <div id="navlinks-subcontainer">
-      <img id="navlinks-mobile-icon" src="/images/header/mobile_menu.png" alt="menu" srcset="/images/header/mobile_menu.svg"/>
-    </div>
-    <div id="head-social-container">
-      <div id="head-social-subcontainer">
+  <div class="title">
+    <img class="title-logo" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/>
+    <img id="navlinks-mobile-icon" src="/images/header/mobile_menu.png" alt="menu" srcset="/images/header/mobile_menu.svg"/>
+    <div class="title-social">
+      <div class="title-social-contact">
       <p>Connect with us</p> 
       </div>
-      <div id="head-social-icons">
+      <div class="title-social-media">
       <a href="https://www.facebook.com/vpchc"><img src="/images/header/facebook_icon.jpg" alt="VPCHC Facebook"/></a>
       <a href="https://twitter.com/ValleyProHealth"><img src="/images/header/twitter_icon.jpg" alt="VPCHC Twitter"/></a>
       </div>
@@ -27,7 +23,7 @@
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
         <a href="/about_us/news_&_events.php">News & Events</a>
-        <a href="/archive/">Archive</a>
+        <a href="/archive/">News Archive</a>
         </div>
       </li>
       <li id="locations" class="dropdown">
@@ -79,7 +75,7 @@
         <a href="/about_us/history_of_vpchc.php">History of VPCHC</a>
         <a href="/about_us/governing_board.php">Governing Board</a>
         <a href="/about_us/news_&_events.php">News & Events</a>
-        <a href="/archive/">Archive</a>
+        <a href="/archive/">News Archive</a>
       </div>
     <div class="navlinks-mobile-section"><p>Locations</p><span>></span></div>
       <div class="navlinks-mobile-subsection">
