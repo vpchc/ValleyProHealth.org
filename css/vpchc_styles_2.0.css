@@ -1,0 +1,2702 @@
+/********|*********|*********|*********|*********|*********|*********|*********/
+/*
+  CSS Properties follow "Outside In" principle for ordering.
+  1)Layout Properties (position, float, clear, display)
+  2)Box Model Properties (width, height, margin, padding)
+  3)Visual Properties (color, background, border, box-shadow)
+  4)Typography Properties (font-size, font-family, text-align, text-transform)
+  5)Misc Properties (cursor, overflow, z-index)
+*/
+/*------------------------------------*\
+                #Globals
+\*------------------------------------*/
+/* 
+    Table of Contents
+        Banner
+        Buttons
+        Company Colors
+        Explanation Paragraphs
+        Main Containers
+        Nav Links
+        Sidebars
+        Tab
+        Titles
+*/
+
+/*------------------------------------*\
+  #Banner
+\*------------------------------------*/
+
+#banner {
+  position: relative;
+  
+  max-height: 540px;
+  width: 100%;
+}
+#banner img{
+  width: 100%;
+  max-height: 540px;
+}
+#banner-title {
+  position: absolute;
+  
+  top: 58%;
+  
+  height: 36%;
+  width: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#banner-title p {
+  margin: 20px 170px 0 0;
+  text-align: right;
+  font-size: 7vw;
+  font-family: "Franklin Gothic Medium", Times, serif;
+  color: #3a4e8c;
+  z-index: 1;
+}
+
+/*------------------------------------*\
+  #Buttons
+\*------------------------------------*/
+
+.vpchcbutton {
+    padding: 0 4px;
+    
+    background: #fff;
+    border: none;
+    color: #2d4a70;
+}
+.vpchcbutton:hover {  
+    background: #70b244;
+    
+    transition: 0.5s;
+}
+.vpchcbutton:active {
+    background: #2d4a70;
+    color: #70b244;
+    
+    transition: none;
+}
+
+/*------------------------------------*\
+  #Company Colors
+\*------------------------------------*/
+
+.vpchcblue  { color: #3a4e8c;}
+.vpchcgreen { color: #70b244;}
+.vpchcgrey  { color: #258f71;}
+
+/*------------------------------------*\
+  #Explantion Paragraphs
+\*------------------------------------*/
+
+#explain-content { margin: 20px 40px;}
+.explain-title {
+    clear: both;
+    
+    margin: 20px 0 20px 0;
+    
+    font-size: 2.4vw;
+    font-weight: bold;
+    font-family: "Franklin Gothic Book", Times, serif;
+}
+.explain-p, 
+  #explain-content li {
+    font-size: 1.2vw;
+    font-family: "Franklin Gothic Book", Times, serif;
+}
+.explain-p { margin-left: 30px;}
+.explain-p-title {
+    margin: 20px 0 20px 20px;
+    
+    font-weight: bold;
+}
+#explain-content li {
+    margin: 10px 0 0 30px;
+    
+    list-style-image: url('/images/formatting/green_bullet.png');
+}
+#explain-twosections{ overflow: auto ;}
+#explain-twosections-left{
+    float: left;
+   
+		height: auto;
+    width: 50%;
+}
+#explain-twosections-right{
+    float: right;
+    
+		margin-top: 45px;
+		height: auto;
+    width: 50%;
+}
+#explain-twosections-right iframe{
+		float: right;
+		
+		margin-top: 20px;
+    height: 430px;
+    width: 90%;
+}
+#explain-button-row{
+		margin-bottom: 20px;
+		text-align: justify;
+		font-size: 0.1px; /*For IE 9/10*/
+}
+.explain-button{
+		display: inline-block;
+		
+		padding: 0 20px;
+		width: 230px;
+		
+		background: #70b244;
+}
+#explain-button-row:after{
+		display: inline-block;
+		
+		content: '';
+		
+		width: 100%;	
+}
+.explain-button p{
+		padding: 10px 0;
+		
+		text-align: center;
+		font-family: "Franklin Gothic Book", Times, serif;
+		font-size: 1.5vw;
+		color: #ffffff;
+}
+/*new explain*/
+#explain-newcontent{margin: 20px 0 0 30px;}
+#explain-tiles{
+	margin: 30px 0;
+	
+	text-align: justify;
+	font-size: 0.1px; /*For IE 9/10*/
+}
+#explain-tiles:after{
+		display: inline-block;
+		
+		content: '';
+		
+		width: 100%;	
+}
+#explain-tiles a{text-decoration: none;}
+.explain-tile{
+	display: inline-block;
+	
+	padding: 10px;
+	width: 350px;
+	
+	border-left: 5px solid #3a4e8c;
+	background: #f9f9f9;
+}
+.explain-tile-hide{ visibility: hidden;}
+.explain-tile p{
+	margin: 5px 0 0 5px;
+	
+	font-family: "Franklin Gothic Book", Times, serif;
+	color: black;
+	font-size: 30px;
+}
+.explain-tile img{
+	display: inline-block;
+	float: left;
+	
+	margin: 10px 5px 0 0;
+	width: 25px;
+}
+
+/*------------------------------------*\
+  #Main Containers
+\*------------------------------------*/
+
+* { 
+    margin: 0; 
+    padding: 0;
+}
+#masterbox {
+    position: relative;
+	
+    margin: 0px auto 50px auto;
+  	width: 1349px;
+}
+#masterbox-nonfixed {
+    margin: 0 auto;
+    
+    height: auto;
+    width: 100%;
+}
+header { position: relative;}
+#head-wrap {
+    position: relative;
+    
+    margin: 0 auto;
+    width: 1170px;
+    height: 110px;
+    
+    transition: all .5s ease 0s;
+}
+#head-img-container {
+    display: inline-block;
+    
+    height: 100%;
+    width: 600px;
+}
+#header-img {
+    display: block;
+    
+    margin-top: 18px;
+    height: auto;
+    width: 450px;
+    
+    cursor: pointer;
+}
+#head-social-container {
+    float: right;
+    
+    margin-top: 20px;
+    height: 70px;
+    width: 260px;
+}
+#head-social-subcontainer {
+    display: inline-block;
+    height: 70px;
+    width: 180px;
+    
+    border-right: #e9e9e9 solid 1px;
+}
+#head-social-subcontainer p {
+    margin-top: 26px;
+    padding-right: 10px;
+    
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-align: right
+}
+#head-social-icons {
+    display: inline-block;
+    float: right;
+    
+    margin-top: 20px;
+    width: 68px;
+    height: auto;
+}
+#head-social-icons img { padding-right: 5px;}
+#head-social-icons img:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=50);/* For IE8 and earlier */
+}
+footer { 
+    position: relative;
+    
+    padding-top: 10px;
+    background: white;
+    z-index: 10;
+}
+#footer-locations {
+    height: 35px;
+    
+    background: #70b244;
+}
+.footer-locations-section {
+    float: left;
+    
+    margin-top: 5px;
+    width: 14.2857%;
+    height: auto;
+    
+    text-align: center;
+}
+.footer-locations-section a {
+    color: white;
+    
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-decoration: none;
+}
+#footer-icons {
+    float: left;
+    
+    height: auto;
+    width: 34%;
+}
+#footer-icons img {
+    margin: 10px 0 0 80px;
+    height: 120px;;
+    width: auto;
+}
+#sitemap {
+    float: right;
+    
+    margin-top: 5px;
+    width: 66%;
+}
+.sitemap-section {
+    display: inline-grid;
+    
+    margin-bottom: 10px;
+    width: 155px;
+}
+.sitemap-section a {
+    display: block;
+    
+    margin-left: 20px;
+    
+    color: black;
+    
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    text-decoration: none;
+}
+.sitemap-section a.sitemap-section-title {
+    margin-left: 0;
+    
+    font-size: 16px;
+    font-family: "Franklin Gothic Heavy", Times, serif;
+}
+.sitemap-section a.sitemap-subsection-title { margin-left: 40px;}
+#footer-disclaimer {
+    position: relative;
+    clear: both;
+}
+#footer-disclaimer p {
+    margin: 0 auto;
+    width: 95%;
+    
+    text-align: center;
+    font-size: 14px;
+}
+
+/*------------------------------------*\
+  #Navlinks
+\*------------------------------------*/
+
+#navlinks-container{
+    display: block;
+    
+    height: 50px;
+    width: 100%;
+    
+    background: #3a4e8c;
+}
+#navlinks {
+	position: relative;
+    
+    margin: 0 auto;
+    height: 50px;
+    width: 1170px;
+    
+    z-index: 100;
+    list-style-type: none;
+}
+.navlink-category {
+    padding: 14.8px 17px;
+    
+    height: 40px;
+    
+    background: #3a4e8c;
+    border: none;
+    
+    font-size: 18px;
+    color: white;
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    zoom:1;
+    *display:inline;
+    
+    margin-top: 15px;
+    padding-right: 10px;
+}
+.dropdown-content {
+    position: absolute;
+    
+    margin-top: 15px;
+    height: 0;
+    min-width: 160px;
+    
+    background: #3a4e8c;
+    
+    overflow: hidden;
+    
+    transition: all .5s ease 0s;
+
+}
+.dropdown-content a {
+    display: block;
+    
+    padding: 12px 15px;
+    height: 30px;
+    
+    border-bottom: 1px solid #506db4;
+    
+    color: white;
+    font-family: "Georgia", Times, serif;;
+    text-decoration: none;
+    font-size: 16px;
+  
+    transition: all .5s ease;
+}
+.dropdown-content a:hover { background: #70b244;}
+
+.dropdown:hover .navlink-category { background-color: #70b244;}
+#about.dropdown:hover .dropdown-content { height: 273px;}
+#locations.dropdown:hover .dropdown-content { height: 384px;}
+#services.dropdown:hover .dropdown-content { height: 329px;}
+#contact.dropdown:hover .dropdown-content { height: 54px;}
+.dropdown .active{ background: #70b244;}
+/*----Mobile----*/
+#navlinks-subcontainer {
+    position: relative;
+    float: right;
+    display: inline-block;
+    
+    margin: 23px 15px 0 20px;
+    width: 30px;
+}
+#navlinks-mobile {
+    display: none;
+    
+    height: 100vh;
+
+    overflow-y: scroll;
+}
+#navlinks-mobile a { color: black;}
+#navlinks-mobile-icon{
+    display: none;
+    
+    margin: 0 auto;
+    height: 20px;
+    
+    cursor: pointer;
+}
+.nalinks-mobile-section { display: block;}
+.navlinks-mobile-section, .navlinks-mobile-subsection {
+    padding: 15px;
+    border-bottom: 1px solid #70b244;
+}
+.navlinks-mobile-section p {
+    display: inline-block;
+   
+    font-size: 20px;
+}
+.navlinks-mobile-section p, .navlinks-mobile-subsection a {
+    display: inline-block;
+    color: black;
+
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+    text-decoration: none;
+}
+.navlinks-mobile-section span {
+    display: inline-block;
+    
+    float: right;
+    
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", Verdana, serif;
+    font-weight: 600;
+    text-align: right;
+}
+.navlinks-mobile-subsection { display: none;}
+.navlinks-mobile-subsection a {
+    display: block;
+    
+    padding-bottom: 15px;
+    
+    font-size: 15px;
+}
+
+/*------------------------------------*\
+  #Sidebars
+\*------------------------------------*/
+
+#sidebar { 
+    position: fixed;
+
+    z-index: 1;
+}
+#sidebar a { text-decoration: none;}
+.sidebar-section {
+    display: block;
+    
+    margin-bottom: 5px;
+    padding: 10px;
+    
+    
+    background: #70b244;
+    border-style:none;
+    
+    font-family: "Franklin Gothic Medium", Georgia, serif;
+    font-size: 19px;
+    color: white;
+    
+    cursor: pointer;
+}
+
+.sidebar-section:active {
+    background: #2d4a70;
+    
+    transition: none;
+}
+
+/*----Small----*/
+.small-sidebar { margin-left: 10px;}
+.small-bar {
+    height: 40px;
+    width: 85px;
+}
+/*----Large----*/
+.large-sidebar { margin: 10px 0 0 10px;}
+.large-bar { width: 230px;}
+
+/*------------------------------------*\
+  #Tab
+\*------------------------------------*/
+
+#tab-content { width: 1000px;}
+#tab-content hr{
+    height: 5px;
+    color: black;
+    background-color: black;
+}
+.tab { margin-top: 10px;}
+.tab-bar { height: 75px;}
+.tab-bar p {
+    color: white;
+      font-family: "Franklin Gothic Heavy", Georgia, serif;
+}
+.tab-name, .tab-simple { float: left;}
+.tab-name {
+    margin: 15px 0 0 25px;
+    
+    font-size: 45px;
+}
+.tab-simple { 
+    display: block;
+    
+    margin: 10px;
+    width: 98%;
+    
+    font-size: 40px;
+}
+.tab-simple span{ 
+    float: right;
+    
+    margin-top: 15px;
+    
+    font-size: 25px;
+}
+.drop-arrow {
+    float: right;
+    
+    margin-top: 10px;
+    
+    height: 60px;
+    width: 80px;
+}
+.tab-box { 
+    overflow: hidden;
+
+    height: auto;
+    padding: 10px;
+    
+    border-right: 10px solid #3a4e8c;
+    border-bottom: 10px solid #3a4e8c;
+    border-left: 10px solid #3a4e8c;
+}
+#tab-faq .tab-box { display: none;}
+/*----Providers&Team----*/
+.tab-team { margin-left: 300px;}
+.team-ps { background: #70b244;}
+.team-admin { background: #258f71;}
+.tab-prov { background: #3a4e8c;}
+.tab-box-text {
+    float: right;
+    
+    margin-top: 5px;
+    height: auto;
+    width: 780px;
+}
+.tab-box-title {
+    float: right;
+    
+    margin-right: 10px;
+    
+    text-align: right;
+    font-size: 33px;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
+    font-weight: 600;
+    color: #3a4e8c;
+}
+.tab-box-bio {
+    margin-left: 5px;
+    width: 600px;
+    
+    font-size: 22px;
+}
+.tab-box-bio-title-education,
+.tab-box-bio-title-personal{
+    margin-bottom: 5px;
+    
+    color: #70b244;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
+    font-weight: 600;
+}
+.tab-box-bio-title-personal{ margin-top: 10px;}
+.tab-box-bio li {
+    margin-left: 20px;
+    
+    font-size: 18px;
+}
+.tab-box-bio-personal {
+    font-size: 18px;
+}
+.tab-box-location {
+    margin: 5px 0 0 5px;
+    
+    font-size: 28px;
+    font-family: "Franklin Gothic Medium","Georgia", Times, serif;
+    color: #3a4e8c;
+}
+.tab-box-location a { color: #3a4e8c;}
+.tab-box-pic { float: left;}
+.tab-box-pic img {
+    height: 200px;
+    width: 175px;
+}
+.tab-box-mobilepic{ display: none;}
+/*----Board----*/
+.tab-board { margin: 0 auto;}
+
+/*----FAQs----*/
+.tab-question {
+    display: inline-block;
+    
+    margin: 10px 0 0 10px;
+    width: 700px;
+    
+    font-size: 20px;
+}
+.tab-answer {
+    display: block;
+    
+    font-size: 20px;
+    text-align: left;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #Titles
+\*------------------------------------*/
+
+h1 {
+    margin: 20px auto;
+    
+    font-size: 60px;
+    text-align: center;
+    font-family: "Franklin Gothic Heavy", Times, serif;
+}
+h2, 
+  #page-tinytitle {
+    margin: 20px auto;
+    
+    text-align: center;
+}
+h2,
+  #page-tinytitle, 
+  .section-title,
+  .section-title-centered,
+  h3 { font-family: "Franklin Gothic Medium", Times, serif;}
+h2, 
+  .section-title,
+  .section-title-centered { font-size: 30px;}
+#page-tinytitle { font-size: 25px;}
+h3 {
+    margin-top: 20px;
+    
+    font-size: 50px;
+}
+.section-title-centered { text-align: center;}
+
+
+/*------------------------------------*\
+        #Page/Page Group Specific
+\*------------------------------------*/
+/* 
+    Table of Contents
+        Archive
+        Bus Tracker
+        Careers
+        Contact Us
+        Dental
+        Diabetes
+        FAQs
+        Forms
+        Governing Board
+        History
+        Home
+        Locations
+        News
+        Services
+        Services Provided
+        Stats
+*/
+
+/*------------------------------------*\
+  #Archive
+\*------------------------------------*/
+
+#archive-content { margin-left: 131px; }
+#archive-options {
+    margin: 0 auto;
+    width: 361px;
+}
+#archive-options .vpchcbutton {
+    margin-right: 30px;
+    
+    font-size: 50px;
+}
+.archive-link { 
+    display: block;
+    
+    margin-top: 20px;
+    
+    font-size: 30px;
+}
+.news-link { margin-left: 380px; }
+.photos-link { margin-left: 265px; }
+#archive-news-section {
+    width: 800px;
+    margin: auto;
+}
+#archive-news-section p { text-indent: 50px; }
+.archive-photos {
+    margin: 30px 0 0 150px;
+    width: 800px;
+}
+.archive-photos p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.archive-photos img { border: 5px solid #3a4e8c; }
+.archive-photos img.horizontal {
+    height: 300px;
+    width: 500px;
+}
+.archive-photos img.vertical {
+    height: 300px;
+    width: 250px;
+}
+.archive-photos .horizontal, 
+  .archive-photos.horizontal a { margin: 10px 0 0 140px; }
+.archive-photos .vertical, 
+  .archive-photos.vertical a { margin: 10px 0 0 270px ;}
+#archive-photos-section {
+    margin: 0 auto;
+    width: 1000px;
+}
+.archive-photos-container {
+    margin: 0 auto;
+    width: 760px;
+}
+#archive-photos-section img {
+    margin-top: 10px;
+    border: 5px solid #3a4e8c;
+}
+#archive-photos-section img.horizontal {
+    height: 500px;
+    width: 750px;
+}
+#archive-photos-section img.vertical {
+    height: 550px;
+    width: 368px;
+}
+
+/*------------------------------------*\
+  #Bus Tracker
+\*------------------------------------*/
+
+#bus-tracker{
+    height: 350px;
+    width: 500px;
+    
+    border: 5px solid #3a4e8c;
+    box-shadow: 10px 10px 5px #888888; 
+}
+#bus-tracker * p {
+    font-family: "georgia", Times, serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+#bus-tracker-title {
+    background: #dadbdd;
+ 
+    text-align: center;
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+#bus-tracker-view {
+    clear: both;
+    display: block;
+    
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+#bus-tracker-view .vpchcbutton {
+    display: block;
+    margin: 0px auto;
+    width: 160px;
+
+    border-radius: 25px;
+    
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+}
+#bus-tracker-info {
+    float: left;
+    
+    margin: 10px 0 0 15px;
+    width: 130px;
+}
+#bus-tracker-info p,
+  #bus-tracker-data p { margin-bottom: 40px;}
+#bus-status-icon {
+    float: left;
+    
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+#bus-tracker-data {
+    float: right;
+    
+    margin: 10px 10px 0 0;
+    width: 330px;
+}
+.bus-tracker-data-section { text-align: center;}
+#bus-status {
+    width: 280px;
+    
+    text-align: center;
+}
+
+/*------------------------------------*\
+  #Careers
+\*------------------------------------*/
+
+.careers-listing  {
+    margin: 10px auto 50px auto;
+    
+    width: 1000px;
+}
+.careers-listing li {
+    font-size: 16px;
+    font-family: "Georgia", Times, serif;
+}
+.careers-listing {
+    margin: 50px auto 0 auto;
+    
+    width: 800px;
+}
+.careers-listing p, 
+  #onsub {
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+}
+.careers-listing p { font-size: 20px;}
+#form_address { display: none;}
+#onsub {
+    width: 760px;
+    
+    color: #3a4e8c;
+}
+#onsub-title {
+    height: 30px;
+    width: auto;
+    
+    background: #3a4e8c;
+    
+    font-size: 25px;
+    text-align:center;
+    color: white;
+}
+#onsub-box {
+    height: 345px;
+    width: auto;
+    
+    background: #dcdeea;
+}
+.onsub-field { padding: 15px;}
+.onsub-field input{ padding-right: 140px;}
+#onsub-foot { width: auto;}
+#onsub-foot-left {
+    float: left;
+    
+    margin-left: 17px;
+}
+#onsub-foot-right {
+    float: right;
+    
+    margin-right: 17px;
+}
+#onsub * .vpchcbutton { font-size: 25px;}
+
+/*------------------------------------*\
+  #Contact Us
+\*------------------------------------*/
+
+#contact-table-container {
+    margin: 0 auto;
+    
+    width: 1200px;
+}
+#contact-table td {
+    height: 380px;
+    width: 417px;
+}
+#contact-table img {
+    display: block;
+    
+    margin: 0 auto;
+    height: 180px;
+    width: 317px;
+}
+.contact-info { 
+    margin: 0 auto;
+    width: 317px;
+    
+    font-size: 24px;
+}
+.contact-info-street { margin-top: 20px; }
+.contact-info-state { margin-bottom: 20px; }
+.contact-location {
+    margin: 20px auto 0 auto;
+    width: 317px;
+    
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+
+#contact-questions {
+    margin-bottom: 50px;;
+    
+    text-align: center;   
+}
+#contact-questions-title {
+    margin-bottom: 20px;
+    
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+#contact-questions-content {
+    font-size: 30px;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #Dental
+\*------------------------------------*/
+
+.dental-patches {
+    height: 350px;
+    width: 320px;
+}
+#dental-public { height: 500px;}
+
+/*------------------------------------*\
+  #Diabetes
+\*------------------------------------*/
+
+#patres-scale-title, 
+  #patres-script-title, 
+  #patres-diabetes-title,
+  #patres-bike-title, 
+  #patres-links-title {
+    cursor: pointer;
+}
+#patres-scale,
+  #patres-script, 
+  #patres-diabetes,
+  #patres-bike,
+  #patres-links {
+    display: none;
+}
+
+/*------------------------------------*\
+  #FAQs
+\*------------------------------------*/
+
+#faq {
+    margin: auto;
+    width: 800px;
+}
+
+/*------------------------------------*\
+  #Forms
+\*------------------------------------*/
+
+#forms-content-options { 
+    display: block;
+
+    margin-top: 20px;
+}
+#forms-content * .vpchcbutton {
+    display: block;
+    margin: 0 auto 50px auto;
+    padding: 10px;
+    
+    border-radius: 25px;
+    
+    font-size: 40px;
+}
+#forms-content * a {
+    display: block;
+    
+    font-size: 20px;
+    text-align: center;
+}
+#forms-content-clinic { display: none;}
+#forms-content-type {display: none;}
+.forms-clinic-table-mobilename { 
+    display: none;
+    
+    margin: 20px 0;
+}
+#forms-content * table {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-family: "georgia", Times, serif;
+}
+.forms-table-age {
+    margin: 20px 0 0 250px;
+    width: 866px;
+}
+.forms-table-location { width: 1366px;}
+.forms-table-pics {
+    background: #258f71;
+    border: 5px solid #3a4e8c;
+    box-shadow: 10px 10px 5px #888888;
+    
+    cursor: pointer;
+}
+#forms-content * .forms-content-number { margin: 20px 0 10px 0;}
+#forms-category,
+  #forms-consent,
+  #forms-notice,
+  #forms-programs,
+  #forms-records-choice,
+  #forms-student { display: none;}
+.forms-simple-section { margin-left: 10px;}
+.forms-simple-title {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.form-simple-subsection {
+    margin-left: 20px;
+    
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+}
+.forms-simple-section * a {
+    font-size: 30px;
+    font-weight: 100;
+}
+.forms-square-blue, 
+ .forms-square-green {
+    height: 300px;
+    width: 300px;
+}
+.forms-age-pic {
+    height: 300px;
+    width: 300px;
+}
+
+/*------------------------------------*\
+  #Governing Board
+\*------------------------------------*/
+
+#board-descript > p {
+    margin: 20px auto 0 auto;
+
+    font-size: 14px;
+    font-family: "Georgia", Times, serif;
+}
+
+/*------------------------------------*\
+  #History
+\*------------------------------------*/
+
+#history {
+    margin: 30px auto 0 auto;
+    height: auto;
+    width: 600px;
+    
+    background: url(/images/history/timeline_bg.gif) repeat-y center top; 
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    
+    overflow: hidden;
+}
+.timeline {
+    position: relative;
+    float: left;
+    
+    margin: 0 0 50px 20px;
+    padding: 10px 200px 0 0;
+    width: 235px;
+ 
+    border-top: 3px solid #70b244;
+}
+.timeline-year {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    
+    font-size: 48px;
+    color: #70b244;
+}
+.timeline-month-blue {
+    font-size: 20px;
+    
+    color: #3a4e8c;
+}
+.timeline-month-green {
+    font-size: 20px;
+    
+    color: #70b244;
+}
+.even {
+    float: right;
+    
+    padding: 10px 0 0 200px;
+    
+    border-color: #3a4e8c;
+}
+.timeline.even .timeline-year {
+    left: 0;
+    color: #3a4e8c;
+}
+.timeline p{ margin-top: 5px; }
+#history-continued {
+    height: 50px;
+    background: url(/images/history/timeline_bg_downarrow.gif) repeat-y center top; 
+}
+
+/*------------------------------------*\
+  #Locations
+\*------------------------------------*/
+#location-title, #location-indextitle{
+    font-size: 76px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+#location-title{margin: 20px 0;}
+#location-indextitle{
+  margin-top: 20px;
+  width: 100%;
+  
+  text-align: center;
+}
+#location-photo{
+    width: 800px;
+}
+#location-info{
+    float: right;
+    width: 500px;
+  
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.4;
+}
+.location-subtitle, .location-tinytitle{
+    font-family: "Franklin Gothic Medium", Times, serif;
+    color: #3a4e8c; 
+}
+.location-subtitle{ font-size: 36px;}
+.location-subtitle-topmargin{ margin-top: 20px;}
+.location-info-contact {
+    margin-left: 185px;
+    width: 130px;
+}
+.location-info-icon{
+    float: left;
+    width: 20px;
+}
+.location-tinytitle{
+    margin: 10px 0;
+    font-size: 20px;
+}
+#location-bottom-section{ height: 410px;}
+#location-details{
+  float: left;
+}
+.location-services-icon {
+    display: inline-block;
+  
+    margin: 0 35px;
+    width: 80px;
+  
+    cursor: pointer;
+}
+#location-map { 
+    float: right;
+    margin-top: 30px; 
+    height: 100%;
+    width: 500px; 
+    border: 0;
+}
+.team-table td {
+    width: 398px;
+    background: #3a4e8c;
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    font-size: 25px;
+    color: white;
+}
+.team-table td p { margin-left: 10px;}
+
+.location-services-type {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.location-services-type span {
+    position: absolute;
+    visibility: hidden;
+    width: 150px;
+    background-color: #3a4e8c;
+    color: white;
+    padding: 5px 0;
+    border-radius: 6px;
+    text-align: center;
+		font-family: "Franklin Gothic Medium", Times, serif;
+    z-index: 1;
+}
+.location-services-type:hover span {
+    visibility: visible;
+}
+.location-services-type span::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #3a4e8c transparent;
+}
+.location-services-type span {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.location-services-type:hover span {
+    opacity: 1;
+}
+/*------------------------------------*\
+  #Home
+\*------------------------------------*/
+
+#home-info-about {
+    margin: 30px auto 0 auto;
+    height: auto;
+    width: 98%;
+}
+#home-info-about-left {
+    display: inline-block;
+    
+    width: 70%;
+}
+#home-info-hands {
+    float: left;
+    
+    width: 15%;
+}
+#home-info-about p {
+    float: left;
+    
+    margin: 1vw 0 0 30px;
+    width: 75%;
+    
+    font-family: "Franklin Gothic Book", Times, serif;
+    font-size: 1vw;
+}
+#home-info-about-right {
+    display: inline-block;
+    float: right;
+    
+    width: 30%;
+}
+#home-info-ecw {
+    display: block;
+    float: right;
+    
+    margin-right: 60px;
+    width: 95%;
+}
+#home-info-buttons {
+    clear: both;
+    
+    margin: 0 auto;
+    width: 100%;
+    
+    text-align: justify;
+}
+#home-info-buttons:after {
+    display: inline-block;
+
+	width: 100%;
+    
+    content: "";
+}
+.home-info-button {
+    display: inline-block;
+    vertical-align: top;
+    clear: both;
+    /* IE fix. */
+	*display: inline;
+	zoom: 1;
+    
+    margin: 30px 20px 30px 20px;
+    height: auto;
+    width: 21.7%;
+}
+.home-info-button img { width: 100%;}
+
+/*------------------------------------*\
+  #News
+\*------------------------------------*/
+
+#events-calendar{
+    margin: 30px auto 0 auto;
+    width: 100%;
+}
+#events-smallcalendar{ display: none;}
+#news { 
+  width: 500px;
+}
+.news-title {
+    text-align: center;
+    font-size: 39px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+}
+.news-article-title {
+		padding-right: 30px;
+	
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Georgia", Times, serif;
+    color: black;
+}
+.news-article-preview {
+		padding-right: 30px;
+	
+    font-family: "Georgia", Times, serif;
+    font-size: 16px;
+}
+#archive-button {
+    margin: 0 auto;
+    width: 165px;
+}
+#news .vpchcbutton { 
+    margin-bottom: 10px;
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    font-size: 25px;
+}
+
+/*------------------------------------*\
+  #Services
+\*------------------------------------*/
+
+#services-button > .vpchcbutton {
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#services-button {
+    margin: 25px auto;
+    width: 800px;
+    
+    text-align: center;
+}
+#iconbanner-title { margin-top: 60px;}
+#iconbanner-title-word {
+    float: right;
+    
+    margin-top: 10px;
+    
+    font-family: "Franklin Gothic Medium", Times, serif;
+    font-size: 64px;
+    text-align: center;
+}
+.iconbanner-word-dental { margin-right: 160px;}
+.iconbanner-word-medical { margin-right: 120px;}
+.iconbanner-word-ps { margin-right: 30px;}
+#iconbanner-title-icon {
+    float: left;
+    
+    height: 95px;
+    width: 95px;
+}
+.iconbanner-dental { margin-left: 210px;}
+.iconbanner-bh { margin-left: 50px;}
+.iconbanner-medical { margin-left: 85px;}
+.iconbanner-ps { margin-left: 80px;}
+
+/*------------------------------------*\
+  #Services Provided
+\*------------------------------------*/
+
+#services-provided { 
+  margin: 40px auto;}
+.services-provided-section {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+  
+    padding: 0 5px;
+    
+    height: 100px;
+    width: 24%;
+    
+    border-radius: 25px;
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Georgia", Times, serif;
+    color: #3a4e8c;
+}
+.services-provided-section:hover { background: #dbdeea;}
+
+.services-provided-section.one-section{
+    display: block;
+    
+    margin: 0 auto;
+}
+.services-provided-section.three-sections { 
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.services-provided-section.four-sections { margin-bottom: 20px;}
+.services-provided-section > img {
+    height: 65px;
+    width: 65px;
+}
+
+/*------------------------------------*\
+  #Slideshow
+\*------------------------------------*/
+
+.bx-wrapper{
+    position: relative;
+    max-height: 540px;
+}
+#slideshow {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-height: 540px;
+}
+#slideshow img,#slideshow-news img{
+    width: 100%;
+    max-height: 540px;
+}
+.slide-info{
+    position: absolute;
+    
+    width: 562px;
+    left: 8%;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.slide-info-block{
+    padding: 10px 25px 0 25px;
+    
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.slide-info-title,.slide-news-info-title{     
+    padding-bottom: 5px;   
+    border-bottom: 3px solid #70b244;
+    color: #3a4e8c;
+   
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.slide-info-title{ font-size: 55px;}
+.slide-info-subtitle,.slide-news-info-title{  
+    padding-top: 5px;
+    
+    color: #3a4e8c;
+    
+    font-family: "Franklin Gothic Demi", Times, serif;
+}
+.slide-info-subtitle{
+		padding-bottom: 40px;
+	
+		font-size: 35px;
+}
+.slide-info-button{
+    display: inline-block;
+    position: relative;
+    
+    padding: 14px 15px;
+    left: 30px;
+    bottom: 25px;
+    width: 260px;
+    
+    background: #70b244;
+    color: #fff;
+    border-radius: 15px;
+   
+    font-family: "Georgia", Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+}
+.slide-info-button:hover{ background: #3a4e8c;}
+.slide-info-span{
+    position: absolute;
+    display: block;
+    
+    top: 8px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+
+    border: rgba(255, 255, 255, 0.50) solid 2px;
+   
+    border-radius: 15px;
+    background: url(/images/homepage/slideshow/arrow-right.png) center no-repeat;
+}
+.bx-prev {
+    position: absolute;
+    
+    top: 50%;
+    left: 0;
+    width: 42px;
+    height: 50px;
+   
+    background: url(/images/slideshow/prev_arrow.png) no-repeat left top;
+   
+    text-indent: -99999px;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 10;
+}
+.bx-next {
+    position: absolute;
+    
+    top: 50%;
+    right: 0;
+    width: 42px;
+    height: 50px;
+    
+    background: url(/images/slideshow/next_arrow.png) no-repeat left top;
+   
+    text-indent: -99999px;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 10;
+}
+/*news slideshow*/
+#slideshow-news{
+    position: relative;
+    z-index: 1;
+    width: 10%;
+    max-height: 540px;
+}
+.slide-news-info{
+		position: absolute;
+    
+    width: 95%;
+    left: 2.5%;
+   	bottom: -5%;
+    
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.slide-news-info-title{ font-size: 25px;}
+.slide-news-info-subtitle{ 
+	padding-bottom: 20px;
+	
+	font-size: 15px;
+}
+
+/*------------------------------------*\
+  #Stats
+\*------------------------------------*/
+
+#stats-options { width: 98%;}
+#stats-options .vpchcbutton {
+    width: 49%;
+    
+    font-size: 50px;
+}
+
+/*------------------------------------*\
+            #Media Queries
+\*------------------------------------*/
+
+/*------------------------------------*\
+            #Large Resolutions
+\*------------------------------------*/
+@media only screen and (max-width: 1365px) {
+    
+    /*------------------------------------*\
+      #Banner
+    \*------------------------------------*/
+
+    #banner-left { height: 172px;}
+    #banner-right { height: 180px;}  
+    .banner-title-long#banner-title { font-size: 50px;}
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-newcontent{width: 1000px;}
+		.explain-button{width: 150px;}
+		.explain-tile{width: 300px;}
+    
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+
+    #head-wrap { width: 1050px;}
+    #masterbox { width: 1060px;}
+    #footer-locations{ height: 85px;}
+    .footer-locations-section { width: 33.333%;}
+    .footer-section-last { width: 100%;}
+    #footer-icons img{
+        margin: 10px 0 0 80px;
+        height: 75px;
+    }
+
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    
+    #navlinks { width: 1050px;}
+      
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    .sidebar-section { font-size: 14px;}
+    /*----Large----*/
+    .large-sidebar { margin-bottom: 0px;}
+    .large-bar { width: 150px;}
+
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { width: 850px;}
+    /*----Providers&Team----*/
+    .tab-team { margin-left: 180px;}
+    .tab-name-small { font-size: 40px;}
+    .tab-box-text { width: 630px;  }
+    .tab-box-title { font-size: 32px;}
+    .tab-box-bio { margin-top: 0px;}
+
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 50px;}
+    h2 {padding: 0 5px;}
+    h3 {font-size: 45px;}
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+
+    #contact-table-container {
+    
+
+        width: 1000px;
+    }
+    
+    /*------------------------------------*\
+      #Forms
+    \*------------------------------------*/
+
+    .forms-table-age {
+        margin: 0 auto;
+        width: 866px;
+    }
+    .forms-table-location { width: 1050px;}
+    .forms-table-pics {width: 300px;}
+    .forms-square-blue, 
+     .forms-square-green {
+        height: 300px;
+        width: auto;
+    }
+    .forms-age-pic {
+        height: 300px;
+        width: auto;
+    }
+    
+    /*------------------------------------*\
+      #Home
+    \*------------------------------------*/
+
+    #home-info { margin: 20px auto 0 auto;}
+    #home-info-hands {
+        width: 18%;
+    }
+    #home-info-about p {
+        margin-left: 10px;
+    width: 65%;
+    
+    font-size: 12px;
+    }
+    #home-info-ecw {
+        margin-right: 60px;
+        height: 180px;
+        width: auto;
+    }
+    .home-info-button { width: 44%;}
+    .home-info-button a {
+        display: block;
+        
+        margin: 0 auto;
+        width: 60%;
+    }
+    .home-info-button img {
+        display: block;
+        
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+  
+    #location-title,#location-indextitle{font-size: 56px;}
+    #location-photo{ width: 634px;}
+    #location-info{
+        width: 408px;
+
+        font-size: 12px;
+    }
+    .location-subtitle{ font-size: 25px;}
+    .location-subtitle-topmargin{ margin-top: 20px;}
+    .location-info-contact {
+        margin-left: 150px;
+        width: 100px;
+    }
+    .location-info-icon{
+        float: left;
+        width: 14px;
+    }
+    #location-bottom-section{ height: 295px;}
+    #location-details{ width: 634px;}
+    .location-services-icon {
+        display: inline-block;
+
+        margin: 0 35px;
+        width: 80px;
+
+        cursor: pointer;
+    }
+    #location-map { 
+        float: right;
+        margin-top: 30px; 
+        height: 100%;
+        width: 408px; 
+        border: 0;
+    }
+    .team-table td {
+      width: 634px;
+      background: #3a4e8c;
+
+      font-family: "Franklin Gothic Medium", Times, serif;
+      font-size: 15px;
+      color: white;
+    }
+    .team-table td p { margin-left: 10px;}
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+  
+    #news-events-container{ height: 560px;}
+    #events { 
+        float: left;
+        margin: 0 auto;
+        width: 600px;
+    }
+    #events-calendar{height: 500px; }
+    #news{ width: 410px;}
+  
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    
+    #iconbanner-title { margin-top: 60px;}
+    #iconbanner-title-word {
+        float: right;
+
+        margin-top: 15px;
+
+        font-family: "Franklin Gothic Medium", Times, serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    .iconbanner-word-dental { margin-right: 95px;}
+    .iconbanner-word-medical { margin-right: 100px;}
+    .iconbanner-word-ps { margin-right: 10px;}
+    #iconbanner-title-icon {
+        float: left;
+
+        height: 95px;
+        width: 95px;
+    }
+    .iconbanner-dental { margin-left: 180px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 35px;}
+    .iconbanner-ps { margin-left: 50px;}
+    
+    /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+    
+    .services-provided-section {
+        width: 230px;
+
+        font-size: 15px;
+    }
+    .services-provided-section.four-sections {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    /*------------------------------------*\
+      #Slideshow
+    \*------------------------------------*/
+    
+    .slide-info{ left: 10%;}
+    .slide-info-title{ font-size: 45px;}
+    .slide-info-subtitle{ font-size: 25px;}
+    
+}
+
+/*------------------------------------*\
+            #Small Resolutions
+\*------------------------------------*/
+
+@media only screen and (max-width: 1082px) {
+    
+    /*------------------------------------*\
+      #Banner
+    \*------------------------------------*/
+
+    #banner { padding-top: 80px; height: auto;}
+    #banner-title {
+        top: 73%;
+  
+        height: 22%;
+    }
+    #banner-title p{ margin: 5px 30px 0 0;}
+    .banner-title-long#banner-title{ font-size: 25px;}
+    
+    /*------------------------------------*\
+      #Explantion Paragraphs
+    \*------------------------------------*/
+
+    #explain-content,#explain-newcontent {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    .explain-title { 
+      margin: 10px 0;
+      
+      font-size: 20px;
+		}
+    .explain-p, 
+      #explain-content li{ font-size: 14px;}
+    .explain-p { margin-left: 0px;}
+		.explain-button{ display: none;}
+		#explain-twosections-left{
+			float: none;
+
+			margin: 0px auto 20px auto;
+			width: 100%;
+		}
+		#explain-twosections-right{
+			float: none;
+
+			margin: 0 auto;
+			width: 100%;
+		}
+		#explain-twosections-right iframe{
+			width: 100%;
+			height: 300px;
+		}
+		#explain-tiles{
+			margin: 0 auto;
+			width: 95%;
+		}
+		.explain-tile{
+			display: block;
+	
+			margin-top: 20px;
+			width: 95%;
+		}
+		.explain-tile p{font-size: 20px;}
+		.explain-tile img{width: 14px;}
+    
+    /*------------------------------------*\
+      #Main Containers
+    \*------------------------------------*/
+    
+    header {
+        position: fixed;
+        
+        width: 100%;
+        
+        background: white;
+        
+        z-index: 100;
+    }
+    #head-wrap {
+        position: relative;
+
+        height: 60px;
+        width: 100%;
+    }
+    #head-img-container {
+        margin-left: 10px;
+        width: 170px;
+    } 
+    #header-img {
+        margin-top: 19px;
+        width: 100%;
+    }
+    #head-social-container {
+        margin-top: 0px;
+        height: 50px;
+        width: auto;
+    }
+    #head-social-subcontainer { display: none;}
+    #head-social-icons {
+        margin-top: 10px;
+        width: auto;
+        height: 45px;
+
+        border-right: #e9e9e9 solid 1px;
+    }
+    #head-social-icons img { 
+        margin-top: 10px;
+        padding-right: 5px;
+        height: auto;
+        width: auto;
+    }
+    #masterbox-home { padding-top: 80px;}
+    #masterbox { 
+        padding-top: 80px;
+        width: 100%;
+    }
+    #footer-locations {
+        height: auto;
+    
+        overflow: auto;
+    }
+    .footer-locations-section { 
+        width: 50%;
+        height: auto;
+    }
+    .footer-section-last { width: 100%;}
+    #footer-icons {
+        float: none;
+        
+        margin: 0 auto;
+        width: 285px;
+    }
+    #footer-icons img {
+        margin: 10px 0px;
+        height: 85px;
+        width: auto;
+    }
+    #sitemap { width: 90%;}
+    .sitemap-section { width: 155px;}
+    .sitemap-section a {
+        display: block;
+
+        margin-left: 20px;
+
+        color: black;
+
+        font-family: "Franklin Gothic Medium", Times, serif;
+        text-decoration: none;
+    }
+    
+    /*------------------------------------*\
+      #Navlinks
+    \*------------------------------------*/
+    
+    #navlinks{ display: none;}
+    #navlinks-container{ height: 20px;}
+    /*----Mobile----*/
+    #navlinks-mobile-icon{ display: inline-block;}
+    
+    /*------------------------------------*\
+      #Services Provided
+    \*------------------------------------*/
+    
+     .services-provided-section {
+        display: block;
+        
+        margin: 20px auto 0 auto;
+        width: 200px;
+        height: 50px;
+
+        font-size: 15px;
+    }
+    .services-provided-section.three-sections,
+      .services-provided-section.four-sections { margin: 20px auto;}
+    .services-provided-section > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /*------------------------------------*\
+      #Sidebars
+    \*------------------------------------*/
+    
+    #sidebar { display: none;}
+    
+    
+    /*------------------------------------*\
+      #Tab
+    \*------------------------------------*/
+
+    #tab-content { 
+        margin: 0 auto; 
+        width: 95%;
+    }
+    .tab-box { display: block;}
+    .tab-box-team-height {
+        height: 150px;
+    }
+    .drop-arrow { display: none;}
+    .tab-bar { pointer-events: none;}
+    .tab-name {
+        display: block;
+        
+        margin: 15px auto 0 auto;
+        width: 100%;
+        
+        text-align: center;
+        font-size: 22px;
+    }
+    .tab-question {
+        font-size: 18px;
+        width: 95%;
+    }
+    .tab-answer { font-size: 15px;}
+    .tab-simple {
+        width: 100%;
+        
+        font-size: 25px;
+        text-align: center;
+    }
+    .tab-simple span{
+        display: block;
+        
+        margin-top: 0px;
+        width: 100%;
+        
+        font-size: 20px;
+        text-align: center;
+    }
+    /*----Providers&Team----*/
+    .tab-box-text {
+        float: none;
+        
+        width: 100%;
+    }
+    .tab-box-title {
+        display: block;
+        float: none;
+        
+        text-align: center;
+        font-size: 18px;
+    }
+    .tab-box-bio {
+        float: none;
+        
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        
+        font-size: 12px;
+        line-height: 125%;
+    }
+    .tab-box-bio-title-education,
+    .tab-box-bio-title-personal{
+        margin-bottom: 0px;
+
+        font-size: 15px;
+    }
+    .tab-box-bio-title-personal{ margin-top: 5px;}
+    .tab-box-bio li {
+        margin-left: 18px;
+
+        font-size: 14px;
+    }
+    .tab-box-bio-personal { font-size: 14px;}
+    .tab-box-location {
+        display: block;
+        
+        margin-top: 2px;
+     
+        text-align: center;
+        font-size: 16px;
+    }
+    .tab-box-pic { float: none;}
+    .tab-box-pic img {
+        display: block;
+        
+        margin: auto;
+        height: 150px;
+        width: auto;
+    }
+
+    /*------------------------------------*\
+      #Titles
+    \*------------------------------------*/
+    
+    h1 {font-size: 30px;}
+    h2 {font-size: 25px;}
+    h3 {font-size: 25px;}
+    .section-title-centered { font-size: 25px;}
+    
+    /*------------------------------------*\
+      #Archive
+    \*------------------------------------*/
+
+    #archive-news-section { width: 85%;}
+    #archive-news-section p { text-indent: 50px;}
+    #archive-photos-section { width: 100%;}
+    .archive-photos-container { width: 310px;}
+    #archive-photos-section img {
+        margin: 20px auto 0 auto;
+    }
+    #archive-photos-section img.horizontal {
+        height: auto;
+        width: 300px;
+    }
+    #archive-content { margin: 0 5px;}
+    #archive-options {
+        margin: 0 auto;
+        width: 230px;
+    }
+    #archive-options .vpchcbutton {
+        margin-right: 30px;
+
+        font-size: 25px;
+    }
+    .archive-link { 
+        margin: 20px auto 0 auto;
+
+        font-size: 20px;
+    }
+    .news-link,
+      .photos-link { 
+        margin-left: 0px; 
+
+        text-align: center;
+    }
+    .archive-photos {
+        margin: 10px 0 0 0px;
+        width: 100%;
+    }
+    .archive-photos p { font-size: 20px;}
+    .archive-photos img.horizontal {
+        display: block;
+        
+        margin: 20px auto;
+        height: 200px;
+        width: 300px;
+    }
+    .archive-photos img.vertical {
+        display: block;
+
+        margin: 20px auto;
+        height: 300px;
+        width: 220px;
+    }
+    .archive-photos.horizontal a,
+      .archive-photos.vertical a { 
+        display: block;
+        
+        margin: 0 auto 20px auto;
+        
+        text-align: center;
+    }
+    .archive-photos-container { width: 95%;}
+    .archive-photos-container img{display: block;}
+    #archive-photos-section img.vertical {
+        height: 300px;
+        width: 220px;
+    }
+    
+    /*------------------------------------*\
+      #Bus Tracker
+    \*------------------------------------*/
+
+    #bus-tracker{
+        margin: 0 auto;
+        width: 290px;
+        height: auto;
+    }
+    #bus-tracker * p { font-size: 14px;}
+    #bus-tracker-title { font-size: 20px;}
+    #bus-tracker .vpchcbutton{
+        margin: 30px 0 0 65px;;
+
+        font-size: 14px;
+    }
+    #bus-tracker-info{
+        float: left;
+
+        width: 80px;
+    }
+    #bus-tracker-info p,
+      #bus-tracker-data p { margin-top: 20px;}
+    #bus-status-icon {
+        float: left;
+
+        margin-left: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    #bus-tracker-data {
+        float: right;
+
+        margin-right: 0px;
+        width: 195px;
+    }
+    #bus-status{ width: 180px;}
+    
+    /*------------------------------------*\
+      #Careers
+    \*------------------------------------*/
+
+    .careers-listing { margin-top: 0px;}
+    .careers-listing  { width: 95%;}
+    .careers-listing li { font-size: 14px;}
+    .careers-listing p { font-size: 20px;}
+    #form_address { display: none;}
+    #onsub { 
+        margin: 0 auto;
+        width: 300px;}
+    #onsub-box {
+        height: 400px;
+    }
+    .onsub-field input{ padding-right: 50px;}
+    #onsub * .vpchcbutton { font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Contact Us
+    \*------------------------------------*/
+    #contact-table-container { width: 100%;}
+    #contact-table { width: 100%;}
+    #contact-table td {
+        display: block;
+        
+        margin: 0 auto 10px auto;
+        height: auto;
+        width: 60%;
+    }
+    #contact-table img {
+        height: auto;
+        width: 100%;
+    }
+    .contact-info { 
+        margin: 0;
+        width: 100%;
+        
+        font-size: 14px;
+    }
+    .contact-info-street { margin-top: 0px;}
+    .contact-info-state { margin-bottom: 0px;}
+    .contact-location {
+        margin: 5px 0 0 0;
+        width: 100%;
+
+        font-size: 20px;
+    }
+    #contact-questions { margin-top: 0px; }
+    #contact-questions-title {
+        margin-bottom: 2px;
+
+        font-size: 25px;
+    }
+    #contact-questions-content { font-size: 14px;}
+    
+    /*------------------------------------*\
+      #Dental
+    \*------------------------------------*/
+
+    .dental-patches {
+        float: none;
+        display: block;
+
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    #dental-public {
+        margin: 0 auto;
+        height: auto;
+        width: 300px;
+    }
+    
+    /*------------------------------------*\
+      #Diabetes
+    \*------------------------------------*/
+
+    #patres-scale-title, 
+      #patres-script-title, 
+      #patres-diabetes-title,
+      #patres-bike-title,
+      #patres-links-title {
+        cursor: none;
+        pointer-events: none;
+    }
+    #patres-scale,
+      #patres-script, 
+      #patres-diabetes,
+      #patres-bike,
+      #patres-links { display: block;}
+    
+    /*------------------------------------*\
+      #FAQs
+    \*------------------------------------*/
+    
+    #faq { width: 95%;}
+    
+    /*------------------------------------*\
+      #Home
+    \*------------------------------------*/
+    #home-info-about {
+        margin: 0px auto;
+        height: auto;
+        width: 95%;
+    }
+    #home-info-about-left { width: 100%;}
+    #home-info-hands { display: none;}
+    #home-info-about p {
+        margin: 0px auto;
+        padding: 10px;
+        width: 95%;
+
+        font-size: 14px;
+    }
+    #home-info-about-right{ 
+        float: none;
+        
+        width: 100%;
+    }
+    #home-info-ecw { 
+        float: none;
+    
+        margin: 0 auto;
+        height: auto;
+        width: 95%;
+    }
+    .home-info-button { width: 89%;}
+    .home-info-button a {
+        display: block;
+        
+        margin: 0 auto;
+        width: 60%;
+    }
+    .home-info-button img {
+        display: block;
+        
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    /*------------------------------------*\
+      #History
+    \*------------------------------------*/
+    
+    #history {
+        margin: 30px auto 0 auto;
+        height: auto;
+        width: 300px;
+
+        background: none;    
+    }
+    .timeline {
+        margin: 0 auto 20px auto;
+        padding: 20px 50px 10px 10px;
+        width: 235px;
+
+        border: 3px solid #70b244;
+    }
+    .timeline-year {
+        padding-left: 5px;
+        padding-right: 5px;
+        
+        font-size: 20px;
+    }
+    .timeline-month-blue { font-size: 20px;}
+    .timeline-month-green { font-size: 20px;}
+    .even { 
+        padding: 20px 0px 10px 60px;
+        
+        border-color: #3a4e8c;
+    }
+    .timeline p { 
+        margin-top: 5px;
+        padding-right: 5px;
+
+        font-size: 12px;
+    }
+    #history-continued { display: none;}
+    
+    /*------------------------------------*\
+      #Locations
+    \*------------------------------------*/
+    
+    #location-title,#location-indextitle{
+      text-align: center;
+      font-size: 36px;
+    }
+    #location-photo{ 
+        display: block;
+
+        margin: 0 auto;
+        width: 80%
+    }
+    #location-info{
+        float: none;
+      
+        margin: 0 auto;
+        width: 300px;
+    }
+    .location-subtitle{ 
+        margin-top: 5px; 
+
+        font-size: 25px;
+    }
+    .location-subtitle-topmargin{ margin-top: 20px;}
+    .location-info-contact {
+        margin-left: 100px;
+        width: 100px;
+    }
+    .location-info-icon{
+        float: left;
+        width: 14px;
+    }
+    #location-bottom-section{ 
+        display: block;
+
+        margin: 10px auto;
+        height: auto;
+        width: 300px;
+
+        text-align: center;
+    }
+    #location-details{ 
+        float: none; 
+
+        width: 300px;
+    }
+    .location-services-icon {
+        display: block;
+
+        margin: 0 auto;
+        width: 50px;
+    }
+    #location-map { 
+        float: none;
+        margin-top: 20px; 
+        height: 300px;
+        width: 300px; 
+    }
+  
+    .location-services-type {
+        position: relative;
+        display: block;
+
+        margin-bottom: 40px;
+    }
+    .location-services-type span {
+        display: block;
+
+        margin: 5px 75px;
+        width: 150px;
+
+        font-size: 12px;
+
+        visibility: visible;
+        opacity: 10;
+    }
+    .team-table {
+        width: 300px;
+    }
+    .team-table td {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .team-table td p { margin-left: 10px;}
+    
+    /*------------------------------------*\
+      #News
+    \*------------------------------------*/
+
+    #news-events-container{height: 1040px;}
+    #events {
+        float: none;
+
+        margin: 0 auto;
+        width: 95%;
+    }
+		#events-calendar{ display: none;}
+		#events-smallcalendar{ 
+				display: block;
+			
+				margin: 15px 0;
+				width: 100%;
+				height: 300px;
+		}
+    #news { 
+          margin: 0 auto;
+          width: 98%;
+    }
+    .upcoming-events-section{font-size: 14px;}
+    .news-title{font-size: 20px;}
+    .news-article{width: 98%;}
+    .news-article-title{font-size: 18px;}
+    .news-article-preview{font-size: 14px;}
+    #news .vpchcbutton{font-size: 20px;}
+    
+    /*------------------------------------*\
+      #Services
+    \*------------------------------------*/
+    
+    #services-button > .vpchcbutton {
+        border-radius: 15px;
+
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #services-button {
+        margin: 20px auto 0 auto;
+
+        width: 300px;
+        text-align: center;
+    }
+    #iconbanner-title {
+        margin: 10px auto 0 auto;
+    }
+    .iconbanner-title-bh {
+        height: 35px;
+        width: 250px;
+    }
+    .iconbanner-title-medical {
+        height: 35px;
+        width: 190px;
+    }
+    .iconbanner-title-ps {
+        height: 35px;
+        width: 220px;
+    }
+    .iconbanner-title-dental {
+        height: 35px;
+        width: 115px;
+    }
+    #iconbanner-title-word {
+        float: right;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        
+        font-size: 25px;
+    }
+    .iconbanner-word-medical { margin-right: 0px;}
+    .iconbanner-word-dental { margin-right: 0px;}
+    .iconbanner-word-ps { margin-right: 0px;}
+    #iconbanner-title-icon {
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+    }
+    .iconbanner-dental { margin-left: 0px;}
+    .iconbanner-bh { margin-left: 20px;}
+    .iconbanner-medical { margin-left: 0px;}
+    .iconbanner-ps { margin-left: 0px;}
+    
+    /*------------------------------------*\
+      #Slideshow
+    \*------------------------------------*/
+    .bx-wrapper { overflow: hidden;}
+    .slide-info, .slide-news-info {
+        position: relative;
+
+        left: 0;
+				bottom: -40px;
+        height: auto;
+				width: 100%;
+
+				background: #d9f1ff;
+    }
+	  .slide-info{ top: 69px;}
+    .slide-info-block {
+			  border-radius: 0px;
+			
+        background-color: #d9f1ff;
+    }
+    .slide-info-title { font-size: 20px;}
+    .slide-info-subtitle { font-size: 16px;}
+    .slide-info-button { 
+        width: 150px;
+        
+        font-size: 13px;
+    }
+    .bx-prev {
+        width: 30px;
+        height: 35px;
+
+        background-size: cover;
+    }
+    .bx-next {
+        width: 30px;
+        height: 35px;
+
+        background-size: cover;
+    }
+}
+/********|*********|*********|*********|*********|*********|*********|*********/

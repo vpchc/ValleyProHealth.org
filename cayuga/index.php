@@ -75,30 +75,44 @@
     <div class="location-services">
     	<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
       <span>Patient Support</span>
-    </div>
-    <div class="location-services">
-    	<a href="/dental/"><img src="/images/services/dent_icon.png" alt="Dental services"/></a>
-      <span>Dental</span>
-    </div>
-    <p class="location-title">PROVIDERS</p>
-    <table class="team-table">
-    	<tr>
-				<td><p class="team-table-name">Dr. Danielle Cundiff, DO</p></td>
-        <td><p class="team-table-name">Dr. Bing Gale, MD</p></td> 
-      </tr>
-      <tr>
-      	<td><p class="team-table-name">Renae Norman, FNP-C</p></td>
-        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
-      </tr>
-      <tr>
-      	<td><p class="team-table-name">Johnathan Detwiler, MS</p></td>
-        <td><p class="team-table-name">Tasha Lewis-Stevens, LCSW, RN</p></td>
-      </tr>
-      <tr>
-      	<td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
-        <td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
-    	</tr>
-    </table>
+  <div id="location-bottom-section">
+    <div id="location-details">
+      <p class="location-subtitle location-subtitle-topmargin">SERVICES</p>
+      <div class="location-services-type">
+        <a href="/services/primary_care.php"><img class="location-services-icon" src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
+        <span>Primary Care</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/behavioral_health.php"><img class="location-services-icon" src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
+        <span>Behavioral Health</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/services/patient_support.php"><img class="location-services-icon" src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
+        <span>Patient Support</span>
+      </div>
+      <div class="location-services-type">
+        <a href="/dental/"><img class="location-services-icon" src="/images/services/dent_icon.png" alt="Dental services"/></a>
+        <span>Dental</span>
+      </div>
+      <p class="location-subtitle location-subtitle-topmargin">PROVIDERS</p>
+      <table class="team-table">
+        <tr>
+					<td><p class="team-table-name">Dr. Danielle Cundiff, DO</p></td>
+          <td><p class="team-table-name">Dr. Bing Gale, MD</p></td> 
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Renae Norman, FNP-C</p></td>
+          <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Johnathan Detwiler, MS</p></td>
+          <td><p class="team-table-name">Tasha Lewis-Stevens, LCSW, RN</p></td>
+        </tr>
+        <tr>
+          <td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
+          <td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
+        </tr>
+      </table>
   </div>
   <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.0347672384405!2d-87.47126568497!3d39.94061197942334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d54aa655d565f%3A0x3e0ddae5b4218ab7!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917855515" allowfullscreen></iframe>
   </div>

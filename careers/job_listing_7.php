@@ -43,16 +43,10 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main id="masterbox">
   <h1>Job Opportunities</h1>
-  <h2>Administrative Assistant</h2>
+  <h2>Psychologist - Rockville</h2>
   <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a reliable and responsible Administrative Assistant that will be based in Clinton.</p>
-    <p>Duties:</p>
-    <li>Providing support to VPCHC Directors by organizing and scheduling appointments, planning meetings and taking detailed minutes and handling any administrative requests</li>
-    <li>Making travel arrangements and maintaining correspondence for the VPCHC Directors</li>
-    <p>Requirements:</p>
-    <li>Two to three years’ experience as an administrative assistant </li>
-    <li>Knowledge of office management systems and MS Office (Word, Excel, etc)</li>
-    <li>Attention to detail and excellent time management skills</li>
+      <p style="font-weight:normal;">VPCHC has a strongly integrated Behavioral Health program whose team consists of a psychiatrist, psychiatrist nurse practitioner, psychologist, Licensed Clinical Addictions Counselor, LCSWS, and LMHCs. In addition to the behavioral health program, VPCHC has outpatient addiction programs at two locations. Our Behavioral Health providers are present at each of our sites, and the providers work closely with the medical and psychiatric providers to treat, not only the physical well-being of the patient, but also the emotional well-being of the patients served.  All of our sites are in an outpatient setting whereby the Behavioral Health Providers focus on treating patients in ways that support primary care goals, address mental health needs, and help patients to improve their overall quality of life.  VPCHC has grown exponentially in the last 10 years, and as there still continues to be much momentum for growth, a greater need has developed for another psychologist.</p>
+      <p style="font-weight:normal;">The ideal candidate for this position will have a passion for working as part of a multidisciplinary team to care for underserved populations within a mostly rural setting.</p>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_7.php" name="referer">
@@ -76,7 +70,7 @@
           <input type="file" name="resume" id="resume" style="width:80%;">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Administrative Assistant">
+        <input type="hidden" name="subject" value="Psychologist - Rockville">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

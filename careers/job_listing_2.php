@@ -79,6 +79,7 @@
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
         <input type="hidden" name="subject" value="CMA - Rockville">
+        <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
             <span id="form-status">* required</span>
