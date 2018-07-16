@@ -96,7 +96,7 @@
       </tr>
       <tr>
       	<td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
-        <td><p class="team-table-name">Dr. Nichole Barnett, DDS</p></td>
+        <td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
     	</tr>
     </table>
   </div>

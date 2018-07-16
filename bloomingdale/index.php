@@ -47,7 +47,7 @@
 		<img class="location-photo" src="/images/locations/banner_bloomingdale.jpg"/>
 		<div class="location-info">
 			<p class="location-title">CONTACT US</p>
-			<p>201 W Academy Street<br/>Bloomingdale, IN 47842</p>
+			<p>201 W Academy Street<br/>Bloomingdale, IN 47832</p>
 			<div class="location-contact">
 				<img src="/images/locations/icon_phone.png" alt="phone number">
 				<p>(765) 498-9000</p>

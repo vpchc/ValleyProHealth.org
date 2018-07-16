@@ -86,9 +86,10 @@
 				</tr>
 				<tr>
 					<td><p>Dr. Paul Taraska, MD</p></td> 
-					<td><p>Keith Seegers, LCSW</p></td>
+					<td><p>Misha Bennett, LCSW</p></td>
 				</tr>
 				<tr>
+					<td><p>Keith Seegers, LCSW</p></td>
 					<td><p>Dana Tinkle, LMHC, RPT</p></td>
 				</tr>
 			</table>

@@ -75,9 +75,21 @@
     <p>Interested in a career with Valley Professionals?</p>
     <p>View current job postings and submit your resume below.</p>
 		<div class="content-tiles">
+			<a href="/careers/job_listing_1.php"><div class="content-tile">
+			<p>Chiropractic Assistant</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+			</div></a>
+			<a href="/careers/job_listing_2.php"><div class="content-tile">
+			<p>CMA</p>
+			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
+			</div></a>
 			<a href="/careers/job_listing_3.php"><div class="content-tile">
 			<p>Dental Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
+			</div></a>
+			<a href="/careers/job_listing_4.php"><div class="content-tile">
+			<p>Psychologist</p>
+			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
     </div>
 		<h2 id="benefits">Benefits</h2>

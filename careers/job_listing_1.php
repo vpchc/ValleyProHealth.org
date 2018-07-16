@@ -44,15 +44,19 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Call Center - Cayuga</h6>
-    <p>Valley Professionals Community Health Center is seeking a Call Center Representative at our Cayuga location.</p>
+  	<h6>Chiropractic Assistant - Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Chiropractic Assistant for its Clinton office to assist in their new Chiropractic Department.</p>
     <h2>Duties:</h2>
-    <li class="green-bullet">Responsible for answering and directing phone calls</li>
-    <li class="green-bullet">Scheduling patient appointments</li>
-    <li class="green-bullet">Entering patient information</li>
-    <li class="green-bullet">Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records</li>
+    <li class="green-bullet">Patient assessment</li>
+    <li class="green-bullet">Taking vitals</li>
+    <li class="green-bullet">Collecting and maintaining patient health records</li>
+    <li class="green-bullet">Other general front office and assisting duties as assigned</li>
+    <li class="green-bullet">Assisting the provider in all manners of patient care</li>
+		<h2>Requirements:</h2>
+		<li class="green-bullet">High energy and a personality that naturally engages with patients in a positive manner daily</li>
+		<li class="green-bullet">Current experience in a chiropractic office a plus</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
-    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+    <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
@@ -74,7 +78,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Call Center - Cayuga">
+        <input type="hidden" name="subject" value="Chiropractic Assistant - Clinton">
         <div id="onsub-foot">
           <div id="onsub-foot-left">
             <span id="form-status">* required</span>

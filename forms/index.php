@@ -180,33 +180,33 @@
 	//Adult choosen
 	$("#forms-newpat-adult").click(function(event){
 		if(locationChoice == 1){
-				window.location.href = "/files/forms/en/new_patient_packet_adult_bloomingdale.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}else if(locationChoice == 2){
-				window.location.href = "/files/forms/en/new_patient_packet_adult_cayuga.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}else if(locationChoice == 0 || locationChoice == 3){
-				window.location.href = "/files/forms/en/new_patient_packet_adult_clinton.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}else if(locationChoice == 4){
-				window.location.href = "/files/forms/en/new_patient_packet_adult_crawfordsville.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}else if(locationChoice == 5){
-				window.location.href = "/files/forms/en/new_patient_packet_adult_rockville.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}else{
-				window.location.href = "/files/forms/en/new_patient_packet_adult_terrehaute.pdf";
+				window.location.href = "/files/forms/en/registration_adult.pdf";
 		}
 	});
 	//Child choosen
 	$("#forms-newpat-child").click(function(){
 		if(locationChoice == 1 ){
-			 window.location.href = "/files/forms/en/new_patient_packet_child_bloomingdale.pdf";
+			 window.location.href = "/files/forms/en/registration_child.pdf";
 		}else if(locationChoice == 2){
-				window.location.href = "/files/forms/en/new_patient_packet_child_cayuga.pdf";
+				window.location.href = "/files/forms/en/registration_child.pdf";
 		}else if(locationChoice == 0 || locationChoice == 3){
-				window.location.href = "/files/forms/en/new_patient_packet_child_clinton.pdf";
+				window.location.href = "/files/forms/en/registration_child.pdf";
 		}else if(locationChoice == 4){
-				window.location.href = "/files/forms/en/new_patient_packet_child_crawfordsville.pdf";
+				window.location.href = "/files/forms/en/registration_child.pdf";
 		}else if(locationChoice == 5){
-				window.location.href = "/files/forms/en/new_patient_packet_child_rockville.pdf";
+				window.location.href = "/files/forms/en/registration_child.pdf";
 		}else{
-				window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
+				window.location.href = "/files/forms/en/registration_child.pdf";
 		}
 	});
 

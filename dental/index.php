@@ -50,7 +50,7 @@
   </div>
   <div class="content">
     <h2>Dental Services</h2>
-    <p>Valley Professionals is proudly providing dental services to patients at our Bloomingdale and Cayuga clinics.  Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
+    <p>Valley Professionals proudly provides dental services at our Cayuga Clinic and is available to all individuals. Our goal is to keep mouths healthy and eliminate the risk of oral disease.</p>
     <h2>Preventive</h2>
     <p>Dental examinations and screenings, X-Rays, Cleanings, sealants, fluoride treatments, and education.</p>
     <h2>Emergency</h2>

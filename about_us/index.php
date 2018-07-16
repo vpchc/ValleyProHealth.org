@@ -52,7 +52,7 @@
     <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</p>
     <p>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include five additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits fourteen schools in Parke and Vermillion counties.</p>
     <h2>Mission</h2>
-		<p>Valley Professional Community Health Center providers comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
+		<p>Valley Professionals Community Health Center providers comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
     <h2>What is an FQHC?</h2>
     <p>Federally Qualified Health Centers, or FQHCs, are non-profit private or public entities that serve medically underserved populations. Put simply, FQHCs exist to serve those who have limited access to healhtcare, financially or logistically. Although all individuals are welocme, FQHCs stand apart from private practices due to their ability to facilitate treatment for low income individuals, as well as, the uninsured or underinsured.</p>
     <h2>Patient-Centered Medical Home</h2>
