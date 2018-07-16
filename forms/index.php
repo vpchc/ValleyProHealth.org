@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -138,168 +138,168 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script type="text/javascript">
-    /***New patient start***/
-    $("#forms-category-newpat").click(function(){
-      $("#forms-categories").hide();
-      $("#forms-newpat-locations").fadeIn(1000);
-    });
-    //Choosing a location
-    var locationChoice;
-    $("#forms-newpat-bloom").click(function(){
-      locationChoice = 1;
-      locationSelected();
-    });
-    $("#forms-newpat-cay").click(function(){
-      locationChoice = 2;
-      locationSelected();
-    });
-    $("#forms-newpat-clint").click(function(){
-      locationChoice = 3;
-      locationSelected();
-    });
-    $("#forms-newpat-craw").click(function(){
-      locationChoice = 4;
-      locationSelected();
-    });
-    $("#forms-newpat-rock").click(function(){
-      locationChoice = 5;
-      locationSelected();
-    });
-    $("#forms-newpat-terre").click(function(){
-      locationChoice = 6;
-      locationSelected();
-    });
-    $("#forms-newpat-bus").click(function(){
-      locationChoice = 0;
-      locationSelected();
-    }); 
-		function locationSelected(){
-			$("#forms-newpat-locations").hide();
-			$("#forms-newpat-age").fadeIn(1000);
+	/***New patient start***/
+	$("#forms-category-newpat").click(function(){
+		$("#forms-categories").hide();
+		$("#forms-newpat-locations").fadeIn(1000);
+	});
+	//Choosing a location
+	var locationChoice;
+	$("#forms-newpat-bloom").click(function(){
+		locationChoice = 1;
+		locationSelected();
+	});
+	$("#forms-newpat-cay").click(function(){
+		locationChoice = 2;
+		locationSelected();
+	});
+	$("#forms-newpat-clint").click(function(){
+		locationChoice = 3;
+		locationSelected();
+	});
+	$("#forms-newpat-craw").click(function(){
+		locationChoice = 4;
+		locationSelected();
+	});
+	$("#forms-newpat-rock").click(function(){
+		locationChoice = 5;
+		locationSelected();
+	});
+	$("#forms-newpat-terre").click(function(){
+		locationChoice = 6;
+		locationSelected();
+	});
+	$("#forms-newpat-bus").click(function(){
+		locationChoice = 0;
+		locationSelected();
+	}); 
+	function locationSelected(){
+		$("#forms-newpat-locations").hide();
+		$("#forms-newpat-age").fadeIn(1000);
+	}
+	//Adult choosen
+	$("#forms-newpat-adult").click(function(event){
+		if(locationChoice == 1){
+				window.location.href = "/files/forms/en/new_patient_packet_adult_bloomingdale.pdf";
+		}else if(locationChoice == 2){
+				window.location.href = "/files/forms/en/new_patient_packet_adult_cayuga.pdf";
+		}else if(locationChoice == 0 || locationChoice == 3){
+				window.location.href = "/files/forms/en/new_patient_packet_adult_clinton.pdf";
+		}else if(locationChoice == 4){
+				window.location.href = "/files/forms/en/new_patient_packet_adult_crawfordsville.pdf";
+		}else if(locationChoice == 5){
+				window.location.href = "/files/forms/en/new_patient_packet_adult_rockville.pdf";
+		}else{
+				window.location.href = "/files/forms/en/new_patient_packet_adult_terrehaute.pdf";
 		}
-    //Adult choosen
-    $("#forms-newpat-adult").click(function(event){
-      if(locationChoice == 1){
-          window.location.href = "/files/forms/en/new_patient_packet_adult_bloomingdale.pdf";
-      }else if(locationChoice == 2){
-          window.location.href = "/files/forms/en/new_patient_packet_adult_cayuga.pdf";
-      }else if(locationChoice == 0 || locationChoice == 3){
-          window.location.href = "/files/forms/en/new_patient_packet_adult_clinton.pdf";
-      }else if(locationChoice == 4){
-          window.location.href = "/files/forms/en/new_patient_packet_adult_crawfordsville.pdf";
-      }else if(locationChoice == 5){
-          window.location.href = "/files/forms/en/new_patient_packet_adult_rockville.pdf";
-      }else{
-          window.location.href = "/files/forms/en/new_patient_packet_adult_terrehaute.pdf";
-      }
-    });
-    //Child choosen
-    $("#forms-newpat-child").click(function(){
-      if(locationChoice == 1 ){
-         window.location.href = "/files/forms/en/new_patient_packet_child_bloomingdale.pdf";
-      }else if(locationChoice == 2){
-          window.location.href = "/files/forms/en/new_patient_packet_child_cayuga.pdf";
-      }else if(locationChoice == 0 || locationChoice == 3){
-          window.location.href = "/files/forms/en/new_patient_packet_child_clinton.pdf";
-      }else if(locationChoice == 4){
-          window.location.href = "/files/forms/en/new_patient_packet_child_crawfordsville.pdf";
-      }else if(locationChoice == 5){
-          window.location.href = "/files/forms/en/new_patient_packet_child_rockville.pdf";
-      }else{
-          window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
-      }
-    });
-    
-    /***Other forms start***/
-    /*Consent option choosen*/
-    $("#forms-category-consent").click(function(){
-      $("#forms-categories").hide();
-      $("#forms-consent").fadeIn(1000);
-    });
-    //bh release choosen
-    $("#forms-consent-bh").click(function(){
-        window.location.href = "/files/forms/en/behavioral_health_release.pdf";
-    });
-    //release of info choosen
-    $("#forms-consent-releaseinfo").click(function(){
-        window.location.href = "/files/forms/en/release_of_information.pdf";
-    });
-    /*Release of records choosen*/
-    $("#forms-consent-releaserec").click(function(){
-      $("#forms-consent").hide();
-      $("#forms-records-choice").fadeIn(1000);
-    });
-    //Bloomingdale download
-    $("#forms-records-bloom").click(function(){
-        window.location.href = "/files/forms/en/records_release_bloomingdale.pdf";
-    });
-    //Cayuga download
-    $("#forms-records-cay").click(function(){
-        window.location.href = "/files/forms/en/records_release_cayuga.pdf";
-    });
-    //Clinton download
-    $("#forms-records-clint").click(function(){
-        window.location.href = "/files/forms/en/records_release_clinton.pdf";
-    });
-    //Crawfordsville download
-    $("#forms-records-craw").click(function(){
-        window.location.href = "/files/forms/en/records_release_crawfordsville.pdf";
-    });
-    //Rockville download
-    $("#forms-records-rock").click(function(){
-        window.location.href = "/files/forms/en/records_release_rockville.pdf";
-    });
-    //Terre Haute download
-    $("#forms-records-terre").click(function(){
-        window.location.href = "/files/forms/en/records_release_terrehaute.pdf";
-    });
-    //Mobile download
-    $("#forms-records-mobile").click(function(){
-        window.location.href = "/files/forms/en/records_release_clinton.pdf";
-    });
-    //telemedicine choosen
-    $("#forms-consent-telemed").click(function(){
-        window.location.href = "/files/forms/en/telemedicine_consent.pdf";
-    });
-    /*Notice option choosen*/
-    $("#forms-category-notice").click(function(){
-      $("#forms-categories").hide();
-      $("#forms-notice").fadeIn(1000);
-    });
-    //acknowledgement of receipt choosen
-    $("#forms-notice-ackbill").click(function(){
-       window.location.href = "/files/forms/en/acknowledgement_receipt.pdf";
-    });
-    //bill of rights choosen
-    $("#forms-notice-bill").click(function(){
-       window.location.href = "/files/forms/en/patient_bill_of_rights.pdf";
-    });
-    //privacy practices choosen
-    $("#forms-notice-privacy").click(function(){
-       window.location.href = "/files/forms/en/notice_privacy_practices.pdf";
-    });
-    /*Programs option choosen*/
-    $("#forms-category-programs").click(function(){
-      $("#forms-categories").hide();
-      $("#forms-programs").fadeIn(1000);
-    });
-    //sliding fee scale choosen
-    $("#forms-programs-scale").click(function(){
-      window.location.href = "/files/forms/en/sliding_fee_scale_reqs.pdf";
-    });
-    /*Student form choosen*/
-    $("#forms-category-student").click(function(){
-      $("#forms-categories").hide();
-      $("#forms-student").fadeIn(1000);
-    });
-    //ishaa choosen
-    $("#forms-student-ishaa").click(function(){
-        window.location.href = "/files/forms/en/ihsaa_physical.pdf";
-    });
-    //msbhc choosen
-    $("#forms-student-msbhc").click(function(){
-        window.location.href = "/files/forms/en/msbhc_student_enrollment.pdf";
-    });
+	});
+	//Child choosen
+	$("#forms-newpat-child").click(function(){
+		if(locationChoice == 1 ){
+			 window.location.href = "/files/forms/en/new_patient_packet_child_bloomingdale.pdf";
+		}else if(locationChoice == 2){
+				window.location.href = "/files/forms/en/new_patient_packet_child_cayuga.pdf";
+		}else if(locationChoice == 0 || locationChoice == 3){
+				window.location.href = "/files/forms/en/new_patient_packet_child_clinton.pdf";
+		}else if(locationChoice == 4){
+				window.location.href = "/files/forms/en/new_patient_packet_child_crawfordsville.pdf";
+		}else if(locationChoice == 5){
+				window.location.href = "/files/forms/en/new_patient_packet_child_rockville.pdf";
+		}else{
+				window.location.href = "/files/forms/en/new_patient_packet_child_terrehaute.pdf";
+		}
+	});
+
+	/***Other forms start***/
+	/*Consent option choosen*/
+	$("#forms-category-consent").click(function(){
+		$("#forms-categories").hide();
+		$("#forms-consent").fadeIn(1000);
+	});
+	//bh release choosen
+	$("#forms-consent-bh").click(function(){
+			window.location.href = "/files/forms/en/behavioral_health_release.pdf";
+	});
+	//release of info choosen
+	$("#forms-consent-releaseinfo").click(function(){
+			window.location.href = "/files/forms/en/release_of_information.pdf";
+	});
+	/*Release of records choosen*/
+	$("#forms-consent-releaserec").click(function(){
+		$("#forms-consent").hide();
+		$("#forms-records-choice").fadeIn(1000);
+	});
+	//Bloomingdale download
+	$("#forms-records-bloom").click(function(){
+			window.location.href = "/files/forms/en/records_release_bloomingdale.pdf";
+	});
+	//Cayuga download
+	$("#forms-records-cay").click(function(){
+			window.location.href = "/files/forms/en/records_release_cayuga.pdf";
+	});
+	//Clinton download
+	$("#forms-records-clint").click(function(){
+			window.location.href = "/files/forms/en/records_release_clinton.pdf";
+	});
+	//Crawfordsville download
+	$("#forms-records-craw").click(function(){
+			window.location.href = "/files/forms/en/records_release_crawfordsville.pdf";
+	});
+	//Rockville download
+	$("#forms-records-rock").click(function(){
+			window.location.href = "/files/forms/en/records_release_rockville.pdf";
+	});
+	//Terre Haute download
+	$("#forms-records-terre").click(function(){
+			window.location.href = "/files/forms/en/records_release_terrehaute.pdf";
+	});
+	//Mobile download
+	$("#forms-records-mobile").click(function(){
+			window.location.href = "/files/forms/en/records_release_clinton.pdf";
+	});
+	//telemedicine choosen
+	$("#forms-consent-telemed").click(function(){
+			window.location.href = "/files/forms/en/telemedicine_consent.pdf";
+	});
+	/*Notice option choosen*/
+	$("#forms-category-notice").click(function(){
+		$("#forms-categories").hide();
+		$("#forms-notice").fadeIn(1000);
+	});
+	//acknowledgement of receipt choosen
+	$("#forms-notice-ackbill").click(function(){
+		 window.location.href = "/files/forms/en/acknowledgement_receipt.pdf";
+	});
+	//bill of rights choosen
+	$("#forms-notice-bill").click(function(){
+		 window.location.href = "/files/forms/en/patient_bill_of_rights.pdf";
+	});
+	//privacy practices choosen
+	$("#forms-notice-privacy").click(function(){
+		 window.location.href = "/files/forms/en/notice_privacy_practices.pdf";
+	});
+	/*Programs option choosen*/
+	$("#forms-category-programs").click(function(){
+		$("#forms-categories").hide();
+		$("#forms-programs").fadeIn(1000);
+	});
+	//sliding fee scale choosen
+	$("#forms-programs-scale").click(function(){
+		window.location.href = "/files/forms/en/sliding_fee_scale_reqs.pdf";
+	});
+	/*Student form choosen*/
+	$("#forms-category-student").click(function(){
+		$("#forms-categories").hide();
+		$("#forms-student").fadeIn(1000);
+	});
+	//ishaa choosen
+	$("#forms-student-ishaa").click(function(){
+			window.location.href = "/files/forms/en/ihsaa_physical.pdf";
+	});
+	//msbhc choosen
+	$("#forms-student-msbhc").click(function(){
+			window.location.href = "/files/forms/en/msbhc_student_enrollment.pdf";
+	});
 </script>
 </body>
 </html>

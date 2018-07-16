@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -43,46 +43,46 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
   <div class="content centered large">
-	<h4>Mobile School-Based Health Center</h4>
-  <img class="location-photo" src="/images/locations/banner_msbhc.jpg"/>
-  <div class="location-info">
-  	<p class="location-title">CONTACT US</p>
-    <div class="location-contact">
-    	<img src="/images/locations/icon_phone.png" alt="phone number">
-      <p>(765) 592-6164</p>
-      <p>mobile@vpchc.org</p>
-    </div>
-  </div>
-  <div class="location-details">
-  	<p class="location-title">SERVICES</p>
-  	<div class="location-services">
-  		<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-     	<span>Primary Care</span>
-    </div>
-    <div class="location-services">
-    	<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-      <span>Behavioral Health</span>
-    </div>
-    <p class="location-title">PROVIDERS</p>
-    <table class="team-table">
-    	<tr> 
-      	<td><p>Nicole Cook, FNP-C</p></td> 
-        <td><p>Renae Norman, FNP-C</p></td>
-      </tr>
-      <tr>
-        <td><p>Heather Woods, LMHC</p></td>
-      </tr>
-    </table>
-  </div>
-  <div class="bus-tracker">
-  	<div class="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
-    <div class="bus-tracker-info">
-    	<p>Location:<span id="bus-location" class="bus-tracker-data"></span></p>
-      <p>Hours:<span id="bus-hours" class="bus-tracker-data"></span></p>
-      <p>Status:<span class="bus-tracker-data"><img id="bus-status-icon" src="" alt="Status Icon"/><span id="bus-status"></span></span></p>
-    </div>
-    <a class="bus-tracker-view vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
-  </div>
+		<h4>Mobile School-Based Health Center</h4>
+		<img class="location-photo" src="/images/locations/banner_msbhc.jpg"/>
+		<div class="location-info">
+			<p class="location-title">CONTACT US</p>
+			<div class="location-contact">
+				<img src="/images/locations/icon_phone.png" alt="phone number">
+				<p>(765) 592-6164</p>
+				<p>mobile@vpchc.org</p>
+			</div>
+		</div>
+		<div class="location-details">
+			<p class="location-title">SERVICES</p>
+			<div class="location-services">
+				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
+				<span>Primary Care</span>
+			</div>
+			<div class="location-services">
+				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
+				<span>Behavioral Health</span>
+			</div>
+			<p class="location-title">PROVIDERS</p>
+			<table class="team-table">
+				<tr> 
+					<td><p>Nicole Cook, FNP-C</p></td> 
+					<td><p>Renae Norman, FNP-C</p></td>
+				</tr>
+				<tr>
+					<td><p>Heather Woods, LMHC</p></td>
+				</tr>
+			</table>
+		</div>
+		<div class="bus-tracker">
+			<div class="bus-tracker-title">Where is the </br> Mobile Health Center?</div>
+			<div class="bus-tracker-info">
+				<p>Location:<span id="bus-location" class="bus-tracker-data"></span></p>
+				<p>Hours:<span id="bus-hours" class="bus-tracker-data"></span></p>
+				<p>Status:<span class="bus-tracker-data"><img id="bus-status-icon" src="" alt="Status Icon"/><span id="bus-status"></span></span></p>
+			</div>
+			<a class="bus-tracker-view vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
+		</div>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

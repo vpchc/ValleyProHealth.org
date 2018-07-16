@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -48,98 +48,60 @@
 <body>
 <header><?php include("php/includes/header.php"); ?></header>
 <main>
-<div id="slideshow" class="fullscreen">
-  <div class="slide">
-    <img src="/images/homepage/slideshow/patient_portal.jpg">
-    <div class="slide-info fullscreen">
-    	<p class="slide-title fullscreen">Get connected</p>
-      <p class="slide-subtitle fullscreen">Take control of your healthcare by utilizing the patient portal.</p>	
-			<a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+	<div id="slideshow" class="fullscreen">
+		<div class="slide">
+			<img src="/images/homepage/slideshow/patient_portal.jpg">
+			<div class="slide-info fullscreen">
+				<p class="slide-title fullscreen">Get connected</p>
+				<p class="slide-subtitle fullscreen">Take control of your healthcare by utilizing the patient portal.</p>	
+				<a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+			</div>
 		</div>
-  </div>
-  <div class="slide">
-    <img src="/images/homepage/slideshow/staff_rockville.jpg">
-    <div class="slide-info fullscreen">
-    	<p class="slide-title fullscreen">Now serving the Rockville community</p>
-      <p class="slide-subtitle fullscreen">Make an appointment with us today!</p>
-			<a href="/rockville/" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
-	 	</div>
-  </div>
-  <div class="slide">
-    <img src="/images/homepage/slideshow/chw_coverage.jpg">
-    <div class="slide-info fullscreen">
-    	<p class="slide-title fullscreen">Are you covered?</p>
-      <p class="slide-subtitle fullscreen">Let one of our Community Health Workers help you find affordable health insurance.</p>
-			<a href="/services/patient_resources.php" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+		<div class="slide">
+			<img src="/images/homepage/slideshow/staff_rockville.jpg">
+			<div class="slide-info fullscreen">
+				<p class="slide-title fullscreen">Now serving the Rockville community</p>
+				<p class="slide-subtitle fullscreen">Make an appointment with us today!</p>
+				<a href="/rockville/" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+			</div>
 		</div>
-  </div>
-  <div class="slide">
-    <img src="/images/homepage/slideshow/bike_program.jpg">
-    <div class="slide-info fullscreen">
-    	<p class="slide-title fullscreen">Are you up-to-date on your immunizations?</p>
-      <p class="slide-subtitle fullscreen">You could win a new bike.</br></p>
-			<a href="/services/patient_resources.php" class="slide-info-button">Find out how!<span class="slide-info-span"></span></a>
+		<div class="slide">
+			<img src="/images/homepage/slideshow/chw_coverage.jpg">
+			<div class="slide-info fullscreen">
+				<p class="slide-title fullscreen">Are you covered?</p>
+				<p class="slide-subtitle fullscreen">Let one of our Community Health Workers help you find affordable health insurance.</p>
+				<a href="/services/patient_resources.php" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+			</div>
 		</div>
-  </div>
-</div>
-<div class="home-about">
-	<img class="home-about-hands" src="/images/services/ps_icon.png" alt="VPCHC Volunteer Example">
-  <p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits local schools.</p>
-  <img class="home-about-info" src="/images/homepage/10years_thankyou.jpg"\>
-</div>
-<div class="home-button-row">
-	<div class="home-button"><a href="/careers/"><img src="/images/homepage/career_button.jpg"/></a>
-  </div>
-  <div class="home-button"><a href="locations/"><img src="/images/homepage/location_button.jpg"></a>
-  </div>
-  <div class="home-button"><a href="/about_us/news_&_events.php"><img src="/images/homepage/events_button.jpg"/></a></div>
-  <div class="home-button"><a href="/about_us/providers_&_team.php"><img src="/images/homepage/team_button.jpg"/></a>
-  </div>
-</div>
+		<div class="slide">
+			<img src="/images/homepage/slideshow/bike_program.jpg">
+			<div class="slide-info fullscreen">
+				<p class="slide-title fullscreen">Are you up-to-date on your immunizations?</p>
+				<p class="slide-subtitle fullscreen">You could win a new bike.</br></p>
+				<a href="/services/patient_resources.php" class="slide-info-button">Find out how!<span class="slide-info-span"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="home-about">
+		<img class="home-about-hands" src="/images/services/ps_icon.png" alt="VPCHC Volunteer Example">
+		<p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits local schools.</p>
+		<img class="home-about-info" src="/images/homepage/10years_thankyou.jpg"\>
+	</div>
+	<div class="home-button-row">
+		<div class="home-button"><a href="/careers/"><img src="/images/homepage/career_button.jpg"/></a>
+		</div>
+		<div class="home-button"><a href="locations/"><img src="/images/homepage/location_button.jpg"></a>
+		</div>
+		<div class="home-button"><a href="/about_us/news_&_events.php"><img src="/images/homepage/events_button.jpg"/></a></div>
+		<div class="home-button"><a href="/about_us/providers_&_team.php"><img src="/images/homepage/team_button.jpg"/></a>
+		</div>
+	</div>
 </main>
 <footer><div><?php include("php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script src="/scripts/jquery.bxslider.js"></script>
-<script>
-$(document).ready(function() {
- var slider = jQuery('#slideshow').bxSlider({
-        auto : true,
-        mode: 'horizontal',
-        speed: 1000,
-        pause : 10000,
-        pager: false,
-        controls : true,
-        touchEnabled :true
-    });
-    //These two functions continue the sliding when the prev and next buttons are clicked.
-    $(".bx-prev").click(function () {            
-        slider.stopAuto();
-        slider.startAuto();
-    });
-    $(".bx-next").click(function () {            
-        slider.stopAuto();
-        slider.startAuto();
-    });
-});
-</script>
-<!--
-<script type="text/javascript">
-  if (screen.width <= 800){
-    var cookies = document.cookie;
-    var check = cookies.split(";");
-    var foundCookie = 0;
-    for(var i = 0; i < check.length; i++) {
-        if(check[i].replace(/^\s+|\s+$/g,'') == "vpchcredirect=1"){
-            foundCookie = 1;
-            break;
-        }
-    }
-    if(foundCookie == 0){
-      window.location = "/app";
-    }
-  }
-</script>
--->
+<script src="/scripts/vpchc_slideshow.js"></script>
+<script src="/scripts/vpchc_screen_size_check.js"></script>
 </body>
 </html>

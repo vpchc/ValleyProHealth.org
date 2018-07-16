@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -61,8 +61,8 @@
       <h2>For Dental Emergencies or Appointments, Call (765) 492-8099</h2>
       <img class="dental-patches" src="/images/dental/patches.png" alt="Patches Dental"/>
     </div>
+		<a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#dental">Click here to see all of our Dental Providers</a>
   </div>
-  <a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#dental">Click here to see all of our Dental Providers</a>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

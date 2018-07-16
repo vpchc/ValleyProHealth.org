@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -60,8 +60,7 @@
     <h2>School-Based Behavioral Health</h2>
     <p>The purpose of school-based services is to work directly and collaboratively with schools to deliver school-based behavioral health tailored to student needs.  These services are for a student whose behavioral and/or emotional challenges compromise his or her ability to attend to learning activities.</p>
     <p>For more information on school-based services, <a href="/mobile/">click here</a>.
-  </div>
-  <a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#bh">Click here too see our Behavioral Health Providers</a>
+		<a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#bh">Click here too see our Behavioral Health Providers</a>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

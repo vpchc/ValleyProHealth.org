@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -82,8 +82,8 @@
     <li class="blue-bullet">Geriatric Care</li>
     <li class="blue-bullet">Minor Procedures</li>
     <li class="blue-bullet">Laboratory Services</li>
+		<a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#physicians">Click here to see all of our Medical Providers</a>
   </div>
-	<a class="services-button vpchcbutton" href="/about_us/providers_&_team.php#physicians">Click here to see all of our Medical Providers</a>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

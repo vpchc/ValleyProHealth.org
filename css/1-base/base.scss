@@ -4,15 +4,12 @@
 	margin: 0; 
   padding: 0;
 }
-
 body { background: white;}
-
 main {
 	margin: 0 auto;
 	width: 100%;
   height: auto;
 }
-
 h1 {  
 	margin: 20px 170px 0 0;
 	
@@ -31,9 +28,9 @@ h2 {
   margin: 20px 0;
     
   font-size: 2.4vw;
-  font-weight: bold;
-	color: $vpchc-green;
   font-family: "Franklin Gothic Book", Times, serif;
+	font-weight: bold;
+	color: $vpchc-green;
 	
 	@media only screen and (max-width: 1082px) { 
 		margin: 10px 0;
@@ -67,8 +64,8 @@ h4 {
 h5 {
 	margin: 20px auto 0 auto;
 	
-	font-size: 60px;
 	text-align: center;
+	font-size: 60px;
 	font-family: "Franklin Gothic Medium", Times, serif;
 
 	@media only screen and (max-width: 1365px) { font-size: 46px;}
@@ -84,8 +81,8 @@ h5 {
 h6 {
 	margin: 20px auto;
 	
-	font-size: 30px;
 	text-align: center;
+	font-size: 30px;
 	font-family: "Franklin Gothic Medium", Times, serif;
 
 	@media only screen and (max-width: 1365px) { font-size: 26px;}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -49,80 +49,59 @@
     </div>
   </div>
   <div class="content">
-	<div class="content-section">
-  <h2>News</h2>
-  <div class="news-article">
-    <p class="news-article-title">Operational Site Visit</p>
-    <p class="news-article-preview">Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review. <a href="/about_us/news_article.php">Read More.</a></p>
-  </div>
-  <a href="/archive/news/">Click here to view all news stories</a>
-  <h2>Announcements</h2>
-  <div class="news-article">
-    <p class="news-article-title">VPCHC 10 year</p>
-    <p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.<a href="/about_us/announcement_article.php">Read More.</a></p>
-  </div>
-	<h2>Annual Report</h2>
-  <div class="news-article">
-    <p class="news-article-title">VPCHC 2017 Annual Report</p>
-    <p class="news-article-preview">Valley Professionals Community Health Center’s annual report provides an overview of key highlights and news from our health center in 2017.<a href="/files/reports/vpchc_2016-2017_annual_report.pdf">View it here.</a></p>
-  </div>
-	</div>
-	<div class="content-section">
-	<div id="slideshow" class="sectioned">
-  <div class="slide">
-    <img src="/images/news&events/slideshow_dancing_stars.jpg">
-    <div class="slide-info sectioned">
-      <p class="slide-title sectioned">Dancing with the Stars</p>
-      <p class="slide-subtitle sectioned">Congratulations Terry Warren, our CEO, for winning the most donations at Clinton's Dancing with the Stars!</p>
-    </div>
-  </div>
-  <div class="slide">
-    <img src="/images/news&events/slideshow_bikes.jpg">
-    <div class="slide-info sectioned">
-      <p class="slide-title sectioned">Bike Winners</p>
-			<p class="slide-subtitle sectioned">Congratulations to our well child bike winners!</p>
-    </div>
-  </div>
-  <div class="slide">
-    <img src="/images/news&events/slideshow_bobble.jpg">
-    <div class="slide-info sectioned">
-      <p class="slide-title sectioned">Happy Doctor Day!</p>
-      <p class="slide-subtitle sectioned">We want to thank our awesome physicians for all their hard work.</p>
-    </div>
-  </div>
-  </div>
-  </div>
-  <h2>Upcoming Events</h2>
-  <p>Check out our events calendar to see which events Valley Professionals will be hosting or participating in. Also, find information and hours for local food resources and other community connections.</p>
-  <iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=3e4q5uj3gm56bois2jpa5auh74%40group.calendar.google.com&amp;color=%2370b244&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-	<iframe id="events-smallcalendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=3e4q5uj3gm56bois2jpa5auh74%40group.calendar.google.com&amp;color=%2370b244&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		<div class="content-section">
+			<h2>News</h2>
+			<div class="news-article">
+				<p class="news-article-title">Operational Site Visit</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center completed an Operational Site Visit on November 15, 2017 by the Health Resources and Services Administration (HRSA) and received a perfect score during the comprehensive review. <a href="/about_us/news_article.php">Read More.</a></p>
+			</div>
+			<a href="/archive/news/">Click here to view all news stories</a>
+			<h2>Announcements</h2>
+			<div class="news-article">
+				<p class="news-article-title">VPCHC 10 year</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.<a href="/about_us/announcement_article.php">Read More.</a></p>
+			</div>
+			<h2>Annual Report</h2>
+			<div class="news-article">
+				<p class="news-article-title">VPCHC 2017 Annual Report</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center’s annual report provides an overview of key highlights and news from our health center in 2017.<a href="/files/reports/vpchc_2016-2017_annual_report.pdf">View it here.</a></p>
+			</div>
+		</div>
+		<div class="content-section">
+			<div id="slideshow" class="sectioned">
+				<div class="slide">
+					<img src="/images/news&events/slideshow_dancing_stars.jpg">
+					<div class="slide-info sectioned">
+						<p class="slide-title sectioned">Dancing with the Stars</p>
+						<p class="slide-subtitle sectioned">Congratulations Terry Warren, our CEO, for winning the most donations at Clinton's Dancing with the Stars!</p>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="/images/news&events/slideshow_bikes.jpg">
+					<div class="slide-info sectioned">
+						<p class="slide-title sectioned">Bike Winners</p>
+						<p class="slide-subtitle sectioned">Congratulations to our well child bike winners!</p>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="/images/news&events/slideshow_bobble.jpg">
+					<div class="slide-info sectioned">
+						<p class="slide-title sectioned">Happy Doctor Day!</p>
+						<p class="slide-subtitle sectioned">We want to thank our awesome physicians for all their hard work.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h2>Upcoming Events</h2>
+		<p>Check out our events calendar to see which events Valley Professionals will be hosting or participating in. Also, find information and hours for local food resources and other community connections.</p>
+		<iframe id="events-calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=3e4q5uj3gm56bois2jpa5auh74%40group.calendar.google.com&amp;color=%2370b244&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		<iframe id="events-smallcalendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=3e4q5uj3gm56bois2jpa5auh74%40group.calendar.google.com&amp;color=%2370b244&amp;src=e39d3tdrpv5rqvp0hl0v8087us%40group.calendar.google.com&amp;color=%23711616&amp;src=f6gctq1gi5tr57r5v90385957o%40group.calendar.google.com&amp;color=%232952A3&amp;src=9thdj8u08ngpffbjlkqdefnebs%40group.calendar.google.com&amp;color=%235229A3&amp;src=4nfu6l8s9kd9i5t7jp6orma6og%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	</div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script src="/scripts/jquery.bxslider.js"></script>
-<script>
-$(document).ready(function() {
- var slider = jQuery('#slideshow').bxSlider({
-        auto : true,
-        mode: 'horizontal',
-        speed: 1000,
-        pause : 10000,
-        pager: false,
-        controls : true,
-        touchEnabled :true
-    });
-    //These two functions continue the sliding when the prev and next buttons are clicked.
-    $(".bx-prev").click(function () {            
-        slider.stopAuto();
-        slider.startAuto();
-    });
-    $(".bx-next").click(function () {            
-        slider.stopAuto();
-        slider.startAuto();
-    });
-});
-</script>
+<script src="/scripts/vpchc_slideshow.js"></script>
 </body>
 </html>

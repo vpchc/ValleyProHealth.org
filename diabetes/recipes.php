@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/apps.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -105,22 +105,22 @@
     <li class="green-bullet">Add remaining 1/2 Tbsp olive oil and sesame oil to pan. Add cauliflower "rice" and remaining ingredients and lower heat to medium-low. Cook cauliflower mixutre for 6-8 minutes, stirring frequently. Cauliflower should be tender, but not mushy.</li></br>
     <p>Nutrition Facts:</br>Serving Size: 1/2 cup</p>
     <table>
-    <tr>
-      <td><li class="blue-bullet">Carbohydrate 8 g</li></td>
-      <td><li class="blue-bullet">Calories 80</li></td>
-    </tr>
-    <tr>
-      <td><li class="blue-bullet">Protein 3 g</li></td>
-      <td><li class="blue-bullet">Fat 5 g</li></td>
-    </tr>
-    <tr>
-      <td><li class="blue-bullet">Saturated Fat 0.7 g</li></td>
-      <td><li class="blue-bullet">Sugars 3 g</li></td>
-    </tr>
-    <tr>
-      <td><li class="blue-bullet">Sodium 260 mg</li></td>
-      <td><li class="blue-bullet">Potassium 360 mg</li></td>
-    </tr>
+			<tr>
+				<td><li class="blue-bullet">Carbohydrate 8 g</li></td>
+				<td><li class="blue-bullet">Calories 80</li></td>
+			</tr>
+			<tr>
+				<td><li class="blue-bullet">Protein 3 g</li></td>
+				<td><li class="blue-bullet">Fat 5 g</li></td>
+			</tr>
+			<tr>
+				<td><li class="blue-bullet">Saturated Fat 0.7 g</li></td>
+				<td><li class="blue-bullet">Sugars 3 g</li></td>
+			</tr>
+			<tr>
+				<td><li class="blue-bullet">Sodium 260 mg</li></td>
+				<td><li class="blue-bullet">Potassium 360 mg</li></td>
+			</tr>
     </table>
   </div>
 </main>
