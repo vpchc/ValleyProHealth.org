@@ -56,7 +56,7 @@
     <h2>Emergency</h2>
     <p>Broken or chipped teeth, extractions, pain, and infection.</p>
     <h2>Restorative</h2>
-    <p>Fillings</p>
+    <p>Fillings, Root Canals, and Dentures.</p>
     <div id="dental-public">
       <h2>For Dental Emergencies or Appointments, Call (765) 492-8099</h2>
       <img class="dental-patches" src="/images/dental/patches.png" alt="Patches Dental"/>
