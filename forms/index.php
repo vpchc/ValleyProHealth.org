@@ -179,34 +179,38 @@
 	}
 	//Adult choosen
 	$("#forms-newpat-adult").click(function(event){
-		if(locationChoice == 1){
-				window.location.href = "/files/forms/en/registration_adult.pdf";
+        if(locationChoice == 0 ){
+			 window.location.href = "/files/forms/en/FORM_MSBHC_Enrollment_Packet.pdf";
+        }else if(locationChoice == 1){
+				window.location.href = "/files/forms/en/New_Patient_Adult_Bloomingdale.pdf";
 		}else if(locationChoice == 2){
-				window.location.href = "/files/forms/en/registration_adult.pdf";
-		}else if(locationChoice == 0 || locationChoice == 3){
-				window.location.href = "/files/forms/en/registration_adult.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Adult_Cayuga.pdf";
+		}else if(locationChoice == 3){
+				window.location.href = "/files/forms/en/New_Patient_Adult_Clinton.pdf";
 		}else if(locationChoice == 4){
-				window.location.href = "/files/forms/en/registration_adult.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Adult_Crawfordsville.pdf";
 		}else if(locationChoice == 5){
-				window.location.href = "/files/forms/en/registration_adult.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Adult_Rockville.pdf";
 		}else{
-				window.location.href = "/files/forms/en/registration_adult.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Adult_Terre_Haute.pdf";
 		}
 	});
 	//Child choosen
 	$("#forms-newpat-child").click(function(){
-		if(locationChoice == 1 ){
-			 window.location.href = "/files/forms/en/registration_child.pdf";
+        if(locationChoice == 0 ){
+			 window.location.href = "/files/forms/en/FORM_MSBHC_Enrollment_Packet.pdf";
+        }else if(locationChoice == 1 ){
+			 window.location.href = "/files/forms/en/New_Patient_Child_Bloomingdale.pdf";
 		}else if(locationChoice == 2){
-				window.location.href = "/files/forms/en/registration_child.pdf";
-		}else if(locationChoice == 0 || locationChoice == 3){
-				window.location.href = "/files/forms/en/registration_child.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Child_Cayuga.pdf";
+		}else if(locationChoice == 3){
+				window.location.href = "/files/forms/en/New_Patient_Child_Clinton.pdf";
 		}else if(locationChoice == 4){
-				window.location.href = "/files/forms/en/registration_child.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Child_Crawfordsville.pdf";
 		}else if(locationChoice == 5){
-				window.location.href = "/files/forms/en/registration_child.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Child_Rockville.pdf";
 		}else{
-				window.location.href = "/files/forms/en/registration_child.pdf";
+				window.location.href = "/files/forms/en/New_Patient_Child_Terre_Haute.pdf";
 		}
 	});
 
