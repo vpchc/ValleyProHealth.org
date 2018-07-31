@@ -56,6 +56,11 @@
 		<h3 id="2018">2018</h3>
 		<hr>
 		<div class="news-article">
+			<p class="news-article-title">July 27, 2018 - Grant To Valley Professionals Community Health Center To Help Purchase Medical Supplies</p>
+			<p class="news-article-preview">Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty who need assistance with purchasing medical supplies to monitor and self-manage their chronic disease and optimize health outcomes.</p>
+			<a href="/archive/2018/07_27.php">See Full Article</a>
+		</div>  
+		<div class="news-article">
 			<p class="news-article-title">January 30, 2018 - Health Center Celebrates 10 Years of Serving Communities</p>
 			<p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.</p>
 			<a href="/archive/2018/01_30.php">See Full Article</a>

@@ -40,22 +40,22 @@
 <!--.....|.........|.........|.........|.........|.........|.........|.......-->
 </head>
 <body>
-<header><?php include("../php/includes/header.php"); ?></header>
+<header><?php include("../../php/includes/header.php"); ?></header>
 <main>
   <h5>News Article</h5>
   <h6>GRANT TO VALLEY PROFESSIONALS COMMUNITY 
 	HEALTH CENTER TO HELP PURCHASE MEDICAL SUPPLIES</h6>
   <h6>July 27, 2018</h6>
   <div class="archive-section">
-    <p>(Clinton, IN) Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty who need assistance with purchasing medical supplies to monitor and self-manage their chronic disease and optimize health outcomes.  The grant was made available by the Vermillion County Community Foundation.</p>
-    <p>According to Dale White, CEO of the Community Foundation, &ldquo;The medical supplies will consist of digital scales, blood pressure wrist cuffs, and pulse oximeter blood oxygen monitors.  Digital scales will allow patients to monitor BMI, blood pressure wrist cuffs will monitor blood pressure, while the pulse oximeter will monitor oxygen levels.  If patients experience symptoms or irregular readings through monitoring, they can provide this information to their primary medical provider for appropriate treatment.&ldquo;</p>
-    <p>Amy Reed, Director of Development at Valley Professionals reports, &ldquo;Valley professionals operates health centers located in Clinton and Cayuga in Vermillion County, with other locations in the Wabash Valley, that provide primary medical, behavioral, dental and patient support services,  As a rural county with limited resources for residents compared to urban areas, Valley Professionals serves as a medical home in the community, providing care to all individuals and families, preventing barriers to care and increasing access to services.&ldquo;</p>
+    <p>(Clinton, IN) Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty who need assistance with purchasing medical supplies to monitor and self-manage their chronic disease and optimize health outcomes. The grant was made available by the Vermillion County Community Foundation.</p>
+    <p>According to Dale White, CEO of the Community Foundation, &ldquo;The medical supplies will consist of digital scales, blood pressure wrist cuffs, and pulse oximeter blood oxygen monitors. Digital scales will allow patients to monitor BMI, blood pressure wrist cuffs will monitor blood pressure, while the pulse oximeter will monitor oxygen levels. If patients experience symptoms or irregular readings through monitoring, they can provide this information to their primary medical provider for appropriate treatment.&ldquo;</p>
+    <p>Amy Reed, Director of Development at Valley Professionals reports, &ldquo;Valley professionals operates health centers located in Clinton and Cayuga in Vermillion County, with other locations in the Wabash Valley, that provide primary medical, behavioral, dental and patient support services, as a rural county with limited resources for residents compared to urban areas, Valley Professionals serves as a medical home in the community, providing care to all individuals and families, preventing barriers to care and increasing access to services.&ldquo;</p>
 		<p>Vermillion County Community Foundation seeks to better the Vermillion County area by connecting people who care with causes that matter by making grants to non-profit organizations and awarding college scholarships to high school graduates.</p>
 		<img src="/images/news&events/media_release.jpg">
 		<p>Left to right: Nicole Hall, Clinical Director – Valley Professionals Community Health Center; Amy Reed, Director of Development – Valley Professionals Community Health Center; T.J. Warren, CEO – Valley Professionals Community Health Center; Ed Shew, Board President – Vermillion County Community Foundation; Nancy Reed, Board Secretary – Vermillion County Community Foundation; Dale White, CEO – Vermillion County Community Foundation</p>
   </div>
 </main>
-<footer><?php include("../php/includes/footer.php"); ?></footer>
+<footer><?php include("../../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 </body>

@@ -58,8 +58,9 @@
 			<a href="/archive/news/">Click here to view all news stories</a>
 			<h2>Announcements</h2>
 			<div class="news-article">
-				<p class="news-article-title">VPCHC 10 year</p>
-				<p class="news-article-preview">Valley Professionals Community Health Center is celebrating ten years of growth, expanded services, increased employment and healthier communities in February 2018.<a href="/about_us/announcement_article.php">Read More.</a></p>
+				<p class="news-article-title">VPCHC Receives $1,300 Grant</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty who need assistance with purchasing medical supplies.
+				<a href="/about_us/announcement_article.php">Read More.</a></p>
 			</div>
 			<h2>Annual Report</h2>
 			<div class="news-article">
@@ -69,6 +70,13 @@
 		</div>
 		<div class="content-section">
 			<div id="slideshow" class="sectioned">
+				<div class="slide">
+					<img src="/images/news&events/media_release.jpg">
+					<div class="slide-info sectioned">
+						<p class="slide-title sectioned">VPCHC Receives $1,300 Grant</p>
+						<p class="slide-subtitle sectioned">Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty.</p>
+					</div>
+				</div>
 				<div class="slide">
 					<img src="/images/news&events/slideshow_dancing_stars.jpg">
 					<div class="slide-info sectioned">
