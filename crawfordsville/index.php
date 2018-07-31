@@ -45,8 +45,8 @@
 	<div class="content centered large">
 		<h4>Crawfordsville</h4>
 		<img class="location-photo" src="/images/locations/banner_crawfordsville.jpg"/>
-		<div class="location-info">
-			<p class="location-title">CONTACT US</p>
+		<div class="location-info small">
+			<p class="location-title small">CONTACT US</p>
 			<p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
 			<div class="location-contact">
 				<img src="/images/locations/icon_phone.png" alt="phone number">
@@ -56,12 +56,13 @@
 				<img src="/images/locations/icon_fax.png" alt="fax number">
 				<p>(765) 362-5171</p>
 			</div>
-			<p class="location-title">HOURS</p>
+			<p class="location-title small">HOURS</p>
 			<p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
+			<p class="location-appts">(by appointment only)</p>
 			<p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.</p>
 		</div>
 		<div class="location-details">
-			<p class="location-title">SERVICES</p>
+			<p class="location-title small">SERVICES</p>
 			<div class="location-services">
 				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
 				<span>Primary Care</span>
@@ -74,7 +75,7 @@
 				<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
 				<span>Patient Support</span>
 			</div>
-			<p class="location-title">PROVIDERS</p>
+			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
 					<td><p>Dr. Danielle Cundiff, DO</p></td> 

@@ -45,8 +45,8 @@
 	<div class="content centered large">
 	<h4>Clinton</h4>
   <img class="location-photo" src="/images/locations/banner_clinton.jpg"/>
-  <div class="location-info">
-  	<p class="location-title">CONTACT US</p>
+  <div class="location-info large">
+  	<p class="location-title large">CONTACT US</p>
     <p>777 S. Main Street, Suite 100<br/>Clinton, IN 47842</p>
     <div class="location-contact">
       <img src="/images/locations/icon_phone.png" alt="phone number">
@@ -56,16 +56,19 @@
     	<img src="/images/locations/icon_fax.png" alt="fax number">
       <p>(765) 828-1030</p>
     </div>
-    <p class="location-title">HOURS</p>
+    <p class="location-title large">HOURS</p>
     <p>Monday - Friday<br/>8:30 am to 5:00 pm</p>
+    <p class="location-appts">(by appointment only)</p>
     <p>Closed<br/>12:00 p.m. – 1:00 p.m.,<br/>Phone calls accepted during this time.</p>
-    <p class="location-subtitle">After-Hours Clinic</p>
+    <p class="location-subtitle large">After-Hours Clinic</p>
     <p>Monday - Thursday<br/>5:00 pm to 8:00 pm</p>
-		<p class="location-subtitle">Saturday Clinic</p>
+		<p class="location-walkin">Walk-in Appointments Available</p>
+    <p class="location-subtitle large">Saturday Clinic</p>
     <p>9:00 am to 1:00 pm</p>
+		<p class="location-walkin">Walk-in Appointments Available</p>
   </div>
   <div class="location-details">
-  	<p class="location-title">SERVICES</p>
+  	<p class="location-title large">SERVICES</p>
     <div class="location-services">
     	<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
       <span>Primary Care</span>
@@ -78,7 +81,7 @@
     	<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
       <span>Patient Support</span>
     </div>
-    <p class="location-title">PROVIDERS</p>
+    <p class="location-title large">PROVIDERS</p>
     <table class="team-table">
     	<tr>
       	<td><p>Dr. Aziz Abed, MD, MPH</p></td> 

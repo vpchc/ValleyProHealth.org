@@ -45,8 +45,8 @@
   <div class="content centered large">
 		<h4>Mobile School-Based Health Center</h4>
 		<img class="location-photo" src="/images/locations/banner_msbhc.jpg"/>
-		<div class="location-info">
-			<p class="location-title">CONTACT US</p>
+		<div class="location-info small">
+			<p class="location-title small">CONTACT US</p>
 			<div class="location-contact">
 				<img src="/images/locations/icon_phone.png" alt="phone number">
 				<p>(765) 592-6164</p>
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div class="location-details">
-			<p class="location-title">SERVICES</p>
+			<p class="location-title small">SERVICES</p>
 			<div class="location-services">
 				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
 				<span>Primary Care</span>
@@ -63,7 +63,7 @@
 				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
 				<span>Behavioral Health</span>
 			</div>
-			<p class="location-title">PROVIDERS</p>
+			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr> 
 					<td><p>Nicole Cook, FNP-C</p></td> 

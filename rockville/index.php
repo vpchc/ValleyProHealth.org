@@ -45,8 +45,8 @@
   <div class="content centered large">
 		<h4>Rockville</h4>
 		<img class="location-photo" src="/images/locations/banner_rockville.jpg"/>
-		<div class="location-info">
-			<p class="location-title">CONTACT US</p>
+		<div class="location-info small">
+			<p class="location-title small">CONTACT US</p>
 			<p>727 Lincoln Rd<br/>Rockville, IN 47872</p>
 			<div class="location-contact">
 				<img src="/images/locations/icon_phone.png" alt="phone number">
@@ -56,18 +56,19 @@
 				<img class="location-info-icon" src="/images/locations/icon_fax.png" alt="fax number">
 				<p>(765) 569-6412</p>
 			</div>
-			<p class="location-title">HOURS</p>
+			<p class="location-title small">HOURS</p>
 			<p>Monday, Wednesday, Friday<br/>7:30 am to 5:00 pm</p>
 			<p>Tuesday, Thursday<br/>8:00 am to 5:00 pm</p>
+			<p class="location-appts">(by appointment only)</p>
 			<p>Closed<br/>12:30 p.m. – 1:30 p.m.</p>
 		</div>
 		<div class="location-details">
-			<p class="location-title">SERVICES</p>
+			<p class="location-title small">SERVICES</p>
 			<div class="location-services">
 				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
 				<span>Primary Care</span>
 			</div>
-			<p class="location-title">PROVIDERS</p>
+			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
 					<td><p>Dr. Steven Waltz, MD</p></td>
