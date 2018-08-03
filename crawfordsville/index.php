@@ -78,19 +78,18 @@
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Dr. Danielle Cundiff, DO</p></td> 
 					<td><p>Dr. Christopher Fitzsimmons, MD</p></td> 
+					<td><p>Dr. Patrick Foley, MD</p></td>
 				</tr>
 				<tr>
-					<td><p>Dr. Patrick Foley, MD</p></td> 
 					<td><p>Jessica Bekkering, FNP-C</p></td> 
-				</tr>
-				<tr>
 					<td><p>Dr. Paul Taraska, MD</p></td> 
-					<td><p>Misha Bennett, LCSW</p></td>
 				</tr>
 				<tr>
+					<td><p>Misha Bennett, LCSW</p></td>
 					<td><p>Keith Seegers, LCSW</p></td>
+				</tr>
+				<tr>
 					<td><p>Dana Tinkle, LMHC, RPT</p></td>
 				</tr>
 			</table>

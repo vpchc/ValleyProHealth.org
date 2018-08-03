@@ -64,29 +64,6 @@
     <hr>
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Dr. Aziz Abed, MD, MPH</p>
-      </div>
-      <div class="tab-box">
-        <img src="/images/providers/abed.jpg">
-        <div class="tab-box-text">
-          <div class="tab-credentials"><p>Physician</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>University of Illinois at Chicago</li>
-							<li>University of Illinois at Chicago – School of Public Health</li>
-							<li>St. George’s University School of Medicine</li>
-							<li>Union Hospital Family Medicine Residency Program</li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>Dr. Abed enjoys weight training and sports, including football, basketball, and baseball.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Clinton</p>
-        </div>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar blue">
         <p class="tab-name">Dr. Danielle Cundiff, DO</p>
       </div>
       <div class="tab-box">
@@ -103,7 +80,7 @@
 						<p class="tab-title">Personal</p>
 						<p>Dr. Cundiff was born and raised in Dana, IN. She is excited to now get the opportunity to be practicing near her hometown. Dr. Cundiff enjoys spending time outdoors when she can, am is a huge 'I Love Lucy" fan, and enjoys skydiving.</p>
           </div>
-          <p class="tab-location">Currently providing care in Clinton, Cayuga, and Crawfordsville</p>
+          <p class="tab-location">Currently providing care in Clinton and Cayuga</p>
         </div>
       </div>
     </div>
@@ -775,7 +752,7 @@
 						<p class="tab-title">Personal</p>
 						<p>Tasha has always had a passion for mental health and diversity. She is constantly amazed by the resiliency and strength people possess. She enjoys working at VPCHC because of the holistic treatment we are able to provide people. When not working, she loves spending time with her family, friends, and 2 adorable chihuahuas.</p>
           </div>
-          <p class="tab-location">Currently providing care in Cayuga</p>
+          <p class="tab-location">Currently providing care in Cayuga and Clinton</p>
         </div>
       </div>
     </div>

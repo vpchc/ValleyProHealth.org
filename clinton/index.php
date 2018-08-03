@@ -84,35 +84,34 @@
     <p class="location-title large">PROVIDERS</p>
     <table class="team-table">
     	<tr>
-      	<td><p>Dr. Aziz Abed, MD, MPH</p></td> 
 				<td><p>Dr. Danielle Cundiff, DO</p></td>
+      	<td><p>Dr. Christopher Fitzsimmons, MD</p></td>
       </tr>
 			<tr>
-			  <td><p>Dr. Christopher Fitzsimmons, MD</p></td>
-        <td><p>Dr. Bing Gale, MD</p></td>
-			</tr>
-      <tr>
+			  <td><p>Dr. Bing Gale, MD</p></td>
         <td><p>Gretchen Blevins, FNP-C</p></td>
-				<td><p>Nicole Hall, FNP-C</p></td>
 			</tr>
       <tr>
-        <td><p>Brandi Larson, FNP-C</p></td>
-				<td><p>Tammy Mundy, FNP-C</p></td>
+        <td><p>Nicole Hall, FNP-C</p></td>
+				<td><p>Brandi Larson, FNP-C</p></td>
+			</tr>
+      <tr>
+        <td><p>Tammy Mundy, FNP-C</p></td>
+				<td><p>Dr. Paul Taraska, MD</p></td>
       </tr>
       <tr>
-        <td><p>Dr. Paul Taraska, MD</p></td>
-				<td><p>Dr. Julia Wernz, PhD, HSPP</p></td>
+        <td><p>Dr. Julia Wernz, PhD, HSPP</p></td>
+				<td><p>Gary Anderson, MS</p></td>
       </tr>
       <tr>
-        <td><p>Gary Anderson, MS</p></td>
-				<td><p>Linda Lonneman, LCSW</p></td>
-      </tr>
-      <tr>
+        <td><p>Linda Lonneman, LCSW</p></td>
 				<td><p>David McIntyre, LCAC</p></td>
+      </tr>
+      <tr>
 				<td><p>Zac Milam, LMHC</p></td>
+				<td><p>Tasha Lewis-Stevens, LCSW, RN</p></td>
       </tr>
 			<tr>
-        <td><p>Tasha Lewis-Stevens, LCSW, RN</p></td>
         <td><p>Lisa Tincher, PMHNP</p></td>
       </tr>
     </table>
