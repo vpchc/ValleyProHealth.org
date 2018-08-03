@@ -44,16 +44,18 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Dental Assistant - Cayuga</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Dental Assistant for its Cayuga office.</p>
+  	<h6>Quality Improvement Coordinator - Cayuga/Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a motivated and analytical individual for its position of Quality Improvement Coordinator.</p>
     <h2>Duties:</h2>
-    <li class="green-bullet">Assisting the dentist in providing oral health care</li>
-    <li class="green-bullet">Preparing and maintaining dental equipment</li>
-    <li class="green-bullet">Collecting and maintaining patient health records</li>
-    <li class="green-bullet">Other general front office and assisting duties as assigned</li>
+    <li class="green-bullet">Assisting the quality department in analyzing quality measures</li>
+    <li class="green-bullet">Working with the clinical team to improve and meet quality measures</li>
+    <li class="green-bullet">Facilitating quality reports</li>
+    <li class="green-bullet">Perform periodic and ongoing audits to identify deficiencies</li>
+		<li class="green-bullet">Analyze the data</li>
+		<li class="green-bullet">Work with VPCHC sites to use quality data to improve care and outcomes of patients</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">Ideal candidates should possess a minimum of one year experience</li>
-		<li class="green-bullet">Expanded duties certification</li>
+		<li class="green-bullet">2 years of quality-related work experience</li>
+		<li class="green-bullet">Minimum of two years of post-high school education</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_2.php" name="referer">
@@ -77,7 +79,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dental Assistant - Cayuga">
+        <input type="hidden" name="subject" value="Quality Improvement Coordinator - Cayuga/Clinton">
         <div id="onsub-foot">
           <div id="onsub-foot-left">
             <span id="form-status">* required</span>

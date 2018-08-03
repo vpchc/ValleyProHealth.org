@@ -79,14 +79,19 @@
 			<p>CMA</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
+			<a href="/careers/job_listing_1.php"><div class="content-tile">
+			<p>CMA/LPN</p>
+			<img src="/images/careers/location_pointer.png"/><p>Bloomingdale</p>
+			</div></a>
 			<a href="/careers/job_listing_4.php"><div class="content-tile">
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
-            <a href="/careers/job_listing_4.php"><div class="content-tile content-tile-hide">
-			<p>Psychologist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
+			<a href="/careers/job_listing_3.php"><div class="content-tile">
+			<p>Quality Improvement Coordinator</p>
+			<img src="/images/careers/location_pointer.png"/><p>Cayuga/Clinton</p>
 			</div></a>
+      
     </div>
 		<h2 id="benefits">Benefits</h2>
     <p>Valley Professionals offers excellent benefits, including:</p>

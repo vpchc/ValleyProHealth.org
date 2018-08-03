@@ -44,17 +44,17 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Chiropractic Assistant - Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Chiropractic Assistant for its Clinton office to assist in their new Chiropractic Department.</p>
-    <h2>Duties:</h2>
+  	<h6>CMA/LPN - Bloomingdale</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a CMA for its Rockville office.</p>
+    <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Providing professional nursing services and patient care</li>
     <li class="green-bullet">Patient assessment</li>
     <li class="green-bullet">Taking vitals</li>
-    <li class="green-bullet">Collecting and maintaining patient health records</li>
-    <li class="green-bullet">Other general front office and assisting duties as assigned</li>
-    <li class="green-bullet">Assisting the provider in all manners of patient care</li>
+    <li class="green-bullet">Assisting the provider in minor procedures</li>
+    <li class="green-bullet">Assist in answering phone calls, scheduling patients, and checking-in patients</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">High energy and a personality that naturally engages with patients in a positive manner daily</li>
-		<li class="green-bullet">Current experience in a chiropractic office a plus</li>
+		<li class="green-bullet">Current certification as a Medical Assistant or Nurse required</li>
+		<li class="green-bullet">Two to three years primary care experience preferred</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
@@ -78,7 +78,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Chiropractic Assistant - Clinton">
+        <input type="hidden" name="subject" value="CMA/LPN - Bloomingdale">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
