@@ -47,7 +47,7 @@
     <a href="/diabetes/">Diabetes</a>
   </div>
   <div class="sitemap-section">
-    <a href="https://secure2.myunionportal.org/vpchc/default.aspx">Patient Portal</a>
+    <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp">Patient Portal</a>
   </div>
 	<div class="sitemap-section">
     <a href="/careers/">Careers</a>
