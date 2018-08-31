@@ -45,17 +45,21 @@
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
   	<h6>Quality Improvement Coordinator - Cayuga/Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a motivated and analytical individual for its position of Quality Improvement Coordinator.</p>
+    <p>Valley Professionals Community Health Center is looking for a motivated individual with strong analytical and critical thinking skills to join their Quality Team. This individual will need to work with and build relationships at all levels of the organization.</p>
     <h2>Duties:</h2>
-    <li class="green-bullet">Assisting the quality department in analyzing quality measures</li>
-    <li class="green-bullet">Working with the clinical team to improve and meet quality measures</li>
-    <li class="green-bullet">Facilitating quality reports</li>
-    <li class="green-bullet">Perform periodic and ongoing audits to identify deficiencies</li>
-		<li class="green-bullet">Analyze the data</li>
-		<li class="green-bullet">Work with VPCHC sites to use quality data to improve care and outcomes of patients</li>
+    <li class="green-bullet">Assists in developing, implementing and monitoring appropriate and comprehensive quality improvement initiatives utilizing the Plan-Do-Study-Act model.</li>
+    <li class="green-bullet">Supports and assists providers and their care teams in achieving established performance measure goals as identified in VPCHC’s Quality Plan.</li>
+    <li class="green-bullet">Responsible for conducting periodic ongoing quality audits and reviews, including medical record audits and identify deficiencies.</li>
+    <li class="green-bullet">Conduct analysis on low performing patient satisfaction survey measures and assist with the development and implementation of corrective action plans.</li>
+    <li class="green-bullet">Works with Site Managers and practice staff regarding the use of quality data for continuous improvement.</li>
+    <li class="green-bullet">Assists with the development and implementation of policies and procedures.</li>
+    <li class="green-bullet">Prepares reports and other documentation as required.</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">2 years of quality-related work experience</li>
-		<li class="green-bullet">Minimum of two years of post-high school education</li>
+		<li class="green-bullet">Minimum of two (2) years of post-high school education.</li>
+		<li class="green-bullet">At least two (2) years of quality related work experience or background in healthcare.</li>
+        <li class="green-bullet">Knowledge of continuous quality improvement processes and program design.</li>
+        <li class="green-bullet">Ability to adapt to changing conditions and assimilate new processes into job functions.</li>
+        <li class="green-bullet">Motivated to produce high-quality outcomes.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_2.php" name="referer">

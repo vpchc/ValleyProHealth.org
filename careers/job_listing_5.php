@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles_2.0.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -41,44 +41,47 @@
 </head>
 <body>
 <header><?php include("../php/includes/header.php"); ?></header>
-<main id="masterbox">
-  <h1>Job Opportunities</h1>
-  <h2>Medical Receptionist - Crawfordsville</h2>
-  <div class="careers-listing">
-    <p>Valley Professionals Community Health Center is looking to hire a medical receptionist for its Crawfordsville office.</p>
-    <p>Duties:</p>
-    <li>Answering and directing phone calls</li>
-    <li>Scheduling patient appointments</li>
-    <li>Entering patient information</li>
-    <li>Position will perform a variety of administrative duties and tasks including filing, faxing, and scanning documents into medical records</li>
-    <p>Requirements:</p>
-    <li>Knowledge of medical terminology</li>
-    <li>Good customer service skills</li>
-    <li>Experience in a medical office preferred</li>
+<main>
+	<div class="content centered small">
+		<h5>Job Opportunities</h5>
+  	<h6>Financial Specialist - Cayuga/Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking for a motivated individual with strong analytical and critical thinking skills to join their Billing Team. This individual will need to work well within a team environment and have strong communication and math skills.</p>
+        <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Posting payments from insurance and patients for clinic services.</li>
+    <li class="green-bullet">Scrubbing claims for accuracy and submitting to insurance companies.</li>
+    <li class="green-bullet">Working as a team to ensure other departments and patients have the support they need.</li>
+    <li class="green-bullet">Speaking with patients on the phone to explain their bills and setup payment plans.</li>
+    <li class="green-bullet">Work follow up and secondary claims.</li>
+    <li class="green-bullet">Work with clinical staff and providers to ensure documentation and coding is accurate.</li>
+    <li class="green-bullet">Speak with insurance companies on the phone to follow up on claims issues.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">Minimum of two (2) years of post-high school education</li>
+    <li class="green-bullet">At least two (2) years of medical billing and coding experience</li>
+    <li class="green-bullet">Ability to adapt to changing conditions.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
-    <form  id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
+    <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
         <div class="onsub-field">
           <label for="first_name">First Name <span >*</span></label>     
-          <input id="first_name" class="text" type="text" name="firstname" style="width:80%;">
+          <input id="first_name" class="text" type="text" name="firstname">
         </div>
         <div class="onsub-field">
           <label for="last_name">Last Name <span >*</span></label>     
-          <input id="last_name" type="text" name="lastname" style="width:80%;">
+          <input id="last_name" type="text" name="lastname">
         </div>
         <div class="onsub-field">
           <label for="email">Email <span >*</span></label>     
-          <input id="email" type="text" name="email" style="width:80%;">
+          <input id="email" type="text" name="email">
         </div>
         <div class="onsub-field">
           <label for="resume">R&egrave;sum&egrave; <span >*</span></label>     
-          <input type="file" name="resume" id="resume" style="width:80%;">
+          <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Medical Receptionist - Crawfordsville">
+        <input type="hidden" name="subject" value="Cayuga/Clinton Financial Specialist">
         <input type="text" name="address" id ="form_address"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
