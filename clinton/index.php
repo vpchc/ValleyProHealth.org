@@ -111,9 +111,11 @@
 				<td><p>David McIntyre, LCAC</p></td>
 				<td><p>Zac Milam, LMHC</p></td>
       </tr>
-			<tr>
+      <tr>
 				<td><p>Tasha Lewis-Stevens, LCSW, RN</p></td>
         <td><p>Lisa Tincher, PMHNP</p></td>
+      </tr>
+      <tr><td><p>Jason Heck, PMHNP</p></td>
       </tr>
     </table>
   </div>

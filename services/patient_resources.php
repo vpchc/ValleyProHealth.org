@@ -54,7 +54,7 @@
     <h2>Sliding Fee Scale</h2>
 		<p>If a patient is uninsured or underinsured, a sliding fee scale is available for patients to receive a discounted rate. Discounts available are based on patient family size and income in accordance with the most recent U.S. Department of Health & Human Services Federal Poverty Guidelines.</p></br>
 		<p>The sliding fee scale is based upon the current income of all family members, and the number of people in the household. An individual who is unemployed, has no income and is being supported by others must provide documentation showing that no federal income taxes have been filed, and the person supporting the patient must provide written and signed documentation that they are providing food and shelter for the patient.</p></br>
-		<p>In order to qualify for the sliding fee scale at VPCHC, patients and their families must have a combined income that falls within the U.S. Federal Poverty Guidelines.</p>
+    <p>In order to qualify for the sliding fee scale at VPCHC, patients and their families must have a combined income that falls within the U.S. Federal Poverty Guidelines. To view the Sliding Fee Scale application, click <a href="/files/forms/en/sliding_fee_scale_reqs.pdf">here</a></p>
     <h2>Prescription Assistance</h2>
 		<p>We have several ways to help patients that are having trouble affording their medication.</p></br>
 		<p><b>340B Program:</b> This program helps cover the cost of many precscription medications. Based on your family income and size determines how much you have to pay for your medications. Application for the sliding fee scale is required for this program. If you qualify, medications may be free or low cost.</p></br>

@@ -102,7 +102,7 @@
 						<p class="tab-title">Personal</p>
 						<p>Dr. Fitzsimmons enjoys film and running.  He is an avid Star Wars fanatic. He believes prevention is the best medicine.He serves our country as a doctor in the Air Force Reserve. He chose to work at our FQHC due to our many in house services.</p>
           </div>
-          <p class="tab-location">Currently providing care in Bloomingdale, Clinton, and Crawfordsville</p>
+          <p class="tab-location">Currently providing care in Bloomingdale and Clinton</p>
         </div>
       </div>
     </div>
@@ -774,7 +774,7 @@
 						<p class="tab-title">Personal</p>
 						<p>Lisa has worked as a nurse practitioner since 1999, first as Family Nurse Practitioner for 10 years, and for the last 7 years as a Psychiatric Mental Health NP. Lisa’s favorite hobby is scuba diving. She also loves spending time with her family including, two daughters and two grandchildren.</p>
           </div>
-          <p class="tab-location">Currently providing care in Clinton, Terre Haute, Cayuga, and Bloomingdale</p>
+          <p class="tab-location">Currently providing care in Clinton and Terre Haute</p>
         </div>
       </div>
     </div>

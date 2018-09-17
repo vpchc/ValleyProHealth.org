@@ -90,6 +90,7 @@
 				</tr>
 				<tr>
 					<td><p>Megan Neitling, LMHCA</p></td>
+                    <td><p>Jason Heck, PMHNP</p></td>
 				</tr>
 			</table>
 		</div>

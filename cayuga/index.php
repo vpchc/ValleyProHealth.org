@@ -97,8 +97,8 @@
         <td><p class="team-table-name">Tasha Lewis-Stevens, LCSW, RN</p></td>
       </tr>
       <tr>
-      	<td><p class="team-table-name">Lisa Tincher, PMHNP</p></td>
         <td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
+        <td><p class="team-table-name">Jason Heck, PMHNP</p></td>
     	</tr>
     </table>
   </div>
