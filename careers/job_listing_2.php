@@ -44,7 +44,7 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>CMA - Rockville</h6>
+  	<h6>CMA/LPN - Rockville</h6>
     <p>Valley Professionals Community Health Center is looking to hire a CMA for its Rockville office.</p>
     <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Providing professional nursing services and patient care</li>

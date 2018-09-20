@@ -76,7 +76,7 @@
     <p>View current job postings and submit your resume below.</p>
 		<div class="content-tiles">
 			<a href="/careers/job_listing_2.php"><div class="content-tile">
-			<p>CMA</p>
+			<p>CMA/LPN</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
 			<a href="/careers/job_listing_1.php"><div class="content-tile">
