@@ -893,12 +893,7 @@
       </div>
     </div>
     <div class="tab">
-      <div class="tab-bar team-ps">
-        <p class="tab-simple">Kyleigh<span>Terre Haute</span></p>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar team-ps">
+      <div class="tab-bar green">
         <p class="tab-simple">Rebecca<span>Terre Haute</span></p>
       </div>
     </div>
@@ -914,13 +909,11 @@
         <p class="tab-simple">Eddie McFarland<span>Chief Operations Officer</span></p>
       </div>
     </div>
-<!--
     <div class="tab">
       <div class="tab-bar grey">
-        <p class="tab-simple">Paul Utterback<span>Chief Financial Officer</span></p>
+        <p class="tab-simple">Scott Andritsch<span>Chief Financial Officer</span></p>
       </div>
     </div>
--->
     <div class="tab">
       <div class="tab-bar grey">
         <p class="tab-simple">Dr. Steven Waltz<span>Chief Medical Officer</span></p>

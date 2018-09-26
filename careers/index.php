@@ -79,9 +79,9 @@
 			<p>CMA/LPN</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
 			</div></a>
-			<a href="/careers/job_listing_1.php"><div class="content-tile">
-			<p>CMA/LPN</p>
-			<img src="/images/careers/location_pointer.png"/><p>Bloomingdale</p>
+			<a href="/careers/job_listing_5.php"><div class="content-tile">
+			<p>Financial Specialist</p>
+			<img src="/images/careers/location_pointer.png"/><p>Cayuga/Clinton</p>
 			</div></a>
 			<a href="/careers/job_listing_4.php"><div class="content-tile">
 			<p>Psychologist</p>
@@ -91,10 +91,6 @@
         <div class="content-tiles">
 			<a href="/careers/job_listing_3.php"><div class="content-tile">
 			<p>Quality Improvement Coordinator</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga/Clinton</p>
-			</div></a>
-            <a href="/careers/job_listing_5.php"><div class="content-tile">
-			<p>Financial Specialist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga/Clinton</p>
 			</div></a>
             <a href="/careers/job_listing_5.php"><div class="content-tile content-tile-hide">
