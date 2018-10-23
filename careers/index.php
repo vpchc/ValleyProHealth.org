@@ -75,6 +75,10 @@
     <p>Interested in a career with Valley Professionals?</p>
     <p>View current job postings and submit your resume below.</p>
 		<div class="content-tiles">
+			<a href="/careers/job_listing_1.php"><div class="content-tile">
+			<p>Medical Receptionist</p>
+			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
+			</div></a>
 			<a href="/careers/job_listing_2.php"><div class="content-tile">
 			<p>CMA/LPN</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
@@ -83,10 +87,6 @@
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
             </div></a>
-			<a href="/careers/job_listing_5.php"><div class="content-tile content-tile-hide">
-			<p>Financial Specialist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga/Clinton</p>
-			</div></a>
     </div>
 		<h2 id="benefits">Benefits</h2>
     <p>Valley Professionals offers excellent benefits, including:</p>
