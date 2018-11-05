@@ -1282,6 +1282,9 @@ footer {
 #onsub * .vpchcbutton {
   font-size: 25px; }
 
+.onsub-hidden {
+  visibility: hidden; }
+
 /*------------------------------------*\
   #Contact Us
 \*------------------------------------*/
