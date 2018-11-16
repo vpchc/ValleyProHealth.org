@@ -1651,7 +1651,7 @@ footer {
     .location-description {
       display: block;
       margin: 0 auto;
-      width: 80%; } }
+      width: 70%; } }
 
 .location-info {
   width: 500px;
@@ -1715,8 +1715,7 @@ footer {
   line-height: 1.3; }
   @media only screen and (max-width: 1365px) {
     .location-contact {
-      width: 150px;
-      margin-left: 10px; } }
+      width: 150px; } }
 
 .location-contact > img {
   float: left;
@@ -1725,6 +1724,16 @@ footer {
     .location-contact > img {
       float: left;
       width: 12px; } }
+
+.location-center {
+  margin: 0 auto;
+  width: 1500px; }
+  @media only screen and (max-width: 1365px) {
+    .location-center {
+      width: 1200px; } }
+  @media only screen and (max-width: 1082px) {
+    .location-center {
+      width: 200px; } }
 
 .location-appts {
   margin-bottom: 5px;
@@ -1841,22 +1850,35 @@ footer {
   height: 370px;
   border: 0;
   position: relative;
-  bottom: 110px; }
+  bottom: 160px; }
   @media only screen and (max-width: 1365px) {
     .location-map {
-      margin-left: 20px;
-      width: 400px;
-      height: 350px;
+      margin-left: 10px;
+      width: 375px;
+      height: 325px;
+      bottom: 195px;
       border: 0; } }
   @media only screen and (max-width: 1082px) {
     .location-map {
       display: block;
       margin: 0 auto;
       width: 300px;
-      height: 300px; } }
+      height: 300px;
+      bottom: 0px;
+      top: 20px;
+      right: 0px; } }
 
 .location-height {
-  height: 620px; }
+  height: 650px;
+  margin-left: 45px; }
+  @media only screen and (max-width: 1365px) {
+    .location-height {
+      height: 700px;
+      margin-left: 20px; } }
+  @media only screen and (max-width: 1082px) {
+    .location-height {
+      height: 1700px;
+      margin: 0 auto; } }
 
 .location-button {
   text-align: center;
@@ -1864,12 +1886,34 @@ footer {
   font-size: 30px;
   font-family: "Franklin Gothic Medium", Georgia, serif;
   position: relative;
-  bottom: 220px;
-  right: 88px;
+  bottom: 270px;
+  right: 42px;
   background-color: #70b244;
-  width: 408px;
+  width: 410px;
   height: 40px;
   color: white; }
+  @media only screen and (max-width: 1365px) {
+    .location-button {
+      right: 20px;
+      bottom: 300px;
+      width: 375px; } }
+  @media only screen and (max-width: 1082px) {
+    .location-button {
+      display: none; } }
+
+.location-button-mobile {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", Georgia, serif;
+  background-color: #70b244;
+  width: 220px;
+  height: 40px;
+  color: white;
+  display: none; }
+  @media only screen and (max-width: 1082px) {
+    .location-button-mobile {
+      display: block;
+      margin: 10px auto; } }
 
 /*------------------------------------*\
   #News

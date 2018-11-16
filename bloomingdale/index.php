@@ -59,10 +59,12 @@
 	</div>
 	<div class="content centered large">
 		<div class="location-height">
+		<a href="/contact_us/index.php"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Bloomingdale</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 		</div>
+			<div class="location-center">
 			<div class="location-contact">
 			<p class="location-subtitle small">ADDRESS</p>
 			<p>201 W Academy Street<br/>Bloomingdale, IN 47832</p>
@@ -84,6 +86,7 @@
 			<p class="location-subtitle small">EXTENDED HOURS</p>
 			<p>Monday<br/>5:00 pm to 8:00 pm</p>
 			<p class="location-appts">(by appointment only)</p>
+		</div>
 		</div>
 		<div class="location-details">
 			<p class="location-title small"><a href="/about_us/providers_&_team.php">PROVIDERS &amp; TEAM</a></p>
@@ -113,7 +116,7 @@
 			<p class="location-subtitle small">Patient Care Coordinator</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Holli<span style="float: right; font-size: 16px; padding-top: 2px;">hgossett@vpchc.org&nbsp;</span></p></td> 
+					<td><p>Holli<span style="float: right; font-size: 16px;">hgossett@vpchc.org&nbsp;</span></p></td> 
 				</tr>
 			</table>
 			<br>

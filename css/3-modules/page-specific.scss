@@ -622,7 +622,7 @@
 		display: block;
 
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 	}
 }
 .location-info {
@@ -689,7 +689,6 @@
 	
 	@media only screen and (max-width: 1365px) {
 		width: 150px;
-		margin-left: 10px;
 	}
 }
 .location-contact > img{
@@ -699,10 +698,21 @@
 	@media only screen and (max-width: 1365px) { 
 	  float: left;
 		width: 12px;
-    
 	}
 }
-.location-appts { margin-bottom: 5px;
+.location-center { 
+	margin: 0 auto;
+	width: 1500px;
+	
+	@media only screen and (max-width: 1365px) {
+		width: 1200px;
+	}
+	@media only screen and (max-width: 1082px){
+		width: 200px;
+	}
+}
+.location-appts { 
+	margin-bottom: 5px;
 	font-size: 13px;
 }
 .location-walkin{ font-size: 13px;
@@ -841,36 +851,79 @@
   
 	border: 0;
 	position: relative;
-	bottom: 110px;
+	bottom: 160px;
 	
 	@media only screen and (max-width: 1365px) { 
-		margin-left: 20px;
-		width: 400px; 
-    height: 350px;
+		margin-left: 10px;
+		width: 375px; 
+    height: 325px;
+		bottom: 195px;
 
     border: 0;
 	}
 	
 	@media only screen and (max-width: 1082px) { 
 		display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     
 		width: 300px; 
 		height: 300px;
+		bottom: 0px;
+		top: 20px;
+		right: 0px;
 	}
 }
-.location-height { height: 620px;}
-.location-button { text-align: center;
+.location-height { 
+	height: 650px;
+	margin-left: 45px;
+
+	@media only screen and (max-width: 1365px){
+		height: 700px;	
+		margin-left: 20px;
+	}
+	
+	@media only screen and (max-width: 1082px){
+		height: 1700px;
+		margin: 0 auto;
+	}
+}
+.location-button { 
+		text-align: center;
 		float: right;
 		font-size: 30px;
 		font-family: "Franklin Gothic Medium", Georgia, serif;
 		position: relative;
-		bottom: 220px;
-		right: 88px;
+		bottom: 270px;
+		right: 42px;
 		background-color: $vpchc-green;
-		width: 408px;
+		width: 410px;
 		height: 40px;
 		color: white;
+	
+	@media only screen and (max-width: 1365px){
+		right: 20px;
+		bottom: 300px;
+		width: 375px;
+	}
+	
+	@media only screen and (max-width: 1082px){
+		display: none;
+	}
+}
+.location-button-mobile { 
+		text-align: center;
+		font-size: 30px;
+		font-family: "Franklin Gothic Medium", Georgia, serif;
+		background-color: $vpchc-green;
+		width: 220px;
+		height: 40px;
+		color: white;
+		display: none;
+	
+	@media only screen and (max-width: 1082px){
+		display: block;
+		margin: 10px auto;
+	}
 }
 /*------------------------------------*\
   #News
