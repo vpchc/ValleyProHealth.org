@@ -687,8 +687,14 @@
 	font-family: "Franklin Gothic Regular";
 	line-height: 1.3;
 	
+	&.large{ 
+		width: 170px;
+		font-size: 15px;
+	}
+	
 	@media only screen and (max-width: 1365px) {
 		width: 150px;
+		&.large{ width: 130px;}
 	}
 }
 .location-contact > img{
@@ -853,6 +859,8 @@
 	position: relative;
 	bottom: 160px;
 	
+	&.large { bottom: 210px;}
+	
 	@media only screen and (max-width: 1365px) { 
 		margin-left: 10px;
 		width: 375px; 
@@ -860,6 +868,8 @@
 		bottom: 195px;
 
     border: 0;
+		
+		&.large { bottom: 190px;}
 	}
 	
 	@media only screen and (max-width: 1082px) { 
@@ -874,17 +884,20 @@
 	}
 }
 .location-height { 
-	height: 650px;
+	height: 780px;
 	margin-left: 45px;
+	
+	&.large{ height: 950px;}
 
 	@media only screen and (max-width: 1365px){
-		height: 700px;	
 		margin-left: 20px;
 	}
 	
 	@media only screen and (max-width: 1082px){
-		height: 1700px;
+		height: 1850px;
 		margin: 0 auto;
+		
+		&.large{ height: 2400px;}
 	}
 }
 .location-button { 
@@ -900,10 +913,17 @@
 		height: 40px;
 		color: white;
 	
+	&.large { bottom: 300px;}
+	
 	@media only screen and (max-width: 1365px){
 		right: 20px;
 		bottom: 300px;
 		width: 375px;
+		
+		&.large { 
+			bottom: 370px;
+			right: 5px;
+		}
 	}
 	
 	@media only screen and (max-width: 1082px){
@@ -915,7 +935,7 @@
 		font-size: 30px;
 		font-family: "Franklin Gothic Medium", Georgia, serif;
 		background-color: $vpchc-green;
-		width: 220px;
+		width: 70%;
 		height: 40px;
 		color: white;
 		display: none;

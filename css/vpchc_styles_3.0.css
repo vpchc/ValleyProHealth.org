@@ -1713,9 +1713,14 @@ footer {
   float: left;
   font-family: "Franklin Gothic Regular";
   line-height: 1.3; }
+  .location-contact.large {
+    width: 170px;
+    font-size: 15px; }
   @media only screen and (max-width: 1365px) {
     .location-contact {
-      width: 150px; } }
+      width: 150px; }
+      .location-contact.large {
+        width: 130px; } }
 
 .location-contact > img {
   float: left;
@@ -1851,13 +1856,17 @@ footer {
   border: 0;
   position: relative;
   bottom: 160px; }
+  .location-map.large {
+    bottom: 210px; }
   @media only screen and (max-width: 1365px) {
     .location-map {
       margin-left: 10px;
       width: 375px;
       height: 325px;
       bottom: 195px;
-      border: 0; } }
+      border: 0; }
+      .location-map.large {
+        bottom: 190px; } }
   @media only screen and (max-width: 1082px) {
     .location-map {
       display: block;
@@ -1869,16 +1878,19 @@ footer {
       right: 0px; } }
 
 .location-height {
-  height: 650px;
+  height: 780px;
   margin-left: 45px; }
+  .location-height.large {
+    height: 950px; }
   @media only screen and (max-width: 1365px) {
     .location-height {
-      height: 700px;
       margin-left: 20px; } }
   @media only screen and (max-width: 1082px) {
     .location-height {
-      height: 1700px;
-      margin: 0 auto; } }
+      height: 1850px;
+      margin: 0 auto; }
+      .location-height.large {
+        height: 2400px; } }
 
 .location-button {
   text-align: center;
@@ -1892,11 +1904,16 @@ footer {
   width: 410px;
   height: 40px;
   color: white; }
+  .location-button.large {
+    bottom: 300px; }
   @media only screen and (max-width: 1365px) {
     .location-button {
       right: 20px;
       bottom: 300px;
-      width: 375px; } }
+      width: 375px; }
+      .location-button.large {
+        bottom: 370px;
+        right: 5px; } }
   @media only screen and (max-width: 1082px) {
     .location-button {
       display: none; } }
@@ -1906,7 +1923,7 @@ footer {
   font-size: 30px;
   font-family: "Franklin Gothic Medium", Georgia, serif;
   background-color: #70b244;
-  width: 220px;
+  width: 70%;
   height: 40px;
   color: white;
   display: none; }

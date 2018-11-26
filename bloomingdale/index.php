@@ -59,7 +59,7 @@
 	</div>
 	<div class="content centered large">
 		<div class="location-height">
-		<a href="/contact_us/index.php"><div class="location-button-mobile">Contact Us</div></a>
+		<a href="/contact_us/index.php" style="text-decoration: none;"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Bloomingdale</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
