@@ -84,6 +84,10 @@
     <p>Interested in a career with Valley Professionals?</p>
     <p>View current job postings and submit your resume below.</p>
 		<div class="content-tiles">
+			<a href="/careers/job_listing_3.php"><div class="content-tile">
+			<p>Accounting Assistant</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+			</div></a>
 			<a href="/careers/job_listing_2.php"><div class="content-tile">
 			<p>CMA/LPN</p>
 			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
