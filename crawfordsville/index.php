@@ -67,7 +67,7 @@
 			<div class="location-center">
 			<div class="location-contact">
 			<p class="location-subtitle small">ADDRESS</p>
-			<p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
+			<p>201 W Academy Street<br/>Bloomingdale, IN 47832</p>
 		</div>
 			<div class="location-contact">
 			<p class="location-subtitle small">PHONE/FAX</p>
@@ -81,7 +81,7 @@
 			<p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
 			<p class="location-appts">(by appointment only)</p>
 			<p>Closed<br/>12:00 pm to 1:00 pm</p>
-			<p>Phone calls accepted during this time.</p>
+			<p class="location-appts">Phone calls accepted during this time.</p>
 		</div>
 		</div>
 		<div class="location-details">
@@ -94,36 +94,38 @@
 					<td><p>Dr. Anastasia Yi, MD</p></td> 
 				</tr>
 				<tr>
-					<td><p>Louwanna Wallace, FNP-C</p></td>
+					<td><p>Jessica Bekkering, FNP-C</p></td>
 				</tr>
 			</table>
 			<br>
 			<p class="location-subtitle small">Behavioral Health</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Zac Milam, LMHC</p></td> 
-					<td><p>Megan Neitling, LMHCA</p></td> 
+					<td><p>Dr. Paul Taraska, MD</p></td> 
+					<td><p>Misha Bennett, LCSW</p></td> 
 				</tr>
 				<tr>
-					<td><p>Jason Heck, PMHNP</p></td>
+					<td><p>Keith Seegers, LCSW</p></td>
+					<td><p>Dana Tinkle, LMHC, RPT</p></td>
 				</tr>
 			</table>
 			<br>
 			<p class="location-subtitle small">Patient Care Coordinator</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Holli<span style="float: right; font-size: 16px;">hgossett@vpchc.org&nbsp;</span></p></td> 
+					<td><p>Beth<span style="float: right; font-size: 16px;">eturner@vpchc.org&nbsp;</span></p></td> 
 				</tr>
 			</table>
 			<br>
 			<p class="location-subtitle small">Community Health Worker</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Drue<span style="float: right; font-size: 16px; padding-top: 2px;">dholtkamp@vpchc.org&nbsp;</span></p></td>
+					<td><p>Kristin<span style="float: right; font-size: 16px; padding-top: 2px;">kvaught@vpchc.org&nbsp;</span></p></td>
 				</tr>
 			</table>
 		</div>
-			<a href="/contact_us/index.php"><div class="location-button">Contact Us</div></a>
+			<br>
+			<a href="/contact_us/index.php"><div class="location-button long">Contact Us</div></a>
 		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
 	</div>
 </div>

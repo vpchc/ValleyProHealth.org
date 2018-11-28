@@ -1905,7 +1905,13 @@ footer {
   height: 40px;
   color: white; }
   .location-button.large {
-    bottom: 300px; }
+    bottom: 305px; }
+  .location-button.long {
+    bottom: 305px; }
+  .location-button.longer {
+    bottom: 305px; }
+  .location-button.longest {
+    bottom: 385px; }
   @media only screen and (max-width: 1365px) {
     .location-button {
       right: 20px;
@@ -1913,7 +1919,16 @@ footer {
       width: 375px; }
       .location-button.large {
         bottom: 370px;
-        right: 5px; } }
+        right: 5px; }
+      .location-button.long {
+        bottom: 340px;
+        right: 21px; }
+      .location-button.longer {
+        bottom: 380px;
+        right: 21px; }
+      .location-button.longest {
+        bottom: 416px;
+        right: 21px; } }
   @media only screen and (max-width: 1082px) {
     .location-button {
       display: none; } }

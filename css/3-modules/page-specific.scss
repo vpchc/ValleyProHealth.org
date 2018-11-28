@@ -913,7 +913,10 @@
 		height: 40px;
 		color: white;
 	
-	&.large { bottom: 300px;}
+	&.large { bottom: 305px;}
+	&.long { bottom: 305px;}
+	&.longer { bottom: 305px;}
+	&.longest { bottom: 385px;}
 	
 	@media only screen and (max-width: 1365px){
 		right: 20px;
@@ -923,6 +926,15 @@
 		&.large { 
 			bottom: 370px;
 			right: 5px;
+		}
+		&.long { bottom: 340px;
+						 right: 21px;
+		}
+		&.longer { bottom: 380px;
+							 right: 21px;
+		}
+		&.longest { bottom: 416px;
+								right: 21px;
 		}
 	}
 	
