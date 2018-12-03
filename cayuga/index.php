@@ -52,7 +52,7 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
 	<div class="banner">
-    <img src="/images/locations/banner_cayuga.jpg">
+    <img src="/images/locations/banner_cayuga2.jpg">
     <div class="banner-title">
       <h1>Cayuga</h1>
 		</div>
