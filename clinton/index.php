@@ -52,7 +52,7 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
 	<div class="banner">
-    <img src="/images/locations/banner_clinton2.jpg">
+    <img src="/images/locations/banner_clinton3.jpg">
     <div class="banner-title">
       <h1>Clinton</h1>
 		</div>
@@ -150,8 +150,8 @@
 			<p class="location-subtitle small">Patient Care Coordinators</p>
 			<table class="team-table">
 				<tr>
-					<td><p>Jill Slaven<span style="float: right; font-size: 14px; padding-top: 2px;">jslaven@vpchc.org&nbsp;</span></p></td>
-					<td><p>Jana Smith<span style="float: right; font-size: 14px; padding-top: 2px;">jsmith@vpchc.org&nbsp;</span></p></td>
+					<td><p>Jill<span style="float: right; font-size: 14px; padding-top: 2px;">jslaven@vpchc.org&nbsp;</span></p></td>
+					<td><p>Jana<span style="float: right; font-size: 14px; padding-top: 2px;">jsmith@vpchc.org&nbsp;</span></p></td>
 				</tr>
 			</table>
 			<br>
