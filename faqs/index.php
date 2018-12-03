@@ -180,7 +180,7 @@
 				<p class="tab-question">What if I am unable to pay my bill?</p>
 			</div>
 			<div class="tab-box">
-				<p class="tab-answer">If you unable to pay your bill, feel free to contact our Billing Department at (765) 828-1000 to set up a payment plan that works for you.</p>
+				<p class="tab-answer">If you unable to pay your bill, feel free to contact our Billing Department at (765) 832-1000 to set up a payment plan that works for you.</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -188,7 +188,7 @@
 				<p class="tab-question">What if I have other questions about billing?</p>
 			</div>
 			<div class="tab-box">
-				<p class="tab-answer">For all inquiries regarding billing, please contact our Billing Department at (765) 828-1000.</p>
+				<p class="tab-answer">For all inquiries regarding billing, please contact our Billing Department at (765) 832-1000.</p>
 			</div>
 		</div>
 		<h3 id="serv">Services</h3>
