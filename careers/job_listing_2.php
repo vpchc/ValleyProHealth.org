@@ -53,17 +53,15 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>CMA/LPN - Terre Haute</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a CMA/LPN for its Terre Haute office.</p>
+  	<h6>Dental Assistant - Cayuga</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Dental Assistant for its Cayuga office.</p>
     <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Providing professional nursing services and patient care</li>
-    <li class="green-bullet">Patient assessment</li>
-    <li class="green-bullet">Taking vitals</li>
-    <li class="green-bullet">Assisting the provider in minor procedures</li>
-    <li class="green-bullet">Assist in answering phone calls, scheduling patients, and checking-in patients</li>
+    <li class="green-bullet">Assisting the dentist in providing oral health care</li>
+    <li class="green-bullet">Preparing and maintaining dental equipment</li>
+    <li class="green-bullet">Collecting and maintaining patient health records</li>
+    <li class="green-bullet">Other general front office and assisting duties as assigned</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">Current certification or licensure as a Medical Assistant or Nurse required</li>
-		<li class="green-bullet">Two to three years primary care experience preferred</li>
+		<li class="green-bullet">Ideal candidates should possess a minimum of one year experience and expanded duties certification</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_1.php" name="referer">
@@ -87,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA/LPN - Terre Haute">
+        <input type="hidden" name="subject" value="Dental Assistant - Cayuga">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

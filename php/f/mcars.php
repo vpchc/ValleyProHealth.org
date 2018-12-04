@@ -64,12 +64,12 @@ require_once('../PHPMailer/PHPMailerAutoload.php');
     $sendemail = 'vpchcenter@gmail.com';
     $mail->setFrom($sendemail, 'Online Application');
     //Set who the message is to be sent to
-    $mail->addAddress('tmartin@vpchc.org', 'Tiffani Martin');
+    $mail->addAddress('mshumaker@vpchc.org', 'Mackenzie Shumaker');
     //Set the subject line
     $mail->Subject = $subject;
     //Read an HTML message body from an external file, convert referenced images to embedded,
     //convert HTML into a basic plain-text alternative body
-    $jobmessage = 'Tiffani, </br> You have an applicant for the position' . ' ' . $subject . ' ' . ' whose name is' . ' ' . $fullname . ' ' . 'and email is' . ' ' . $email . '.</br></br>' . 'This is an automated message. Do not reply.';
+    $jobmessage = 'Mackenzie, </br> You have an applicant for the position' . ' ' . $subject . ' ' . ' whose name is' . ' ' . $fullname . ' ' . 'and email is' . ' ' . $email . '.</br></br>' . 'This is an automated message. Do not reply.';
     $mail->msgHTML($jobmessage);
     //Attach an image file
     $mail->addAttachment( $_FILES['resume']['tmp_name'], $_FILES['resume']['name'] );

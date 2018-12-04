@@ -89,9 +89,9 @@
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
 			</div></a>
 			<a href="/careers/job_listing_2.php"><div class="content-tile">
-			<p>CMA/LPN</p>
-			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
-			</div></a>
+			<p>Dental Assistant</p>
+			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
+      </div></a>
 			<a href="/careers/job_listing_4.php"><div class="content-tile">
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
