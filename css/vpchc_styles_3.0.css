@@ -185,6 +185,9 @@ header {
 #contact.dropdown:hover .dropdown-content {
   height: 54px; }
 
+#patientresources.dropdown:hover .dropdown-content {
+  height: 54px; }
+
 /*----Mobile----*/
 #navlinks-mobile {
   display: none;
@@ -1375,6 +1378,18 @@ footer {
     .dental-patches {
       width: 170px;
       height: 200px; } }
+
+/*------------------------------------*\
+  #Diabetes
+\*------------------------------------*/
+.diabetes-header {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #3a4e8c; }
+  .diabetes-header.small {
+    font-size: 30px; }
 
 /*------------------------------------*\
   #Forms

@@ -53,10 +53,10 @@
 <main>
 	<div class="content centered large">
 		<h4>Crawfordsville</h4>
-		<img class="location-photo" src="/images/locations/banner_crawfordsville.jpg"/>
+		<img class="location-photo" src="/images/locations/banner_crawfordsville2.jpg"/>
 		<div class="location-info small">
 			<p class="location-title small">CONTACT US</p>
-			<p>1810 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
+			<p>1702 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
 			<div class="location-contact">
 				<img src="/images/locations/icon_phone.png" alt="phone number">
 				<p>(765) 362-5100</p>
@@ -88,14 +88,16 @@
 			<table class="team-table">
 				<tr>
 					<td><p>Dr. Patrick Foley, MD</p></td>
-                    <td><p>Jessica Bekkering, FNP-C</p></td> 
+					<td><p>Dr. Anastasia Yi, MD</p></td> 
 				</tr>
 				<tr>
-					<td><p>Dr. Paul Taraska, MD</p></td> 
+					<td><p>Jessica Bekkering, FNP-C</p></td>
+					<td><p>Dr. Paul Taraska, MD</p></td>
+				<tr>
 					<td><p>Misha Bennett, LCSW</p></td>
+					<td><p>Keith Seegers, LCSW</p></td>
 				</tr>
 				<tr>
-					<td><p>Keith Seegers, LCSW</p></td>
 					<td><p>Dana Tinkle, LMHC, RPT</p></td>
 				</tr>
 			</table>
