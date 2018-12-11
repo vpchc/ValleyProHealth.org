@@ -55,7 +55,7 @@
 	<h4>Clinton</h4>
   <img class="location-photo" src="/images/locations/banner_clinton.jpg"/>
   <div class="location-info large">
-  	<p class="location-title large">CONTACT US</p>
+  	<p class="location-title large"><a href="/contact_us/index.php">CONTACT US</a></p>
     <p>777 S. Main Street, Suite 100<br/>Clinton, IN 47842</p>
     <div class="location-contact">
       <img src="/images/locations/icon_phone.png" alt="phone number">

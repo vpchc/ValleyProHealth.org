@@ -1707,6 +1707,13 @@ footer {
     margin-top: 5px;
     font-size: 25px; } }
 
+.location-title a {
+  text-decoration: none;
+  color: #3a4e8c; }
+
+.location-title a:hover {
+  color: #70b244; }
+
 .location-subtitle.small {
   font-size: 25px; }
 .location-subtitle.large {

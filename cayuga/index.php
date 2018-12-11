@@ -55,7 +55,7 @@
   <h4>Cayuga</h4>
 	<img class="location-photo" src="/images/locations/banner_cayuga.jpg"/>
   <div class="location-info small">
-  	<p class="location-title small">CONTACT US</p>
+		<p class="location-title small"><a href="/contact_us/index.php">CONTACT US</a></p>
     <p>703 W. Park Street<br/>Cayuga, IN 47928</p>
     <div class="location-contact">
     	<img src="/images/locations/icon_phone.png" alt="phone number">
