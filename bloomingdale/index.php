@@ -74,19 +74,7 @@
 			<p class="location-appts">(by appointment only)</p>
 		</div>
 		<div class="location-details">
-			<p class="location-title small">SERVICES</p>
-			<div class="location-services">
-				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-				<span>Primary Care</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-				<span>Behavioral Health</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
-				<span>Patient Support</span>
-			</div>
+			<p>Valley Professionals – Bloomingdale opened in January of 2013 and has created access to health care services for this small Parke County town of 330.  The Bloomingdale health center offers primary care, behavioral health and patient resource services.  To provide expanded services, the health center offers evening hours every Monday from 5:00 p.m. – 8:00 p.m.</p>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
