@@ -54,6 +54,16 @@
   <div class="content centered large">
 		<h4>Mobile School-Based Health Center</h4>
 		<img class="location-photo" src="/images/locations/banner_msbhc.jpg"/>
+		
+		<div class="school-sidebar">
+		<a href="#bus"><button class="school-sidebar button">Mobile Health Center</button></a>
+		<a href="#bh"><button class="school-sidebar button">Behavioral Health</button></a>
+		<a href="#dental"><button class="school-sidebar button">Dental</button></a>
+		<a href="#forms"><button class="school-sidebar button">Forms</button></a>
+		</div>
+		
+		<a href="/contact_us/index.php"><div class="location-button school">Contact Us</div></a>
+		
 		<div class="location-info small">
 			<p class="location-title small">CONTACT US</p>
 			<div class="location-contact">
@@ -63,15 +73,6 @@
 			</div>
 		</div>
 		<div class="location-details">
-			<p class="location-title small">SERVICES</p>
-			<div class="location-services">
-				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-				<span>Primary Care</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-				<span>Behavioral Health</span>
-			</div>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr> 

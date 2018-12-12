@@ -1912,6 +1912,11 @@ footer {
     bottom: 305px; }
   .location-button.longest {
     bottom: 385px; }
+  .location-button.school {
+    bottom: 120px;
+    left: 1px;
+    height: 50px;
+    font-size: 40px; }
   @media only screen and (max-width: 1365px) {
     .location-button {
       right: 20px;
@@ -1946,6 +1951,22 @@ footer {
     .location-button-mobile {
       display: block;
       margin: 10px auto; } }
+
+.school-sidebar {
+  text-align: center;
+  float: right;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", Georgia, serif;
+  background-color: #3a4e8c;
+  height: 50px;
+  width: 410px; }
+
+.school-sidebar button {
+  margin-bottom: 10px;
+  color: white; }
+
+.school-sidebar button a {
+  text-decoration: none; }
 
 /*------------------------------------*\
   #News
