@@ -71,19 +71,11 @@
 			<p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.</p>
 		</div>
 		<div class="location-details">
-			<p class="location-title small">SERVICES</p>
-			<div class="location-services">
-				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-				<span>Primary Care</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-				<span>Behavioral Health</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/patient_support.php"><img src="/images/services/ps_icon.png" alt="Patient Support services"/></a>
-				<span>Patient Support</span>
-			</div>
+			<p class="location-title small">Crawfordsville</p>
+			<div class="location-description">
+				<p>Valley Professionals in Crawfordsville opened in August of 2015 and has created access to health care services for many in the area.  The Crawfordsville health center offers primary care, behavioral health and patient resource services, serving patients Monday through Friday.
+				</p></div>
+		<br>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
@@ -102,7 +94,7 @@
 				</tr>
 			</table>
 		</div>
-		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
+		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.000844325282!2d-86.90848804769851!3d40.065185287259936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1544708340782" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

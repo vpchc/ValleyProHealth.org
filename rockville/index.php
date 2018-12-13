@@ -72,11 +72,11 @@
 			<p>Closed<br/>12:30 p.m. – 1:30 p.m.</p>
 		</div>
 		<div class="location-details">
-			<p class="location-title small">SERVICES</p>
-			<div class="location-services">
-				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-				<span>Primary Care</span>
-			</div>
+			<p class="location-title small">Rockville</p>
+			<div class="location-description">
+				<p>Valley Professionals in Rockville opened in April of 2017 and has created access to health care services for many in Parke County and the surrounding area.  The Rockville health center offers primary care, behavioral health and patient resource services, serving patients Monday through Friday. 
+				</p></div>
+		<br>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>

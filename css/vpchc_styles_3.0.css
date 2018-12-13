@@ -1657,6 +1657,18 @@ footer {
 /*------------------------------------*\
   #Locations
 \*------------------------------------*/
+.location-description {
+  font-family: "Franklin Gothic", Times, serif;
+  width: 800px; }
+  @media only screen and (max-width: 1365px) {
+    .location-description {
+      width: 634px; } }
+  @media only screen and (max-width: 1082px) {
+    .location-description {
+      display: block;
+      margin: 0 auto;
+      width: 70%; } }
+
 .location-photo {
   width: 800px; }
   @media only screen and (max-width: 1365px) {

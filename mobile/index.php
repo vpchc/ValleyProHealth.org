@@ -63,15 +63,11 @@
 			</div>
 		</div>
 		<div class="location-details">
-			<p class="location-title small">SERVICES</p>
-			<div class="location-services">
-				<a href="/services/primary_care.php"><img src="/images/services/med_icon.png"/ alt="Primary Care services"></a>
-				<span>Primary Care</span>
-			</div>
-			<div class="location-services">
-				<a href="/services/behavioral_health.php"><img src="/images/services/bh_icon.png" alt="Behavioral Health services"/></a>
-				<span>Behavioral Health</span>
-			</div>
+			<p class="location-title small">Mobile Health Center</p>
+			<div class="location-description">
+				<p>The Valley Professionals Mobile Health Center is a mobile medical clinic that travels to local school corporations in Parke, Vermillion and Vigo counties. The mobile health center provides a full range of health care services, so students can avoid health-related absences and get additional support to succeed in the classroom. The mobile health center provides scheduled, on-site access during the academic day when school is in session. 
+				</p></div>
+		<br>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr> 

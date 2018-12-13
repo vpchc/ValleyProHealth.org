@@ -74,7 +74,10 @@
 			<p class="location-appts">(by appointment only)</p>
 		</div>
 		<div class="location-details">
-			<p>Valley Professionals – Bloomingdale opened in January of 2013 and has created access to health care services for this small Parke County town of 330.  The Bloomingdale health center offers primary care, behavioral health and patient resource services.  To provide expanded services, the health center offers evening hours every Monday from 5:00 p.m. – 8:00 p.m.</p>
+			<p class="location-title small">Bloomingdale</p>
+			<div class="location-description">
+				<p>Valley Professionals in Bloomingdale opened in January of 2013 and has created access to health care services for this small Parke County town and surrounding areas.  The Bloomingdale health center offers primary care, behavioral health and patient resource services.  To provide expanded services, the health center offers evening hours every Monday from 5:00 p.m. – 8:00 p.m.</p></div>
+			<br>
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr>
