@@ -62,7 +62,7 @@
 		<a href="/contact_us/index.php" style="text-decoration: none;"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Bloomingdale</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		<p>Valley Professionals in Bloomingdale opened in January of 2013 and has created access to health care services for this small Parke County town and surrounding areas. The Bloomingdale health center offers primary care, behavioral health and patient resource services. To provide expanded services, the health center offers evening hours every Monday from 5:00 p.m. – 8:00 p.m.</p>
 		</div>
 			<div class="location-center">
 			<div class="location-contact">
@@ -127,8 +127,8 @@
 				</tr>
 			</table>
 		</div>
-			<a href="/contact_us/index.php"><div class="location-button">Contact Us</div></a>
-		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
+			<a href="/contact_us/index.php"><div class="location-button bloom">Contact Us</div></a>
+		<iframe class="location-map bloom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
 	</div>
 </div>
 </main>

@@ -52,7 +52,7 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
 	<div class="banner">
-    <img src="/images/locations/banner_crawfordsville.jpg">
+    <img src="/images/locations/banner_crawfordsville2.jpg">
     <div class="banner-title">
       <h1>Crawfordsville</h1>
 		</div>
@@ -62,12 +62,12 @@
 		<a href="/contact_us/index.php" style="text-decoration: none;"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Crawfordsville</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		<p>Valley Professionals in Crawfordsville opened in August of 2015 and has created access to health care services for many in the area. The Crawfordsville health center offers primary care, behavioral health and patient resource services, serving patients Monday through Friday.</p>
 		</div>
 			<div class="location-center">
 			<div class="location-contact">
 			<p class="location-subtitle small">ADDRESS</p>
-			<p>201 W Academy Street<br/>Bloomingdale, IN 47832</p>
+			<p>1702 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
 		</div>
 			<div class="location-contact">
 			<p class="location-subtitle small">PHONE/FAX</p>
@@ -125,8 +125,8 @@
 			</table>
 		</div>
 			<br>
-			<a href="/contact_us/index.php"><div class="location-button long">Contact Us</div></a>
-		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.428663589502!2d-86.91026408496556!3d40.065849379407375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505918050240" allowfullscreen></iframe>
+			<a href="/contact_us/index.php"><div class="location-button craw">Contact Us</div></a>
+		<iframe class="location-map craw" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.000844325282!2d-86.90848804769851!3d40.065185287259936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812d7d39d094ed9%3A0x34eec2e216da0ba6!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1544708340782" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 </div>
 </main>

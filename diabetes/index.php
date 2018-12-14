@@ -52,30 +52,47 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
 	<div class="banner">
-    <img src="/images/banner/about_us_news&events.jpg">
+    <img src="/images/banner/patient_resources_diabetes.jpg">
     <div class="banner-title">
-      <h1>Diabetes Support Group</h1>
+      <h1>Diabetes</h1>
     </div>
   </div>
   <div class="content">
-    <h2>Are you Diabetic?</h2>
-    <p>Valley Professionals holds monthly Diabetes Support Group meetings that are completely free and open to anyone who is affected by Diabetes, even if you are not a patient with Valley Professionals.</p>
-		<h2>Sharing Tips for Successfully Managing your Diabetes</h2>
-    <p>Meetings will cover topics that include:</p>
-    <li class="blue-bullet">Healthy eating and snacking</li>
-    <li class="blue-bullet">Grocery shopping tips</li>
-    <li class="blue-bullet">Reading food labels</li>
-    <li class="blue-bullet">Staying Active</li>
-    <h2>Get to Know the Signs & Symptoms</h2>
-    <p>Part of managing diabetes is getting to know the signs, symptoms, and ways to avoid low blood sugar (hypoglycemia).</p>
-    <h3>3rd Tuesday of every month</h3>
-    <h3>Next meeting: July  17th</h3>
-    <h3>No RSVP or Registration required.</h3>
-    <p>Morning Session: <b>10am - 11am</b></p>
-    <p>Evening Session: <b>6pm - 7pm</b></p>  
-  	<p>For evening sessions we meet at 700 S Main Street across from our Clinton office.</p>
-  	<h2>Diabetes Tips & Recipes</h2>
-  	<p>Click <a href="tips.php">here</a> to access some quick tips and <a href="recipes.php">here</a> for some of the delicious recipes that have been featured at our meetings.</p>
+		<div class="diabetes-header">Do you have Diabetes?</div>
+		<br>
+    <p>Diabetes is the condition in which the body does not properly process food for use as energy. Most of the food we eat is turned into glucose, or sugar, for our bodies to use for energy. The pancreas, an organ that lies near the stomach, makes a hormone called insulin to help glucose get into the cells of our bodies. When you have diabetes, your body either doesn't make enough insulin or can't use its own insulin as well as it should. This causes sugars to build up in your blood. This is why many people refer to diabetes as &quot;sugar.&quot; Diabetes can cause serious health complications including heart disease, blindness, kidney failure, and lower-extremity amputations. Diabetes is the seventh leading cause of death in the United States.</p>
+		<br>
+		<div class="diabetes-header small">What are the symptoms of Diabetes?</div>
+		<br>
+		<p>People who think they might have diabetes must visit a medical provider for diagnosis. They might have SOME or NONE of the following symptoms:</p>
+		<table>
+    <tr>
+      <td><li class="green-bullet">Frequent urination</li></td>
+      <td><li class="green-bullet">Excessive thirst</li></td>
+		</tr>
+		<tr>
+      <td><li class="green-bullet">Unexplained weight loss</li></td>
+			<td><li class="green-bullet">Extreme hunger</li></td>
+		</tr>
+		<tr>
+			<td><li class="green-bullet">Sudden vision changes</li></td>
+      <td><li class="green-bullet">Tingling or numbness in hands or feet</li></td>
+		</tr>
+		<tr>
+      <td><li class="green-bullet">Feeling very tired much of the time</li></td>
+      <td><li class="green-bullet">Very dry skin</li></td>
+		</tr>
+		<tr>
+			<td><li class="green-bullet">Sores that are slow to heal</li></td>
+			<td><li class="green-bullet">More infections than usual</li></td>
+    </tr>
+    </table>
+	<br>
+		<p>Nausea, vomiting, or stomach pains may accompany some of these symptoms in the abrupt onset of insulin-dependent diabetes, now called Type 1 diabetes.</p>
+	<br>
+		<div class="diabetes-header small">Diabetes Support</div>
+		<br>
+		<p>If you or a family member has been diagnosed with diabetes or prediabetes, Valley Professionals holds monthly Diabetic Support Group meetings that are completely free, even if you are not a patient. Group meetings cover topics like healthy eating and snacking; grocery shopping tips; staying active; getting to know the signs and symptoms associated with diabetes; and avoiding low blood sugar (hypoglycemia).</p>
 	</div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>

@@ -185,6 +185,9 @@ header {
 #contact.dropdown:hover .dropdown-content {
   height: 54px; }
 
+#patientresources.dropdown:hover .dropdown-content {
+  height: 54px; }
+
 /*----Mobile----*/
 #navlinks-mobile {
   display: none;
@@ -1377,6 +1380,18 @@ footer {
       height: 200px; } }
 
 /*------------------------------------*\
+  #Diabetes
+\*------------------------------------*/
+.diabetes-header {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #3a4e8c; }
+  .diabetes-header.small {
+    font-size: 30px; }
+
+/*------------------------------------*\
   #Forms
 \*------------------------------------*/
 .forms * .vpchcbutton {
@@ -1858,6 +1873,14 @@ footer {
   bottom: 160px; }
   .location-map.large {
     bottom: 210px; }
+  .location-map.craw {
+    bottom: 150px; }
+  .location-map.rock {
+    bottom: 150px; }
+  .location-map.cayuga {
+    bottom: 150px; }
+  .location-map.bloom {
+    bottom: 170px; }
   @media only screen and (max-width: 1365px) {
     .location-map {
       margin-left: 10px;
@@ -1866,7 +1889,13 @@ footer {
       bottom: 195px;
       border: 0; }
       .location-map.large {
-        bottom: 190px; } }
+        bottom: 190px; }
+      .location-map.craw {
+        bottom: 165px; }
+      .location-map.rock {
+        bottom: 175px; }
+      .location-map.cayuga {
+        bottom: 170px; } }
   @media only screen and (max-width: 1082px) {
     .location-map {
       display: block;
@@ -1912,11 +1941,20 @@ footer {
     bottom: 305px; }
   .location-button.longest {
     bottom: 385px; }
+  .location-button.craw {
+    bottom: 295px; }
+  .location-button.rock {
+    bottom: 295px; }
+  .location-button.cayuga {
+    bottom: 255px; }
+  .location-button.bloom {
+    bottom: 275px; }
   .location-button.school {
     bottom: 120px;
     left: 1px;
     height: 50px;
-    font-size: 40px; }
+    font-size: 40px;
+    margin-right: 20px; }
   @media only screen and (max-width: 1365px) {
     .location-button {
       right: 20px;
@@ -1933,7 +1971,13 @@ footer {
         right: 21px; }
       .location-button.longest {
         bottom: 416px;
-        right: 21px; } }
+        right: 21px; }
+      .location-button.craw {
+        bottom: 305px; }
+      .location-button.rock {
+        bottom: 360px; }
+      .location-button.cayuga {
+        bottom: 275px; } }
   @media only screen and (max-width: 1082px) {
     .location-button {
       display: none; } }
@@ -1959,7 +2003,8 @@ footer {
   font-family: "Franklin Gothic Medium", Georgia, serif;
   background-color: #3a4e8c;
   height: 50px;
-  width: 410px; }
+  width: 410px;
+  margin-right: 10px; }
 
 .school-sidebar button {
   margin-bottom: 10px;

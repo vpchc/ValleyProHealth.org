@@ -62,7 +62,7 @@
 		<a href="/contact_us/index.php" style="text-decoration: none;"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Clinton</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		<p>Valley Professionals in Clinton opened in February 2008 in Vermillion County, becoming the health center’s first established clinic and operational hub. The Clinton health center offers primary care, behavioral health, and patient resource services. To provide expanded services, the health center offers an After-Hours Clinic for acute services on Monday - Thursday from 5:00 p.m. – 8:00 p.m. and a Saturday Clinic on Saturdays from 9:00 am – 1:00 pm.</p>
 		</div>
 			<div class="location-center">
 			<div class="location-contact large">

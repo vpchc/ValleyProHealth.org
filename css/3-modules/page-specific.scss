@@ -310,6 +310,20 @@
 }
 
 /*------------------------------------*\
+  #Diabetes
+\*------------------------------------*/
+
+.diabetes-header {
+	font-size: 50px;
+	font-family: "Franklin Gothic Medium", Times, serif;
+	font-weight: bold;
+	margin-left: 30px;
+	color: $vpchc-blue;
+	
+	&.small { font-size: 30px;}
+}
+
+/*------------------------------------*\
   #Forms
 \*------------------------------------*/
 
@@ -860,6 +874,10 @@
 	bottom: 160px;
 	
 	&.large { bottom: 210px;}
+	&.craw { bottom: 150px;}
+	&.rock { bottom: 150px;}
+	&.cayuga { bottom: 150px;}
+	&.bloom { bottom: 170px;}
 	
 	@media only screen and (max-width: 1365px) { 
 		margin-left: 10px;
@@ -870,6 +888,9 @@
     border: 0;
 		
 		&.large { bottom: 190px;}
+		&.craw { bottom: 165px;}
+		&.rock { bottom: 175px;}
+		&.cayuga { bottom: 170px;}
 	}
 	
 	@media only screen and (max-width: 1082px) { 
@@ -917,11 +938,16 @@
 	&.long { bottom: 305px;}
 	&.longer { bottom: 305px;}
 	&.longest { bottom: 385px;}
+	&.craw { bottom: 295px;}
+	&.rock { bottom: 295px;}
+	&.cayuga { bottom: 255px;}
+	&.bloom { bottom: 275px;}
 	&.school { 
 		bottom: 120px;
 		left: 1px;
 		height: 50px;
 		font-size: 40px;
+		margin-right: 20px;
 	}
 	
 	@media only screen and (max-width: 1365px){
@@ -942,6 +968,9 @@
 		&.longest { bottom: 416px;
 								right: 21px;
 		}
+		&.craw { bottom: 305px;}
+		&.rock { bottom: 360px;}
+		&.cayuga { bottom: 275px;}
 	}
 	
 	@media only screen and (max-width: 1082px){
@@ -971,6 +1000,7 @@
 	background-color: $vpchc-blue;
 	height: 50px;
 	width: 410px;
+	margin-right: 10px;
 }
 .school-sidebar button { 
 	margin-bottom: 10px;

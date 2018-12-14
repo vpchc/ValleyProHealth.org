@@ -62,7 +62,7 @@
 		<a href="/contact_us/index.php" style="text-decoration: none;"><div class="location-button-mobile">Contact Us</div></a>
 		<div class="location-description">
 		<div class="location-title small">Rockville</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		<p>Valley Professionals in Rockville opened in April of 2017 and has created access to health care services for many in Parke County and the surrounding area. The Rockville health center offers primary care, behavioral health and patient resource services, serving patients Monday through Friday.</p>
 		</div>
 			<div class="location-center">
 			<div class="location-contact">
@@ -113,8 +113,8 @@
 			</table>
 			<br>
 		</div>
-			<a href="/contact_us/index.php"><div class="location-button longer">Contact Us</div></a>
-		<iframe class="location-map" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196264.89879580302!2d-87.37579868359374!3d39.770211999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d47eec2769f41%3A0x3b8947820116cbf5!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917379068" style="border:0" allowfullscreen></iframe>
+			<a href="/contact_us/index.php"><div class="location-button rock">Contact Us</div></a>
+		<iframe class="location-map rock" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196264.89879580302!2d-87.37579868359374!3d39.770211999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d47eec2769f41%3A0x3b8947820116cbf5!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917379068" style="border:0" allowfullscreen></iframe>
 	</div>
 </div>
 </main>

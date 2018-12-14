@@ -57,6 +57,9 @@
       </li>
       <li id="patientresources" class="dropdown">
         <a class="navlink-category" href="/services/patient_resources.php">Patient Resources</a>
+				<div class="dropdown-content">
+				<a href="/diabetes/index.php">Diabetes</a>
+				</div>
       </li>
       <li id="patientportal" class="dropdown">
         <a class="navlink-category" href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp">Patient Portal</a>
