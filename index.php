@@ -95,7 +95,7 @@
 	</div>
 	<div class="home-about">
 		<img class="home-about-hands" src="/images/services/ps_icon.png" alt="VPCHC Volunteer Example">
-		<p>Valley Professionals Community Health Center is a Federally Qualified Health Center (FQHC) dedicated to serving those in need, a concept that is not exclusive to healthcare, but is present in everything we do. Whether a patient, fellow employee, local organization, or member of the community, we believe in rolling up our sleeves and lending a helping hand.</br></br>Valley Professionals opened its first clinic in Clinton, Indiana in 2008, and has since grown to include six additional clinics in Montgomery, Parke, Vermillion, and Vigo counties, as well as, a Mobile School-Based Health Center that visits local schools.</p>
+		<p>Valley Professionals Community Health Center is your home for health care!  As a Federally Qualified Health Center serving those in need and creating healthier communities, Valley Professionals provides primary care, behavioral health, dental and patient resource services. </br></br>Valley Professionals has clinics located in Montgomery, Parke, Vermillion and Vigo counties in Indiana, as well as a Mobile School-Based Health Center that visits local schools providing primary and behavioral health services.</p>
 		<img class="home-about-info" src="/images/homepage/10years_thankyou.jpg"\>
 	</div>
 	<div class="home-button-row">

@@ -53,16 +53,15 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Medical Receptionist - Crawfordsville</h6>
-    <p>Valley Professionals Community Health Center’s Crawfordsville office is looking to hire a medical receptionist.</p>
+  	<h6>Patient Care Coordinator - Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for its Clinton office.</p>
     <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Answering and directing phone calls</li>
-    <li class="green-bullet">Scheduling patient appointments</li>
-    <li class="green-bullet">Entering patient information</li>
-    <li class="green-bullet">Administrative duties and tasks including filing, faxing, and scanning documents into medical records</li>
+    <li class="green-bullet">Work directly with patients providing health education</li>
+    <li class="green-bullet">Work with patients to improve health outcomes</li>
+    <li class="green-bullet">Manage high risk patient care, including the management of patients with multiple co-morbidities</li>
+    <li class="green-bullet">Coordinate the continuity of patient care with external healthcare organizations</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">Minimum of 2 years’ experience in a medical setting </li>
-		<li class="green-bullet">Certification as a medical assistant preferred</li>
+		<li class="green-bullet">Must have current Indiana licensure as a Licensed Practical Nurse</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
@@ -86,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Medical Receptionist - Crawfordsville">
+        <input type="hidden" name="subject" value="Patient Care Coordinator - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
