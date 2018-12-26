@@ -52,7 +52,7 @@
 <header><?php include("../php/includes/header.php"); ?></header>
 <main>
   <div class="content centered large">
-		<h4>Mobile School-Based Health Center</h4>
+		<h4>School-Based Services</h4>
 		<img class="location-photo" src="/images/locations/banner_msbhc.jpg"/>
 		
 		<div class="school-sidebar">
@@ -64,23 +64,18 @@
 		
 		<a href="/contact_us/index.php"><div class="location-button school">Contact Us</div></a>
 		
-		<div class="location-info small">
-			<p class="location-title small">CONTACT US</p>
-			<div class="location-contact">
-				<img src="/images/locations/icon_phone.png" alt="phone number">
-				<p>(765) 592-6164</p>
-				<p>mobile@vpchc.org</p>
+			<div class="location-description">
+			<div class="location-title small">Mobile School-Based Health Center</div>
+			<p>The Mobile School-Based Health Center visits elementary, middle, and high schools in the South Vermillion, North Vermillion, Southwest Parke, North Central Parke, and West Vigo school districts making it even easier to access quality and affordable health care.</p>
+			<br>
+			<p>Every student is eligible to receive health care services from the Mobile Health Center when they turn in their completed enrollment form signed by a parent or guardian. Click <a href="/forms/index.php">here</a> to access enrollment forms.</p>
 			</div>
-		</div>
 		<div class="location-details">
-			<p class="location-title small">PROVIDERS</p>
+			<p class="location-title small"><a href="/about_us/providers_&_team.php">PROVIDERS &amp; TEAM</a></p>
 			<table class="team-table">
 				<tr> 
-					<td><p>Nicole Cook, FNP-C</p></td> 
+					<td><p>Christi Busenbark, FNP-C</p></td> 
 					<td><p>Renae Norman, FNP-C</p></td>
-				</tr>
-				<tr>
-					<td><p>Heather Woods, LMHC</p></td>
 				</tr>
 			</table>
 		</div>
@@ -93,7 +88,6 @@
 			</div>
 			<a class="bus-tracker-view vpchcbutton" href="https://calendar.google.com/calendar/embed?src=flc9fq7tt9nlo52qhlchoscu3s%40group.calendar.google.com&ctz=America/New_York">View Schedule</a>
 		</div>
-  </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>

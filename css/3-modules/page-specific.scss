@@ -59,9 +59,11 @@
 
 .bus-tracker{
 	display: inline-block;
+	position: relative;
 	
-	margin: 30px 0 0 50px;
-	width: 485px;
+	bottom: 200px;
+	margin: 0 0 0 110px;
+	width: 410px;
   height: 350px;
     
   border: 5px solid $vpchc-blue;
@@ -84,15 +86,15 @@
  	background: $light-blue;
  
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Franklin Gothic Medium", Times, serif;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
 }
 .bus-tracker * p {
-	font-size: 26px;
+	font-size: 21px;
   font-family: "Georgia", Times, serif;
-  font-weight: 900;
+  font-weight: 550;
 	
 	@media only screen and (max-width: 1365px) { font-size: 20px;}
 	
@@ -115,8 +117,8 @@
 }
 #bus-status-icon {
 	margin-right: 15px;
-  width: 30px;
-	height: 30px;
+  width: 28px;
+	height: 28px;
 
 	@media only screen and (max-width: 1082px) { 
 		margin-right: 5px;
@@ -128,6 +130,7 @@
 	display: block;
 	clear: both;
 	
+	bottom: 50px;
   margin: 0px auto;
   width: 160px;
 
@@ -997,12 +1000,13 @@
 	float: right;
 	font-size: 30px;
 	font-family: "Franklin Gothic Medium", Georgia, serif;
-	background-color: $vpchc-blue;
+	
 	height: 50px;
 	width: 410px;
 	margin-right: 10px;
 }
 .school-sidebar button { 
+	background-color: $vpchc-blue;
 	margin-bottom: 10px;
 	color: white;
 }
