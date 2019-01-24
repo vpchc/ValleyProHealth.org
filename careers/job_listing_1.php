@@ -53,15 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Patient Care Coordinator - Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for its Clinton office.</p>
+  	<h6>Administrative Assistant - Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a reliable and responsible Administrative Assistant.</p>
     <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Work directly with patients providing health education</li>
-    <li class="green-bullet">Work with patients to improve health outcomes</li>
-    <li class="green-bullet">Manage high risk patient care, including the management of patients with multiple co-morbidities</li>
-    <li class="green-bullet">Coordinate the continuity of patient care with external healthcare organizations</li>
-		<h2>Requirements:</h2>
-		<li class="green-bullet">Must have current Indiana licensure as a Licensed Practical Nurse</li>
+    <li class="green-bullet">Providing support to VPCHC Directors by organizing and scheduling appointments, planning meetings, taking detailed minutes, and handling any administrative requests.</li>
+    <li class="green-bullet">Responsible for making travel arrangements and maintaining the correspondence for the VPCHC Directors.</li>
+    		<h2>Requirements:</h2>
+		<li class="green-bullet">Two to three years experience as an administrative assistant with knowledge of office management systems and MS Office (Word, Excel, etc) required.</li>
+        <li class="green-bullet">Associates degree in office administration is preferred.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_3.php" name="referer">
@@ -85,7 +84,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Patient Care Coordinator - Clinton">
+        <input type="hidden" name="subject" value="Administrative Assistant - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

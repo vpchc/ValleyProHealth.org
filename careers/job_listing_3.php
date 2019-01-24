@@ -53,16 +53,15 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Accounting Assistant - Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire an Accounting Assistant for its Clinton location.</p>
+  	<h6>Community Health Worker - Float (Based out of Clinton)</h6>
+    <p>Valley Professionals Community Health Center is seeking a Community Health Worker (CHW)
+</p>
     <h2>Duties:</h2>
-    <li class="green-bullet">Accounts payable</li>
-    <li class="green-bullet">Sorting and distributing mail</li>
-    <li class="green-bullet">Preparing bank deposits</li>
-    <li class="green-bullet">Month-end general ledger accounts reconciliation</li>
+    <li class="green-bullet">CHWs are responsible for helping patients navigate and access community services, and assist patients in applying for publicly sponsored health care insurance plans.</li>
+    <li class="green-bullet">Must be willing to work flexible hours, including some weekends and evenings, and have reliable transportation to travel to various sites.</li>
 		<h2>Requirements:</h2>
-		<li class="green-bullet">Prior accounting experience</li>
-		<li class="green-bullet">Associates Degree in Accounting preferred</li>
+		<li class="green-bullet">High school diploma required.</li>
+		<li class="green-bullet">Three years experience in a public or private health or social agency preferred.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_2.php" name="referer">
@@ -86,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Accounting Assistant - Clinton">
+        <input type="hidden" name="subject" value="Community Health Worker - Float - Clinton">
         <div id="onsub-foot">
           <div id="onsub-foot-left">
             <span id="form-status">* required</span>

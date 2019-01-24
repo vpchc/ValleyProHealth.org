@@ -63,7 +63,7 @@
 		<hr>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Jon Beardsley<span>Board President</span></p>
+				<p class="tab-simple">John Beardsley<span>Board President</span></p>
 			</div>
 		</div>
 		<div class="tab">
@@ -73,7 +73,7 @@
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Ronda Foster<span>Board Secretary</span></p>
+				<p class="tab-simple">Doug Fauber<span>Board Secretary</span></p>
 			</div>
 		</div>
 		<div class="tab">
@@ -85,7 +85,7 @@
 		<hr>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Amy Newlin</p>
+				<p class="tab-simple">Mary Helderman</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -95,7 +95,7 @@
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Doug Fauber</p>
+				<p class="tab-simple">Yale Yager</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -115,17 +115,7 @@
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Lisa Taylor</p>
-			</div>
-		</div>
-		<div class="tab">
-			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Wendy Olson</p>
-			</div>
-		</div>
-		<div class="tab">
-			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Yale Yager</p>
+				<p class="tab-simple">Dave Chapman</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -138,7 +128,16 @@
 				<p class="tab-simple">Lou Bonomo</p>
 			</div>
 		</div>
-	</div>
+        <div class="tab">
+			<div class="tab-bar tabgrey">
+				<p class="tab-simple">Greg Harbison</p>
+		    </div>
+	    </div>
+        <div class="tab">
+			<div class="tab-bar tabgrey">
+				<p class="tab-simple">Lisa Taylor</p>
+		    </div>
+	    </div>
 </main>
 <footer><?php include("../php/includes/footer.php"); ?></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

@@ -53,20 +53,15 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Financial Specialist - Cayuga/Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking for a motivated individual with strong analytical and critical thinking skills to join their Billing Team. This individual will need to work well within a team environment and have strong communication and math skills.</p>
+  	<h6>Patient Intake Coordinator - Clinton</h6>
+    <p>Valley Professionals Community Health Center is seeking a Patient Intake Coordinator.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Posting payments from insurance and patients for clinic services.</li>
-    <li class="green-bullet">Scrubbing claims for accuracy and submitting to insurance companies.</li>
-    <li class="green-bullet">Working as a team to ensure other departments and patients have the support they need.</li>
-    <li class="green-bullet">Speaking with patients on the phone to explain their bills and setup payment plans.</li>
-    <li class="green-bullet">Work follow up and secondary claims.</li>
-    <li class="green-bullet">Work with clinical staff and providers to ensure documentation and coding is accurate.</li>
-    <li class="green-bullet">Speak with insurance companies on the phone to follow up on claims issues.</li>
+    <li class="green-bullet">Patient Intake Coordinators are responsible for assisting with patient admission and registration along with processing the information of patients.</li>
+    <li class="green-bullet">Tasked with managing paperwork, handling data entry, making phone calls and communicating with patients.</li>
+    <li class="green-bullet">Must be willing to work flexible hours.</li>
+    <li class="green-bullet">This position includes health care, school and home visit settings.</li>
         <h2>Requirements:</h2>
-    <li class="green-bullet">Minimum of two (2) years of post-high school education</li>
-    <li class="green-bullet">At least two (2) years of medical billing and coding experience</li>
-    <li class="green-bullet">Ability to adapt to changing conditions.</li>
+    <li class="green-bullet">Bachelor’s degree required and experience in the medical or social work field preferred.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -90,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Cayuga/Clinton Financial Specialist">
+        <input type="hidden" name="subject" value="Patient Intake Coordinator - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

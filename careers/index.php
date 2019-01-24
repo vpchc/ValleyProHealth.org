@@ -84,18 +84,22 @@
     <p>Interested in a career with Valley Professionals?</p>
     <p>View current job postings and submit your resume below.</p>
 		<div class="content-tiles">
-			<a href="/careers/job_listing_3.php"><div class="content-tile">
-			<p>Accounting Assistant</p>
+			<a href="/careers/job_listing_1.php"><div class="content-tile">
+			<p>Administrative Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
 			</div></a>
 			<a href="/careers/job_listing_2.php"><div class="content-tile">
-			<p>Dental Assistant</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
+			<p>Community Health Worker</p>
+			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
       </div></a>
-			<a href="/careers/job_listing_1.php"><div class="content-tile">
-			<p>Patient Care Coordinator</p>
+			<a href="/careers/job_listing_3.php"><div class="content-tile">
+			<p>Community Health Worker - Float</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
+            <a href="/careers/job_listing_5.php"><div class="content-tile">
+			<p>Patient Intake Coordinator</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+            </div></a>
 			<a href="/careers/job_listing_4.php"><div class="content-tile">
 			<p>Psychologist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
