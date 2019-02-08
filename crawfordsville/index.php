@@ -68,7 +68,7 @@
 			<p class="location-title small">HOURS</p>
 			<p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
 			<p class="location-appts">(by appointment only)</p>
-			<p>Closed<br/>12:00 p.m. – 1:00 p.m.,</br>Phone calls accepted during this time.</p>
+			<p>Closed<br/>12:00 p.m. – 1:00 p.m.</p>
 		</div>
 		<div class="location-details">
 			<p class="location-title small">Crawfordsville</p>
