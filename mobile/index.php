@@ -71,11 +71,12 @@
 			<p class="location-title small">PROVIDERS</p>
 			<table class="team-table">
 				<tr> 
-					<td><p>Nicole Cook, FNP-C</p></td> 
+					<td><p>Christi Busenbark, NP</p></td> 
 					<td><p>Renae Norman, FNP-C</p></td>
 				</tr>
 				<tr>
 					<td><p>Heather Woods, LMHC</p></td>
+                    <td><p>Amy Clarkson, LPN</p></td>
 				</tr>
 			</table>
 		</div>
