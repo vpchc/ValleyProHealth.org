@@ -84,9 +84,9 @@
 			</tr>
 			<tr>
 				<td>
-				 <a href="/crawfordsville/"><img src="/images/locations_small/crawfordsville.jpg" alt="Crawfordsville"/></a>
+				 <a href="/crawfordsville/"><img src="/images/locations_small/banner_crawfordsville3.jpg" alt="Crawfordsville"/></a>
 				 <p class="contact-location">Crawfordsville</p>
-				 <p class="contact-info street">1810 Lafayette Road</p>
+				 <p class="contact-info street">1702 Lafayette Road</p>
 				 <p class="contact-info state">Crawfordsville, IN 47933</p>
 				 <p class="contact-info">(765) 362-5100</p>
 				</td>
