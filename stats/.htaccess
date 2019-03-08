@@ -1,0 +1,13 @@
+AuthName "stats"
+AuthUserFile "/home/valleyp1/.htpasswds/public_html/stats/passwd"
+
+<FilesMatch "piwik.js$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+<FilesMatch "piwik.php$">
+Satisfy Any
+Allow from all
+</FilesMatch>
+AuthType Basic
+require valid-user

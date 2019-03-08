@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "bus_tracker"
+AuthUserFile "/home/valleyp1/.htpasswds/public_html/php/bus_tracker/passwd"
+require valid-user

@@ -1,0 +1,2 @@
+[26-Feb-2018 20:25:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Heatmap has a deprecated constructor in /home/valleyp1/public_html/stats/piwik/plugins/ClickHeat/libs/classes/Heatmap.class.php on line 12
+[23-Oct-2018 19:02:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Heatmap has a deprecated constructor in /home/valleyp1/public_html/stats/piwik/plugins/ClickHeat/libs/classes/Heatmap.class.php on line 12

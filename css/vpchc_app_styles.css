@@ -1,44 +1,44 @@
-/* ----------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ----------------------*/
-* { box-sizing: border-box;}
-body {
-    width: 100%;
-    margin: 0px;
-    background-color: #258f71;
-}
-footer{
-    clear: both;
-}
-#footerlink{
-    cursor: pointer;
-    vertical-align: middle;
-    font-size: 2.50em;
-    text-decoration: underline;
-}
-p {
-    text-align: center;
-    color: white;
-    font-family: "Franklin Gothic Medium", Times, serif;
-}
-.description{ font-size: 4.00em}
-#logo {
-    width: 80%;
-    vertical-align: bottom;
-}
-#phone {
-    width: 45%;
-}
-img {
-    height: auto;
-    margin: auto;
-    display: block;
-}
-#androidlink {
-    width: 40%;
-    height: auto;
-    float: left;
-}
-#ioslink {
-    width: 40%;
-    height: auto;
-    float: right;
+/* ----------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ----------------------*/
+* { box-sizing: border-box;}
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: #258f71;
+}
+footer{
+    clear: both;
+}
+#footerlink{
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 2.50em;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.description{ font-size: 4.00em}
+#logo {
+    width: 80%;
+    vertical-align: bottom;
+}
+#phone {
+    width: 45%;
+}
+img {
+    height: auto;
+    margin: auto;
+    display: block;
+}
+#androidlink {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+#ioslink {
+    width: 40%;
+    height: auto;
+    float: right;
 }
