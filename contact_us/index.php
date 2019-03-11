@@ -109,7 +109,7 @@
 				<td class="contact-hidden-row"></td>
 				<td>
 				 <a href="/mobile/"><img src="/images/locations_small/msbhc.jpg" alt="Mobile Health Center"/></a>
-				 <p class="contact-location">Mobile Health Center</p>
+				 <p class="contact-location">Mobile Health Center!</p>
 				 <p class="contact-info street">(765) 592-6164</p>
 				 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 				</td> 
