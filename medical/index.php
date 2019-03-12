@@ -49,54 +49,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <style>
-.footer-locations p {
-	margin: 0px;
+.bullet-indent {
+	margin-left: 46px;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #3a4e8c;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #70b244;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-p {
-  margin-bottom: 10px;
-  margin-top: 10px;
+.content li {
+	font-size: 34px;
+	color: #3a4e8c;
 }
 </style>
 
@@ -162,7 +121,7 @@ p {
 
     <div class="banner-title">
 
-      <h1>Patient-Centered Medical Home</h1>
+      <h1>Patient-Centered Medical</h1>
 
     </div>
 
@@ -180,31 +139,31 @@ p {
 
     <p>Your provider’s health care team will work together to meet your needs and provide continuous care. They will be familiar with your health history and have access to your most current health information. They are here to help you.</p>
 
-    <h2>Acute Care</h2>
+    <li class="green-bullet">Access to Care </li>
+	
+	<div class="bullet-indent">Being there when you need us. </div>
 
-    <li class="blue-bullet">Access to Care </li>
+    <li class="green-bullet">Accountability</li>
 	
-	Being there when you need us. 
+	<div class="bullet-indent">Taking responsibility to ensure that you receive the best healthcare possible.</div>
 
-    <li class="blue-bullet">Accountability</li>
+    <li class="green-bullet">Coordination & Integration </li>
 	
-	Taking responsibility to ensure that you receive the best healthcare possible.
+	<div class="bullet-indent">Helping you navigate the healthcare system to get the care you need safely and efficiently.</div>
 
-    <li class="blue-bullet">Coordination & Integration </li>
+    <li class="green-bullet">Individual and Family-Centered Care </li>
 	
-	Helping you navigate the healthcare system to get the care you need safely and efficiently.
+	<div class="bullet-indent">Recognizing that you are the most important member of the care team, and that you are ultimately responsible for your overall health and wellness.</div>
+	
+    <li class="green-bullet">Comprehensive Whole-Person Care </li>
+	
+	<div class="bullet-indent">Providing and/or helping you get the health care services you need.</div>
 
-    <li class="blue-bullet">Individual and Family-Centered Care </li>
+    <li class="green-bullet">Continuity</li>
 	
-	Recognizing that you are the most important member of the care team, and that you are ultimately responsible for your overall health and wellness.
+	<div class="bullet-indent">Being your long-term partner in caring for your health.</div>
 	
-    <li class="blue-bullet">Comprehensive Whole-Person Care </li>
-	
-	Providing and/or helping you get the health care services you need.
-
-    <li class="blue-bullet">Continuity</li>
-	
-	Being your long-term partner in caring for your health.
+	<br /><br />
 
 	<p>Valley Professionals Community Health Center is committed to continuous focus on patient care and maximizing the capabilities of patient services and programs. The health center is the place to find hometown quality care!</p>
 	
@@ -221,23 +180,6 @@ p {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 <script src="/scripts/vpchc_mobile_menu.js"></script>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
 
 </body>
 
