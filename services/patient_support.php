@@ -2,7 +2,7 @@
 <html lang="en"><style>h3 {font-size: 25px !important;margin-left: 0px !important;margin-top: 10px;margin-bottom: 10px;}h2 {margin-top: 40px !important;}</style>
 <head>
 <title>ValleyProHealth.org</title>
-<link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">

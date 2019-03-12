@@ -6,7 +6,7 @@
 
 <title>ValleyProHealth.org</title>
 
-<link href="/css/vpchc_styles.css" rel="stylesheet" type="text/css" />
+<link href="/css/vpchc_styles_3.0.css" rel="stylesheet" type="text/css" />
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 
