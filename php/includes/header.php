@@ -106,7 +106,7 @@
         <a href="/contact_us/">Contact Us</a>
         <a href="/faqs/">Frequently Asked Questions</a>
       </div>
-    <a href="/services/patient_resources"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>
+    <a href="#"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>		      <div class="navlinks-mobile-subsection">				<a href="/diabetes/">Diabetes</a>								<a href="/health-wellness/">Health & Wellness</a>      </div>
     <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
 		<a href="/careers/"><div class="navlinks-mobile-section"><p>Careers</p><span>></span></div></a>
   </div>
