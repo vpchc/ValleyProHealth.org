@@ -58,7 +58,7 @@
       <li id="patientresources" class="dropdown">
         <a class="navlink-category" href="/services/patient_resources">Patient Resources</a>
 				<div class="dropdown-content">
-				<a href="/diabetes/">Diabetes</a>
+				<a href="/diabetes/">Diabetes</a>								<a href="/health-wellness/">Health & Wellness</a>
 				</div>
       </li>
       <li id="patientportal" class="dropdown">
