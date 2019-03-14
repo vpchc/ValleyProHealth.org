@@ -13,7 +13,7 @@
     display: table;
 }
 
-    .dropdown-content.active::after {
+    .dropdown-content a.active::after {
 		display:none;
 	}
 
