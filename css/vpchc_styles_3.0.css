@@ -154,16 +154,13 @@ header {
 .dropdown-content {
   position: absolute;
   margin-top: 12px;
-  height: 100%;
-  display: none;
+  height: 0;
+  
   min-width: 160px;
   background: #3a4e8c;
   overflow: hidden;
   transition: all .5s ease 0s; }
-.dropdown:hover  .dropdown-content{
-    height: 100%;
-    display: table;
-}
+
 .dropdown-content a {
   display: block;
   padding: 12px 15px;
