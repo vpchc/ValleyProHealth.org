@@ -169,7 +169,7 @@ header {
   font-family: "Roboto", san-serif;
   color: white;
   text-decoration: none;
-  transition: all .5s ease; }
+  transition: all .5s ease; }    dropdown:hover .dropdown-content{height: 100%;display: table;}
   .dropdown-content a:hover {
     background: #70b244; }
 
