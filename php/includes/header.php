@@ -13,6 +13,10 @@
     display: table;
 }
 
+    .dropdown-content.active::after {
+		display:none;
+	}
+
 </style> 
 <div class="title">
     <img class="title-logo" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/>
