@@ -1,0 +1,265 @@
+/* 
+    Table of Contents
+        Header
+        Navlinks
+        Title
+*/
+
+header { 
+	position: relative;
+
+	@media only screen and (max-width: 1082px) {
+		position: fixed;
+        
+    width: 100%;
+        
+    background: white;
+		
+		z-index: 100;
+	}
+}
+
+/*------------------------------------*\
+  #Navlinks
+\*------------------------------------*/
+
+#navlinks-container{
+	display: block;
+  
+	width: 100%;
+  height: 50px;
+    
+  background: $vpchc-blue;
+	
+	@media only screen and (max-width: 1082px) { height: 20px;}
+}
+#navlinks {
+	position: relative;
+    
+  margin: 0 auto;
+	width: 1170px;
+  height: 50px;
+    
+  z-index: 100;
+  list-style-type: none;
+	
+	@media only screen and (max-width: 1365px) { width: 1050px;}
+	
+	@media only screen and (max-width: 1082px) { display: none;}
+}
+.navlink-category {
+  padding: 14.8px 17px;
+  height: 40px;
+    
+  background: $vpchc-blue;
+  border: none;
+    
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+	color: white;
+	text-decoration: none;  
+ 
+  cursor: pointer;
+}
+.dropdown {
+	position: relative;
+  display: inline-block;
+   
+  margin-top: 15px;
+  padding-right: 10px;
+	
+	zoom:1;
+  *display:inline;
+	
+	&:hover .navlink-category { background-color: $vpchc-green;}
+}
+.dropdown .active{ background: $vpchc-green;}
+.dropdown-content {
+  position: absolute;
+    
+  margin-top: 15px;
+  height: 0;
+  min-width: 160px;
+    
+  background: $vpchc-blue;
+    
+  overflow: hidden;
+  transition: all .5s ease 0s;
+}
+.dropdown-content a {
+  display: block;
+    
+  padding: 12px 15px;
+  height: 30px;
+    
+  border-bottom: 1px solid $vpchc-lightblue;
+    
+	font-size: 16px;
+  font-family: "Georgia", Times, serif;;
+	color: white;
+  text-decoration: none;
+  
+  transition: all .5s ease;
+	
+	&:hover { background: $vpchc-green;}
+}
+#about.dropdown:hover .dropdown-content { height: 273px;}
+#locations.dropdown:hover .dropdown-content { height: 384px;}
+#services.dropdown:hover .dropdown-content { height: 329px;}
+#contact.dropdown:hover .dropdown-content { height: 54px;}
+#patientresources.dropdown:hover .dropdown-content { height: 162px !important;}
+
+/*----Mobile----*/
+#navlinks-mobile {
+	display: none;
+    
+  height: 100vh;
+
+  overflow-y: scroll;
+}
+#navlinks-mobile a { color: black;}
+#navlinks-mobile-icon{
+	position: relative;
+	display: none;
+  float: right;
+ 
+  margin: 22px 15px 0 15px;
+	width: 30px;
+  height: 20px;
+    
+  cursor: pointer;
+	
+	@media only screen and (max-width: 1082px) { display: inline-block;}
+}
+.nalinks-mobile-section { display: block;}
+.navlinks-mobile-section, .navlinks-mobile-subsection {
+  padding: 15px;
+	
+  border-bottom: 1px solid $vpchc-green;
+}
+.navlinks-mobile-section p {
+  display: inline-block;
+   
+  font-size: 20px;
+}
+.navlinks-mobile-section p, .navlinks-mobile-subsection a {
+  display: inline-block;
+	
+  font-family: "Franklin Gothic Medium", Georgia, serif;
+	color: black;
+  text-decoration: none;
+}
+.navlinks-mobile-section span {
+  display: inline-block;  
+  float: right;
+   
+  text-align: right;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", Verdana, serif;
+ 	font-weight: 600;
+}
+.navlinks-mobile-subsection { display: none;}
+.navlinks-mobile-subsection a {
+  display: block;
+    
+  padding-bottom: 15px;
+    
+  font-size: 15px;
+}
+
+/*------------------------------------*\
+  #Title
+\*------------------------------------*/
+
+.title {
+	position: relative;
+    
+  margin: 0 auto;
+  width: 1170px;
+  height: 110px;
+    
+  transition: all .5s ease 0s;
+	
+  @media only screen and (max-width: 1365px) { width: 1050px;}
+
+	@media only screen and (max-width: 1082px) {
+		width: 100%;
+    height: 60px;
+	}
+}
+.title-logo {
+  display: inline-block;
+    
+  margin-top: 18px;
+	width: 450px;
+  height: auto;
+	
+  cursor: pointer;
+	
+	@media only screen and (max-width: 1082px) {
+		margin-left: 10px;
+    width: 170px;
+	}
+}
+.title-social {
+  float: right;
+    
+  margin: 20px 60px 0 0;
+	width: 260px;
+  height: 70px;
+
+	@media only screen and (max-width: 1082px) {
+		margin: 0px;
+		width: auto;
+    height: 50px;
+	}
+}
+.title-social-contact {
+  display: inline-block;
+	
+	width: 180px;
+	height: 70px;
+    
+  border-right: #e9e9e9 solid 1px;
+	
+	@media only screen and (max-width: 1082px) { display: none;}
+}
+.title-social-contact > p {
+  margin-top: 26px;
+  padding-right: 10px;
+   
+	font-size: 14px;
+  font-family: "Franklin Gothic Medium", Times, serif;
+	text-align: right;
+}
+.title-social-media {
+  display: inline-block;
+  float: right;
+    
+  margin-top: 20px;
+	width: 68px;
+  height: auto;
+	
+	@media only screen and (max-width: 1082px) { 
+		margin-top: 10px;
+    width: auto;
+		height: 45px;
+		
+		border-right: #e9e9e9 solid 1px;
+	}
+}
+.title-social-media img { 
+	padding-right: 5px;
+	
+	&:hover {
+		opacity: 0.75;
+    filter: alpha(opacity=50);/* For IE8 and earlier */
+	}
+	
+	@media only screen and (max-width: 1082px) { 
+		margin-top: 10px;
+    padding-right: 5px;
+		width: auto;
+    height: auto;
+	}
+}
