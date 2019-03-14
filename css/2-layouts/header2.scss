@@ -78,7 +78,7 @@ header {
   position: absolute;
     
   margin-top: 15px;
-  height: 100%;
+  height: 0;
   min-width: 160px;
     
   background: $vpchc-blue;
@@ -103,17 +103,11 @@ header {
 	
 	&:hover { background: $vpchc-green;}
 }
-
-  dropdown:hover .dropdown-content{
-height: 100%;
-display: table;
-}
-
-/*#about.dropdown:hover .dropdown-content { height: 273px;}
+#about.dropdown:hover .dropdown-content { height: 273px;}
 #locations.dropdown:hover .dropdown-content { height: 384px;}
 #services.dropdown:hover .dropdown-content { height: 329px;}
 #contact.dropdown:hover .dropdown-content { height: 54px;}
-#patientresources.dropdown:hover .dropdown-content { height: 162px !important;}*/
+#patientresources.dropdown:hover .dropdown-content { height: 162px !important;}
 
 /*----Mobile----*/
 #navlinks-mobile {
