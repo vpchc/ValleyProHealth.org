@@ -1,31 +1,26 @@
 <style>
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('/font/Roboto-Regular.ttf');
-}
-
 @media only screen and (max-width: 1082px) {
 	.slide-title.fullscreen {
 		line-height: 20px;
 	}
 }
 
-    .dropdown-content {
-   height: 100% !important;
+.dropdown-content {
+  height: 100% !important;
   display: none;
-  font-family: "Roboto", san-serif !important;
+  font-family: "Helvetica", san-serif !important;
    }
    
    .dropdown-content:hover{
     height: 100%;
     display: table;
-	font-family: "Roboto", san-serif !important;
+	font-family: "Helvetica", san-serif !important;
 }
     .dropdown:hover  .dropdown-content{
     height: 100%;
     display: table;
-	font-family: "Roboto", san-serif !important;
+	font-family: "Helvetica", san-serif !important;
 }
 
     .dropdown-content a.active::after {
@@ -33,7 +28,7 @@
 	}
 	
 	.dropdown-content a {
-		font-family: "Roboto", san-serif !important;
+		font-family: "Helvetica", san-serif !important;
 	}
 
 </style> 
