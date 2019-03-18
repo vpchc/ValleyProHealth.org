@@ -1,5 +1,10 @@
 <style>
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/Roboto-Regular.ttf');
+}
+
 @media only screen and (max-width: 1082px) {
 	.slide-title.fullscreen {
 		line-height: 20px;
