@@ -1,16 +1,26 @@
 <style>
+
+@media only screen and (max-width: 1082px) {
+	.slide-title.fullscreen {
+		line-height: 20px;
+	}
+}
+
     .dropdown-content {
    height: 100% !important;
   display: none;
+  font-family: "Roboto", san-serif !important;
    }
    
    .dropdown-content:hover{
     height: 100%;
     display: table;
+	font-family: "Roboto", san-serif !important;
 }
     .dropdown:hover  .dropdown-content{
     height: 100%;
     display: table;
+	font-family: "Roboto", san-serif !important;
 }
 
     .dropdown-content a.active::after {
@@ -23,7 +33,7 @@
 
 </style> 
 <div class="title">
-    <img class="title-logo" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/>
+    <a href="https://valleyprohealth.org/"><img class="title-logo" src="/images/header/logo.svg" alt="menu" srcset="/images/header/logo.png"/></a>
     <img id="navlinks-mobile-icon" src="/images/header/mobile_menu.png" alt="menu" srcset="/images/header/mobile_menu.svg"/>
     <div class="title-social">
       <div class="title-social-contact">
@@ -130,7 +140,18 @@
         <a href="/contact_us/">Contact Us</a>
         <a href="/faqs/">Frequently Asked Questions</a>
       </div>
-    <a href="#"><div class="navlinks-mobile-section"><p>Patient Resources</p><span>></span></div></a>		      <div class="navlinks-mobile-subsection">				<a href="/diabetes/">Diabetes</a>								<a href="/health-wellness/">Health & Wellness</a>								<a href="/medical/">Medical Home</a>      </div>
+	  
+		<div class="navlinks-mobile-section">
+			<p>Patient Resources</p><span>></span>
+		</div>
+
+	<div class="navlinks-mobile-subsection">
+		<a href="/diabetes/">Diabetes</a>
+		<a href="/health-wellness/">Health & Wellness</a>
+		<a href="/medical/">Medical Home</a>
+	</div>
+	
+
     <a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp"><div class="navlinks-mobile-section"><p>Patient Portal</p><span>></span></div></a>
 		<a href="/careers/"><div class="navlinks-mobile-section"><p>Careers</p><span>></span></div></a>
   </div>
