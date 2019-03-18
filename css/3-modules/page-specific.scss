@@ -85,13 +85,13 @@
  
   text-align: center;
   font-size: 35px;
-  font-family: "Franklin Gothic Medium", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
 }
 .bus-tracker * p {
 	font-size: 26px;
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
   font-weight: 900;
 	
 	@media only screen and (max-width: 1365px) { font-size: 20px;}
@@ -237,7 +237,7 @@
   width: 317px;
     
   font-size: 28px;
-  font-family: "Franklin Gothic Demi", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: bold;
 	color: $vpchc-green;
 	
@@ -280,14 +280,14 @@
   margin-bottom: 20px;
     
   font-size: 60px;
-  font-family: "Franklin Gothic Medium", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1082px) { font-size: 35px;}
 }
 .contact-questions-content {
   font-size: 30px;
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
 }
@@ -315,7 +315,7 @@
 
 .diabetes-header {
 	font-size: 50px;
-	font-family: "Franklin Gothic Medium", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: bold;
 	margin-left: 30px;
 	color: $vpchc-blue;
@@ -347,7 +347,7 @@
 .forms-table {
 	text-align: center;
 	font-size: 30px;
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: 900;
 	
 	@media only screen and (max-width: 1365px) { font-size: 20px;}
@@ -424,7 +424,7 @@
 
   background: url(/images/history/timeline_bg.gif) repeat-y center top; 
    
-	font-family: "Franklin Gothic Medium", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
     
   overflow: hidden;
 	
@@ -548,7 +548,7 @@
   width: 65%;
     
 	font-size: 1.25vw;
-  font-family: "Franklin Gothic Book", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1365px) { width: 55%;}
 	
@@ -680,7 +680,7 @@
 	}
 }
 .location-title, .location-subtitle {
-  font-family: "Franklin Gothic Medium", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
   color: $vpchc-blue;
 }
 .location-title { 
@@ -791,7 +791,7 @@
   border-radius: 6px;
 	
   text-align: center;
-	font-family: "Franklin Gothic Medium", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	color: white;
 	
 	visibility: hidden;
@@ -835,7 +835,7 @@
   background: $vpchc-blue;
     
 	font-size: 25px;
-  font-family: "Franklin Gothic Medium", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 
   color: white;
 	
@@ -844,7 +844,7 @@
     background: $vpchc-blue;
 
 		font-size: 15px;
-    font-family: "Franklin Gothic Medium", Times, serif;
+    font-family: "Roboto", Helvetica, san-serif !important;
 		color: white;
 	}
 	
@@ -911,14 +911,14 @@
 		padding-right: 30px;
 	
     font-size: 20px;
-    font-family: "Georgia", Times, serif;
+    font-family: "Roboto", Helvetica, san-serif !important;
 	  font-weight: 900;
     color: black;
 }
 .news-article-preview {
 		padding-right: 30px;
 	
-    font-family: "Georgia", Times, serif;
+    font-family: "Roboto", Helvetica, san-serif !important;
     font-size: 16px;
 }
 

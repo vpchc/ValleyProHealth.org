@@ -127,7 +127,7 @@
 	margin-left: 30px;
 	
 	font-size: 1.2vw;
-  font-family: "Franklin Gothic Book", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1365px) { font-size: 16px;}
 	
@@ -156,7 +156,7 @@
 	margin-left: 30px;
 	
 	font-size: 1.2vw;
-  font-family: "Franklin Gothic Book", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1365px) { font-size: 16px;}
 	
@@ -170,7 +170,7 @@
   margin: 10px 0 0 30px;
 	
 	font-size: 1vw;
-	font-family: "Franklin Gothic Book", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1365px) { font-size: 15px;}
 	
@@ -233,7 +233,7 @@
 		
 	text-align: center;
 	font-size: 1.5vw;
-	font-family: "Franklin Gothic Book", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	color: white;
 }
 
@@ -281,7 +281,7 @@
 	margin: 5px 0 0 5px;
 	
 	font-size: 21px;
-	font-family: "Franklin Gothic Book", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	color: black;
 	
 	@media only screen and (max-width: 1082px) { font-size: 20px;}
@@ -313,7 +313,7 @@
     
   text-align: center;
   font-size: 25px;
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: bold;
   color: $vpchc-blue;
 	
@@ -464,7 +464,7 @@
   font-size: 33px;
     
   font-weight: 600;
-	font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
   color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1082px) { 
@@ -507,7 +507,7 @@
 	margin: 5px 0;
 
 	font-size: 22px;
-  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: 600;
 	color: $vpchc-green;
 	
@@ -519,7 +519,7 @@
   margin: 5px 0 0 5px;
     
   font-size: 28px;
-  font-family: "Franklin Gothic Medium", "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
   color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1082px) { 
@@ -553,7 +553,7 @@
     
 	text-align: left;
   font-size: 20px;
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	
 	@media only screen and (max-width: 1082px) { font-size: 13px;}
 }
@@ -690,7 +690,7 @@
 
 	border-bottom: 3px solid $vpchc-green;
   
-	font-family: "Franklin Gothic Medium", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	color: $vpchc-blue; 
 	
 	@media only screen and (max-width: 1082px) {
@@ -714,7 +714,7 @@
 	}
 }
 .slide-subtitle {
-	font-family: "Franklin Gothic Demi", Times, serif;
+	font-family: "Roboto", Helvetica, san-serif !important;
 	color: $vpchc-blue;
 	
 	@media only screen and (max-width: 1365px) { font-size: 16px;}
@@ -751,7 +751,7 @@
   background: $vpchc-green;
 	border-radius: 15px;
    
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboto", Helvetica, san-serif !important;
 	font-weight: 700;
   text-decoration: none;
 	color: white;
