@@ -90,12 +90,6 @@
     <p>Interested in a career with Valley Professionals?</p>
 <p>View current job postings and submit your resume below.</p> </br>
     <div>
-		    <a href="/careers/job_listing_4"><div class="content-tile">
-			<p>Psychologist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
-                </div></a>
-    </div>
-    <div>
 		    <a href="/careers/job_listing_1"><div class="content-tile">
 			<p>Psychiatric Nurse Practitioner</p>
 			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
