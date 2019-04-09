@@ -160,7 +160,7 @@
 		<h2 id="mission&values">Mission</h2>
 		<p>Valley Professional Community Health Center providers comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
 		<h2>Vision</h2>
-		<p>Valley Professionals Community Health Center is Committed to improving access to comprehensive quality health care and enchancing the overall well-being of our communities.</p>
+		<p>Valley Professionals Community Health Center is committed to improving access to comprehensive quality health care and enhancing the overall well-being of our communities.</p>
 		<h2>Values</h2>
 		<p class="careers-values">Quality</p>
 		<p>Providing the best care to our patients, while making them a priority and improving their outcomes through the PCMH model.</p>

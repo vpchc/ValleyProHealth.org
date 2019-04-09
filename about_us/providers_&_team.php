@@ -85,7 +85,7 @@
 							<li>Union Hospital Family Medicine Residency Program</li>
 						</ul>
 						<p class="tab-title">Personal</p>
-						<p>Dr. Cundiff was born and raised in Dana, IN. She is excited to now get the opportunity to be practicing near her hometown. Dr. Cundiff enjoys spending time outdoors when she can, am is a huge 'I Love Lucy" fan, and enjoys skydiving.</p>
+						<p>Dr. Cundiff was born and raised in Dana, IN. She is excited to now get the opportunity to be practicing near her hometown. Dr. Cundiff enjoys spending time outdoors when she can, is a huge 'I Love Lucy" fan, and enjoys skydiving.</p>
           </div>
           <p class="tab-location">Currently providing care in Clinton and Cayuga</p>
         </div>
