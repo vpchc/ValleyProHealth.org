@@ -152,7 +152,7 @@
     <li class="green-bullet">Generous paid time off and paid holidays.</li>
 		<li class="green-bullet">Flexible schedules and commitment to work-life balance.</li>
 		<h2 id="mission&values">Mission</h2>
-		<p>Valley Professional Community Health Center providers comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
+		<p>Valley Professional Community Health Center provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.</p>
 		<h2>Vision</h2>
 		<p>Valley Professionals Community Health Center is committed to improving access to comprehensive quality health care and enhancing the overall well-being of our communities.</p>
 		<h2>Values</h2>
