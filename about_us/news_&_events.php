@@ -82,34 +82,27 @@
 		<div class="content-section">
 			<div id="slideshow" class="sectioned">
 				<div class="slide">
-					<img src="/images/news&events/media_release.jpg">
+					<img src="/images/news&events/BeckyDWTS.jpg">
 					<div class="slide-info sectioned">
-						<p class="slide-title sectioned">VPCHC Receives $1,300 Grant</p>
-						<p class="slide-subtitle sectioned">Valley Professionals Community Health Center is the proud recipient of a $1,300 grant to be used to support between 20 to 25 Vermillion County residents in poverty.</p>
+						<p class="slide-title sectioned">Dancing With the Stars</p>
+						<p class="slide-subtitle sectioned">Congratulations to Becky Myers, VPCHC Behavioral Health Coordinator, for raising the most funds and winning the 2019 Clinton Dancing with the Stars!</p>
 					</div>
 				</div>
 				<div class="slide">
-					<img src="/images/news&events/slideshow_dancing_stars.jpg">
+					<img src="/images/news&events/9-11-17%20hospital%20entry%20rendering.jpg">
 					<div class="slide-info sectioned">
-						<p class="slide-title sectioned">Dancing with the Stars</p>
-						<p class="slide-subtitle sectioned">Congratulations Terry Warren, our CEO, for winning the most donations at Clinton's Dancing with the Stars!</p>
+						<p class="slide-title sectioned">Valley Professionals Clinton Expansion Project</p>
+						<p class="slide-subtitle sectioned">The Clinton health center is expanding its facility and increasing health care services through a construction and expansion project.</p>
 					</div>
 				</div>
 				<div class="slide">
-					<img src="/images/news&events/slideshow_bikes.jpg">
+					<img src="/images/news&events/annual%20report%20image.jpg">
 					<div class="slide-info sectioned">
-						<p class="slide-title sectioned">Bike Winners</p>
-						<p class="slide-subtitle sectioned">Congratulations to our well child bike winners!</p>
+						<p class="slide-title sectioned">2018 Annual Report</p>
+						<p class="slide-subtitle sectioned">Valley Professionals celebrated a successful year in 2018! View all the highlights and learn more about services in the 2018 Annual Report by clicking the link under Annual Report.</p>
 					</div>
 				</div>
-				<div class="slide">
-					<img src="/images/news&events/slideshow_bobble.jpg">
-					<div class="slide-info sectioned">
-						<p class="slide-title sectioned">Happy Doctor Day!</p>
-						<p class="slide-subtitle sectioned">We want to thank our awesome physicians for all their hard work.</p>
-					</div>
-				</div>
-			</div>
+           </div>
 		</div>
 		<h2>Upcoming Events</h2>
 		<p>Check out our events calendar to see which events Valley Professionals will be hosting or participating in. Also, find information and hours for local food resources and other community connections.</p>
