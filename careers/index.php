@@ -126,18 +126,6 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_8.php"><div class="content-tile">
-			<p>Dental Office Coordinator</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-      </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_9"><div class="content-tile">
-			<p>Call Center</p>
-			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
-     </div></a>
-    </div>
-    <div>
         <a href="/careers/job_listing_10"><div class="content-tile">
 			<p>Nurse Practitioner</p>
 			<img src="/images/careers/location_pointer.png"/><p>Bloomingdale</p>
