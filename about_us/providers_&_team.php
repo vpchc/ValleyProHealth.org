@@ -796,27 +796,7 @@
         </div>
       </div>
     </div> 
-    <div class="tab">
-      <div class="tab-bar blue">
-        <p class="tab-name">Megan Neitling, LMHCA</p>
-      </div>
-      <div class="tab-box">
-         <img src="/images/providers/neitling.jpg">
-         <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor Associate</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>Indiana State University - MS</li>
-							<li>Indiana University - BS</li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>Megan is pursuing her PhD at the California Institute of Integral Studies. Megan enjoys working with children, adolescents, adults, couples, and families to improve their quality of life through counseling. Megan enjoys traveling, live music, and Netflix. She spends weekends relaxing with family and friends.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Bloomingdale</p>
-        </div>
-      </div>
-    </div>   
+    
 	
 	    <div class="tab">
 
@@ -1034,7 +1014,7 @@
       <div class="tab-box">
         <img src="/images/providers/woods.jpg">
         <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p><p>Registered Play Therapist</p></div>
           <div class="tab-bio">
 						<p class="tab-title">Education</p>
 						<ul>
