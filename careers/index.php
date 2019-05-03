@@ -136,7 +136,13 @@
 			<p>Revenue Cycle Manager</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
      </div></a>
-    </div>    
+    </div>
+    <div>
+        <a href="/careers/job_listing_8"><div class="content-tile">
+			<p>Patient Care Coordinator</p>
+			<img src="/images/careers/location_pointer.png"/><p>Rockville / Bloomingdale</p>
+      </div></a>
+    </div>
          
 		<h2 id="benefits">Benefits</h2>
     <p>Valley Professionals offers excellent benefits, including:</p>

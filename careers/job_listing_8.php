@@ -53,12 +53,12 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Dental Office Coordinator - Cayuga</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a Dental Office Coordinator for its Cayuga office.</p>
+  	<h6>Patient Care Coordinator - Rockville / Bloomingdale</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for it's Rockville / Bloomingdale locations.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for day to day administrative activities of the dental clinic, including, but not limited to, front office services such as confirming patient appointments, data entry, and overseeing and ensuring the repair of dental office equipment.</li>
-    <li class="green-bullet">Conduct prior authorizations for patient insurance and collect patient payments, while maintaining a stocked inventory.</li>
-        <h2>VPCHC places a premium on work-life balance with generous holiday and Paid Time Off allowances. A competitive salary and benefits package is offered.</h2>
+    <li class="green-bullet">This position will work directly with patients providing health education and working with the patients to improve health outcomes. The Patient Care Coordinator will manage high risk patient care, including the management of patients with multiple co-morbidities, and will coordinate the continuity of patient care with external healthcare organizations.</li>
+    <li class="green-bullet">Must have current Indiana licensure as a Registered Nurse.</li>
+        <li class="green-bullet">Valley Professionals offers excellent benefits, including: health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options. Employer paid life insurance, short-term and long-term disability. Generous paid time off and paid holidays. Flexible schedules and commitment to work-life balance.</li>
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -82,7 +82,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dental Office Coordinator - Cayuga">
+        <input type="hidden" name="subject" value="Patient Care Coordinator - Rockville / Bloomingdale">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
