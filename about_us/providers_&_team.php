@@ -1014,7 +1014,7 @@
       <div class="tab-box">
         <img src="/images/providers/woods.jpg">
         <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p><p>Registered Play Therapist</p></div>
+          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p></div>
           <div class="tab-bio">
 						<p class="tab-title">Education</p>
 						<ul>
