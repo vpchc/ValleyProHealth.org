@@ -102,18 +102,6 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_3"><div class="content-tile">
-			<p>Licensed Clinical Social Worker</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-      </div></a>
-    </div>
-     <div>
-        <a href="/careers/job_listing_5"><div class="content-tile">
-			<p>Dental Assistant</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-      </div></a>
-    </div>
-     <div>
         <a href="/careers/job_listing_6"><div class="content-tile">
 			<p>Bilingual Medical Receptionist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
@@ -124,12 +112,6 @@
 			<p>Certified Medical Assistant/Licensed Practical Nurse</p>
 			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
       </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_10"><div class="content-tile">
-			<p>Nurse Practitioner</p>
-			<img src="/images/careers/location_pointer.png"/><p>Bloomingdale</p>
-     </div></a>
     </div>
     <div>
         <a href="/careers/job_listing_11"><div class="content-tile">
