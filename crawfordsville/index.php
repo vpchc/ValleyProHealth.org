@@ -94,6 +94,7 @@
 				</tr>
 				<tr>
 					<td><p>Dana Tinkle, LMHC, RPT</p></td>
+                    <td><p>Jason Heck, PMHNP</p></td>
 				</tr>
 			</table>
 		</div>

@@ -69,9 +69,6 @@
 			<p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
 			<p class="location-appts">(by appointment only)</p>
 			<p>Closed<br/>12:00 pm to 1:00 pm</p>
-			<p class="location-subtitle small">Extended Hours</p>
-			<p>Monday<br/>5:00 pm to 8:00 pm</p>
-			<p class="location-appts">(by appointment only)</p>
 		</div>
 		<div class="location-details">
 			<p class="location-title small">Bloomingdale</p>
@@ -88,9 +85,6 @@
 					<td><p>Jason Heck, PMHNP</p></td>
 					<td><p>Zac Milam, LMHC</p></td>     
 				</tr>
-				<tr>
-					<td><p>Megan Neitling, LMHCA</p></td>
-                </tr>
 			</table>
 		</div>
 		<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.953823364543!2d-87.25627278497387!3d39.83045297943764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d49add4238a7f%3A0x51cc38f528ac8d85!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917741280" allowfullscreen></iframe>
