@@ -61,8 +61,12 @@
 		<div class="content-section">
 			<h2>News</h2>
 			<div class="news-article">
-				<p class="news-article-title">February 18, 2019 - Groundbreaking Set for Health Center Expansion</p>
-				<p class="news-article-preview">Valley Professionals Community Health Center is hosting a groundbreaking event on Thursday, February 21st at 10:00 a.m. in celebration of the clinic's expansion at the Clinton facility in Vermillion County, located at 777 S. Main Street. The public is welcome to attend. <a href="/archive/2019/2_18">See Full Article</a></p>
+                <p class="news-article-title">May 8, 2019 - Crawfordsville Site Relocation</p>
+                <p class="news-article-preview">Valley Professionals Community Health Center is increasing its ability to provide quality care for individuals and families in Montgomery County. The Crawfordsville health center has relocated <a href="/archive/2019/5_8.php">See Full Article</a> </p>	<br>			
+            <div class="news-article">
+                <p class="news-article-title">February 18, 2019 - Groundbreaking Set for Health Center Expansion</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center is hosting a groundbreaking event on Thursday, February 21st at 10:00 a.m. in celebration of the clinic's expansion at the Clinton facility in Vermillion County, located at 777 S. Main Street. The public is welcome to attend. <a href="/archive/2019/2_18.php">See Full Article</a></p>    
+            </div>
 			</div>
 			<!--<h2>Announcements</h2>
 			<div class="news-article">

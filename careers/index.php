@@ -125,6 +125,12 @@
 			<img src="/images/careers/location_pointer.png"/><p>Rockville / Bloomingdale</p>
       </div></a>
     </div>
+    <div>
+        <a href="/careers/job_listing_5"><div class="content-tile">
+			<p>Community Health Worker</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+      </div></a>
+    </div>
          
 		<h2 id="benefits">Benefits</h2>
     <p>Valley Professionals offers excellent benefits, including:</p>
