@@ -114,15 +114,9 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_11"><div class="content-tile">
-			<p>Revenue Cycle Manager</p>
+        <a href="/careers/job_listing_3"><div class="content-tile">
+			<p>Certified Medical Assistant/Licensed Practical Nurse</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-     </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_8"><div class="content-tile">
-			<p>Patient Care Coordinator</p>
-			<img src="/images/careers/location_pointer.png"/><p>Rockville / Bloomingdale</p>
       </div></a>
     </div>
     <div>
