@@ -247,7 +247,7 @@
 
 							<li>B.A. Chemistry, Indiana University </li>
 
-							<li>B.S. Spanish, Indiana University</li>
+							<li>B.A. with Honors Spanish, Indiana University</li>
 
 							<li>D.O., West Virginia School of Osteopathic Medicine </li>
 
