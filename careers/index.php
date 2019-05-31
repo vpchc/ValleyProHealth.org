@@ -116,7 +116,7 @@
     <div>
         <a href="/careers/job_listing_3"><div class="content-tile">
 			<p>Certified Medical Assistant/Licensed Practical Nurse</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
     <div>
