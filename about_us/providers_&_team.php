@@ -936,7 +936,7 @@
 							<li>Anderson University - BS</li>
 						</ul>
 						<p class="tab-title">Personal</p>
-						<p>Lacey comes from a big family, is married and has a daughter. She was born in Cory, Indiana, but has lived most of her life in Terre Haute and has been a social worker in the community since 2006. Lacey became a social worker because she has a heart for helping others and enjoys getting to know her patients and assisting them in meeting their goals.</p>
+						<p>Lacey comes from a big family, is married and has two daughters. She was born in Cory, Indiana, but has lived most of her life in Terre Haute and has been a social worker in the community since 2006. Lacey became a social worker because she has a heart for helping others and enjoys getting to know her patients and assisting them in meeting their goals.</p>
           </div>
           <p class="tab-location">Currently providing care in Terre Haute</p>
         </div>
