@@ -89,7 +89,7 @@
 	</div>
 	<div class="home-about">
 		<img class="home-about-hands" src="/images/services/ps_icon.png" alt="VPCHC Volunteer Example">
-        <p><a href="files/forms/en/VPCHC-%20Website%20Notice.docx.pdf">NOTICE OF DATA PRIVACY EVENT</br></br> </a>Valley Professionals Community Health Center is your home for health care!  As a Federally Qualified Health Center serving those in need and creating healthier communities, Valley Professionals provides primary care, behavioral health, dental and patient support services. </br></br>Valley Professionals has clinics located in Montgomery, Parke, Vermillion and Vigo counties in Indiana, as well as a Mobile School-Based Health Center that visits local schools providing primary and behavioral health services.</p>
+        <p>Valley Professionals Community Health Center is your home for health care!  As a Federally Qualified Health Center serving those in need and creating healthier communities, Valley Professionals provides primary care, behavioral health, dental and patient support services. </br></br>Valley Professionals has clinics located in Montgomery, Parke, Vermillion and Vigo counties in Indiana, as well as a Mobile School-Based Health Center that visits local schools providing primary and behavioral health services.</p>
         <img class="home-about-info" src="/images/homepage/10years_thankyou.jpg"\>
         </div>
 	<div class="home-button-row">
