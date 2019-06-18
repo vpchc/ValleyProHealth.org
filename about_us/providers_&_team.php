@@ -587,28 +587,7 @@
         </div>
       </div>
     </div>
-    <div class="tab">
-      <div class="tab-bar blue">
-        <p class="tab-name">Gary Anderson, MS</p>
-      </div>
-      <div class="tab-box">
-        <img src="/images/providers/anderson.jpg">
-        <div class="tab-box-text">
-          <div class="tab-credentials"><p>Mental Health Counselor</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>Indiana State University - BS in Social Sciences Education</li>
-							<li>Indiana State University - MS in Agency Counseling </li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>Gary has worked as a social worker serving the needs of families in the Wabash Valley area for over 15 years. He is married and has 2 children. He's all about spending time with his family, traveling and enjoying the outdoors as much as possible.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Clinton</p>
-        </div>
-      </div>
-    </div>
-		<div class="tab">
+    	<div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Misha Bennett, LCSW</p>
       </div>
