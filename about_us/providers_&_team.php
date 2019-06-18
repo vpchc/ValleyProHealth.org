@@ -1108,7 +1108,7 @@
     <hr>
     <div class="tab">
       <div class="tab-bar grey">
-        <p class="tab-simple">Breanne Stone<span>Billing Supervisor</span></p>
+        <p class="tab-simple">Tina Clawson<span>Billing Supervisor</span></p>
       </div>
     </div>
     <div class="tab">
