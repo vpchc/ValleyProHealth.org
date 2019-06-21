@@ -53,7 +53,7 @@
 <main>
 	<div class="content centered large">
 		<h4>Crawfordsville</h4>
-		<img class="location-photo" src="/images/locations/banner_crawfordsville2.jpg"/>
+		<img class="location-photo" src="/images/locations/banner_crawfordsville3.jpg"/>
 		<div class="location-info small">
 			<p class="location-title small contactbtn"><a href="/contact_us/index.php">CONTACT US</a></p>
 			<p class="contactaddy">1702 Lafayette Rd<br/>Crawfordsville, IN 47933</p>
