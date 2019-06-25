@@ -91,14 +91,14 @@
 <p>View current job postings and submit your resume below.</p> </br>
     <div>
 		    <a href="/careers/job_listing_1"><div class="content-tile">
-			<p>Psychiatric Nurse Practitioner</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
+			<p>Medical Receptionist</p>
+			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
       </div></a>
     </div>
     <div>
         <a href="/careers/job_listing_2"><div class="content-tile">
 			<p>Licensed Clinical Social Worker</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
+			<img src="/images/careers/location_pointer.png"/><p>School Based</p>
       </div></a>
     </div>
     <div>
