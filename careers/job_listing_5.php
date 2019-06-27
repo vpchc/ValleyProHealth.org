@@ -53,17 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Community Health Worker - Clinton</h6>
-    <p>Valley Professionals Community Health Center is seeking a Community Health Worker for it's Clinton location.</p>
-        <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for helping patients navigate and access community services, and assist patients in applying for publicly sponsored health care insurance plans.</li>
-    <li class="green-bullet">Must be willing to work flexible hours, including some weekends and evenings.</li>
-            <h2>Requirements:</h2>
-    <li class="green-bullet">High school diploma required and three years’ experience in a public or private health or social agency preferred.
-</li>
+  	<h6>Licensed Clinical Social Worker - Crawfordsville</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Licensed Clinical Social Worker for its Crawfordsville office.</p>
+    <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Responsible for providing professional behavioral healthcare to VPCHC patients and maintaining the related patient documentation.</li>
+    <li class="green-bullet">Coordinate patient treatment with a multidisciplinary team to assure continuity of care and the comprehensiveness of health care plans.</li>
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_5.php" name="referer">
+    <input type="hidden" value="job_listing_1.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -84,7 +81,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Community Health Worker - Clinton">
+        <input type="hidden" name="subject" value="Licensed Clinical Social Worker - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
