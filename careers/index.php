@@ -119,6 +119,12 @@
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
+    <div>
+        <a href="/careers/job_listing_4"><div class="content-tile">
+			<p>Patient Care Coordinator</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+      </div></a>
+    </div>
          
 		<h2 id="benefits">Benefits</h2>
     <p>Valley Professionals offers excellent benefits, including:</p>
