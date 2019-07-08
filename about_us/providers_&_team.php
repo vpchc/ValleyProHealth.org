@@ -137,6 +137,28 @@
     </div>
     <div class="tab">
       <div class="tab-bar blue">
+        <p class="tab-name">Dr. George Fritch, MD</p>
+      </div>
+      <div class="tab-box">
+        <img src="">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Physician</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Indiana State University: Biochemistry</li>
+							<li>Indiana University School of Medicine</li>
+                            <li>Union Hospital Family Medicine Residency</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Dr. Fritch is a life-long resident of the Wabash Valley and is very passionate about providing comprehensive, full-spectrum care to the people of this community. Away from medicine, Dr. Fritch enjoys spending time with family and friends, as well as golf, tennis, home improvement projects, and cooking.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Clinton</p>
+        </div>
+      </div>
+    </div>  
+    <div class="tab">
+      <div class="tab-bar blue">
         <p class="tab-name">Dr. Bing Gale, MD</p>
       </div>
       <div class="tab-box">
@@ -496,6 +518,22 @@
         </div>
       </div>
     </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Amber Pitts, FNP-C</p>
+      </div>
+      <div class="tab-box">
+        <img src="">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Nurse Practitioner</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Personal</p>
+						<p>Amber enjoys practicing family medicine and has been practicing in the Wabash Valley for the last 5 years. Amber is married and has two daughters.  She enjoys spending time with her family and friends, vacationing, spending time outdoors, and being involved with her local church</p>
+          </div>
+          <p class="tab-location">Currently providing care in Clinton</p>
+        </div>
+      </div>
+    </div>       
 		<div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Brandie Ruark, FNP-C</p>
@@ -587,7 +625,28 @@
         </div>
       </div>
     </div>
-    	<div class="tab">
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Gary Anderson, LCSW</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/anderson.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Licensed Clinical Social Worker</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Indiana State University - BS in Social Sciences Education</li>
+							<li>Indiana State University - MS in Agency Counseling </li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Gary has worked as a social worker serving the needs of families in the Wabash Valley area for over 15 years. He is married and has 2 children. He's all about spending time with his family, traveling and enjoying the outdoors as much as possible.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Clinton</p>
+        </div>
+      </div>
+    </div>
+		<div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Misha Bennett, LCSW</p>
       </div>
@@ -610,12 +669,12 @@
     </div> 
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Johnathan Detwiler, MS</p>
+        <p class="tab-name">Johnathan Detwiler, MS, LMHC</p>
       </div>
       <div class="tab-box">
         <img src="/images/providers/detwiler.jpg">
         <div class="tab-box-text">
-					<div class="tab-credentials"><p>Mental Health Counselor</p></div>
+					<div class="tab-credentials"><p>Licensed Mental Health Counselor</p></div>
           <div class="tab-bio">
 						<p class="tab-title">Education</p>
 						<ul>
