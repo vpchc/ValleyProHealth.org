@@ -74,6 +74,26 @@ margin-bottom: 25px;
 		<h3 id="2019">2019</h3>
 
 		<hr>
+      
+        <div class="news-article">
+
+			<p class="news-article-title">July 17, 2019 - Sunset on Summer - Free Community Movie Celebrations!</p>
+
+			<p class="news-article-preview">Valley Professionals Community Health Center is celebrating National Health Center Week during July 29 through August 1 by providing a free outdoor movie night, open to the public, in the communities and counties served by the health center.</p>
+
+			<a href="/archive/2019/7_17.php">See Full Article</a>
+
+		</div>
+      
+        <div class="news-article">
+
+			<p class="news-article-title">June 4, 2019 - Local Health Center Expands Facility and Patient Access</p>
+
+			<p class="news-article-preview">Valley Professionals Community Health Center recently completed a facility expansion project at its Rockville location located at 727 N Lincoln Road. The health center provides hometown, high quality medical care for individuals and families.</p>
+
+			<a href="/archive/2019/6_4.php">See Full Article</a>
+
+		</div>
 		
 		<div class="news-article">
 

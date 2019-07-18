@@ -43,20 +43,19 @@
 <header><?php include("../../php/includes/header.php"); ?></header>
 <main>
   <h5>News Article</h5>
-  <h6>Crawfordsville Site Relocation</h6>
-  <h6>May 8th, 2019</h6>
+  <h6>Local Health Center Expands Facility and Patient Access</h6>
+  <h6>June 4th, 2019</h6>
   <div class="archive-section" style="width: 1100px; margin: auto;">
-Valley Professionals Community Health Center is increasing its ability to provide quality care for individuals and families in Montgomery County. The Crawfordsville health center has relocated to a larger facility at 1702 Lafayette Road, increasing additional services and access to care for patients.<br /><br />
+The expansion project allowed Valley Professionals to double Rockville’s clinic space, providing additional exam rooms, waiting area, treatment and office space.  The clinic expanded from 3,393 to 6,415 square feet, increased from five to 12 exam rooms, added a behavioral health treatment room, patient engagement and meeting room for ancillary services, laboratory for specimen collection, two clinical office spaces, an administrative office, additional restrooms and larger waiting room.<br /><br />
 
-Available services include primary care, behavioral health, dental, and patient resource services. Dental services were recently added to the health center in March, with full-service care available on Thursdays. The health center accepts Medicaid, Medicare, commercial insurance, self-pay, and offers a sliding fee scale based on family size and income for individuals and families without insurance.<br /><br />
+Available services at Valley Professionals in Rockville includes primary care and the treatment of acute and chronic illnesses, health maintenance, wellness exams, disease prevention, as well as behavioral health care and patient resource services such as health insurance enrollment, transportation, and chronic care management.  Valley Professionals accepts commercial insurance, Medicaid, Medicare, self-pay, and offers a sliding fee scale based on family size and income.<br /><br /> 
 
-Medical providers at the Crawfordsville location include Dr. Patrick Foley, MD, Jessica Bekkering, Family Nurse Practitioner, and Dr. Anastasia Yi, DO. Dr. Yi recently joined the Valley Professionals team and is excited to be providing care in her hometown. Dr. Yi’s holistic approach to healthcare includes osteopathic manipulation. She is also passionate about women’s health, provides preventative exams and multiple family planning options including Nexplanon. Dr. Yi is bilingual in English and Spanish.<br /><br />
+Expanding the health center’s facility space has allowed for the addition of services and medical providers to the team, creating greater medical care access for patients.  Medical providers at the Rockville location include Dr. Steven G. Waltz, MD, Family Nurse Practitioners, Jordan Ryley and Brandie Ruark, as well as new family practice physician Dr. Sean Ewing, MD, who will be joining the Rockville facility in August. Behavioral health providers at the health center include Jason Heck, Psychiatric Nurse Practitioner, and therapists Kasi Oxendine and Johnathan Detwiler.<br /><br />
 
-Behavioral health providers include Psychiatrist Dr. Paul Taraska, MD; Psychiatric Mental Health Nurse Practitioner, Jason Heck, Licensed Clinical Social Workers Misha Bennett and Keith Seegers, and Dana Tinkle, a Licensed Mental Health Counselor and Registered Play Therapist.<br /><br />
+Hours for the health center are Monday through Friday from 8:00 am to 5:00 pm.  For more information or to schedule an appointment, please call (765) 569-1123 or visit www.valleyprohealth.org.<br /><br />  
 
-The Crawfordsville health center is open Monday through Friday, from 8:00 a.m. to 5:00 p.m., with extended hours available by appointment only on Thursdays until 8:00 p.m. Dental services are available on Thursdays from 8:00 a.m. to 5:00 p.m. For more information or to schedule an appointment, please call (765) 362-5100 or visit www.valleyprohealth.org.<br /><br />
+Valley Professionals Community Health Center is a federally qualified health center that provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals.  Valley Professionals currently serves the Wabash Valley and surrounding areas with locations in Clinton, Cayuga, Bloomingdale, Crawfordsville, and Terre Haute.
 
-Valley Professionals Community Health Center is a federally qualified health center (FQHC) that provides comprehensive and integrated health care for all individuals and families, while promoting health education opportunities for the community, students, and health care professionals. Valley Professionals currently serves the Wabash Valley and surrounding areas with locations in Bloomingdale, Clinton, Cayuga, Crawfordsville, Rockville and Terre Haute.
 <br /><br />
 
 

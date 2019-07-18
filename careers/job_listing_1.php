@@ -53,15 +53,18 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Medical Receptionist - Rockville</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Medical Receptionist for its Rockville office.</p>
-    <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for answering and directing phone calls, scheduling patient appointments, and entering patient information.</li>
-    <li class="green-bullet">Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records.</li>
-    <li class="green-bullet">This candidate must have a minimum of 2 years' experience in a medical setting and certification as a medical assistant preferred.</li>    
+  	<h6>Certified Medical Assistant/Licensed Practical Nurse - Rockville</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Rockville office.</p>
+        <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Providing professional nursing services and patient care</li>
+    <li class="green-bullet">Patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
+    <li class="green-bullet">Assist in answering phone calls, scheduling patients and checking-in patients.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">Current certification or licensure as a Medical Assistant or Nurse required.</li>
+    <li class="green-bullet">Two to three years primary care experience preferred.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_3.php" name="referer">
+    <input type="hidden" value="job_listing_5.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -82,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Medical Receptionist - Rockville">
+        <input type="hidden" name="subject" value="Certified Medical Assistant/Licensed Practical Nurse - Rockville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

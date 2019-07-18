@@ -53,16 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Bilingual Medical Receptionist - Crawfordsville</h6>
-    <p>Valley Professionals Community Health Center is seeking a bilingual receptionist fluent in both English and Spanish for its Crawfordsville clinic.</p>
-        <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for answering and directing phone calls.</li>
-    <li class="green-bullet">Scheduling appointments and entering patient information.</li>
-    <li class="green-bullet">Collecting and maintaining patient health records.</li>
-    <li class="green-bullet">In addition, this person will perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records.</li>
-        <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
+  	<h6>Licensed Clinical Social Worker - Terre Haute</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Licensed Clinical Social Worker for its Terre Haute office.</p>
+    <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Responsible for providing professional behavioral healthcare to VPCHC patients and maintaining the related patient documentation.</li>
+    <li class="green-bullet">Coordinate patient treatment with a multidisciplinary team to assure continuity of care and the comprehensiveness of health care plans.</li>
+    <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_5.php" name="referer">
+    <input type="hidden" value="job_listing_1.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -83,7 +81,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Bilingual Medical Receptionist - Crawfordsville">
+        <input type="hidden" name="subject" value="Licensed Clinical Social Worker - Terre Haute">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

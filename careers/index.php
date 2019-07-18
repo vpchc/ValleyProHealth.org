@@ -103,7 +103,7 @@
     </div>
     <div>
         <a href="/careers/job_listing_7"><div class="content-tile">
-			<p>Certified Medical Assistant/Licensed Practical Nurse</p>
+			<p>Certified Medical Assistant / Licensed Practical Nurse</p>
 			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
       </div></a>
     </div>
@@ -117,6 +117,18 @@
         <a href="/careers/job_listing_4"><div class="content-tile">
 			<p>Patient Care Coordinator</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+      </div></a>
+    </div>
+    <div>
+        <a href="/careers/job_listing_1"><div class="content-tile">
+			<p>Certified Medical Assistant / Licensed Practical Nurse</p>
+			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
+      </div></a>
+    </div>
+    <div>
+        <a href="/careers/job_listing_6"><div class="content-tile">
+			<p>Licensed Clinical Social Worker</p>
+			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
       </div></a>
     </div>
          
