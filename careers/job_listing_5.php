@@ -58,6 +58,7 @@
     <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Responsible for providing professional behavioral healthcare to VPCHC patients and maintaining the related patient documentation.</li>
     <li class="green-bullet">Coordinate patient treatment with a multidisciplinary team to assure continuity of care and the comprehensiveness of health care plans.</li>
+    <li class="green-bullet">Background and training in addictions counseling.</li>    
     <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_1.php" name="referer">
