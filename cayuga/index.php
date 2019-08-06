@@ -80,22 +80,24 @@
 		<br>
     <p class="location-title small">PROVIDERS</p>
     <table class="team-table">
-    	<tr>
-				<td><p class="team-table-name">Dr. Danielle Cundiff, DO</p></td>
-        <td><p class="team-table-name">Dr. Bing Gale, MD</p></td> 
+      <tr>
+		<td><p class="team-table-name">Dr. Danielle Cundiff, DO</p></td>
+        <td><p class="team-table-name">Zakary Bushue, MSW</p></td> 
       </tr>
       <tr>
-      	<td><p class="team-table-name">Renae Norman, FNP-C</p></td>
-        <td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
-      </tr>
-      <tr>
-      	<td><p class="team-table-name">Johnathan Detwiler, MS</p></td>
+      	<td><p class="team-table-name">Dr. Paul Taraska, MD</p></td>
         <td><p class="team-table-name">Tasha Lewis-Stevens, LCSW, RN</p></td>
       </tr>
       <tr>
-        <td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
+      	<td><p class="team-table-name">Dr. Brad Smith, DDS</p></td>
         <td><p class="team-table-name">Jason Heck, PMHNP</p></td>
-    	</tr>
+      </tr>
+      <tr>
+        <td><p class="team-table-name">Dr. Bing Gale, MD</p></td>
+      </tr>
+      <tr>
+        <td><p class="team-table-name">Andrea Davenport, FNP-C</p></td>  
+      </tr>
     </table>
   </div>
   <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.0347672384405!2d-87.47126568497!3d39.94061197942334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d54aa655d565f%3A0x3e0ddae5b4218ab7!2sValley+Professionals+Community+Health+Center!5e0!3m2!1sen!2sus!4v1505917855515" allowfullscreen></iframe>
