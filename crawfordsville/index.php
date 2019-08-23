@@ -83,17 +83,17 @@
 			<table class="team-table">
 				<tr>
 					<td><p>Dr. Patrick Foley, MD</p></td>
-					<td><p>Dr. Anastasia Yi, MD</p></td> 
+					<td><p>Dana Tinkle, LMHC, RPT</p></td> 
 				</tr>
 				<tr>
-					<td><p>Jessica Bekkering, FNP-C</p></td>
-					<td><p>Dr. Paul Taraska, MD</p></td>
-				<tr>
+					<td><p>Dr. Anastasia Yi, MD</p></td>
 					<td><p>Misha Bennett, LCSW</p></td>
+				<tr>
+					<td><p>Dr. Paul Taraska, MD</p></td>
 					<td><p>Keith Seegers, LCSW</p></td>
 				</tr>
 				<tr>
-					<td><p>Dana Tinkle, LMHC, RPT</p></td>
+					<td><p>Jessica Bekkering, FNP-C</p></td>
                     <td><p>Jason Heck, PMHNP</p></td>
 				</tr>
 			</table>
