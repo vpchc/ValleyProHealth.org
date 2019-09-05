@@ -69,7 +69,7 @@
     <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
 		<p class="location-appts">(by appointment only)</p>
     <p>Closed<br/>12:00 pm to 1:00 pm</p>
-    <p> class="location-subtitle small">Extended Hours</p>
+    <p class="location-subtitle small">Extended Hours</p>
     <p>Wednesday<br/>5:00 pm to 8:00 pm</p>
 		<p class="location-appts">(by appointment only)</p>
   </div>
