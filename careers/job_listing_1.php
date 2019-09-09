@@ -53,15 +53,20 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Certified Medical Assistant/Licensed Practical Nurse - Rockville</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Rockville office.</p>
+  	<h6>Case Manager - Crawfordsville</h6>
+    <p>The Valley Professionals Community Health Center is seeking a Case Manager for it's Crawfordsville office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Providing professional nursing services and patient care</li>
-    <li class="green-bullet">Patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
-    <li class="green-bullet">Assist in answering phone calls, scheduling patients and checking-in patients.</li>
+    <li class="green-bullet">Case Managers are responsible for assisting with patient admission and registration along with processing the information of patients. Tasked with managing paperwork, handling data entry, making phone calls and communicating with patients.</li>
+    <li class="green-bullet">Must be willing to work flexible hours.</li>
+    <li class="green-bullet">This position includes health care, school and home visit settings.</li>
         <h2>Requirements:</h2>
-    <li class="green-bullet">Current certification or licensure as a Medical Assistant or Nurse required.</li>
-    <li class="green-bullet">Two to three years primary care experience preferred.</li>    
+    <li class="green-bullet">Bachelor’s degree required</li>
+    <li class="green-bullet">Experience in the medical or social work field preferred.</li><br> <br>
+    <p>Valley Professionals offers excellent benefits, including:</p> <br>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -85,7 +90,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Certified Medical Assistant/Licensed Practical Nurse - Rockville">
+        <input type="hidden" name="subject" value="Case Manager - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
