@@ -53,8 +53,8 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Case Manager - Clinton</h6>
-    <p>The Valley Professionals Community Health Center is seeking a Case Manager for it's Clinton office.</p>
+  	<h6>Case Manager - Crawfordsville</h6>
+    <p>The Valley Professionals Community Health Center is seeking a Case Manager for it's Crawfordsville office.</p>
         <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Case Managers are responsible for assisting with patient admission and registration along with processing the information of patients. Tasked with managing paperwork, handling data entry, making phone calls and communicating with patients.</li>
     <li class="green-bullet">Must be willing to work flexible hours.</li>
@@ -90,7 +90,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Case Manager - Clinton">
+        <input type="hidden" name="subject" value="Case Manager - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
