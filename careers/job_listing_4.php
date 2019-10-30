@@ -53,8 +53,8 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Dental Hygienist - Cayuga</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a part time dental hygienist for its Cayuga office.</p>
+  	<h6>Dental Hygienist - Crawfordsville</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a part time dental hygienist for its Crawfordsville office.</p>
         <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Assist the dentist in providing dental treatment to all patients.</li>
     <li class="green-bullet">Prepares and maintains dental instruments, supplies and equipment.</li>
@@ -89,7 +89,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dental Hygienist - Cayuga">
+        <input type="hidden" name="subject" value="Dental Hygienist - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
