@@ -93,6 +93,28 @@
     </div>
     <div class="tab">
       <div class="tab-bar blue">
+        <p class="tab-name">Dr. Sean Ewing, MD</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/ewing.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Physician</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>BS - Albion College</li>
+							<li>MD - University of Medicine and Health Sciences St. Kitts</li>
+							<li>Union Hospital Family Medicine Residency</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Dr. Sean Ewing is family medicine physician who practices at Rockville location. He was born and raised in Michigan. Dr. Ewing grew up in Frankenmuth, Michigan and graduated college from Albion College. Dr. Ewing attended medical school at University of Medicine and Health Sciences in St. Kitts.  He completed residency at Union Hospital in Terre Haute. Dr. Ewing enjoys travel and spending time discovering new places and activities. He also enjoys exploring new foods and restaurants and trying new craft beers. </p>
+          </div>
+          <p class="tab-location">Currently providing care in Rockville.</p>
+        </div>
+      </div>
+    </div>  
+    <div class="tab">
+      <div class="tab-bar blue">
         <p class="tab-name">Dr. Christopher Fitzsimmons, MD</p>
       </div>
       <div class="tab-box">
@@ -140,7 +162,7 @@
         <p class="tab-name">Dr. George Fritch, MD</p>
       </div>
       <div class="tab-box">
-        <img src="">
+        <img src="/images/providers/fritch.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Physician</p></div>
           <div class="tab-bio">
@@ -392,7 +414,28 @@
     </div>
 
 <div class="tab">
-	
+	<div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name tab-name-large">Andrea Davenport, FNP-BC</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/davenport.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Family Nurse Practitioner</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Purdue University - MSN, FNP</li>
+							<li>St. Elizabeth School of Nursing - RN, BSN</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Andrea has been a life-long resident of the Wabash Valley. Andrea has been in acute medicine for 5 years and is now excited to promote healthy living in addition to chronic disease management in the area she calls home. In addition to healthcare, Andrea spends her time with her husband and son (soon-to-be sons) on their family farm, visiting friends, cooking, and being active (preferably outdoors). She is also active in her church community, especially children's ministry.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Cayuga.</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">       
       <div class="tab-bar blue">
         <p class="tab-name">Beth Fields, FNP-C</p>
       </div>
@@ -454,7 +497,28 @@
           <p class="tab-location">Currently providing care in Clinton</p>
         </div>
       </div>
-    </div> 
+    </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name tab-name-large">Heidi Millspaugh, NP-C</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/millspaugh.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Family Nurse Practitioner</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Indiana State University, BSN</li>
+							<li>Indiana State University, MSN</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Born and raised in Bloomingdale, IN, Heidi is excited to help improve health in the local community.  She is married and has two daughters.  She spends most of her time outdoors and enjoys working on her landscaping.  She is an avid reader of suspense and mystery novels.  In her spare time, she raises Soft Coated Wheaten Terriers.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Bloomingdale</p>
+        </div>
+      </div>
+    </div>
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Tammy Mundy, FNP-C</p>
@@ -523,7 +587,7 @@
         <p class="tab-name">Amber Pitts, FNP-C</p>
       </div>
       <div class="tab-box">
-        <img src="">
+        <img src="/images/providers/pitts.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Nurse Practitioner</p></div>
           <div class="tab-bio">
@@ -576,8 +640,8 @@
         </div>
       </div>
     </div>
-      <div class="tab">
-      <div class="tab-bar blue">
+    
+      
     </div>
     </div>      
       <h3 id="behavioralhealth">Behavioral Health</h3>
@@ -667,6 +731,27 @@
         </div>
       </div>
     </div> 
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Zakary Bushue, MSW</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/bushue.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Master of Social Work</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Indiana State University - Bachelor of Social Work</li>
+							<li>Indiana State University - Master of Social Work</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Zakary (Zak) Bushue was born and raised in Teutopolis, IL. He is excited to have the opportunity to be providing mental health services in the Wabash Valley. When not providing mental health services Zak enjoys exploring new cities and spending time with his family and friends in Illinois. </p>
+          </div>
+          <p class="tab-location">Currently providing care in Cayuga.</p>
+        </div>
+      </div>
+    </div>  
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Johnathan Detwiler, MS, LMHC</p>
@@ -1045,6 +1130,29 @@
         </div>
       </div>
     </div>
+    
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Sheri Trendelman, MS, LMHC</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/trendelman.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Licensed Mental Health Counselor</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>IU in Bloomington-Psychology BA</li>
+							<li>ISU in Terre Haute-Mental Health Counseling</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Born in San Antonio, Sheri has lived in Indiana for 30 years, is married and has 5 children. She has worked in Community Mental Health for 21 years and private practice for 7 years. Her focus of work has been with children and families. Excited to be involved in the innovative field of integrated medical and mental health.</p>
+          </div>
+          <p class="tab-location">Currently providing care through school-based services.</p>
+        </div>
+      </div>
+    </div>         
+      
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Heather Woods, LMHC</p>
@@ -1066,9 +1174,7 @@
         </div>
       </div>
     </div>
-       <div class="tab">
-      <div class="tab-bar blue">
-           </div>
+    
     <h3 id="dental">Dental</h3>
     <hr>
     <div class="tab">
