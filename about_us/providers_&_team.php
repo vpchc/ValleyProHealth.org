@@ -919,48 +919,47 @@
         </div>
       </div>
     </div> 
-    
-	
-	    <div class="tab">
-
+    <div class="tab">
       <div class="tab-bar blue">
-
         <p class="tab-name">Kasi Oxendine, MSW, LSW </p>
-
       </div>
-
       <div class="tab-box">
-
          <img src="/images/providers/Kasi Oxendine.jpg">
-
          <div class="tab-box-text">
-
           <div class="tab-credentials"><p>School-Based Therapist</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>Indiana State University - BSW</li>
-
-							<li>Florida Atlantic University - MSW</li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Kasi Oxendine was born and raised in Terre Haute, and after completing her Master of Social Work degree at Florida Atlantic University, she is glad to return to the community to work with students in need.  Kasi has a passion for working with LGBTQ+ youth and has developed her own training for working with this population, which she has presented at various agencies across the state. In her free time, she enjoys spending time with her family, giving love to her three cats, reading, and binge-watching Forensic Files on Netflix.</p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>Indiana State University - BSW</li>
+                            <li>Florida Atlantic University - MSW</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Kasi Oxendine was born and raised in Terre Haute, and after completing her Master of Social Work degree at Florida Atlantic University, she is glad to return to the community to work with students in need.  Kasi has a passion for working with LGBTQ+ youth and has developed her own training for working with this population, which she has presented at various agencies across the state. In her free time, she enjoys spending time with her family, giving love to her three cats, reading, and binge-watching Forensic Files on Netflix.</p>
           </div>
-
           <p class="tab-location">Currently providing care through school-based services and Rockville </p>
-
         </div>
-
       </div>
-
+    </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Tammy Ponder, BSW, MSW, LCSW</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/ponder.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Licensed Clinical<br>Social Worker</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Indiana State University, Terre Haute, IN</li>
+							<li>Indiana University, Indianapolis, IN</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Tammy is committed to helping people overcome trauma, addictions, depression, anxiety, and other stressors. Tammy Ponder was born and raised in Indiana. She has practiced social work for thirty years in three different states. Tammy has practiced in a variety of settings, including traditional out-patient mental health, hospice, corrections, schools, and home-based work. She enjoys spending time with her family, being outside, hiking, researching legislation, cooking, animals, reading, swimming, and scuba diving. Tammy is very passionate about providing holistic therapeutic interventions that are individualized to assist the client. She believes that healing is a collaborative endeavor, that requires honest caring without judgement and a partnership in learning.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Crawfordsville</p>
+        </div>
+      </div>
     </div>  
     <div class="tab">
       <div class="tab-bar blue">
@@ -1023,27 +1022,7 @@
       </div>
 
     </div>   
-    <div class="tab">
-      <div class="tab-bar blue">
-        <p class="tab-name">Keith Seegers, LCSW</p>
-      </div>
-      <div class="tab-box">
-        <img src="/images/providers/seegers.jpg">
-        <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Clinical<br>Social Worker</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>Indiana University - MSW</li>
-							<li>Purdue University - BS</li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>Keith is married with two adult children and two grandsons. He enjoys travel and the out of doors. He takes special interest in history, especially Williamsburg, VA. He enjoys his home gardens and dog and cat.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Crawfordsville</p>
-        </div>
-      </div>
-    </div>  
+    
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Lacey Skwortz, LCSW</p>
