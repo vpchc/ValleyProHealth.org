@@ -200,49 +200,27 @@
         </div>
       </div>
     </div>
-	
 	<div class="tab">
-
       <div class="tab-bar blue">
-
         <p class="tab-name">Dr. Angela Hatfield, MD </p>
-
       </div>
-
       <div class="tab-box">
-
         <img src="/images/providers/Hatfield.jpg">
-
         <div class="tab-box-text">
-
           <div class="tab-credentials"><p>Physician</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>B.S. Biology, Indiana State University </li>
-
-							<li>Indiana University School of Medicine - Terre Haute</li>
-
-							<li>Union Hospital Family Medicine Residency - Terre Haute</li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Dr. Hatfield completed her undergrad at Indiana State University with the Rural Health Program. She went on to complete all of her medical school training in Terre Haute with the Rural Medical Education Program at the Indiana University School of Medicine, electing to remain in the area completing her residency at Union Hospital Family Medicine Residency in Terre Haute. Dr. Hatfield has been interested in full spectrum family medicine throughout her 11 years of rural training and looks forward to a long career in the area including inpatient, outpatient, nursing home, and prenatal/delivery care. She enjoys the opportunity for full community involvement offered by living where she works. When Dr. Hatfield is not busy caring for patients, her personal time is spent largely with family, including furry family members, as well as enjoying literature, music, and gardening.</p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>B.S. Biology, Indiana State University </li>
+                            <li>Indiana University School of Medicine - Terre Haute</li>
+                            <li>Union Hospital Family Medicine Residency - Terre Haute</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Dr. Hatfield completed her undergrad at Indiana State University with the Rural Health Program. She went on to complete all of her medical school training in Terre Haute with the Rural Medical Education Program at the Indiana University School of Medicine, electing to remain in the area completing her residency at Union Hospital Family Medicine Residency in Terre Haute. Dr. Hatfield has been interested in full spectrum family medicine throughout her 11 years of rural training and looks forward to a long career in the area including inpatient, outpatient, nursing home, and prenatal/delivery care. She enjoys the opportunity for full community involvement offered by living where she works. When Dr. Hatfield is not busy caring for patients, her personal time is spent largely with family, including furry family members, as well as enjoying literature, music, and gardening.</p>
           </div>
-
           <p class="tab-location">Currently providing care in Clinton</p>
-
         </div>
-
       </div>
-
     </div>
     <div class="tab">
       <div class="tab-bar blue">
@@ -266,49 +244,27 @@
         </div>
       </div>
     </div>
-	
 	<div class="tab">
-
       <div class="tab-bar blue">
-
         <p class="tab-name">Dr. Anastasia Yi, DO  </p>
-
       </div>
-
       <div class="tab-box">
-
         <img src="/images/providers/Yi.jpg">
-
         <div class="tab-box-text">
-
           <div class="tab-credentials"><p>Physician</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>B.A. Chemistry, Indiana University </li>
-
-							<li>B.A. with Honors Spanish, Indiana University</li>
-
-							<li>D.O., West Virginia School of Osteopathic Medicine </li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Dr. Yi was raised in Crawfordsville, IN and is excited and proud to be serving her home town. She is a National Health Service Corps Scholar and has a passion for women's health and preventative medicine. She is a mother of three young children. In her spare time, she enjoys yoga and spending quality time with her husband and children. </p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>B.A. Chemistry, Indiana University </li>
+                            <li>B.A. with Honors Spanish, Indiana University</li>
+                            <li>D.O., West Virginia School of Osteopathic Medicine </li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Dr. Yi was raised in Crawfordsville, IN and is excited and proud to be serving her home town. She is a National Health Service Corps Scholar and has a passion for women's  health and preventative medicine. She is a mother of three young children. In her spare time, she enjoys yoga and spending quality time with her husband and children. </p>
           </div>
-
           <p class="tab-location">Currently providing care in Crawfordsville</p>
-
         </div>
-
       </div>
-
     </div>
     <div class="tab">
       <div class="tab-bar blue">
@@ -754,108 +710,45 @@
     </div>  
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Johnathan Detwiler, MS, LMHC</p>
-      </div>
-      <div class="tab-box">
-        <img src="/images/providers/detwiler.jpg">
-        <div class="tab-box-text">
-					<div class="tab-credentials"><p>Licensed Mental Health Counselor</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>Indiana State University - MS</li>
-							<li>Purdue University - BA</li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>Johnathan is currently working towards a PhD at Indiana State University. He has been working in integrated healthcare since August 2015 and has a passion for helping patients reach their Behavioral Health treatment goals. Johnathan is an avid outdoorsman, golfer, and enjoys riding anything from motorcycles to jet skis. He has a passion for animal welfare and enjoys spending time with his dogs and his cat.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Cayuga</p>
-        </div>
-      </div>
-    </div> 
-	
-		    <div class="tab">
-
-      <div class="tab-bar blue">
-
         <p class="tab-name">Jason Heck, PMHNP-BC</p>
-
       </div>
-
       <div class="tab-box">
-
          <img src="/images/providers/Jason Heck2.jpg">
-
          <div class="tab-box-text">
-
           <div class="tab-credentials"><p>Psychiatric Mental Health<br />Nurse Practitioner</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>Wilkes University School of Nursing - MSN</li>
-
-							<li>Indiana State University - BSN</li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Jason Heck has worked in the mental health field since 2005 and enjoys providing a holistic approach in treating mental health disorders.  Jason enjoys spending time with his wife and three children, who are active in church activities and sports.</p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>Wilkes University School of Nursing - MSN</li>
+                            <li>Indiana State University - BSN</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Jason Heck has worked in the mental health field since 2005 and enjoys providing a holistic approach in treating mental health disorders.  Jason enjoys spending time with his wife and three children, who are active in church activities and sports.</p>
           </div>
-
           <p class="tab-location">Currently providing care at Bloomingdale, Cayuga, Clinton, and Rockville </p>
-
         </div>
-
       </div>
-
     </div>  
-	
-			    <div class="tab">
-
+	           <div class="tab">
       <div class="tab-bar blue">
-
         <p class="tab-name">Alexis Joyner, MSW </p>
-
       </div>
-
       <div class="tab-box">
-
          <img src="/images/providers/Alexis Joyner.jpg">
-
          <div class="tab-box-text">
-
           <div class="tab-credentials"><p>School-Based Therapist</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>Indiana State University - MSW</li>
-
-							<li>Indiana State University – BAS</li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Alexis is one of our school-based therapists, her favorite part of working for Valley Professionals is helping amazing kiddos meet their treatment goals.  In her personal time, Alexis enjoys spending time with her family.</p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>Indiana State University - MSW</li>
+                            <li>Indiana State University – BAS</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Alexis is one of our school-based therapists, her favorite part of working for Valley Professionals is helping amazing kiddos meet their treatment goals.  In her personal time, Alexis enjoys spending time with her family.</p>
           </div>
-
           <p class="tab-location">Currently providing care through school-based services </p>
-
         </div>
-
       </div>
-
     </div>  
     <div class="tab">
       <div class="tab-bar blue">
@@ -982,47 +875,26 @@
         </div>
       </div>
     </div>   
-	
-	   <div class="tab">
-
+    <div class="tab">
       <div class="tab-bar blue">
-
         <p class="tab-name">Becky Robeson, LMHC </p>
-
       </div>
-
       <div class="tab-box">
-
         <img src="/images/providers/Becky Robeson.jpg">
-
         <div class="tab-box-text">
-
           <div class="tab-credentials"><p>Licensed Mental<br /> Health Counselor</p></div>
-
           <div class="tab-bio">
-
-						<p class="tab-title">Education</p>
-
-						<ul>
-
-							<li>Bradley University - MA</li>
-
-						</ul>
-
-						<p class="tab-title">Personal</p>
-
-						<p>Becky has a Master of Arts degree in Community Counseling from Bradley University and worked as a therapist serving the needs of families in the Wabash Valley for over twenty years.  She is married and has three children.  Becky loves spending time with her family traveling or enjoying the outdoors as much as possible.</p>
-
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>Bradley University - MA</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Becky has a Master of Arts degree in Community Counseling from Bradley University and worked as a therapist serving the needs of families in the Wabash Valley for over twenty years.  She is married and has three children.  Becky loves spending time with her family traveling or enjoying the outdoors as much as possible.</p>
           </div>
-
           <p class="tab-location">Currently providing care in Terre Haute</p>
-
         </div>
-
       </div>
-
     </div>   
-    
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Lacey Skwortz, LCSW</p>
