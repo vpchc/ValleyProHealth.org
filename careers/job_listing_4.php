@@ -53,19 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Dental Hygienist - Crawfordsville</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a part time dental hygienist for its Crawfordsville office.</p>
+  	<h6>Quality Specialist - Cayuga</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Quality Specialist for its Cayuga office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Assist the dentist in providing dental treatment to all patients.</li>
-    <li class="green-bullet">Prepares and maintains dental instruments, supplies and equipment.</li>
-    <li class="green-bullet">Collects and records patient health histories.</li>
-    <li class="green-bullet">Educate patients in oral hygiene instruction and provide postoperative instructions.</li>
-    <li class="green-bullet">Take, develop and mount dental radiographs (x-rays).</li>
-    <li class="green-bullet">Remove hard and soft deposits (plaque and calculus) from all surfaces of patients’ teeth as well as provide preventative treatment such as fluoride, counseling patients on good hygiene and tobacco cessation.</li>
-    <li class="green-bullet">Mix amalgam, cement, pulp paste and prepare impression materials.</li>
-    <li class="green-bullet">Sterilize and disinfect instruments and equipment.</li>
-    <li class="green-bullet">Assist with suctioning, holding retractors and suture cutting during surgical procedures.</li>
-    <li class="green-bullet">Pour, trim and polish impression casts.</li>
+    <li class="green-bullet">Promoting the value of quality and a commitment to continuous quality improvement.</li>
+    <li class="green-bullet">Compiling data on quality performance measures related to all service lines, as well as risk management activities, and monthly, quarterly and yearly reporting of quality activities through Microsoft Office programs.</li>
+        <h2>Requirements</h2>
+    <li class="green-bullet">High school diploma or equivalence, ability to work with Microsoft Office products, and good communication skills required.</li>
+    <li class="green-bullet">Two to three years experience preferred.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -89,7 +84,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Dental Hygienist - Crawfordsville">
+        <input type="hidden" name="subject" value="Quality Specialist - Cayuga">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

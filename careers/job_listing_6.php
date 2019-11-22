@@ -53,14 +53,22 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Licensed Clinical Social Worker - Terre Haute</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Licensed Clinical Social Worker for its Terre Haute office.</p>
-    <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for providing professional behavioral healthcare to VPCHC patients and maintaining the related patient documentation.</li>
-    <li class="green-bullet">Coordinate patient treatment with a multidisciplinary team to assure continuity of care and the comprehensiveness of health care plans.</li>
-    <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
+  	<h6>Certified Medical Assistant / Licensed Practical Nurse - Clinton</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Clinton office.</p>
+        <h2>Duties(Including but not limited to):</h2>
+    <li class="green-bullet">Duties include providing professional nursing services and patient care, including but not limited to, patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
+    <li class="green-bullet">In addition, this position will assist in answering phone calls, scheduling patients and checking-in patients.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">Current certification or licensure as a Medical Assistant or Practical Nurse required.</li>
+    <li class="green-bullet">Two to three years primary care experience preferred.</li><br> <br>
+        <h2>Valley Professionals offers excellent benefits, including:</h2>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
+        <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
-    <input type="hidden" value="job_listing_1.php" name="referer">
+    <input type="hidden" value="job_listing_5.php" name="referer">
     <div id="onsub">
       <div id="onsub-title">Online Submission</div>
       <div id="onsub-box">
@@ -81,7 +89,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Licensed Clinical Social Worker - Terre Haute">
+        <input type="hidden" name="subject" value="CMA / LPN - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
