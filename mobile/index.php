@@ -189,7 +189,7 @@ ul {
 				<tr> 
 
 					<td><p>Alexis Joyner, LSW</p></td> 
-
+                    <td><p>Sheri Trendelman, LMHC</p></td>
 				</tr>
 			</table>
 			

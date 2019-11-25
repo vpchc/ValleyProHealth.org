@@ -86,8 +86,7 @@
 				</tr>
 				<tr>
 					<td><p>Dr. Sean Ewing, MD</p></td>
-                    <td><p>Johnathan Detwiler, LMCH</p></td>
-				</tr>
+                </tr>
                 <tr>
                     <td><p>Jordan Ryley, FNP-C</p></td>
                 </tr>
