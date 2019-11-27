@@ -72,6 +72,7 @@
     <p class="location-subtitle small">Extended Hours</p>
     <p>Wednesday<br/>5:00 pm to 8:00 pm</p>
 		<p class="location-appts">(by appointment only)</p>
+    <p>*For after-hours assistance, please call the clinic phone number and calls will be forwarded to the switchboard operator.</p>
   </div>
   <div class="location-details">
   	<p class="location-title small">Cayuga</p>

@@ -75,6 +75,7 @@
     <p class="location-subtitle large">Saturday Clinic</p>
     <p>9:00 am to 1:00 pm</p>
 		<p class="location-walkin">Walk-in Appointments Available</p>
+    <p>*For after-hours assistance, please call the clinic phone number and calls will be forwarded to the switchboard operator.</p>  
   </div>
   <div class="location-details">
   	<p class="location-title small">Clinton</p>

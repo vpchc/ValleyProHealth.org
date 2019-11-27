@@ -71,6 +71,7 @@
 			<p>Friday<br/>8:00 am to 4:30 pm</p>
 			<p class="location-appts">(by appointment only)</p>
 			<p>Closed<br/>12:00 p.m. - 1:00 p.m.,</br>Phone calls accepted during this time.</p>
+            <p>*For after-hours assistance, please call the clinic phone number and calls will be forwarded to the switchboard operator.</p>
 		</div>
 		<div class="location-details">
 			<p class="location-title small">Terre Haute</p>
