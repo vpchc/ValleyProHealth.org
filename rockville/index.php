@@ -87,6 +87,7 @@
 				</tr>
 				<tr>
 					<td><p>Dr. Sean Ewing, MD</p></td>
+                    <td><p>Kasi Oxendine, MSW, LSW</p></td>
                 </tr>
                 <tr>
                     <td><p>Jordan Ryley, FNP-C</p></td>
