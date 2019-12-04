@@ -328,27 +328,6 @@
     </div>
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Gretchen Blevins, FNP-C</p>
-      </div>
-      <div class="tab-box">
-        <img src="/images/providers/blevins.jpg">
-        <div class="tab-box-text">
-          <div class="tab-credentials"><p>Nurse Practitioner</p></div>
-          <div class="tab-bio">
-						<p class="tab-title">Education</p>
-						<ul>
-							<li>Marshall University School of Nursing - MSN</li>
-							<li>University of New Hampshire School of Nursing - BSN</li>
-						</ul>
-						<p class="tab-title">Personal</p>
-						<p>In addition to practicing medicine, Gretchen enjoys spending time with her family swimming, kayaking, ATV riding, and trying new things like sky diving when she gets the opportunity.</p>
-          </div>
-          <p class="tab-location">Currently providing care in Clinton</p>
-        </div>
-      </div>
-    </div>
-    <div class="tab">
-      <div class="tab-bar blue">
         <p class="tab-name">Christi Busenbark, FNP-C</p>
       </div>
       <div class="tab-box">
@@ -375,7 +354,7 @@
         <p class="tab-name tab-name-large">Andrea Davenport, FNP-BC</p>
       </div>
       <div class="tab-box">
-        <img src="/images/providers/davenport.jpg">
+        <img src="/images/providers/davenport1.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Family Nurse Practitioner</p></div>
           <div class="tab-bio">
@@ -838,7 +817,7 @@
         <p class="tab-name">Tammy Ponder, BSW, MSW, LCSW</p>
       </div>
       <div class="tab-box">
-        <img src="/images/providers/ponder.jpg">
+        <img src="/images/providers/ponder1.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Licensed Clinical<br>Social Worker</p></div>
           <div class="tab-bio">
@@ -987,7 +966,7 @@
         <p class="tab-name">Sheri Trendelman, MS, LMHC</p>
       </div>
       <div class="tab-box">
-        <img src="/images/providers/trendelman.jpg">
+        <img src="/images/providers/trendelman1.jpg">
         <div class="tab-box-text">
           <div class="tab-credentials"><p>Licensed Mental Health Counselor</p></div>
           <div class="tab-bio">
