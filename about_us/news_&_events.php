@@ -61,11 +61,11 @@
 		<div class="content-section">
 			<h2>News</h2>
 			<div class="news-article">
-                <p class="news-article-title">July 17, 2019 - Sunset on Summer - Free Community Movie Celebrations!</p>
-                <p class="news-article-preview">Valley Professionals Community Health Center is celebrating National Health Center Week during July 29 through August 1 by providing a free outdoor movie night, open to the public, in the communities and counties served by the health center.<a href="/archive/2019/7_17.php">See Full Article</a> </p>	<br>			
+                <p class="news-article-title">December 9th, 2019 - Health Center Awarded Challenge Grant from Community Foundation</p>
+                <p class="news-article-preview">Valley Professionals Community Health Center (VPCHC) was recently awarded a $50,000 challenge grant through the Wabash Valley Community Foundation in October 2019 that will support<a href="/archive/2019/12_9.php">See Full Article</a> </p>	<br>			
             <div class="news-article">
-                <p class="news-article-title">June 4, 2019 - Local Health Center Expands Facility and Patient Access</p>
-				<p class="news-article-preview">Valley Professionals Community Health Center recently completed a facility expansion project at its Rockville location located at 727 N Lincoln Road. The health center provides hometown, high quality medical care for individuals and families.<a href="/archive/2019/6_4.php">See Full Article</a></p>    
+                <p class="news-article-title">July 17, 2019 - Sunset on Summer - Free Community Movie Celebrations!</p>
+				<p class="news-article-preview">Valley Professionals Community Health Center is celebrating National Health Center Week during July 29 through August 1 by providing a free outdoor movie night, open to the public, in the communities and counties served by the health center.<a href="/archive/2019/7_17.php">See Full Article</a></p>    
             </div>
 			</div>
 			<!--<h2>Announcements</h2>

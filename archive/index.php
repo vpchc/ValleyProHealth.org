@@ -77,7 +77,17 @@ margin-bottom: 25px;
       
         <div class="news-article">
 
-			<p class="news-article-title">July 17, 2019 - Sunset on Summer - Free Community Movie Celebrations!</p>
+            <p class="news-article-title">December 9th, 2019 - Health Center Awarded Challenge Grant from Community Foundation</p>
+
+			<p class="news-article-preview">Valley Professionals Community Health Center (VPCHC) was recently awarded a $50,000 challenge grant through the Wabash Valley Community Foundation in October 2019 that will support funding of the health center’s project to bring primary, behavioral health and pharmacy services to West Terre Haute.</p>
+
+			<a href="/archive/2019/12_9.php">See Full Article</a>
+
+		</div>
+      
+        <div class="news-article">
+
+            <p class="news-article-title">July 17, 2019 - Sunset on Summer - Free Community Movie Celebrations!</p>
 
 			<p class="news-article-preview">Valley Professionals Community Health Center is celebrating National Health Center Week during July 29 through August 1 by providing a free outdoor movie night, open to the public, in the communities and counties served by the health center.</p>
 
