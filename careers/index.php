@@ -113,18 +113,7 @@
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
       </div></a>
     </div>
-    <div>
-        <a href="/careers/job_listing_3"><div class="content-tile">
-			<p>CMA / LPN</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
-      </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_6"><div class="content-tile">
-			<p>CMA / LPN</p>
-			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
-      </div></a>
-    </div>
+    
     
     
          
