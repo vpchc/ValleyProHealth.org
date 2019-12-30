@@ -102,18 +102,6 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_1"><div class="content-tile">
-			<p>CMA / Receptionist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Rockville</p>
-      </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_4"><div class="content-tile">
-			<p>Quality Specialist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-      </div></a>
-    </div>
-    <div>
         <a href="/careers/job_listing_3"><div class="content-tile">
 			<p>CMA / LPN</p>
 			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
