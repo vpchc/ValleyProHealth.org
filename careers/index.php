@@ -108,9 +108,21 @@
       </div></a>
     </div>
     <div>
+        <a href="/careers/job_listing_7"><div class="content-tile">
+			<p>CMA / LPN</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+      </div></a>
+    </div>
+    <div>
         <a href="/careers/job_listing_6"><div class="content-tile">
 			<p>Behavioral Health Coordinator</p>
 			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
+      </div></a>
+    </div>
+    <div>
+        <a href="/careers/job_listing_4"><div class="content-tile">
+			<p>Finance Manager</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
     

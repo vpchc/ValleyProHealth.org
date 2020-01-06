@@ -53,14 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Quality Specialist - Cayuga</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Quality Specialist for its Cayuga office.</p>
+  	<h6>Finance Manager - Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Finance Manager for it's Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Promoting the value of quality and a commitment to continuous quality improvement.</li>
-    <li class="green-bullet">Compiling data on quality performance measures related to all service lines, as well as risk management activities, and monthly, quarterly and yearly reporting of quality activities through Microsoft Office programs.</li>
+    <li class="green-bullet">Supervising and providing direction for all Finance Staff and general accounting processes.</li>
+    <li class="green-bullet">Assist with the development and implementation of accounting policies and procedures, internal accounting controls, internal audit functions, month end close processes, and working with external auditors.</li>
         <h2>Requirements</h2>
-    <li class="green-bullet">High school diploma or equivalence, ability to work with Microsoft Office products, and good communication skills required.</li>
-    <li class="green-bullet">Two to three years experience preferred.</li>    
+    <li class="green-bullet">Bachelor’s degree and 5 plus years experience in accounting and preferably healthcare.</li>
+    <li class="green-bullet">Must have knowledge of Medicare, Medicaid, and private insurance billing and reimbursement.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -84,7 +84,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Quality Specialist - Cayuga">
+        <input type="hidden" name="subject" value="Finance Manager - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

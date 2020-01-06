@@ -53,8 +53,8 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Certified Medical Assistant/Licensed Practical Nurse - Terre Haute</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Terre Haute office.</p>
+  	<h6>Certified Medical Assistant/Licensed Practical Nurse - Clinton</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Providing professional nursing services and patient care</li>
     <li class="green-bullet">Patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
@@ -85,7 +85,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Certified Medical Assistant/Licensed Practical Nurse - Terre Haute">
+        <input type="hidden" name="subject" value="Certified Medical Assistant/Licensed Practical Nurse - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
