@@ -121,7 +121,7 @@
     </div>
     <div>
         <a href="/careers/job_listing_4"><div class="content-tile">
-			<p>Finance Manager</p>
+			<p>Manager of Finance</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>

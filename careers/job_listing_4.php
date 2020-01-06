@@ -53,8 +53,8 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Finance Manager - Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Finance Manager for it's Clinton office.</p>
+  	<h6>Manager of Finance - Clinton</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Manager of Finance for it's Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Supervising and providing direction for all Finance Staff and general accounting processes.</li>
     <li class="green-bullet">Assist with the development and implementation of accounting policies and procedures, internal accounting controls, internal audit functions, month end close processes, and working with external auditors.</li>
@@ -84,7 +84,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Finance Manager - Clinton">
+        <input type="hidden" name="subject" value="Manager of Finance - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
