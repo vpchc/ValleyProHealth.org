@@ -112,7 +112,7 @@ ul {
 		<div class="location-details">
 			<p class="location-title small" id="mhc">Mobile School-Based Health Center</p>
 			<div class="location-description">
-				<p>The Mobile School-Based Health Center visits elementary, middle, and high schools in the South Vermillion, North Vermillion, Southwest Parke, North Central Parke, and West Vigo school districts making it even easier to access quality and affordable health care. Every student is eligible to receive health care services from the Mobile Health Center when they turn in their completed enrollment form signed by a parent or guardian. Click <a href="/forms/">here</a> to access enrollment forms. <a href="/forms/vaccine%20consent.docx">Vaccine Consent.</a> <a href="/forms/FORM%20MSBHC%20Enrollment%20Packet%202018-2019.pdf">Enrollment Packet</a> Services:
+				<p>The Mobile School-Based Health Center visits elementary, middle, and high schools in the South Vermillion, North Vermillion, Southwest Parke, North Central Parke, and West Vigo school districts making it even easier to access quality and affordable health care. Every student is eligible to receive health care services from the Mobile Health Center when they turn in their completed enrollment form signed by a parent or guardian. Click <a href="/forms/">here</a> to access enrollment forms. <a href="/forms/MSBHC%20Demographics%20Packet%201.9.20.pdf">Enrollment Packet</a> Services:
 				
 				</p></div>
 				<div style="height: auto;">
