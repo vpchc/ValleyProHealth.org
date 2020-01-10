@@ -114,12 +114,6 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_6"><div class="content-tile">
-			<p>Behavioral Health Coordinator</p>
-			<img src="/images/careers/location_pointer.png"/><p>Terre Haute</p>
-      </div></a>
-    </div>
-    <div>
         <a href="/careers/job_listing_4"><div class="content-tile">
 			<p>Manager of Finance</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
