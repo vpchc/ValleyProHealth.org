@@ -140,7 +140,9 @@
 
     <p class="location-title large">HOURS</p>
 
-    <p>Thursday<br/>8:00 am to 5:00 pm</p>
+    <p>Monday - Tuesday<br/>8:00 am to 5:00 pm</p>
+       
+    <p>Thursday<br/>8:00 am to 8:00 pm</p>   
 
   </div>
 </main>

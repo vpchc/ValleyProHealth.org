@@ -311,7 +311,7 @@
 	});
 	//msbhc choosen
 	$("#forms-student-msbhc").click(function(){
-			window.location.href = "/files/forms/en/msbhc_student_enrollment.pdf";
+			window.location.href = "/files/forms/en/MSBHC Demographics Packet 1.9.20.pdf";
 	});
 </script>
 </body>
