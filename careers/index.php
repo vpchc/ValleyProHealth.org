@@ -102,23 +102,12 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_3"><div class="content-tile">
-			<p>CMA / LPN</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
-      </div></a>
-    </div>
-    <div>
         <a href="/careers/job_listing_7"><div class="content-tile">
 			<p>Receptionist</p>
 			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
       </div></a>
     </div>
-    <div>
-        <a href="/careers/job_listing_4"><div class="content-tile">
-			<p>Manager of Finance</p>
-			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
-      </div></a>
-    </div>
+    
     
     
     
