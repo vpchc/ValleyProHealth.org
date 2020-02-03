@@ -53,14 +53,14 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>CMA / Receptionist - Rockville</h6>
-    <p>The Valley Professionals Community Health Center is seeking a CMA / Receptionist at it's Rockville clinic. </p>
+  	<h6>Community Health Worker - Terre Haute</h6>
+    <p>The Valley Professionals Community Health Center is seeking a Community Health Worker for it's Terre Haute clinic. </p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Providing professional nursing services and patient care, including but not limited to, patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
-    <li class="green-bullet">In addition, this position will assist in answering phone calls, scheduling patients and checking-in patients.</li>
+    <li class="green-bullet">Responsible for helping patients navigate and access community services and assist patients in applying for publicly sponsored health care insurance plans.</li>
+    <li class="green-bullet">Must be willing to work flexible hours, including some weekends and evenings.</li>
         <h2>Requirements:</h2>
-    <li class="green-bullet">Current certification as a Medical Assistant required.</li>
-    <li class="green-bullet">Two to three years primary care experience preferred.</li><br> <br>
+    <li class="green-bullet">High school diploma required.</li>
+    <li class="green-bullet">Three years’ experience in a public or private health or social agency preferred.</li><br> <br>
     <p>Valley Professionals offers excellent benefits, including:</p> <br>
     <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
     <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
@@ -89,7 +89,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA / Receptionist - Rockville">
+        <input type="hidden" name="subject" value="CHW - Terre Haute">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
