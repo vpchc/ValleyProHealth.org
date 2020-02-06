@@ -53,14 +53,13 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Certified Medical Assistant / Licensed Practical Nurse - Cayuga</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a CMA or a LPN for its Cayuga office.</p>
+  	<h6>Patient Care Coordinator - Clinton</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for it's Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Duties include providing professional nursing services and patient care, including but not limited to, patient assessment, taking vitals, and assisting the provider in minor procedures.</li>
-    <li class="green-bullet">In addition, this position will assist in answering phone calls, scheduling patients and checking-in patients.</li>
+    <li class="green-bullet">This position will work directly with patients providing health education and working with the patients to improve health outcomes.</li>
+    <li class="green-bullet">The Patient Care Coordinator will manage high risk patient care, including the management of patients with multiple co-morbidities, and will coordinate the continuity of patient care with external healthcare organizations.</li>
         <h2>Requirements:</h2>
-    <li class="green-bullet">Current certification or licensure as a Medical Assistant or Practical Nurse required.</li>
-    <li class="green-bullet">Two to three years primary care experience preferred.</li><br> <br>
+    <li class="green-bullet">Must have current Indiana licensure as a Registered Nurse.</li><br> <br>
     <p>Valley Professionals offers excellent benefits, including:</p> <br>
     <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
     <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
@@ -89,7 +88,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="CMA / LPN - Cayuga">
+        <input type="hidden" name="subject" value="Patient Care Coordinator - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

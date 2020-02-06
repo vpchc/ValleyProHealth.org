@@ -53,14 +53,18 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Manager of Finance - Clinton</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Manager of Finance for it's Clinton office.</p>
+  	<h6>Patient Care Coordinator - Crawfordsville</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for it's Crawfordsville office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Supervising and providing direction for all Finance Staff and general accounting processes.</li>
-    <li class="green-bullet">Assist with the development and implementation of accounting policies and procedures, internal accounting controls, internal audit functions, month end close processes, and working with external auditors.</li>
-        <h2>Requirements</h2>
-    <li class="green-bullet">Bachelor’s degree and 5 plus years experience in accounting and preferably healthcare.</li>
-    <li class="green-bullet">Must have knowledge of Medicare, Medicaid, and private insurance billing and reimbursement.</li>    
+    <li class="green-bullet">This position will work directly with patients providing health education and working with the patients to improve health outcomes.</li>
+    <li class="green-bullet">The Patient Care Coordinator will manage high risk patient care, including the management of patients with multiple co-morbidities, and will coordinate the continuity of patient care with external healthcare organizations.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">Must have current Indiana licensure as a Registered Nurse.</li><br> <br>
+    <p>Valley Professionals offers excellent benefits, including:</p> <br>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -84,7 +88,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Manager of Finance - Clinton">
+        <input type="hidden" name="subject" value="Patient Care Coordinator - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
