@@ -53,14 +53,13 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Behavioral Health Coordinator - Terre Haute</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a Behavioral Health Coordinator for it's Terre Haute office.</p>
+  	<h6>Referral Coordinator - Clinton</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Referral Coordinator for it's Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Assist the Behavioral Health Department in scheduling appointments, completing prior-authorizations, and completing Behavioral Health paperwork.</li>
-    <li class="green-bullet">In addition, this person would be responsible for coordinating the Valley Addictions Program in the Terre Haute office.</li>
+    <li class="green-bullet">Scheduling referral appointments, tracking all referrals, completing prior-authorizations and assisting with patients.</li>
         <h2>Requirements:</h2>
-    <li class="green-bullet">This position requires attention to detail, organization skills, and good communication skills.</li>
-    <li class="green-bullet">Current experience in behavioral health a plus.</li><br> <br>
+    <li class="green-bullet">Current certification as a Medical Assistant or Licensed Practical Nurse required.</li>
+    <li class="green-bullet">Two to three years primary care experience preferred.</li><br> <br>
         <h2>Valley Professionals offers excellent benefits, including:</h2>
     <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
     <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
@@ -89,7 +88,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Behavioral Health Coordinator - Terre Haute">
+        <input type="hidden" name="subject" value="Referral Coordinator - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

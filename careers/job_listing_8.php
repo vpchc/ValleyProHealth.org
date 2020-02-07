@@ -53,12 +53,19 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Patient Care Coordinator - Rockville / Bloomingdale</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a Patient Care Coordinator for it's Rockville / Bloomingdale locations.</p>
+  	<h6>Quality Specialist - Cayuga</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Quality Specialist for it's Cayuga office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">This position will work directly with patients providing health education and working with the patients to improve health outcomes. The Patient Care Coordinator will manage high risk patient care, including the management of patients with multiple co-morbidities, and will coordinate the continuity of patient care with external healthcare organizations.</li>
-    <li class="green-bullet">Must have current Indiana licensure as a Registered Nurse.</li>
-        <li class="green-bullet">Valley Professionals offers excellent benefits, including: health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options. Employer paid life insurance, short-term and long-term disability. Generous paid time off and paid holidays. Flexible schedules and commitment to work-life balance.</li>
+    <li class="green-bullet">Promoting the value of quality and a commitment to continuous quality improvement.</li>
+    <li class="green-bullet">Compiling data on quality performance measures related to all service lines, as well as risk management activities, and monthly, quarterly and yearly reporting of quality activities through Microsoft Office programs.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">High school diploma or equivalence, ability to work with Microsoft Office products, and good communication skills required.</li>
+    <li class="green-bullet">Two to three years experience preferred.</li>    
+        <h2>Valley Professionals offers excellent benefits, including:</h2>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -82,7 +89,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Patient Care Coordinator - Rockville / Bloomingdale">
+        <input type="hidden" name="subject" value="Quality Specialist - Cayuga">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
