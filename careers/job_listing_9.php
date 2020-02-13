@@ -53,11 +53,19 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Call Center - Clinton</h6>
-    <p>Valley Professionals Community Health Center is seeking a Call Center Representative at our Clinton location.</p>
+  	<h6>Marketing Assistant - Clinton</h6>
+    <p>Valley Professionals Community Health Center is seeking a Marketing Assistant at our Clinton location.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for answering and directing phone calls, scheduling patient appointments, and entering patient information.</li>
-    <li class="green-bullet">Perform a variety of administrative duties and tasks including filing, faxing, scanning documents into medical records.</li>
+    <li class="green-bullet">Organizing campaigns and developing marketing strategies.</li>
+    <li class="green-bullet">Composing and posting content for social media and web; event planning; and similar tasks.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">The ideal candidate has a degree in Marketing or similar.</li>
+    <li class="green-bullet">Professional experience using various social media outlets; and is experienced with MS Office and Adobe Creative Suite.</li>    
+        <h2>Valley Professionals offers excellent benefits, including:</h2>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
         <h2>Competitive pay and benefits offered.</h2>
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
@@ -82,7 +90,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Call Center - Clinton">
+        <input type="hidden" name="subject" value="Marketing Assistant - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
