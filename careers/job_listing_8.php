@@ -53,8 +53,8 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Quality Specialist - Cayuga</h6>
-    <p>The Valley Professionals Community Health Center is looking to hire a Quality Specialist for it's Cayuga office.</p>
+  	<h6>Quality Specialist - Clinton</h6>
+    <p>The Valley Professionals Community Health Center is looking to hire a Quality Specialist for it's Clinton office.</p>
         <h2>Duties(Including but not limited to):</h2>
     <li class="green-bullet">Promoting the value of quality and a commitment to continuous quality improvement.</li>
     <li class="green-bullet">Compiling data on quality performance measures related to all service lines, as well as risk management activities, and monthly, quarterly and yearly reporting of quality activities through Microsoft Office programs.</li>
@@ -89,7 +89,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="Quality Specialist - Cayuga">
+        <input type="hidden" name="subject" value="Quality Specialist - Clinton">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">

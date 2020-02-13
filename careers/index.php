@@ -134,7 +134,7 @@
     <div>
         <a href="/careers/job_listing_8"><div class="content-tile">
 			<p>Quality Specialist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Cayuga</p>
+			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
     
