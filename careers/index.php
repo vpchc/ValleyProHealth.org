@@ -137,10 +137,16 @@
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
-      <div>
+    <div>
         <a href="/careers/job_listing_9"><div class="content-tile">
 			<p>Marketing Assistant</p>
 			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
+      </div></a>
+    </div>
+    <div>
+        <a href="/careers/job_listing_10"><div class="content-tile">
+			<p>Case Manager</p>
+			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
       </div></a>
     </div>
     

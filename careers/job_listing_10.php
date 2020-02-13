@@ -53,12 +53,21 @@
 <main>
 	<div class="content centered small">
 		<h5>Job Opportunities</h5>
-  	<h6>Nurse Practitioner - Bloomingdale</h6>
-    <p>Valley Professionals Community Health Center is looking to hire a Nurse Practitioner for its Bloomingdale office.</p>
+  	<h6>Case Manager - Crawfordsville</h6>
+    <p>Valley Professionals Community Health Center is looking to hire a Case Manager for it's Crawfordsville office.</p>
         <h2>Duties(Including but not limited to):</h2>
-    <li class="green-bullet">Responsible for providing acute care, routine medical care and chronic care for VPCHC patients in line with the VPCHC mission.</li>
-    <li class="green-bullet">The Nurse Practitioner will work in an integrated model alongside nurse practitioners, physicians, family medicine residents, and behavioral health providers.</li>
-        
+    <li class="green-bullet">Responsible for assisting with patient admission and registration along with processing the information of patients.</li>
+    <li class="green-bullet">Tasked with managing paperwork, handling data entry, making phone calls and communicating with patients.</li>
+        <h2>Requirements:</h2>
+    <li class="green-bullet">Must be willing to work flexible hours.</li>
+    <li class="green-bullet">This position includes health care, school and home visit settings.</li>
+    <li class="green-bullet">Bachelor’s degree required and experience in the medical or social work field preferred.</li>    
+        <h2>Valley Professionals offers excellent benefits, including:</h2>
+    <li class="green-bullet">Health, dental, and vision insurance with Health Savings Account and Flexible Savings Account options.</li>
+    <li class="green-bullet">Employer paid life insurance, short-term and long-term disability.</li>
+    <li class="green-bullet">Generous paid time off and paid holidays.</li> 
+    <li class="green-bullet">Flexible schedule and commitment to work life balance.</li>    
+        <h2>Competitive pay and benefits offered.</h2>
         <iframe id="resumeup" name="resumeup" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
     <form id="onsub" action="../../php/f/mcars.php" enctype="multipart/form-data"  method="post" target="resumeup">
     <input type="hidden" value="job_listing_5.php" name="referer">
@@ -82,7 +91,7 @@
           <input type="file" name="resume" id="resume">
           <small>Only the file types: doc|docx|odt|pdf accepted with max file size 5mb.</small>
         </div>
-        <input type="hidden" name="subject" value="NP - Bloomingdale">
+        <input type="hidden" name="subject" value="Case Manager - Crawfordsville">
         <input type="text" name="address" id ="form_address" class="onsub-hidden"> 
         <div id="onsub-foot">
           <div id="onsub-foot-left">
