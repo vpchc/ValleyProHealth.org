@@ -686,7 +686,29 @@
           <p class="tab-location">Currently providing care in Cayuga.</p>
         </div>
       </div>
-    </div>  
+    </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Michelle Edwards, MSW, LCSW</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/edwards2.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>School Based Therapist</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Education</p>
+						<ul>
+							<li>Eastern Illinois University - BA</li>
+							<li>Eastern Illinois University - MS</li>
+                            <li>University of Illinois - MSW</li>
+						</ul>
+						<p class="tab-title">Personal</p>
+						<p>Michelle Edwards is a Licensed Social Worker and Certified Addictions Counselor.  She is experienced in treating substance use disorders, dual diagnosis issues, and mental health disorders and has worked with all ages.  Michelle treats patients by observing their whole healthcare needs using person-centered, motivational, dialectal, solution-focused, and positive psychology therapy practices with an integrative health care treatment approach. Michelle was born and raised in Edgar County Illinois and now lives in Marshall, IL and absolutely loves the community. In her downtime, she loves to spend time with her 5 kids, my husband, and friends.  Michelle is also teaching as an adjunct professor at Indiana State and loves it so far.</p>
+          </div>
+          <p class="tab-location">Currently providing care through school-based services.</p>
+        </div>
+      </div>
+    </div>    
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Jason Heck, PMHNP-BC</p>
@@ -725,7 +747,7 @@
                         <p class="tab-title">Personal</p>
                         <p>Alexis is one of our school-based therapists, her favorite part of working for Valley Professionals is helping amazing kiddos meet their treatment goals.  In her personal time, Alexis enjoys spending time with her family.</p>
           </div>
-          <p class="tab-location">Currently providing care through school-based services </p>
+          <p class="tab-location">Currently providing care through school-based services.</p>
         </div>
       </div>
     </div>  
@@ -790,7 +812,28 @@
           <p class="tab-location">Currently providing care in Bloomingdale and Clinton</p>
         </div>
       </div>
-    </div> 
+    </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Scott Nauman, LCSW</p>
+      </div>
+      <div class="tab-box">
+         <img src="/images/providers/nauman.jpg">
+         <div class="tab-box-text">
+          <div class="tab-credentials"><p>Licensed Clinical Social Worker</p></div>
+          <div class="tab-bio">
+                        <p class="tab-title">Education</p>
+                        <ul>
+                            <li>Illinois State University B.S in Psychology</li>
+                            <li>Indiana State University MSW</li>
+                        </ul>
+                        <p class="tab-title">Personal</p>
+                        <p>Scott was born in the Peoria, Illinois area and has worked in the health field for over 15 years. He has two children and with whom he spends most of their time being active outside when they are not busy with extracurricular activities. Scott and his family is also always looking for new and fun places to go swimming!</p>
+          </div>
+          <p class="tab-location">Currently providing care through school-based services and Rockville </p>
+        </div>
+      </div>
+    </div>  
     <div class="tab">
       <div class="tab-bar blue">
         <p class="tab-name">Kasi Oxendine, MSW, LSW </p>
@@ -827,7 +870,7 @@
 							<li>Indiana University, Indianapolis, IN</li>
 						</ul>
 						<p class="tab-title">Personal</p>
-						<p>Tammy is committed to helping people overcome trauma, addictions, depression, anxiety, and other stressors. Tammy Ponder was born and raised in Indiana. She has practiced social work for thirty years in three different states. Tammy has practiced in a variety of settings, including traditional out-patient mental health, hospice, corrections, schools, and home-based work. She enjoys spending time with her family, being outside, hiking, researching legislation, cooking, animals, reading, swimming, and scuba diving. Tammy is very passionate about providing holistic therapeutic interventions that are individualized to assist the client. She believes that healing is a collaborative endeavor, that requires honest caring without judgement and a partnership in learning.</p>
+						<p>Tammy is committed to helping people overcome trauma, addictions, depression, anxiety, and other stressors. Tammy Ponder has practiced for thirty years in a variety of settings, including traditional out-patient mental health, hospice, corrections, schools, and home-based work. She enjoys spending time with her family, being outside, hiking, researching legislation, cooking, animals, reading, swimming, and scuba diving. Tammy is very passionate about providing holistic therapeutic interventions that are individualized to assist the client. She believes that healing is a collaborative endeavor, that requires honest caring without judgment and a partnership in learning.</p>
           </div>
           <p class="tab-location">Currently providing care in Crawfordsville</p>
         </div>
@@ -968,7 +1011,7 @@
       <div class="tab-box">
         <img src="/images/providers/trendelman1.jpg">
         <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Mental Health Counselor</p></div>
+          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p></div>
           <div class="tab-bio">
 						<p class="tab-title">Education</p>
 						<ul>
@@ -985,12 +1028,12 @@
       
     <div class="tab">
       <div class="tab-bar blue">
-        <p class="tab-name">Heather Woods, LMHC</p>
+        <p class="tab-name">Heather Woods, LMHC, RPT</p>
       </div>
       <div class="tab-box">
         <img src="/images/providers/woods.jpg">
         <div class="tab-box-text">
-          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p></div>
+          <div class="tab-credentials"><p>Licensed Mental<br>Health Counselor</p><p>Registered Play Therapist</p></div>
           <div class="tab-bio">
 						<p class="tab-title">Education</p>
 						<ul>
@@ -1028,6 +1071,22 @@
         </div>
       </div>
     </div>
+    <div class="tab">
+      <div class="tab-bar blue">
+        <p class="tab-name">Dr. Hannah Jackson, DMD</p>
+      </div>
+      <div class="tab-box">
+        <img src="/images/providers/jackson2.jpg">
+        <div class="tab-box-text">
+          <div class="tab-credentials"><p>Dentist</p></div>
+          <div class="tab-bio">
+						<p class="tab-title">Personal</p>
+						<p>Dr. Jackson is passionate about providing comprehensive dental care to the Crawfordsville community. When not caring for patients, Dr. Jackson enjoys traveling, going on mission trips, biking, cooking, spending time with family, friends, and her dog Lucy.</p>
+          </div>
+          <p class="tab-location">Currently providing care in Crawfordsville</p>
+        </div>
+      </div>
+    </div>  
             <div class="tab">
       <div class="tab-bar blue">
                 </div>
