@@ -63,34 +63,34 @@
 		<hr>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">John Beardsley<span>Board President</span></p>
+				<p class="tab-simple">Michael Miller<span>Board President</span></p>
 			</div>
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Mike Miller<span>Board Vice President</span></p>
+				<p class="tab-simple">Doug Fauber<span>Board Vice President</span></p>
 			</div>
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Doug Fauber<span>Board Secretary</span></p>
+				<p class="tab-simple">Mary Helderman<span>Board Secretary</span></p>
 			</div>
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Thomas Frantz<span>Board Treasurer</span></p>
+				<p class="tab-simple">Lou Bonomo<span>Board Treasurer</span></p>
 			</div>
 		</div>
 		<h3>Board Members</h3>
 		<hr>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Mary Helderman</p>
+				<p class="tab-simple">Loretta Johnson</p>
 			</div>
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Diana Carole Hart</p>
+				<p class="tab-simple">Cheryl Montgomery</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -125,12 +125,12 @@
 		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Lou Bonomo</p>
+				<p class="tab-simple">Jill Pastore</p>
 			</div>
 		</div>
         <div class="tab">
 			<div class="tab-bar tabgrey">
-				<p class="tab-simple">Greg Harbison</p>
+				<p class="tab-simple">Kristin Craig</p>
 		    </div>
 	    </div>
         
