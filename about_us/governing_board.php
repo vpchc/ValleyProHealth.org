@@ -83,6 +83,11 @@
 		</div>
 		<h3>Board Members</h3>
 		<hr>
+        <div class="tab">
+			<div class="tab-bar tabgrey">
+				<p class="tab-simple">Jon Beardsley</p>
+			</div>
+		</div>
 		<div class="tab">
 			<div class="tab-bar tabgrey">
 				<p class="tab-simple">Loretta Johnson</p>
