@@ -66,7 +66,7 @@
       <p>(765) 828-1030</p>
     </div>
     <p class="location-title large">HOURS</p>
-    <p>Monday - Friday<br/>8:30 am to 5:00 pm</p>
+    <p>Monday - Friday<br/>8:00 am to 5:00 pm</p>
     <p class="location-appts">(by appointment only)</p>
     <p>Closed<br/>12:00 p.m. - 1:00 p.m.,<br/>Phone calls accepted during this time.</p>
     <p class="location-subtitle large">After-Hours Clinic</p>
