@@ -120,9 +120,11 @@
 
     <p class="location-title large">HOURS</p>
 
-    <p>Monday - Thursday<br/>8:00 am to 5:00 pm</p>
+    <p>Monday, Tuesday, Thursday<br/>8:00 am to 5:00 pm</p>
+       
+    <p>Wednesday<br/>8:00 am to 8:00 pm</p>   
 
-    <p>Friday<br/>8:00 a.m. - 12:00 p.m.</p>
+    <p>Friday<br/>8:00 am - 12:00 pm</p>
 	
 	<br />
 	
