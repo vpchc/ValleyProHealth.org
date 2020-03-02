@@ -72,7 +72,7 @@
 				 <p class="contact-location">Cayuga</p>
 				 <p class="contact-info street">703 W Park Street</p>
 				 <p class="contact-info state">Cayuga, IN 47928</p>
-				 <p class="contact-info">(765) 498-9042</p>
+				 <p class="contact-info">(765) 492-9042</p>
 				</td> 
 				<td>
 				 <a href="/clinton/"><img src="/images/locations_small/clinton.jpg" alt="Clinton"/></a>
