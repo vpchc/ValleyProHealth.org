@@ -102,27 +102,9 @@
       </div></a>
     </div>
     <div>
-        <a href="/careers/job_listing_7"><div class="content-tile">
-			<p>Receptionist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
-      </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_3"><div class="content-tile">
-			<p>Patient Care Coordinator</p>
-			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
-      </div></a>
-    </div>
-    <div>
         <a href="/careers/job_listing_4"><div class="content-tile">
 			<p>Patient Care Coordinator</p>
 			<img src="/images/careers/location_pointer.png"/><p>Crawfordsville</p>
-      </div></a>
-    </div>
-    <div>
-        <a href="/careers/job_listing_8"><div class="content-tile">
-			<p>Quality Specialist</p>
-			<img src="/images/careers/location_pointer.png"/><p>Clinton</p>
       </div></a>
     </div>
     <div>
