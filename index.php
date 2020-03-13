@@ -55,11 +55,11 @@
 <main>
 	<div id="slideshow" class="fullscreen">
 		<div class="slide">
-			<img src="/images/homepage/slideshow/Patient Portal slide photo2.jpg">
+			<img src="/images/homepage/slideshow/COVID%20Web%20Image.jpg">
 			<div class="slide-info fullscreen">
-				<p class="slide-title fullscreen">Your Health in Your Hands</p>
-				<p class="slide-subtitle fullscreen">Get control of your health by utilizing the new patient portal!</p>	
-				<a href="https://mycw108.ecwcloud.com/portal14763/jsp/100mp/login_otp.jsp" class="slide-info-button">Get Started<span class="slide-info-span"></span></a>
+				<p class="slide-title fullscreen">For Those Seeking Care</p>
+				<p class="slide-subtitle fullscreen">Click to read this important update for all VPCHC patients!</p>	
+				<a href="images/homepage/SIGN%20COVID-19%20WEB.jpg" class="slide-info-button">CLICK HERE<span class="slide-info-span"></span></a>
 			</div>
 		</div>
 		<div class="slide">
