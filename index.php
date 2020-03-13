@@ -55,7 +55,7 @@
 <main>
 	<div id="slideshow" class="fullscreen">
 		<div class="slide">
-			<img src="/images/homepage/slideshow/COVID%20Web%20Image.jpg">
+			<img src="/images/homepage/slideshow/STOP%20image%20WEB.jpg">
 			<div class="slide-info fullscreen">
 				<p class="slide-title fullscreen">For Those Seeking Care</p>
 				<p class="slide-subtitle fullscreen">Click to read this important update for all VPCHC patients!</p>	

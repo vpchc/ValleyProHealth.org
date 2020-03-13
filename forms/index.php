@@ -307,7 +307,7 @@
 	});
 	//ishaa choosen
 	$("#forms-student-ishaa").click(function(){
-			window.location.href = "/files/forms/en/ihsaa_physical.pdf";
+			window.location.href = "/files/forms/en/New sports physical form.pdf";
 	});
 	//msbhc choosen
 	$("#forms-student-msbhc").click(function(){
