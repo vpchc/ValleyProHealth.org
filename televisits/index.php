@@ -74,7 +74,7 @@
 				<p class="tab-question">How do I start?</p>
 			</div>
 			<div class="tab-box">
-				<p class="tab-answer">You will need an email address to start. Give this to your provider’s office to help set you up.  From there you can use the Healow app (on your phone or tablet) or Healow.com on your laptop or desktop computer. Having trouble getting started? Click <a href="https://help.healow.com/faqs/how-do-i-log-in-for-the-first-time-18/">here</a> for steps on getting logged in for the first time.</p>
+				<p class="tab-answer">You will need an email address to start. Give this to your provider’s office to help set you up.  From there you can use the Healow app - <a href="https://play.google.com/store/apps/details?id=com.ecw.healow">Android</a> or <a href="https://apps.apple.com/us/app/healow/id595012291">iPhone</a> (on your phone or tablet) or <a href="https://healow.com/apps/jsp/webview/index.jsp">healow.com</a> on your laptop or desktop computer. Having trouble getting started? Click <a href="https://help.healow.com/faqs/how-do-i-log-in-for-the-first-time-18/">here</a> for steps on getting logged in for the first time.</p>
 			</div>
 		</div>
 		<div class="tab">
