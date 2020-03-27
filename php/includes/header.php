@@ -87,6 +87,7 @@
         <a class="navlink-category" href="/contact_us/">Contact Us</a>
         <div class="dropdown-content">
         <a href="/faqs/">Frequently </br>Asked Questions</a>
+        <a href="/televisits/index.php">Televisits FAQ</a>  
         </div>
       </li>
       <li id="patientresources" class="dropdown">

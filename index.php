@@ -63,11 +63,11 @@
 			</div>
 		</div>
 		<div class="slide">
-			<img src="/images/homepage/slideshow/Rockville slide photo2.jpg">
+			<img src="/images/banner/healow1.jpg">
 			<div class="slide-info fullscreen">
-				<p class="slide-title fullscreen">Our Rockville Clinic is Expanding</p>
-				<p class="slide-subtitle fullscreen">Learn more about our services!</p>
-				<a href="/rockville/" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
+				<p class="slide-title fullscreen">We are now offering Televisits!</p>
+				<p class="slide-subtitle fullscreen">See your provider from home.</p>
+				<a href="televisits/index.php" class="slide-info-button">Learn More<span class="slide-info-span"></span></a>
 			</div>
 		</div>
 		<div class="slide">

@@ -82,7 +82,7 @@
 				<p class="tab-question">What is Healow?</p>
 			</div>
 			<div class="tab-box">
-				<p class="tab-answer">Healow is our patient portal which allows you to call into televisits, access your patient records, request refills, and communicate to with provider. Click <a href="https://www.youtube.com/watch?v=gZT_mLkNxgw&feature=youtu.be">here</a> to learn more information about Healow.</p>
+				<p class="tab-answer">Healow is our patient portal which allows you to call into televisits, access your patient records, request refills, and communicate with your provider. Click <a href="https://www.youtube.com/watch?v=gZT_mLkNxgw&feature=youtu.be">here</a> to learn more information about Healow.</p>
 			</div>
 		</div>
 		<div class="tab">
@@ -111,10 +111,10 @@
 		</div>
 		<div class="tab">
 			<div class="tab-bar blue">
-				<p class="tab-question">How do I contact my provider’s office?</p>
+				<p class="tab-question">How do I schedule a televisit appointment?</p>
 			</div>
 			<div class="tab-box">
-			 <p class="tab-answer">To contact your provider’s office click <a href="https://valleyprohealth.org/contact_us/">here</a> to see the office’s phone number.</p>
+			 <p class="tab-answer">To schedule a televisit contact your provider's office. Click <a href="https://valleyprohealth.org/contact_us/">here</a> to see the office’s phone number.</p>
 			</div>
 		</div>
 		
