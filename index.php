@@ -107,6 +107,5 @@
 <script src="/scripts/vpchc_mobile_menu.js"></script>
 <script src="/scripts/jquery.bxslider.js"></script>
 <script src="/scripts/vpchc_slideshow.js"></script>
-<script src="/scripts/vpchc_screen_size_check.js"></script>
 </body>
 </html>
